@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/SlidingWindowMaximum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/SlidingWindowMaximum2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +48,11 @@
       <file leaf-file-name="SlidingWindowMaximum2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="-634">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -409,7 +412,7 @@
       <workItem from="1544786485673" duration="54946000" />
       <workItem from="1545617443417" duration="5777000" />
       <workItem from="1545721363642" duration="5339000" />
-      <workItem from="1545727578506" duration="37000" />
+      <workItem from="1545727578506" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -425,13 +428,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545726614683</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入了边界问题判断">
+      <created>1545727659122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545727659122</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SlidingWindowMaximum_fun - 2018.12.25 at 15h 37m 51s.xml">
-      <configuration name="SlidingWindowMaximum.fun" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SlidingWindowMaximum_fun - 2018.12.25 at 15h 38m 01s.xml">
       <configuration name="SlidingWindowMaximum.fun" configurationId="JUnit" />
     </history-entry>
@@ -459,28 +466,31 @@
     <history-entry file="SlidingWindowMaximum2 - 2018.12.25 at 15h 55m 31s.xml">
       <configuration name="SlidingWindowMaximum2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SlidingWindowMaximum2 - 2018.12.25 at 16h 47m 03s.xml">
+      <configuration name="SlidingWindowMaximum2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="303490000" />
+    <option name="totallyTimeSpent" value="304155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3268229" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007163" side_tool="true" weight="0.32885906" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3295129" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.3172043" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32885906" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.2234957" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.2234957" />
       <window_info anchor="bottom" id="Statistic" order="7" weight="0.3181208" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
@@ -495,7 +505,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3268229" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -563,7 +572,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second comit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second comit" />
+    <MESSAGE value="加入了边界问题判断" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入了边界问题判断" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -926,8 +936,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="-634">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
