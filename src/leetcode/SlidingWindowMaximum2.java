@@ -26,6 +26,9 @@ public class SlidingWindowMaximum2 {
     }
 
     private int[] slidingWindowMaximum(int[] nums, int key) {
+        if (nums.length < 1) {
+            return new int[0];
+        }
         List<Integer> list = new ArrayList<>();
         for (int i = 0; i < nums.length - key + 1; i++) {
             int temp = i + key;
@@ -40,10 +43,10 @@ public class SlidingWindowMaximum2 {
             list.add(max);
         }
         // 把链表变成数组
-        int[] arr=new int[list.size()];
-        int index=0;
-        for(int num:list){
-            arr[index]=num;
+        int[] arr = new int[list.size()];
+        int index = 0;
+        for (int num : list) {
+            arr[index] = num;
             index++;
         }
         return arr;
