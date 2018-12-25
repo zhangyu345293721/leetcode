@@ -7,9 +7,10 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 增加了注释
  * @author zhangyu
  * @version V1.0
- * @ClassName: SlidingWindowMaximum
+ * @ClassName: SlidingWindowMaximum2
  * @Description: TOTO
  * @date 2018/12/25 15:03
  **/
