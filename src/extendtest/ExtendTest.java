@@ -6,7 +6,9 @@ import org.junit.Test;
  * @author zhangyu
  * @version V1.0
  * @ClassName: ExtendTest
- * @Description: TOTO
+ * @Description:
+ * ? extends Number 只接收实现Number类和Number类的子类
+ * ? super String 只接收String类和String类的父类
  * @date 2018/12/26 15:46
  **/
 
@@ -16,7 +18,6 @@ class Info<T> {
     public void setVar(T var) {
         this.var = var;
     }
-
     public T getVar(T var) {
         return this.var;
     }
@@ -35,6 +36,11 @@ public class ExtendTest {
         i2.setVar(30.1f);
         fun(i1);
         fun(i2);
+
+       /* // 使用String为泛型类型
+        Info<?> i = new Info<String>() ;
+        // 设置内容，这里会出错，因为”？“通配符修饰的对象只能接收，不能修改，也就是不能设置。
+        i.setVar("MLDN") ;*/
     }
 
     public void fun(Info<? extends Number> temp) {

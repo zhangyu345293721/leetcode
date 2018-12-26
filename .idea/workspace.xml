@@ -69,8 +69,8 @@
       <file leaf-file-name="ExtendTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+            <state relative-caret-position="250">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -448,7 +448,7 @@
       <workItem from="1545721363642" duration="5339000" />
       <workItem from="1545727578506" duration="702000" />
       <workItem from="1545739752830" duration="4174000" />
-      <workItem from="1545810232243" duration="1803000" />
+      <workItem from="1545810232243" duration="2482000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -492,13 +492,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545811583718</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add extendTest2.java">
+      <created>1545812081008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545812081008</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SlidingWindowMaximum_fun - 2018.12.25 at 15h 40m 57s.xml">
-      <configuration name="SlidingWindowMaximum.fun" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SlidingWindowMaximum_fun - 2018.12.25 at 15h 42m 11s.xml">
       <configuration name="SlidingWindowMaximum.fun" configurationId="JUnit" />
     </history-entry>
@@ -526,9 +530,12 @@
     <history-entry file="ExtendTest_fun2 - 2018.12.26 at 15h 59m 31s.xml">
       <configuration name="ExtendTest.fun2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExtendTest_fun3 - 2018.12.26 at 16h 14m 17s.xml">
+      <configuration name="ExtendTest.fun3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310132000" />
+    <option name="totallyTimeSpent" value="310811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="0" width="1152" height="875" extended-state="0" />
@@ -633,7 +640,8 @@
     <MESSAGE value="加入了边界问题判断" />
     <MESSAGE value="最下字符串问题包含问题" />
     <MESSAGE value="add extendTest.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="add extendTest.java" />
+    <MESSAGE value="add extendTest2.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add extendTest2.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -999,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="250">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
             <element signature="e#231#232#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
