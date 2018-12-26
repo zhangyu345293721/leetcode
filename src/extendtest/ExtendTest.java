@@ -42,9 +42,24 @@ public class ExtendTest {
     }
 
     @Test
-    public void  fun2(){
-        Number a=4;
-        Integer b=5;//这些包装类都继承了Number 类
+    public void fun2() {
+        Number a = 4;
+        Integer b = 5;         //这些包装类都继承了Number 类
         System.out.println(4);
+    }
+
+    @Test
+    public void fun3() {
+        //设置下限
+        Info<String> a = new Info<>();
+        Info<Object> b = new Info<>();
+        a.setVar("abc");
+        b.setVar("def");
+        function(a);
+        function(b);
+    }
+
+    private void function(Info<? super String> a) {
+        System.out.println(a.toString());
     }
 }

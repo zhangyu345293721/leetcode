@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/SlidingWindowMaximum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/SlidingWindowMaximum2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +60,8 @@
       <file leaf-file-name="MinimumWindowSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MinimumWindowSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-258">
-              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            <state relative-caret-position="492">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -70,8 +69,8 @@
       <file leaf-file-name="ExtendTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+            <state relative-caret-position="380">
+              <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
               <folding>
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#261#262#0" expanded="true" />
@@ -79,6 +78,8 @@
                 <element signature="e#322#323#0" expanded="true" />
                 <element signature="e#680#681#0" expanded="true" />
                 <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#1144#1145#0" expanded="true" />
+                <element signature="e#1180#1181#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -249,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExtendTest.fun2">
+  <component name="RunManager" selected="JUnit.ExtendTest.fun3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -289,6 +290,29 @@
       <option name="PACKAGE_NAME" value="extendtest" />
       <option name="MAIN_CLASS_NAME" value="extendtest.ExtendTest" />
       <option name="METHOD_NAME" value="fun2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExtendTest.fun3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extendtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="extendtest" />
+      <option name="MAIN_CLASS_NAME" value="extendtest.ExtendTest" />
+      <option name="METHOD_NAME" value="fun3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -345,29 +369,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SlidingWindowMaximum.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.SlidingWindowMaximum" />
-      <option name="METHOD_NAME" value="fun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -407,19 +408,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SlidingWindowMaximum.fun" />
       <item itemvalue="JUnit.SlidingWindowMaximum2" />
       <item itemvalue="JUnit.MinimumWindowSubstring.fun" />
       <item itemvalue="JUnit.ExtendTest.fun" />
       <item itemvalue="JUnit.ExtendTest.fun2" />
+      <item itemvalue="JUnit.ExtendTest.fun3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExtendTest.fun3" />
         <item itemvalue="JUnit.ExtendTest.fun2" />
         <item itemvalue="JUnit.ExtendTest.fun" />
         <item itemvalue="JUnit.MinimumWindowSubstring.fun" />
         <item itemvalue="JUnit.SlidingWindowMaximum2" />
-        <item itemvalue="JUnit.SlidingWindowMaximum.fun" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +448,7 @@
       <workItem from="1545721363642" duration="5339000" />
       <workItem from="1545727578506" duration="702000" />
       <workItem from="1545739752830" duration="4174000" />
-      <workItem from="1545810232243" duration="1289000" />
+      <workItem from="1545810232243" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -484,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1545743580740</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add extendTest.java">
+      <created>1545811583717</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545811583718</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -520,7 +528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="309618000" />
+    <option name="totallyTimeSpent" value="310132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="0" width="1152" height="875" extended-state="0" />
@@ -624,7 +632,8 @@
     <MESSAGE value="second comit" />
     <MESSAGE value="加入了边界问题判断" />
     <MESSAGE value="最下字符串问题包含问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="最下字符串问题包含问题" />
+    <MESSAGE value="add extendTest.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add extendTest.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -983,15 +992,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MinimumWindowSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-258">
-          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        <state relative-caret-position="492">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        <state relative-caret-position="380">
+          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding>
             <element signature="e#231#232#0" expanded="true" />
             <element signature="e#261#262#0" expanded="true" />
@@ -999,6 +1008,8 @@
             <element signature="e#322#323#0" expanded="true" />
             <element signature="e#680#681#0" expanded="true" />
             <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#1144#1145#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
           </folding>
         </state>
       </provider>
