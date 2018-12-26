@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/SlidingWindowMaximum2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/SlidingWindowMaximum2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +49,8 @@
       <file leaf-file-name="SlidingWindowMaximum2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="275">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,11 +58,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumWindowSubstring.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimumWindowSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MinimumWindowSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="44" selection-end-column="20" />
+            <state relative-caret-position="-258">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExtendTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+              <folding>
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/ArraysSortTest.java" />
         <option value="$PROJECT_DIR$/src/leetcode/KthLargestElement.java" />
         <option value="$PROJECT_DIR$/src/leetcode/MergeKSortedLists.java" />
         <option value="$PROJECT_DIR$/src/leetcode/MergeKSortedLists2.java" />
@@ -131,8 +148,9 @@
         <option value="$PROJECT_DIR$/src/leetcode/SlidingWindowMaximum.java" />
         <option value="$PROJECT_DIR$/src/leetcode/SlidingWindowMaximum2.java" />
         <option value="$PROJECT_DIR$/src/leetcode/SlidingWindowMaximum2.java" />
-        <option value="$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum2.java" />
-        <option value="$PROJECT_DIR$/../leetcode/src/leetcode/MinimumWindowSubstring.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/SlidingWindowMaximum2.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/MinimumWindowSubstring.java" />
+        <option value="$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java" />
       </list>
     </option>
   </component>
@@ -151,9 +169,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="133" />
     <option name="width" value="1152" />
     <option name="height" value="875" />
   </component>
@@ -163,6 +180,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,7 +197,14 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="extendtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="extendtest" type="462c0819:PsiDirectoryNode" />
+              <item name="ExtendTest.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -189,7 +214,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -225,9 +249,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinimumWindowSubstring.fun">
+  <component name="RunManager" selected="JUnit.ExtendTest.fun2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ExtendTest.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extendtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="extendtest" />
+      <option name="MAIN_CLASS_NAME" value="extendtest.ExtendTest" />
+      <option name="METHOD_NAME" value="fun" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExtendTest.fun2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="extendtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="extendtest" />
+      <option name="MAIN_CLASS_NAME" value="extendtest.ExtendTest" />
+      <option name="METHOD_NAME" value="fun2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="MinimumWindowSubstring.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -241,52 +311,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
       <option name="MAIN_CLASS_NAME" value="leetcode.MinimumWindowSubstring" />
-      <option name="METHOD_NAME" value="fun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="PersonTest.fun4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode.reflect" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.reflect.PersonTest" />
-      <option name="METHOD_NAME" value="fun4" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ProductSubarray.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.ProductSubarray" />
       <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -383,19 +407,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PersonTest.fun4" />
-      <item itemvalue="JUnit.ProductSubarray.fun" />
       <item itemvalue="JUnit.SlidingWindowMaximum.fun" />
       <item itemvalue="JUnit.SlidingWindowMaximum2" />
       <item itemvalue="JUnit.MinimumWindowSubstring.fun" />
+      <item itemvalue="JUnit.ExtendTest.fun" />
+      <item itemvalue="JUnit.ExtendTest.fun2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ExtendTest.fun2" />
+        <item itemvalue="JUnit.ExtendTest.fun" />
         <item itemvalue="JUnit.MinimumWindowSubstring.fun" />
         <item itemvalue="JUnit.SlidingWindowMaximum2" />
         <item itemvalue="JUnit.SlidingWindowMaximum.fun" />
-        <item itemvalue="JUnit.ProductSubarray.fun" />
-        <item itemvalue="JUnit.PersonTest.fun4" />
       </list>
     </recent_temporary>
   </component>
@@ -422,7 +446,8 @@
       <workItem from="1545617443417" duration="5777000" />
       <workItem from="1545721363642" duration="5339000" />
       <workItem from="1545727578506" duration="702000" />
-      <workItem from="1545739752830" duration="2841000" />
+      <workItem from="1545739752830" duration="4174000" />
+      <workItem from="1545810232243" duration="1289000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -452,16 +477,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545739849002</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="最下字符串问题包含问题">
+      <created>1545743580740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545743580740</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SlidingWindowMaximum_fun - 2018.12.25 at 15h 38m 27s.xml">
-      <configuration name="SlidingWindowMaximum.fun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SlidingWindowMaximum_fun - 2018.12.25 at 15h 39m 26s.xml">
-      <configuration name="SlidingWindowMaximum.fun" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SlidingWindowMaximum_fun - 2018.12.25 at 15h 40m 57s.xml">
       <configuration name="SlidingWindowMaximum.fun" configurationId="JUnit" />
     </history-entry>
@@ -486,12 +512,18 @@
     <history-entry file="MinimumWindowSubstring_fun - 2018.12.25 at 20h 55m 43s.xml">
       <configuration name="MinimumWindowSubstring.fun" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExtendTest_fun - 2018.12.26 at 15h 53m 15s.xml">
+      <configuration name="ExtendTest.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExtendTest_fun2 - 2018.12.26 at 15h 59m 31s.xml">
+      <configuration name="ExtendTest.fun2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306996000" />
+    <option name="totallyTimeSpent" value="309618000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="133" y="0" width="1152" height="875" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -504,11 +536,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3295129" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.3172043" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.31628534" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32885906" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.22636104" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1959707" />
       <window_info anchor="bottom" id="Statistic" order="7" weight="0.3181208" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
@@ -526,20 +558,20 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.32073012" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21654929" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Statistic" order="8" weight="0.31770834" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
       <window_info anchor="right" id="Database" order="6" />
@@ -547,13 +579,13 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3971354" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.32885906" />
-      <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Statistic" order="8" weight="0.31770834" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295129" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21654929" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,7 +623,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second comit" />
     <MESSAGE value="加入了边界问题判断" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入了边界问题判断" />
+    <MESSAGE value="最下字符串问题包含问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="最下字符串问题包含问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -599,20 +632,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MergeKSortedLists2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="56" column="23" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="56" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TestList/BigPriorityQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/ComsumerAndProducer/ProducerAndComsumerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -743,13 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../InstallSoftWare/java/jdk1.8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1443" column="22" selection-start-line="1443" selection-start-column="22" selection-end-line="1443" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -947,18 +959,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="275">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../InstallSoftWare/java/jdk1.8/src.zip!/java/lang/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../InstallSoftWare/java/jdk1.8/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MinimumWindowSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="44" selection-end-column="20" />
+        <state relative-caret-position="-258">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/extendtest/ExtendTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding>
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
