@@ -3,8 +3,8 @@
 这些是我这点时间编写的源码，放到这里，以备以后能用到！<br>下面将整理出来这段时间刷的leetcode代码，和大家一起学习交流：
 <table border="2" >
   <tr align="center" >
-    <td width="300">题号</td>
-    <td width="300">题目内容</td>
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
   <tr>
