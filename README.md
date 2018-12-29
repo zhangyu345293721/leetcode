@@ -107,7 +107,7 @@
     <th>中等</th>
   </tr>
    <tr>
-    <th .128</th>
+    <th *128</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85006310">Longest Consecutive Sequence</a></th>
     <th>中等</th>
   </tr>
@@ -141,18 +141,13 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84984249">Longest Increasing Subsequence</a></th>
     <th>中等</th>
   </tr>
-    <tr>
-    <th >*64</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84979265">Jump Game</a></th>
-    <th>中等</th>
-  </tr>
-    <tr>
+  <tr>
     <th >55</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84991870">Jump Game</a></th>
     <th>中等</th>
   </tr>
     <tr>
-    <th >64</th>
+    <th >*64</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84979265">Minimum Path Sum</a></th>
     <th>中等</th>
   </tr> 
@@ -208,11 +203,6 @@
   <tr>
     <th >538</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84863120">Convert BST to Greater Tree</a></th>
-    <th>简单</th>
-  </tr>
- <tr>
-    <th >5</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84870880">Longest Palindromic Substring</a></th>
     <th>简单</th>
   </tr>
    <tr>
