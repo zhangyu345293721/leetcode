@@ -112,7 +112,7 @@
     <th>中等</th>
   </tr>
    <tr>
-    <th >.215</th>
+    <th >*215</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84993730">Kth Largest Element in an Array</a></th>
     <th>中等</th>
   </tr>
@@ -142,7 +142,7 @@
     <th>中等</th>
   </tr>
     <tr>
-    <th >.64</th>
+    <th >*64</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84979265">Jump Game</a></th>
     <th>中等</th>
   </tr>
@@ -165,7 +165,7 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84976445">Edit Distance</a></th>
     <th>中等</th>
   </tr>  <tr>
-    <th >.142</th>
+    <th >*142</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84961106">Linked List Cycle II</a></th>
     <th>中等</th>
   </tr>  <tr>
@@ -201,7 +201,7 @@
     <th>中等</th>
   </tr>
   <tr>
-    <th >.5</th>
+    <th >*5</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84870880">Longest Palindromic Substring</a></th>
     <th>简单</th>
   </tr>
@@ -286,7 +286,7 @@
     <th >中等</th>
   </tr>
    <tr>
-    <th >.198</th>
+    <th >*198</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84836482">House Robber</a></th>
     <th>简单</th>
   </tr>
@@ -372,7 +372,7 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84310615">Top K Frequent Elements</a></th>
     <th>简单</th>
   </tr> <tr>
-    <th >.606</th>
+    <th >*606</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84304381">Construct String from Binary Tree</a></th>
     <th>简单</th>
   </tr> <tr>
@@ -388,11 +388,11 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84031623">Linked List Cycle</a></th>
     <th>简单</th>
   </tr> <tr>
-    <th >.268</th>
+    <th >*268</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83933311">Missing Number</a></th>
     <th>简单</th>
   </tr> <tr>
-    <th >.521</th>
+    <th >*521</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83744906">Longest Uncommon Subsequence I</a></th>
     <th>简单</th>
   </tr> <tr>
@@ -444,7 +444,7 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82585979">Sorted Question </a></th>
     <th>简单</th>
   </tr> <tr>
-    <th >.</th>
+    <th >*</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82390156">Compute Digit</a></th>
     <th>简单</th>
   </tr> 
@@ -458,5 +458,5 @@
     <th>简单</th>
   </tr>
 </table>
-
+其中加了*表示做出来花了很长时间，有点困难！
 
