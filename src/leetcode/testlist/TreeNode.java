@@ -1,4 +1,4 @@
-package leetcode.TestList;
+package leetcode.testlist;
 
 /**
  * @author zhangyu

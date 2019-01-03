@@ -1,6 +1,6 @@
 package leetcode;
 
-import leetcode.TestList.TreeNode;
+import leetcode.testlist.TreeNode;
 
 import java.util.Queue;
 import java.util.Stack;
