@@ -42,7 +42,5 @@ public class HouseRobber2 {
             f[i] = Math.max(f[i - 1], f[i - 2] + nums[i]);
         }
         return f[i - 1];
-
     }
-
 }

@@ -32,11 +32,11 @@ public class IsPalindromic {
         return true;
     }
 
-    public boolean isPalindromeList(List<Integer> list){
+    public boolean isPalindromeList(List<Integer> list) {
         int i = 0;
-        int j = list.size()-1;
-        while(i < j){
-            if(list.get(i) != list.get(j)){
+        int j = list.size() - 1;
+        while (i < j) {
+            if (list.get(i) != list.get(j)) {
                 return false;
             }
         }
