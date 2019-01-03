@@ -30,17 +30,22 @@ public class CoinChange {
 		for (int i = 1; i <= amount; i++) {
 			int res = Integer.MAX_VALUE;
 			for (int j = 0; j < coins.length; j++) {
+				// 如果该值大于i，就直接继续
 				if (coins[j] > i) {
 					continue;
 				}
+				// 如果该值等于-1，直接继续
 				if (dp[i - coins[j]] == -1) {
 					continue;
 				}
+				// 状态转移方程
 				dp[i] = 1 + dp[i - coins[j]];
 				res = Math.min(res, dp[i]);
 			}
+			// 取出dp中最小的一个
 			dp[i] = res;
 		}
+		// 然后返回dp[amount]
 		return dp[amount];
 	}
 }
