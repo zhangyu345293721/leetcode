@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/ClimbingStairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/ClimbingStairs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/TestArray.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/ThreeSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/src/leetcode/TestArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/src/leetcode/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/ThreeSum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,14 +34,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="981">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="175">
+              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../leetcode/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="239">
+                <caret line="450" column="42" selection-start-line="450" selection-start-column="42" selection-end-line="450" selection-end-column="42" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -102,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/ContainerWithMostWater.java" />
         <option value="$PROJECT_DIR$/src/leetcode/UniquePaths.java" />
         <option value="$PROJECT_DIR$/src/leetcode/BitCount.java" />
         <option value="$PROJECT_DIR$/src/leetcode/SmallSort.java" />
@@ -153,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/TestArray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/ThreeSum.java" />
         <option value="$PROJECT_DIR$/../leetcode/src/leetcode/TwoSum.java" />
+        <option value="$PROJECT_DIR$/../leetcode/README.md" />
       </list>
     </option>
   </component>
@@ -508,7 +516,7 @@
       <workItem from="1546503996358" duration="1627000" />
       <workItem from="1546505638086" duration="5088000" />
       <workItem from="1546563446347" duration="1778000" />
-      <workItem from="1546657222055" duration="1084000" />
+      <workItem from="1546657222055" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -615,19 +623,17 @@
       <option name="project" value="LOCAL" />
       <updated>1546517021913</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add two sum question">
+      <created>1546658501597</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1546658501597</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExtendTest_fun2 - 2018.12.26 at 15h 59m 31s.xml">
-      <configuration name="ExtendTest.fun2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExtendTest_fun3 - 2018.12.26 at 16h 14m 17s.xml">
-      <configuration name="ExtendTest.fun3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HammingDistance2_fun - 2018.12.27 at 10h 35m 28s.xml">
-      <configuration name="HammingDistance2.fun" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TopKTest2_fun - 2018.12.27 at 10h 37m 25s.xml">
       <configuration name="TopKTest2.fun" configurationId="JUnit" />
     </history-entry>
@@ -649,9 +655,18 @@
     <history-entry file="TwoSum_fun - 2019.01.05 at 11h 08m 35s.xml">
       <configuration name="TwoSum.fun" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TwoSum_fun - 2019.01.05 at 11h 18m 38s.xml">
+      <configuration name="TwoSum.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoSum_fun - 2019.01.05 at 11h 20m 45s.xml">
+      <configuration name="TwoSum.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TwoSum_fun - 2019.01.05 at 11h 20m 55s.xml">
+      <configuration name="TwoSum.fun" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="324360000" />
+    <option name="totallyTimeSpent" value="324642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -668,11 +683,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3295129" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3266129" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.3158602" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.3158602" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32885906" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1683381" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1683381" />
       <window_info anchor="bottom" id="Statistic" order="7" weight="0.3181208" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
@@ -767,7 +782,8 @@
     <MESSAGE value="delete many files" />
     <MESSAGE value="增加了一些注释" />
     <MESSAGE value="增加了注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了注释" />
+    <MESSAGE value="add two sum question" />
+    <option name="LAST_COMMIT_MESSAGE" value="add two sum question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -891,14 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-600" />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1032,11 +1040,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TwoSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="981">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="175">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../leetcode/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="239">
+            <caret line="450" column="42" selection-start-line="450" selection-start-column="42" selection-end-line="450" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
