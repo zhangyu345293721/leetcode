@@ -63,7 +63,6 @@ public class ThreeSum {
         }
         return false;
     }
-
     // 将listSun链表加入到list当中
     private void addList(List<List<Integer>> list, int num1, int num2, int num3) {
         List<Integer> listSum = new ArrayList<>();
