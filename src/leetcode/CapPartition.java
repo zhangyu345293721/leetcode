@@ -8,7 +8,7 @@ import java.util.Arrays;
  * @version V1.0
  * @ClassName: CapPartition
  * @Description: 动态规划，计算该数组是不是可以分成平等的两部分
- * @date 2018/12/10 10:30
+ * @date 2018/11/18 10:30
  **/
 
 public class CapPartition {

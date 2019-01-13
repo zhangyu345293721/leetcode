@@ -9,7 +9,7 @@ import org.junit.Test;
  * @ClassName: MergeSortArray
  * @Description: 这个题目在leetcode被编为hard类型，我这种做法居然还有这么高的效率，有点不太相信
  * Runtime: 28 ms, faster than 86.93% of Java online submissions for Median of Two Sorted Arrays.
- * @date 2018/12/7 15:12
+ * @date 2018/11/22 15:12
  **/
 
 public class FindMediaTwoSortArray {

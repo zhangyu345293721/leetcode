@@ -7,7 +7,7 @@ import org.junit.Test;
  * @version V1.0
  * @ClassName: BitCount
  * @Description: 把数字换成二进制，计算二进制的中1的个数
- * @date 2018/12/17 9:19
+ * @date 2018/11/18 9:19
  **/
 
 

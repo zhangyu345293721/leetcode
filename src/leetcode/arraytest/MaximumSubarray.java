@@ -7,7 +7,7 @@ import org.junit.Test;
  * @version V1.0
  * @ClassName: MaximumSubarray
  * @Description: 动态规划没有做出来，状态转换方程有点问题
- * @date 2018/12/6 9:41
+ * @date 2018/11/7 9:41
  **/
 
 

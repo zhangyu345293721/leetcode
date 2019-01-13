@@ -9,7 +9,7 @@ import java.util.Stack;
  * @version V1.0
  * @ClassName: DecodeString
  * @Description: TOTO
- * @date 2018/12/11 11:36
+ * @date 2018/11/19 11:36
  **/
 
 // 这种方式没有做出来，如果是循环嵌套的话就有问题
