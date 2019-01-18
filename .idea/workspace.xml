@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/ClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/HouseRobber1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/HouseRobber2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/HouseRobber3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/HouseRobber4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/MaximumSubarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/MaximumSubarray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/MaximumSubarray3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,95 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergeArray2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/MergeArray2.java">
+      <file leaf-file-name="TrappingRainWater1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlusOne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne.java">
+      <file leaf-file-name="TrappingRainWater2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlusOne2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlusOne3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchIndex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/SearchIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchIndex2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/SearchIndex2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopKTest2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/TopKTest2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopKTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/TopKTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordBreak.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/WordBreak.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LargestRectangleHistogram.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="208">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -124,10 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/dynamicProgramSample.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/SortStringTest.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/TestTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/leetcode/dynamicprogramming/ClimbingStairs.java" />
         <option value="$PROJECT_DIR$/src/leetcode/dynamicprogramming/HouseRobber1.java" />
         <option value="$PROJECT_DIR$/src/leetcode/dynamicprogramming/HouseRobber2.java" />
@@ -174,7 +105,11 @@
         <option value="$PROJECT_DIR$/src/SearchIndex2.java" />
         <option value="$PROJECT_DIR$/src/TopKTest2.java" />
         <option value="$PROJECT_DIR$/src/TopKTest.java" />
-        <option value="$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/LargestRectangleHistogram.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/LargestRectangleHistogram.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java" />
+        <option value="$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater1.java" />
+        <option value="$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater2.java" />
       </list>
     </option>
   </component>
@@ -194,19 +129,19 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="91" />
-    <option name="y" value="203" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1152" />
-    <option name="height" value="876" />
+    <option name="height" value="587" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +169,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/..////study/2018需要去学习/品优购/p3c-master/idea-plugin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..///////study/2018需要去学习/品优购/p3c-master/idea-plugin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -264,55 +199,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LargestRectangleHistogram.fun">
+  <component name="RunManager" selected="JUnit.TrappingRainWater2.fun">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BitCount.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arraytest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.BitCount" />
-      <option name="METHOD_NAME" value="fun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CapPartition.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arraytest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.CapPartition" />
-      <option name="METHOD_NAME" value="fun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="ClimbingStairs.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -349,6 +238,52 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
       <option name="MAIN_CLASS_NAME" value="leetcode.LargestRectangleHistogram" />
+      <option name="METHOD_NAME" value="fun" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TrappingRainWater1.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.TrappingRainWater1" />
+      <option name="METHOD_NAME" value="fun" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TrappingRainWater2.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="leetcode" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.TrappingRainWater2" />
       <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -489,19 +424,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.BitCount.fun" />
-      <item itemvalue="JUnit.CapPartition.fun" />
       <item itemvalue="JUnit.ClimbingStairs.fun" />
       <item itemvalue="JUnit.TwoSum.fun" />
       <item itemvalue="JUnit.LargestRectangleHistogram.fun" />
+      <item itemvalue="JUnit.TrappingRainWater1.fun" />
+      <item itemvalue="JUnit.TrappingRainWater2.fun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TrappingRainWater2.fun" />
+        <item itemvalue="JUnit.TrappingRainWater1.fun" />
         <item itemvalue="JUnit.LargestRectangleHistogram.fun" />
         <item itemvalue="JUnit.TwoSum.fun" />
         <item itemvalue="JUnit.ClimbingStairs.fun" />
-        <item itemvalue="JUnit.CapPartition.fun" />
-        <item itemvalue="JUnit.BitCount.fun" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +473,10 @@
       <workItem from="1546563446347" duration="1778000" />
       <workItem from="1546657222055" duration="2677000" />
       <workItem from="1547360403346" duration="1340000" />
-      <workItem from="1547433783352" duration="5988000" />
+      <workItem from="1547433783352" duration="6469000" />
+      <workItem from="1547448017505" duration="186000" />
+      <workItem from="1547772803112" duration="2028000" />
+      <workItem from="1547775520421" duration="2133000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -673,31 +611,17 @@
       <option name="project" value="LOCAL" />
       <updated>1547361094749</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add leetcode question">
+      <created>1547446582151</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547446582151</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoSum_fun - 2019.01.05 at 11h 08m 35s.xml">
-      <configuration name="TwoSum.fun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoSum_fun - 2019.01.05 at 11h 18m 38s.xml">
-      <configuration name="TwoSum.fun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoSum_fun - 2019.01.05 at 11h 20m 45s.xml">
-      <configuration name="TwoSum.fun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoSum_fun - 2019.01.05 at 11h 20m 55s.xml">
-      <configuration name="TwoSum.fun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 11h 15m 38s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 13h 43m 32s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 13h 44m 14s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 13h 53m 50s.xml">
       <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
     </history-entry>
@@ -707,9 +631,30 @@
     <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 10m 37s.xml">
       <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 15m 13s.xml">
+      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 15m 15s.xml">
+      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 15m 16s.xml">
+      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrappingRainWater1_fun - 2019.01.18 at 09h 13m 40s.xml">
+      <configuration name="TrappingRainWater1.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrappingRainWater1_fun - 2019.01.18 at 09h 14m 17s.xml">
+      <configuration name="TrappingRainWater1.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrappingRainWater1_fun - 2019.01.18 at 09h 16m 49s.xml">
+      <configuration name="TrappingRainWater1.fun" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrappingRainWater2_fun - 2019.01.18 at 09h 57m 34s.xml">
+      <configuration name="TrappingRainWater2.fun" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="333281000" />
+    <option name="totallyTimeSpent" value="338109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -725,54 +670,54 @@
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.3293011" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3295129" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.3158602" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3266129" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.31317204" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32795697" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.2213467" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.23137535" />
       <window_info anchor="bottom" id="Statistic" order="7" weight="0.3181208" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3951613" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3951613" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3252688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3252688" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.32073012" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21654929" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.32073012" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Statistic" order="8" weight="0.31770834" />
+      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3971354" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.32885906" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info anchor="bottom" id="Statistic" order="8" weight="0.31770834" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295129" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -829,7 +774,8 @@
     <MESSAGE value="modify readme.md" />
     <MESSAGE value="classfication question" />
     <MESSAGE value="classfication question2" />
-    <option name="LAST_COMMIT_MESSAGE" value="classfication question2" />
+    <MESSAGE value="add leetcode question" />
+    <option name="LAST_COMMIT_MESSAGE" value="add leetcode question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -837,20 +783,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MajorityElement2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MaximumDepthTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MergeKSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1117,14 +1049,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/MergeArray2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+    <entry file="file://$PROJECT_DIR$/../leetcode/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="725">
+            <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne.java">
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/TopKTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/TopKTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/SearchIndex2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/SearchIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
@@ -1138,65 +1115,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne3.java">
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/SearchIndex.java">
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/MergeArray2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="25">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/SearchIndex2.java">
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="100">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/TopKTest2.java">
+    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/TopKTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="725">
-            <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/WordBreak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
