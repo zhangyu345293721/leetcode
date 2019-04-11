@@ -6,7 +6,7 @@ import java.util.TreeSet;
 
 /**
  * @author zhangyu
- * @version V1.0
+ * @version V1.2
  * @ClassName: MergeArray2
  * @Description: 利用treeset进行存储，不用直接去重
  * @date 2018/11/21 20:41
