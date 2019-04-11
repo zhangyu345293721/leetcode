@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 /**
  * @author zhangyu
- * @version V1.0
+ * @version V1.1
  * @ClassName: PlusOne
  * @Description: 加1操作
  * @date 2018/11/26 11:24
@@ -19,7 +19,7 @@ public class PlusOne {
         int[] newArr = getPlusOne(digits);
         System.out.println(Arrays.toString(newArr));
     }
-
+    // 把数组变成数字
     private int[] getPlusOne(int[] digits) {
         Arrays.sort(digits);
         int sum = 0;
@@ -30,6 +30,7 @@ public class PlusOne {
         int length = getNumberLength(sum);
         int[] newArr = new int[length];
         int index = 0;
+        // 数字变成数组
         while (sum != 0) {
             newArr[index] = sum % 10;
             sum = sum / 10;
@@ -38,7 +39,7 @@ public class PlusOne {
         reverseArray(newArr);
         return newArr;
     }
-
+    // 获取数字的长度
     private int getNumberLength(int num) {
         int length = 0;
         while (num != 0) {
@@ -47,6 +48,7 @@ public class PlusOne {
         }
         return length;
     }
+    // 翻转数组
     private void reverseArray(int[] arr) {
         for (int i = 0; i < arr.length / 2; i++) {
             int temp = arr[i];
