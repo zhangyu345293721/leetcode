@@ -57,7 +57,6 @@ public class MergeArray {
                     count++;
                 }
             }
-
             // 当arr2的指针已经为到末尾，直接将arr1中的数组添加到数组当中
             if (j == arr2.length) {
                 for (int index = i; index < arr1.length; index++) {
