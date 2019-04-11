@@ -5,9 +5,9 @@ import java.util.Arrays;
 
 /**
  * @author zhangyu
- * @version V1.0
+ * @version V1.1
  * @ClassName: MergeArray
- * @Description: TOTO
+ * @Description: 合并两个数组
  * @date 2018/11/21 20:08
  **/
 
