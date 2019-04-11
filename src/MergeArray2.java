@@ -8,7 +8,7 @@ import java.util.TreeSet;
  * @author zhangyu
  * @version V1.0
  * @ClassName: MergeArray2
- * @Description: TOTO
+ * @Description: 利用treeset进行存储，不用直接去重
  * @date 2018/11/21 20:41
  **/
 
