@@ -7,7 +7,7 @@ import java.util.Arrays;
  * @author zhangyu
  * @version V1.1
  * @ClassName: MergeArray
- * @Description: 合并两个数组
+ * @Description: 合并两个数组，去掉重复的数字
  * @date 2018/11/21 20:08
  **/
 
