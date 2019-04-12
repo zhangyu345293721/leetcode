@@ -1,7 +1,6 @@
 // package leetcode;
 
 import org.junit.Test;
-
 import java.util.Arrays;
 
 /**
@@ -33,7 +32,6 @@ public class PlusOne3 {
                 break;
             }
         }
-
         if (flag == 1) {
             int[] newArr = new int[digits.length + 1];
             newArr[0] = 1;
