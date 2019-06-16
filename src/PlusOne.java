@@ -19,7 +19,7 @@ public class PlusOne {
         int[] newArr = getPlusOne(digits);
         System.out.println(Arrays.toString(newArr));
     }
-    // 把数组变成数字
+    //把数组变成数字
     private int[] getPlusOne(int[] digits) {
         Arrays.sort(digits);
         int sum = 0;
