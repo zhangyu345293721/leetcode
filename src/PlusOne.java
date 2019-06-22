@@ -30,7 +30,7 @@ public class PlusOne {
         int length = getNumberLength(sum);
         int[] newArr = new int[length];
         int index = 0;
-        // 数字变成数组
+        //数字变成数组
         while (sum != 0) {
             newArr[index] = sum % 10;
             sum = sum / 10;
