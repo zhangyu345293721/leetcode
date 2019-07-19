@@ -12,6 +12,7 @@ import java.util.Arrays;
  **/
 
 public class MergeArray {
+    
     @Test
     public void fun() {
         int[] arr1 = {1, 3, 5, 7};
