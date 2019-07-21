@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/ClimbingStairs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/HouseRobber1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/HouseRobber2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/HouseRobber3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/HouseRobber4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/MaximumSubarray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/MaximumSubarray2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/out/production/leetcode/leetcode/MaximumSubarray3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/TrappingRainWater2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/ClimbingStairs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/HouseRobber1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/HouseRobber2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/HouseRobber3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/HouseRobber4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MaximumSubarray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MaximumSubarray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/MaximumSubarray3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/LargestRectangleHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LargestRectangleHistogram.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +26,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="TrappingRainWater1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater1.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="13" column="31" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="31" />
@@ -35,7 +35,7 @@
         </entry>
       </file>
       <file leaf-file-name="TrappingRainWater2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater2.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/TrappingRainWater2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
               <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
@@ -54,7 +54,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../leetcode" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/LargestRectangleHistogram.java" />
         <option value="$PROJECT_DIR$/src/leetcode/LargestRectangleHistogram.java" />
         <option value="$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java" />
-        <option value="$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater1.java" />
-        <option value="$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater2.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/TrappingRainWater2.java" />
       </list>
     </option>
   </component>
@@ -130,9 +130,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1152" />
-    <option name="height" value="587" />
+    <option name="width" value="1937" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -167,9 +166,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/..///////study/2018需要去学习/品优购/p3c-master/idea-plugin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode/python" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -202,6 +202,9 @@
   <component name="RunManager" selected="JUnit.TrappingRainWater2.fun">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ClimbingStairs.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -211,20 +214,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.dynamicprogramming" />
       <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.ClimbingStairs" />
       <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LargestRectangleHistogram.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -234,20 +231,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
       <option name="MAIN_CLASS_NAME" value="leetcode.LargestRectangleHistogram" />
       <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TrappingRainWater1.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -257,20 +248,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
       <option name="MAIN_CLASS_NAME" value="leetcode.TrappingRainWater1" />
       <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TrappingRainWater2.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -280,20 +265,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
       <option name="MAIN_CLASS_NAME" value="leetcode.TrappingRainWater2" />
       <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TwoSum.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
@@ -303,58 +282,30 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode.arraytest" />
       <option name="MAIN_CLASS_NAME" value="leetcode.arraytest.TwoSum" />
       <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="mytomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -368,11 +319,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_leetcode" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="53229" />
       </RunnerSettings>
@@ -421,14 +372,17 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.ClimbingStairs.fun" />
       <item itemvalue="JUnit.TwoSum.fun" />
       <item itemvalue="JUnit.LargestRectangleHistogram.fun" />
       <item itemvalue="JUnit.TrappingRainWater1.fun" />
       <item itemvalue="JUnit.TrappingRainWater2.fun" />
+      <item itemvalue="Tomcat Server.mytomcat" />
     </list>
     <recent_temporary>
       <list>
@@ -783,273 +737,273 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MergeKSortedLists.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/MergeKSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MinimumWindowSubstring.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/MinimumWindowSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/MoveZeroes.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/MoveZeroes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/PalindromicSubstrings.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/PalindromicSubstrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/PalindromicSubstrings2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/PalindromicSubstrings2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/ProductArrayExceptSelf.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ProductArrayExceptSelf.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/ProductSubarray.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ProductSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/QueueReconstruction.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/QueueReconstruction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/QueueReconstruction2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/QueueReconstruction2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/QueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/QueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/ReverseWords.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ReverseWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/RotatedSortedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/RotatedSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/RotateImage.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/RotateImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SearchWords.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/SearchWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SearchWords2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/SearchWords2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/ShortestUnsortedContinuousSubarray.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ShortestUnsortedContinuousSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/SlidingWindowMaximum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SlidingWindowMaximum2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/SlidingWindowMaximum2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SmallSort.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/SmallSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SpringTest.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/SpringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SubarraySumEqualsK.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/SubarraySumEqualsK.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/SubarraySumEqualsK2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/SubarraySumEqualsK2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/Subsets.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Subsets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/Subsets2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Subsets2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/Subsets3.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Subsets3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TargetSum3.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/TargetSum3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TargetSum.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/TargetSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TargetSum2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/TargetSum2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/ThreeSum2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/ThreeSum2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrapWater.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/TrapWater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/Traverse.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/Traverse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/UniquePaths.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/UniquePaths.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/BestTimetoBuyandSellStock.java">
+    <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/BestTimetoBuyandSellStock2.java">
+    <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStock2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/GenerateParentheses1.java">
+    <entry file="file://$PROJECT_DIR$/src/GenerateParentheses1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/HammingDistance.java">
+    <entry file="file://$PROJECT_DIR$/src/HammingDistance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/HammingDistance2.java">
+    <entry file="file://$PROJECT_DIR$/src/HammingDistance2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/LongestValidParentheses.java">
+    <entry file="file://$PROJECT_DIR$/src/LongestValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/README.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="725">
@@ -1059,84 +1013,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/LargestRectangleHistogram.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/LargestRectangleHistogram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/WordBreak.java">
+    <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/TopKTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TopKTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/TopKTest2.java">
+    <entry file="file://$PROJECT_DIR$/src/TopKTest2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/SearchIndex2.java">
+    <entry file="file://$PROJECT_DIR$/src/SearchIndex2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/SearchIndex.java">
+    <entry file="file://$PROJECT_DIR$/src/SearchIndex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne3.java">
+    <entry file="file://$PROJECT_DIR$/src/PlusOne3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne2.java">
+    <entry file="file://$PROJECT_DIR$/src/PlusOne2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/PlusOne.java">
+    <entry file="file://$PROJECT_DIR$/src/PlusOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/MergeArray2.java">
+    <entry file="file://$PROJECT_DIR$/src/MergeArray2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater1.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="13" column="31" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../leetcode/src/leetcode/TrappingRainWater2.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/TrappingRainWater2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
