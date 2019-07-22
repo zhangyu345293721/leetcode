@@ -4,12 +4,9 @@ import org.junit.Test;
  * @author zhangyu
  * @version V1.0
  * @ClassName: BestTimetoBuyandSellStock
- * @Description: TOTO
+ * @Description: 做这种题目时候，要先进行判断，然后再动手写算法，防止边界问题的出现
  * @date 2018/12/6 15:28
  **/
-/*
-   做这种题目时候，要先进行判断，然后再动手写算法，防止边界问题的出现
- */
 
 public class BestTimetoBuyandSellStock {
     @Test
