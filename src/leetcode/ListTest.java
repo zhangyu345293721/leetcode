@@ -10,12 +10,11 @@ import java.util.List;
  * @author zhangyu
  * @version V1.0
  * @ClassName: ListTest
- * @Description: TOTO
+ * @Description: 利用jdk8测试defaut类型
  * @date 2018/11/28 10:01
  **/
 
 public class ListTest {
-    // 测试Hashmap test
     @Test
     public void HashMapTest() {
         int[] arr = {1, 2, 3, 1, 1, 2, 4, 6};
