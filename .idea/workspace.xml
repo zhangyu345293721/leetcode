@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="修改文件的名字">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/python/reverse_integer_7_2.py" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="添加一种实现方式">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/python/get_intersection_349_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/python/get_intersection_349_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/python/get_intersection_349_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,26 +24,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="825">
               <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/python/reverse_integer_7_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/BestTimeBuySell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="175">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -47,19 +42,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/BitCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="-50">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/CapPartition.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/python/get_intersection_349_2.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -81,14 +72,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>intersection</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/dynamicprogramming/HouseRobber4.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/arraytest/MaximumSubarray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arraytest/MaximumSubarray2.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arraytest/MaximumSubarray3.java" />
         <option value="$PROJECT_DIR$/src/leetcode/BestTimeBuySell.java" />
@@ -138,6 +132,8 @@
         <option value="$PROJECT_DIR$/src/leetcode/python/add_two_numer_1.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/reverse_integer.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/reverse_integer_7_2.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_1.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_2.py" />
       </list>
     </option>
   </component>
@@ -147,17 +143,18 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="40" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,7 +185,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +458,8 @@
       <workItem from="1563690128248" duration="3447000" />
       <workItem from="1563935559278" duration="492000" />
       <workItem from="1564020076859" duration="2258000" />
-      <workItem from="1564052677728" duration="738000" />
+      <workItem from="1564052677728" duration="895000" />
+      <workItem from="1564889121240" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -646,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564020497580</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="添加一种实现方式">
+      <created>1564055667638</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564055667638</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -682,13 +686,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="345044000" />
+    <option name="totallyTimeSpent" value="347459000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="32" width="1552" height="840" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.24530831" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.24899329" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -696,7 +699,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3252688" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3252688" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.31317204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3951613" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -823,30 +826,10 @@
     <MESSAGE value="添加两个数之和是一个固定值" />
     <MESSAGE value="翻转一个integer的数" />
     <MESSAGE value="修改文件的名字" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改文件的名字" />
+    <MESSAGE value="添加一种实现方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加一种实现方式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/RotatedSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/RotateImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/SearchWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/SearchWords2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -1149,28 +1132,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
+        <state relative-caret-position="825">
           <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/python/reverse_integer_7_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/BestTimeBuySell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/BitCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/CapPartition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
@@ -1182,12 +1158,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/python/reverse_integer_7_2.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/CapPartition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="175">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/python/get_single_number_136_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/python/get_single_number_136_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/BitCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/python/get_intersection_349_2.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
