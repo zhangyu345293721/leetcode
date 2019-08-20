@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="添加python的215号实现题目">
-      <change afterPath="$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/reverse_string2_541_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/reverse_string2_541_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/reverse_string2_541_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="添加python的541和32题目" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/question/LetterCombinationsPhoneNumber3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state>
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
@@ -83,23 +77,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/python/kth_largest_element_215_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="300">
+              <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/reverse_string2_541_3.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -127,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arraytest/MaximumSubarray2.java" />
         <option value="$PROJECT_DIR$/src/leetcode/arraytest/MaximumSubarray3.java" />
         <option value="$PROJECT_DIR$/src/leetcode/BestTimeBuySell.java" />
         <option value="$PROJECT_DIR$/src/leetcode/BitCount.java" />
@@ -178,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_1.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_2.py" />
         <option value="$PROJECT_DIR$/src/leetcode/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py" />
       </list>
     </option>
   </component>
@@ -499,7 +483,7 @@
       <workItem from="1564052677728" duration="895000" />
       <workItem from="1564889121240" duration="4718000" />
       <workItem from="1565764857033" duration="292000" />
-      <workItem from="1566264870750" duration="641000" />
+      <workItem from="1566264870750" duration="866000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -704,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565765061036</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="添加python的541和32题目">
+      <created>1566265888569</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1566265888569</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -740,7 +731,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="350852000" />
+    <option name="totallyTimeSpent" value="351077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -857,7 +848,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最下字符串问题包含问题" />
     <MESSAGE value="add extendTest.java" />
     <MESSAGE value="add extendTest2.java" />
     <MESSAGE value="增加注释" />
@@ -882,7 +872,8 @@
     <MESSAGE value="添加一种实现方式" />
     <MESSAGE value="添加题目号349的题目" />
     <MESSAGE value="添加python的215号实现题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加python的215号实现题目" />
+    <MESSAGE value="添加python的541和32题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加python的541和32题目" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
@@ -1177,7 +1168,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/question/LetterCombinationsPhoneNumber3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state>
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
@@ -1224,18 +1215,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/kth_largest_element_215_2.py">
+    <entry file="file://$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="685">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/reverse_string2_541_3.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/python/kth_largest_element_215_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
