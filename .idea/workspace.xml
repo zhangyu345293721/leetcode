@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="添加python的287题目">
-      <change afterPath="$PROJECT_DIR$/src/python/group_anagrams_49_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/group_anagrams_49_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/group_anagrams_49_3.py" afterDir="false" />
-    </list>
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="添加python的49题目" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,22 +13,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/group_anagrams_49_3.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/python/group_anagrams_49_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,7 +38,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/arraytest/MaximumSubarray3.java" />
         <option value="$PROJECT_DIR$/src/leetcode/BestTimeBuySell.java" />
         <option value="$PROJECT_DIR$/src/leetcode/BitCount.java" />
         <option value="$PROJECT_DIR$/src/leetcode/CapPartition.java" />
@@ -108,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_2.py" />
         <option value="$PROJECT_DIR$/src/leetcode/ListTest.java" />
         <option value="$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py" />
+        <option value="$PROJECT_DIR$/src/python/group_anagrams_49_1.py" />
       </list>
     </option>
   </component>
@@ -135,17 +116,6 @@
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -431,7 +401,7 @@
       <workItem from="1565764857033" duration="292000" />
       <workItem from="1566264870750" duration="866000" />
       <workItem from="1566268304131" duration="160000" />
-      <workItem from="1566474563770" duration="1980000" />
+      <workItem from="1566474563770" duration="2328000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -657,7 +627,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566474634858</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="添加python的49题目">
+      <created>1566529189991</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1566529189991</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -693,11 +670,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353217000" />
+    <option name="totallyTimeSpent" value="353565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.24066168" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
@@ -810,7 +786,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="增加注释" />
     <MESSAGE value="重新添加leetcode题目文件" />
     <MESSAGE value="重新添加leetcode题目" />
     <MESSAGE value="在代码中添加了一些注释" />
@@ -835,7 +810,8 @@
     <MESSAGE value="添加python的541和32题目" />
     <MESSAGE value="添加python的268题目" />
     <MESSAGE value="添加python的287题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加python的287题目" />
+    <MESSAGE value="添加python的49题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加python的49题目" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/SearchIndex.java">
@@ -1184,15 +1160,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/group_anagrams_49_3.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/group_anagrams_49_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="685">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/group_anagrams_49_3.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
