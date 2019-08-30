@@ -1,10 +1,10 @@
 # encoding='utf-8'
+
 '''
    author:zhangyu
    date:2019.8.28
    description:找出最大的连续子串
 '''
-
 
 def get_longest_consecutive(arr):
     if len(arr) <= 1:
@@ -22,7 +22,6 @@ def get_longest_consecutive(arr):
         if max_length < count:
             max_length = count
     return max_length
-
 
 if __name__ == '__main__':
     arr = [2, 1, 3, 3, 4]
