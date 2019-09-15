@@ -1,5 +1,5 @@
 # leetcode
-leetcode题目，主要针对是最热的100道题，
+leetcode题目，主要针对是最热100道题，
 目前上传了的源码放到github，以后再重新整理！(java和python实现方式)：
 <table border="2" >
   <tr align="center" >
