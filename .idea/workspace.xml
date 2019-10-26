@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="添加python的128题目">
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="添加python的55,142,128,48题目">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/question/mergearray88/MergeArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/question/reverseTree226/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/RunTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/longest_consecutive_sequence _128_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/longest_consecutive_sequence _128_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/BestTimetoBuyandSellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/BestTimetoBuyandSellStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/BestTimeBuySell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/BitCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/CapPartition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/CombinationSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/ContainerWithMostWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/DecodeString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/EqualsIgnoreOrderString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/FindAllAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/FindAllAnagrams2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/FindDisappearedNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/FindDisappearedNumbers2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/FindDuplicateNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/FindMediaTwoSortArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/GenericityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/GroupAnagrams.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/GroupAnagrams2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/GroupAnagrams3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/IsPalindromic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/JumpGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/KthLargestElement$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/KthLargestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LetterCombinationsPhoneNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LetterCombinationsPhoneNumber2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LetterCombinationsPhoneNumber3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/ListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LongestConsecutiveSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LongestIncreasingSubsequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LongestIncreasingSubsequence2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LongestPalindromicSubstring.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LongestPalindromicSubstring2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LongestPalindromicSubstring3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LongestSubstringWithoutRepeatingCharacters2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/leetcode/LowFirstChar.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,12 +57,123 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/longest_consecutive_sequence _128_1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/Solution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1723">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2032#2041#0" expanded="true" />
+                <element signature="e#2887#2896#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeTool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="128" column="5" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="128" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/RunTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#442#443#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#673#674#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#497#513#0" expanded="true" />
+                <element signature="e#1330#1331#0" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1495#1496#0" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#2372#2373#0" expanded="true" />
+                <element signature="e#2420#2421#0" expanded="true" />
+                <element signature="e#2885#2886#0" expanded="true" />
+                <element signature="e#2936#2937#0" expanded="true" />
+                <element signature="e#4371#4387#0" expanded="true" />
+                <element signature="e#5407#5423#0" expanded="true" />
+                <element signature="e#6480#6496#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/question/mergearray88/MergeArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,16 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/BitCount.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/CapPartition.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/ContainerWithMostWater.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/DecodeString.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/EqualsIgnoreOrderString.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/FindAllAnagrams.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/FindAllAnagrams2.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/FindDisappearedNumbers.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/FindDisappearedNumbers2.java" />
         <option value="$PROJECT_DIR$/src/leetcode/FindDuplicateNumber.java" />
         <option value="$PROJECT_DIR$/src/leetcode/FindMediaTwoSortArray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/GenericityTest.java" />
@@ -102,6 +244,16 @@
         <option value="$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py" />
         <option value="$PROJECT_DIR$/src/python/group_anagrams_49_1.py" />
         <option value="$PROJECT_DIR$/src/python/longest_consecutive_sequence _128_1.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree/CreateTreeTool.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree/TreeTool.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree226/Solution.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/mergearray88/MergeArray.java" />
       </list>
     </option>
   </component>
@@ -112,18 +264,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-84" />
+    <option name="y" value="86" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,12 +290,29 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="question" type="462c0819:PsiDirectoryNode" />
+              <item name="mergearray88" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -185,92 +352,91 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrappingRainWater2.fun">
+  <component name="RunManager" selected="JUnit.MergeArray">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbingStairs.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.arraytest.*" />
+          <option name="PATTERN" value="leetcode.question.mergearray88.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.dynamicprogramming" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.dynamicprogramming.ClimbingStairs" />
-      <option name="METHOD_NAME" value="fun" />
+      <option name="PACKAGE_NAME" value="leetcode.question.mergearray88" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.mergearray88.MergeArray" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeArray.mergeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.question.mergearray88.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.question.mergearray88" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.mergearray88.MergeArray" />
+      <option name="METHOD_NAME" value="mergeArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestRectangleHistogram.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunTest.runTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.question.*" />
+          <option name="PATTERN" value="leetcode.question.traversebinarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.question" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.question.LargestRectangleHistogram" />
-      <option name="METHOD_NAME" value="fun" />
+      <option name="PACKAGE_NAME" value="leetcode.question.traversebinarytree" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.traversebinarytree.RunTest" />
+      <option name="METHOD_NAME" value="runTestDemo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater1.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution.graphTraverseTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.question.*" />
+          <option name="PATTERN" value="leetcode.question.reverseTree226.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.TrappingRainWater1" />
-      <option name="METHOD_NAME" value="fun" />
+      <option name="PACKAGE_NAME" value="leetcode.question.reverseTree226" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.reverseTree226.Solution" />
+      <option name="METHOD_NAME" value="graphTraverseTestDemo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater2.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution.queueTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.question.*" />
+          <option name="PATTERN" value="leetcode.question.reverseTree226.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.TrappingRainWater2" />
-      <option name="METHOD_NAME" value="fun" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.arraytest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.arraytest" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.arraytest.TwoSum" />
-      <option name="METHOD_NAME" value="fun" />
+      <option name="PACKAGE_NAME" value="leetcode.question.reverseTree226" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.reverseTree226.Solution" />
+      <option name="METHOD_NAME" value="queueTestDemo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -363,20 +529,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ClimbingStairs.fun" />
-      <item itemvalue="JUnit.TwoSum.fun" />
-      <item itemvalue="JUnit.LargestRectangleHistogram.fun" />
-      <item itemvalue="JUnit.TrappingRainWater1.fun" />
-      <item itemvalue="JUnit.TrappingRainWater2.fun" />
+      <item itemvalue="JUnit.Solution.queueTestDemo" />
+      <item itemvalue="JUnit.Solution.graphTraverseTestDemo" />
+      <item itemvalue="JUnit.RunTest.runTestDemo" />
+      <item itemvalue="JUnit.MergeArray.mergeArray" />
+      <item itemvalue="JUnit.MergeArray" />
       <item itemvalue="Tomcat Server.mytomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TrappingRainWater2.fun" />
-        <item itemvalue="JUnit.TrappingRainWater1.fun" />
-        <item itemvalue="JUnit.LargestRectangleHistogram.fun" />
-        <item itemvalue="JUnit.TwoSum.fun" />
-        <item itemvalue="JUnit.ClimbingStairs.fun" />
+        <item itemvalue="JUnit.MergeArray" />
+        <item itemvalue="JUnit.MergeArray.mergeArray" />
+        <item itemvalue="JUnit.RunTest.runTestDemo" />
+        <item itemvalue="JUnit.Solution.graphTraverseTestDemo" />
+        <item itemvalue="JUnit.Solution.queueTestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -427,6 +593,8 @@
       <workItem from="1566268304131" duration="160000" />
       <workItem from="1566474563770" duration="2328000" />
       <workItem from="1566964283422" duration="136000" />
+      <workItem from="1567149783285" duration="158000" />
+      <workItem from="1571820790153" duration="10792000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -666,49 +834,55 @@
       <option name="project" value="LOCAL" />
       <updated>1566964309721</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="添加python的55,142,128,48题目">
+      <created>1567149837389</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1567149837389</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 13h 53m 50s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    <history-entry file="Solution_queueTestDemo - 2019.10.23 at 19h 29m 52s.xml">
+      <configuration name="Solution.queueTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 07m 44s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    <history-entry file="Solution_queueTestDemo - 2019.10.23 at 19h 30m 11s.xml">
+      <configuration name="Solution.queueTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 10m 37s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.10.23 at 19h 30m 55s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 15m 13s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    <history-entry file="Solution_queueTestDemo - 2019.10.23 at 19h 31m 05s.xml">
+      <configuration name="Solution.queueTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 15m 15s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    <history-entry file="Solution_graphTraverseTestDemo - 2019.10.23 at 19h 38m 54s.xml">
+      <configuration name="Solution.graphTraverseTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LargestRectangleHistogram_fun - 2019.01.14 at 14h 15m 16s.xml">
-      <configuration name="LargestRectangleHistogram.fun" configurationId="JUnit" />
+    <history-entry file="Solution_graphTraverseTestDemo - 2019.10.23 at 19h 39m 50s.xml">
+      <configuration name="Solution.graphTraverseTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWater1_fun - 2019.01.18 at 09h 13m 40s.xml">
-      <configuration name="TrappingRainWater1.fun" configurationId="JUnit" />
+    <history-entry file="Solution_graphTraverseTestDemo - 2019.10.23 at 19h 40m 16s.xml">
+      <configuration name="Solution.graphTraverseTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWater1_fun - 2019.01.18 at 09h 14m 17s.xml">
-      <configuration name="TrappingRainWater1.fun" configurationId="JUnit" />
+    <history-entry file="RunTest_runTestDemo - 2019.10.23 at 19h 51m 47s.xml">
+      <configuration name="RunTest.runTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWater1_fun - 2019.01.18 at 09h 16m 49s.xml">
-      <configuration name="TrappingRainWater1.fun" configurationId="JUnit" />
+    <history-entry file="MergeArray_mergeArray - 2019.10.24 at 14h 20m 13s.xml">
+      <configuration name="MergeArray.mergeArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TrappingRainWater2_fun - 2019.01.18 at 09h 57m 34s.xml">
-      <configuration name="TrappingRainWater2.fun" configurationId="JUnit" />
+    <history-entry file="MergeArray - 2019.10.24 at 14h 20m 37s.xml">
+      <configuration name="MergeArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353701000" />
+    <option name="totallyTimeSpent" value="364651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.24436091" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.31543624" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -717,8 +891,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.31317204" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3951613" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.3618907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.394387" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -819,7 +993,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重新添加leetcode题目" />
     <MESSAGE value="在代码中添加了一些注释" />
     <MESSAGE value="整理代码" />
     <MESSAGE value="delete many file" />
@@ -844,65 +1017,10 @@
     <MESSAGE value="添加python的287题目" />
     <MESSAGE value="添加python的49题目" />
     <MESSAGE value="添加python的128题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加python的128题目" />
+    <MESSAGE value="添加python的55,142,128,48题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加python的55,142,128,48题目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PlusOne3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlusOne2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MergeArray2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/joseph_problem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/add_two_numer_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/merge_arr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/reverse_integer_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/TrappingRainWater2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1300">
@@ -1196,10 +1314,114 @@
     <entry file="file://$PROJECT_DIR$/src/python/group_anagrams_49_3.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/rotate_image_48.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/longest_consecutive_sequence _128_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/RunTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1723">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2032#2041#0" expanded="true" />
+            <element signature="e#2887#2896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="128" column="5" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="128" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#497#513#0" expanded="true" />
+            <element signature="e#1330#1331#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#2372#2373#0" expanded="true" />
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2885#2886#0" expanded="true" />
+            <element signature="e#2936#2937#0" expanded="true" />
+            <element signature="e#4371#4387#0" expanded="true" />
+            <element signature="e#5407#5423#0" expanded="true" />
+            <element signature="e#6480#6496#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/mergearray88/MergeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
