@@ -10,12 +10,12 @@ leetcode题目，主要针对是最热100道题，
   <tr>
     <th >42</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164977">Trapping Rain Water</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >84</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85253780">Largest Rectangle in Histogram</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
  <tr>
     <th >*152</th>
