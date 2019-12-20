@@ -20,96 +20,96 @@ leetcode题目，主要针对是最热100道题，
  <tr>
     <th >*152</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85235720">Maximum Product Subarray</a></th>
-    <th>难</th>
+    <th>Hard</th>
   </tr>
   <tr>
     <th >85</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85229189">Maximal Rectangle</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >322</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223632">Coin Change</a></th>
-    <th>难</th>
+    <th>Hard</th>
   </tr>
    <tr>
     <th >240</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223378">Search a 2D Matrix II</a></th>
-    <th>难</th>
+    <th>Hard</th>
   </tr>
   <tr>
     <th >621</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85221280">Task Scheduler</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >236</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164131">Search a 2D Matrix II</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr><tr>
     <th >114</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85163338">Flatten Binary Tree to Linked List</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >221</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85161333">Maximal Square</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >279</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85159912">Perfect Squares</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >*337</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85161333">House Robber III</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >102</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85049161">Binary Tree Level Order Traversal</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >32</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85055216">Longest Valid Parentheses</a></th>
-    <th>难</th>
+    <th>Hard</th>
   </tr>
   <tr>
     <th >94</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85046785">Binary Tree Inorder Traversal</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >62</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85019853">Unique Paths</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >11</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85018708">Container With Most Water</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >287</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85015366">Find the Duplicate Number</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >*22</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85014549">Generate Parentheses</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >49</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85013887">Group Anagrams</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th *128</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85006310">Longest Consecutive Sequence</a></th>
-    <th>中等</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >*215</th>
