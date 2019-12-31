@@ -1,21 +1,20 @@
 // package leetcode;
 
 import org.junit.Test;
+
 import java.util.Arrays;
 
 /**
+ * 对数字进行加1操作
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: PlusOne
- * @Description: 对数字进行加1操作
- * @date 2018/11/26 11:24
  **/
 
 
 public class PlusOne3 {
     @Test
     public void fun() {
-        int[] digits = {8,9,9,9};
+        int[] digits = {8, 9, 9, 9};
         int[] newArr = getPlusOne(digits);
         System.out.println(Arrays.toString(newArr));
     }
@@ -28,7 +27,7 @@ public class PlusOne3 {
                 flag = 1;
             } else {
                 digits[i] = digits[i] + 1;
-                flag=0;
+                flag = 0;
                 break;
             }
         }

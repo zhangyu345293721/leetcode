@@ -3,11 +3,8 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
+ * 数字加1
  * @author zhangyu
- * @version V1.0
- * @ClassName: PlusOne
- * @Description: TOTO
- * @date 2018/11/26 11:24
  **/
 
 

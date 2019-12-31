@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * wordbreak
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: WrodBreak
- * @Description: TOTO
- * @date 2018/12/13 13:53
  **/
 
 
@@ -23,20 +21,6 @@ public class WordBreak {
         System.out.println(flag);
     }
 
-    // 这个有问题
-    /*private boolean wordBreak(String s, List<String> wordDict) {
-        for (String word : wordDict) {
-            if (s.contains(word)) {
-                // int index = s.indexOf(word);
-                //  s = s.substring(index, index + word.length());
-                s = s.replaceFirst(word, "");
-            }
-        }
-        if (s.equals("") || wordDict.contains(s)) {
-            return true;
-        }
-        return false;
-    }*/
 
     private boolean wordBreak2(String s, List<String> wordDict) {
         boolean[] f = new boolean[s.length() + 1];

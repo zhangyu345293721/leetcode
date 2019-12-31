@@ -7,11 +7,8 @@ import java.util.Queue;
 
 /**
  * 用了基本的方法没有做出来，现在就要用深度优先算法来进行计算；
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: TargetSum
- * @Description: TOTO
- * @date 2018/12/24 20:59
  **/
 
 
@@ -20,11 +17,16 @@ public class TargetSum {
     public void fun() {
         int[] nums = {1, 8, 9, 3, 4, 5, 7};
         int target = 20;
-        LinkedList queue=new LinkedList();
+        LinkedList queue = new LinkedList();
         int way = findTargetSumWays(nums, target);
         System.out.println(way);
     }
 
+    /**
+     * @param nums 数组
+     * @param S    s
+     * @return 目标值
+     */
     public int findTargetSumWays(int[] nums, int S) {
         int max = compute(nums, "+");
         int min = compute(nums, "-");
@@ -34,20 +36,6 @@ public class TargetSum {
         return -1;
     }
 
-    /* private int computeMin(int[] nums) {
-         int maxSum=0;
-         for(int i:nums){
-             maxSum=maxSum+i;
-         }
-         return maxSum;
-     }
-     private int computeMax(int[] nums) {
-         int minSum=0;
-         for(int i:nums){
-             minSum=minSum-i;
-         }
-         return minSum;
-     }*/
     private int compute(int[] nums, String operator) {
         int sum = 0;
         if ("+".equals(operator)) {
@@ -61,5 +49,30 @@ public class TargetSum {
             }
         }
         return sum;
+    }
+
+    /**
+     * @param nums 数组
+     * @param S    s
+     * @return 目标值
+     */
+    public int findTargetSumWays2(int[] nums, int S) {
+        int[] count = new int[1];
+        dfs(nums, 0, 0, count, S);
+        return count[0];
+    }
+
+    /**
+     * 深度优先遍历
+     */
+    private void dfs(int[] nums, int sum, int index, int[] count, int target) {
+        if (index == nums.length) {
+            if (sum == target) {
+                count[0]++;
+            }
+        } else {
+            dfs(nums, sum + nums[index], index + 1, count, target);
+            dfs(nums, sum - nums[index], index + 1, count, target);
+        }
     }
 }

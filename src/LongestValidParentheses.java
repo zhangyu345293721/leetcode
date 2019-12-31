@@ -3,11 +3,9 @@ import org.junit.Test;
 import java.util.Stack;
 
 /**
+ * 找出括号是否有效
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: LongestValidParentheses
- * @Description: TOTO
- * @date 2018/12/17 19:29
  **/
 
 
@@ -19,6 +17,12 @@ public class LongestValidParentheses {
         System.out.println(length);
     }
 
+    /**
+     * 最长括号
+     *
+     * @param s 字符串
+     * @return int类型
+     */
     private int longestValidParentheses(String s) {
         Stack<Character> stack = new Stack<>();
         int count = 0;

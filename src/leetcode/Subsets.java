@@ -2,20 +2,13 @@ package leetcode;
 
 import org.junit.Test;
 
-import java.security.KeyStore;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: Subsets
- * @Description: TOTO
- * @date 2018/12/7 11:36
  **/
 
-// 这种循环方式是错误的，没有考虑到所有情况
 public class Subsets {
     @Test
     public void fun() {
@@ -24,31 +17,58 @@ public class Subsets {
         System.out.println(list);
     }
 
+    /**
+     * 子集
+     */
     private List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();
-        List<Integer> sList = null;
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j <= nums.length; j++) {
-                boolean flag = true;
-                List<Integer> subList = getSubList(nums, i, j);
-                if (subList != null) {
-                    list.add(subList);
-                }
-                if (subList == null && flag) {
-                    list.add(subList);
-                    flag = false;
-                }
-            }
-            list.add(sList);
-        }
+        List<Integer> subList = new ArrayList<>();
+        subsets(nums, 0, subList, list);
         return list;
     }
 
-    private List<Integer> getSubList(int[] nums, int left, int right) {
-        List<Integer> subList = new ArrayList<>();
-        for (int i = left; i < right; i++) {
-            subList.add(nums[i]);
+    private void subsets(int[] nums, int i, List<Integer> subList, List<List<Integer>> list) {
+        if (i == nums.length) {
+            list.add(subList);
+            return;
         }
-        return subList;
+        int num = nums[i];
+        List<Integer> temp = new ArrayList<>(subList);
+        temp.add(num);
+        subsets(nums, i + 1, temp, list);
+        subsets(nums, i + 1, subList, list);
+        return;
+    }
+
+    /**
+     * @param nums 数组
+     * @return 链表
+     */
+    private List<List<Integer>> subsets2(int[] nums) {
+        List<List<Integer>> ret = new ArrayList<List<Integer>>();
+        if (nums == null || nums.length == 0) {
+            return ret;
+        }
+        int[] pos = new int[nums.length];
+        int index = 0;
+        pos[0] = -1;
+        while (index >= 0) {
+            pos[index]++;
+            if (pos[index] < nums.length) {
+                List<Integer> s = new ArrayList<Integer>();
+                for (int ii = 0; ii <= index; ii++) {
+                    s.add(nums[pos[ii]]);
+                }
+                ret.add(s);
+                if (index < nums.length - 1) {
+                    index++;
+                    pos[index] = pos[index - 1];
+                }
+                continue;
+            }
+            index--;
+        }
+        ret.add(new ArrayList<Integer>());
+        return ret;
     }
 }

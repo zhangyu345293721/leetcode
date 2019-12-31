@@ -1,11 +1,9 @@
 import org.junit.Test;
 
 /**
+ * 最好时机卖股票
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: BestTimetoBuyandSellStock
- * @Description: TOTO
- * @date 2018/12/6 15:28
  **/
 
 
@@ -37,7 +35,7 @@ public class BestTimetoBuyandSellStock2 {
             }
             // 更新最大收益值
             maxProfit = Math.max(maxProfit, maxPrice - prices[i]);
-           // maxProfit=maxProfit>(maxPrice-prices[i])?maxProfit:(maxPrice-prices[i]);
+            // maxProfit=maxProfit>(maxPrice-prices[i])?maxProfit:(maxPrice-prices[i]);
         }
         return maxProfit;
     }

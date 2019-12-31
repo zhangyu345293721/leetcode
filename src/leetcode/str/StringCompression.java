@@ -8,7 +8,6 @@ import java.util.List;
  * 压缩字符串 LeetCode 443
  *
  * @author: zhangyu
- * @date: 2019/12/30 22:45
  */
 public class StringCompression {
 

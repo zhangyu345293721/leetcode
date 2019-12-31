@@ -4,11 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 按照要求生成括号
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: GenerateParentheses1
- * @Description: TOTO
- * @date 2018/12/15 14:31
  **/
 
 

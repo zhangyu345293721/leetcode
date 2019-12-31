@@ -1,26 +1,32 @@
 // package leetcode;
 
 import org.junit.Test;
+
 import java.util.Arrays;
 
 /**
+ * 加1操作
+ *
  * @author zhangyu
- * @version V1.1
- * @ClassName: PlusOne
- * @Description: 加1操作
- * @date 2018/11/26 11:24
  **/
 
 
 public class PlusOne {
-    
+
     @Test
     public void fun() {
         int[] digits = {3, 2, 1, 4};
         int[] newArr = getPlusOne(digits);
         System.out.println(Arrays.toString(newArr));
     }
-    //把数组变成数字
+
+
+    /**
+     * 把数组变成数字
+     *
+     * @param digits 数字数组
+     * @return 数组
+     */
     private int[] getPlusOne(int[] digits) {
         Arrays.sort(digits);
         int sum = 0;
@@ -40,7 +46,14 @@ public class PlusOne {
         reverseArray(newArr);
         return newArr;
     }
-    // 获取数字的长度
+
+
+    /**
+     * 获取数字的长度
+     *
+     * @param num 数字
+     * @return 数字长度
+     */
     private int getNumberLength(int num) {
         int length = 0;
         while (num != 0) {
@@ -49,8 +62,12 @@ public class PlusOne {
         }
         return length;
     }
-    
-    // 翻转数组
+
+    /**
+     * 翻转数组
+     *
+     * @param arr 数组
+     */
     private void reverseArray(int[] arr) {
         for (int i = 0; i < arr.length / 2; i++) {
             int temp = arr[i];

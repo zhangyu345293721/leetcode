@@ -1,11 +1,9 @@
 import org.junit.Test;
 
 /**
+ * 做这种题目时候，要先进行判断，然后再动手写算法，防止边界问题的出现
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: BestTimetoBuyandSellStock
- * @Description: 做这种题目时候，要先进行判断，然后再动手写算法，防止边界问题的出现
- * @date 2018/12/6 15:28
  **/
 
 public class BestTimetoBuyandSellStock {
@@ -16,6 +14,12 @@ public class BestTimetoBuyandSellStock {
         System.out.println(maxProfit);
     }
 
+    /**
+     * 寻找最大利润
+     *
+     * @param prices 价格数组
+     * @return 利润
+     */
     private int maxProfit(int[] prices) {
         if (prices.length < 1) {
             return 0;
