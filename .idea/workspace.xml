@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a361382-d178-4143-8c5c-6f6982433c20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/zhangyu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/AddString415.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/str/StringCompression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/testlist/AddString415.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/testlist/LongPressed925.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/testlist/LongPressed9252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/testlist/ReverseVowels345.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/testlist/SplitString1221.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="更新题目">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/AddBinary67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/ComplexNumber537.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/DayYear1154.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/DayYear11542.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/DefangingIP1108.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/FirstUniqueCharacter387.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/GreatestCommon1071.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/InvertNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/LongPressed925.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/LongestCommon14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/MaximumNumberofBalloons1189.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/MaximumNumberofBalloons11892.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/MultiplyStrings43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/NumberSegments434.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/RepeatedString686.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/RepeatedString6862.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/RepeatedSubstring459.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/RepeatedSubstring4592.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/ReplacePattern890.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/ReplacePattern8902.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/RunCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/SelectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/SplitString1221.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/StudentAttendance551.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/UniqueMorse804.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/select/ValidPalindrome125.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,58 +38,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-749262684">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="9" />
-          <entry key="md" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="9" />
-          <entry key="Markdown" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="ft" value="4" />
-          <entry key="java" value="3726" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3726" />
-          <entry key="VTL" value="4" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/AddString415.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/RepeatedSubstring4592.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3097">
-              <caret line="167" column="24" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/LongPressed925.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/ReplacePattern890.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="47">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,31 +65,88 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/LongPressed9252.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/ReplacePattern8902.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/ReverseString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/RunCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/SelectDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-659">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/SplitString1221.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/StudentAttendance551.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/UniqueMorse804.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/str/StringCompression.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/select/ValidPalindrome125.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/ReverseVowels345.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="61" column="64" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="64" />
+            <state relative-caret-position="-1173">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -116,9 +156,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>intersection</find>
+      <find>ListTest</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\octopus\Desktop\leetcode</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -126,358 +176,77 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/AddString415.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/AddString415.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/SplitString1221.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/ReverseVowels345.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/LongPressed925.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/ReverseVowels3452.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/testlist/LongPressed9252.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/str/StringCompression.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/LargestRectangleHistogram.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/TrappingRainWater1.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/TrappingRainWater2.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/python/joseph_problem.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/python/add_two_numer_1.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/python/reverse_integer.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/python/reverse_integer_7_2.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_1.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/python/get_single_number_136_2.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py" />
+        <option value="$PROJECT_DIR$/src/python/group_anagrams_49_1.py" />
+        <option value="$PROJECT_DIR$/src/python/longest_consecutive_sequence _128_1.py" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree/CreateTreeTool.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree/TreeTool.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree/Solution.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree226/Solution.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/RunTest.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/question/mergearray88/MergeArray.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/NumberSegments434.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/AddBinary67.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/ChangeTwoNumberIndex.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/ComplexNumber537.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/DayYear1154.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/DayYear11542.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/DefangingIP1108.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/FirstUniqueCharacter387.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/GreatestCommon1071.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/InvertNumber.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/LongestCommon14.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/LongPressed925.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/MaximumNumberofBalloons1189.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/MaximumNumberofBalloons11892.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/MultiplyStrings43.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/RepeatedString686.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/RepeatedString6862.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/RepeatedSubstring459.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/RepeatedSubstring4592.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/ReplacePattern890.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/ReplacePattern8902.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/RunCount.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/SplitString1221.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/StudentAttendance551.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/UniqueMorse804.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/select/ValidPalindrome125.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-378" />
-    <option name="y" value="51" />
-    <option name="width" value="1280" />
-    <option name="height" value="707" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State />
-          <State>
-            <id>Abstraction issuesJava</id>
-          </State>
-          <State>
-            <id>AccessibilityLintAndroid</id>
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
-            <id>Assignment issuesGroovy</id>
-          </State>
-          <State>
-            <id>Assignment issuesJava</id>
-          </State>
-          <State>
-            <id>Assignment issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Bitwise operation issuesJava</id>
-          </State>
-          <State>
-            <id>Bitwise operation issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CDI (Contexts and Dependency Injection)</id>
-          </State>
-          <State>
-            <id>CSS</id>
-          </State>
-          <State>
-            <id>Class structureJava</id>
-          </State>
-          <State>
-            <id>Code maturityJava</id>
-          </State>
-          <State>
-            <id>Code quality toolsJavaScript</id>
-          </State>
-          <State>
-            <id>Code style issuesJava</id>
-          </State>
-          <State>
-            <id>Code style issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
-            <id>CoffeeScript</id>
-          </State>
-          <State>
-            <id>Control flow issuesGroovy</id>
-          </State>
-          <State>
-            <id>Control flow issuesJava</id>
-          </State>
-          <State>
-            <id>Control flow issuesJavaScript</id>
-          </State>
-          <State>
-            <id>CorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>DOM issuesJavaScript</id>
-          </State>
-          <State>
-            <id>Data flowGroovy</id>
-          </State>
-          <State>
-            <id>Declaration redundancyJava</id>
-          </State>
-          <State>
-            <id>ECMAScript 6 migration aidsJavaScript</id>
-          </State>
-          <State>
-            <id>Error handlingJava</id>
-          </State>
-          <State>
-            <id>Error handlingJavaScript</id>
-          </State>
-          <State>
-            <id>FreeMarker</id>
-          </State>
-          <State>
-            <id>GPathGroovy</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>GeneralJava</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Google App Engine</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Guice</id>
-          </State>
-          <State>
-            <id>HTML</id>
-          </State>
-          <State>
-            <id>IconsUsabilityLintAndroid</id>
-          </State>
-          <State>
-            <id>InitializationJava</id>
-          </State>
-          <State>
-            <id>InternationalizationJava</id>
-          </State>
-          <State>
-            <id>InternationalizationLintAndroid</id>
-          </State>
-          <State>
-            <id>J2ME issuesJava</id>
-          </State>
-          <State>
-            <id>JUnitJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>Java 5Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 7Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java 8Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>Java interop issuesKotlin</id>
-          </State>
-          <State>
-            <id>Java language level issuesJava</id>
-          </State>
-          <State>
-            <id>Java language level migration aidsJava</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>JavaScript validity issuesJavaScript</id>
-          </State>
-          <State>
-            <id>JavadocJava</id>
-          </State>
-          <State>
-            <id>Kotlin</id>
-          </State>
-          <State>
-            <id>LintAndroid</id>
-          </State>
-          <State>
-            <id>LintLintAndroid</id>
-          </State>
-          <State>
-            <id>LoggingJava</id>
-          </State>
-          <State>
-            <id>MemoryJava</id>
-          </State>
-          <State>
-            <id>MessagesCorrectnessLintAndroid</id>
-          </State>
-          <State>
-            <id>Naming conventionsGroovy</id>
-          </State>
-          <State>
-            <id>Naming conventionsJava</id>
-          </State>
-          <State>
-            <id>Naming conventionsJavaScript</id>
-          </State>
-          <State>
-            <id>Naming conventionsKotlin</id>
-          </State>
-          <State>
-            <id>Node.jsJavaScript</id>
-          </State>
-          <State>
-            <id>Numeric issuesJava</id>
-          </State>
-          <State>
-            <id>Other problemsKotlin</id>
-          </State>
-          <State>
-            <id>PerformanceJava</id>
-          </State>
-          <State>
-            <id>PerformanceLintAndroid</id>
-          </State>
-          <State>
-            <id>Plugin DevKit</id>
-          </State>
-          <State>
-            <id>PortabilityJava</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsGroovy</id>
-          </State>
-          <State>
-            <id>Potentially confusing code constructsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsCSS</id>
-          </State>
-          <State>
-            <id>Probable bugsCoffeeScript</id>
-          </State>
-          <State>
-            <id>Probable bugsGroovy</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Probable bugsJavaScript</id>
-          </State>
-          <State>
-            <id>Probable bugsKotlin</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>RELAX NG</id>
-          </State>
-          <State>
-            <id>Redundant constructsKotlin</id>
-          </State>
-          <State>
-            <id>Reflective accessJava</id>
-          </State>
-          <State>
-            <id>RegExp</id>
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-          <State>
-            <id>SecurityJava</id>
-          </State>
-          <State>
-            <id>SecurityLintAndroid</id>
-          </State>
-          <State>
-            <id>Spring</id>
-          </State>
-          <State>
-            <id>Spring CoreSpring</id>
-          </State>
-          <State>
-            <id>Struts</id>
-          </State>
-          <State>
-            <id>Struts 1Struts</id>
-          </State>
-          <State>
-            <id>Struts 2Struts</id>
-          </State>
-          <State>
-            <id>Style issuesKotlin</id>
-          </State>
-          <State>
-            <id>StyleGroovy</id>
-          </State>
-          <State>
-            <id>Threading issuesGroovy</id>
-          </State>
-          <State>
-            <id>Threading issuesJava</id>
-          </State>
-          <State>
-            <id>UI Form</id>
-          </State>
-          <State>
-            <id>UsabilityLintAndroid</id>
-          </State>
-          <State>
-            <id>Validity issuesGroovy</id>
-          </State>
-          <State>
-            <id>Velocity</id>
-          </State>
-          <State>
-            <id>Verbose or redundant code constructsJava</id>
-          </State>
-          <State>
-            <id>VisibilityJava</id>
-          </State>
-          <State>
-            <id>WebSocket</id>
-          </State>
-          <State>
-            <id>XPath</id>
-          </State>
-          <State>
-            <id>XSLT</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -501,140 +270,33 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577721066494" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode/select" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="leetcode.testlist" />
+      <recent name="leetcode" />
+      <recent name="leetcode.TestWeb" />
+      <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/leetcode/testlist" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\python" />
+      <recent name="D:\leetcode\src\leetcode" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -648,99 +310,197 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringCompression.testStringCompression">
-    <configuration name="LongPressed925.longPressedTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.testlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.testlist" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.testlist.LongPressed925" />
-      <option name="METHOD_NAME" value="longPressedTestDemo" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="JUnit.MergeArray">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseVowels345.reverseVolwelsTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.testlist.*" />
+          <option name="PATTERN" value="leetcode.question.mergearray88.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.testlist" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.testlist.ReverseVowels345" />
-      <option name="METHOD_NAME" value="reverseVolwelsTestDemo" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="leetcode.question.mergearray88" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.mergearray88.MergeArray" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitString1221.splitStringTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeArray.mergeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.testlist.*" />
+          <option name="PATTERN" value="leetcode.question.mergearray88.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.testlist" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.testlist.SplitString1221" />
-      <option name="METHOD_NAME" value="splitStringTestDemo" />
+      <option name="PACKAGE_NAME" value="leetcode.question.mergearray88" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.mergearray88.MergeArray" />
+      <option name="METHOD_NAME" value="mergeArray" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RunTest.runTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.str.*" />
+          <option name="PATTERN" value="leetcode.question.traversebinarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.str" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.str.StringCompression" />
+      <option name="PACKAGE_NAME" value="leetcode.question.traversebinarytree" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.traversebinarytree.RunTest" />
+      <option name="METHOD_NAME" value="runTestDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCompression.testStringCompression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Solution.graphTraverseTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.str.*" />
+          <option name="PATTERN" value="leetcode.question.reverseTree226.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.str" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.str.StringCompression" />
-      <option name="METHOD_NAME" value="testStringCompression" />
+      <option name="PACKAGE_NAME" value="leetcode.question.reverseTree226" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.reverseTree226.Solution" />
+      <option name="METHOD_NAME" value="graphTraverseTestDemo" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution.queueTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.question.reverseTree226.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.question.reverseTree226" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.question.reverseTree226.Solution" />
+      <option name="METHOD_NAME" value="queueTestDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="mytomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.82" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/../activemq">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_leetcode" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53229" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SplitString1221.splitStringTestDemo" />
-      <item itemvalue="JUnit.ReverseVowels345.reverseVolwelsTestDemo" />
-      <item itemvalue="JUnit.LongPressed925.longPressedTestDemo" />
-      <item itemvalue="JUnit.StringCompression.testStringCompression" />
-      <item itemvalue="JUnit.StringCompression" />
+      <item itemvalue="JUnit.Solution.queueTestDemo" />
+      <item itemvalue="JUnit.Solution.graphTraverseTestDemo" />
+      <item itemvalue="JUnit.RunTest.runTestDemo" />
+      <item itemvalue="JUnit.MergeArray.mergeArray" />
+      <item itemvalue="JUnit.MergeArray" />
+      <item itemvalue="Tomcat Server.mytomcat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringCompression.testStringCompression" />
-        <item itemvalue="JUnit.StringCompression" />
-        <item itemvalue="JUnit.LongPressed925.longPressedTestDemo" />
-        <item itemvalue="JUnit.ReverseVowels345.reverseVolwelsTestDemo" />
-        <item itemvalue="JUnit.SplitString1221.splitStringTestDemo" />
+        <item itemvalue="JUnit.MergeArray" />
+        <item itemvalue="JUnit.MergeArray.mergeArray" />
+        <item itemvalue="JUnit.RunTest.runTestDemo" />
+        <item itemvalue="JUnit.Solution.graphTraverseTestDemo" />
+        <item itemvalue="JUnit.Solution.queueTestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -749,56 +509,383 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a361382-d178-4143-8c5c-6f6982433c20" name="Default Changelist" comment="" />
-      <created>1572081435290</created>
+      <changelist id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="" />
+      <created>1543474623041</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572081435290</updated>
-      <workItem from="1572081442566" duration="17141000" />
-      <workItem from="1577716694142" duration="3962000" />
+      <updated>1543474623041</updated>
+      <workItem from="1543474627261" duration="19757000" />
+      <workItem from="1543731702877" duration="20249000" />
+      <workItem from="1543828309145" duration="755000" />
+      <workItem from="1543833057975" duration="34594000" />
+      <workItem from="1543993734284" duration="68438000" />
+      <workItem from="1544404237700" duration="17101000" />
+      <workItem from="1544490731317" duration="16623000" />
+      <workItem from="1544517951005" duration="11510000" />
+      <workItem from="1544661758462" duration="48364000" />
+      <workItem from="1544786485673" duration="54946000" />
+      <workItem from="1545617443417" duration="5777000" />
+      <workItem from="1545721363642" duration="5339000" />
+      <workItem from="1545727578506" duration="702000" />
+      <workItem from="1545739752830" duration="4174000" />
+      <workItem from="1545810232243" duration="3130000" />
+      <workItem from="1545877877387" duration="1094000" />
+      <workItem from="1545893396503" duration="746000" />
+      <workItem from="1545902708216" duration="1484000" />
+      <workItem from="1546503996358" duration="1627000" />
+      <workItem from="1546505638086" duration="5088000" />
+      <workItem from="1546563446347" duration="1778000" />
+      <workItem from="1546657222055" duration="2677000" />
+      <workItem from="1547360403346" duration="1340000" />
+      <workItem from="1547433783352" duration="6469000" />
+      <workItem from="1547448017505" duration="186000" />
+      <workItem from="1547772803112" duration="2028000" />
+      <workItem from="1547775520421" duration="2133000" />
+      <workItem from="1563690128248" duration="3447000" />
+      <workItem from="1563935559278" duration="492000" />
+      <workItem from="1564020076859" duration="2258000" />
+      <workItem from="1564052677728" duration="895000" />
+      <workItem from="1564889121240" duration="4718000" />
+      <workItem from="1565764857033" duration="292000" />
+      <workItem from="1566264870750" duration="866000" />
+      <workItem from="1566268304131" duration="160000" />
+      <workItem from="1566474563770" duration="2328000" />
+      <workItem from="1566964283422" duration="136000" />
+      <workItem from="1567149783285" duration="158000" />
+      <workItem from="1571820790153" duration="10792000" />
+      <workItem from="1572081098978" duration="130000" />
+      <workItem from="1577758541865" duration="322000" />
     </task>
+    <task id="LOCAL-00001" summary="second comit">
+      <created>1545725098641</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545725098641</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second comit">
+      <created>1545726614683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545726614683</updated>
+    </task>
+    <task id="LOCAL-00003" summary="加入了边界问题判断">
+      <created>1545727659122</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545727659122</updated>
+    </task>
+    <task id="LOCAL-00004" summary="加入了边界问题判断">
+      <created>1545739849002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545739849002</updated>
+    </task>
+    <task id="LOCAL-00005" summary="最下字符串问题包含问题">
+      <created>1545743580740</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545743580740</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add extendTest.java">
+      <created>1545811583717</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545811583718</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add extendTest2.java">
+      <created>1545812081008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545812081008</updated>
+    </task>
+    <task id="LOCAL-00008" summary="增加注释">
+      <created>1545812763891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1545812763891</updated>
+    </task>
+    <task id="LOCAL-00009" summary="重新添加leetcode题目文件">
+      <created>1545878293517</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1545878293517</updated>
+    </task>
+    <task id="LOCAL-00010" summary="重新添加leetcode题目">
+      <created>1545893483187</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1545893483187</updated>
+    </task>
+    <task id="LOCAL-00011" summary="在代码中添加了一些注释">
+      <created>1546505263161</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1546505263161</updated>
+    </task>
+    <task id="LOCAL-00012" summary="整理代码">
+      <created>1546505556650</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1546505556650</updated>
+    </task>
+    <task id="LOCAL-00013" summary="delete many files">
+      <created>1546505974596</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1546505974596</updated>
+    </task>
+    <task id="LOCAL-00014" summary="增加了一些注释">
+      <created>1546516453508</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546516453508</updated>
+    </task>
+    <task id="LOCAL-00015" summary="增加了注释">
+      <created>1546517021913</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546517021913</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add two sum question">
+      <created>1546658501597</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1546658501597</updated>
+    </task>
+    <task id="LOCAL-00017" summary="modify readme.md">
+      <created>1546658625771</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1546658625771</updated>
+    </task>
+    <task id="LOCAL-00018" summary="classfication question">
+      <created>1546659271085</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1546659271085</updated>
+    </task>
+    <task id="LOCAL-00019" summary="classfication question2">
+      <created>1547361094749</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1547361094749</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add leetcode question">
+      <created>1547446582151</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547446582151</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add merge_arr">
+      <created>1563690236838</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1563690236838</updated>
+    </task>
+    <task id="LOCAL-00022" summary="添加约瑟夫环问题的python编码">
+      <created>1563851191637</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563851191637</updated>
+    </task>
+    <task id="LOCAL-00023" summary="添加两个数之和是一个固定值">
+      <created>1563935773150</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1563935773150</updated>
+    </task>
+    <task id="LOCAL-00024" summary="添加两个数之和是一个固定值">
+      <created>1563935860385</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563935860385</updated>
+    </task>
+    <task id="LOCAL-00025" summary="翻转一个integer的数">
+      <created>1564020315630</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1564020315630</updated>
+    </task>
+    <task id="LOCAL-00026" summary="修改文件的名字">
+      <created>1564020497580</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1564020497580</updated>
+    </task>
+    <task id="LOCAL-00027" summary="添加一种实现方式">
+      <created>1564055667638</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1564055667638</updated>
+    </task>
+    <task id="LOCAL-00028" summary="添加题目号349的题目">
+      <created>1564969511517</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1564969511517</updated>
+    </task>
+    <task id="LOCAL-00029" summary="添加python的215号实现题目">
+      <created>1565765061036</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1565765061036</updated>
+    </task>
+    <task id="LOCAL-00030" summary="添加python的541和32题目">
+      <created>1566265888569</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1566265888569</updated>
+    </task>
+    <task id="LOCAL-00031" summary="添加python的268题目">
+      <created>1566268338095</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1566268338095</updated>
+    </task>
+    <task id="LOCAL-00032" summary="添加python的287题目">
+      <created>1566474634858</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1566474634858</updated>
+    </task>
+    <task id="LOCAL-00033" summary="添加python的49题目">
+      <created>1566529189991</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1566529189991</updated>
+    </task>
+    <task id="LOCAL-00034" summary="添加python的128题目">
+      <created>1566964309721</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1566964309721</updated>
+    </task>
+    <task id="LOCAL-00035" summary="添加python的55,142,128,48题目">
+      <created>1567149837389</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1567149837389</updated>
+    </task>
+    <task id="LOCAL-00036" summary="更新题目">
+      <created>1572081161184</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1572081161184</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseVowels345_reverseVolwelsTestDemo - 2019.11.11 at 22h 02m 34s.xml">
-      <configuration name="ReverseVowels345.reverseVolwelsTestDemo" configurationId="JUnit" />
+    <history-entry file="Solution_queueTestDemo - 2019.10.23 at 19h 29m 52s.xml">
+      <configuration name="Solution.queueTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongPressed925_longPressedTestDemo - 2019.11.11 at 23h 00m 01s.xml">
-      <configuration name="LongPressed925.longPressedTestDemo" configurationId="JUnit" />
+    <history-entry file="Solution_queueTestDemo - 2019.10.23 at 19h 30m 11s.xml">
+      <configuration name="Solution.queueTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongPressed925_longPressedTestDemo - 2019.11.11 at 23h 03m 00s.xml">
-      <configuration name="LongPressed925.longPressedTestDemo" configurationId="JUnit" />
+    <history-entry file="Solution - 2019.10.23 at 19h 30m 55s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongPressed925_longPressedTestDemo - 2019.11.11 at 23h 07m 12s.xml">
-      <configuration name="LongPressed925.longPressedTestDemo" configurationId="JUnit" />
+    <history-entry file="Solution_queueTestDemo - 2019.10.23 at 19h 31m 05s.xml">
+      <configuration name="Solution.queueTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongPressed925_longPressedTestDemo - 2019.11.11 at 23h 07m 45s.xml">
-      <configuration name="LongPressed925.longPressedTestDemo" configurationId="JUnit" />
+    <history-entry file="Solution_graphTraverseTestDemo - 2019.10.23 at 19h 38m 54s.xml">
+      <configuration name="Solution.graphTraverseTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongPressed925_longPressedTestDemo - 2019.11.11 at 23h 07m 59s.xml">
-      <configuration name="LongPressed925.longPressedTestDemo" configurationId="JUnit" />
+    <history-entry file="Solution_graphTraverseTestDemo - 2019.10.23 at 19h 39m 50s.xml">
+      <configuration name="Solution.graphTraverseTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCompression_testStringCompression - 2019.12.30 at 23h 42m 58s.xml">
-      <configuration name="StringCompression.testStringCompression" configurationId="JUnit" />
+    <history-entry file="Solution_graphTraverseTestDemo - 2019.10.23 at 19h 40m 16s.xml">
+      <configuration name="Solution.graphTraverseTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCompression_testStringCompression - 2019.12.30 at 23h 43m 25s.xml">
-      <configuration name="StringCompression.testStringCompression" configurationId="JUnit" />
+    <history-entry file="RunTest_runTestDemo - 2019.10.23 at 19h 51m 47s.xml">
+      <configuration name="RunTest.runTestDemo" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCompression - 2019.12.30 at 23h 46m 09s.xml">
-      <configuration name="StringCompression" configurationId="JUnit" />
+    <history-entry file="MergeArray_mergeArray - 2019.10.24 at 14h 20m 13s.xml">
+      <configuration name="MergeArray.mergeArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCompression - 2019.12.30 at 23h 46m 40s.xml">
-      <configuration name="StringCompression" configurationId="JUnit" />
+    <history-entry file="MergeArray - 2019.10.24 at 14h 20m 37s.xml">
+      <configuration name="MergeArray" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21103000" />
+    <option name="totallyTimeSpent" value="365103000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="707" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.25827107" />
+      <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.3618907" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.394387" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32795697" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007163" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Statistic" order="9" weight="0.3181208" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3266129" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3268229" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3293011" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Sequence" order="15" />
+      <window_info anchor="bottom" id="SonarLint" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21654929" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -806,111 +893,539 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27642277" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.47479674" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.32073012" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3971354" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Statistic" order="8" weight="0.31770834" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295129" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/str/StringCompression.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="整理代码" />
+    <MESSAGE value="delete many file" />
+    <MESSAGE value="delete many files" />
+    <MESSAGE value="增加了一些注释" />
+    <MESSAGE value="增加了注释" />
+    <MESSAGE value="add two sum question" />
+    <MESSAGE value="modify readme.md" />
+    <MESSAGE value="classfication question" />
+    <MESSAGE value="classfication question2" />
+    <MESSAGE value="add leetcode question" />
+    <MESSAGE value="add merge_arr" />
+    <MESSAGE value="添加约瑟夫环问题的python编码" />
+    <MESSAGE value="添加两个数之和是一个固定值" />
+    <MESSAGE value="翻转一个integer的数" />
+    <MESSAGE value="修改文件的名字" />
+    <MESSAGE value="添加一种实现方式" />
+    <MESSAGE value="添加题目号349的题目" />
+    <MESSAGE value="添加python的215号实现题目" />
+    <MESSAGE value="添加python的541和32题目" />
+    <MESSAGE value="添加python的268题目" />
+    <MESSAGE value="添加python的287题目" />
+    <MESSAGE value="添加python的49题目" />
+    <MESSAGE value="添加python的128题目" />
+    <MESSAGE value="添加python的55,142,128,48题目" />
+    <MESSAGE value="更新题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新题目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/AddString415.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/SplitString1221.java">
+    <entry file="file://$PROJECT_DIR$/src/python/longest_valid_parentheses_32.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="685">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/reverse_string2_541_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/messing_number_268_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/kth_largest_element_215_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/kth_largest_element_215_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/MaximumDepthTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestPalindromicSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestIncreasingSubsequence2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestConsecutiveSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestIncreasingSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LetterCombinationsPhoneNumber3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/find_duplicate_number_287_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/group_anagrams_49_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/group_anagrams_49_3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/rotate_image_48.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/longest_consecutive_sequence _128_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/ReverseVowels3452.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/AddString415.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3097">
-          <caret line="167" column="24" selection-start-line="167" selection-start-column="24" selection-end-line="167" selection-end-column="24" />
+        <state relative-caret-position="3175">
+          <caret line="128" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="128" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/LongPressed925.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/RunTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="850">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/ReverseVowels345.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="64" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="64" />
+        <state relative-caret-position="125">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/testlist/LongPressed9252.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/str/StringCompression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="2700">
+          <caret line="125" column="9" selection-start-line="125" selection-start-column="9" selection-end-line="125" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/question/mergearray88/MergeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/ChangeTwoNumberIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/AddBinary67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/ComplexNumber537.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/DayYear1154.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/DayYear11542.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/DefangingIP1108.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/FirstUniqueCharacter387.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/GreatestCommon1071.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/InvertNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/LongestCommon14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/LongPressed925.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/MaximumNumberofBalloons1189.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/MaximumNumberofBalloons11892.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-625">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/MultiplyStrings43.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/NumberSegments434.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/RepeatedString686.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/RepeatedString6862.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/RepeatedSubstring459.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/RepeatedSubstring4592.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/ReplacePattern890.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/ReplacePattern8902.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/RunCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/SelectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-659">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/SplitString1221.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/StudentAttendance551.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/UniqueMorse804.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/select/ValidPalindrome125.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1173">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -924,11 +1439,24 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>leetcode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -947,17 +1475,6 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
