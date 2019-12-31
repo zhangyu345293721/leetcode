@@ -4,10 +4,6 @@ import org.junit.Test;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: UniquePaths
- * @Description: TOTO
- * @date 2018/12/15 21:56
  **/
 
 
@@ -18,6 +14,9 @@ public class UniquePaths {
         System.out.println(method);
     }
 
+    /**
+     * 路径
+     */
     private int uniquePaths(int m, int n) {
         if ((m == 0) || (n == 0)) {
             return 0;

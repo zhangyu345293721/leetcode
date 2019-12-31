@@ -1,17 +1,16 @@
 package leetcode.question;
 
 import org.junit.Test;
+
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
 /**
+ * 找出一个字符串中最大的无重复子字符串
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: LongestSubstringWithoutRepeatingCharacters
- * @Description: 找出一个字符串中最大的无重复子字符串
- * @date 2018/11/30 10:57
  **/
 
 
@@ -24,7 +23,10 @@ public class LongestSubstringWithoutRepeatingCharacters {
         System.out.println(num);
     }
 
-    // 找出最大没有重复的子字符串
+    /**
+     * 找出最大没有重复的子字符串
+     * @param s 字符串
+     */
     private int longestSubstringWithoutRepeatingCharacters(String s) {
         char[] chs = s.toCharArray();
         int index = 0;
@@ -36,7 +38,6 @@ public class LongestSubstringWithoutRepeatingCharacters {
                     maxLength = subString.length();
                 }
             } else {
-                // 如果出现了重复的子字符串，就index加1,加上下一个
                 index = index + 1;
             }
         }
@@ -62,12 +63,12 @@ public class LongestSubstringWithoutRepeatingCharacters {
         char[] chs = subString.toCharArray();
         Set<Character> set = new HashSet<>();
         for (char ch : chs) {
-            if(set.contains(ch)){
+            if (set.contains(ch)) {
                 return false;
-            }else{
+            } else {
                 set.add(ch);
             }
         }
         return true;
-     }
+    }
 }

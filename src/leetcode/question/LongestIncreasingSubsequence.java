@@ -2,15 +2,14 @@ package leetcode.question;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 /**
+ * 最大最小问题，想到动态规划
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: LongestIncreasingSubsequence
- * @Description: TOTO
- * @date 2018/11/28 21:04
  **/
 
-// 凡事最小最大问题，都考考虑动态规划
 public class LongestIncreasingSubsequence {
     @Test
     public void fun() {
@@ -29,14 +28,30 @@ public class LongestIncreasingSubsequence {
                 if (nums[j] > temp) {
                     count++;
                     temp = nums[j];
-                }else{
-                    temp=nums[i];
+                } else {
+                    temp = nums[i];
                 }
             }
             if (maxLength < count) {
-                maxLength = count+1;
+                maxLength = count + 1;
             }
         }
         return maxLength;
+    }
+
+    private int longestIncreasingSubsequence2(int[] nums) {
+        int[] dp = new int[nums.length];
+        int len = 0;
+        for (int num : nums) {
+            int i = Arrays.binarySearch(dp, 0, len, num);
+            if (i < 0) {
+                i = -(i + 1);
+            }
+            dp[i] = num;
+            if (i + 1 > len) {
+                len = i + 1;
+            }
+        }
+        return len;
     }
 }

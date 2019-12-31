@@ -8,10 +8,6 @@ import java.util.TreeSet;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: LongestConsecutiveSequence
- * @Description: TOTO
- * @date 2018/11/28 15:25
  **/
 
 
@@ -25,16 +21,20 @@ public class LongestConsecutiveSequence {
         System.out.println(maxLength);
     }
 
-    // 连续数的长度
+
+    /**
+     * 连续数的长度
+     *
+     * @param nums 数组
+     * @return 连续数组长度
+     */
     private int longestConsecutive(int[] nums) {
         if (nums.length <= 1) {
             return nums.length;
         }
-        // 对数组进行排序
         Arrays.sort(nums);
         int maxLength = 1;
         int count = 1;
-        // 再遍历整个数组;
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] + 1 == nums[i + 1]) {
                 count++;
@@ -47,4 +47,6 @@ public class LongestConsecutiveSequence {
         }
         return maxLength;
     }
+
+
 }

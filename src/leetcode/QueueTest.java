@@ -7,10 +7,6 @@ import java.util.concurrent.*;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: QueueTest
- * @Description: TOTO
- * @date 2018/12/14 14:04
  **/
 
 

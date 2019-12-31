@@ -1,14 +1,13 @@
 package leetcode.question;
 
 import org.junit.Test;
+
 import java.util.Stack;
 
 /**
+ * 计算矩形的面积
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: LargestRectangleHistogram
- * @Description: 计算矩形的面积
- * @date 2019/1/14 10:43
  **/
 
 

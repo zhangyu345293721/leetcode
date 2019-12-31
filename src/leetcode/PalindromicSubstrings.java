@@ -51,4 +51,26 @@ public class PalindromicSubstrings {
         }
         return true;
     }
+
+    // 统计所有的回文串个数
+    public int countSubstrings(String s) {
+        int count = 0;
+        for (int i = 0; i < s.length(); i++) {
+            // 回文串可能是双数，可能是单数
+            count += computePalin(s, i, i);
+            count += computePalin(s, i, i + 1);
+        }
+        return count;
+    }
+
+    // 查找两个下标下的元素回文串个数
+    private int computePalin(String s, int i, int j) {
+        int result = 0;
+        while (i >= 0 && j < s.length() && s.charAt(i) == s.charAt(j)) {
+            i--;
+            j++;
+            result++;
+        }
+        return result;
+    }
 }

@@ -5,11 +5,9 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
+ * 旋转数组
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: RotatedSortedArray
- * @Description: TOTO
- * @date 2018/12/17 19:00
  **/
 
 
@@ -30,8 +28,8 @@ public class RotatedSortedArray {
         return -1;
     }
 
-    private int rotatedSortedArray2(int[] nums,int target){
-        int left = 0, right = nums.length-1;
+    private int rotatedSortedArray2(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
         while (left <= right) {
             int mid = (left + right) / 2;
             if (nums[mid] == target) {

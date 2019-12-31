@@ -4,10 +4,6 @@ import org.junit.Test;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: LongestPalindromicSubstring
- * @Description: TOTO
- * @date 2018/11/29 19:12
  **/
 
 

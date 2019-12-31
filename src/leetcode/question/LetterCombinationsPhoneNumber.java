@@ -7,10 +7,6 @@ import java.util.List;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: LetterCombinationsPhoneNumber
- * @Description: TOTO
- * @date 2018/11/26 15:37
  **/
 
 
@@ -31,6 +27,7 @@ public class LetterCombinationsPhoneNumber {
         }
         return list;
     }
+
     private String getString(char c) {
         if (c >= '2' || c <= '9') {
             switch (c) {

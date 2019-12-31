@@ -7,16 +7,19 @@ import java.util.Stack;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
+ * 二叉树的遍历
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: Traverse
- * @Description: TOTO
- * @date 2018/12/14 9:53
  **/
 
 
 public class Traverse {
-    // 1.前序递归遍历
+
+    /**
+     * .前序递归遍历
+     *
+     * @param root root节点
+     */
     public void preOrderTraverse1(TreeNode root) {
         if (root != null) {
             System.out.println(root.val);
@@ -25,13 +28,15 @@ public class Traverse {
         }
     }
 
-    // 1.前序非递归遍历
+    /**
+     * 前序非递归遍历
+     *
+     * @param root 根节点
+     */
     public void preOrderTraverse2(TreeNode root) {
-        // 如果树为空，直接退出
         if (root == null) {
             return;
         }
-        // 如果不是添加到栈中
         Stack<TreeNode> stack = new Stack<>();
         // 如果栈一直不为空就一直循环
         while (!stack.isEmpty()) {
@@ -50,7 +55,11 @@ public class Traverse {
         }
     }
 
-    // 2.中序递归遍历
+    /**
+     * 中序递归遍历
+     *
+     * @param root 根节点
+     */
     public void inOrderTraverse(TreeNode root) {
         if (root != null) {
             inOrderTraverse(root.left);
@@ -59,7 +68,11 @@ public class Traverse {
         }
     }
 
-    // 2.中序非递归遍历
+    /**
+     * 中序非递归遍历
+     *
+     * @param root 根节点
+     */
     public void inOrderTraverse2(TreeNode root) {
         // 如果树为空，直接退出
         if (root == null) {
@@ -84,7 +97,11 @@ public class Traverse {
         }
     }
 
-    // 3.后序递归遍历
+    /**
+     * 后序递归遍历
+     *
+     * @param root 根节点
+     */
     public void postOrderTraverse(TreeNode root) {
         if (root != null) {
             postOrderTraverse(root.left);
@@ -93,7 +110,12 @@ public class Traverse {
         }
     }
 
-    // 3.后序非递归遍历 (弄懂后序排序非递归)
+
+    /**
+     * 后序非递归遍历 (弄懂后序排序非递归)
+     *
+     * @param root 根节点
+     */
     public void postOrderTraverse2(TreeNode root) {
         if (root == null) {
             return;
@@ -120,7 +142,11 @@ public class Traverse {
         }
     }
 
-    // 4.层次遍历非递归 （层次遍历把栈换成队列）
+    /**
+     * 层次遍历非递归 （层次遍历把栈换成队列）
+     *
+     * @param root 根节点
+     */
     public void levelTraverse(TreeNode root) {
         if (root != null) {
             return;

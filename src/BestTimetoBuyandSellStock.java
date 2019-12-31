@@ -35,4 +35,27 @@ public class BestTimetoBuyandSellStock {
         }
         return maxProfit;
     }
+
+    /**
+     * 寻找最大利润
+     *
+     * @param prices 价格数组
+     * @return 利润
+     */
+    private int maxProfit2(int[] prices) {
+        if (prices.length == 0) {
+            return 0;
+        }
+
+        final int pricesIndex = prices.length - 1;
+        int maxPrice = prices[pricesIndex];
+        int maxProfit = 0;
+        for (int i = pricesIndex - 1; i >= 0; i--) {
+            if (prices[i] > maxPrice) {
+                maxPrice = prices[i];
+            }
+            maxProfit = Math.max(maxProfit, maxPrice - prices[i]);
+        }
+        return maxProfit;
+    }
 }
