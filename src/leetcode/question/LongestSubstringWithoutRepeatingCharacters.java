@@ -17,7 +17,6 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingCharacters {
     @Test
     public void fun() {
-        // String s = "abcdabcbb";
         String s = "pwwkew";
         int num = longestSubstringWithoutRepeatingCharacters(s);
         System.out.println(num);
@@ -25,7 +24,9 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
     /**
      * 找出最大没有重复的子字符串
+     *
      * @param s 字符串
+     * @return int
      */
     private int longestSubstringWithoutRepeatingCharacters(String s) {
         char[] chs = s.toCharArray();
@@ -44,7 +45,13 @@ public class LongestSubstringWithoutRepeatingCharacters {
         return maxLength;
     }
 
-    // 利用map的方式，判断有没有重复的字符
+
+    /**
+     * 利用map的方式，判断有没有重复的字符
+     *
+     * @param subString 子字符串
+     * @return 布尔值
+     */
     private boolean isAppearsOnce(String subString) {
         char[] chs = subString.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
@@ -58,7 +65,13 @@ public class LongestSubstringWithoutRepeatingCharacters {
         return true;
     }
 
-    // 利用set集合的方式判断是否有重复的字符
+
+    /**
+     * 利用set集合的方式判断是否有重复的字符
+     *
+     * @param subString 子字符串
+     * @return 布尔值
+     */
     private boolean isAppearsOnce2(String subString) {
         char[] chs = subString.toCharArray();
         Set<Character> set = new HashSet<>();

@@ -12,7 +12,6 @@ public class TrapWater {
 	}
 
 	private int trapWater(int[] nums) {
-		// TODO Auto-generated method stub
 		int lmax = 0;
 		int rmax = 0;
 		int left = 0;
@@ -20,19 +19,11 @@ public class TrapWater {
 		int totalWater = 0;
 		while (left < right) {
 			if (nums[left] < nums[right]) {
-				/*
-				 * if (lmax < nums[left]) { lmax = nums[left]; } else {
-				 * totalWater += (lmax - nums[left]); }
-				 */
-				// 找出左边最大的一个数
+
 				lmax = Math.max(lmax, nums[left]);
 				totalWater += (lmax - nums[left]);
 				left++;
 			} else {
-				/*
-				 * if (rmax < nums[right]) { rmax = nums[right]; } else {
-				 * totalWater += (rmax - nums[right]); }
-				 */
 				// 找出右边最大的一个数
 				rmax = Math.max(rmax, nums[right]);
 				totalWater += (rmax - nums[right]);
@@ -41,5 +32,4 @@ public class TrapWater {
 		}
 		return totalWater;
 	}
-
 }

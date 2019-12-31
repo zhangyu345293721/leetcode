@@ -4,10 +4,6 @@ import org.junit.Test;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: JumpGame
- * @Description: TOTO
- * @date 2018/12/13 16:26
  **/
 
 

@@ -8,10 +8,6 @@ import java.util.Set;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: FindDuplicateNumber
- * @Description: TOTO
- * @date 2018/11/21 15:32
  **/
 
 
@@ -23,6 +19,12 @@ public class FindDuplicateNumber {
         System.out.println(duplicateNumber);
     }
 
+    /**
+     * 重复数字
+     *
+     * @param nums 数组
+     * @return int
+     */
     private int findDuplicateNumber1(int[] nums) {
         if (nums.length <= 1) {
             return -1;
@@ -36,6 +38,12 @@ public class FindDuplicateNumber {
         return -1;
     }
 
+    /**
+     * 重复数字
+     *
+     * @param nums 数组
+     * @return int
+     */
     private int findDuplicateNumber2(int[] nums) {
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {

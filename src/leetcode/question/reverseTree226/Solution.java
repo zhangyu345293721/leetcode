@@ -71,7 +71,6 @@ public class Solution {
         q.add(1);
         q.add(2);
         q.add(4);
-
         while (q.size() > 0) {
             System.out.println(q.poll());
         }
@@ -126,7 +125,7 @@ public class Solution {
             i = 0;
             while (i < numOfNodes) {
                 if (adjMatrix[element][i] == 1 && isVisited[i] == 0) {
-                    queue.add(i);//按照最先遍历到的1进入队列为原则, 如果有好几个1在一行,也就是一个顶点与多个顶点相连
+                    queue.add(i); //按照最先遍历到的1进入队列为原则, 如果有好几个1在一行,也就是一个顶点与多个顶点相连
                     isVisited[i] = 1;
                 }
                 i++;

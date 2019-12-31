@@ -18,6 +18,10 @@ public class LongestIncreasingSubsequence {
         System.out.println(length);
     }
 
+    /**
+     * @param nums 最长增加字符串
+     * @return
+     */
     private int longestIncreasingSubsequence(int[] nums) {
         int maxLength = 0;
         for (int i = 0; i < nums.length; i++) {

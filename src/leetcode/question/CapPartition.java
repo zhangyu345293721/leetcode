@@ -1,14 +1,13 @@
 package leetcode.question;
 
 import org.junit.Test;
+
 import java.util.Arrays;
 
 /**
+ * 动态规划，计算该数组是不是可以分成平等的两部分
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: CapPartition
- * @Description: 动态规划，计算该数组是不是可以分成平等的两部分
- * @date 2018/11/18 10:30
  **/
 
 public class CapPartition {
@@ -31,7 +30,7 @@ public class CapPartition {
         }
         // 把这个数除以2得到它的一半
         sum /= 2; // sum=sum>>1;
-       // int n = nums.length;
+        // int n = nums.length;
         // 定义一个总数一半的sum
         boolean[] dp = new boolean[sum + 1];
         // 数组中填空false

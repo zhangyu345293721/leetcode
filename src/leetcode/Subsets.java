@@ -68,7 +68,7 @@ public class Subsets {
             }
             index--;
         }
-        ret.add(new ArrayList<Integer>());
+        ret.add(new ArrayList());
         return ret;
     }
 }

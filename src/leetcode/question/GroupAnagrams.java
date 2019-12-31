@@ -1,4 +1,3 @@
-package python;
 
 import org.junit.Test;
 

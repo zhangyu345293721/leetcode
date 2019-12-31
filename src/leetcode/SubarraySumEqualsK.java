@@ -54,7 +54,7 @@ public class SubarraySumEqualsK {
             int sum = 0;
             for (int j = i; j < nums.length; j++) {
                 sum = sum + nums[j];
-                if (sum == k) {   // 终于找到了哪里错误
+                if (sum == k) {
                     count++;
                 }
             }

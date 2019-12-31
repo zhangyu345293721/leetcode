@@ -24,7 +24,7 @@ public class ClimbingStairs {
      * 动态规划，记忆算法
      *
      * @param n 数字
-     * @return
+     * @return int
      */
     private int climbingStairs(int n) {
         if (n == 1) {
@@ -43,10 +43,10 @@ public class ClimbingStairs {
 
 
     /**
-     *利用递归的方式，找出上楼梯的种数
+     * 利用递归的方式，找出上楼梯的种数
      *
      * @param n 数字
-     * @return
+     * @return int
      */
     private int climbStairs2(int n) {
         if (n == 0) {

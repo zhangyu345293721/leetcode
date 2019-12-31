@@ -4,12 +4,10 @@ import org.junit.Test;
 
 
 /**
+ * 这个题目在leetcode被编为hard类型，我这种做法居然还有这么高的效率，有点不太相信
+ * * Runtime: 28 ms, faster than 86.93% of Java online submissions for Median of Two Sorted Arrays.
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: MergeSortArray
- * @Description: 这个题目在leetcode被编为hard类型，我这种做法居然还有这么高的效率，有点不太相信
- * Runtime: 28 ms, faster than 86.93% of Java online submissions for Median of Two Sorted Arrays.
- * @date 2018/11/22 15:12
  **/
 
 public class FindMediaTwoSortArray {
@@ -18,10 +16,16 @@ public class FindMediaTwoSortArray {
         int[] nums1 = {1, 3};
         int[] nums2 = {2, 4};
         double media = getMedian(nums1, nums2);
-        // System.out.println(Arrays.toString(newArr));
         System.out.println(media);
     }
 
+    /**
+     * 中间值
+     *
+     * @param nums1 数组1
+     * @param nums2 数组2
+     * @return 值
+     */
     private double getMedian(int[] nums1, int[] nums2) {
         double media = 0;
         int[] newArr = mergeSortedArray(nums1, nums2);
@@ -34,6 +38,13 @@ public class FindMediaTwoSortArray {
         return media;
     }
 
+    /**
+     * 合并有序数组
+     *
+     * @param nums1 数组1
+     * @param nums2 数组2
+     * @return 新数组
+     */
     public int[] mergeSortedArray(int[] nums1, int[] nums2) {
         int nums1Length = nums1.length;
         int nums2Length = nums2.length;

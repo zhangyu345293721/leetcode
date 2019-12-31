@@ -3,11 +3,9 @@ package leetcode.question;
 import org.junit.Test;
 
 /**
+ * 把数字换成二进制，计算二进制的中1的个数
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: BitCount
- * @Description: 把数字换成二进制，计算二进制的中1的个数
- * @date 2018/11/18 9:19
  **/
 
 
@@ -18,6 +16,7 @@ public class BitCount {
         int count = bitCountStatistic(num);
         System.out.println(count);
     }
+
     // 计算bit的二进制中1的个数
     private int bitCountStatistic(int num) {
         int count = 0;

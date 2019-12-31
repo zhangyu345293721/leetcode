@@ -2,22 +2,17 @@ package leetcode.question;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: ContainerWithMostWater
- * @Description: TOTO
- * @date 2018/11/19 20:48
  **/
 
 
 public class ContainerWithMostWater {
-   /* @Test
-    public void fun() {
-        int[] nums = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-        int maxArea = maxArea(nums);
-        System.out.println(maxArea);
-    }*/
 
-    // 暴力算法（brute force）
+    /**
+     * 暴力算法（brute force）
+     *
+     * @param height 长度数组
+     * @return 面积
+     */
     private static int maxArea(int[] height) {
         int maxArea = 0;
         for (int i = 0; i < height.length - 1; i++) {
@@ -33,7 +28,12 @@ public class ContainerWithMostWater {
         return maxArea;
     }
 
-    // 快速排序的基本思想
+    /**
+     * 快速排序的基本思想
+     *
+     * @param height 长度数组
+     * @return 面积
+     */
     private static int maxArea2(int[] height) {
         int maxArea = 0;
         int i = 0;

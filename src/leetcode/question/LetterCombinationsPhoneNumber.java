@@ -18,7 +18,13 @@ public class LetterCombinationsPhoneNumber {
         System.out.println(list);
     }
 
-    // 获取链表长度的list，然后再进行买个遍历
+
+    /**
+     * 获取链表长度的list，然后再进行买个遍历
+     *
+     * @param digits 字符串
+     * @return 链表
+     */
     private List<String> letterCombinationsPhoneNumber(String digits) {
         List<String> list = new ArrayList<>();
         for (char ch : digits.toCharArray()) {
@@ -28,6 +34,12 @@ public class LetterCombinationsPhoneNumber {
         return list;
     }
 
+    /**
+     * 字符串
+     *
+     * @param c 字符
+     * @return 字符串
+     */
     private String getString(char c) {
         if (c >= '2' || c <= '9') {
             switch (c) {

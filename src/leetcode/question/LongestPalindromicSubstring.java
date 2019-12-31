@@ -15,7 +15,7 @@ public class LongestPalindromicSubstring {
         System.out.println(subString);
     }
 
-    private static  String longestPalindromicSubstring(String s) {
+    private static String longestPalindromicSubstring(String s) {
         String s1 = "";
         String s2 = "";
         for (int i = 0; i < s.length(); i++) {

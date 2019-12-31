@@ -3,11 +3,9 @@ package leetcode.question;
 import org.junit.Test;
 
 /**
+ * 最好时间买和卖股票
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: BestTimeBuySell
- * @Description: 最好时间买和卖股票
- * @date 2018/11/17 18:43
  **/
 
 

@@ -3,22 +3,29 @@ package python;
 import java.util.List;
 
 /**
+ * 判断是不是回文串，用StringBuilder的形式
+ *
  * @author zhangyu
- * @version V1.0
- * @ClassName: IsPalindromic
- * @Description: TOTO
- * @date 2018/12/5 20:51
  **/
 
 
 public class IsPalindromic {
-    //1.判断是不是回文串，用StringBuilder的形式
+
+    /**
+     * @param subString 下标
+     * @return 布尔值
+     */
     public static boolean isPalindromicString1(String subString) {
         StringBuilder sb = new StringBuilder(subString);
         return subString.equals(sb.reverse().toString());
     }
 
-    //2.判断是不是回文串用双指针的形式
+    /**
+     * 判断是不是回文串用双指针的形式
+     *
+     * @param subString 子字符串
+     * @return
+     */
     public static boolean isPalindromicString2(String subString) {
         int i = 0;
         int j = subString.length() - 1;
@@ -32,6 +39,12 @@ public class IsPalindromic {
         return true;
     }
 
+    /**
+     * 判断是不是回文串用双指针的形式
+     *
+     * @param list 链表
+     * @return
+     */
     public boolean isPalindromeList(List<Integer> list) {
         int i = 0;
         int j = list.size() - 1;

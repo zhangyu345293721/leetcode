@@ -6,10 +6,6 @@ import java.util.Arrays;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: EqualsIgnoreOrderString
- * @Description: TOTO
- * @date 2018/11/20 18:35
  **/
 
 
@@ -22,6 +18,13 @@ public class EqualsIgnoreOrderString {
         System.out.println(b);
     }
 
+    /**
+     * 忽略大小字符串
+     *
+     * @param s 字符串s
+     * @param p 字符串p
+     * @return 布尔
+     */
     public boolean equalsIgnoreOrderString1(String s, String p) {
         if (s.length() == 0 || p.length() == 0) {
             return false;
@@ -40,6 +43,14 @@ public class EqualsIgnoreOrderString {
         return true;
     }
 
+
+    /**
+     * 忽略大小字符串
+     *
+     * @param s 字符串s
+     * @param p 字符串p
+     * @return 布尔
+     */
     public boolean equalsIgnoreOrderString2(String s, String p) {
         if (s.length() == 0 || p.length() == 0) {
             return false;
