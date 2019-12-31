@@ -9,7 +9,7 @@ import java.util.HashMap;
  **/
 
 
-public class  SubarraySumEqualsK {
+public class SubarraySumEqualsK {
     @Test
     public void fun() {
         int nums[] = {1, 2, 3};
@@ -18,23 +18,36 @@ public class  SubarraySumEqualsK {
         System.out.println(key);
     }
 
+    /**
+     * 求和
+     *
+     * @param nums 数组
+     * @param k    k个数
+     * @return 数字和
+     */
     public int subarraySum(int[] nums, int k) {
         int sum = 0;
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
             for (int j = i; j < nums.length; j++) {
                 sum = sum + nums[j];
-                if (sum == k) {   // 终于找到了哪里错误
+                if (sum == k) {
                     count++;
-                    sum = 0;      // 进行初始化
+                    sum = 0;
                     break;
                 }
-
             }
         }
         return count;
     }
 
+    /**
+     * 求和
+     *
+     * @param nums 数组
+     * @param k    k个数
+     * @return 数字和
+     */
     public int subarraySum2(int[] nums, int k) {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
@@ -49,6 +62,13 @@ public class  SubarraySumEqualsK {
         return count;
     }
 
+    /**
+     * 求和
+     *
+     * @param nums 数组
+     * @param k    k个数
+     * @return 数字和
+     */
     public int subarraySum3(int[] nums, int k) {
         int count = 0;
         int sum = 0;
@@ -68,6 +88,13 @@ public class  SubarraySumEqualsK {
         return count;
     }
 
+    /**
+     * 求和
+     *
+     * @param nums 数组
+     * @param k    k个数
+     * @return 数字和
+     */
     public int subarraySum4(int[] nums, int k) {
         int count = 0;
         int sum = 0;
