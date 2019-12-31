@@ -8,7 +8,6 @@ import java.util.Stack;
  * 按照要求分割字符串
  *
  * @author: zhangyu
- * @date: 2019/11/10 11:03
  */
 public class SplitString1221 {
 
@@ -32,7 +31,6 @@ public class SplitString1221 {
                     } else {
                         stack.push(ch);
                     }
-
                 }
                 if (ch == 'R') {
                     if (stack.peek() == 'L') {
@@ -41,7 +39,6 @@ public class SplitString1221 {
                         stack.push(ch);
                     }
                 }
-
                 // 如果栈为空，计数器加1
                 if (stack.empty()) {
                     count++;

@@ -9,10 +9,6 @@ import java.util.PriorityQueue;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: SmallSort
- * @Description: TOTO
- * @date 2018/12/17 9:41
  **/
 
 

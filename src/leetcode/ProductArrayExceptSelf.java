@@ -6,10 +6,6 @@ import java.util.Arrays;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: ProductArrayExceptSelf
- * @Description: TOTO
- * @date 2018/12/15 16:44
  **/
 
 

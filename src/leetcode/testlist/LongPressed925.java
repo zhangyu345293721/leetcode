@@ -11,7 +11,6 @@ import java.util.Map;
  * "kiikcxxmmvvzz"
  *
  * @author: zhangyu
- * @date: 2019/11/11 22:28
  */
 public class LongPressed925 {
 
@@ -63,5 +62,30 @@ public class LongPressed925 {
             }
         }
         return map;
+    }
+
+    /**
+     * @param name  名字
+     * @param typed 类型
+     * @return 布尔值
+     */
+    public boolean isLongPressedName2(String name, String typed) {
+        if (name == null || name.length() < 1) {
+            return false;
+        }
+        if (typed == null || typed.length() < 1) {
+            return false;
+        }
+        int i = 0;
+        int j = 0;
+        while (i < name.length() && j < typed.length()) {
+            char ch1 = name.charAt(i);
+            char ch2 = typed.charAt(j);
+            if (ch1 == ch2) {
+                i++;
+                j++;
+            }
+        }
+        return true;
     }
 }

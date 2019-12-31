@@ -7,17 +7,13 @@ import java.util.Map;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: MajorityElement
- * @Description: TOTO
- * @date 2018/12/2 14:27
  **/
 
 
 public class MajorityElement {
     @Test
     public void fun() {
-        int[] nums = {3, 2,2,2,3};
+        int[] nums = {3, 2, 2, 2, 3};
         int majorElement = majorityElement(nums);
         System.out.println(majorElement);
     }
@@ -39,5 +35,28 @@ public class MajorityElement {
             }
         }
         return -1;
+    }
+
+    /**
+     * 找出一个数的个数大于数组中一半的长度
+     *
+     * @param nums 数组
+     * @return int类型
+     */
+    private int majorityElement2(int[] nums) {
+        //if (nums == null || nums.length == 0) return 0;
+        int major = 0;
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (count == 0) {
+                major = nums[i];
+                count++;
+            } else if (major == nums[i]) {
+                count++;
+            } else {
+                count--;
+            }
+        }
+        return major;
     }
 }

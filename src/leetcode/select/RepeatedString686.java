@@ -37,4 +37,15 @@ public class RepeatedString686 {
         }
         return -1;
     }
+
+    public int repeatedStringMatch2(String A, String B) {
+        StringBuilder res = new StringBuilder(A);
+        int max = A.length() + B.length() + A.length();
+        int count = 1;
+        while (res.length() < max && res.indexOf(B) == -1) {
+            res.append(A);
+            count++;
+        }
+        return res.indexOf(B) == -1 ? -1 : count;
+    }
 }

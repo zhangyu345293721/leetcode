@@ -6,10 +6,6 @@ import java.util.Arrays;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: ShortestUnsortedContinuousSubarray
- * @Description: TOTO
- * @date 2018/12/6 14:39
  **/
 
 
