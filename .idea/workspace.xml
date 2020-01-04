@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:更新1281题目">
-      <change afterPath="$PROJECT_DIR$/src/array/CellsOddValues1252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/CellsOddValues1252Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/LargeGroup830.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/string/LargeGroup830Demo.java" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:更新1252题目">
+      <change afterPath="$PROJECT_DIR$/src/array/ArrayPartition561.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/FlippingImage832.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/HeightChecker1051.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ReplaceGreatestRight1299.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/AddString415.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/AddString415.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/question/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/question/LongestPalindromicSubstring.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,45 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/SquaresSortedArray977.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/subtractSum1281.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-680">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/FindNUnique1304.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/question/LowFirstChar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestConsecutiveSequence.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,11 +41,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/array/CellsOddValues1252.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            <state relative-caret-position="825">
+              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/ReplaceGreatestRight1299.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="11" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/FlippingImage832.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/array/ArrayPartition561.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/array/HeightChecker1051.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-253">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,10 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/MaximumDepthTree.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/MaxRectangle.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/MinimumWindowSubstring.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/ProductArrayExceptSelf.java" />
         <option value="$PROJECT_DIR$/src/leetcode/ProductSubarray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/ShortestUnsortedContinuousSubarray.java" />
         <option value="$PROJECT_DIR$/src/leetcode/SmallSort.java" />
@@ -194,6 +191,10 @@
         <option value="$PROJECT_DIR$/src/leetcode/string/LargeGroup830Demo.java" />
         <option value="$PROJECT_DIR$/src/array/CellsOddValues1252Demo.java" />
         <option value="$PROJECT_DIR$/src/array/CellsOddValues1252.java" />
+        <option value="$PROJECT_DIR$/src/array/ReplaceGreatestRight1299.java" />
+        <option value="$PROJECT_DIR$/src/array/FlippingImage832.java" />
+        <option value="$PROJECT_DIR$/src/array/ArrayPartition561.java" />
+        <option value="$PROJECT_DIR$/src/array/HeightChecker1051.java" />
       </list>
     </option>
   </component>
@@ -204,8 +205,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="647" />
-    <option name="y" value="437" />
+    <option name="x" value="536" />
+    <option name="y" value="570" />
     <option name="width" value="1153" />
     <option name="height" value="620" />
   </component>
@@ -238,13 +239,6 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -300,9 +294,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CellsOddValues1252">
+  <component name="RunManager" selected="JUnit.HeightChecker1051.testHeightChecker">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayPartition561.testArrayPartion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="array" />
+      <option name="MAIN_CLASS_NAME" value="array.ArrayPartition561" />
+      <option name="METHOD_NAME" value="testArrayPartion" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -323,7 +334,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CellsOddValues1252Demo.cellsOddValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FlippingImage832.testFlippingImage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -332,15 +343,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="array" />
-      <option name="MAIN_CLASS_NAME" value="array.CellsOddValues1252Demo" />
-      <option name="METHOD_NAME" value="cellsOddValues" />
+      <option name="MAIN_CLASS_NAME" value="array.FlippingImage832" />
+      <option name="METHOD_NAME" value="testFlippingImage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CellsOddValues1252.cellsOddValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HeightChecker1051.testHeightChecker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -349,41 +360,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="array" />
-      <option name="MAIN_CLASS_NAME" value="array.CellsOddValues1252" />
-      <option name="METHOD_NAME" value="cellsOddValues" />
+      <option name="MAIN_CLASS_NAME" value="array.HeightChecker1051" />
+      <option name="METHOD_NAME" value="testHeightChecker" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargeGroup830Demo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReplaceGreatestRight1299.replaceGreatestRight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.string.LargeGroup830Demo" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargeGroup830Demo.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.string.LargeGroup830Demo" />
-      <option name="METHOD_NAME" value="fun" />
+      <option name="PACKAGE_NAME" value="array" />
+      <option name="MAIN_CLASS_NAME" value="array.ReplaceGreatestRight1299" />
+      <option name="METHOD_NAME" value="replaceGreatestRight" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -477,19 +472,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.LargeGroup830Demo.fun" />
-      <item itemvalue="JUnit.LargeGroup830Demo" />
       <item itemvalue="JUnit.CellsOddValues1252" />
-      <item itemvalue="JUnit.CellsOddValues1252.cellsOddValues" />
-      <item itemvalue="JUnit.CellsOddValues1252Demo.cellsOddValues" />
+      <item itemvalue="JUnit.ReplaceGreatestRight1299.replaceGreatestRight" />
+      <item itemvalue="JUnit.FlippingImage832.testFlippingImage" />
+      <item itemvalue="JUnit.ArrayPartition561.testArrayPartion" />
+      <item itemvalue="JUnit.HeightChecker1051.testHeightChecker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeightChecker1051.testHeightChecker" />
+        <item itemvalue="JUnit.ArrayPartition561.testArrayPartion" />
+        <item itemvalue="JUnit.FlippingImage832.testFlippingImage" />
+        <item itemvalue="JUnit.ReplaceGreatestRight1299.replaceGreatestRight" />
         <item itemvalue="JUnit.CellsOddValues1252" />
-        <item itemvalue="JUnit.CellsOddValues1252Demo.cellsOddValues" />
-        <item itemvalue="JUnit.CellsOddValues1252.cellsOddValues" />
-        <item itemvalue="JUnit.LargeGroup830Demo.fun" />
-        <item itemvalue="JUnit.LargeGroup830Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +541,7 @@
       <workItem from="1577758541865" duration="9994000" />
       <workItem from="1577884807007" duration="4038000" />
       <workItem from="1577958030601" duration="1544000" />
-      <workItem from="1577982293260" duration="18864000" />
+      <workItem from="1577982293260" duration="27153000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -856,49 +851,56 @@
       <option name="project" value="LOCAL" />
       <updated>1578034299106</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="master:更新1252题目">
+      <created>1578116490914</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1578116490914</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CellsOddValues1252 - 2020.01.04 at 13h 25m 21s.xml">
-      <configuration name="CellsOddValues1252" configurationId="JUnit" />
+    <history-entry file="ArrayPartition561_testArrayPartion - 2020.01.04 at 22h 23m 07s.xml">
+      <configuration name="ArrayPartition561.testArrayPartion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252 - 2020.01.04 at 13h 25m 24s.xml">
-      <configuration name="CellsOddValues1252" configurationId="JUnit" />
+    <history-entry file="ArrayPartition561_testArrayPartion - 2020.01.04 at 22h 25m 33s.xml">
+      <configuration name="ArrayPartition561.testArrayPartion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252_cellsOddValues - 2020.01.04 at 13h 33m 32s.xml">
-      <configuration name="CellsOddValues1252.cellsOddValues" configurationId="JUnit" />
+    <history-entry file="HeightChecker1051_testHeightChecker - 2020.01.04 at 23h 07m 44s.xml">
+      <configuration name="HeightChecker1051.testHeightChecker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252Demo_cellsOddValues - 2020.01.04 at 13h 33m 32s.xml">
-      <configuration name="CellsOddValues1252Demo.cellsOddValues" configurationId="JUnit" />
+    <history-entry file="HeightChecker1051_testHeightChecker - 2020.01.04 at 23h 09m 00s.xml">
+      <configuration name="HeightChecker1051.testHeightChecker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252Demo_cellsOddValues - 2020.01.04 at 13h 33m 39s.xml">
-      <configuration name="CellsOddValues1252Demo.cellsOddValues" configurationId="JUnit" />
+    <history-entry file="HeightChecker1051_testHeightChecker - 2020.01.04 at 23h 12m 53s.xml">
+      <configuration name="HeightChecker1051.testHeightChecker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252 - 2020.01.04 at 13h 35m 53s.xml">
-      <configuration name="CellsOddValues1252" configurationId="JUnit" />
+    <history-entry file="HeightChecker1051_testHeightChecker - 2020.01.04 at 23h 16m 06s.xml">
+      <configuration name="HeightChecker1051.testHeightChecker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252 - 2020.01.04 at 13h 37m 03s.xml">
-      <configuration name="CellsOddValues1252" configurationId="JUnit" />
+    <history-entry file="HeightChecker1051_testHeightChecker - 2020.01.04 at 23h 17m 00s.xml">
+      <configuration name="HeightChecker1051.testHeightChecker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252 - 2020.01.04 at 13h 37m 33s.xml">
-      <configuration name="CellsOddValues1252" configurationId="JUnit" />
+    <history-entry file="HeightChecker1051_testHeightChecker - 2020.01.04 at 23h 17m 35s.xml">
+      <configuration name="HeightChecker1051.testHeightChecker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252 - 2020.01.04 at 13h 37m 47s.xml">
-      <configuration name="CellsOddValues1252" configurationId="JUnit" />
+    <history-entry file="HeightChecker1051_testHeightChecker - 2020.01.04 at 23h 27m 31s.xml">
+      <configuration name="HeightChecker1051.testHeightChecker" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CellsOddValues1252 - 2020.01.04 at 13h 37m 51s.xml">
-      <configuration name="CellsOddValues1252" configurationId="JUnit" />
+    <history-entry file="HeightChecker1051_testHeightChecker - 2020.01.04 at 23h 30m 34s.xml">
+      <configuration name="HeightChecker1051.testHeightChecker" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399221000" />
+    <option name="totallyTimeSpent" value="407510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.19798657" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.19798657" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -907,8 +909,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.28951254" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5539143" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.29985228" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40620384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1009,7 +1011,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="classfication question2" />
     <MESSAGE value="add leetcode question" />
     <MESSAGE value="add merge_arr" />
     <MESSAGE value="添加约瑟夫环问题的python编码" />
@@ -1034,7 +1035,8 @@
     <MESSAGE value="master:修改动态规划结构" />
     <MESSAGE value="master:修改子字符串" />
     <MESSAGE value="master:更新1281题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:更新1281题目" />
+    <MESSAGE value="master:更新1252题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:更新1252题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1053,48 +1055,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/CellsOddValues1252.java</url>
-          <line>34</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/array/CellsOddValues1252.java</url>
-          <line>37</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ReplaceGreatestRight1299.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ReplaceGreatestRight1299.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/FlippingImage832.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1093">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/reverseTree226/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="135" column="69" lean-forward="true" selection-start-line="135" selection-start-column="69" selection-end-line="135" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/BestTimeBuySell.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/BitCount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/question/CapPartition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1389,8 +1381,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array/CellsOddValues1252.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="825">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/ReplaceGreatestRight1299.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/FlippingImage832.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/ArrayPartition561.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/HeightChecker1051.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
