@@ -6,6 +6,7 @@
    description: 在一个数组中找出两个数的和为一个固定值
 '''
 def get_two_number(arr, sum):
+    
     dict = {}
     count = 0
     for i in arr:
