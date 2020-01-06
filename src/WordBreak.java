@@ -12,7 +12,7 @@ import java.util.List;
 
 public class WordBreak {
     @Test
-    public void fun() {
+    public void testWordBreak() {
         String s = "applepenapple";
         List<String> wordDict = new ArrayList<>();
         wordDict.add("apple");

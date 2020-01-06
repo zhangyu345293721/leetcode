@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class BestTimetoBuyandSellStock {
     @Test
-    public void fun() {
+    public void testBestTimeSellStock() {
         int[] nums = {7, 1, 5, 3, 6, 4};
         int maxProfit = maxProfit(nums);
         System.out.println(maxProfit);

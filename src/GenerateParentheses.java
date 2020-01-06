@@ -10,7 +10,7 @@ import java.util.List;
  **/
 
 
-public class GenerateParentheses1 {
+public class GenerateParentheses {
     @Test
     public void fun() {
         int n = 3;

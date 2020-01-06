@@ -74,8 +74,6 @@ public class MergeArray {
         while (i < arr1.length && j < arr2.length) {
             if (arr1[i] < arr2[j]) {
                 newArr[count] = arr1[i];
-                if (i + 1 != arr1.length) {
-                }
                 i++;
                 count++;
             } else if (arr1[i] == arr2[j]) {

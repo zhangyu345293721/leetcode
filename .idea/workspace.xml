@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:更新561,832,1051,1299题目">
-      <change afterPath="$PROJECT_DIR$/src/array/FindWords1160.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/RelativeSortArray1122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SortArrayParity922.java" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/FindNUnique1304.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/FindNUnique1304.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/GenerateParentheses1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LongestValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcode/LongestValidParentheses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenerateParentheses1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenerateParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LongestValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WordBreak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordBreak.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,103 +24,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/FlippingImage832.java">
+        <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/ValidPalindrome125.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="-359">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/HeightChecker1051.java">
+        <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-634">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/RelativeSortArray1122.java">
+        <entry file="file://$PROJECT_DIR$/src/LongestValidParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="116">
+              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/RemoveElement27.java">
+        <entry file="file://$PROJECT_DIR$/src/MergeArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="1711">
+              <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/SquaresSortedArray977.java">
+        <entry file="file://$PROJECT_DIR$/src/PlusOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="274">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/subtractSum1281.java">
+        <entry file="file://$PROJECT_DIR$/src/SearchIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/SortArrayByParity905.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="44" column="16" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="16" />
+            <state relative-caret-position="-700">
+              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/array/SortArrayParity922.java">
+        <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/ReplaceGreatestRight1299.java">
+        <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/ComplexNumber537.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="11" selection-end-column="40" />
+            <state relative-caret-position="-59">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/array/FindNUnique1304.java">
+        <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/SelectDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="416">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -147,34 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/Subsets.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/TrapWater.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/reverseTree226/Solution.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/BestTimeBuySell.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/BitCount.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/CapPartition.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/CombinationSum.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/ContainerWithMostWater.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/DecodeString.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/EqualsIgnoreOrderString.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/FindAllAnagrams2.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/FindAllAnagrams.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/FindDisappearedNumbers2.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/FindDisappearedNumbers.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/FindDuplicateNumber.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/FindFirstLastPosition.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/FindMediaTwoSortArray.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/IsPalindromic.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/GroupAnagrams.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/JumpGame.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/LongestConsecutiveSequence.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/LongestIncreasingSubsequence.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/LowFirstChar.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/LongestSubstringWithoutRepeatingCharacters.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/question/LetterCombinationsPhoneNumber.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/dynamicprogramming/ClimbingStairs.java" />
-        <option value="$PROJECT_DIR$/src/array/SquaresSortedArray977.java" />
         <option value="$PROJECT_DIR$/src/array/SortArrayByParity905.java" />
         <option value="$PROJECT_DIR$/src/array/RemoveElement27.java" />
         <option value="$PROJECT_DIR$/src/array/FindNumbers1295.java" />
@@ -198,6 +161,34 @@
         <option value="$PROJECT_DIR$/src/array/RelativeSortArray1122.java" />
         <option value="$PROJECT_DIR$/src/array/FindNUnique1304.java" />
         <option value="$PROJECT_DIR$/src/array/SortArrayParity922.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/DayYear1154.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/AddBinary67.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/DefangingIP1108.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/FirstUniqueCharacter387.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/GreatestCommon1071.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/InvertNumber.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/LongestCommon14.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/LongPressed925.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/MaximumNumberofBalloons1189.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/MultiplyStrings43.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/NumberSegments434.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/RepeatedString686.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/RepeatedString6862.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/RepeatedSubstring459.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/ReplacePattern890.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/RunCount.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/SplitString1221.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/StudentAttendance551.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/UniqueMorse804.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/ValidPalindrome125.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/ComplexNumber537.java" />
+        <option value="$PROJECT_DIR$/src/array/arrangementselect/SelectDemo.java" />
+        <option value="$PROJECT_DIR$/src/GenerateParentheses1.java" />
+        <option value="$PROJECT_DIR$/src/LongestValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/MergeArray.java" />
+        <option value="$PROJECT_DIR$/src/PlusOne.java" />
+        <option value="$PROJECT_DIR$/src/WordBreak.java" />
       </list>
     </option>
   </component>
@@ -208,10 +199,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-2410" />
+    <option name="y" value="-10" />
+    <option name="width" value="2420" />
+    <option name="height" value="1320" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -230,25 +221,6 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="top100likedquestions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -262,7 +234,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode/select" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/array" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -279,6 +251,7 @@
       <recent name="leetcode.TestWeb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\array" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\select" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\python" />
@@ -297,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortArrayParity922">
+  <component name="RunManager" selected="JUnit.MergeArray.fun">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -337,17 +310,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelativeSortArray1122.testRelativeSortArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeArray.fun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="array" />
-      <option name="MAIN_CLASS_NAME" value="array.RelativeSortArray1122" />
-      <option name="METHOD_NAME" value="testRelativeSortArray" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MergeArray" />
+      <option name="METHOD_NAME" value="fun" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -473,20 +440,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RelativeSortArray1122.testRelativeSortArray" />
       <item itemvalue="JUnit.SortArrayParity922.testSortArrayParity" />
       <item itemvalue="JUnit.FindWords1160" />
       <item itemvalue="JUnit.FindWords1160.testFindWords" />
       <item itemvalue="JUnit.SortArrayParity922" />
       <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.MergeArray.fun" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeArray.fun" />
         <item itemvalue="JUnit.SortArrayParity922" />
         <item itemvalue="JUnit.FindWords1160.testFindWords" />
         <item itemvalue="JUnit.FindWords1160" />
         <item itemvalue="JUnit.SortArrayParity922.testSortArrayParity" />
-        <item itemvalue="JUnit.RelativeSortArray1122.testRelativeSortArray" />
       </list>
     </recent_temporary>
   </component>
@@ -544,7 +511,7 @@
       <workItem from="1577884807007" duration="4038000" />
       <workItem from="1577958030601" duration="1544000" />
       <workItem from="1577982293260" duration="39028000" />
-      <workItem from="1578285853468" duration="615000" />
+      <workItem from="1578285853468" duration="2348000" />
     </task>
     <task id="LOCAL-00001" summary="second comit">
       <created>1545725098641</created>
@@ -868,13 +835,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578152196924</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="master:更新1304,1160,1122,922题目">
+      <created>1578286559195</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1578286559195</updated>
+    </task>
+    <task id="LOCAL-00048" summary="master:增加题目">
+      <created>1578290250861</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1578290250861</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RelativeSortArray1122_testRelativeSortArray - 2020.01.05 at 16h 17m 34s.xml">
-      <configuration name="RelativeSortArray1122.testRelativeSortArray" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RelativeSortArray1122_testRelativeSortArray - 2020.01.05 at 16h 27m 34s.xml">
       <configuration name="RelativeSortArray1122.testRelativeSortArray" configurationId="JUnit" />
     </history-entry>
@@ -902,15 +880,18 @@
     <history-entry file="SortArrayParity922 - 2020.01.06 at 00h 19m 33s.xml">
       <configuration name="SortArrayParity922" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MergeArray_fun - 2020.01.06 at 13h 59m 50s.xml">
+      <configuration name="MergeArray.fun" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420000000" />
+    <option name="totallyTimeSpent" value="421733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.15901814" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.15901814" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -919,7 +900,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.24300112" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.24300112" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40620384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -929,11 +910,11 @@
       <window_info anchor="bottom" id="Statistic" order="9" weight="0.3180291" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3266129" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3268229" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32586786" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="15" />
-      <window_info anchor="bottom" id="SonarLint" order="16" weight="0.65140325" />
+      <window_info anchor="bottom" id="SonarLint" order="16" weight="0.39865622" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1021,7 +1002,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add merge_arr" />
     <MESSAGE value="添加约瑟夫环问题的python编码" />
     <MESSAGE value="添加两个数之和是一个固定值" />
     <MESSAGE value="翻转一个integer的数" />
@@ -1036,7 +1016,6 @@
     <MESSAGE value="添加python的128题目" />
     <MESSAGE value="添加python的55,142,128,48题目" />
     <MESSAGE value="更新题目" />
-    <MESSAGE value="master:增加题目" />
     <MESSAGE value="master:修改题目的注释" />
     <MESSAGE value="master:合并算法，放到一个类中" />
     <MESSAGE value="master:精简方法，重构代码" />
@@ -1046,7 +1025,9 @@
     <MESSAGE value="master:更新1281题目" />
     <MESSAGE value="master:更新1252题目" />
     <MESSAGE value="master:更新561,832,1051,1299题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:更新561,832,1051,1299题目" />
+    <MESSAGE value="master:更新1304,1160,1122,922题目" />
+    <MESSAGE value="master:增加题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1097,175 +1078,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/EqualsIgnoreOrderString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/FindAllAnagrams2.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/FindAllAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/FindDisappearedNumbers2.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/FindDisappearedNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1024">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/FindDuplicateNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/FindFirstLastPosition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/GenericityTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/FindMediaTwoSortArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/IsPalindromic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/GroupAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/JumpGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LargestRectangleHistogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/select/MaximumNumberofBalloons1189.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LetterCombinationsPhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/traversebinarytree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/dynamicprogramming/ClimbingStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/select/InvertNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/select/LongPressed925.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/select/MaximumNumberofBalloons11892.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/str/StringCompression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/top100likedquestions/LetterCombinationsPhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/top100likedquestions/helll.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/AddString415.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestSubstringWithoutRepeatingCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LowFirstChar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/question/LongestConsecutiveSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -1384,16 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/array/SquaresSortedArray977.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/array/subtractSum1281.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -1424,11 +1226,258 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/array/SortArrayParity922.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        <state relative-caret-position="-384">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/SquaresSortedArray977.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/AddBinary67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/DayYear1154.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/DefangingIP1108.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/FirstUniqueCharacter387.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/GreatestCommon1071.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/InvertNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/LongestCommon14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/LongPressed925.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/MaximumNumberofBalloons1189.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/MultiplyStrings43.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/NumberSegments434.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/RepeatedString686.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/RepeatedString6862.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/RepeatedSubstring459.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/ReplacePattern890.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/ReverseString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/SplitString1221.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/RunCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/StudentAttendance551.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/UniqueMorse804.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/ComplexNumber537.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/SelectDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/array/arrangementselect/ValidPalindrome125.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BestTimetoBuyandSellStock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LongestValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MergeArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1711">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SearchIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 
 /**
@@ -24,7 +26,7 @@ public class LongestValidParentheses {
      * @return int类型
      */
     private int longestValidParentheses(String s) {
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new LinkedList<>();
         int count = 0;
         int max = 0;
         char chs[] = s.toCharArray();

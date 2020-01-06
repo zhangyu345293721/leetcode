@@ -76,7 +76,7 @@ public class MergeArray {
     }
 
     @Test
-    public void mergeArray() {
+    public void testMergeArray() {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {2, 5, 6};
         int[] arr = merge2(nums1, 3, nums2, 3);

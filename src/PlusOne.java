@@ -14,7 +14,7 @@ import java.util.Arrays;
 public class PlusOne {
 
     @Test
-    public void fun() {
+    public void testPlusOne() {
         int[] digits = {3, 2, 1, 4};
         int[] newArr = getPlusOne(digits);
         System.out.println(Arrays.toString(newArr));
@@ -37,7 +37,6 @@ public class PlusOne {
         int length = getNumberLength(sum);
         int[] newArr = new int[length];
         int index = 0;
-        //数字变成数组
         while (sum != 0) {
             newArr[index] = sum % 10;
             sum = sum / 10;
@@ -75,6 +74,4 @@ public class PlusOne {
             arr[arr.length - 1 - i] = temp;
         }
     }
-
-
 }
