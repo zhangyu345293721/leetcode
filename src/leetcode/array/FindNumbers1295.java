@@ -11,11 +11,13 @@ public class FindNumbers1295 {
     @Test
     public void testFindNumber() {
         int[] nums = {12, 345, 2, 6, 7896};
-        int count=findNumbers(nums);
+        int count = findNumbers(nums);
         System.out.println(count);
     }
 
     /**
+     * 寻找数字
+     *
      * @param nums 数组
      * @return 寻找数字
      */

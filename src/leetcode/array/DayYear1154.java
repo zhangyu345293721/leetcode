@@ -19,6 +19,12 @@ public class DayYear1154 {
         System.out.println("daysOfYear = " + daysOfYear);
     }
 
+    /**
+     * 日期是一年中的多少天
+     *
+     * @param date 日期
+     * @return number
+     */
     public int dayOfYear(String date) {
         String[] strs = date.split("-");
         int year = Integer.parseInt(strs[0]);
@@ -28,6 +34,12 @@ public class DayYear1154 {
         return d.getDayOfYear();
     }
 
+    /**
+     * 日期是一年中的多少天
+     *
+     * @param date 日期
+     * @return number
+     */
     public int dayOfYear2(String date) {
         String[] strs = date.split("-");
         int year = Integer.parseInt(strs[0]);
@@ -51,7 +63,6 @@ public class DayYear1154 {
         int month = Integer.valueOf(strs[1]);
         int day = Integer.valueOf(strs[2]);
         int days = 0;
-
         if (isLeep(year)) {
             int[] dayOfMonths = {0, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
             for (int i = 0; i < month - 1; i++) {
@@ -65,7 +76,6 @@ public class DayYear1154 {
         }
         days += day;
         return days;
-
     }
 
     /**
