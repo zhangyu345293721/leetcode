@@ -1,6 +1,5 @@
 package leetcode.tree;
 
-import leetcode.question.reverseTree226.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

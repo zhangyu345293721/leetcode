@@ -80,7 +80,6 @@ public class HouseRobber {
      * @return 钱数
      */
     private int houseRobber2(int[] nums) {
-        // 当数组长度为0,直接返回0
         if (nums == null || nums.length == 0) {
             return 0;
         }
