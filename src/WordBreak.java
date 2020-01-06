@@ -22,6 +22,13 @@ public class WordBreak {
     }
 
 
+    /**
+     * 单词拆分
+     *
+     * @param s        字符串
+     * @param wordDict 单词字典
+     * @return
+     */
     private boolean wordBreak2(String s, List<String> wordDict) {
         boolean[] f = new boolean[s.length() + 1];
         f[0] = true;

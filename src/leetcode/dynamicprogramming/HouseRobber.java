@@ -10,7 +10,7 @@ import java.util.*;
 
 public class HouseRobber {
     @Test
-    public void fun() {
+    public void testHouseRobber() {
         int[] nums = {1, 1, 1};
         int totalMoney = houseRobber(nums);
         System.out.println(totalMoney);

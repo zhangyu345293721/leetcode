@@ -7,9 +7,9 @@ import org.junit.Test;
  **/
 
 
-public class MaximumSubarray2 {
+public class MaximumSubarray {
     @Test
-    public void fun() {
+    public void testMaximumSubarray() {
         int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         int maxNum = maximumSubarray(nums);
         System.out.println(maxNum);

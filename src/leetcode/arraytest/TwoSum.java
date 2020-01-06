@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class TwoSum {
     @Test
-    public void fun() {
+    public void testTwoSum() {
         int[] nums = {1, 2, 2, 3, 3, 7};
         int target = 5;
         int[] arr = getSumIndex2(nums, target);

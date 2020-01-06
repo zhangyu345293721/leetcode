@@ -11,7 +11,7 @@ import org.junit.Test;
 
 public class ClimbingStairs {
     @Test
-    public void fun() {
+    public void testClimbingStairs() {
         long startTime = System.currentTimeMillis();
         int n = 44;
         int num = climbingStairs(n);
