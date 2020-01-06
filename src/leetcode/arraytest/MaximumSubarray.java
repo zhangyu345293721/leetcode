@@ -20,7 +20,7 @@ public class MaximumSubarray {
      * 这种比较直接，又通俗易懂的方式
      *
      * @param nums 数组
-     * @return
+     * @return 最大值
      */
     private int maximumSubarray(int[] nums) {
         int max = nums[0], sum = 0;
