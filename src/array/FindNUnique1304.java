@@ -12,7 +12,6 @@ public class FindNUnique1304 {
 
     @Test
     public void testFindNunique() {
-        int n = 5;
         int arr[] = sumZero(5);
         for (int num : arr) {
             System.out.print(num);
