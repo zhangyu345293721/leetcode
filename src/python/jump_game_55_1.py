@@ -18,6 +18,15 @@ def get_judge_jump_arr(arr):
             return True
     return True
 
+def get_judge_jump_arr2(arr):
+    max = 0
+    length = len(arr)
+    for index in range(1, length):
+        if arr[index - 1] == 0 and index > arr[max] + max:
+            return False
+        if arr[max] - (index - max) < arr[index]:
+            max = index
+    return True
 
 if __name__ == '__main__':
     arr = [2, 3, 1, 1, 4]

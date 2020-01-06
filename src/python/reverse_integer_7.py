@@ -19,6 +19,13 @@ def get_reverse_integer(num):
     else:
         return 0
 
+def reverse_integer(num):
+    if num == 0:
+        return num
+    if num > 0:
+        return int(str(num)[::-1])
+    else:
+        return int('-' + str(num)[1:][::-1])
 
 if __name__ == '__main__':
     number = get_reverse_integer(123459999999999999999)

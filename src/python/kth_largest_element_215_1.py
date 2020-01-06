@@ -11,6 +11,15 @@ def find_k_max_number(arr, k):
     new_arr = sorted(arr, reverse=True)
     return new_arr[k - 1]
 
+
+def kth_largest_element_num(arr, k):
+    pq = queue.PriorityQueue()
+    for ele in arr:
+        pq.put(ele)
+        if pq.qsize() > k:
+            pq.get()
+    return pq.get()
+
 if __name__ == '__main__':
     numbers = [1, -3, 2, 9, 4, 7, 5]
     num = find_k_max_number(numbers, 2)

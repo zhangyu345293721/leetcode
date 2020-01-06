@@ -24,6 +24,29 @@ def get_intersection(arr1, arr2):
             j += 1
     return arr
 
+def get_intersection2(arr1, arr2):
+    arr = []
+    s1 = set()
+    for ele in arr1:
+        s1.add(ele)
+    s2 = set()
+    for ele in arr2:
+        s2.add(ele)
+    for ele in s1:
+        if s2.__contains__(ele):
+            arr.append(ele)
+    return arr
+
+def get_intersection3(arr1, arr2):
+    s = set()
+    for ele in arr1:
+        s.add(ele)
+    arr = []
+    for ele in arr2:
+        if s.__contains__(ele):
+            arr.append(ele)
+            s.remove(ele)
+    return arr
 
 if __name__ == '__main__':
     arr1 = [1, 2, 3, 1]

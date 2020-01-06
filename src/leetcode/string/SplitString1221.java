@@ -1,7 +1,9 @@
-package array.arrangementselect;
+package leetcode.string;
 
 import org.junit.Test;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 
 /**
@@ -26,9 +28,9 @@ public class SplitString1221 {
      */
     public int balancedStringSplit(String s) {
         int count = 0;
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new LinkedList<>();
         for (char ch : s.toCharArray()) {
-            if (stack.empty()) {
+            if (stack.isEmpty()) {
                 stack.push(ch);
             } else {
                 if (ch == 'L') {
