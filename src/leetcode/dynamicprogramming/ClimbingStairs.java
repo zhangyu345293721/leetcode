@@ -33,17 +33,15 @@ public class ClimbingStairs {
         int[] dp = new int[n + 1];
         dp[1] = 1;
         dp[2] = 2;
-        // 然后进行动态规划
         for (int i = 3; i <= n; i++) {
             dp[i] = dp[i - 1] + dp[i - 2];
         }
-        // 最后返回dp[n]
         return dp[n];
     }
 
 
     /**
-     * 利用递归的方式，找出上楼梯的种数
+     * 利用递归方式，找出上楼梯的种数
      *
      * @param n 数字
      * @return int

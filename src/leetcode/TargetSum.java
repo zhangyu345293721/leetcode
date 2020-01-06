@@ -14,7 +14,7 @@ import java.util.Queue;
 
 public class TargetSum {
     @Test
-    public void fun() {
+    public void testTargetSum() {
         int[] nums = {1, 8, 9, 3, 4, 5, 7};
         int target = 20;
         LinkedList queue = new LinkedList();
@@ -36,6 +36,13 @@ public class TargetSum {
         return -1;
     }
 
+    /**
+     * 计算字符
+     *
+     * @param nums     数组
+     * @param operator 操作符
+     * @return 数字
+     */
     private int compute(int[] nums, String operator) {
         int sum = 0;
         if ("+".equals(operator)) {
@@ -53,7 +60,7 @@ public class TargetSum {
 
     /**
      * @param nums 数组
-     * @param S    s
+     * @param S    数字
      * @return 目标值
      */
     public int findTargetSumWays2(int[] nums, int S) {

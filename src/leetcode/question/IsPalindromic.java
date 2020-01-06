@@ -1,5 +1,8 @@
 package python;
 
+import org.junit.Test;
+
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -10,6 +13,13 @@ import java.util.List;
 
 
 public class IsPalindromic {
+
+    @Test
+    public void testGroupAnagrams() {
+        String str = "eat";
+        boolean flag = isPalindromicString1(str);
+        System.out.println(flag);
+    }
 
     /**
      * @param subString 下标

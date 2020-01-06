@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 public class ProductArrayExceptSelf {
     @Test
-    public void fun() {
+    public void testProductArrayExceptSelf() {
         int[] nums = {1, 2, 3, 4};
         int[] newArrs = productArrayExceptSelf2(nums);
         System.out.println(Arrays.toString(newArrs));

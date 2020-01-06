@@ -13,12 +13,19 @@ import java.util.Arrays;
 
 public class RotatedSortedArray {
     @Test
-    public void fun() {
+    public void testRotatedSortedArray() {
         int[] nums = {4, 5, 6, 7, 0, 1, 2};
         int index = rotatedSortedArray2(nums, 0);
         System.out.println(index);
     }
 
+    /**
+     * 旋转有序数组
+     *
+     * @param nums 数组
+     * @param key  关键字
+     * @return 关键字
+     */
     private int rotatedSortedArray(int[] nums, int key) {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == key) {
@@ -28,6 +35,13 @@ public class RotatedSortedArray {
         return -1;
     }
 
+    /**
+     * 旋转有序数组
+     *
+     * @param nums 数组
+     * @param target  关键字
+     * @return 关键字
+     */
     private int rotatedSortedArray2(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left <= right) {
@@ -50,6 +64,5 @@ public class RotatedSortedArray {
             }
         }
         return -1;
-
     }
 }

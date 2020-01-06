@@ -1,3 +1,4 @@
+package leetcode.question;
 
 import org.junit.Test;
 
@@ -11,14 +12,19 @@ import java.util.*;
 
 public class GroupAnagrams {
     @Test
-    public void fun() {
+    public void testGroupAnagrams() {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
         List<List<String>> list = groupAnagrams(strs);
         System.out.println(list);
         System.out.println(Arrays.toString(strs));
     }
 
-
+    /**
+     * 生成镶嵌链表
+     *
+     * @param strs 字符串数组
+     * @return 链表
+     */
     private List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> newList = new ArrayList<>();
         for (int i = 0; i < strs.length; i++) {
@@ -48,6 +54,12 @@ public class GroupAnagrams {
         return newList;
     }
 
+    /**
+     * 生成镶嵌链表
+     *
+     * @param strs 字符串数组
+     * @return 链表
+     */
     private List<List<String>> groupAnagrams2(String[] strs) {
         int[] prime = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103};//最多10609个z
         System.out.println(prime.length);
@@ -71,6 +83,12 @@ public class GroupAnagrams {
         return res;
     }
 
+    /**
+     * 生成镶嵌链表
+     *
+     * @param strs 字符串数组
+     * @return 链表
+     */
     private List<List<String>> groupAnagrams3(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
         for (String str : strs) {

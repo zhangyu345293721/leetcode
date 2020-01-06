@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class UniquePaths {
     @Test
-    public void fun() {
+    public void testUniquePaths() {
         int method = uniquePaths(3, 2);
         System.out.println(method);
     }
@@ -31,7 +31,6 @@ public class UniquePaths {
         for (int j = 0; j < n; j++) {
             dp[0][j] = 1;
         }
-        // 动态规划
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 dp[i][j] = dp[i - 1][j] + dp[i][j - 1];

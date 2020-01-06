@@ -17,16 +17,20 @@ public class BitCount {
         System.out.println(count);
     }
 
-    // 计算bit的二进制中1的个数
+
+    /**
+     * 计算bit的二进制中1的个数
+     *
+     * @param num 数字
+     * @return
+     */
     private int bitCountStatistic(int num) {
         int count = 0;
         while (num > 0) {
-            // 统计1的个数
             count = count + (num & 1);
             // 然后数字朝右移动一位
             num = num >> 1;
         }
-        // 最后返回数字中1的个数
         return count;
     }
 }

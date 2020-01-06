@@ -12,7 +12,7 @@ import java.util.Arrays;
 
 public class MoveZeroes {
     @Test
-    public void fun() {
+    public void testMoveZeroes() {
         int[] nums = {0, 0, 1};
         moveZeroes2(nums);
         System.out.println(Arrays.toString(nums));

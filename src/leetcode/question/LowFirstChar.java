@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class LowFirstChar {
     @Test
-    public void fun() {
+    public void testLowFirstChar() {
         String s = "ABC";
         String lowS = lowFirstChar(s);
         System.out.println(lowS);

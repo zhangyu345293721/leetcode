@@ -16,7 +16,7 @@ import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     @Test
-    public void fun() {
+    public void testLongestSubstringWithoutRepeatingCharacters() {
         String s = "pwwkew";
         int num = longestSubstringWithoutRepeatingCharacters(s);
         System.out.println(num);

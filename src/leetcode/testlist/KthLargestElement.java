@@ -10,10 +10,6 @@ import java.util.Queue;
 
 /**
  * @author zhangyu
- * @version V1.0
- * @ClassName: KthLargestElement
- * @Description: TOTO
- * @date 2018/11/25 17:23
  **/
 
 
@@ -26,7 +22,7 @@ public class KthLargestElement {
         System.out.println(key);
     }
 
-   /* // 找出第k小的值
+    // 找出第k小的值
     private int kthLargestElement(int[] nums, int k) {
         Queue<Integer> queue = new PriorityQueue<>();
         for (int num : nums) {
@@ -36,7 +32,7 @@ public class KthLargestElement {
             queue.poll();
         }
         return queue.peek();
-    }*/
+    }
 
     // 找出第k小的值
     private int kthLargestElement2(Integer[] nums, int k) {
@@ -49,16 +45,21 @@ public class KthLargestElement {
         return nums[k - 1];
     }
 
-    // 找出第k大的值
+
+    /**
+     * 找出第k大的值
+     *
+     * @param nums 数组
+     * @param k    k个
+     * @return 最大值
+     */
     private int kthLargestElement3(Integer[] nums, int k) {
-            PriorityQueue<Integer> pq = new PriorityQueue<>(k+1);
-            for(int i : nums){
-                pq.add(i);
-                // 把前面k-1个数都输出
-                if(pq.size() > k) pq.poll();
-            }
-            // 输出第k个数
-            return pq.poll();
+        PriorityQueue<Integer> pq = new PriorityQueue<>(k + 1);
+        for (int i : nums) {
+            pq.add(i);
+            if (pq.size() > k) pq.poll();
+        }
+        return pq.poll();
     }
 }
 

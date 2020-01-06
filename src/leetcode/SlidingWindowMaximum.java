@@ -17,7 +17,7 @@ import java.util.List;
 public class SlidingWindowMaximum {
 
     @Test
-    public void fun() {
+    public void testSlidingWindowMaximum() {
         int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
         int key = 3;
         List<Integer> arr = slidingWindowMaximum(nums, key);
@@ -25,6 +25,8 @@ public class SlidingWindowMaximum {
     }
 
     /**
+     * 最大活动窗口
+     *
      * @param nums 数组
      * @param key  关键字
      * @return list

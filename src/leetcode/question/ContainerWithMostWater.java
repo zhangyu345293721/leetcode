@@ -1,11 +1,20 @@
 package leetcode.question;
 
+import org.junit.Test;
+
 /**
  * @author zhangyu
  **/
 
 
 public class ContainerWithMostWater {
+
+    @Test
+    public void testCoinChange() {
+        int height[] = {1, 2, 5};
+        int area = maxArea(height);
+        System.out.println(area);
+    }
 
     /**
      * 暴力算法（brute force）

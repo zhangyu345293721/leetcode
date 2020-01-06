@@ -38,17 +38,12 @@ public class Traverse {
             return;
         }
         Stack<TreeNode> stack = new Stack<>();
-        // 如果栈一直不为空就一直循环
         while (!stack.isEmpty()) {
-            // 定义一个变量接收栈中元素
             TreeNode p = stack.pop();
-            // 如果栈顶不为空，直接输出
             System.out.println(p.val);
-            // 如果左子树不为空，直接保存到栈中
             if (p.left != null) {
                 stack.push(p.left);
             }
-            // 如果右子树不为空，直接保存到栈中
             if (p.right != null) {
                 stack.push(p.right);
             }

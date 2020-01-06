@@ -11,14 +11,18 @@ import java.util.List;
 
 public class Subsets {
     @Test
-    public void fun() {
+    public void testSubsets() {
         int[] nums = {1, 2, 3};
         List<List<Integer>> list = subsets(nums);
         System.out.println(list);
     }
 
+
     /**
      * 子集
+     *
+     * @param nums 数组
+     * @return 子集
      */
     private List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> list = new ArrayList<>();

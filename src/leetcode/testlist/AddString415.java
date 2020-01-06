@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
  * 两个字符串相加
  *
  * @author: zhangyu
- * @create: 2019/11/09 17:23
  */
 public class AddString415 {
 
@@ -23,8 +22,14 @@ public class AddString415 {
 
     }
 
+    /**
+     * 加字符串
+     *
+     * @param num1 字符串1
+     * @param num2 字符串2
+     * @return 字符串和
+     */
     public String addStr(String num1, String num2) {
-        // todo:
         // 1.先将字符串变成数字数组
         // 2.找到最大的list和最小的
         // 3.两个链表相加
@@ -91,11 +96,14 @@ public class AddString415 {
     }
 
 
+    /**
+     * 加字符串
+     *
+     * @param num1 字符串1
+     * @param num2 字符串2
+     * @return 字符串和
+     */
     public String addStr3(String num1, String num2) {
-        // todo:
-        // 1.先将字符串变成数字数组
-        // 2.找到最大的list和最小的
-        // 3.两个链表相加
         if (num1 == null || num1.length() < 1) {
             return num2;
         }
@@ -159,8 +167,14 @@ public class AddString415 {
     }
 
 
+    /**
+     * 加字符串
+     *
+     * @param num1 字符串1
+     * @param num2 字符串2
+     * @return 字符串和
+     */
     public String addStr2(String num1, String num2) {
-
         if (num1 == null || num1.length() < 1) {
             return num2;
         }
@@ -187,6 +201,5 @@ public class AddString415 {
             sb.append(flag);
         }
         return sb.reverse().toString();
-
     }
 }

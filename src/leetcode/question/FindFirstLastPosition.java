@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class FindFirstLastPosition {
     @Test
-    public void fun() {
+    public void testFindFirstLastPosition() {
         int nums[] = {5, 7, 7, 8, 8, 10};
         int target = 8;
         System.out.println("nums");

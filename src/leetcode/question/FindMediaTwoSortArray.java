@@ -12,7 +12,7 @@ import org.junit.Test;
 
 public class FindMediaTwoSortArray {
     @Test
-    public void fun() {
+    public void testFindMediaTwoSortArray() {
         int[] nums1 = {1, 3};
         int[] nums2 = {2, 4};
         double media = getMedian(nums1, nums2);

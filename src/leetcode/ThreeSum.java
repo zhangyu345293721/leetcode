@@ -13,9 +13,8 @@ import java.util.*;
 
 public class ThreeSum {
     @Test
-    public void fun() {
+    public void testThreeSum() {
         int[] nums = {-1, 0, 1, 2, -1, -4, 0, 0};
-        // int[] nums = {0, 0, 0, 0};
         List<List<Integer>> list = getList(nums);
         System.out.println(list);
     }

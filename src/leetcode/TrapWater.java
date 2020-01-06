@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TrapWater {
 
 	@Test
-	public void fun() {
+	public void testTrapWater() {
 		int[] nums = { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
 		int containsWater = trapWater(nums);
 		System.out.println(containsWater);

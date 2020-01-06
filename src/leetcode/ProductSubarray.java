@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class ProductSubarray {
     @Test
-    public void fun() {
+    public void testProductSubarray() {
         int nums[] = {2, 3, -2, 4};
         int product = maxProduct(nums);
         System.out.println(product);

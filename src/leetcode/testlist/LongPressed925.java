@@ -22,6 +22,13 @@ public class LongPressed925 {
         System.out.println("b = " + b);
     }
 
+    /**
+     * 是不是长压字符串
+     *
+     * @param name  名字
+     * @param typed 类型
+     * @return 布尔值
+     */
     public boolean isLongPressedName(String name, String typed) {
         if (name == null || name.length() < 1) {
             return false;
@@ -31,7 +38,6 @@ public class LongPressed925 {
         }
         Map<Character, Integer> nameMap = getLocationNumberMap(name);
         Map<Character, Integer> typedMap = getLocationNumberMap(typed);
-
         if (!nameMap.keySet().equals(typedMap.keySet())) {
             return false;
         }
@@ -41,8 +47,6 @@ public class LongPressed925 {
             }
         }
         return true;
-
-
     }
 
     /**

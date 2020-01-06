@@ -11,7 +11,7 @@ import java.util.HashMap;
 
 public class SubarraySumEqualsK {
     @Test
-    public void fun() {
+    public void testSubarraySumEqualsK() {
         int nums[] = {1, 2, 3};
         int k = 3;
         int key = subarraySum(nums, k);

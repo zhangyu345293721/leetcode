@@ -18,7 +18,13 @@ public class MajorityElement {
         System.out.println(majorElement);
     }
 
-    // 利用map存储每个int数字出现的次数
+
+    /**
+     * 计算每个字符出现次数
+     *
+     * @param nums 数组
+     * @return map
+     */
     private int majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
@@ -44,7 +50,6 @@ public class MajorityElement {
      * @return int类型
      */
     private int majorityElement2(int[] nums) {
-        //if (nums == null || nums.length == 0) return 0;
         int major = 0;
         int count = 0;
         for (int i = 0; i < nums.length; i++) {

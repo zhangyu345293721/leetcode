@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class CoinChange {
     @Test
-    public void fun() {
+    public void testCoinChange() {
         int coins[] = {1, 2, 5};
         int amount = 11;
         int method = CoinChange(coins, amount);

@@ -2,6 +2,8 @@ package leetcode.testlist;
 
 import org.junit.Test;
 
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Stack;
 
 /**
@@ -18,11 +20,17 @@ public class SplitString1221 {
         System.out.println("num = " + num);
     }
 
+    /**
+     * 平衡分割字符串
+     *
+     * @param s 字符串
+     * @return int类型
+     */
     public int balanceStringSplit(String s) {
-        Stack<Character> stack = new Stack<>();
+        Deque<Character> stack = new LinkedList<>();
         int count = 0;
         for (char ch : s.toCharArray()) {
-            if (stack.empty()) {
+            if (stack.isEmpty()) {
                 stack.push(ch);
             } else {
                 if (ch == 'L') {
@@ -39,12 +47,10 @@ public class SplitString1221 {
                         stack.push(ch);
                     }
                 }
-                // 如果栈为空，计数器加1
-                if (stack.empty()) {
+                if (stack.isEmpty()) {
                     count++;
                 }
             }
-
         }
         return count;
     }

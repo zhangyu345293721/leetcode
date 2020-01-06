@@ -3,13 +3,15 @@ package leetcode;
 import org.junit.Test;
 
 /**
+ * 对矩阵进行旋转
+ *
  * @author zhangyu
  **/
 
 
 public class RotateImage {
     @Test
-    public void fun() {
+    public void testRotateImage() {
         int[][] matrix =
                 {
                         {1, 2, 3},
@@ -25,36 +27,38 @@ public class RotateImage {
         }
     }
 
+    /**
+     * 矩阵位置交换
+     *
+     * @param matrix 矩阵
+     */
     public void rotate(int[][] matrix) {
         if (matrix == null || matrix.length < 1) {
             return;
         }
-
         // 先进行对称交换
-        for (int i = 0; i < matrix.length ; i++) {
+        for (int i = 0; i < matrix.length; i++) {
             for (int j = i; j < matrix[0].length; j++) {
                 swap(matrix, i, j, j, i);
             }
         }
-       /*
-        1  4  7
-        2  5  8
-        3  6  9
-        */
-
         // 再中间进行变换
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length / 2; j++) {
                 swap(matrix, i, j, i, matrix[0].length - j - 1);
             }
         }
-       /*
-        7  4  1
-        8  5  2
-        9  6  3
-        */
     }
-    //数组进行交换
+
+    /**
+     * 数组位置进行交换
+     *
+     * @param nums 数组
+     * @param x1   位置x1
+     * @param y1   位置y1
+     * @param x2   位置x2
+     * @param y2   位置y2
+     */
     private void swap(int[][] nums, int x1, int y1, int x2, int y2) {
         int temp = nums[x1][y1];
         nums[x1][y1] = nums[x2][y2];

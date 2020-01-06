@@ -5,6 +5,8 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
+ * 最短无序连续字子字符串
+ *
  * @author zhangyu
  **/
 
@@ -17,8 +19,13 @@ public class ShortestUnsortedContinuousSubarray {
         System.out.println(number);
     }
 
+    /**
+     * 最短无序连续子数组
+     *
+     * @param nums 数组
+     * @return 数字
+     */
     private int shortestUnsortedContinuousSubarray(int[] nums) {
-        // int[] newNums = Arrays.copyOfRange(nums, 0, nums.length);
         int[] newNums = nums.clone();
         Arrays.sort(newNums);
         int number = 0;

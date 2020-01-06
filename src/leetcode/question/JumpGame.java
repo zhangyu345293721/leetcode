@@ -9,12 +9,18 @@ import org.junit.Test;
 
 public class JumpGame {
     @Test
-    public void fun() {
+    public void testJumpGame() {
         int[] nums = {2, 3, 1, 1, 4};
         boolean flag = canJump2(nums);
         System.out.println(flag);
     }
 
+    /**
+     * 能跳
+     *
+     * @param nums 数组
+     * @return 布尔值
+     */
     public boolean canJump2(int[] nums) {
         int n = nums.length;
         int range = 0;
@@ -28,6 +34,12 @@ public class JumpGame {
         return true;
     }
 
+    /**
+     * 跳步游戏
+     *
+     * @param nums 数组
+     * @return 布尔值
+     */
     private boolean jumpGame(int[] nums) {
         int max = 0;
         for (int i = 1; i < nums.length; i++) {

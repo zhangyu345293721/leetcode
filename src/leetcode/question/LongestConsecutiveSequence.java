@@ -13,7 +13,7 @@ import java.util.TreeSet;
 
 public class LongestConsecutiveSequence {
     @Test
-    public void fun() {
+    public void testLongestConsecutiveSequence() {
         int nums[] = {1, 2, 3, 3, 4};
         int maxLength = longestConsecutive(nums);
         System.out.println(maxLength);

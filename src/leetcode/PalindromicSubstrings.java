@@ -11,8 +11,7 @@ import org.junit.Test;
 
 public class PalindromicSubstrings {
     @Test
-    public void fun() {
-        // String s = "abc";
+    public void testPalindromicSubstrings() {
         String s = "aaa";
         int number = palindromicSubstrings(s);
         System.out.println(number);

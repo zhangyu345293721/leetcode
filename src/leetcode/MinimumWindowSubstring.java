@@ -9,13 +9,18 @@ import org.junit.Test;
 
 public class MinimumWindowSubstring {
     @Test
-    public void fun() {
+    public void testMinimumWindowSubstring() {
         String S = "ADOBECODEBANC";
         String T = "ABC";
         String sub = minimumWindowSubstring(S, T);
         System.out.println(sub);
     }
 
+    /**
+     * @param s 字符串s
+     * @param t 字符串t
+     * @return 最小窗口字符串
+     */
     private String minimumWindowSubstring(String s, String t) {
         String minString = s;
         for (int i = 0; i < s.length(); i++) {
@@ -31,6 +36,13 @@ public class MinimumWindowSubstring {
         return minString;
     }
 
+    /**
+     * 子字符串
+     *
+     * @param s         字符串
+     * @param subString 子字符串
+     * @return 布尔值
+     */
     public boolean containsString(String s, String subString) {
         char[] chs = subString.toCharArray();
         for (char ch : chs) {

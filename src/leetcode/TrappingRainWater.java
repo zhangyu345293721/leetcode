@@ -11,7 +11,7 @@ import org.junit.Test;
 
 public class TrappingRainWater {
     @Test
-    public void fun() {
+    public void testTrappingRainWater() {
         int arr[] = {1, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         int maxWater = trappingRainWater(arr);
         System.out.println(maxWater);

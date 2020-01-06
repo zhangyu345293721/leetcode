@@ -22,6 +22,13 @@ public class SearchWords {
         System.out.println(flag);
     }
 
+    /**
+     * 字符串是否存在
+     *
+     * @param board 二维字符
+     * @param word  单词
+     * @return
+     */
     public boolean exist(char[][] board, String word) {
         boolean[][] visited = new boolean[board.length][board[0].length];
         if (word == null || word.length() == 0) {

@@ -16,7 +16,7 @@ import java.util.Set;
 
 public class FindDisappearedNumbers {
     @Test
-    public void fun() {
+    public void testFindDisappearedNumbers() {
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
         List<Integer> list = findDisappearedNumbers(nums);
         System.out.println(list);

@@ -12,26 +12,27 @@ import java.util.Arrays;
 
 public class CapPartition {
     @Test
-    public void fun() {
+    public void testCapPartition() {
         int[] nums = {1, 5, 11, 5};
         boolean b = canPartition(nums);
         System.out.println(b);
     }
 
+    /**
+     * 判断数组是否能分成一半
+     *
+     * @param nums 数组
+     * @return 布尔值
+     */
     public boolean canPartition(int[] nums) {
         int sum = 0;
-        // 获取数组的总和
         for (int num : nums) {
             sum += num;
         }
-        // 如果它的值为奇数直接返回false
         if ((sum & 1) == 1) {   //sum % 2 == 1
             return false;
         }
-        // 把这个数除以2得到它的一半
         sum /= 2; // sum=sum>>1;
-        // int n = nums.length;
-        // 定义一个总数一半的sum
         boolean[] dp = new boolean[sum + 1];
         // 数组中填空false
         Arrays.fill(dp, false);

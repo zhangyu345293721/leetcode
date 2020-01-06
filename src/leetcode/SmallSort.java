@@ -20,11 +20,23 @@ public class SmallSort {
         System.out.println(Arrays.toString(nums));
     }
 
+    /**
+     * 数组自然排序
+     *
+     * @param nums 数组
+     * @return 排序数组
+     */
     private int[] arraySort1(int[] nums) {
         Arrays.sort(nums);
         return nums;
     }
 
+    /**
+     * 数组自然排序
+     *
+     * @param nums 数组
+     * @return 排序数组
+     */
     private int[] arraySort2(int[] nums) {
         PriorityQueue<Integer> priorityQueues = new PriorityQueue();
         for (int num : nums) {
@@ -39,8 +51,13 @@ public class SmallSort {
         return arrNums;
     }
 
+    /**
+     * 数组冒泡排序
+     *
+     * @param nums 数组
+     * @return 排序数组
+     */
     private int[] arraySort3(int[] nums) {
-        // 冒泡排序
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = 0; j < nums.length - 1 - i; j++) {
                 if (nums[j] > nums[j + 1]) {
@@ -51,8 +68,13 @@ public class SmallSort {
         return nums;
     }
 
+    /**
+     * 简单选择排序
+     *
+     * @param nums 数组
+     * @return 排序数组
+     */
     private int[] arraySort4(int[] nums) {
-        // 简单选择排序
         for (int i = 0; i < nums.length; i++) {
             for (int j = i; j < nums.length; j++) {
                 if (nums[i] > nums[j]) {
@@ -63,12 +85,24 @@ public class SmallSort {
         return nums;
     }
 
+    /**
+     * 交换字符串的位置
+     *
+     * @param nums 数组
+     * @param i    位置i
+     * @param j    位置j
+     */
     private void swap(int[] nums, int i, int j) {
         int temp = nums[i];
         nums[i] = nums[j];
         nums[j] = temp;
     }
 
+    /**
+     * 数组排序
+     *
+     * @param nums 数组
+     */
     private void arraySort5(int[] nums) {
         if (nums == null || nums.length <= 1) {
             return;
@@ -84,10 +118,9 @@ public class SmallSort {
                 i++;
             } else {
                 swap(nums, right, i);
-                right--;//right we did not 整理 所以要审视一下；
+                right--;
             }
-            PriorityQueue priorityQueue=new PriorityQueue();
-           // priorityQueue.
+            PriorityQueue priorityQueue = new PriorityQueue();
         }
     }
 }
