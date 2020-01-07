@@ -1,42 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加核心算法">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/array/FibonacciNumber509.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/0547a5d813b4a67f156f9733868af1f32690eca2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0eb797bf8971cf5190d7fb95fd1880a5854a374c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13f1786045bc5959fd3047daf650222f881574ff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/5/157a3fb75918dd986dae761dd8881d00d174da1e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c444795c3f3baf209cd57e5e132152566a428fa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1d9c2f35e0d00fce9268d181363345a2177444e1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34db627bff1a39a3234356406aeab643ee0af54f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3b904648b027812a843eaf806134d227d4c51e02" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d52b8a152c98a2979999fa9c7e7d4490a804050" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c0aef718393642ea07be5faa915d8ee342a62d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/6640c5c4216bb0543444b2ec29e9ade255a581b3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d83385c534373c7494b6b45676dde3c5c9b773f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f45522db8b5c0c94022eda5754addc34095ff17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fb1b9041954155dd19203126eec670eaa18e501" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fb1b9041954155dd19203126eec670eaa18e501" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79e8a7fb810f6a2d5a87d13792f467e1b5a646f1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fbb28f435fe01581f2a0fa2fbb2892184bba813" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/894c193055d7cc91c9903c730801a4b3a6c9eb20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b218b2be6c3853cdf4009df833f9fb2b046c8ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8bcdfe1164bdc4554cc5d77eb0f09ec3ebd41045" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe6264fef0d494331d971234e0a529f80864302" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a254fdb7f5ba4fe6a95d017ae52c91b88017b941" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a95143fad8664da5d715e612363778d462d7c49a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/af6fa46efff95a06c733963c123f292520e7e1ab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b77b5c7406229952defcdea92990a11303f95ce4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b7f349b058837f636a419f8490c5f2e379d44659" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c01643a5ab85732f80b5648c4af0762dd2ca67f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c035082b3242bcdcef670041b8dd6a55f2b6ff07" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c201f5a6f1fc3ec0a4684df6efd07212a170b9b6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc1905d7f22e299d7bb40effef6182bb5fc89b62" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d20be3704884a06ab5490c96bf78525ac3187b57" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1ac3d362da65bd91173441d84cb18be7d3e9fb9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:修改目录">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/string/CommonCharacter1002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/array/FindNumbers1295.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/array/FindNumbers1295.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,79 +15,40 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-749262684">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="501" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="501" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/array/FindNUnique1304.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/dynamicprogramming/ClimbingStairs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/hashtable/CountPrimes204.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/array/FibonacciNumber509.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1250">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/array/FindNumbers1295.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/string/CommonCharacter1002.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/tree/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="98">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/math/AddBinary67.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/dynamicprogramming/HouseRobber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2000">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
             </state>
           </provider>
         </entry>
@@ -150,6 +78,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/leetcode/UniquePaths.java" />
         <option value="$PROJECT_DIR$/src/leetcode/testlist/AddString415.java" />
         <option value="$PROJECT_DIR$/src/leetcode/testlist/BigPriorityQueue.java" />
         <option value="$PROJECT_DIR$/src/leetcode/testlist/dynamicProgramSample.java" />
@@ -199,10 +128,15 @@
         <option value="$PROJECT_DIR$/src/leetcode/dynamicprogramming/HouseRobber.java" />
         <option value="$PROJECT_DIR$/src/leetcode/tree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/leetcode/hashtable/CountPrimes204.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/array/FibonacciNumber509.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/array/FindNumbers1295.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/string/CommonCharacter1002.java" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -210,19 +144,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="-13" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="618" />
+    <option name="y" value="88" />
+    <option name="width" value="1280" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,12 +180,13 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,6 +194,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578406447624" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode/tree" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -295,24 +231,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ComplexNumber537.complexTestDemo">
+  <component name="RunManager" selected="JUnit.CommonCharacter1002.testCommonCharacter">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComplexNumber537.complexTestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CommonCharacter1002.testCommonCharacter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="PATTERN" value="leetcode.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.ComplexNumber537" />
-      <option name="METHOD_NAME" value="complexTestDemo" />
+      <option name="PACKAGE_NAME" value="leetcode.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.CommonCharacter1002" />
+      <option name="METHOD_NAME" value="testCommonCharacter" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -336,28 +272,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciNumber509.testFibonacciNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.array.FibonacciNumber509" />
-      <option name="METHOD_NAME" value="testFibonacciNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GroupAnagrams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="PACKAGE_NAME" value="leetcode.question" />
       <option name="MAIN_CLASS_NAME" value="GroupAnagrams" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -374,15 +292,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="SortArrayParity922" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.SortArrayParity922" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -402,11 +333,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_leetcode" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="53229" />
       </RunnerSettings>
@@ -460,20 +391,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.SortArrayParity922" />
       <item itemvalue="JUnit.MergeArray.fun" />
       <item itemvalue="JUnit.GroupAnagrams" />
       <item itemvalue="JUnit.CountPrimes204.testCountPrimes" />
-      <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.FibonacciNumber509.testFibonacciNumber" />
-      <item itemvalue="JUnit.ComplexNumber537.complexTestDemo" />
+      <item itemvalue="JUnit.CommonCharacter1002.testCommonCharacter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ComplexNumber537.complexTestDemo" />
-        <item itemvalue="JUnit.FibonacciNumber509.testFibonacciNumber" />
+        <item itemvalue="JUnit.CommonCharacter1002.testCommonCharacter" />
         <item itemvalue="JUnit.CountPrimes204.testCountPrimes" />
         <item itemvalue="JUnit.GroupAnagrams" />
         <item itemvalue="JUnit.MergeArray.fun" />
+        <item itemvalue="JUnit.SortArrayParity922" />
       </list>
     </recent_temporary>
   </component>
@@ -532,8 +463,14 @@
       <workItem from="1577958030601" duration="1544000" />
       <workItem from="1577982293260" duration="39028000" />
       <workItem from="1578285853468" duration="8012000" />
-      <workItem from="1578297460337" duration="3382000" />
-      <workItem from="1578325462537" duration="1277000" />
+      <workItem from="1578297460337" duration="2836000" />
+    </task>
+    <task id="LOCAL-00007" summary="add extendTest2.java">
+      <created>1545812081008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1545812081008</updated>
     </task>
     <task id="LOCAL-00008" summary="增加注释">
       <created>1545812763891</created>
@@ -871,56 +808,49 @@
       <option name="project" value="LOCAL" />
       <updated>1578298617092</updated>
     </task>
-    <task id="LOCAL-00056" summary="master:增加核心算法">
-      <created>1578300335666</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1578300335666</updated>
-    </task>
-    <option name="localTasksCounter" value="57" />
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountPrimes204_testCountPrimes - 2020.01.06 at 16h 35m 50s.xml">
-      <configuration name="CountPrimes204.testCountPrimes" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 21h 59m 47s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountPrimes204_testCountPrimes - 2020.01.06 at 16h 35m 53s.xml">
-      <configuration name="CountPrimes204.testCountPrimes" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 21h 59m 50s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountPrimes204_testCountPrimes - 2020.01.06 at 16h 41m 22s.xml">
-      <configuration name="CountPrimes204.testCountPrimes" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 21h 59m 53s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountPrimes204_testCountPrimes - 2020.01.06 at 16h 41m 34s.xml">
-      <configuration name="CountPrimes204.testCountPrimes" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 22h 00m 48s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CountPrimes204_testCountPrimes - 2020.01.06 at 16h 42m 36s.xml">
-      <configuration name="CountPrimes204.testCountPrimes" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 22h 00m 54s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciNumber509_testFibonacciNumber - 2020.01.06 at 23h 51m 29s.xml">
-      <configuration name="FibonacciNumber509.testFibonacciNumber" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 22h 01m 18s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciNumber509_testFibonacciNumber - 2020.01.06 at 23h 55m 26s.xml">
-      <configuration name="FibonacciNumber509.testFibonacciNumber" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 22h 01m 21s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciNumber509_testFibonacciNumber - 2020.01.06 at 23h 56m 55s.xml">
-      <configuration name="FibonacciNumber509.testFibonacciNumber" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 22h 02m 05s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciNumber509_testFibonacciNumber - 2020.01.06 at 23h 57m 13s.xml">
-      <configuration name="FibonacciNumber509.testFibonacciNumber" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 22h 02m 15s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FibonacciNumber509_testFibonacciNumber - 2020.01.07 at 00h 04m 46s.xml">
-      <configuration name="FibonacciNumber509.testFibonacciNumber" configurationId="JUnit" />
+    <history-entry file="CommonCharacter1002_testCommonCharacter - 2020.01.07 at 22h 02m 57s.xml">
+      <configuration name="CommonCharacter1002.testCommonCharacter" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="432056000" />
+    <option name="totallyTimeSpent" value="431697000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="618" y="88" width="1280" height="707" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.3261745" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -928,9 +858,9 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.19497785" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40620384" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32474804" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.3899557" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1015,22 +945,9 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加题目号349的题目" />
     <MESSAGE value="添加python的215号实现题目" />
     <MESSAGE value="添加python的541和32题目" />
     <MESSAGE value="添加python的268题目" />
@@ -1055,8 +972,7 @@
     <MESSAGE value="master:删除不需要的类" />
     <MESSAGE value="master:修改目录结构" />
     <MESSAGE value="master:修改目录" />
-    <MESSAGE value="master:增加核心算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加核心算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:修改目录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1365,31 +1281,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/math/Traverse.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FlippingImage832.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FindNumbers1295.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/HeightChecker1051.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FindWords1160.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FindNUnique1304.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
@@ -1411,38 +1305,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/math/Traverse.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/math/AddBinary67.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="-157">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FlippingImage832.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/dynamicprogramming/HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
+        <state relative-caret-position="-1025">
           <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/HeightChecker1051.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FindWords1160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FindNUnique1304.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/hashtable/CountPrimes204.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="-325">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FibonacciNumber509.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcode/string/CommonCharacter1002.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/array/FindNumbers1295.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="98">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
