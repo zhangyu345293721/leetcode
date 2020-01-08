@@ -330,7 +330,7 @@
     <th>Easy</th>
   </tr> <tr>
     <th >617</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84633192">Merge Two Binary Trees/a></th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84633192">Merge Two Binary Trees</a></th>
     <th>Easy</th>
   </tr> <tr>
     <th >461</th>
