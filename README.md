@@ -1,12 +1,7 @@
  # leetcode
 目前大多题目只有java实现，后面增加python实现方法：
-- array
-- list
-- string
-- histable
-- math
+
 - top100likedquestions
-- tree
 <table border="2" >
   <tr align="center" >
     <th width="300">题号</th>
@@ -455,4 +450,9 @@
   </tr>
 </table>
 其中加*表示花了很长时间！题目没有进行分类，后期将对题目整理分类！
-
+- array
+- list
+- string
+- histable
+- math
+- tree
