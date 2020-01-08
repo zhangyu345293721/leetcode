@@ -10,7 +10,7 @@ import org.junit.Test;
  */
 public class InvertNumber {
     @Test
-    public void invertNumberFun() {
+    public void testInvertNumber() {
         int number = 36;
         int n = 9;
         StringBuilder sb = new StringBuilder();
@@ -57,14 +57,5 @@ public class InvertNumber {
             }
         }
         getConvertNumber(leftNumber, n, sb);
-    }
-
-
-    @Test
-    public void invertFun2() {
-        int num = 7;
-        int n = 3;
-        String s = Integer.toString(num, n);
-        System.out.println(s);
     }
 }

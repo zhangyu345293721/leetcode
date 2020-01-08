@@ -10,13 +10,20 @@ import org.junit.Test;
  */
 public class ComplexNumber537 {
     @Test
-    public void complexTestDemo() {
+    public void testComplexNumber() {
         String a = "-11+-30i";
         String b = "55+-69i";
         String result = complexNumberMultiply(a, b);
         System.out.println("result = " + result);
     }
 
+    /**
+     * 复数相乘
+     *
+     * @param a 字符串a
+     * @param b 字符串b
+     * @return 字符串
+     */
     public String complexNumberMultiply(String a, String b) {
         int i1 = a.indexOf('+');
         int i2 = a.indexOf('i');

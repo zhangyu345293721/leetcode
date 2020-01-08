@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class RemoveElement27 {
     @Test
-    public void fun() {
+    public void testRemoveElement() {
         int[] arr = {0, 1, 2, 2, 3, 0, 4, 2};
         int val = 2;
         int leftNumber = removeElement2(arr, val);
@@ -45,7 +45,7 @@ public class RemoveElement27 {
         int index = 0;
         for (int num : nums) {
             if (val != num) {
-                nums[index++]=num;
+                nums[index++] = num;
             }
         }
         return index;

@@ -10,7 +10,7 @@ import org.junit.Test;
 public class CellsOddValues1252 {
 
     @Test
-    public void cellsOddValues() {
+    public void testCellsOddValues() {
         int n = 2;
         int m = 3;
         int[][] indices = {{0, 1}, {1, 1}};

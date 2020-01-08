@@ -12,7 +12,7 @@ import java.util.Set;
 public class UniqueMorse804 {
 
     @Test
-    public void uniqueMorse() {
+    public void testUniqueMorse() {
         String[] words = {"gin", "zen", "gig", "msg"};
         int length = uniqueMorseRepresentations(words);
         System.out.println("length = " + length);

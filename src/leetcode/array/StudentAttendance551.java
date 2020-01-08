@@ -11,7 +11,7 @@ import org.junit.Test;
 public class StudentAttendance551 {
 
     @Test
-    public void checkRecordDemo() {
+    public void testCheckRecord() {
         String s = "ALLAPPL";
         boolean b = checkRecord(s);
         System.out.println(b);

@@ -11,7 +11,7 @@ import java.util.Arrays;
  */
 public class SquaresSortedArray977 {
     @Test
-    public void fun() {
+    public void testSquaresSortedArray() {
         int[] arr = {-4, -1, 0, 3, 10};
         int[] sortedArray = sortedSquares(arr);
         for (int i : sortedArray) {

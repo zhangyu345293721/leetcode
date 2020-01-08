@@ -22,6 +22,12 @@ public class MaximumNumberofBalloons1189 {
         System.out.println("count = " + count);
     }
 
+    /**
+     * 最大气球数量
+     *
+     * @param text 字符串
+     * @return 数量
+     */
     public int maxNumberOfBalloons(String text) {
         int count = 0;
         List<Character> matchList = getMatchListStr();
