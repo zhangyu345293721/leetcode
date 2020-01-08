@@ -12,7 +12,7 @@ import java.util.Queue;
  **/
 
 
-public class KthLargestElement {
+public class KthLargestElement215 {
     @Test
     public void testKthLargestElement() {
         Integer[] nums = {3, 2, 1, 5, 6, 4};
