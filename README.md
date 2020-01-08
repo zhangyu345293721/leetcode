@@ -1,5 +1,5 @@
  # leetcode
-目前上传的源码放到github，以后重新整理(java和python实现方式)：
+目前大多题目只有java实现，后面增加python实现方法：
 <table border="2" >
   <tr align="center" >
     <th width="300">题号</th>
