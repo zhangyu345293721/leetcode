@@ -2,7 +2,7 @@ package leetcode.math;
 
 import org.junit.Test;
 
-public class TrapWater {
+public class TrapWater42 {
 
 	@Test
 	public void testTrapWater() {

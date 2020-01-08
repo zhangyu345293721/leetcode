@@ -11,7 +11,7 @@ import java.util.Set;
  **/
 
 
-public class FindDuplicateNumber {
+public class FindDuplicateNumber287 {
     @Test
     public void testFindDuplicateNumber() {
         int arr[] = {1, 3, 4, 2, 2};

@@ -13,7 +13,7 @@ import java.util.Stack;
  **/
 
 
-public class LargestRectangleHistogram {
+public class LargestRectangleHistogram84 {
     @Test
     public void fun() {
         int[] arrs = {1, 2, 3};

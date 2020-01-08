@@ -14,7 +14,7 @@ import java.util.LinkedList;
 
 public class LongestValidParentheses {
     @Test
-    public void fun() {
+    public void testLongestValidParentheses() {
         String s = ")()())";
         int length = longestValidParentheses(s);
         System.out.println(length);

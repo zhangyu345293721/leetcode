@@ -9,7 +9,7 @@ import java.util.List;
  *
  * @author: zhangyu
  */
-public class StringCompression {
+public class StringCompression443 {
 
     @Test
     public void testStringCompression() {

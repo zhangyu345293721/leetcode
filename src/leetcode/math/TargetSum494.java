@@ -12,7 +12,7 @@ import java.util.Queue;
  **/
 
 
-public class TargetSum {
+public class TargetSum494 {
     @Test
     public void testTargetSum() {
         int[] nums = {1, 8, 9, 3, 4, 5, 7};

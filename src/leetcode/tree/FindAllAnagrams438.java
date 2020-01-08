@@ -10,7 +10,7 @@ import java.util.List;
  **/
 
 
-public class FindAllAnagrams {
+public class FindAllAnagrams438 {
     @Test
     public void testFindAllAnagrams() {
         String s = "baa";

@@ -13,12 +13,17 @@ public class ComplexNumber537 {
     public void complexTestDemo() {
         String a = "-11+-30i";
         String b = "55+-69i";
-        // String a = "1+-1i";
-        // String b = "1+-1i";
         String result = complexNumberMultiply(a, b);
         System.out.println("result = " + result);
     }
 
+    /**
+     * 复数想乘
+     *
+     * @param a 字符串a
+     * @param b 字符串b
+     * @return 相乘字符串
+     */
     public String complexNumberMultiply(String a, String b) {
         int i1 = a.indexOf('+');
         int i2 = a.indexOf('i');

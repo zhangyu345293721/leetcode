@@ -14,7 +14,7 @@ import java.util.List;
 
 public class GenerateParentheses {
     @Test
-    public void fun() {
+    public void testGenerateParentheses() {
         int n = 3;
         List<String> list = generateParentheses(n);
         System.out.println(list);

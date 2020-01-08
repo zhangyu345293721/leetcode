@@ -9,7 +9,7 @@ import java.util.List;
  * @author zhangyu
  **/
 
-public class Subsets {
+public class Subsets78 {
     @Test
     public void testSubsets() {
         int[] nums = {1, 2, 3};

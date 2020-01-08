@@ -24,8 +24,8 @@ public class RepeatedSubstring459 {
     /**
      * 计算字符串是否是重复的子字符串
      *
-     * @param s
-     * @return
+     * @param s 字符串
+     * @return 布尔值
      */
     public boolean repeatedSubstringPattern(String s) {
         boolean flag = false;

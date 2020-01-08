@@ -34,7 +34,7 @@ public class IsPalindromic {
      * 判断是不是回文串用双指针的形式
      *
      * @param subString 子字符串
-     * @return
+     * @return 布尔值
      */
     public static boolean isPalindromicString2(String subString) {
         int i = 0;

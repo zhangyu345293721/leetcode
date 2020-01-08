@@ -8,7 +8,7 @@ import org.junit.Test;
  * @author：zhangyu
  */
 
-public class CoinChange {
+public class CoinChange322 {
     @Test
     public void testCoinChange() {
         int coins[] = {1, 2, 5};

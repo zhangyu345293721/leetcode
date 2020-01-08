@@ -7,7 +7,7 @@ import org.junit.Test;
  **/
 
 
-public class LowFirstChar {
+public class LowFirstChar709 {
     @Test
     public void testLowFirstChar() {
         String s = "ABC";

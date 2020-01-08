@@ -1,4 +1,4 @@
-package leetcode.tree;
+package leetcode.top100likedquestions;
 
 import org.junit.Test;
 
@@ -10,7 +10,7 @@ import java.util.List;
  **/
 
 
-public class LetterCombinationsPhoneNumber {
+public class LetterCombinationsPhoneNumber17 {
     @Test
     public void testLetterCombinationsPhoneNumber() {
         String digits = "23";
@@ -18,12 +18,11 @@ public class LetterCombinationsPhoneNumber {
         System.out.println(list);
     }
 
-
     /**
      * 获取链表长度的list，然后再进行买个遍历
      *
-     * @param digits 字符串
-     * @return 链表
+     * @param digits 字符串数组
+     * @return list
      */
     private List<String> letterCombinationsPhoneNumber(String digits) {
         List<String> list = new ArrayList<>();
@@ -35,9 +34,9 @@ public class LetterCombinationsPhoneNumber {
     }
 
     /**
-     * 字符串
+     * 获取字符串
      *
-     * @param c 字符
+     * @param c 字符c
      * @return 字符串
      */
     private String getString(char c) {

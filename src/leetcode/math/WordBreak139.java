@@ -12,7 +12,7 @@ import java.util.List;
  **/
 
 
-public class WordBreak {
+public class WordBreak139 {
     @Test
     public void testWordBreak() {
         String s = "applepenapple";

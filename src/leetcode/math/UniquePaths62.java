@@ -7,7 +7,7 @@ import org.junit.Test;
  **/
 
 
-public class UniquePaths {
+public class UniquePaths62 {
     @Test
     public void testUniquePaths() {
         int method = uniquePaths(3, 2);

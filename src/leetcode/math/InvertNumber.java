@@ -59,12 +59,4 @@ public class InvertNumber {
         getConvertNumber(leftNumber, n, sb);
     }
 
-
-    @Test
-    public void invertFun2() {
-        int num = 7;
-        int n = 3;
-        String s = Integer.toString(num, n);
-        System.out.println(s);
-    }
 }

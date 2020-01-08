@@ -7,7 +7,7 @@ import org.junit.Test;
  **/
 
 
-public class ContainerWithMostWater {
+public class ContainerWithMostWater11 {
 
     @Test
     public void testCoinChange() {

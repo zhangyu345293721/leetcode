@@ -14,7 +14,7 @@ import java.util.List;
  **/
 
 
-public class SlidingWindowMaximum {
+public class SlidingWindowMaximum239 {
 
     @Test
     public void testSlidingWindowMaximum() {

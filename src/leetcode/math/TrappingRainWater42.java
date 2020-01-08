@@ -9,7 +9,7 @@ import org.junit.Test;
  **/
 
 
-public class TrappingRainWater {
+public class TrappingRainWater42 {
     @Test
     public void testTrappingRainWater() {
         int arr[] = {1, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};

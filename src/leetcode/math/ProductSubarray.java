@@ -15,6 +15,12 @@ public class ProductSubarray {
         System.out.println(product);
     }
 
+    /**
+     * 最大值
+     *
+     * @param nums 数组
+     * @return 数字
+     */
     private int maxProduct(int[] nums) {
         int max = nums[0];
         int min = nums[0];

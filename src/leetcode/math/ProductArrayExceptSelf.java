@@ -17,6 +17,10 @@ public class ProductArrayExceptSelf {
         System.out.println(Arrays.toString(newArrs));
     }
 
+    /**
+     * @param nums 数组
+     * @return 新数组
+     */
     private int[] productArrayExceptSelf(int[] nums) {
         int[] newArr = new int[nums.length];
         int productNumber = 1;
@@ -48,6 +52,10 @@ public class ProductArrayExceptSelf {
         return newArr;
     }
 
+    /**
+     * @param nums 数组
+     * @return 新数组
+     */
     private int[] productArrayExceptSelf2(int[] nums) {
         int val = 1;
         int len = nums.length;

@@ -14,7 +14,7 @@ import java.util.Set;
  **/
 
 
-public class FindDisappearedNumbers {
+public class FindDisappearedNumbers448 {
     @Test
     public void testFindDisappearedNumbers() {
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};

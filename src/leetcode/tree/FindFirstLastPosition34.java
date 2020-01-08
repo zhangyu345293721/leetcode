@@ -2,7 +2,7 @@ package leetcode.tree;
 
 import org.junit.Test;
 
-public class FindFirstLastPosition {
+public class FindFirstLastPosition34 {
     @Test
     public void testFindFirstLastPosition() {
         int nums[] = {5, 7, 7, 8, 8, 10};

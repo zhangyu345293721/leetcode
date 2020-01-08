@@ -15,11 +15,16 @@ public class dynamicProgramSample {
         System.out.println(methods);
     }
 
-    // 动态规划： 时间复杂度:O(n) 空间复杂度：O(n)
+
+    /**
+     * 动态规划： 时间复杂度:O(n) 空间复杂度：O(n)
+     *
+     * @param n 数字
+     * @return 数量
+     */
     private int stairProblem(int n) {
         if (n < 1) return 0;
         if (n == 1) return 1;
-        //if (n == 2) return 2;
         int[] dp = new int[n + 1];
         dp[1] = 1;
         dp[2] = 2;
@@ -37,7 +42,12 @@ public class dynamicProgramSample {
         return stairProblem(n - 1) + stairProblem(n - 2);
     }
 
-    // 动态规划的方式2  时间复杂度:O(n) 空间复杂度O(1)
+    /**
+     * 动态规划的方式2  时间复杂度:O(n) 空间复杂度O(1)
+     *
+     * @param n 数字
+     * @return 步数
+     */
     private int stairProblem3(int n) {
         if (n < 1) return 0;
         if (n == 1) return 1;

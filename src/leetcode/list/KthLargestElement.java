@@ -14,14 +14,21 @@ import java.util.Queue;
 
 public class KthLargestElement {
     @Test
-    public void fun() {
+    public void testKthLargestElement() {
         Integer[] nums = {3, 2, 1, 5, 6, 4};
         int k = 2;
         int key = kthLargestElement3(nums, k);
         System.out.println(key);
     }
 
-    // 找出第k小的值
+
+    /**
+     * 找出第k小的值
+     *
+     * @param nums 数组
+     * @param k    个数
+     * @return 数字
+     */
     private int kthLargestElement(int[] nums, int k) {
         Queue<Integer> queue = new PriorityQueue<>();
         for (int num : nums) {
@@ -32,8 +39,13 @@ public class KthLargestElement {
         }
         return queue.peek();
     }
-
-    // 找出第k小的值
+    /**
+     * 找出第k小的值
+     *
+     * @param nums 数组
+     * @param k    个数
+     * @return 数字
+     */
     private int kthLargestElement2(Integer[] nums, int k) {
         Arrays.sort(nums, new Comparator<Integer>() {
             @Override
@@ -43,7 +55,6 @@ public class KthLargestElement {
         });
         return nums[k - 1];
     }
-
 
     /**
      * 找出第k大的值

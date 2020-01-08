@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class MajorityElement {
     @Test
-    public void fun() {
+    public void testMajorityElement() {
         int[] nums = {3, 2, 2, 2, 3};
         int majorElement = majorityElement(nums);
         System.out.println(majorElement);

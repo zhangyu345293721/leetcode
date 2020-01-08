@@ -9,7 +9,7 @@ import org.junit.Test;
  **/
 
 
-public class RotateImage {
+public class RotateImage48 {
     @Test
     public void testRotateImage() {
         int[][] matrix =

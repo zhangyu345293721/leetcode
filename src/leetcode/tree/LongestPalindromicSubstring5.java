@@ -7,7 +7,7 @@ import org.junit.Test;
  **/
 
 
-public class LongestPalindromicSubstring {
+public class LongestPalindromicSubstring5 {
     @Test
     public void testLongestPalindromicSubstring() {
         String s = "aaab";

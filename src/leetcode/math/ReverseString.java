@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 public class ReverseString {
 
     @Test
-    public void fun() {
+    public void testReverseString() {
         String s = "abcdefg";
         String s1 = getReverseString(s, 2);
         System.out.println(s1);

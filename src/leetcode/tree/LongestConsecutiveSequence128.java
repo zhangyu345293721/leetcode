@@ -11,7 +11,7 @@ import java.util.TreeSet;
  **/
 
 
-public class LongestConsecutiveSequence {
+public class LongestConsecutiveSequence128 {
     @Test
     public void testLongestConsecutiveSequence() {
         int nums[] = {1, 2, 3, 3, 4};

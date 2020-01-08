@@ -38,6 +38,13 @@ public class RepeatedString686 {
         return -1;
     }
 
+    /**
+     * 找出A重复的最小次数包含B
+     *
+     * @param A 输入字符串A
+     * @param B 字符串C
+     * @return
+     */
     public int repeatedStringMatch2(String A, String B) {
         StringBuilder res = new StringBuilder(A);
         int max = A.length() + B.length() + A.length();

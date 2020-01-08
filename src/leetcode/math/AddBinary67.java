@@ -120,12 +120,4 @@ public class AddBinary67 {
         }
         return sb.reverse().toString();
     }
-
-
-    @Test
-    public void charTestDemo() {
-        String a = "1100";
-        Integer integer = Integer.valueOf(a, 2);
-        System.out.println(integer);
-    }
 }

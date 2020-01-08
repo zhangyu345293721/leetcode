@@ -9,7 +9,7 @@ import java.util.HashMap;
  **/
 
 
-public class SubarraySumEqualsK {
+public class SubarraySumEqualsK560 {
     @Test
     public void testSubarraySumEqualsK() {
         int nums[] = {1, 2, 3};

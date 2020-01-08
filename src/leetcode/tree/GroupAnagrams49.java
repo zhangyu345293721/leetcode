@@ -10,7 +10,7 @@ import java.util.*;
  * @author zhangyu
  **/
 
-public class GroupAnagrams {
+public class GroupAnagrams49 {
     @Test
     public void testGroupAnagrams() {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
