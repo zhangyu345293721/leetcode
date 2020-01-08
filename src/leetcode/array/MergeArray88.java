@@ -9,7 +9,7 @@ import java.util.Arrays;
  *
  * @author: zhangyu
  */
-public class MergeArray {
+public class MergeArray88 {
 
     /**
      * 按照要求合并两个数组

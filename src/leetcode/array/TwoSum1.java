@@ -13,7 +13,7 @@ import java.util.Map;
  **/
 
 
-public class TwoSum {
+public class TwoSum1 {
     @Test
     public void testTwoSum() {
         int[] nums = {1, 2, 2, 3, 3, 7};

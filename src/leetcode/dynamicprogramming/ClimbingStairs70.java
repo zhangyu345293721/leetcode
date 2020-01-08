@@ -9,7 +9,7 @@ import org.junit.Test;
  **/
 
 
-public class ClimbingStairs {
+public class ClimbingStairs70 {
     @Test
     public void testClimbingStairs() {
         long startTime = System.currentTimeMillis();

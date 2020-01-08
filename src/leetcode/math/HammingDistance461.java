@@ -9,7 +9,7 @@ import org.junit.Test;
  **/
 
 
-public class HammingDistance {
+public class HammingDistance461 {
     @Test
     public void testHammingDistance() {
         int x = 1;
