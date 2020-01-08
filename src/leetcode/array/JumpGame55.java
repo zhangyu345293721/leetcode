@@ -7,7 +7,7 @@ import org.junit.Test;
  **/
 
 
-public class JumpGame {
+public class JumpGame55 {
     @Test
     public void testJumpGame() {
         int[] nums = {2, 3, 1, 1, 4};
