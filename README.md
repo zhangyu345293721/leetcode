@@ -1,5 +1,5 @@
  # leetcode
-目前大多题目只有java实现，后面增加python实现方法：
+目前大多题目只有java实现，后面增加python实现方法，后续按照题目类型不断补充题目：
 
 - **top100likedquestions**
 <table border="2" >
