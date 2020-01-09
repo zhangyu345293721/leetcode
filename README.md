@@ -109,7 +109,7 @@
     <th>Middle</th>
   </tr>
    <tr>
-    <th *128</th>
+    <th> *128</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85006310">Longest Consecutive Sequence</a></th>
     <th>Middle</th>
   </tr>
