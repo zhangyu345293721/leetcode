@@ -4,7 +4,7 @@ package leetcode.java.array;
 import org.junit.Test;
 
 /**
- * 加一个数
+ * 二进制字符串相加
  *
  * @author: zhangyu
  */
@@ -119,13 +119,5 @@ public class AddBinary67 {
             sb.append("1");
         }
         return sb.reverse().toString();
-    }
-
-
-    @Test
-    public void charTestDemo() {
-        String a = "1100";
-        Integer integer = Integer.valueOf(a, 2);
-        System.out.println(integer);
     }
 }
