@@ -4,7 +4,7 @@ package leetcode.java.array;
 import org.junit.Test;
 
 /**
- * 加一个数
+ * 二进制字符串相加
  *
  * @author: zhangyu
  */
