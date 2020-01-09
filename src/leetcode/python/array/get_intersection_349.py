@@ -8,6 +8,15 @@
 
 
 def get_intersection(arr1, arr2):
+    '''
+        两个数组求交集
+    Args:
+        arr1: 数组1
+        arr2: 数组2
+
+    Returns:
+        数组交集
+    '''
     arr1.sort();
     arr2.sort();
     arr = []
@@ -24,7 +33,17 @@ def get_intersection(arr1, arr2):
             j += 1
     return arr
 
+
 def get_intersection2(arr1, arr2):
+    '''
+        两个数组求交集
+    Args:
+        arr1: 数组1
+        arr2: 数组2
+
+    Returns:
+        数组交集
+    '''
     arr = []
     s1 = set()
     for ele in arr1:
@@ -37,7 +56,17 @@ def get_intersection2(arr1, arr2):
             arr.append(ele)
     return arr
 
+
 def get_intersection3(arr1, arr2):
+    '''
+        两个数组求交集
+    Args:
+        arr1: 数组1
+        arr2: 数组2
+
+    Returns:
+        数组交集
+    '''
     s = set()
     for ele in arr1:
         s.add(ele)
@@ -47,6 +76,7 @@ def get_intersection3(arr1, arr2):
             arr.append(ele)
             s.remove(ele)
     return arr
+
 
 if __name__ == '__main__':
     arr1 = [1, 2, 3, 1]

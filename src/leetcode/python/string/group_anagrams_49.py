@@ -8,6 +8,14 @@
 
 
 def group_anagrams_list(strs):
+    '''
+        字符串
+    Args:
+        strs: 字符串数组
+    Returns:
+        链表
+
+    '''
     str_set = set()
     new_list = []
     for s in strs:
@@ -21,7 +29,16 @@ def group_anagrams_list(strs):
         new_list.append(list)
     return new_list
 
+
 def get_group_anagrams(arr):
+    '''
+        字符串
+    Args:
+        strs: 字符串数组
+    Returns:
+        链表
+
+    '''
     dic = {}
     for ele in arr:
         chs_arr = sorted(list(ele))
@@ -39,6 +56,14 @@ def get_sort_str(s):
 
 
 def group_anagrams3(strs):
+    '''
+        字符串
+    Args:
+        strs: 字符串数组
+    Returns:
+        链表
+
+    '''
     dic = {}
     for str in strs:
         key = invert_to_num(str)

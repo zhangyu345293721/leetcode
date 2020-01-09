@@ -7,10 +7,19 @@
 
 
 def joseph_problem(number_n, start_number_k, number_m):
+    '''
+        约瑟夫问题
+    Args:
+        number_n: 多少人
+        start_number_k: 开始位置
+        number_m: 多少次
+
+    Returns:
+        最后一个编号
+    '''
     joseph_arr = []
     for i in range(1, number_n + 1):
         joseph_arr.append(i)
-    # print(joseph_arr)
     start = start_number_k
     length = len(joseph_arr)
 

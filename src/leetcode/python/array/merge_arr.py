@@ -7,6 +7,16 @@
 
 
 def get_merge_arr(arr1, arr2):
+    '''
+        合并数组
+    Args:
+        arr1: 数组1
+        arr2: 数组2
+
+    Returns:
+        合并后的数组
+
+    '''
     new_arr = []
     i = 0
     j = 0

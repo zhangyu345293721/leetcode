@@ -6,7 +6,17 @@
    description:找出最大的连续子串
 '''
 
+
 def get_longest_consecutive(arr):
+    '''
+        找出最大连续子串
+    Args:
+        arr: 数组
+
+    Returns:
+        连续子串长度
+
+    '''
     if len(arr) <= 1:
         return len(arr)
     # 对数组进行排序
@@ -22,6 +32,7 @@ def get_longest_consecutive(arr):
         if max_length < count:
             max_length = count
     return max_length
+
 
 if __name__ == '__main__':
     arr = [2, 1, 3, 3, 4]

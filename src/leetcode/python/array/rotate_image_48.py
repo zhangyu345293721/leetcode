@@ -8,12 +8,29 @@
 
 
 def swap(matrix, x1, y1, x2, y2):
+    '''
+        交换位置
+    Args:
+        matrix: 二维数组
+        x1: 位置x1
+        y1: 位置y2
+        x2: 位置x2
+        y2: 位置y2
+
+    '''
     temp = matrix[x1][y1]
     matrix[x1][y1] = matrix[x2][y2]
     matrix[x2][y2] = temp
 
 
 def rotate(matrix):
+    '''
+        旋转数组
+    Args:
+        matrix:二维数组
+    Returns:
+        旋转后数组
+    '''
     if matrix == None or len(matrix) < 1:
         return
     for i in range(len(matrix) - 1):

@@ -7,8 +7,15 @@
 '''
 
 
-# 遍历所有的括号
 def get_longest_valid_parentheses(strs):
+    '''
+        找出最大匹配的符号
+    Args:
+        strs: 字符串数组
+
+    Returns:
+        最大匹配符号
+    '''
     max_len = 0
     for i in range(len(strs)):
         j = i + 2
@@ -19,8 +26,14 @@ def get_longest_valid_parentheses(strs):
     return max_len
 
 
-# 判断括号是不是匹配的
 def is_valid_parentheses(strs):
+    '''
+        判断括号是不是匹配的
+    Args:
+        strs: 字符串
+    Returns:
+        布尔值
+    '''
     stack = list()
     for i in range(len(strs)):
         if strs[i] == '(':

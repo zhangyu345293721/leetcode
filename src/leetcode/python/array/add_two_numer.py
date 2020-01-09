@@ -5,8 +5,17 @@
    date:2019.7.24
    description: 在一个数组中找出两个数的和为一个固定值
 '''
+
+
 def get_two_number(arr, sum):
-    
+    '''
+        获取两个数
+    Args:
+        arr: 数组
+        sum: 总和
+    Returns:
+        固定值
+    '''
     dict = {}
     count = 0
     for i in arr:
@@ -16,6 +25,7 @@ def get_two_number(arr, sum):
         number = arr[i]
         if dict.keys().__contains__(sum - number) and dict[sum - number] > i:
             return number, sum - number
+
 
 if __name__ == '__main__':
     arr = [2, 4, 5, 8]

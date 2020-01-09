@@ -8,6 +8,14 @@
 
 
 def get_single_numer(arr):
+    '''
+        求只出现一次的数字
+    Args:
+        arr: 数组
+    Returns:
+        数字
+
+    '''
     set_arr = set()
     for ele in arr:
         if set_arr.__contains__(ele):
@@ -16,11 +24,21 @@ def get_single_numer(arr):
             set_arr.add(ele)
     return set_arr.pop()
 
+
 def get_single_number2(arr):
+    '''
+       求只出现一次的数字
+   Args:
+       arr: 数组
+   Returns:
+       数字
+
+   '''
     single_number = arr[0]
     for i in range(1, len(arr)):
         single_number = single_number ^ arr[i]
     return single_number
+
 
 if __name__ == '__main__':
     arr = [2, 3, 3, 2, 4]
