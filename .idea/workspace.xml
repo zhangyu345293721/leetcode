@@ -1,284 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:校验python代码">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ArrayPartition561.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuySell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/BitCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/CellsOddValues1252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ComplexNumber537.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/DayYear1154.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/DayoftheWeek1185.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/DegreeArray697.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/FibonacciNumber509.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/FindNUnique1304.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/FindNumbers1295.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/FindWords1160.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/FlippingImage832.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/HeightChecker1051.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/InvertNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/LongestCommon14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaximumNumberofBalloons1189.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaximumSubarray53.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MergeArray88.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MinimumAbsoluteDifference1200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/PlaywithChips1217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ProductSubarray152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/RelativeSortArray1122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/RemoveElement27.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ReplaceGreatestRight1299.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SortArrayByParity905.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SortArrayParity922.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SquaresSortedArray977.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/StudentAttendance551.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/TwoSum1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/UniqueMorse804.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/subtractSum1281.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/dynamicprogramming/ClimbingStairs70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/dynamicprogramming/HouseRobber198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/hashtable/CountPrimes204.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/list/LongPressed925.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/list/ReverseVowels345.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/list/SplitString1221.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/AddBinary67.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/BestTimetoBuyandSellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/ComplexNumber537.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/DayYear1154.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/DefangingIP1108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/FirstUniqueCharacter387.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/GenerateParentheses22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/GreatestCommon1071.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/HammingDistance461.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/LongPressed925.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/LongestCommon14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/LongestValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/MaximumNumberofBalloons11892.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/MultiplyStrings43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/NumberSegments434.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/PalindromicSubstrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/ProductArrayExceptSelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/ProductSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/RepeatedString686.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/RepeatedSubstring459.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/ReplacePattern890.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/RotateImage48.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/RotatedSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/SearchIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/SearchWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/ShortestUnsortedContinuousSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/SlidingWindowMaximum239.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/SmallSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/SplitString1221.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/StudentAttendance551.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/SubarraySumEqualsK560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/Subsets78.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/TargetSum494.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/TrapWater42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/TrappingRainWater42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/UniqueMorse804.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/UniquePaths62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/ValidPalindrome125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/math/WordBreak139.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/AddString415.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/CommonCharacter1002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/DefangingIP1108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/FirstUniqueCharacter387.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/GreatestCommon1071.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/IsPalindromic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/LargeGroup830.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/LongPressed925.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/MultiplyStrings43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/NumberSegments434.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/RepeatedString686.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/RepeatedString6862.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/RepeatedSubstring459.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/ReplacePattern890.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/SplitString1221.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/StringCompression443.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/ValidPalindrome125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/CombinationSum39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance72.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/LetterCombinationsPhoneNumber17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/LinkedListCycle142.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MaximalRectangle85.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MaximalSquare221.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MergeKSortedLists23.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MinimumPathSum64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/PerfectSquares279.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/Search2D240.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TaskScheduler621.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/UniquePath62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/BinaryTree102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeInorderTraversal94.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/CapPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/CoinChange322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/ContainerWithMostWater11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/EqualsIgnoreOrderString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/FindAllAnagrams438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/FindDisappearedNumbers448.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/FindDuplicateNumber287.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/FindFirstLastPosition34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/FindMediaTwoSortArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/GroupAnagrams49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LargestRectangleHistogram84.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LetterCombinationsPhoneNumber17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LongestConsecutiveSequence128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LongestPalindromicSubstring5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LongestSubstringWithoutRepeatingCharacters3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LowFirstChar709.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/combination_sum_39.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/find_duplicate_number_287.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/find_k_max_number_215.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/jump_game_55.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/longest_consecutive_128.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/longest_valid_parentheses_32.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/minimum_path_sum_64.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/number_islands_200.py" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/AddBinary67.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/ArrayPartition561.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/BestTimeBuySell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/BitCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/CellsOddValues1252.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/ComplexNumber537.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/DayYear1154.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/DayoftheWeek1185.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/FibonacciNumber509.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/FindNUnique1304.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/FindNumbers1295.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/FindWords1160.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/FlippingImage832.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/HeightChecker1051.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/InvertNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/JumpGame55.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/LongestCommon14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/MaximumNumberofBalloons1189.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/MaximumSubarray53.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/MergeArray88.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/MinimumAbsoluteDifference1200.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/PlaywithChips1217.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/ProductSubarray152.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/RelativeSortArray1122.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/RemoveElement27.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/ReplaceGreatestRight1299.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/SortArrayByParity905.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/SortArrayParity922.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/SquaresSortedArray977.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/StudentAttendance551.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/TwoSum1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/UniqueMorse804.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/array/subtractSum1281.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/dynamicprogramming/ClimbingStairs70.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/dynamicprogramming/HouseRobber198.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/hashtable/CountPrimes204.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/list/KthLargestElement215.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/list/LongPressed925.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/list/ReverseVowels345.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/list/SplitString1221.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/AddBinary67.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/BestTimetoBuyandSellStock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/ComplexNumber537.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/DayYear1154.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/DefangingIP1108.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/FirstUniqueCharacter387.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/GenerateParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/GreatestCommon1071.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/HammingDistance461.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/InvertNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/LongPressed925.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/LongestCommon14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/LongestValidParentheses.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/MajorityElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/MaximumNumberofBalloons11892.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/MinimumWindowSubstring.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/MoveZeroes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/MultiplyStrings43.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/NumberSegments434.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/PalindromicSubstrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/PlusOne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/ProductArrayExceptSelf.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/ProductSubarray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/RepeatedString686.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/RepeatedSubstring459.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/ReplacePattern890.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/ReverseString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/RotateImage48.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/RotatedSortedArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/SearchIndex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/SearchWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/ShortestUnsortedContinuousSubarray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/SlidingWindowMaximum239.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/SmallSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/SplitString1221.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/StudentAttendance551.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/SubarraySumEqualsK560.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/Subsets78.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/TargetSum494.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/ThreeSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/TrapWater42.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/TrappingRainWater42.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/UniqueMorse804.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/UniquePaths62.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/ValidPalindrome125.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/math/WordBreak139.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/AddString415.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/CommonCharacter1002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/DefangingIP1108.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/FirstUniqueCharacter387.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/GreatestCommon1071.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/IsPalindromic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/LargeGroup830.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/LongPressed925.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/MultiplyStrings43.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/NumberSegments434.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/RepeatedString686.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/RepeatedString6862.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/RepeatedSubstring459.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/ReplacePattern890.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/SplitString1221.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/StringCompression443.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/string/ValidPalindrome125.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/top100likedquestions/LetterCombinationsPhoneNumber17.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/top100likedquestions/MaximalRectangle85.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/top100likedquestions/MaximalSquare221.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/top100likedquestions/PerfectSquares279.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/top100likedquestions/Search2D240.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/top100likedquestions/TaskScheduler621.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/CapPartition.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/CoinChange322.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/ContainerWithMostWater11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/EqualsIgnoreOrderString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/FindAllAnagrams438.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/FindDisappearedNumbers448.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/FindDuplicateNumber287.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/FindFirstLastPosition34.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/FindMediaTwoSortArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/GroupAnagrams49.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/LargestRectangleHistogram84.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/LetterCombinationsPhoneNumber17.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/LongestConsecutiveSequence128.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/LongestIncreasingSubsequence.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/LongestPalindromicSubstring5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/LongestSubstringWithoutRepeatingCharacters3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/tree/LowFirstChar709.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/python/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/python/python.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -293,31 +20,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+            <state relative-caret-position="350">
+              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/DegreeArray697.java">
+        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="446">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.IntelliJIdea2019.1/system/python_stubs/1023573933/builtins.py">
+        <entry file="file://$PROJECT_DIR$/src/python/array/merge_arr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="3680" column="8" selection-start-line="3680" selection-start-column="8" selection-end-line="3680" selection-end-column="8" />
+            <state relative-caret-position="400">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -327,6 +51,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="200">
               <caret line="8" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -352,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="3" selection-end-line="43" />
+            <state relative-caret-position="-350">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -361,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/combination_sum_39.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+            <state relative-caret-position="175">
+              <caret line="22" column="17" lean-forward="true" selection-end-line="22" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -370,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/number_islands_200.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="300">
+              <caret line="33" column="9" lean-forward="true" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -383,8 +116,8 @@
       <list>
         <option value="Enum" />
         <option value="Setup Script" />
-        <option value="Python Script" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -403,8 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/python/array/get_single_number_136.py" />
-        <option value="$PROJECT_DIR$/src/leetcode/python/array/joseph_problem.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/array/jump_game_55.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/array/kth_largest_element_215.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/array/longest_consecutive_sequence _128.py" />
@@ -454,6 +185,8 @@
         <option value="$PROJECT_DIR$/src/python/top100likedquestions/number_islands_200.py" />
         <option value="$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/DegreeArray697.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java" />
+        <option value="$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py" />
       </list>
     </option>
   </component>
@@ -464,10 +197,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="155" />
-    <option name="width" value="1943" />
-    <option name="height" value="1103" />
+    <option name="x" value="330" />
+    <option name="y" value="65" />
+    <option name="width" value="1938" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -498,8 +231,14 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="top100likedquestions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -519,7 +258,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -556,7 +295,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DegreeArray697.testDegreeArray">
+  <component name="RunManager" selected="Python.edit_distance_72">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -597,12 +336,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransposeMatrix867.testTransposeMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.TransposeMatrix867" />
+      <option name="METHOD_NAME" value="testTransposeMatrix" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="add_two_numer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/array/add_two_numer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration name="edit_distance_72" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
@@ -611,57 +389,13 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\install\python36\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\octopus\AppData\Local\Programs\Python\Python37-32\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/top100likedquestions" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="find_duplicate_number_287" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/top100likedquestions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/top100likedquestions/find_duplicate_number_287.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="minimum_path_sum_64" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/top100likedquestions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/top100likedquestions/minimum_path_sum_64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -749,20 +483,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.minimum_path_sum_64" />
-      <item itemvalue="Python.edit_distance_72" />
-      <item itemvalue="Python.find_duplicate_number_287" />
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.MergeArray88.testMergeArray" />
       <item itemvalue="JUnit.DegreeArray697.testDegreeArray" />
+      <item itemvalue="JUnit.TransposeMatrix867.testTransposeMatrix" />
+      <item itemvalue="Python.edit_distance_72" />
+      <item itemvalue="Python.add_two_numer" />
+      <item itemvalue="Tomcat Server.mytomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.edit_distance_72" />
+        <item itemvalue="Python.add_two_numer" />
+        <item itemvalue="JUnit.TransposeMatrix867.testTransposeMatrix" />
         <item itemvalue="JUnit.DegreeArray697.testDegreeArray" />
         <item itemvalue="JUnit.MergeArray88.testMergeArray" />
-        <item itemvalue="Python.edit_distance_72" />
-        <item itemvalue="Python.find_duplicate_number_287" />
-        <item itemvalue="Python.minimum_path_sum_64" />
       </list>
     </recent_temporary>
   </component>
@@ -824,14 +558,9 @@
       <workItem from="1578297460337" duration="3382000" />
       <workItem from="1578325462537" duration="1277000" />
       <workItem from="1578484133582" duration="7023000" />
-      <workItem from="1578537626315" duration="27116000" />
-    </task>
-    <task id="LOCAL-00016" summary="add two sum question">
-      <created>1546658501597</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1546658501597</updated>
+      <workItem from="1578537626315" duration="27240000" />
+      <workItem from="1578667604702" duration="3100000" />
+      <workItem from="1578673021335" duration="402000" />
     </task>
     <task id="LOCAL-00017" summary="modify readme.md">
       <created>1546658625771</created>
@@ -1169,22 +898,17 @@
       <option name="project" value="LOCAL" />
       <updated>1578541766339</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="master:增加题目">
+      <created>1578586072758</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1578586072758</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DegreeArray697_testDegreeArray - 2020.01.09 at 22h 58m 21s.xml">
-      <configuration name="DegreeArray697.testDegreeArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DegreeArray697_testDegreeArray - 2020.01.09 at 22h 59m 13s.xml">
-      <configuration name="DegreeArray697.testDegreeArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DegreeArray697_testDegreeArray - 2020.01.09 at 22h 59m 16s.xml">
-      <configuration name="DegreeArray697.testDegreeArray" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DegreeArray697_testDegreeArray - 2020.01.09 at 23h 01m 23s.xml">
-      <configuration name="DegreeArray697.testDegreeArray" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DegreeArray697_testDegreeArray - 2020.01.09 at 23h 01m 40s.xml">
       <configuration name="DegreeArray697.testDegreeArray" configurationId="JUnit" />
     </history-entry>
@@ -1203,15 +927,27 @@
     <history-entry file="DegreeArray697_testDegreeArray - 2020.01.09 at 23h 07m 48s.xml">
       <configuration name="DegreeArray697.testDegreeArray" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransposeMatrix867_testTransposeMatrix - 2020.01.10 at 23h 09m 16s.xml">
+      <configuration name="TransposeMatrix867.testTransposeMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransposeMatrix867_testTransposeMatrix - 2020.01.10 at 23h 11m 04s.xml">
+      <configuration name="TransposeMatrix867.testTransposeMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransposeMatrix867_testTransposeMatrix - 2020.01.10 at 23h 11m 07s.xml">
+      <configuration name="TransposeMatrix867.testTransposeMatrix" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransposeMatrix867_testTransposeMatrix - 2020.01.11 at 00h 05m 02s.xml">
+      <configuration name="TransposeMatrix867.testTransposeMatrix" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="481463000" />
+    <option name="totallyTimeSpent" value="485089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.18724832" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1220,7 +956,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.3057607" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.3057607" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40620384" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1235,7 +971,6 @@
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="15" />
       <window_info anchor="bottom" id="SonarLint" order="16" weight="0.18924972" />
-      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1246,6 +981,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Maven" order="9" />
+      <window_info anchor="right" id="SciView" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21654929" />
@@ -1334,7 +1070,6 @@
     <MESSAGE value="master:更新1252题目" />
     <MESSAGE value="master:更新561,832,1051,1299题目" />
     <MESSAGE value="master:更新1304,1160,1122,922题目" />
-    <MESSAGE value="master:增加题目" />
     <MESSAGE value="master:修改题目方法名字" />
     <MESSAGE value="master:更新方法" />
     <MESSAGE value="master:删除不需要的类" />
@@ -1348,7 +1083,8 @@
     <MESSAGE value="master:修改目录结构" />
     <MESSAGE value="master:修改python文件" />
     <MESSAGE value="master:校验python代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:校验python代码" />
+    <MESSAGE value="master:增加题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1389,6 +1125,12 @@
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py</url>
           <line>41</line>
@@ -1396,6 +1138,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="A[0]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1578540375274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untitled" />
@@ -1407,24 +1154,10 @@
     <SUITE FILE_PATH="coverage/leetcode$merge_arr.coverage" NAME="merge_arr Coverage Results" MODIFIED="1578541497549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$add_two_numer.coverage" NAME="add_two_numer Coverage Results" MODIFIED="1578555331861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$get_intersection_349.coverage" NAME="get_intersection_349 Coverage Results" MODIFIED="1578541299193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
-    <SUITE FILE_PATH="coverage/leetcode$edit_distance_72.coverage" NAME="edit_distance_72 Coverage Results" MODIFIED="1578568298338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
+    <SUITE FILE_PATH="coverage/leetcode$edit_distance_72.coverage" NAME="edit_distance_72 Coverage Results" MODIFIED="1578672820146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$longest_valid_parentheses_32.coverage" NAME="longest_valid_parentheses_32 Coverage Results" MODIFIED="1578554853595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/python/string/longest_valid_parentheses_32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/string/reverse_string2_541.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/string/group_anagrams_49.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-40">
@@ -1432,13 +1165,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepy/group_anagrams_49.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepy/group_anagrams_49.py" />
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1471,13 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/merge_arr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1561,13 +1281,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/add_two_numer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1721,6 +1434,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2019.1/system/python_stubs/1023573933/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92000">
+          <caret line="3680" column="8" selection-start-line="3680" selection-start-column="8" selection-end-line="3680" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/DegreeArray697.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/array/add_two_numer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/array/merge_arr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/find_k_max_number_215.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1737,22 +1488,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" selection-end-line="43" />
+        <state relative-caret-position="-350">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/combination_sum_39.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        <state relative-caret-position="350">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/number_islands_200.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="300">
+          <caret line="33" column="9" lean-forward="true" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1763,34 +1514,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea2019.1/system/python_stubs/1023573933/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="3680" column="8" selection-start-line="3680" selection-start-column="8" selection-end-line="3680" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        <state relative-caret-position="900">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/combination_sum_39.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="175">
+          <caret line="22" column="17" lean-forward="true" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/DegreeArray697.java">
+    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="446">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
         </state>
       </provider>
     </entry>
