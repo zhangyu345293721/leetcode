@@ -455,6 +455,6 @@
 ## 2.array
 ## 3.list
 ## 4.string
-## 5.histable
+## 5.hashtable
 ## 6.math
 ## 7.tree
