@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目867">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SumEvenNumbers985.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/array/sum_even_numbers_985.py" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目985">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ElementAppearing1287.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/Shift2DGrid1260.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/array/element_appearing_1287.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/array/reshape_matrix_566.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,15 +23,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
@@ -39,51 +34,72 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SumEvenNumbers985.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="14" selection-end-column="53" />
+            <state relative-caret-position="225">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ElementAppearing1287.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Shift2DGrid1260.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-175">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="19" column="18" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="19" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/python/array/reshape_matrix_566.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/python/array/rotate_image_48.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="723">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/python/array/element_appearing_1287.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/array/sum_even_numbers_985.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-930" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/minimum_path_sum_64.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" selection-end-line="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/find_duplicate_number_287.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="41" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-350">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="400">
+              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -93,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="22" column="17" lean-forward="true" selection-end-line="22" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/number_islands_200.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="33" column="9" lean-forward="true" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -133,10 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/python/array/kth_largest_element_215.py" />
-        <option value="$PROJECT_DIR$/src/leetcode/python/array/longest_consecutive_sequence _128.py" />
-        <option value="$PROJECT_DIR$/src/leetcode/python/array/merge_arr.py" />
-        <option value="$PROJECT_DIR$/src/leetcode/python/array/messing_number_268.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/array/reverse_integer_7.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/array/rotate_image_48.py" />
         <option value="$PROJECT_DIR$/src/leetcode/python/string/group_anagrams_49.py" />
@@ -184,6 +187,10 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java" />
         <option value="$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SumEvenNumbers985.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/ElementAppearing1287.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/Shift2DGrid1260.java" />
+        <option value="$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java" />
       </list>
     </option>
   </component>
@@ -194,10 +201,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-223" />
-    <option name="y" value="38" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1938" />
-    <option name="height" value="1049" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -217,6 +224,12 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -252,12 +265,12 @@
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src" />
       <recent name="C:\Users\octopus\Desktop\leetcode\untitled" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\tree" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\list" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\array" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\select" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\python\string" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\python\array" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="array" />
@@ -266,12 +279,12 @@
       <recent name="leetcode" />
       <recent name="leetcode.TestWeb" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\python\array" />
       <recent name="C:\Users\octopus\Desktop\leetcode\untitled" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\python\string" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\python\array" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\tree" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\list" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\array" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,14 +299,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SumEvenNumbers985.testSumEvenNumbers">
+  <component name="RunManager" selected="JUnit.ReshapeMatrix566.testReshapeMatrix">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DegreeArray697.testDegreeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ElementAppearing1287.testElementAppearing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -302,8 +315,42 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.DegreeArray697" />
-      <option name="METHOD_NAME" value="testDegreeArray" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.ElementAppearing1287" />
+      <option name="METHOD_NAME" value="testElementAppearing" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReshapeMatrix566.testReshapeMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.ReshapeMatrix566" />
+      <option name="METHOD_NAME" value="testReshapeMatrix" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shift2DGrid1260.testShift2DGrid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.Shift2DGrid1260" />
+      <option name="METHOD_NAME" value="testShift2DGrid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -327,51 +374,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransposeMatrix867.testTransposeMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.TransposeMatrix867" />
-      <option name="METHOD_NAME" value="testTransposeMatrix" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="add_two_numer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/array/add_two_numer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="edit_distance_72" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
@@ -474,20 +482,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DegreeArray697.testDegreeArray" />
-      <item itemvalue="JUnit.TransposeMatrix867.testTransposeMatrix" />
       <item itemvalue="Python.edit_distance_72" />
-      <item itemvalue="Python.add_two_numer" />
       <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.SumEvenNumbers985.testSumEvenNumbers" />
+      <item itemvalue="JUnit.ElementAppearing1287.testElementAppearing" />
+      <item itemvalue="JUnit.Shift2DGrid1260.testShift2DGrid" />
+      <item itemvalue="JUnit.ReshapeMatrix566.testReshapeMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReshapeMatrix566.testReshapeMatrix" />
+        <item itemvalue="JUnit.Shift2DGrid1260.testShift2DGrid" />
+        <item itemvalue="JUnit.ElementAppearing1287.testElementAppearing" />
         <item itemvalue="JUnit.SumEvenNumbers985.testSumEvenNumbers" />
         <item itemvalue="Python.edit_distance_72" />
-        <item itemvalue="Python.add_two_numer" />
-        <item itemvalue="JUnit.TransposeMatrix867.testTransposeMatrix" />
-        <item itemvalue="JUnit.DegreeArray697.testDegreeArray" />
       </list>
     </recent_temporary>
   </component>
@@ -551,14 +559,7 @@
       <workItem from="1578484133582" duration="7023000" />
       <workItem from="1578537626315" duration="27240000" />
       <workItem from="1578667604702" duration="3100000" />
-      <workItem from="1578673021335" duration="3297000" />
-    </task>
-    <task id="LOCAL-00018" summary="classfication question">
-      <created>1546659271085</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1546659271085</updated>
+      <workItem from="1578673021335" duration="12016000" />
     </task>
     <task id="LOCAL-00019" summary="classfication question2">
       <created>1547361094749</created>
@@ -896,43 +897,50 @@
       <option name="project" value="LOCAL" />
       <updated>1578673458711</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="master:增加题目985">
+      <created>1578725764742</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1578725764742</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransposeMatrix867_testTransposeMatrix - 2020.01.10 at 23h 11m 04s.xml">
-      <configuration name="TransposeMatrix867.testTransposeMatrix" configurationId="JUnit" />
+    <history-entry file="Shift2DGrid1260_testShift2DGrid - 2020.01.11 at 16h 27m 47s.xml">
+      <configuration name="Shift2DGrid1260.testShift2DGrid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransposeMatrix867_testTransposeMatrix - 2020.01.10 at 23h 11m 07s.xml">
-      <configuration name="TransposeMatrix867.testTransposeMatrix" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 12m 13s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransposeMatrix867_testTransposeMatrix - 2020.01.11 at 00h 05m 02s.xml">
-      <configuration name="TransposeMatrix867.testTransposeMatrix" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 13m 54s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumEvenNumbers985_testSumEvenNumbers - 2020.01.11 at 14h 27m 17s.xml">
-      <configuration name="SumEvenNumbers985.testSumEvenNumbers" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 19m 36s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumEvenNumbers985_testSumEvenNumbers - 2020.01.11 at 14h 27m 20s.xml">
-      <configuration name="SumEvenNumbers985.testSumEvenNumbers" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 20m 36s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumEvenNumbers985_testSumEvenNumbers - 2020.01.11 at 14h 29m 21s.xml">
-      <configuration name="SumEvenNumbers985.testSumEvenNumbers" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 20m 52s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumEvenNumbers985_testSumEvenNumbers - 2020.01.11 at 14h 30m 14s.xml">
-      <configuration name="SumEvenNumbers985.testSumEvenNumbers" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 21m 22s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumEvenNumbers985_testSumEvenNumbers - 2020.01.11 at 14h 33m 01s.xml">
-      <configuration name="SumEvenNumbers985.testSumEvenNumbers" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 25m 40s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumEvenNumbers985_testSumEvenNumbers - 2020.01.11 at 14h 33m 11s.xml">
-      <configuration name="SumEvenNumbers985.testSumEvenNumbers" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 28m 40s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SumEvenNumbers985_testSumEvenNumbers - 2020.01.11 at 14h 37m 46s.xml">
-      <configuration name="SumEvenNumbers985.testSumEvenNumbers" configurationId="JUnit" />
+    <history-entry file="ReshapeMatrix566_testReshapeMatrix - 2020.01.11 at 17h 32m 59s.xml">
+      <configuration name="ReshapeMatrix566.testReshapeMatrix" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="487984000" />
+    <option name="totallyTimeSpent" value="496703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -946,8 +954,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.30530974" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3338257" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.33677992" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.38847858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -973,37 +981,6 @@
       <window_info anchor="right" id="Maven" order="9" />
       <window_info anchor="right" id="SciView" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21654929" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.32073012" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3971354" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Statistic" order="8" weight="0.31770834" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32885906" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007163" side_tool="true" weight="0.32885906" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.328125" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3295129" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1049,7 +1026,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:修改题目的注释" />
     <MESSAGE value="master:合并算法，放到一个类中" />
     <MESSAGE value="master:精简方法，重构代码" />
     <MESSAGE value="master:加上注释" />
@@ -1074,7 +1050,8 @@
     <MESSAGE value="master:校验python代码" />
     <MESSAGE value="master:增加题目" />
     <MESSAGE value="master:增加题目867" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目867" />
+    <MESSAGE value="master:增加题目985" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目985" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1133,6 +1110,12 @@
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py</url>
           <line>41</line>
@@ -1160,55 +1143,6 @@
     <SUITE FILE_PATH="coverage/leetcode$longest_valid_parentheses_32.coverage" NAME="longest_valid_parentheses_32 Coverage Results" MODIFIED="1578554853595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/get_intersection_349.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/longest_consecutive_sequence _128.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/reverse_integer_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/rotate_image_48.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/jump_game_55.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/kth_largest_element_215.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/python/array/messing_number_268.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
@@ -1529,17 +1463,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SumEvenNumbers985.java">
+    <entry file="file://$PROJECT_DIR$/src/python/array/sum_even_numbers_985.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="400">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/sum_even_numbers_985.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SumEvenNumbers985.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930" />
+        <state relative-caret-position="225">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+        </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/array/element_appearing_1287.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/array/rotate_image_48.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ElementAppearing1287.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-655">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Shift2DGrid1260.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/array/reshape_matrix_566.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
