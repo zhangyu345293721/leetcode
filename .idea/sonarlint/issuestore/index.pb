@@ -371,3 +371,7 @@ f
 6src/python/string/remove_outer_most_parenthess_1021.py,1\4\149f7bd662ffcf7f8fd56b7942b4e039ac2c673c
 k
 ;src/leetcodejava/string/RemoveOutermostParentheses1021.java,9\7\97b47f58ef259b71daa70a556f1f96421c94e6c4
+]
+-src/leetcodejava/array/MonotonicArray896.java,c\0\c0538ce70c4ef1e9cd31e788d63a42c3ada90a79
+W
+'src/python/array/monotonic_array_896.py,f\7\f70682e05187c0da84f76fb3c867bd0ded9f9ebc
