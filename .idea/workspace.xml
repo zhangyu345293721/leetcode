@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目217题目">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/array/self_diving_number_728.py" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目728题目">
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/leetcodepython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/add_two_numer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/add_two_numer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/contains_duplicate_217.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/element_appearing_1287.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/find_duplicate_number_287.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/find_duplicate_number_287.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/get_intersection_349.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/get_intersection_349.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/get_single_number_136.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/get_single_number_136.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/joseph_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/joseph_problem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/jump_game_55.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/jump_game_55.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/kth_largest_element_215.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/longest_consecutive_sequence _128.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/merge_arr.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/merge_arr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/messing_number_268.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/monotonic_array_896.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/reshape_matrix_566.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/reshape_matrix_566.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/reverse_integer_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/reverse_integer_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/rotate_image_48.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/rotate_image_48.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/self_diving_number_728.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/self_diving_number_728.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/array/sum_even_numbers_985.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/sum_even_numbers_985.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/list/linked_list_cycle2_142.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/string/freq_alphabets_1309.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/string/group_anagrams_49.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/string/longest_valid_parentheses_32.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/longest_valid_parentheses_32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/string/remove_outer_most_parenthess_1021.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/string/reverse_string2_541.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/combination_sum_39.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/combination_sum_39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/convert_bst_538.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/convert_bst_538.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/find_duplicate_number_287.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_duplicate_number_287.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/find_k_max_number_215.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_k_max_number_215.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/jump_game_55.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/longest_consecutive_128.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_consecutive_128.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/longest_valid_parentheses_32.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_arr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/minimum_path_sum_64.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/minimum_path_sum_64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/number_islands_200.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,103 +51,103 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/array/sum_even_numbers_985.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_k_max_number_215.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate217.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+            <state relative-caret-position="-49">
+              <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#67#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/array/contains_duplicate_217.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-50">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-199">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/python/array/self_diving_number_728.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+            <state relative-caret-position="126">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/convert_bst_538.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_consecutive_128.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-224">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TreeNode.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="500">
+              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_arr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/minimum_path_sum_64.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-174">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-500">
+              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -141,38 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/java/tree/BinaryTree102.java" />
-        <option value="$PROJECT_DIR$/src/java/top100likedquestions/LongestValidParentheses32.java" />
-        <option value="$PROJECT_DIR$/src/java/string/LongestValidParentheses32.java" />
-        <option value="$PROJECT_DIR$/src/java/string/AddString415.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/string/AddString415.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/longest_valid_parentheses_32.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeInorderTraversal94.java" />
-        <option value="$PROJECT_DIR$/src/python/array/add_two_numer.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/UniquePath62.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/find_duplicate_number_287.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/math/GenerateParentheses.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/math/GenerateParentheses22.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/longest_consecutive_128.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/find_k_max_number_215.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MergeKSortedLists23.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/jump_game_55.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MinimumPathSum64.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/minimum_path_sum_64.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MergeIntervals.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/LinkedListCycle142.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/CombinationSum39.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/combination_sum_39.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/number_islands_200.py" />
-        <option value="$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/DegreeArray697.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java" />
         <option value="$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SumEvenNumbers985.java" />
@@ -192,6 +198,38 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate217.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java" />
         <option value="$PROJECT_DIR$/src/python/array/self_diving_number_728.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/merge_arr.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/add_two_numer.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/find_duplicate_number_287.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/get_intersection_349.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/get_single_number_136.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/joseph_problem.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/jump_game_55.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/reverse_integer_7.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/rotate_image_48.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/self_diving_number_728.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/sum_even_numbers_985.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/longest_valid_parentheses_32.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_duplicate_number_287.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_k_max_number_215.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_consecutive_128.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_arr.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/minimum_path_sum_64.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py" />
       </list>
     </option>
   </component>
@@ -201,10 +239,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1937" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1807" />
+    <option name="y" value="-18" />
+    <option name="width" value="1549" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -229,19 +268,13 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
               <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -255,22 +288,22 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/python/array" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
       <recent name="C:\Users\octopus\Desktop\leetcode\untitled" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\python\string" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcode\python\array" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="array" />
@@ -299,77 +332,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SelfDivingNumber728.testSelfDivingNumber">
+  <component name="RunManager" selected="Python.remove_outer_most_parenthess_1021">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainsDuplicate217.testContainsDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.ContainsDuplicate217" />
-      <option name="METHOD_NAME" value="testContainsDuplicate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonotonicArray896.testMonotonicArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.MonotonicArray896" />
-      <option name="METHOD_NAME" value="testMonotonicArray" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveOutermostParentheses1021.testRemoveOutermostParentheses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.RemoveOutermostParentheses1021" />
-      <option name="METHOD_NAME" value="testRemoveOutermostParentheses" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelfDivingNumber728.testSelfDivingNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.SelfDivingNumber728" />
-      <option name="METHOD_NAME" value="testSelfDivingNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -381,20 +346,108 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shift_2d_grid_1260" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcode" />
+    <configuration name="group_anagrams_49" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/python/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="remove_outer_most_parenthess_1021" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="reverse_integer_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/reverse_integer_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rotate_image_48" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/rotate_image_48.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="shift_2d_grid_1260" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -482,20 +535,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RemoveOutermostParentheses1021.testRemoveOutermostParentheses" />
-      <item itemvalue="JUnit.MonotonicArray896.testMonotonicArray" />
-      <item itemvalue="Python.shift_2d_grid_1260" />
       <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.ContainsDuplicate217.testContainsDuplicate" />
-      <item itemvalue="JUnit.SelfDivingNumber728.testSelfDivingNumber" />
+      <item itemvalue="Python.reverse_integer_7" />
+      <item itemvalue="Python.rotate_image_48" />
+      <item itemvalue="Python.shift_2d_grid_1260" />
+      <item itemvalue="Python.group_anagrams_49" />
+      <item itemvalue="Python.remove_outer_most_parenthess_1021" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SelfDivingNumber728.testSelfDivingNumber" />
-        <item itemvalue="JUnit.ContainsDuplicate217.testContainsDuplicate" />
+        <item itemvalue="Python.remove_outer_most_parenthess_1021" />
+        <item itemvalue="Python.group_anagrams_49" />
         <item itemvalue="Python.shift_2d_grid_1260" />
-        <item itemvalue="JUnit.MonotonicArray896.testMonotonicArray" />
-        <item itemvalue="JUnit.RemoveOutermostParentheses1021.testRemoveOutermostParentheses" />
+        <item itemvalue="Python.rotate_image_48" />
+        <item itemvalue="Python.reverse_integer_7" />
       </list>
     </recent_temporary>
   </component>
@@ -561,14 +614,7 @@
       <workItem from="1578667604702" duration="3100000" />
       <workItem from="1578673021335" duration="28435000" />
       <workItem from="1578915919080" duration="4023000" />
-      <workItem from="1578966689658" duration="8413000" />
-    </task>
-    <task id="LOCAL-00023" summary="添加两个数之和是一个固定值">
-      <created>1563935773150</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1563935773150</updated>
+      <workItem from="1578966689658" duration="16919000" />
     </task>
     <task id="LOCAL-00024" summary="添加两个数之和是一个固定值">
       <created>1563935860385</created>
@@ -906,13 +952,17 @@
       <option name="project" value="LOCAL" />
       <updated>1578993162619</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="master:增加题目728题目">
+      <created>1579052132892</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1579052132893</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MonotonicArray896_testMonotonicArray - 2020.01.13 at 19h 57m 42s.xml">
-      <configuration name="MonotonicArray896.testMonotonicArray" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MonotonicArray896_testMonotonicArray - 2020.01.13 at 19h 57m 58s.xml">
       <configuration name="MonotonicArray896.testMonotonicArray" configurationId="JUnit" />
     </history-entry>
@@ -940,15 +990,17 @@
     <history-entry file="SelfDivingNumber728_testSelfDivingNumber - 2020.01.14 at 22h 48m 31s.xml">
       <configuration name="SelfDivingNumber728.testSelfDivingNumber" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SelfDivingNumber728_testSelfDivingNumber - 2020.01.15 at 09h 36m 22s.xml">
+      <configuration name="SelfDivingNumber728.testSelfDivingNumber" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525558000" />
+    <option name="totallyTimeSpent" value="534064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1549" height="830" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1927468" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.15314835" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -957,7 +1009,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.24663678" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.24076147" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38847858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1029,7 +1081,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:修改子字符串" />
     <MESSAGE value="master:更新1281题目" />
     <MESSAGE value="master:更新1252题目" />
     <MESSAGE value="master:更新561,832,1051,1299题目" />
@@ -1054,7 +1105,8 @@
     <MESSAGE value="master:增加题目1021,1309" />
     <MESSAGE value="master:增加题目896" />
     <MESSAGE value="master:增加题目217题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目217题目" />
+    <MESSAGE value="master:增加题目728题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目728题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1132,7 +1184,7 @@
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py</url>
+          <url>file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py</url>
           <line>41</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
@@ -1145,196 +1197,24 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1578540375274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untitled" />
-    <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49__1_.coverage" NAME="group_anagrams_49 (1) Coverage Results" MODIFIED="1578540519468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepy" />
-    <SUITE FILE_PATH="coverage/leetcode$kth_largest_element_215.coverage" NAME="kth_largest_element_215 Coverage Results" MODIFIED="1578541537689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
-    <SUITE FILE_PATH="coverage/leetcode$minimum_path_sum_64.coverage" NAME="minimum_path_sum_64 Coverage Results" MODIFIED="1578562839215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
-    <SUITE FILE_PATH="coverage/leetcode$add_two_numer__1_.coverage" NAME="add_two_numer (1) Coverage Results" MODIFIED="1578540435991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untitled/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$find_duplicate_number_287.coverage" NAME="find_duplicate_number_287 Coverage Results" MODIFIED="1578568241623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
+    <SUITE FILE_PATH="coverage/leetcode$reverse_integer_7.coverage" NAME="reverse_integer_7 Coverage Results" MODIFIED="1579065921031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$merge_arr.coverage" NAME="merge_arr Coverage Results" MODIFIED="1578541497549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
-    <SUITE FILE_PATH="coverage/leetcode$add_two_numer.coverage" NAME="add_two_numer Coverage Results" MODIFIED="1578555331861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
+    <SUITE FILE_PATH="coverage/leetcode$remove_outer_most_parenthess_1021.coverage" NAME="remove_outer_most_parenthess_1021 Coverage Results" MODIFIED="1579066786518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$get_intersection_349.coverage" NAME="get_intersection_349 Coverage Results" MODIFIED="1578541299193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
+    <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1579066615836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
+    <SUITE FILE_PATH="coverage/leetcode$joseph_problem.coverage" NAME="joseph_problem Coverage Results" MODIFIED="1579057210029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49__1_.coverage" NAME="group_anagrams_49 (1) Coverage Results" MODIFIED="1578540519468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepy" />
+    <SUITE FILE_PATH="coverage/leetcode$rotate_image_48.coverage" NAME="rotate_image_48 Coverage Results" MODIFIED="1579066148010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$minimum_path_sum_64.coverage" NAME="minimum_path_sum_64 Coverage Results" MODIFIED="1578562839215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
+    <SUITE FILE_PATH="coverage/leetcode$kth_largest_element_215.coverage" NAME="kth_largest_element_215 Coverage Results" MODIFIED="1579057388176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$add_two_numer__1_.coverage" NAME="add_two_numer (1) Coverage Results" MODIFIED="1578540435991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untitled/python/array" />
+    <SUITE FILE_PATH="coverage/leetcode$add_two_numer.coverage" NAME="add_two_numer Coverage Results" MODIFIED="1579056979266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$edit_distance_72.coverage" NAME="edit_distance_72 Coverage Results" MODIFIED="1578672820146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
+    <SUITE FILE_PATH="coverage/leetcode$shift_2d_grid_1260.coverage" NAME="shift_2d_grid_1260 Coverage Results" MODIFIED="1579066228992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$longest_valid_parentheses_32.coverage" NAME="longest_valid_parentheses_32 Coverage Results" MODIFIED="1578554853595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance72.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/list/linked_list_cycle2_142.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/LinkedListCycle142.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/CombinationSum39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MergeArray88.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/longest_valid_parentheses_32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="22" column="18" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/longest_consecutive_128.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/jump_game_55.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea2019.1/system/python_stubs/1023573933/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92000">
-          <caret line="3680" column="8" selection-start-line="3680" selection-start-column="8" selection-end-line="3680" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/DegreeArray697.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/add_two_numer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/find_k_max_number_215.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/find_duplicate_number_287.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/number_islands_200.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="33" column="9" lean-forward="true" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/minimum_path_sum_64.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/merge_arr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/combination_sum_39.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="22" column="17" lean-forward="true" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/transpose_matrix_867.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SumEvenNumbers985.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/element_appearing_1287.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/rotate_image_48.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ElementAppearing1287.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1343,11 +1223,6 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/string/remove_outer_most_parenthess_1021.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Shift2DGrid1260.java">
@@ -1398,33 +1273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/reshape_matrix_566.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/messing_number_268.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/merge_arr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/longest_consecutive_sequence _128.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/string/freq_alphabets_1309.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/RemoveOutermostParentheses1021.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -1442,23 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/monotonic_array_896.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/sum_even_numbers_985.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1469,16 +1300,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/top100likedquestions/convert_bst_538.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1497,27 +1318,281 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/contains_duplicate_217.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="76">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="526">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/python/array/self_diving_number_728.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/add_two_numer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="100">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/find_duplicate_number_287.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/get_intersection_349.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="60" column="68" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/get_single_number_136.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/joseph_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/jump_game_55.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding>
+            <element signature="e#89#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_arr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/reshape_matrix_566.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/reverse_integer_7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/rotate_image_48.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="54" column="10" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/self_diving_number_728.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-499">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-349">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/sum_even_numbers_985.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="23" column="78" selection-start-line="23" selection-start-column="78" selection-end-line="23" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/longest_valid_parentheses_32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/combination_sum_39.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" selection-start-line="3" selection-start-column="3" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="103" column="20" selection-start-line="103" selection-start-column="20" selection-end-line="103" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/convert_bst_538.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_duplicate_number_287.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_k_max_number_215.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+          <folding>
+            <element signature="e#67#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_consecutive_128.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_arr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/minimum_path_sum_64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
         </state>
       </provider>
     </entry>
