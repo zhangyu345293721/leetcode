@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目896">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/array/contains_duplicate_217.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/python/top100likedquestions/convert_bst_538.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目217题目">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/python/array/self_diving_number_728.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,20 +19,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MonotonicArray896.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/python/array/monotonic_array_896.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python/array/sum_even_numbers_985.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
@@ -50,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="277">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -59,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-10">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -68,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="122">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -76,8 +57,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate217.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="178">
+              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/python/array/contains_duplicate_217.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-50">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,9 +88,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/python/array/contains_duplicate_217.py">
+        <entry file="file://$PROJECT_DIR$/src/python/array/self_diving_number_728.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-900" />
+            <state relative-caret-position="223">
+              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -101,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
@@ -137,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/python/array/kth_largest_element_215.py" />
-        <option value="$PROJECT_DIR$/src/java/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/java/tree/BinaryTree102.java" />
         <option value="$PROJECT_DIR$/src/java/top100likedquestions/LongestValidParentheses32.java" />
         <option value="$PROJECT_DIR$/src/java/string/LongestValidParentheses32.java" />
@@ -188,6 +190,8 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate217.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java" />
+        <option value="$PROJECT_DIR$/src/python/array/self_diving_number_728.py" />
       </list>
     </option>
   </component>
@@ -197,11 +201,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="106" />
-    <option name="y" value="-22" />
-    <option name="width" value="1945" />
-    <option name="height" value="1103" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1937" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -296,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContainsDuplicate217.testContainsDuplicate">
+  <component name="RunManager" selected="JUnit.SelfDivingNumber728.testSelfDivingNumber">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -314,23 +317,6 @@
       <option name="PACKAGE_NAME" value="leetcodejava.array" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.array.ContainsDuplicate217" />
       <option name="METHOD_NAME" value="testContainsDuplicate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DecryptString1409.testDecryString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.DecryptString1409" />
-      <option name="METHOD_NAME" value="testDecryString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -365,6 +351,23 @@
       <option name="PACKAGE_NAME" value="leetcodejava.string" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.string.RemoveOutermostParentheses1021" />
       <option name="METHOD_NAME" value="testRemoveOutermostParentheses" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelfDivingNumber728.testSelfDivingNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.SelfDivingNumber728" />
+      <option name="METHOD_NAME" value="testSelfDivingNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -479,20 +482,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DecryptString1409.testDecryString" />
       <item itemvalue="JUnit.RemoveOutermostParentheses1021.testRemoveOutermostParentheses" />
       <item itemvalue="JUnit.MonotonicArray896.testMonotonicArray" />
       <item itemvalue="Python.shift_2d_grid_1260" />
       <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.ContainsDuplicate217.testContainsDuplicate" />
+      <item itemvalue="JUnit.SelfDivingNumber728.testSelfDivingNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SelfDivingNumber728.testSelfDivingNumber" />
         <item itemvalue="JUnit.ContainsDuplicate217.testContainsDuplicate" />
         <item itemvalue="Python.shift_2d_grid_1260" />
         <item itemvalue="JUnit.MonotonicArray896.testMonotonicArray" />
         <item itemvalue="JUnit.RemoveOutermostParentheses1021.testRemoveOutermostParentheses" />
-        <item itemvalue="JUnit.DecryptString1409.testDecryString" />
       </list>
     </recent_temporary>
   </component>
@@ -558,14 +561,7 @@
       <workItem from="1578667604702" duration="3100000" />
       <workItem from="1578673021335" duration="28435000" />
       <workItem from="1578915919080" duration="4023000" />
-      <workItem from="1578966689658" duration="4765000" />
-    </task>
-    <task id="LOCAL-00022" summary="添加约瑟夫环问题的python编码">
-      <created>1563851191637</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1563851191637</updated>
+      <workItem from="1578966689658" duration="8413000" />
     </task>
     <task id="LOCAL-00023" summary="添加两个数之和是一个固定值">
       <created>1563935773150</created>
@@ -903,19 +899,17 @@
       <option name="project" value="LOCAL" />
       <updated>1578927222853</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="master:增加题目217题目">
+      <created>1578993162618</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1578993162619</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemoveOutermostParentheses1021_testRemoveOutermostParentheses - 2020.01.13 at 16h 38m 02s.xml">
-      <configuration name="RemoveOutermostParentheses1021.testRemoveOutermostParentheses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveOutermostParentheses1021_testRemoveOutermostParentheses - 2020.01.13 at 19h 57m 13s.xml">
-      <configuration name="RemoveOutermostParentheses1021.testRemoveOutermostParentheses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MonotonicArray896_testMonotonicArray - 2020.01.13 at 19h 57m 26s.xml">
-      <configuration name="MonotonicArray896.testMonotonicArray" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MonotonicArray896_testMonotonicArray - 2020.01.13 at 19h 57m 42s.xml">
       <configuration name="MonotonicArray896.testMonotonicArray" configurationId="JUnit" />
     </history-entry>
@@ -937,14 +931,24 @@
     <history-entry file="ContainsDuplicate217_testContainsDuplicate - 2020.01.14 at 16h 51m 57s.xml">
       <configuration name="ContainsDuplicate217.testContainsDuplicate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SelfDivingNumber728_testSelfDivingNumber - 2020.01.14 at 22h 46m 56s.xml">
+      <configuration name="SelfDivingNumber728.testSelfDivingNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelfDivingNumber728_testSelfDivingNumber - 2020.01.14 at 22h 48m 28s.xml">
+      <configuration name="SelfDivingNumber728.testSelfDivingNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SelfDivingNumber728_testSelfDivingNumber - 2020.01.14 at 22h 48m 31s.xml">
+      <configuration name="SelfDivingNumber728.testSelfDivingNumber" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="521910000" />
+    <option name="totallyTimeSpent" value="525558000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="0" width="1549" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.19261745" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1927468" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -953,7 +957,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.2437223" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.24663678" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38847858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1025,7 +1029,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:修改动态规划结构" />
     <MESSAGE value="master:修改子字符串" />
     <MESSAGE value="master:更新1281题目" />
     <MESSAGE value="master:更新1252题目" />
@@ -1050,7 +1053,8 @@
     <MESSAGE value="master:增加题目566" />
     <MESSAGE value="master:增加题目1021,1309" />
     <MESSAGE value="master:增加题目896" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目896" />
+    <MESSAGE value="master:增加题目217题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目217题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1121,6 +1125,12 @@
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/python/top100likedquestions/edit_distance_72.py</url>
           <line>41</line>
@@ -1148,23 +1158,6 @@
     <SUITE FILE_PATH="coverage/leetcode$longest_valid_parentheses_32.coverage" NAME="longest_valid_parentheses_32 Coverage Results" MODIFIED="1578554853595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MinimumPathSum64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MergeIntervals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance72.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -1462,14 +1455,14 @@
     <entry file="file://$PROJECT_DIR$/src/python/array/shift_2d_grid_1260.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#231#232#0" expanded="true" />
             <element signature="e#254#255#0" expanded="true" />
@@ -1480,7 +1473,7 @@
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-10">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1490,14 +1483,14 @@
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate217.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="178">
+          <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1506,7 +1499,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python/array/contains_duplicate_217.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900" />
+        <state relative-caret-position="181">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/python/array/self_diving_number_728.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        </state>
       </provider>
     </entry>
   </component>
