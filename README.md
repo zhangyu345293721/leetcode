@@ -453,6 +453,22 @@
 其中加*表示花了很长时间！题目没有进行分类，后期将对题目整理分类！
 
 ## 2.array
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
+  </tr>
+  <tr>
+    <th >217</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/103976728">Contains Duplicate</a></th>
+    <th>Easy</th>
+  </tr>
+  
+
+  
+</table>
+
 ## 3.list
 ## 4.string
 ## 5.hashtable
