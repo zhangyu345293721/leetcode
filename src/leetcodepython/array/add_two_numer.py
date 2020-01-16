@@ -1,9 +1,10 @@
 # encoding='utf-8'
 
 '''
+在一个数组中找出两个数的和为一个固定值
 author:zhangyu
 date:2019.7.24
-description: 在一个数组中找出两个数的和为一个固定值
+
 '''
 from typing import List, Tuple
 

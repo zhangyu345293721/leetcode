@@ -1,9 +1,9 @@
 # encoding='utf-8'
 
 '''
-   author:zhangyu
-   date:2019.8.29
-   description:找出有环链表中的环
+找出有环链表中的环
+author:zhangyu
+date:2019.8.29
 '''
 
 

@@ -1,9 +1,9 @@
 # encoding='utf-8'
 
 '''
+找出数组中重复的数字
 author:zhangyu
 date:2019.8.22
-description:找出数组中重复的数字
 '''
 from typing import List
 
