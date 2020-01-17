@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:提交题目1207">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/PeakIndexMountainArray852.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/peak_index_mountain_array_852.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目852">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/DIStringMatch942.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,27 +22,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/UniqueNumberOccurrences1207.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/unique_number_occurrences_1207.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
@@ -61,11 +39,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/peak_index_mountain_array_852.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
+            <state relative-caret-position="50">
               <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/DIStringMatch942.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -138,8 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate217.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java" />
         <option value="$PROJECT_DIR$/src/python/array/self_diving_number_728.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/merge_arr.py" />
@@ -189,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/leetcodepython/array/unique_number_occurrences_1207.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/PeakIndexMountainArray852.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/peak_index_mountain_array_852.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/DIStringMatch942.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py" />
       </list>
     </option>
   </component>
@@ -199,8 +195,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="435" />
-    <option name="y" value="162" />
+    <option name="x" value="563" />
+    <option name="y" value="143" />
     <option name="width" value="1440" />
     <option name="height" value="774" />
   </component>
@@ -231,13 +227,6 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,7 +234,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,7 +250,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcodepython/array" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcodepython/string" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -285,11 +274,11 @@
       <recent name="leetcode.TestWeb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\string" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\array" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\python\array" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\python\top100likedquestions" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\python\string" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\untitled" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,9 +293,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.peak_index_mountain_array_852">
+  <component name="RunManager" selected="Python.di_string_match_942">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DIStringMatch942.testDIStringMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.DIStringMatch942" />
+      <option name="METHOD_NAME" value="testDIStringMatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,23 +334,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNumberOccurrences1207.testUniqueNumberOccurrences" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.UniqueNumberOccurrences1207" />
-      <option name="METHOD_NAME" value="testUniqueNumberOccurrences" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -352,7 +341,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="np_repeated_element_961" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="di_string_match_942" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -360,12 +349,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -497,20 +486,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UniqueNumberOccurrences1207.testUniqueNumberOccurrences" />
-      <item itemvalue="Python.np_repeated_element_961" />
       <item itemvalue="Python.unique_number_occurrences_1207" />
       <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.PeakIndexMountainArray852.testPeakIndexMountainArray" />
       <item itemvalue="Python.peak_index_mountain_array_852" />
+      <item itemvalue="JUnit.DIStringMatch942.testDIStringMatch" />
+      <item itemvalue="Python.di_string_match_942" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.di_string_match_942" />
+        <item itemvalue="JUnit.DIStringMatch942.testDIStringMatch" />
         <item itemvalue="Python.peak_index_mountain_array_852" />
         <item itemvalue="JUnit.PeakIndexMountainArray852.testPeakIndexMountainArray" />
         <item itemvalue="Python.unique_number_occurrences_1207" />
-        <item itemvalue="JUnit.UniqueNumberOccurrences1207.testUniqueNumberOccurrences" />
-        <item itemvalue="Python.np_repeated_element_961" />
       </list>
     </recent_temporary>
   </component>
@@ -578,14 +567,7 @@
       <workItem from="1578915919080" duration="4023000" />
       <workItem from="1578966689658" duration="34753000" />
       <workItem from="1579158066642" duration="4941000" />
-      <workItem from="1579240128077" duration="917000" />
-    </task>
-    <task id="LOCAL-00030" summary="添加python的541和32题目">
-      <created>1566265888569</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1566265888569</updated>
+      <workItem from="1579240128077" duration="4011000" />
     </task>
     <task id="LOCAL-00031" summary="添加python的268题目">
       <created>1566268338095</created>
@@ -923,43 +905,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579224635733</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="master:增加题目852">
+      <created>1579241074740</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1579241074740</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DecompressRunLengthEncoded1313_testDecompressRunLengthEncoded - 2020.01.15 at 21h 04m 10s.xml">
-      <configuration name="DecompressRunLengthEncoded1313.testDecompressRunLengthEncoded" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 24m 18s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeSumBST938_testRangeSumBST - 2020.01.16 at 10h 11m 36s.xml">
-      <configuration name="RangeSumBST938.testRangeSumBST" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 25m 39s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeSumBST938_testRangeSumBST - 2020.01.16 at 10h 13m 45s.xml">
-      <configuration name="RangeSumBST938.testRangeSumBST" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 25m 43s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RangeSumBST938_testRangeSumBST - 2020.01.16 at 10h 13m 58s.xml">
-      <configuration name="RangeSumBST938.testRangeSumBST" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 25m 47s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NRepeatedElement961_testNRepeatedElement - 2020.01.16 at 15h 12m 58s.xml">
-      <configuration name="NRepeatedElement961.testNRepeatedElement" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 26m 11s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniqueNumberOccurrences1207_testUniqueNumberOccurrences - 2020.01.16 at 16h 09m 43s.xml">
-      <configuration name="UniqueNumberOccurrences1207.testUniqueNumberOccurrences" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 29m 51s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniqueNumberOccurrences1207_testUniqueNumberOccurrences - 2020.01.16 at 16h 17m 49s.xml">
-      <configuration name="UniqueNumberOccurrences1207.testUniqueNumberOccurrences" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 34m 33s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniqueNumberOccurrences1207_testUniqueNumberOccurrences - 2020.01.16 at 16h 22m 54s.xml">
-      <configuration name="UniqueNumberOccurrences1207.testUniqueNumberOccurrences" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 53m 10s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeakIndexMountainArray852_testPeakIndexMountainArray - 2020.01.17 at 13h 55m 11s.xml">
-      <configuration name="PeakIndexMountainArray852.testPeakIndexMountainArray" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 54m 57s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeakIndexMountainArray852_testPeakIndexMountainArray - 2020.01.17 at 13h 56m 12s.xml">
-      <configuration name="PeakIndexMountainArray852.testPeakIndexMountainArray" configurationId="JUnit" />
+    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 55m 11s.xml">
+      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="557756000" />
+    <option name="totallyTimeSpent" value="560850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -974,8 +963,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.23929098" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45912653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.35302806" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31019202" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1046,7 +1035,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:删除不需要的类" />
     <MESSAGE value="master:修改目录" />
     <MESSAGE value="master:增加核心算法" />
     <MESSAGE value="master:更新规范算法" />
@@ -1071,7 +1059,8 @@
     <MESSAGE value="master:提交题目938" />
     <MESSAGE value="master:提交题目961" />
     <MESSAGE value="master:提交题目1207" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:提交题目1207" />
+    <MESSAGE value="master:增加题目852" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目852" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1153,6 +1142,11 @@
           <line>41</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -1168,6 +1162,7 @@
     <SUITE FILE_PATH="coverage/leetcode$reverse_integer_7.coverage" NAME="reverse_integer_7 Coverage Results" MODIFIED="1579065921031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$merge_arr.coverage" NAME="merge_arr Coverage Results" MODIFIED="1578541497549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$remove_outer_most_parenthess_1021.coverage" NAME="remove_outer_most_parenthess_1021 Coverage Results" MODIFIED="1579066786518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
+    <SUITE FILE_PATH="coverage/leetcode$di_string_match_942.coverage" NAME="di_string_match_942 Coverage Results" MODIFIED="1579244251775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$get_intersection_349.coverage" NAME="get_intersection_349 Coverage Results" MODIFIED="1578541299193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1579066615836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$unique_number_occurrences_1207.coverage" NAME="unique_number_occurrences_1207 Coverage Results" MODIFIED="1579163655633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -1187,20 +1182,6 @@
     <SUITE FILE_PATH="coverage/leetcode$range_sum_bst_938.coverage" NAME="range_sum_bst_938 Coverage Results" MODIFIED="1579144414173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_arr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1545,8 +1526,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/peak_index_mountain_array_852.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
+        <state relative-caret-position="50">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/DIStringMatch942.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
