@@ -9,7 +9,6 @@ import org.junit.Test;
  */
 public class DIStringMatch942 {
 
-
     @Test
     public void testDIStringMatch() {
         String s = "DDI";
