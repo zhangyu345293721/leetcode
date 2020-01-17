@@ -405,3 +405,11 @@ T
 $src/leetcodepython/tree/tree_node.py,3\1\31efcee2059f021bf861eb7f5e2f3d85badd1d35
 \
 ,src/leetcodepython/tree/range_sum_bst_938.py,e\e\eeb714d5b9dd06ed26f65aa6e33466112c62b833
+_
+/src/leetcodejava/array/NRepeatedElement961.java,1\3\1392846981eeca98b7aecba42e9d390b34144aa0
+c
+3src/leetcodepython/array/np_repeated_element_961.py,2\3\23d0283e6e56db02928bebe9a08e5f7f520b04fd
+g
+7src/leetcodejava/array/UniqueNumberOccurrences1207.java,0\0\005309356dc3c02f4f85b752b45d18271bdf4721
+j
+:src/leetcodepython/array/unique_number_occurrences_1207.py,a\c\acfbeec63c0867e6af0b655abb56cc996d3e0405
