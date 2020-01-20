@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目152">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/DuplicateZeros1089.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/duplicate_zeros_1089.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目1089">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/FindDifference389.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/largest_rectangle_histogram_84.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="40" column="19" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,20 +51,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/duplicate_zeros_1089.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="-689">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/FindDifference389.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="204">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -82,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="350">
+              <caret line="35" column="19" lean-forward="true" selection-start-line="1" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -138,8 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/get_single_number_136.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/joseph_problem.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/jump_game_55.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" />
@@ -189,6 +189,8 @@
         <option value="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/DuplicateZeros1089.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/duplicate_zeros_1089.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/FindDifference389.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py" />
       </list>
     </option>
   </component>
@@ -233,13 +235,6 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,7 +242,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.duplicate_zeros_1089">
+  <component name="RunManager" selected="Python.find_difference_389">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -328,34 +323,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FindDifference389.testFindDifference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.FindDifference389" />
+      <option name="METHOD_NAME" value="testFindDifference" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="di_string_match_942" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcodepython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
     <configuration name="duplicate_zeros_1089" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
@@ -379,7 +369,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="largest_rectangle_histogram_84" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="find_difference_389" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,12 +377,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/largest_rectangle_histogram_84.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -502,20 +492,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.di_string_match_942" />
-      <item itemvalue="Python.largest_rectangle_histogram_84" />
       <item itemvalue="Python.maximum_product_subarray_152" />
       <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.DuplicateZeros1089.testDuplicateZeros" />
       <item itemvalue="Python.duplicate_zeros_1089" />
+      <item itemvalue="JUnit.FindDifference389.testFindDifference" />
+      <item itemvalue="Python.find_difference_389" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.find_difference_389" />
+        <item itemvalue="JUnit.FindDifference389.testFindDifference" />
         <item itemvalue="Python.duplicate_zeros_1089" />
         <item itemvalue="JUnit.DuplicateZeros1089.testDuplicateZeros" />
         <item itemvalue="Python.maximum_product_subarray_152" />
-        <item itemvalue="Python.largest_rectangle_histogram_84" />
-        <item itemvalue="Python.di_string_match_942" />
       </list>
     </recent_temporary>
   </component>
@@ -584,14 +574,7 @@
       <workItem from="1578966689658" duration="34753000" />
       <workItem from="1579158066642" duration="4941000" />
       <workItem from="1579240128077" duration="7991000" />
-      <workItem from="1579311473358" duration="3848000" />
-    </task>
-    <task id="LOCAL-00033" summary="添加python的49题目">
-      <created>1566529189991</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1566529189991</updated>
+      <workItem from="1579311473358" duration="10267000" />
     </task>
     <task id="LOCAL-00034" summary="添加python的128题目">
       <created>1566964309721</created>
@@ -929,25 +912,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579248525182</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="master:增加题目1089">
+      <created>1579318109235</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1579318109235</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 53m 10s.xml">
-      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 54m 57s.xml">
-      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DIStringMatch942_testDIStringMatch - 2020.01.17 at 14h 55m 11s.xml">
-      <configuration name="DIStringMatch942.testDIStringMatch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DuplicateZeros1089_testDuplicateZeros - 2020.01.18 at 11h 00m 05s.xml">
-      <configuration name="DuplicateZeros1089.testDuplicateZeros" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DuplicateZeros1089_testDuplicateZeros - 2020.01.18 at 11h 00m 12s.xml">
-      <configuration name="DuplicateZeros1089.testDuplicateZeros" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DuplicateZeros1089_testDuplicateZeros - 2020.01.18 at 11h 00m 18s.xml">
       <configuration name="DuplicateZeros1089.testDuplicateZeros" configurationId="JUnit" />
     </history-entry>
@@ -963,12 +938,27 @@
     <history-entry file="DuplicateZeros1089_testDuplicateZeros - 2020.01.18 at 11h 07m 46s.xml">
       <configuration name="DuplicateZeros1089.testDuplicateZeros" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FindDifference389_testFindDifference - 2020.01.20 at 11h 37m 57s.xml">
+      <configuration name="FindDifference389.testFindDifference" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDifference389_testFindDifference - 2020.01.20 at 11h 51m 33s.xml">
+      <configuration name="FindDifference389.testFindDifference" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDifference389_testFindDifference - 2020.01.20 at 11h 51m 42s.xml">
+      <configuration name="FindDifference389.testFindDifference" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDifference389_testFindDifference - 2020.01.20 at 13h 51m 06s.xml">
+      <configuration name="FindDifference389.testFindDifference" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindDifference389_testFindDifference - 2020.01.20 at 14h 13m 35s.xml">
+      <configuration name="FindDifference389.testFindDifference" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="568678000" />
+    <option name="totallyTimeSpent" value="575097000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1590604" />
@@ -980,7 +970,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.35302806" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.21565731" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41802067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1052,7 +1042,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:更新规范算法" />
     <MESSAGE value="master:整理更新代码" />
     <MESSAGE value="master:整理文件" />
     <MESSAGE value="master:修改文件" />
@@ -1077,7 +1066,8 @@
     <MESSAGE value="master:增加题目852" />
     <MESSAGE value="master:增加题目942" />
     <MESSAGE value="master:增加题目152" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目152" />
+    <MESSAGE value="master:增加题目1089" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目1089" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1176,13 +1166,14 @@
     <SUITE FILE_PATH="coverage/leetcode$reverse_integer_7.coverage" NAME="reverse_integer_7 Coverage Results" MODIFIED="1579065921031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1579066615836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$rotate_image_48.coverage" NAME="rotate_image_48 Coverage Results" MODIFIED="1579066148010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$duplicate_zeros_1089.coverage" NAME="duplicate_zeros_1089 Coverage Results" MODIFIED="1579317731659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$duplicate_zeros_1089.coverage" NAME="duplicate_zeros_1089 Coverage Results" MODIFIED="1579490965058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$peak_index_mountain_array_852.coverage" NAME="peak_index_mountain_array_852 Coverage Results" MODIFIED="1579241016972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$add_two_numer__1_.coverage" NAME="add_two_numer (1) Coverage Results" MODIFIED="1578540435991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untitled/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$trapping_rain_water_42.coverage" NAME="trapping_rain_water_42 Coverage Results" MODIFIED="1579088022326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$edit_distance_72.coverage" NAME="edit_distance_72 Coverage Results" MODIFIED="1578672820146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$longest_valid_parentheses_32.coverage" NAME="longest_valid_parentheses_32 Coverage Results" MODIFIED="1578554853595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$decompress_run_length_encoded_1313.coverage" NAME="decompress_run_length_encoded_1313 Coverage Results" MODIFIED="1579098984194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$find_difference_389.coverage" NAME="find_difference_389 Coverage Results" MODIFIED="1579503848056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$array_partition_561.coverage" NAME="array_partition_561 Coverage Results" MODIFIED="1579143198462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$find_duplicate_number_287.coverage" NAME="find_duplicate_number_287 Coverage Results" MODIFIED="1578568241623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$merge_arr.coverage" NAME="merge_arr Coverage Results" MODIFIED="1578541497549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
@@ -1202,20 +1193,6 @@
     <SUITE FILE_PATH="coverage/leetcode$range_sum_bst_938.coverage" NAME="range_sum_bst_938 Coverage Results" MODIFIED="1579144414173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/longest_valid_parentheses_32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/combination_sum_39.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1513,16 +1490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/find_duplicate_number_287.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1563,8 +1530,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/duplicate_zeros_1089.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="-689">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/FindDifference389.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="35" column="19" lean-forward="true" selection-start-line="1" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
         </state>
       </provider>
     </entry>
