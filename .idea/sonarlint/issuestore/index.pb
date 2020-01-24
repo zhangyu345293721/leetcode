@@ -443,3 +443,7 @@ Y
 )src/leetcodejava/array/CoinChange322.java,e\9\e9e4d3447ff8471371397e98de41965923cc46c4
 `
 0src/leetcodepython/array/search_2d_matrix_240.py,d\9\d923f627d522aee51b9fbca05c93ab97fe2918ef
+d
+4src/leetcodepython/array/two_city_scheduling_1029.py,9\c\9cf9cf7179a85647606921bbcd21db1e762e3839
+a
+1src/leetcodejava/array/TwoCityScheduling1029.java,d\f\df7d957a771698af3563af10480ec8be6d99a069

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目389">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaximalRectangle85.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/TwoCityScheduling1029.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximal_rectangle_85.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/two_city_scheduling_1029.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目1029">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/NthTribonacciNumber1137.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897aad7f93c68381611654cb33da54a8da515060" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897aad7f93c68381611654cb33da54a8da515060" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -29,36 +24,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/duplicate_zeros_1089.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/FindDifference389.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="11" column="30" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1325">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="975">
@@ -71,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" lean-forward="true" selection-end-line="31" />
+              <caret line="6" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -79,17 +44,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/two_city_scheduling_1029.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-end-line="25" />
+            <state relative-caret-position="600">
+              <caret line="24" column="40" selection-start-line="24" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TwoCityScheduling1029.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/NthTribonacciNumber1137.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1036">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TwoCityScheduling1029.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-400">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="33" lean-forward="true" selection-end-line="33" />
             </state>
           </provider>
         </entry>
@@ -124,8 +119,8 @@
       <list>
         <option value="Enum" />
         <option value="Setup Script" />
-        <option value="Python Script" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -144,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/self_diving_number_728.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/sum_even_numbers_985.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/longest_valid_parentheses_32.py" />
@@ -195,6 +188,8 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/two_city_scheduling_1029.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/TwoCityScheduling1029.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/NthTribonacciNumber1137.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py" />
       </list>
     </option>
   </component>
@@ -205,17 +200,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="593" />
-    <option name="y" value="275" />
-    <option name="width" value="1153" />
-    <option name="height" value="373" />
+    <option name="x" value="946" />
+    <option name="y" value="227" />
+    <option name="width" value="1154" />
+    <option name="height" value="374" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,7 +232,13 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
               <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -246,6 +246,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,7 +298,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwoCityScheduling1029.testTwoCityScheduling">
+  <component name="RunManager" selected="Python.nth_tribonacci_number_1137">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -321,7 +322,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximalRectangle85.testMaximalRectangle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -330,8 +331,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.MaximalRectangle85" />
-      <option name="METHOD_NAME" value="testMaximalRectangle" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.NthTribonacciNumber1137" />
+      <option name="METHOD_NAME" value="testNthTribonacciNumber" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -362,7 +363,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maximal_rectangle_85" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="nth_tribonacci_number_1137" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,7 +376,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/maximal_rectangle_85.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -485,20 +486,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MaximalRectangle85.testMaximalRectangle" />
       <item itemvalue="JUnit.CoinChange322.testCoinChange" />
-      <item itemvalue="Python.maximal_rectangle_85" />
-      <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="Python.two_city_scheduling_1029" />
       <item itemvalue="JUnit.TwoCityScheduling1029.testTwoCityScheduling" />
+      <item itemvalue="Python.two_city_scheduling_1029" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.NthTribonacciNumber1137.testNthTribonacciNumber" />
+      <item itemvalue="Python.nth_tribonacci_number_1137" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nth_tribonacci_number_1137" />
+        <item itemvalue="JUnit.NthTribonacciNumber1137.testNthTribonacciNumber" />
         <item itemvalue="JUnit.TwoCityScheduling1029.testTwoCityScheduling" />
         <item itemvalue="Python.two_city_scheduling_1029" />
         <item itemvalue="JUnit.CoinChange322.testCoinChange" />
-        <item itemvalue="Python.maximal_rectangle_85" />
-        <item itemvalue="JUnit.MaximalRectangle85.testMaximalRectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -568,14 +569,8 @@
       <workItem from="1579158066642" duration="4941000" />
       <workItem from="1579240128077" duration="7991000" />
       <workItem from="1579311473358" duration="21489000" />
-      <workItem from="1579675224147" duration="5179000" />
-    </task>
-    <task id="LOCAL-00036" summary="更新题目">
-      <created>1572081161184</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1572081161184</updated>
+      <workItem from="1579675224147" duration="5834000" />
+      <workItem from="1579846762997" duration="1794000" />
     </task>
     <task id="LOCAL-00037" summary="master:增加题目">
       <created>1577758893072</created>
@@ -913,28 +908,17 @@
       <option name="project" value="LOCAL" />
       <updated>1579503964503</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="master:增加题目1029">
+      <created>1579702928495</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1579702928496</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindDifference389_testFindDifference - 2020.01.20 at 11h 51m 42s.xml">
-      <configuration name="FindDifference389.testFindDifference" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindDifference389_testFindDifference - 2020.01.20 at 13h 51m 06s.xml">
-      <configuration name="FindDifference389.testFindDifference" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindDifference389_testFindDifference - 2020.01.20 at 14h 13m 35s.xml">
-      <configuration name="FindDifference389.testFindDifference" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaximalRectangle85_testMaximalRectangle - 2020.01.20 at 15h 26m 15s.xml">
-      <configuration name="MaximalRectangle85.testMaximalRectangle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaximalRectangle85_testMaximalRectangle - 2020.01.20 at 15h 58m 17s.xml">
-      <configuration name="MaximalRectangle85.testMaximalRectangle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MaximalRectangle85_testMaximalRectangle - 2020.01.20 at 16h 25m 26s.xml">
-      <configuration name="MaximalRectangle85.testMaximalRectangle" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CoinChange322_testCoinChange - 2020.01.20 at 17h 24m 31s.xml">
       <configuration name="CoinChange322.testCoinChange" configurationId="JUnit" />
     </history-entry>
@@ -947,15 +931,33 @@
     <history-entry file="TwoCityScheduling1029_testTwoCityScheduling - 2020.01.22 at 22h 14m 49s.xml">
       <configuration name="TwoCityScheduling1029.testTwoCityScheduling" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TwoCityScheduling1029_testTwoCityScheduling - 2020.01.22 at 22h 35m 27s.xml">
+      <configuration name="TwoCityScheduling1029.testTwoCityScheduling" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 27m 09s.xml">
+      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 27m 49s.xml">
+      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 27m 56s.xml">
+      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 28m 20s.xml">
+      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 28m 52s.xml">
+      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591498000" />
+    <option name="totallyTimeSpent" value="593947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1818792" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.18456376" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -964,7 +966,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32474804" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.22304283" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.3899557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41802067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1036,7 +1038,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:整理文件" />
     <MESSAGE value="master:修改文件" />
     <MESSAGE value="master:修改文件名字" />
     <MESSAGE value="master:修改目录结构" />
@@ -1061,7 +1062,8 @@
     <MESSAGE value="master:增加题目152" />
     <MESSAGE value="master:增加题目1089" />
     <MESSAGE value="master:增加题目389" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目389" />
+    <MESSAGE value="master:增加题目1029" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目1029" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1172,6 +1174,7 @@
     <SUITE FILE_PATH="coverage/leetcode$reverse_integer_7.coverage" NAME="reverse_integer_7 Coverage Results" MODIFIED="1579065921031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1579066615836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$rotate_image_48.coverage" NAME="rotate_image_48 Coverage Results" MODIFIED="1579066148010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$nth_tribonacci_number_1137.coverage" NAME="nth_tribonacci_number_1137 Coverage Results" MODIFIED="1579849256844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$duplicate_zeros_1089.coverage" NAME="duplicate_zeros_1089 Coverage Results" MODIFIED="1579490965058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$peak_index_mountain_array_852.coverage" NAME="peak_index_mountain_array_852 Coverage Results" MODIFIED="1579241016972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$add_two_numer__1_.coverage" NAME="add_two_numer (1) Coverage Results" MODIFIED="1578540435991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untitled/python/array" />
@@ -1200,20 +1203,6 @@
     <SUITE FILE_PATH="coverage/leetcode$range_sum_bst_938.coverage" NAME="range_sum_bst_938 Coverage Results" MODIFIED="1579144414173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_consecutive_128.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_arr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -1374,13 +1363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/UniqueNumberOccurrences1207.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -1533,6 +1515,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/two_city_scheduling_1029.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="40" selection-start-line="24" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/jump_game_55.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1550,24 +1546,34 @@
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/two_city_scheduling_1029.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TwoCityScheduling1029.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-400">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        <state relative-caret-position="100">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/NthTribonacciNumber1137.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1036">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="33" lean-forward="true" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
         </state>
       </provider>
     </entry>
