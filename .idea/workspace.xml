@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目1137">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuy122.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_122.py" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目122">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate219.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_219.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,11 +60,41 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_122.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="475">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate219.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_219.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="3" lean-forward="true" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -85,29 +115,6 @@
               <caret line="33" lean-forward="true" selection-end-line="33" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/jump_game_55.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -137,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/string/longest_valid_parentheses_32.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_duplicate_number_287.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_k_max_number_215.py" />
@@ -188,6 +192,9 @@
         <option value="$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuy122.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_122.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate122.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate219.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_219.py" />
       </list>
     </option>
   </component>
@@ -198,8 +205,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="735" />
-    <option name="y" value="218" />
+    <option name="x" value="640" />
+    <option name="y" value="492" />
     <option name="width" value="1154" />
     <option name="height" value="678" />
   </component>
@@ -225,6 +232,13 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -296,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.best_time_buy_122">
+  <component name="RunManager" selected="Python.contains_duplicate_219">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -320,7 +334,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainsDuplicate219.testContainsDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -329,25 +343,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.NthTribonacciNumber1137" />
-      <option name="METHOD_NAME" value="testNthTribonacciNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoCityScheduling1029.testTwoCityScheduling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.TwoCityScheduling1029" />
-      <option name="METHOD_NAME" value="testTwoCityScheduling" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.ContainsDuplicate219" />
+      <option name="METHOD_NAME" value="testContainsDuplicate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -375,6 +372,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_122.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contains_duplicate_219" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_219.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,20 +503,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TwoCityScheduling1029.testTwoCityScheduling" />
       <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.NthTribonacciNumber1137.testNthTribonacciNumber" />
       <item itemvalue="Python.nth_tribonacci_number_1137" />
       <item itemvalue="JUnit.BestTimeBuy122.testBestTimeBuy" />
       <item itemvalue="Python.best_time_buy_122" />
+      <item itemvalue="JUnit.ContainsDuplicate219.testContainsDuplicate" />
+      <item itemvalue="Python.contains_duplicate_219" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.contains_duplicate_219" />
+        <item itemvalue="JUnit.ContainsDuplicate219.testContainsDuplicate" />
         <item itemvalue="Python.best_time_buy_122" />
         <item itemvalue="JUnit.BestTimeBuy122.testBestTimeBuy" />
         <item itemvalue="Python.nth_tribonacci_number_1137" />
-        <item itemvalue="JUnit.NthTribonacciNumber1137.testNthTribonacciNumber" />
-        <item itemvalue="JUnit.TwoCityScheduling1029.testTwoCityScheduling" />
       </list>
     </recent_temporary>
   </component>
@@ -568,14 +587,7 @@
       <workItem from="1579240128077" duration="7991000" />
       <workItem from="1579311473358" duration="21489000" />
       <workItem from="1579675224147" duration="5834000" />
-      <workItem from="1579846762997" duration="4538000" />
-    </task>
-    <task id="LOCAL-00038" summary="master:修改题目的注释">
-      <created>1577760927765</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1577760927766</updated>
+      <workItem from="1579846762997" duration="11154000" />
     </task>
     <task id="LOCAL-00039" summary="master:合并算法，放到一个类中">
       <created>1577762789166</created>
@@ -913,43 +925,50 @@
       <option name="project" value="LOCAL" />
       <updated>1579849295698</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="master:增加题目122">
+      <created>1579957162770</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1579957162770</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoCityScheduling1029_testTwoCityScheduling - 2020.01.22 at 22h 14m 26s.xml">
-      <configuration name="TwoCityScheduling1029.testTwoCityScheduling" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoCityScheduling1029_testTwoCityScheduling - 2020.01.22 at 22h 14m 49s.xml">
-      <configuration name="TwoCityScheduling1029.testTwoCityScheduling" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoCityScheduling1029_testTwoCityScheduling - 2020.01.22 at 22h 35m 27s.xml">
-      <configuration name="TwoCityScheduling1029.testTwoCityScheduling" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 27m 09s.xml">
-      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 27m 49s.xml">
-      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 27m 56s.xml">
-      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 28m 20s.xml">
-      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NthTribonacciNumber1137_testNthTribonacciNumber - 2020.01.24 at 14h 28m 52s.xml">
-      <configuration name="NthTribonacciNumber1137.testNthTribonacciNumber" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BestTimeBuy122_testBestTimeBuy - 2020.01.25 at 20h 52m 49s.xml">
       <configuration name="BestTimeBuy122.testBestTimeBuy" configurationId="JUnit" />
     </history-entry>
     <history-entry file="BestTimeBuy122_testBestTimeBuy - 2020.01.25 at 20h 53m 00s.xml">
       <configuration name="BestTimeBuy122.testBestTimeBuy" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ContainsDuplicate219_testContainsDuplicate - 2020.01.26 at 20h 36m 11s.xml">
+      <configuration name="ContainsDuplicate219.testContainsDuplicate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsDuplicate219_testContainsDuplicate - 2020.01.26 at 20h 41m 30s.xml">
+      <configuration name="ContainsDuplicate219.testContainsDuplicate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsDuplicate219_testContainsDuplicate - 2020.01.26 at 20h 55m 27s.xml">
+      <configuration name="ContainsDuplicate219.testContainsDuplicate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsDuplicate219_testContainsDuplicate - 2020.01.26 at 20h 59m 46s.xml">
+      <configuration name="ContainsDuplicate219.testContainsDuplicate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsDuplicate219_testContainsDuplicate - 2020.01.26 at 21h 00m 03s.xml">
+      <configuration name="ContainsDuplicate219.testContainsDuplicate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsDuplicate219_testContainsDuplicate - 2020.01.26 at 21h 02m 34s.xml">
+      <configuration name="ContainsDuplicate219.testContainsDuplicate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsDuplicate219_testContainsDuplicate - 2020.01.26 at 21h 03m 55s.xml">
+      <configuration name="ContainsDuplicate219.testContainsDuplicate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainsDuplicate219_testContainsDuplicate - 2020.01.26 at 21h 11m 45s.xml">
+      <configuration name="ContainsDuplicate219.testContainsDuplicate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="596691000" />
+    <option name="totallyTimeSpent" value="603307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1036,7 +1055,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:修改文件名字" />
     <MESSAGE value="master:修改目录结构" />
     <MESSAGE value="master:修改python文件" />
     <MESSAGE value="master:校验python代码" />
@@ -1061,7 +1079,8 @@
     <MESSAGE value="master:增加题目389" />
     <MESSAGE value="master:增加题目1029" />
     <MESSAGE value="master:增加题目1137" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目1137" />
+    <MESSAGE value="master:增加题目122" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目122" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,6 +1163,12 @@
           <properties />
           <option name="timeStamp" value="58" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate219.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py</url>
           <line>41</line>
@@ -1175,7 +1200,7 @@
     <SUITE FILE_PATH="coverage/leetcode$nth_tribonacci_number_1137.coverage" NAME="nth_tribonacci_number_1137 Coverage Results" MODIFIED="1579933750643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$duplicate_zeros_1089.coverage" NAME="duplicate_zeros_1089 Coverage Results" MODIFIED="1579490965058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$peak_index_mountain_array_852.coverage" NAME="peak_index_mountain_array_852 Coverage Results" MODIFIED="1579241016972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$best_time_buy_122.coverage" NAME="best_time_buy_122 Coverage Results" MODIFIED="1579957117952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$best_time_buy_122.coverage" NAME="best_time_buy_122 Coverage Results" MODIFIED="1579957458798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$add_two_numer__1_.coverage" NAME="add_two_numer (1) Coverage Results" MODIFIED="1578540435991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untitled/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$trapping_rain_water_42.coverage" NAME="trapping_rain_water_42 Coverage Results" MODIFIED="1579088022326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$edit_distance_72.coverage" NAME="edit_distance_72 Coverage Results" MODIFIED="1578672820146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
@@ -1192,6 +1217,7 @@
     <SUITE FILE_PATH="coverage/leetcode$largest_rectangle_histogram_84.coverage" NAME="largest_rectangle_histogram_84 Coverage Results" MODIFIED="1579245730750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$joseph_problem.coverage" NAME="joseph_problem Coverage Results" MODIFIED="1579057210029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$two_city_scheduling_1029.coverage" NAME="two_city_scheduling_1029 Coverage Results" MODIFIED="1579701482938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$contains_duplicate_219.coverage" NAME="contains_duplicate_219 Coverage Results" MODIFIED="1580046950632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49__1_.coverage" NAME="group_anagrams_49 (1) Coverage Results" MODIFIED="1578540519468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepy" />
     <SUITE FILE_PATH="coverage/leetcode$maximum_product_subarray_152.coverage" NAME="maximum_product_subarray_152 Coverage Results" MODIFIED="1579246841389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$minimum_path_sum_64.coverage" NAME="minimum_path_sum_64 Coverage Results" MODIFIED="1578562839215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/top100likedquestions" />
@@ -1202,20 +1228,6 @@
     <SUITE FILE_PATH="coverage/leetcode$range_sum_bst_938.coverage" NAME="range_sum_bst_938 Coverage Results" MODIFIED="1579144414173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-199">
@@ -1314,13 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1571,8 +1576,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_122.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="475">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate219.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="3" lean-forward="true" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_219.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
         </state>
       </provider>
     </entry>
