@@ -19,8 +19,7 @@ def compare(word1, word2, order):
         布尔值
     '''
     i = 0
-    n1 = len(word1)
-    n2 = len(word2)
+    n1,n2 = len(word1),len(word2)
     while i < n1 and i < n2 and word1[i] == word2[i]:
         i += 1
     if i == n1 or i == n2:
