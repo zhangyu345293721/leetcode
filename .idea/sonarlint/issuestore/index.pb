@@ -463,3 +463,7 @@ h
 8src/leetcodejava/string/VerifyingAlienDictionary953.java,d\4\d4fcd919b0449aac09567167e7dd134fd4e2b1ec
 k
 ;src/leetcodepython/string/verifying_alien_dictionary_953.py,3\d\3d01ec932eac5a1fddcf4aa8d049400973fac2ca
+X
+(src/leetcodejava/array/AddDigits258.java,8\d\8d79f93f0a62908f4e66d938590565a0d700a7c2
+Z
+*src/leetcodepython/array/add_digits_258.py,b\7\b7d1723a45eaefcd37c18178f899ed3ff3545c3e
