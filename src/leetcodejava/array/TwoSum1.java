@@ -16,8 +16,8 @@ import java.util.Map;
 public class TwoSum1 {
     @Test
     public void testTwoSum() {
-        int[] nums = {1, 2, 2, 3, 3, 7};
-        int target = 5;
+        int[] nums = {2, 7, 11, 15};
+        int target = 9;
         int[] arr = getSumIndex2(nums, target);
         System.out.println(Arrays.toString(arr));
     }
@@ -53,8 +53,9 @@ public class TwoSum1 {
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(target - nums[i])) {
                 return new int[]{map.get(target - nums[i]), i};
+            } else {
+                map.put(nums[i], i);
             }
-            map.put(nums[i], i);
         }
         return new int[]{-1, -1};
     }

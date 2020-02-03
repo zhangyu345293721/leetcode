@@ -41,5 +41,5 @@ if __name__ == '__main__':
     sr = 1
     sc = 1
     new_color = 2
-    old_color = flood_fill(image, sr, sc, new_color);
-    print(old_color)
+    result = flood_fill(image, sr, sc, new_color);
+    print(result)

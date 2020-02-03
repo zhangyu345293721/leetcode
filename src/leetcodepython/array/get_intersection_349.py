@@ -1,9 +1,9 @@
 # encoding='utf-8'
 
 '''
-   author:zhangyu
-   date:2019.8.4
-   description:找到两个数组中的交集
+author:zhangyu
+date:2019.8.4
+description:找到两个数组中的交集
 '''
 from typing import List
 

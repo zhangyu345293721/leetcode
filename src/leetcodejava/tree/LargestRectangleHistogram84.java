@@ -14,17 +14,22 @@ import java.util.LinkedList;
 
 public class LargestRectangleHistogram84 {
     @Test
-    public void fun() {
-        int[] arrs = {1, 2, 3};
-        int maxArea = largestRectangleHistogram(arrs);
+    public void testLargestRectangleHistogram() {
+        int[] heights = {1, 2, 3};
+        int maxArea = largestRectangleHistogram(heights);
         System.out.println(maxArea);
     }
 
+    /**
+     * 计算数组最大面试
+     *
+     * @param heights 高度数组
+     * @return 面积
+     */
     public int largestRectangleHistogram(int[] heights) {
-        if (heights == null || heights.length == 0) {
+        if (heights == null || heights.length < 1) {
             return 0;
         }
-        // Stack<Integer> stack = new Stack<>();
         Deque<Integer> stack = new LinkedList<>();
         int maxArea = 0;
         int index = 0;

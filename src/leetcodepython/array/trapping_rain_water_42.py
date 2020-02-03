@@ -9,7 +9,7 @@ from typing import List
 
 def trapping_rain_water(arr: List[int]) -> int:
     '''
-        计算数组能装多少水
+        计算能装多少水
     Args:
         arr:数组
     Returns:
@@ -36,7 +36,7 @@ def trapping_rain_water(arr: List[int]) -> int:
 
 def trapping_rain_water2(arr: List[int]) -> int:
     '''
-        计算数组能装多少水
+        计算能装多少水
     Args:
         arr:数组
     Returns:
@@ -48,17 +48,17 @@ def trapping_rain_water2(arr: List[int]) -> int:
     right_max = 0
     left = 0
     right = len(arr) - 1
-    tota_water = 0
+    result = 0
     while left < right:
         if arr[left] < arr[right]:
             left_max = max(left_max, arr[left])
-            tota_water += (left_max - arr[left])
+            result += (left_max - arr[left])
             left += 1
         else:
             right_max = max(right_max, arr[right])
-            tota_water += (right_max - arr[right])
+            result += (right_max - arr[right])
             right -= 1
-    return tota_water
+    return result
 
 
 if __name__ == '__main__':

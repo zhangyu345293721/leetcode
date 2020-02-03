@@ -1,4 +1,4 @@
-package leetcodejava.math;
+package leetcodejava.top100likedquestions;
 
 import org.junit.Test;
 
@@ -35,7 +35,7 @@ public class TrappingRainWater42 {
             for (int j = i; j >= 0; j--) {
                 maxLeft = Math.max(maxLeft, arr[j]);
             }
-            for (int j = i; j < arr.length; j++) {
+            for (int j = i; j < size; j++) {
                 maxRight = Math.max(maxRight, arr[j]);
             }
             result += Math.min(maxLeft, maxRight) - arr[i];
