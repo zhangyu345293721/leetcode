@@ -21,8 +21,9 @@ def largest_rectangle_histogram(heights: List[int]) -> int:
     stack = []
     max_area = 0
     index = 0
-    while index < len(heights):
-        if len(stack) < 1 or (index < len(heights) and heights[index] >= heights[stack[-1]]):
+    length = len(heights)
+    while index < length:
+        if len(stack) < 1 or (index < length and heights[index] >= heights[stack[-1]]):
             stack.append(index)
             index += 1
         else:
@@ -33,6 +34,6 @@ def largest_rectangle_histogram(heights: List[int]) -> int:
 
 
 if __name__ == '__main__':
-    arr = [2, 1, 5, 6, 2, 3]
-    max_area = largest_rectangle_histogram(arr)
+    heights = [2, 1, 5, 6, 2, 3]
+    max_area = largest_rectangle_histogram(heights)
     print(max_area)
