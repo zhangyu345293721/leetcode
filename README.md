@@ -474,6 +474,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104135666">flood fill</a></th>
     <th>Easy</th>
   </tr>
+ 
+  <tr>
+    <th >240</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104163813">search 2D</a></th>
+    <th>Easy</th>
+  </tr>
 
   
 </table>
