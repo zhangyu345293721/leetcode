@@ -480,12 +480,24 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104163813">search 2D</a></th>
     <th>Easy</th>
   </tr>
-
   
 </table>
 
 ## 3.list
 ## 4.string
+
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
+  </tr>
+  <tr>
+    <th >67</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
+    <th>Easy</th>
+  </tr>
+</table>
 ## 5.hashtable
 ## 6.math
 ## 7.tree
