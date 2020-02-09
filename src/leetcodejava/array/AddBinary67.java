@@ -43,52 +43,6 @@ public class AddBinary67 {
      * @param b 字符串2
      * @return 相加字符串
      */
-    private String addBinary2(String a, String b) {
-        if (a == null || a.length() < 1) {
-            return b;
-        }
-        if (b == null || b.length() < 1) {
-            return a;
-        }
-        String shortStr = null;
-        String longStr = null;
-        if (a.length() > b.length()) {
-            shortStr = b;
-            longStr = a;
-        } else {
-            shortStr = a;
-            longStr = b;
-        }
-        int i = shortStr.length() - 1;
-        int j = longStr.length() - 1;
-        StringBuilder sb = new StringBuilder();
-        int carry = 0;
-        while (i >= 0 || j >= 0) {
-            int tempA = 0;
-            if (i >= 0) {
-                tempA = shortStr.charAt(i) - '0';
-            }
-            int tempB = longStr.charAt(j) - '0';
-            carry += tempA + tempB;
-            sb.append(carry % 2);
-            i--;
-            j--;
-            carry = carry / 2;
-        }
-        if (carry > 0) {
-            sb.append("1");
-        }
-        return sb.reverse().toString();
-    }
-
-
-    /**
-     * 字符串相加(直接位运算)
-     *
-     * @param a 字符串1
-     * @param b 字符串2
-     * @return 相加字符串
-     */
     private String addBinary3(String a, String b) {
         if (a == null || a.length() < 1) {
             return b;

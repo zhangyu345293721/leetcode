@@ -16,7 +16,7 @@ def maximal_rectangle(matrix: List[List[chr]]) -> int:
     n = matrix[0].__len__()
     left = [0] * n
     right = [0] * n
-    height = [n] * n
+    height = [0] * n
     for i in range(m):
         cur_left = 0
         cur_right = n

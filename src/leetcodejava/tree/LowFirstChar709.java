@@ -13,8 +13,6 @@ public class LowFirstChar709 {
         String s = "ABC";
         String lowS = lowFirstChar(s);
         System.out.println(lowS);
-        int a = 'A';
-        System.out.println(a);
     }
 
     /**
@@ -25,7 +23,11 @@ public class LowFirstChar709 {
      */
     private String lowFirstChar(String s) {
         char[] chs = s.toCharArray();
-        chs[0] = (char) (chs[0] + 32);
+        for (int i = 0; i < chs.length; i++) {
+            if (chs[i] >= 'A' && chs[i] <= 'Z') {
+                chs[i] = (char) (chs[i] + ('a' - 'A'));
+            }
+        }
         return String.valueOf(chs);
     }
 }

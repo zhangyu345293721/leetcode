@@ -19,7 +19,6 @@ public class SubtreeAnotherTree572 {
         if (s == null) {
             return false;
         }
-
         if (s.val == t.val && isSame(s, t)) {
             return true;
         }
@@ -40,7 +39,6 @@ public class SubtreeAnotherTree572 {
         if (t1 == null || t2 == null) {
             return false;
         }
-
         if (t1.val == t2.val) {
             return isSame(t1.left, t2.left) && isSame(t1.right, t2.right);
         } else {

@@ -9,7 +9,7 @@ public class Search2D240 {
     /**
      * 输入数据，找出目标值
      *
-     * @param matrix 二维数组
+     * @param matrix 二维数组n
      * @param target 目标值
      * @return 布尔值
      */

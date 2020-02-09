@@ -7,6 +7,7 @@ date:2020.1.17
 '''
 from typing import List
 
+
 def max_product(arrs: List[int]) -> int:
     '''
         数组乘积最大值
@@ -15,6 +16,8 @@ def max_product(arrs: List[int]) -> int:
     Returns:
         乘积
     '''
+    if len(arrs) < 1:
+        return 0
     max_num = arrs[0]
     min_num = arrs[0]
     result = arrs[0]
@@ -28,6 +31,6 @@ def max_product(arrs: List[int]) -> int:
 
 
 if __name__ == '__main__':
-    arrs = [2, 3, -2, 4]
-    num = max_product(arrs)
+    arr = [2, 3, -2, 4]
+    num = max_product(arr)
     print(num)
