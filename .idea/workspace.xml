@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:修改题目240题">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LowestCommonAncestorBinaryTree236.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/day_week_1185.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/add_binary_67.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/low_first_char_709.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/tree/lowest_common_ancestory_binary_tree_236.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4eb6d9c66453f7b381a98a5f7d1b66aa5916e186" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/510dfe08259b61b5e56007833ddd7b1e17315a98" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/510dfe08259b61b5e56007833ddd7b1e17315a98" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/MaximalRectangle85.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaximalRectangle85.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/math/AddBinary67.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/Search2D240.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/Search2D240.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/SubtreeAnotherTree572.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/tree/LowFirstChar709.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/tree/LowFirstChar709.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/maximal_rectangle_85.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximal_rectangle_85.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" afterDir="false" />
-    </list>
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:修改题目709题" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -611,14 +592,7 @@
       <workItem from="1580188032226" duration="2272000" />
       <workItem from="1580304941835" duration="34893000" />
       <workItem from="1580745354937" duration="9874000" />
-      <workItem from="1580882148141" duration="13383000" />
-    </task>
-    <task id="LOCAL-00046" summary="master:更新561,832,1051,1299题目">
-      <created>1578152196924</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1578152196924</updated>
+      <workItem from="1580882148141" duration="17550000" />
     </task>
     <task id="LOCAL-00047" summary="master:更新1304,1160,1122,922题目">
       <created>1578286559195</created>
@@ -956,7 +930,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580746141554</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="master:修改题目709题">
+      <created>1581254648973</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1581254648975</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -992,11 +973,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="668191000" />
+    <option name="totallyTimeSpent" value="672358000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.19530201" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
@@ -1079,7 +1059,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目1021,1309" />
     <MESSAGE value="master:增加题目896" />
     <MESSAGE value="master:增加题目217题目" />
     <MESSAGE value="master:增加题目728题目" />
@@ -1104,7 +1083,8 @@
     <MESSAGE value="master:增加题目733" />
     <MESSAGE value="master:修改题目84题" />
     <MESSAGE value="master:修改题目240题" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:修改题目240题" />
+    <MESSAGE value="master:修改题目709题" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:修改题目709题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
