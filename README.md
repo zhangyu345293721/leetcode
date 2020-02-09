@@ -471,15 +471,55 @@
   </tr>
    <tr>
     <th >733</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104135666">flood fill</a></th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104135666">Flood Fill</a></th>
     <th>Easy</th>
   </tr>
-
-  
+  <tr>
+    <th >240</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104163813">Search 2D</a></th>
+    <th>Easy</th>
+  </tr>
+  <tr>
+    <th>122</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104198493">Best Time Buy</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 3.list
 ## 4.string
+
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
+  </tr>
+  <tr>
+    <th >67</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
+    <th>Easy</th>
+  </tr>
+  <tr>
+    <th >709</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104238836">Low First Char</a></th>
+    <th>Easy</th>
+  </tr>
+</table>
+
 ## 5.hashtable
 ## 6.math
+
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
+  </tr>
+  <tr>
+    <th >258</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104189181">Add Digits</a></th>
+    <th>Easy</th>
+  </tr>
+</table>
 ## 7.tree
