@@ -10,9 +10,9 @@ import org.junit.Test;
  */
 public class LongPressed925 {
     @Test
-    public void longPressed() {
+    public void testLongPressed() {
         String name = "dfuyalc";
-        String typed = "fuuyallc";
+        String typed = "dfuuyallc";
         boolean b = isLongPressedName(name, typed);
         System.out.println("b = " + b);
     }
