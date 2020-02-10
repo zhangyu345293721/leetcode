@@ -505,7 +505,6 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104238836">Low First Char</a></th>
     <th>Easy</th>
   </tr>
- 925.
    <tr>
     <th >925</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104247551">Is Long Pressed</a></th>
