@@ -17,7 +17,7 @@ def repeated_n_times(A: List[int]) -> int:
     '''
     number_dict = {}
     for num in A:
-        if number_dict.keys().__contains__(num):
+        if num in number_dict:
             number_dict[num] += 1
         else:
             number_dict[num] = 1
@@ -29,5 +29,5 @@ def repeated_n_times(A: List[int]) -> int:
 
 if __name__ == '__main__':
     arr = [1, 2, 3, 3]
-    num=repeated_n_times(arr)
+    num = repeated_n_times(arr)
     print(num)

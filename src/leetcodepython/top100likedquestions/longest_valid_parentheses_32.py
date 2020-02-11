@@ -14,7 +14,6 @@ def get_longest_valid_parentheses(strs: List[str]) -> int:
         strs: 字符串
     Returns:
         匹配字符串长度
-
     '''
     max_len = 0
     for i in range(len(strs)):

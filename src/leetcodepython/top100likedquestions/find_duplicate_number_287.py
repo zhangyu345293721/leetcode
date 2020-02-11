@@ -22,7 +22,7 @@ def find_duplicate_number(arr: List[int]) -> int:
             return arr[i]
 
 
-def find_duplicate_number(arr: List[int]) -> int:
+def find_duplicate_number2(arr: List[int]) -> int:
     '''
        找出重复的数字
    Args:
@@ -32,7 +32,7 @@ def find_duplicate_number(arr: List[int]) -> int:
    '''
     s = set()
     for i in range(len(arr)):
-        if s.__contains__(arr[i]):
+        if arr[i] in s:
             return arr[i]
         else:
             s.add(arr[i])
@@ -41,5 +41,5 @@ def find_duplicate_number(arr: List[int]) -> int:
 
 if __name__ == '__main__':
     arr = [3, 2, 1, 2, 4]
-    num = find_duplicate_number(arr)
+    num = find_duplicate_number2(arr)
     print(num)

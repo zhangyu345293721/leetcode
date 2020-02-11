@@ -21,7 +21,7 @@ def get_map(license_plate: str) -> dict:
             str_arr.append(ch)
     char_dict = {}
     for ch in str_arr:
-        if char_dict.keys().__contains__(ch):
+        if ch in char_dict:
             char_dict[ch] += 1
         else:
             char_dict[ch] = 1

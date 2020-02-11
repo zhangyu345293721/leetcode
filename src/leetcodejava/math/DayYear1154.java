@@ -14,7 +14,7 @@ import java.util.Calendar;
 public class DayYear1154 {
     @Test
     public void dayYearTestDemo() {
-        String date = "2019-02-10";
+        String date = "2020-02-11";
         int daysOfYear = dayOfYear2(date);
         System.out.println("daysOfYear = " + daysOfYear);
     }
@@ -87,11 +87,6 @@ public class DayYear1154 {
      * @return 返回布尔值
      */
     private boolean isLeep(int year) {
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
     }
-
 }

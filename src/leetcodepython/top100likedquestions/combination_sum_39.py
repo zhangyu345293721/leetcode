@@ -1,9 +1,9 @@
 # encoding='utf-8'
 
 '''
-   author:zhangyu
-   date:2020.1.9
-   description:组合数
+author:zhangyu
+date:2020.1.9
+description:组合数
 '''
 
 

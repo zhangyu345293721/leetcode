@@ -53,7 +53,7 @@ def get_intersection2(arr1: List[int], arr2: List[int]) -> List[int]:
     for ele in arr2:
         s2.add(ele)
     for ele in s1:
-        if s2.__contains__(ele):
+        if ele in s2:
             arr.append(ele)
     return arr
 
@@ -73,7 +73,7 @@ def get_intersection3(arr1: List[int], arr2: List[int]) -> List[int]:
         s.add(ele)
     arr = []
     for ele in arr2:
-        if s.__contains__(ele):
+        if ele in s:
             arr.append(ele)
             s.remove(ele)
     return arr

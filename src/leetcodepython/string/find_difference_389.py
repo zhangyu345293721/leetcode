@@ -35,12 +35,12 @@ def find_difference(s1: str, s2: str) -> List[int]:
     '''
     ch_set = set()
     for ch1 in s1:
-        if ch_set.__contains__(ch1):
+        if ch1 in ch_set:
             ch_set.remove(ch1)
         else:
             ch_set.add(ch1)
     for ch2 in s2:
-        if ch_set.__contains__(ch2):
+        if ch2 in ch_set:
             ch_set.remove(ch2)
     else:
         ch_set.add(ch2)

@@ -18,7 +18,7 @@ def least_interval(tasks: List[chr], n: int) -> int:
     '''
     map = [0] * 26
     for ch in tasks:
-        map[ch - ord('A')] += 1
+        map[ord(ch) - ord('A')] += 1
     map.sort()
     max_height = map[25] - 1
     max_slots = max_height * n

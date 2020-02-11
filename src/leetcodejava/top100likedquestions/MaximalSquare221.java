@@ -1,11 +1,25 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Test;
+
 /**
  * 找出二维数组中最大正方形
  *
  * @author: zhangyu
  */
 public class MaximalSquare221 {
+
+    @Test
+    public void testMaximalSquare() {
+        char[][] chs =
+                {{'1', '0', '1', '0', '0'},
+                        {'1', '0', '1', '1', '1'},
+                        {'1', '1', '1', '1', '1'},
+                        {'1', '0', '0', '1', '0'}
+                };
+        int num = maximalSquare(chs);
+        System.out.println(num);
+    }
 
     /**
      * 获取最大正方形

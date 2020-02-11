@@ -12,8 +12,8 @@ def maximal_rectangle(matrix: List[List[chr]]) -> int:
     if matrix == None or len(matrix) < 1:
         return 0
     res = 0
-    m = matrix.__len__()
-    n = matrix[0].__len__()
+    m = len(matrix)
+    n = len(matrix[0])
     left = [0] * n
     right = [0] * n
     height = [0] * n

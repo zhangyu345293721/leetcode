@@ -1,9 +1,9 @@
 # encoding='utf-8'
 
 '''
-    author:zhangyu
-    date:2019.7.25
-    description 翻转一个数字
+author:zhangyu
+date:2019.7.25
+description 翻转一个数字
 '''
 
 

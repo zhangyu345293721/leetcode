@@ -15,17 +15,16 @@ def unique_number_occurrences(arr: List[int]) -> bool:
     Returns:
         布尔值
     '''
-    num_dict={}
+    num_dict = {}
     for num in arr:
-       if num_dict.keys().__contains__(num):
-           num_dict[num]+=1
-       else:
-           num_dict[num]=0
-    num_set=set()
+        if num in num_dict:
+            num_dict[num] += 1
+        else:
+            num_dict[num] = 0
+    num_set = set()
     for time in num_dict.values():
-       num_set.add(time)
-    return len(num_set)==len(num_dict)
-
+        num_set.add(time)
+    return len(num_set) == len(num_dict)
 
 
 if __name__ == '__main__':

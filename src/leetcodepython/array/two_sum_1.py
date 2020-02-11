@@ -34,7 +34,7 @@ def get_sum_index2(nums: List[int], target: int) -> int:
     '''
     nums_dict = {}
     for i in range(len(nums)):
-        if nums_dict.keys().__contains__(target - nums[i]):
+        if (target - nums[i]) in nums_dict:
             return [nums_dict[target - nums[i]], i]
         else:
             nums_dict[nums[i]] = i

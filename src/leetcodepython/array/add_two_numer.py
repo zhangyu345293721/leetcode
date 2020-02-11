@@ -25,7 +25,7 @@ def get_two_number(arr: List[int], sum: int) -> Tuple[int]:
         count += 1
     for i in range(len(arr)):
         number = arr[i]
-        if dict.keys().__contains__(sum - number) and dict[sum - number] > i:
+        if (sum - number) in dict and dict[sum - number] > i:
             return number, sum - number
 
 

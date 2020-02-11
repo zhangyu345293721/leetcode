@@ -6,7 +6,7 @@ date:2020/1/11
 from typing import List
 
 
-def findSpecialInteger(arr: List[int]) -> int:
+def find_special_integer(arr: List[int]) -> int:
     '''
         找出数组中出现次数大于25%
     Args:
@@ -16,11 +16,11 @@ def findSpecialInteger(arr: List[int]) -> int:
     '''
     arr_dict = {}
     for num in arr:
-        if arr_dict.keys().__contains__(num):
+        if num in arr_dict:
             arr_dict[num] += 1
         else:
             arr_dict[num] = 1
-    for key in arr_dict.keys():
+    for key in arr_dict:
         if arr_dict[key] * 4 > len(arr):
             return key
     return -1
@@ -28,5 +28,5 @@ def findSpecialInteger(arr: List[int]) -> int:
 
 if __name__ == '__main__':
     arr = [1, 2, 2, 6, 6, 6, 6, 7, 10]
-    num = findSpecialInteger(arr)
+    num = find_special_integer(arr)
     print(num)

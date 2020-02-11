@@ -32,7 +32,7 @@ def find_duplicate_number2(arr: List[int]) -> int:
     '''
     s = set()
     for i in range(len(arr)):
-        if s.__contains__(arr[i]):
+        if arr[i] in s:
             return arr[i]
         else:
             s.add(arr[i])

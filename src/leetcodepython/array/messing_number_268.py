@@ -1,9 +1,9 @@
 # encoding='utf-8'
 
 '''
-   author:zhangyu
-   description:寻找遗失的数字
-   date:2019.8.20
+author:zhangyu
+description:寻找遗失的数字
+date:2019.8.20
 '''
 from typing import List
 
@@ -23,7 +23,7 @@ def get_messing_number(arr: List[int]) -> int:
     for i in range(length + 1):
         s.add(i)
     for j in range(len(arr)):
-        if s.__contains__(arr[j]):
+        if arr[j] in s:
             s.remove(arr[j])
     if len(s) == 1:
         return s.pop()

@@ -1,9 +1,9 @@
 # encoding='utf-8'
 
 '''
-   author:zhangyu
-   date:2019.8.30
-   description:按照要求旋转矩阵
+author:zhangyu
+date:2019.8.30
+description:按照要求旋转矩阵
 '''
 from typing import List
 

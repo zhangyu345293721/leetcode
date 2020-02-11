@@ -17,7 +17,7 @@ def contains_duplicate(nums: List[int]) -> bool:
     '''
     number_dict = {}
     for num in nums:
-        if number_dict.keys().__contains__(num):
+        if num in number_dict:
             number_dict[num] += 1
         else:
             number_dict[num] = 1
@@ -37,7 +37,7 @@ def contains_duplicate2(nums: List[int]) -> bool:
     '''
     number_set = set()
     for num in nums:
-        if number_set.__contains__(num):
+        if num in number_set:
             return True
         else:
             number_set.add(num)
@@ -46,4 +46,4 @@ def contains_duplicate2(nums: List[int]) -> bool:
 
 if __name__ == '__main__':
     arr = [1, 2, 3, 3, 4]
-    print(contains_duplicate2(arr))
+    print(contains_duplicate(arr))

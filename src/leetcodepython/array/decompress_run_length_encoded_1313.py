@@ -6,7 +6,7 @@ date:2020.1.15
 from typing import List
 
 
-def decompress_RLE_list(nums: List[int]) -> int:
+def decompress_rle_list(nums: List[int]) -> int:
     '''
         解压链表
     Args:
@@ -27,5 +27,5 @@ def decompress_RLE_list(nums: List[int]) -> int:
 
 if __name__ == '__main__':
     nums = [1, 2, 3, 4]
-    arr = decompress_RLE_list(nums);
+    arr = decompress_rle_list(nums);
     print(arr)
