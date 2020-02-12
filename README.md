@@ -526,5 +526,10 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104189181">Add Digits</a></th>
     <th>Easy</th>
   </tr>
+   <tr>
+    <th >1154</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104271703">Day Of Year</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 ## 7.tree
