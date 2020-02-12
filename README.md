@@ -484,6 +484,11 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104198493">Best Time Buy</a></th>
     <th>Easy</th>
   </tr>
+  <tr>
+    <th>1217</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104282307">Play With Chips</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 3.list
