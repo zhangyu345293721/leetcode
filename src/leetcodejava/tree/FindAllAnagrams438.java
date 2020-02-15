@@ -67,37 +67,47 @@ public class FindAllAnagrams438 {
      * @param p 字符串p
      * @return 链表
      */
-    public List<Integer> findAnagrams3(String s, String p) {
-        List<Integer> ans = new ArrayList<>();
+    public List<Integer> findAnagrams2(String s, String p) {
+        List<Integer> result = new ArrayList<>();
         int sl = s.length(), pl = p.length();
         if (sl < pl) {
-            return ans;
+            return result;
         }
         int[] pa = new int[26];
-        // 让这些字符都映射在这26个数字中
+        // 字符映射在这26个数字中
         for (char c : p.toCharArray()) {
-            System.out.println(pa[c - 'a']++);
+            pa[c - 'a']++;
         }
-
         int[] sa = new int[26];
         char[] sc = s.toCharArray();
         for (int i = 0; i < pl; i++) {
             sa[sc[i] - 'a']++;
         }
         if (isSame(sa, pa)) {
-            ans.add(0);
+            result.add(0);
         }
         for (int i = pl; i < sl; i++) {
             sa[sc[i] - 'a']++;
             sa[sc[i - pl] - 'a']--;
-            if (isSame(sa, pa)) ans.add(i - pl + 1);
+            if (isSame(sa, pa)) {
+                result.add(i - pl + 1);
+            }
         }
-        return ans;
+        return result;
     }
 
+    /**
+     * 判断两个数组是否相同
+     *
+     * @param sa 数组1
+     * @param pa 数组2
+     * @return 布尔值
+     */
     private boolean isSame(int[] sa, int[] pa) {
         for (int i = 0; i < 26; i++) {
-            if (sa[i] != pa[i]) return false;
+            if (sa[i] != pa[i]) {
+                return false;
+            }
         }
         return true;
     }

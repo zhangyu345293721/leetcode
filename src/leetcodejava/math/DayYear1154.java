@@ -77,7 +77,6 @@ public class DayYear1154 {
         }
         days += day;
         return days;
-
     }
 
     /**

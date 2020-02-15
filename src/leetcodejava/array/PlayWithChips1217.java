@@ -7,7 +7,7 @@ import org.junit.Test;
  *
  * @author: zhangyu
  */
-public class PlaywithChips1217 {
+public class PlayWithChips1217 {
 
     @Test
     public void testPlayWithChips() {

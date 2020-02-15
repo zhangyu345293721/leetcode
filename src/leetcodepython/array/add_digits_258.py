@@ -20,7 +20,6 @@ def add_digits(num: int) -> int:
         left_number = num % 10
         total += left_number
         num = num // 10
-
     if total < 10:
         return total
     else:
@@ -37,14 +36,10 @@ def add_digits2(num: int) -> int:
     '''
     if num == 0:
         return 0
-    if num % 9 == 0:
-        return 9
-    else:
-        return num % 9
-
+    return 9 if num % 9 == 0 else num % 9
 
 
 if __name__ == '__main__':
     num = 38
-    result = add_digits(num)
+    result = add_digits2(num)
     print(result)
