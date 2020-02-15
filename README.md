@@ -416,7 +416,7 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83059879">Detect Capital</a></th>
     <th>Easy</th>
   </tr> <tr>
-    <th ></th>
+    <th >541</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83048617">Reverse String II</a></th>
     <th>Easy</th>
   </tr> <tr>
@@ -484,6 +484,11 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104198493">Best Time Buy</a></th>
     <th>Easy</th>
   </tr>
+  <tr>
+    <th>1217</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104282307">Play With Chips</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 3.list
@@ -510,6 +515,10 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104247551">Is Long Pressed</a></th>
     <th>Easy</th>
   </tr>
+ <th >14</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104305111">Longest Common</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 5.hashtable
@@ -524,6 +533,11 @@
   <tr>
     <th >258</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104189181">Add Digits</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th >1154</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104271703">Day Of Year</a></th>
     <th>Easy</th>
   </tr>
 </table>
