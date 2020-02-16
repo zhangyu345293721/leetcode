@@ -33,11 +33,13 @@ public class BinaryTreeInorderTraversal94 {
      * @param root 根节点
      */
     public void helper(List<Integer> list, TreeNode root) {
-        if (root.left != null)
+        if (root.left != null) {
             helper(list, root.left);
+        }
         list.add(root.val);
-        if (root.right != null)
+        if (root.right != null) {
             helper(list, root.right);
+        }
     }
 
 
@@ -48,17 +50,17 @@ public class BinaryTreeInorderTraversal94 {
      * @return 链表
      */
     public List<Integer> inorderTraversal2(TreeNode root) {
-        List<Integer> list=new ArrayList<>();
-        Stack<TreeNode> stack=new Stack<>();
-        TreeNode p=root;
-        while(p!=null||!stack.isEmpty()){
-            if(p!=null){
+        List<Integer> list = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode p = root;
+        while (p != null || !stack.isEmpty()) {
+            if (p != null) {
                 stack.push(p);
-                p=p.left;
-            }else{
-                TreeNode node=stack.pop();
+                p = p.left;
+            } else {
+                TreeNode node = stack.pop();
                 list.add(node.val);
-                p=node.right;
+                p = node.right;
             }
         }
         return list;

@@ -92,8 +92,6 @@ b
 `
 0src/leetcodejava/math/GenerateParentheses22.java,7\a\7a3f4589653fc89098297852a3506d616c49440e
 ]
--src/leetcodejava/math/GreatestCommon1071.java,8\e\8e05e0e8961ebba5e313e2c9bae48fcbdd576588
-]
 -src/leetcodejava/math/HammingDistance461.java,4\9\49343ad9b2b558ca568abb2a1c988b06d3c18eaf
 b
 2src/leetcodejava/math/LongestValidParentheses.java,1\7\17175c46cce864f28a9c421614c95764e8f1fe1b
@@ -497,3 +495,5 @@ Z
 .src/leetcodepython/string/longest_common_14.py,b\e\beb429bbc15d329464cb973b0bd5e6e2e800ecc9
 Z
 *src/leetcodepython/tree/binary_tree_102.py,c\7\c778f747fdf80ace36021dbaf3dbd00c548b6016
+a
+1src/leetcodepython/string/greatest_common_1071.py,3\c\3cd60cc2a8dd59e394d2511119ffa30ce621dd18
