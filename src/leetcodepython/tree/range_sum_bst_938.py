@@ -14,7 +14,7 @@ def dfs_search_tree(node: TreeNode, L: int, R: int, ans: int) -> None:
         L: 最小值
         R: 最大值
     '''
-    if node != None:
+    if node :
         if L <= node.val and node.val <= R:
             ans += node.val
         if L < node.val:

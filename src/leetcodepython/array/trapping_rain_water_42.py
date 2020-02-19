@@ -44,10 +44,8 @@ def trapping_rain_water2(arr: List[int]) -> int:
     '''
     if arr is None or len(arr) < 3:
         return 0
-    left_max = 0
-    right_max = 0
-    left = 0
-    right = len(arr) - 1
+    left_max, right_max = 0, 0
+    left, right = 0, len(arr) - 1
     result = 0
     while left < right:
         if arr[left] < arr[right]:

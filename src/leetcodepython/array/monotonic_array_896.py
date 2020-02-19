@@ -1,5 +1,6 @@
 # -*- coding:utf-8 -*-
 '''
+数组是不是一直都是递减
 author:zhangyu
 date:2020/1/13
 '''

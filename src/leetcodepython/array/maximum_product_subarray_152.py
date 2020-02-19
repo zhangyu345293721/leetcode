@@ -18,8 +18,7 @@ def max_product(arrs: List[int]) -> int:
     '''
     if len(arrs) < 1:
         return 0
-    max_num = arrs[0]
-    min_num = arrs[0]
+    max_num,min_num = arrs[0],arrs[0]
     result = arrs[0]
     for i in range(1, len(arrs)):
         temp = max_num

@@ -1,14 +1,14 @@
 # encoding='utf-8'
 
 '''
+找出一个数组中出现的单独一个数
 author:zhangyu
-description:找出一个数组中出现的单独一个数
 date:2019.8.3
 '''
 from typing import List
 
 
-def get_single_number(arr:List[int]) -> int:
+def single_number(arr: List[int]) -> int:
     '''
         求只出现一次的数字
     Args:
@@ -18,14 +18,14 @@ def get_single_number(arr:List[int]) -> int:
     '''
     set_arr = set()
     for ele in arr:
-        if set_arr.__contains__(ele):
+        if ele in set_arr:
             set_arr.remove(ele)
         else:
             set_arr.add(ele)
     return set_arr.pop()
 
 
-def get_single_number2(arr:List[int]) -> int:
+def single_number2(arr: List[int]) -> int:
     '''
        求只出现一次的数字
    Args:
@@ -41,5 +41,5 @@ def get_single_number2(arr:List[int]) -> int:
 
 if __name__ == '__main__':
     arr = [2, 3, 3, 2, 4]
-    element = get_single_number(arr)
+    element = single_number(arr)
     print(element)

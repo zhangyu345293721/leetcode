@@ -38,7 +38,7 @@ def compare_str(license_map: dict, word_map: dict) -> bool:
         布尔值
     '''
     for entry in license_map.items():
-        if not word_map.keys().__contains__(entry[0]) or word_map[entry[0]] < entry[1]:
+        if entry[0] not in word_map or word_map[entry[0]] < entry[1]:
             return False
     return True
 

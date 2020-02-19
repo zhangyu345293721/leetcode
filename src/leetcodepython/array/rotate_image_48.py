@@ -1,9 +1,10 @@
 # encoding='utf-8'
 
 '''
+按照要求旋转矩阵
 author:zhangyu
 date:2019.8.30
-description:按照要求旋转矩阵
+
 '''
 from typing import List
 
@@ -17,7 +18,6 @@ def swap(matrix: List[List[int]], x1: int, y1: int, x2: int, y2: int):
         y1: 位置y2
         x2: 位置x2
         y2: 位置y2
-
     '''
     temp = matrix[x1][y1]
     matrix[x1][y1] = matrix[x2][y2]

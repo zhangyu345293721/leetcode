@@ -1,14 +1,14 @@
 # encoding='utf-8'
 
 '''
-   author:zhangyu
-   date:2019.8.28
-   description:找出最大的连续子串
+author:zhangyu
+date:2019.8.28
+description:找出最大的连续子串
 '''
 from typing import List
 
 
-def get_longest_consecutive(arr:List[int])->List[int]:
+def get_longest_consecutive(arr: List[int]) -> List[int]:
     '''
         找出最大连续子串
     Args:
@@ -22,8 +22,7 @@ def get_longest_consecutive(arr:List[int])->List[int]:
         return len(arr)
     # 对数组进行排序
     arr.sort()
-    max_length = 1
-    count = 1
+    max_length, count = 1, 1
     for i in range(len(arr) - 1):
         if arr[i] + 1 == arr[i + 1]:
             count += 1

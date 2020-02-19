@@ -6,14 +6,13 @@
 '''
 
 
-def joseph_problem(number_n:int, start_number_k:int, number_m:int)->int:
+def joseph_problem(number_n: int, start_number_k: int, number_m: int) -> int:
     '''
         约瑟夫问题
     Args:
         number_n: 多少人
         start_number_k: 开始位置
         number_m: 多少次
-
     Returns:
         最后一个编号
     '''

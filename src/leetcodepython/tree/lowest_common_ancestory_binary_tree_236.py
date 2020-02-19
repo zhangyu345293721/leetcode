@@ -16,15 +16,15 @@ def lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode
     Returns:
         最小公共祖先
     '''
-    if root == None or p == None or q == None:
+    if not root or not p or not q:
         return root
     left = lowest_common_ancestor(root.left, p, q)
     right = lowest_common_ancestor(root.right.p, q)
-    if left == None and right == None:
+    if not left and not right:
         return None
-    if left != None and right != None:
+    if left and right:
         return root
-    if left == None:
+    if not left:
         return right
     else:
         return left

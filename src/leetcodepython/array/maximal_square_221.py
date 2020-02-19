@@ -17,8 +17,7 @@ def get_max(matrix, row_index, col_index):
     Returns:
         最大长度数量
     '''
-    row = len(matrix)
-    col = len(matrix[0])
+    row, col = len(matrix), len(matrix[0])
     if matrix[row_index][col_index] == '0':
         return 0
     length = 1
@@ -58,7 +57,7 @@ def maximal_square(matrix: List[List[chr]]) -> int:
 
 
 if __name__ == '__main__':
-    chs = \
+    chs =\
         [['1', '0', '1', '0', '0'],
          ['1', '0', '1', '1', '1'],
          ['1', '1', '1', '1', '1'],

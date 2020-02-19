@@ -22,7 +22,7 @@ public class ContainerWithMostWater11 {
      * @param height 长度数组
      * @return 面积
      */
-    private static int maxArea(int[] height) {
+    private  int maxArea(int[] height) {
         int maxArea = 0;
         for (int i = 0; i < height.length - 1; i++) {
             for (int j = i + 1; j < height.length; j++) {
@@ -43,7 +43,7 @@ public class ContainerWithMostWater11 {
      * @param height 长度数组
      * @return 面积
      */
-    private static int maxArea2(int[] height) {
+    private  int maxArea2(int[] height) {
         int maxArea = 0;
         int i = 0;
         int j = height.length - 1;

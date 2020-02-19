@@ -4,7 +4,6 @@ author:zhangyu
 date:2020.2.13
 '''
 from typing import List
-
 from tree.tree_node import TreeNode
 
 
@@ -16,9 +15,9 @@ def helper(node: TreeNode) -> List[int]:
     Returns:
         数组
     '''
-    if node == None:
+    if not node:
         return [0, 0]
-    if node.left == None and node.right == None:
+    if not node.left and not node.right:
         return [node.val, 0]
     l = helper(node.left)
     r = helper(node.right)
@@ -45,11 +44,11 @@ def rob2(root: TreeNode) -> int:
     Returns:
         最大值
     '''
-    if root == None:
+    if not root:
         return 0
     val = 0
-    if root.left != None:
+    if root.left:
         val += rob2(root.left.left) + rob2(root.left.right)
-    if root.right != None:
+    if root.right:
         val += rob2(root.right.left) + rob2(root.right.right)
     return max(val + root.val, rob2(root.right) + rob2(root.left))

@@ -16,11 +16,10 @@ def largest_rectangle_histogram(heights: List[int]) -> int:
     Returns:
         矩形最大面积
     '''
-    if heights == None or len(heights) < 1:
+    if not heights:
         return 0
     stack = []
-    max_area = 0
-    index = 0
+    max_area, index = 0, 0
     length = len(heights)
     while index < length:
         if len(stack) < 1 or (index < length and heights[index] >= heights[stack[-1]]):

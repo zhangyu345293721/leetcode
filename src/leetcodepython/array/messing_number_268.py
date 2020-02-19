@@ -1,8 +1,8 @@
 # encoding='utf-8'
 
 '''
+寻找遗失的数字
 author:zhangyu
-description:寻找遗失的数字
 date:2019.8.20
 '''
 from typing import List
@@ -13,10 +13,8 @@ def get_messing_number(arr: List[int]) -> int:
         寻找缺失的数字
     Args:
         arr: 数组
-
     Returns:
         缺失的数
-
     '''
     length = len(arr)
     s = set()
@@ -39,8 +37,7 @@ def get_messing_number2(arr: List[int]) -> int:
    Returns:
        缺失的数
    '''
-    sum = 0
-    n = len(arr)
+    sum, n = 0, len(arr)
     total_sum = (n + 1) * n // 2
     for i in range(len(arr)):
         sum += arr[i]

@@ -45,15 +45,13 @@ def inorder_traversal2(root: TreeNode) -> List[int]:
     Returns:
         中序递归遍历二叉树
     '''
-    result = []
-    stack = []
-    p = root
-    while p != None or len(stack) > 0:
-        if p != None:
-            stack.append(p)
-            p = p.left
+    result, stack = [], []
+    while root or stack:
+        if root:
+            stack.append(root)
+            root = root.left
         else:
             node = stack.pop()
             result.append(node.val)
-            p = node.right
+            root = node.right
     return result

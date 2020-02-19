@@ -14,15 +14,12 @@ def get_intersection(arr1: List[int], arr2: List[int]) -> List[int]:
     Args:
         arr1: 数组1
         arr2: 数组2
-
     Returns:
         数组交集
     '''
     arr1.sort();
     arr2.sort();
-    arr = []
-    i = 0
-    j = 0
+    i, j, arr = 0, 0, []
     while i < len(arr1) and j < len(arr2):
         if arr1[i] < arr2[j]:
             i += 1
@@ -41,15 +38,12 @@ def get_intersection2(arr1: List[int], arr2: List[int]) -> List[int]:
     Args:
         arr1: 数组1
         arr2: 数组2
-
     Returns:
         数组交集
     '''
-    arr = []
-    s1 = set()
+    arr, s1, s2 = [], set(), set()
     for ele in arr1:
         s1.add(ele)
-    s2 = set()
     for ele in arr2:
         s2.add(ele)
     for ele in s1:
@@ -68,10 +62,9 @@ def get_intersection3(arr1: List[int], arr2: List[int]) -> List[int]:
     Returns:
         数组交集
     '''
-    s = set()
+    s, arr = set(), []
     for ele in arr1:
         s.add(ele)
-    arr = []
     for ele in arr2:
         if ele in s:
             arr.append(ele)

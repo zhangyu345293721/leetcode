@@ -32,7 +32,7 @@ def contains_duplicate2(nums: List[int], k: int) -> bool:
     '''
     number_dict = {}
     for i in range(len(nums)):
-        if number_dict.__contains__(nums[i]):
+        if nums[i] in number_dict:
             if abs(i - number_dict[nums[i]]) <= k:
                 return True
         number_dict[nums[i]] = i

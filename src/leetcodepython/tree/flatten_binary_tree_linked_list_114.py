@@ -38,7 +38,7 @@ def flatten_for_list(root: TreeNode, current_node) -> TreeNode:
     Returns:
         root
     '''
-    if root == None:
+    if not root:
         return current_node
     current_node = flatten_for_list(root.right, current_node)
     current_node = flatten_for_list(root.left, current_node)

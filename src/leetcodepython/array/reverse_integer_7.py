@@ -1,9 +1,9 @@
 # encoding='utf-8'
 
 '''
+翻转一个数字
 author:zhangyu
 date:2019.7.25
-description 翻转一个数字
 '''
 
 
@@ -14,7 +14,6 @@ def get_reverse_integer(num: int) -> int:
         num:数字
     Returns:
         反转后数字
-
     '''
     if num == 0:
         return num

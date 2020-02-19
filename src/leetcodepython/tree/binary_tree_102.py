@@ -16,7 +16,7 @@ def level_helper(res: List[List[int]], root: TreeNode, height: int):
         root: 根节点
         height: 高度
     '''
-    if root == None:
+    if not root:
         return
     if height >= len(res):
         return res.append([])
@@ -55,8 +55,8 @@ def level_order2(root: TreeNode) -> List[List[int]]:
         for i in range(size):
             p = queue.pop()
             arr.append(p.val)
-            if p.left != None:
+            if p.left:
                 queue.append(p.left)
-            if p.right != None:
+            if p.right:
                 queue.append(p.right)
         res.append(arr)

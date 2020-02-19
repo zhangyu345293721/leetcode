@@ -6,6 +6,7 @@ author:zhangyu
 date:2020.1.11
 '''
 from typing import List
+import numpy as np
 
 
 def transpose(arr: List[List[int]]) -> List[List[int]]:
@@ -28,7 +29,7 @@ def transpose(arr: List[List[int]]) -> List[List[int]]:
         转置后的数组
     '''
     m, n = len(arr[0]), len(arr)
-    new_arr = [[0 * m] * n]
+    new_arr = np.zeros((m, n), dtype=int)
     for i in range(len(arr)):
         for j in range(arr[0]):
             new_arr[j][i] = arr[i][j]
