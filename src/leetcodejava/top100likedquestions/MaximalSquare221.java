@@ -13,9 +13,9 @@ public class MaximalSquare221 {
     public void testMaximalSquare() {
         char[][] chs =
                 {{'1', '0', '1', '0', '0'},
-                        {'1', '0', '1', '1', '1'},
-                        {'1', '1', '1', '1', '1'},
-                        {'1', '0', '0', '1', '0'}
+                {'1', '0', '1', '1', '1'},
+                {'1', '1', '1', '1', '1'},
+                {'1', '0', '0', '1', '0'}
                 };
         int num = maximalSquare(chs);
         System.out.println(num);

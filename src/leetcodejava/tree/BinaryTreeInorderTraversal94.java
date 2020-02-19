@@ -1,8 +1,6 @@
 package leetcodejava.tree;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * 中序遍历二叉树
@@ -51,7 +49,7 @@ public class BinaryTreeInorderTraversal94 {
      */
     public List<Integer> inorderTraversal2(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
+        Deque<TreeNode> stack = new LinkedList<>();
         TreeNode p = root;
         while (p != null || !stack.isEmpty()) {
             if (p != null) {
