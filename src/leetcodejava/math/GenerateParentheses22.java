@@ -29,7 +29,7 @@ public class GenerateParentheses22 {
     private List<String> generateParentheses(int n) {
         List<String> list = new ArrayList<>();
         if (n < 1) {
-            return null;
+            return list;
         }
         bracketTrace(list, "", 0, 0, n);
         return list;
@@ -49,9 +49,11 @@ public class GenerateParentheses22 {
             list.add(s);
             return;
         }
-        if (left < n)
+        if (left < n) {
             bracketTrace(list, s + "(", left + 1, right, n);
-        if (right < left)
+        }
+        if (right < left) {
             bracketTrace(list, s + ")", left, right + 1, n);
+        }
     }
 }
