@@ -143,11 +143,6 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84984249">Longest Increasing Subsequence</a></th>
     <th>Middle</th>
   </tr>
-  <tr>
-    <th >55</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84991870">Jump Game</a></th>
-    <th>Middle</th>
-  </tr>
     <tr>
     <th >*64</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84979265">Minimum Path Sum</a></th>
