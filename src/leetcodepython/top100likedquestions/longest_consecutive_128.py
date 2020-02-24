@@ -7,31 +7,53 @@ date:2019.8.28
 from typing import List
 
 
-def get_longest_consecutive(arr: List[int]) -> int:
+def get_longest_consecutive(nums: List[int]) -> int:
     '''
         找出最大的连续子串
     Args:
-        arr: 数组
+        nums: 数组
     Returns:
         最大子串长度
     '''
-    if len(arr) <= 1:
-        return len(arr)
-    arr.sort()
+    if len(nums) <= 1:
+        return len(nums)
+    nums.sort()
     max_length = 1
     count = 1
-    for i in range(len(arr) - 1):
-        if arr[i] + 1 == arr[i + 1]:
+    for i in range(len(nums) - 1):
+        if nums[i] + 1 == nums[i + 1]:
             count += 1
         else:
-            if arr[i] != arr[i + 1]:
+            if nums[i] != nums[i + 1]:
                 count = 1
         if max_length < count:
             max_length = count
     return max_length
 
 
+def get_longest_consecutive2(nums: List[int]) -> int:
+    '''
+        找出最大的连续子串
+    Args:
+        nums: 数组
+    Returns:
+        最大子串长度
+    '''
+    if len(nums) <= 1:
+        return len(nums)
+    count = 0
+    num_set = set(nums)
+    for num in num_set:
+        current = 1
+        current_num = num
+        while (current_num + 1) in nums:
+            current += 1
+            current_num += 1
+        count = max(count, current)
+    return count
+
+
 if __name__ == '__main__':
-    arr = [2, 1, 3, 3, 4]
-    max_length = get_longest_consecutive(arr)
+    nums = [2, 1, 3, 3, 4]
+    max_length = get_longest_consecutive2(nums)
     print(max_length)

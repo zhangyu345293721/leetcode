@@ -10,11 +10,11 @@ import java.util.Map;
  **/
 
 
-public class MajorityElement {
+public class MajorityElement169 {
     @Test
     public void testMajorityElement() {
         int[] nums = {3, 2, 2, 2, 3};
-        int majorElement = majorityElement(nums);
+        int majorElement = majorityElement2(nums);
         System.out.println(majorElement);
     }
 
@@ -28,16 +28,11 @@ public class MajorityElement {
     private int majorityElement(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
-            if (!map.keySet().contains(num)) {
-                map.put(num, 1);
-            } else {
-                map.put(num, map.get(num) + 1);
-            }
+            map.put(num, map.getOrDefault(num, 0) + 1);
         }
-
-        for (int key : map.keySet()) {
-            if (map.get(key) > nums.length / 2) {
-                return key;
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() > nums.length / 2) {
+                return entry.getKey();
             }
         }
         return -1;

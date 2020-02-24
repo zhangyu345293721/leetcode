@@ -11,7 +11,7 @@ public class MergeKSortedLists23 {
      * @param lists 要合并的链表
      * @return 链表
      */
-    public ListNode mergeKLists(ListNode[] lists) {
+    public ListNode mergeKList(ListNode[] lists) {
         if (lists == null || lists.length < 1) {
             return null;
         }

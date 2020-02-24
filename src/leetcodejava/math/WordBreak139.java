@@ -15,11 +15,11 @@ import java.util.List;
 public class WordBreak139 {
     @Test
     public void testWordBreak() {
-        String s = "applepenapple";
+        String s = "leetcode";
         List<String> wordDict = new ArrayList<>();
-        wordDict.add("apple");
-        wordDict.add("pen");
-        boolean flag = wordBreak2(s, wordDict);
+        wordDict.add("leet");
+        wordDict.add("code");
+        boolean flag = wordBreak(s, wordDict);
         System.out.println(flag);
     }
 
@@ -29,9 +29,9 @@ public class WordBreak139 {
      *
      * @param s        字符串
      * @param wordDict 单词字典
-     * @return
+     * @return 布尔值
      */
-    private boolean wordBreak2(String s, List<String> wordDict) {
+    private boolean wordBreak(String s, List<String> wordDict) {
         boolean[] f = new boolean[s.length() + 1];
         f[0] = true;
         for (int i = 1; i <= s.length(); i++) {
