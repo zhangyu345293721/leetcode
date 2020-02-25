@@ -3,8 +3,6 @@
 '''
 按照要求旋转矩阵
 author:zhangyu
-date:2019.8.30
-
 '''
 from typing import List
 
