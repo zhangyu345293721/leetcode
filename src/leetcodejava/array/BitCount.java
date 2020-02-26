@@ -27,7 +27,6 @@ public class BitCount {
         int count = 0;
         while (num > 0) {
             count = count + (num & 1);
-            // 然后数字朝右移动一位
             num = num >> 1;
         }
         return count;
