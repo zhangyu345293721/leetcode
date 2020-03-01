@@ -515,3 +515,11 @@ n
 >src/leetcodepython/array/longest_increasing_subsequence_300.py,9\1\91288c6c2f76f60f4bf98154818df248e80d6a4b
 k
 ;src/leetcodejava/array/LongestIncreasingSubsequence300.java,6\d\6d43b09878b2c6c200945e27aec8f81aa8633d59
+\
+,src/leetcodejava/array/MergeIntervals56.java,d\a\dad78acc89b9899eb2ffe1f58dcbed2ba9983fae
+X
+(src/leetcodejava/array/MinPathSum64.java,1\7\170ed5fcabb225a7f16dc86b4c7722c4c4dbe827
+[
++src/leetcodepython/array/min_path_sum_64.py,9\1\9171706760d09f025e9819730e43343bedc42612
+^
+.src/leetcodepython/array/merge_intervals_56.py,3\d\3d0fb3f6640b9f80a8037cbe48795cd90264a1b3

@@ -5,9 +5,10 @@
 author:zhangyu
 date:2020.1.9
 '''
+import numpy as np
 
 
-def min_distance(word1: str, word2: str)->int :
+def min_distance(word1: str, word2: str) -> int:
     '''
         得到最小步数
     Args:
@@ -20,7 +21,7 @@ def min_distance(word1: str, word2: str)->int :
     n = len(word2)
     if m * n == 0:
         return n + m
-    d = [[0] * (m + 1)] * (n + 1)
+    d = np.zeros((m + 1, n + 1), dtype=np.int)
     for i in range(m + 1):
         d[i][0] = i
     for j in range(n + 1):
