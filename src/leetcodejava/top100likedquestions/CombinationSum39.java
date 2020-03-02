@@ -1,5 +1,7 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -10,6 +12,14 @@ import java.util.List;
  * @author: zhangyu
  */
 public class CombinationSum39 {
+
+    @Test
+    public void testCombinationSum() {
+        int[] candidates = {2, 3, 6, 7};
+        int target = 7;
+        List<List<Integer>> list = combinationSum(candidates, target);
+        System.out.println(list);
+    }
 
     /**
      * 获取所有的组合
@@ -37,10 +47,15 @@ public class CombinationSum39 {
      */
     private void helper(int[] nums, int target, List<List<Integer>> result, List<Integer> current, int index) {
         for (int i = index; i < nums.length; i++) {
-            if (nums[i] > target) break;
+            if (nums[i] > target) {
+                break;
+            }
             current.add(nums[i]);
-            if (target - nums[i] == 0) result.add(new ArrayList(current));
-            else helper(nums, target - nums[i], result, current, i);
+            if (target - nums[i] == 0) {
+                result.add(new ArrayList(current));
+            } else {
+                helper(nums, target - nums[i], result, current, i);
+            }
             current.remove(current.size() - 1);
         }
     }

@@ -1,7 +1,6 @@
 package leetcodejava.top100likedquestions;
 
 import org.junit.Test;
-
 /**
  * This is the solution of No. xxx problem in the LeetCode,
  * the website of the problem is as follow:
@@ -37,7 +36,6 @@ import org.junit.Test;
  * <p>
  * 来源：力扣（LeetCode）
  * * ==========================================================================================================
- *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class EditDistance72 {
