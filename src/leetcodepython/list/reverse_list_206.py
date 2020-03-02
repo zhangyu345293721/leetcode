@@ -46,6 +46,20 @@ def reverse_list2(head: ListNode) -> ListNode:
     return pre
 
 
+def reverse_list3(head: ListNode) -> ListNode:
+    '''
+        反转链表(非递归方式)
+    Args:
+        head: 头结点位置
+    Returns:
+        头节点
+    '''
+    cur, pre, temp = head, None, None
+    while cur:
+        cur.next, pre, cur = pre, cur, cur.next
+    return pre
+
+
 if __name__ == '__main__':
     node1 = ListNode(1)
     node2 = ListNode(2)

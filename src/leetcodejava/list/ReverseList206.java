@@ -25,8 +25,6 @@ public class ReverseList206 {
         node5.next = null;
         ListNode node = reverseList2(node1);
         System.out.println(node);
-
-
     }
 
     /**
