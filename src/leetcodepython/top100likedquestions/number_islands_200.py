@@ -8,7 +8,7 @@ date:2020.1.9
 from typing import List
 
 
-def num_islands(grid: List[List[int]]) -> None:
+def num_islands(grid: List[List[str]]) -> None:
     '''
          计算岛屿个数
     Args:
@@ -17,16 +17,17 @@ def num_islands(grid: List[List[int]]) -> None:
         岛屿个数
 
     '''
-    if len(grid == 0) or len(grid[0]) == 0:
+    if len(grid) < 1 or len(grid[0]) < 1:
         return 0
     result = 0
     row, column = len(grid), len(grid[0])
-    visited = [[False] * row] * column
+    visited = [[False] * column for x in range(row)]
     for i in range(row):
         for j in range(column):
             if grid[i][j] == '1' and not visited[i][j]:
                 helper(grid, visited, i, j)
                 result += 1
+    return result
 
 
 def helper(grid: List[List[int]], visited: List[List[int]], x: int, y: int) -> None:
@@ -40,7 +41,7 @@ def helper(grid: List[List[int]], visited: List[List[int]], x: int, y: int) -> N
     '''
     if x < 0 or x >= len(grid):
         return
-    if y < 0 or y > len(grid[0]):
+    if y < 0 or y >= len(grid[0]):
         return
     if grid[x][y] != '1' or visited[x][y]:
         return
@@ -49,3 +50,14 @@ def helper(grid: List[List[int]], visited: List[List[int]], x: int, y: int) -> N
     helper(grid, visited, x + 1, y)
     helper(grid, visited, x, y - 1)
     helper(grid, visited, x, y + 1)
+
+
+if __name__ == '__main__':
+    chs = [
+        ['1', '1', '1', '1', '0'],
+        ['1', '1', '0', '1', '0'],
+        ['1', '1', '0', '0', '1'],
+        ['0', '0', '0', '0', '0']
+    ]
+    num_island = num_islands(chs)
+    print(num_island)

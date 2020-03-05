@@ -20,18 +20,12 @@ public class MergeArray88 {
      * @param n     开始位置
      */
     public int[] merge(int[] nums1, int m, int[] nums2, int n) {
-        if (nums1.length < 1 || nums1 == null) {
-            return null;
-        }
-        if (nums2.length < 1 || nums2 == null) {
-            return null;
-        }
         int[] arr = new int[nums1.length];
         int index = 0;
         int i = 0;
         int j = 0;
         // 按照顺序插入到另外一个链表中
-        while ((i < m) && (j < n)) {
+        while (i < m && j < n) {
             if (nums1[i] <= nums2[j]) {
                 arr[index] = nums1[i];
                 i++;
@@ -58,29 +52,25 @@ public class MergeArray88 {
     }
 
     /**
-     * 合并数组
+     * 对数组进行合并排序
      *
-     * @param nums1 输入数组1
-     * @param m     个数1
-     * @param nums2 输入数字2
-     * @param n     个数2
-     * @return 返回数组
+     * @param A 数组A
+     * @param m 开始下标m
+     * @param B 数组b
+     * @param n 开始下标n
      */
-    public int[] merge2(int[] nums1, int m, int[] nums2, int n) {
-        for (int i = 0; i < n; i++) {
-            nums1[m] = nums2[i];
-            m++;
+    public void merge2(int[] A, int m, int[] B, int n) {
+        for (int num2 : B) {
+            A[m++] = num2;
         }
-        Arrays.sort(nums1);
-        return nums1;
+        Arrays.sort(A);
+        System.out.println(Arrays.toString(A));
     }
-
     @Test
     public void testMergeArray() {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {2, 5, 6};
-        int[] arr = merge2(nums1, 3, nums2, 3);
+        merge2(nums1, 3, nums2, 3);
 
-        System.out.println(Arrays.toString(arr));
     }
 }

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:提交题目206">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94077d11833ad921276b19ed5e0403c50d8bb262" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/94077d11833ad921276b19ed5e0403c50d8bb262" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d59d93073ff62316b73f022b8d4ca98c0770d86c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d59d93073ff62316b73f022b8d4ca98c0770d86c" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:修改提交题目206">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/DistributeCandiesPeople1103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/OrangeRotting994.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/DecodeString394.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0305768c0a9bfde7b4cd6358b37e6b76f1ed5c83" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0305768c0a9bfde7b4cd6358b37e6b76f1ed5c83" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5947ec150117a9b995e9dda12ca38ac7326c27b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e5947ec150117a9b995e9dda12ca38ac7326c27b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/MergeArray88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/MergeArray88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,94 +45,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/OrangeRotting994.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance72.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1400">
-              <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/CombinationSum39.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/ReverseList206.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/DistributeCandiesPeople1103.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            <state relative-caret-position="225">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/DecodeString394.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/install/javajdk/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="37050">
+              <caret line="1547" column="21" selection-start-line="1547" selection-start-column="12" selection-end-line="1547" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1075">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/SubarraySumEqualsK560.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2675">
+              <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_arr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TaskScheduler621.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ListNode.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/task_scheduler_621.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/get_single_number_136.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CellsOddValues1252.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
+            <state relative-caret-position="725">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -139,8 +133,8 @@
         <option value="Enum" />
         <option value="Setup Script" />
         <option value="Python Stub" />
-        <option value="Class" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -149,11 +143,13 @@
       <find>intersection</find>
       <find>ListTest</find>
       <find>arr</find>
+      <find>}</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>nums</replace>
       <replace>grid</replace>
+      <replace>]</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\octopus\Desktop\leetcode</dir>
@@ -165,15 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/reverse_integer_7.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/shortest_completing_word_748.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/trapping_rain_water_42.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MaximalSquare221.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeInorderTraversal94.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/PreorderTraversal144.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/PostOrder145.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/PostorderTraversal145.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/tree/preorder_traversal_144.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/tree/postorder_traversal_145.py" />
@@ -213,9 +200,18 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance72.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/CombinationSum39.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ListNode.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/list/ReverseList206.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/list/ReverseList206.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/MergeSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/MergeArray88.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/DecodeString394.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/OrangeRotting994.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/DistributeCandiesPeople1103.java" />
       </list>
     </option>
   </component>
@@ -236,8 +232,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="480" />
-    <option name="y" value="101" />
+    <option name="x" value="163" />
+    <option name="y" value="108" />
     <option name="width" value="1440" />
     <option name="height" value="985" />
   </component>
@@ -248,7 +244,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,26 +266,14 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="top100likedquestions" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,12 +291,12 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\tree" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\array" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\string" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\python\array" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\python\top100likedquestions" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\untitled" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="array" />
@@ -322,12 +305,12 @@
       <recent name="leetcode" />
       <recent name="leetcode.TestWeb" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\tree" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\array" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\string" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\untitled" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\python\array" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\python\top100likedquestions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,57 +325,74 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseList206.testReverseList">
+  <component name="RunManager" selected="JUnit.DistributeCandiesPeople1103">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinationSum39" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DecodeString394.testDecodeString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.top100likedquestions.*" />
+          <option name="PATTERN" value="leetcodejava.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.top100likedquestions" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.top100likedquestions.CombinationSum39" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CombinationSum39.testCombinationSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.top100likedquestions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.top100likedquestions" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.top100likedquestions.CombinationSum39" />
-      <option name="METHOD_NAME" value="testCombinationSum" />
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.DecodeString394" />
+      <option name="METHOD_NAME" value="testDecodeString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseList206.testReverseList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DistributeCandiesPeople1103" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.list.*" />
+          <option name="PATTERN" value="leetcodejava.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.list" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.list.ReverseList206" />
-      <option name="METHOD_NAME" value="testReverseList" />
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.DistributeCandiesPeople1103" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.DistributeCandiesPeople1103" />
+      <option name="METHOD_NAME" value="testDistributeCandiesPeople" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeArray88.testMergeArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.MergeArray88" />
+      <option name="METHOD_NAME" value="testMergeArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -406,7 +406,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="edit_distance_72" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="decode_string_394" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -414,34 +414,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="reverse_list_206" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcodepython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/list" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -529,20 +507,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CombinationSum39.testCombinationSum" />
-      <item itemvalue="JUnit.CombinationSum39" />
-      <item itemvalue="JUnit.ReverseList206.testReverseList" />
-      <item itemvalue="Python.edit_distance_72" />
-      <item itemvalue="Python.reverse_list_206" />
+      <item itemvalue="JUnit.MergeArray88.testMergeArray" />
+      <item itemvalue="JUnit.DecodeString394.testDecodeString" />
+      <item itemvalue="Python.decode_string_394" />
       <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.DistributeCandiesPeople1103.testDistributeCandiesPeople" />
+      <item itemvalue="JUnit.DistributeCandiesPeople1103" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseList206.testReverseList" />
-        <item itemvalue="Python.reverse_list_206" />
-        <item itemvalue="JUnit.CombinationSum39" />
-        <item itemvalue="JUnit.CombinationSum39.testCombinationSum" />
-        <item itemvalue="Python.edit_distance_72" />
+        <item itemvalue="JUnit.DistributeCandiesPeople1103" />
+        <item itemvalue="JUnit.DistributeCandiesPeople1103.testDistributeCandiesPeople" />
+        <item itemvalue="Python.decode_string_394" />
+        <item itemvalue="JUnit.DecodeString394.testDecodeString" />
+        <item itemvalue="JUnit.MergeArray88.testMergeArray" />
       </list>
     </recent_temporary>
   </component>
@@ -628,14 +606,8 @@
       <workItem from="1582789718832" duration="6103000" />
       <workItem from="1582953222147" duration="2935000" />
       <workItem from="1583031201402" duration="12042000" />
-      <workItem from="1583153841636" duration="2608000" />
-    </task>
-    <task id="LOCAL-00063" summary="master:修改python文件">
-      <created>1578539671575</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1578539671576</updated>
+      <workItem from="1583153841636" duration="16083000" />
+      <workItem from="1583413907105" duration="5681000" />
     </task>
     <task id="LOCAL-00064" summary="master:校验python代码">
       <created>1578541766339</created>
@@ -973,49 +945,55 @@
       <option name="project" value="LOCAL" />
       <updated>1583131427846</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="master:修改提交题目206">
+      <created>1583157574833</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1583157574833</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CombinationSum39_testCombinationSum - 2020.03.02 at 10h 18m 06s.xml">
-      <configuration name="CombinationSum39.testCombinationSum" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 21h 42m 10s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum39 - 2020.03.02 at 10h 18m 56s.xml">
-      <configuration name="CombinationSum39" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 21h 52m 12s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CombinationSum39 - 2020.03.02 at 10h 21m 11s.xml">
-      <configuration name="CombinationSum39" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 21h 53m 16s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseList206_testReverseList - 2020.03.02 at 11h 57m 34s.xml">
-      <configuration name="ReverseList206.testReverseList" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 21h 55m 09s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseList206_testReverseList - 2020.03.02 at 11h 57m 58s.xml">
-      <configuration name="ReverseList206.testReverseList" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 21h 57m 40s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseList206_testReverseList - 2020.03.02 at 12h 14m 08s.xml">
-      <configuration name="ReverseList206.testReverseList" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 22h 02m 39s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseList206_testReverseList - 2020.03.02 at 12h 15m 02s.xml">
-      <configuration name="ReverseList206.testReverseList" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 22h 08m 33s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseList206_testReverseList - 2020.03.02 at 12h 15m 11s.xml">
-      <configuration name="ReverseList206.testReverseList" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 22h 31m 43s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseList206_testReverseList - 2020.03.02 at 13h 00m 49s.xml">
-      <configuration name="ReverseList206.testReverseList" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103_testDistributeCandiesPeople - 2020.03.05 at 22h 36m 13s.xml">
+      <configuration name="DistributeCandiesPeople1103.testDistributeCandiesPeople" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseList206_testReverseList - 2020.03.02 at 13h 01m 10s.xml">
-      <configuration name="ReverseList206.testReverseList" configurationId="JUnit" />
+    <history-entry file="DistributeCandiesPeople1103 - 2020.03.05 at 22h 36m 58s.xml">
+      <configuration name="DistributeCandiesPeople1103" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="828024000" />
+    <option name="totallyTimeSpent" value="847180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.16577181" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.16778524" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1024,8 +1002,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32348597" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.2688331" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.31314623" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928367" weight="0.16838996" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.28951254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1097,7 +1075,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目1029" />
     <MESSAGE value="master:增加题目1137" />
     <MESSAGE value="master:增加题目122" />
     <MESSAGE value="master:增加题目219" />
@@ -1122,7 +1099,8 @@
     <MESSAGE value="master:提交题目56" />
     <MESSAGE value="master:提交题目72" />
     <MESSAGE value="master:提交题目206" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:提交题目206" />
+    <MESSAGE value="master:修改提交题目206" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:修改提交题目206" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1241,6 +1219,18 @@
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/DistributeCandiesPeople1103.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/DistributeCandiesPeople1103.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py</url>
           <line>33</line>
@@ -1263,7 +1253,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py</url>
-          <line>74</line>
+          <line>73</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
@@ -1290,6 +1280,7 @@
     <SUITE FILE_PATH="coverage/leetcode$decompress_run_length_encoded_1313.coverage" NAME="decompress_run_length_encoded_1313 Coverage Results" MODIFIED="1579098984194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$find_difference_389.coverage" NAME="find_difference_389 Coverage Results" MODIFIED="1581397655844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$longest_common_14.coverage" NAME="longest_common_14 Coverage Results" MODIFIED="1581608725472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
+    <SUITE FILE_PATH="coverage/leetcode$number_islands_200.coverage" NAME="number_islands_200 Coverage Results" MODIFIED="1583205185872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$find_duplicate_number_287.coverage" NAME="find_duplicate_number_287 Coverage Results" MODIFIED="1582084623461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$merge_arr.coverage" NAME="merge_arr Coverage Results" MODIFIED="1578541497549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$remove_outer_most_parenthess_1021.coverage" NAME="remove_outer_most_parenthess_1021 Coverage Results" MODIFIED="1579066786518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
@@ -1342,123 +1333,9 @@
     <SUITE FILE_PATH="coverage/leetcode$kth_largest_element_215.coverage" NAME="kth_largest_element_215 Coverage Results" MODIFIED="1579057388176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$np_repeated_element_961.coverage" NAME="np_repeated_element_961 Coverage Results" MODIFIED="1579159838208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$excel_sheet_column_number_171.coverage" NAME="excel_sheet_column_number_171 Coverage Results" MODIFIED="1580363298156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
+    <SUITE FILE_PATH="coverage/leetcode$decode_string_394.coverage" NAME="decode_string_394 Coverage Results" MODIFIED="1583294124721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/postorder_traversal_145.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="19" />
-          <folding>
-            <element signature="e#43#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/generate_parenthess_22.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_consecutive_128.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/LongestConsecutiveSequence128.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="29" selection-end-line="71" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/maximal_square_221.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="40" column="9" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/MajorityElement169.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/maximal_rectangle_85.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
-          <folding>
-            <element signature="e#89#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_arr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="14" column="9" lean-forward="true" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/jump_game_55.py" />
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_k_sorted_lists_23.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#63#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MergeKSortedLists23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="59" column="6" lean-forward="true" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -1615,13 +1492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_arr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="18" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/joseph_problem.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1643,16 +1513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/ReverseList206.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1684,17 +1544,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="-432">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/ReverseList206.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        <state relative-caret-position="293">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MergeSortedArray.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/day_year_1154.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="3" lean-forward="true" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2019.1/system/python_stubs/1023573933/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4806" column="8" selection-start-line="4806" selection-start-column="8" selection-end-line="4806" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MergeArray88.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/DecodeString394.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/javajdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37050">
+          <caret line="1547" column="21" selection-start-line="1547" selection-start-column="12" selection-end-line="1547" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1075">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/SubarraySumEqualsK560.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2675">
+          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_arr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" selection-start-line="1" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TaskScheduler621.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/task_scheduler_621.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/OrangeRotting994.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/DistributeCandiesPeople1103.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

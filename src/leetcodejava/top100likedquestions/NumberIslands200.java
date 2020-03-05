@@ -1,11 +1,29 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Test;
+
 /**
  * 计算岛屿的个数
  *
- * @author: zhangyu
+ * @author: zhangyu   '
+ * 11110
+ * 11010
+ * 11000
+ * 00000
  */
 public class NumberIslands200 {
+    @Test
+    public void testNumberIslands() {
+        char[][] chs = {
+                {'1', '1', '1', '1', '0'},
+                {'1', '1', '0', '1', '0'},
+                {'1', '1', '0', '0', '1'},
+                {'0', '0', '0', '0', '0'}
+        };
+        int num = numIslands(chs);
+        System.out.println(num);
+    }
+
     /**
      * 计算岛屿的个数
      *
