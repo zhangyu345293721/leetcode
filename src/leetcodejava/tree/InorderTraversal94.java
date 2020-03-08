@@ -7,7 +7,7 @@ import java.util.*;
  *
  * @author: zhangyu
  */
-public class BinaryTreeInorderTraversal94 {
+public class InorderTraversal94 {
 
     /**
      * 中序遍历二叉树

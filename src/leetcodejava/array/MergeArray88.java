@@ -64,7 +64,6 @@ public class MergeArray88 {
             A[m++] = num2;
         }
         Arrays.sort(A);
-        System.out.println(Arrays.toString(A));
     }
     @Test
     public void testMergeArray() {

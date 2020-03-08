@@ -50,8 +50,9 @@ public class PostorderTraversal145 {
      */
     public List<Integer> postorderTraversal2(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        if (root == null)
+        if (root == null) {
             return res;
+        }
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.isEmpty()) {

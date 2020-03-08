@@ -5,7 +5,7 @@ package leetcodejava.tree;
  *
  * @author: zhangyu
  */
-public class house_robber_3_337 {
+public class HouseRobber337 {
     /**
      * 找出抢劫最大结果
      *

@@ -1,9 +1,7 @@
 package leetcodejava.tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
  * 二叉树前序遍历
@@ -11,7 +9,6 @@ import java.util.Stack;
  * @author: zhangyu
  */
 public class PreorderTraversal144 {
-
 
     /**
      * 前序遍历二叉树
@@ -44,28 +41,27 @@ public class PreorderTraversal144 {
         }
     }
 
-
     /**
-     * 前序遍历二叉树
+     * 层次遍历二叉树
      *
      * @param root 根节点
      * @return 链表
      */
-    public List<Integer> preorderTraversal2(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
+    public List<Integer> traversal(TreeNode root) {
+        Queue<TreeNode> queue = new ConcurrentLinkedQueue<>();
         LinkedList<Integer> list = new LinkedList<>();
         if (root == null) {
             return list;
         }
-        stack.push(root);
-        while (!stack.isEmpty()) {
-            TreeNode node = stack.pop();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
             list.add(node.val);
             if (node.right != null) {
-                stack.push(node.right);
+                queue.add(node.right);
             }
             if (node.left != null) {
-                stack.push(node.left);
+                queue.add(node.left);
             }
         }
         return list;
