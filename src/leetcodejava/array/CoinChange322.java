@@ -10,9 +10,6 @@ import java.util.Arrays;
  * @author: zhangyu
  */
 public class CoinChange322 {
-
-    private int minCount = Integer.MAX_VALUE;
-
     @Test
     public void testCoinChange() {
         int[] arr = {1, 2, 5};
@@ -20,7 +17,6 @@ public class CoinChange322 {
         int sum = coinChange(arr, amount);
         System.out.println(sum);
     }
-
     /**
      * 硬币兑换
      *
@@ -30,8 +26,9 @@ public class CoinChange322 {
      */
     public int coinChange(int[] coins, int amount) {
         Arrays.sort(coins);
-        helper(coins, amount, 0, coins.length - 1);
-        return minCount == Integer.MAX_VALUE ? -1 : minCount;
+        int[] minCount = {amount + 1};
+        helper(coins, amount, 0, coins.length - 1, minCount);
+        return minCount[0] == amount + 1 ? -1 : minCount[0];
     }
 
     /**
@@ -44,16 +41,17 @@ public class CoinChange322 {
      * @param count  种数
      * @param index  记录下标
      */
-    public void helper(int[] coins, int amount, int count, int index) {
-        if (index < 0 || count + amount / coins[index] >= minCount) {
+    public void helper(int[] coins, int amount, int count, int index, int[] minCount) {
+        if (index < 0 || count + amount / coins[index] >= minCount[0]) {
             return;
         }
         if (amount % coins[index] == 0) {
-            minCount = Math.min(minCount, count + amount / coins[index]);
+            minCount[0] = Math.min(minCount[0], count + amount / coins[index]);
             return;
         }
+        // 要找多种组合可能
         for (int i = amount / coins[index]; i >= 0; i--) {
-            helper(coins, amount - i * coins[index], count + i, index - 1);
+            helper(coins, amount - i * coins[index], count + i, index - 1, minCount);
         }
     }
 }

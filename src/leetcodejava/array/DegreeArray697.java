@@ -1,7 +1,6 @@
 package leetcodejava.array;
 
 import org.junit.Test;
-import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.*;
 
@@ -12,15 +11,12 @@ import java.util.*;
  * @author: zhangyu
  */
 public class DegreeArray697 {
-
-
     @Test
     public void testDegreeArray() {
         int[] arr = {1, 2, 2, 3, 1, 4, 2};
         int length = findShortestSubArray(arr);
         System.out.println(length);
     }
-
     /**
      * 找出子数组长度
      *
