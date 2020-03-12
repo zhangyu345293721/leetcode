@@ -1,33 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:提交题目322">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuySellStock121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/PartitionArrayIntoThreeParts1013.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SingleNumber136.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/list/IntersectionTwoLinkedLists160.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/ReverseOnlyLetters917.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/ConstructBinaryTreeTraversal105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/DiameterBinaryTree543.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/PathSum437.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_sell_stock_121.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/list/intersection_two_linked_lists_160.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/reverse_only_letters_917.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/tree/diameter_binary_tree_543.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf2cb71fdd59f2c2cc1a3f6fb3609c30e1cc3f66" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf2cb71fdd59f2c2cc1a3f6fb3609c30e1cc3f66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d59d93073ff62316b73f022b8d4ca98c0770d86c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d59d93073ff62316b73f022b8d4ca98c0770d86c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed1dd30a1f68b2f7d8682c398cbdc2f99bec5169" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed1dd30a1f68b2f7d8682c398cbdc2f99bec5169" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目136">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/AddDigits258.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/AddDigits258.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/ArrayPartition561.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/ArrayPartition561.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuy122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuy122.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/MergeArray88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/MergeArray88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/subtractSum1281.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/SubtractSum1281.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/GreatestCommon1071.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/GreatestCommon1071.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,14 +53,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SingleNumber136.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
+            <state relative-caret-position="400">
               <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/GreatestCommon1071.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2015">
+              <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1175">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -93,24 +88,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="850">
               <caret line="49" column="17" lean-forward="true" selection-start-line="10" selection-end-line="49" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" selection-end-line="103" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -187,9 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance72.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/CombinationSum39.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/list/ReverseList206.java" />
@@ -238,6 +212,9 @@
         <option value="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/reverse_only_letters_917.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SingleNumber136.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/GreatestCommonDivisorStrings1071.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/GreatestCommon1071.java" />
       </list>
     </option>
   </component>
@@ -294,6 +271,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
               <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -371,57 +355,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingleNumber136.testSingleNumber">
+  <component name="RunManager" selected="Python.greatest_common_1071">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BestTimeBuySellStock121.testBestTimeBuySellStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreatestCommon1071" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="PATTERN" value="leetcodejava.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.BestTimeBuySellStock121" />
-      <option name="METHOD_NAME" value="testBestTimeBuySellStock" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PartitionArrayIntoThreeParts1013" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.PartitionArrayIntoThreeParts1013" />
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.GreatestCommon1071" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionArrayIntoThreeParts1013.testPartitionArrayIntoThreeParts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GreatestCommon1071.testGreatestCommon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="PATTERN" value="leetcodejava.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.PartitionArrayIntoThreeParts1013" />
-      <option name="METHOD_NAME" value="testPartitionArrayIntoThreeParts" />
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.GreatestCommon1071" />
+      <option name="METHOD_NAME" value="testGreatestCommon" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -468,6 +435,28 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="greatest_common_1071" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
@@ -548,20 +537,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BestTimeBuySellStock121.testBestTimeBuySellStock" />
-      <item itemvalue="JUnit.PartitionArrayIntoThreeParts1013.testPartitionArrayIntoThreeParts" />
-      <item itemvalue="JUnit.PartitionArrayIntoThreeParts1013" />
       <item itemvalue="JUnit.ReverseOnlyLetters917.testReverseOnlyLetters" />
       <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.SingleNumber136.testSingleNumber" />
+      <item itemvalue="JUnit.GreatestCommon1071.testGreatestCommon" />
+      <item itemvalue="JUnit.GreatestCommon1071" />
+      <item itemvalue="Python.greatest_common_1071" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.greatest_common_1071" />
+        <item itemvalue="JUnit.GreatestCommon1071" />
+        <item itemvalue="JUnit.GreatestCommon1071.testGreatestCommon" />
         <item itemvalue="JUnit.SingleNumber136.testSingleNumber" />
         <item itemvalue="JUnit.ReverseOnlyLetters917.testReverseOnlyLetters" />
-        <item itemvalue="JUnit.PartitionArrayIntoThreeParts1013.testPartitionArrayIntoThreeParts" />
-        <item itemvalue="JUnit.PartitionArrayIntoThreeParts1013" />
-        <item itemvalue="JUnit.BestTimeBuySellStock121.testBestTimeBuySellStock" />
       </list>
     </recent_temporary>
   </component>
@@ -654,14 +643,7 @@
       <workItem from="1583893739058" duration="790000" />
       <workItem from="1583895263648" duration="54000" />
       <workItem from="1583907592552" duration="14299000" />
-      <workItem from="1583977156677" duration="2688000" />
-    </task>
-    <task id="LOCAL-00068" summary="master:增加题目566">
-      <created>1578736421615</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1578736421615</updated>
+      <workItem from="1583977156677" duration="7699000" />
     </task>
     <task id="LOCAL-00069" summary="master:增加题目1021,1309">
       <created>1578841494080</created>
@@ -999,43 +981,50 @@
       <option name="project" value="LOCAL" />
       <updated>1583713960060</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="master:增加题目136">
+      <created>1583979895832</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1583979895833</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PartitionArrayIntoThreeParts1013_testPartitionArrayIntoThreeParts - 2020.03.11 at 17h 39m 39s.xml">
-      <configuration name="PartitionArrayIntoThreeParts1013.testPartitionArrayIntoThreeParts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartitionArrayIntoThreeParts1013_testPartitionArrayIntoThreeParts - 2020.03.11 at 17h 44m 55s.xml">
-      <configuration name="PartitionArrayIntoThreeParts1013.testPartitionArrayIntoThreeParts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartitionArrayIntoThreeParts1013_testPartitionArrayIntoThreeParts - 2020.03.11 at 17h 52m 55s.xml">
-      <configuration name="PartitionArrayIntoThreeParts1013.testPartitionArrayIntoThreeParts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartitionArrayIntoThreeParts1013_testPartitionArrayIntoThreeParts - 2020.03.11 at 17h 53m 45s.xml">
-      <configuration name="PartitionArrayIntoThreeParts1013.testPartitionArrayIntoThreeParts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PartitionArrayIntoThreeParts1013_testPartitionArrayIntoThreeParts - 2020.03.11 at 18h 04m 08s.xml">
-      <configuration name="PartitionArrayIntoThreeParts1013.testPartitionArrayIntoThreeParts" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverseOnlyLetters917_testReverseOnlyLetters - 2020.03.11 at 18h 12m 44s.xml">
-      <configuration name="ReverseOnlyLetters917.testReverseOnlyLetters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverseOnlyLetters917_testReverseOnlyLetters - 2020.03.12 at 09h 25m 17s.xml">
-      <configuration name="ReverseOnlyLetters917.testReverseOnlyLetters" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ReverseOnlyLetters917_testReverseOnlyLetters - 2020.03.12 at 09h 26m 47s.xml">
-      <configuration name="ReverseOnlyLetters917.testReverseOnlyLetters" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SingleNumber136_testSingleNumber - 2020.03.12 at 10h 09m 14s.xml">
       <configuration name="SingleNumber136.testSingleNumber" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SingleNumber136_testSingleNumber - 2020.03.12 at 10h 11m 05s.xml">
       <configuration name="SingleNumber136.testSingleNumber" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GreatestCommon1071_testGreatestCommon - 2020.03.12 at 11h 09m 10s.xml">
+      <configuration name="GreatestCommon1071.testGreatestCommon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreatestCommon1071_testGreatestCommon - 2020.03.12 at 11h 24m 45s.xml">
+      <configuration name="GreatestCommon1071.testGreatestCommon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreatestCommon1071_testGreatestCommon - 2020.03.12 at 11h 36m 03s.xml">
+      <configuration name="GreatestCommon1071.testGreatestCommon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreatestCommon1071_testGreatestCommon - 2020.03.12 at 11h 38m 31s.xml">
+      <configuration name="GreatestCommon1071.testGreatestCommon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreatestCommon1071_testGreatestCommon - 2020.03.12 at 11h 42m 01s.xml">
+      <configuration name="GreatestCommon1071.testGreatestCommon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreatestCommon1071_testGreatestCommon - 2020.03.12 at 11h 42m 49s.xml">
+      <configuration name="GreatestCommon1071.testGreatestCommon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreatestCommon1071_testGreatestCommon - 2020.03.12 at 11h 44m 21s.xml">
+      <configuration name="GreatestCommon1071.testGreatestCommon" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreatestCommon1071 - 2020.03.12 at 11h 44m 43s.xml">
+      <configuration name="GreatestCommon1071" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="932392000" />
+    <option name="totallyTimeSpent" value="937403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1060,7 +1049,7 @@
       <window_info anchor="bottom" id="Statistic" order="9" weight="0.31757754" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3264402" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32791728" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32698768" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="15" />
@@ -1123,7 +1112,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目953" />
     <MESSAGE value="master:增加题目258" />
     <MESSAGE value="master:增加题目748" />
     <MESSAGE value="master:增加题目733" />
@@ -1148,7 +1136,8 @@
     <MESSAGE value="master:修改提交题目1103" />
     <MESSAGE value="master:提交题目1103" />
     <MESSAGE value="master:提交题目322" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:提交题目322" />
+    <MESSAGE value="master:增加题目136" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目136" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1382,7 +1371,7 @@
     <SUITE FILE_PATH="coverage/leetcode$largest_rectangle_histogram_84.coverage" NAME="largest_rectangle_histogram_84 Coverage Results" MODIFIED="1580711938560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$reconstruct_queue_406.coverage" NAME="reconstruct_queue_406 Coverage Results" MODIFIED="1583566870257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$contains_duplicate_219.coverage" NAME="contains_duplicate_219 Coverage Results" MODIFIED="1582094194388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$greatest_common_1071.coverage" NAME="greatest_common_1071 Coverage Results" MODIFIED="1581776000865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
+    <SUITE FILE_PATH="coverage/leetcode$greatest_common_1071.coverage" NAME="greatest_common_1071 Coverage Results" MODIFIED="1583985371370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$maximum_product_subarray_152.coverage" NAME="maximum_product_subarray_152 Coverage Results" MODIFIED="1580799197484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$minimum_path_sum_64.coverage" NAME="minimum_path_sum_64 Coverage Results" MODIFIED="1581397853241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$reverse_list_206.coverage" NAME="reverse_list_206 Coverage Results" MODIFIED="1583157406371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/list" />
@@ -1433,24 +1422,6 @@
     <SUITE FILE_PATH="coverage/leetcode$decode_string_394.coverage" NAME="decode_string_394 Coverage Results" MODIFIED="1583294124721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="34" column="43" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/PartitionEqualSubsetSum416.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/CoinChange322.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/PostorderTraversal145.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1550">
@@ -1789,13 +1760,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/GreatestCommonDivisorStrings1071.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SingleNumber136.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
+        <state relative-caret-position="400">
           <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/GreatestCommon1071.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2015">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
         </state>
       </provider>
     </entry>
