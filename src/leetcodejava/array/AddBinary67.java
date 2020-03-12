@@ -4,7 +4,7 @@ package leetcodejava.array;
 import org.junit.Test;
 
 /**
- * This is the solution of No. xxx problem in the LeetCode,
+ * This is the solution of No. 67 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/add-binary/
  *
@@ -26,7 +26,6 @@ import org.junit.Test;
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
-
 public class AddBinary67 {
     @Test
     public void addBinaryTest() {

@@ -6,7 +6,7 @@ package leetcodejava.top100likedquestions;
  * @author: zhangyu
  */
 public class ListNode {
-    int val;
+    public int val;
     public ListNode next;
 
     public ListNode(int x) {

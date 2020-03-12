@@ -7,7 +7,7 @@ import org.junit.Test;
  *
  * @author: zhangyu
  */
-public class subtractSum1281 {
+public class SubtractSum1281 {
     @Test
     public void testSubtractSum() {
         int n = 4421;

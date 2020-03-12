@@ -7,7 +7,6 @@ date:2019.8.19
 '''
 import re
 
-
 def get_reverse_string(s: str, k: int) -> str:
     '''
         字符串反转
