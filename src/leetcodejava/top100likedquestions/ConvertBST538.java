@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import leetcodejava.tree.TreeNode;
 import org.junit.Test;
 
 /**
@@ -12,7 +13,12 @@ public class ConvertBST538 {
 
     @Test
     public void testConvertBST() {
-
+        Integer[] arr = {5, 2, 13};
+        TreeNode treeNode = new TreeNode();
+        TreeNode tree = treeNode.createBinaryTreeByArray(arr, 0);
+        System.out.println(tree);
+        TreeNode result = convertBST(tree);
+        System.out.println(result);
     }
 
     /**

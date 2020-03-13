@@ -1,33 +1,39 @@
+# -*- coding:utf-8 -*-
 '''
-建二叉树
 author:zhangyu
-date:2020.1.16
+date:2020/3/13
 '''
-from typing import List
 
 
 class TreeNode:
-    def __int__(self, x):
+    def __init__(self, x=0):
         self.val = x
         self.left = None
         self.right = None
 
+    def create_binary_tree_array(self, array, index):
+        '''
+            将数组构造成二叉树
+        Args:
+            array:数组
+            index:开始下标
+        Returns:
+            二叉树
+        '''
+        tree_node = None
+        if index < len(array):
+            value = array[index]
+            if not value:
+                return None
+            tree_node = TreeNode(value)
+            tree_node.left = self.create_binary_tree_array(array, 2 * index + 1)
+            tree_node.right = self.create_binary_tree_array(array, 2 * index + 2)
+            return tree_node
+        return tree_node
 
-def create_binary_tree_by_array(arr: List[object], index=0) -> TreeNode:
-    '''
-        把数组构建成二叉树
-    Args:
-        arr:数组
-        index:开始下标
-    Returns:
-        构建的二叉树
-    '''
-    tn = None
-    if index < len(arr):
-        if arr[index] == None:
-            return None
-        tn = TreeNode(arr[index])
-        tn.left = create_binary_tree_by_array(arr, 2 * index + 1)
-        tn.right = create_binary_tree_by_array(arr, 2 * index + 2)
-        return tn
-    return tn
+
+if __name__ == '__main__':
+    arr = [5, 2, 13]
+    tree_node = TreeNode()
+    tree = tree_node.create_binary_tree_array(arr, 0)
+    print(tree)

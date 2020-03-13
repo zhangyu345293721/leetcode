@@ -10,8 +10,9 @@ import java.util.regex.Pattern;
 
 /**
  * 按照要求反转字符串
+ * @author zhangyu
  */
-public class ReverseString {
+public class ReverseString344 {
 
     @Test
     public void testReverseString() {
@@ -40,7 +41,14 @@ public class ReverseString {
         return sb.toString();
     }
 
-    private ArrayList<String> getStringList(String str, int n) {
+    /**
+     * 获取字符串链表
+     *
+     * @param str 字符串
+     * @param n   位置
+     * @return 链表
+     */
+    private List<String> getStringList(String str, int n) {
         ArrayList<String> list = new ArrayList<String>();
         String regEx = "\\w{" + n + "}";
         Pattern pattern = Pattern.compile(regEx);

@@ -1,4 +1,4 @@
-package leetcodejava.top100likedquestions;
+package leetcodejava.list;
 
 /**
  * list节点

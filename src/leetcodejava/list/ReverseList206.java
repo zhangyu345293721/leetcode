@@ -1,6 +1,5 @@
 package leetcodejava.list;
 
-import leetcodejava.top100likedquestions.ListNode;
 import org.junit.Test;
 
 /**

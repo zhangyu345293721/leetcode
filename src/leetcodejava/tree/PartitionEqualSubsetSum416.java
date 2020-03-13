@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @author zhangyu
  **/
 
-public class CapPartition {
+public class PartitionEqualSubsetSum416 {
     @Test
     public void testCapPartition() {
         int[] nums = {1, 5, 11, 5};
@@ -34,10 +34,8 @@ public class CapPartition {
         }
         sum /= 2; // sum=sum>>1;
         boolean[] dp = new boolean[sum + 1];
-        // 数组中填空false
         Arrays.fill(dp, false);
         dp[0] = true;
-        // 动态规划找出，是否满足这个数的和
         for (int num : nums) {
             for (int i = sum; i >= num; i--) {
                 dp[i] = dp[i] || dp[i - num];

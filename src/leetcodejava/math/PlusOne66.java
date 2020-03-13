@@ -11,7 +11,7 @@ import java.util.Arrays;
  **/
 
 
-public class PlusOne {
+public class PlusOne66 {
 
     @Test
     public void testPlusOne() {

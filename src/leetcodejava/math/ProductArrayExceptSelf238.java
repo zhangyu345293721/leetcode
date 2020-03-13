@@ -9,7 +9,7 @@ import java.util.Arrays;
  **/
 
 
-public class ProductArrayExceptSelf {
+public class ProductArrayExceptSelf238 {
     @Test
     public void testProductArrayExceptSelf() {
         int[] nums = {1, 2, 3, 4};

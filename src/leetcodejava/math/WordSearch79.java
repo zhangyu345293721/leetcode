@@ -8,9 +8,9 @@ import org.junit.Test;
  * @author zhangyu
  **/
 
-public class SearchWords {
+public class WordSearch79 {
     @Test
-    public void fun() {
+    public void testSearchWords() {
         char[][] board =
                 {
                         {'a', 'b'},

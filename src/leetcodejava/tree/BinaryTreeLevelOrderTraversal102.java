@@ -1,5 +1,7 @@
 package leetcodejava.tree;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -10,7 +12,13 @@ import java.util.Queue;
  *
  * @author: zhangyu
  */
-public class BinaryTree102 {
+public class BinaryTreeLevelOrderTraversal102 {
+    @Test
+    public void testBinaryTreeLevelOrderTraversal() {
+        TreeNode treeNode = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5}, 0);
+        List<List<Integer>> list = levelOrder(treeNode);
+        System.out.println(list);
+    }
 
     /**
      * 二叉树层次遍历
@@ -20,7 +28,7 @@ public class BinaryTree102 {
      */
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList();
-        levelHelper(res, root, 0);
+        helper(res, root, 0);
         return res;
     }
 
@@ -31,14 +39,14 @@ public class BinaryTree102 {
      * @param root   根节点
      * @param height 高度
      */
-    public void levelHelper(List<List<Integer>> res, TreeNode root, int height) {
+    public void helper(List<List<Integer>> res, TreeNode root, int height) {
         if (root == null) return;
         if (height >= res.size()) {
             res.add(new LinkedList<>());
         }
         res.get(height).add(root.val);
-        levelHelper(res, root.left, height + 1);
-        levelHelper(res, root.right, height + 1);
+        helper(res, root.left, height + 1);
+        helper(res, root.right, height + 1);
     }
 
     /**

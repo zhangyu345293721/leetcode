@@ -7,7 +7,7 @@ import org.junit.Test;
  **/
 
 
-public class ProductSubarray {
+public class MaximumProductSubarray152 {
     @Test
     public void testProductSubarray() {
         int nums[] = {2, 3, -2, 4};

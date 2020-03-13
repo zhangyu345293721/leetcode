@@ -1,7 +1,5 @@
 package leetcodejava.list;
 
-import leetcodejava.top100likedquestions.ListNode;
-
 import java.util.ArrayList;
 import java.util.List;
 

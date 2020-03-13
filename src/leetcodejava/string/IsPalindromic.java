@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.List;
 
 /**
- * 判断是不是回文串，用StringBuilder的形式
+ * 判断是不是回文串
  *
  * @author zhangyu
  **/

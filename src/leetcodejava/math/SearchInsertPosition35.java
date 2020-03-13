@@ -1,13 +1,16 @@
 package leetcodejava.math;
 
+import org.junit.Test;
+
 /**
  * 寻找下标
  *
  * @author zhangyu
  **/
 
-public class SearchIndex {
-    public static void main(String[] args) {
+public class SearchInsertPosition35 {
+    @Test
+    public void testSearchIndex() {
         int[] arr = {1, 2, 4, 6, 7, 8, 10};
         int key = 9;
         int index = searchIndex1(arr, key);

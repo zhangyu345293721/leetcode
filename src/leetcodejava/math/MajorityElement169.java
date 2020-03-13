@@ -1,15 +1,32 @@
 package leetcodejava.math;
 
 import org.junit.Test;
-
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author zhangyu
- **/
-
-
+ * This is the solution of No. 169 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode.com/problems/majority-element/
+ *
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * Given an array of size n, find the majority element. The majority element is the element that
+ * appears more than ⌊ n/2 ⌋ times.
+ *
+ * You may assume that the array is non-empty and the majority element always exist in the array.
+ *
+ * Example 1:
+ * Input: [3,2,3]
+ * Output: 3
+ *
+ * Example 2:
+ * Input: [2,2,1,1,1,2,2]
+ * Output: 2
+ * ==========================================================================================================
+ * @author  zhangyu (zhangyuyu417@gmail.com)
+ * @date    2019/03/13
+ */
 public class MajorityElement169 {
     @Test
     public void testMajorityElement() {
@@ -17,7 +34,6 @@ public class MajorityElement169 {
         int majorElement = majorityElement2(nums);
         System.out.println(majorElement);
     }
-
 
     /**
      * 计算每个字符出现次数
@@ -45,13 +61,12 @@ public class MajorityElement169 {
      * @return int类型
      */
     private int majorityElement2(int[] nums) {
-        int major = 0;
-        int count = 0;
-        for (int i = 0; i < nums.length; i++) {
+        int major = 0, count = 0;
+        for (int num : nums) {
             if (count == 0) {
-                major = nums[i];
+                major = num;
                 count++;
-            } else if (major == nums[i]) {
+            } else if (major ==num) {
                 count++;
             } else {
                 count--;

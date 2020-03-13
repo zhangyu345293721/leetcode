@@ -1,5 +1,7 @@
 package leetcodejava.top100likedquestions;
 
+import leetcodejava.list.ListNode;
+
 /**
  * 合并k个有序数组
  *

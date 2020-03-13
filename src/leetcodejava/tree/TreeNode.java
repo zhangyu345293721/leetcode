@@ -6,9 +6,9 @@ package leetcodejava.tree;
  * @author: zhangyu
  */
 public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
 
     public TreeNode() {
     }
@@ -25,7 +25,7 @@ public class TreeNode {
      * @param index 下标
      * @return 二叉树
      */
-    public TreeNode createBinaryTreeByArray(Integer[] array, int index) {
+    public static TreeNode createBinaryTreeByArray(Integer[] array, int index) {
         TreeNode treeNode = null;
         if (index < array.length) {
             Integer value = array[index];

@@ -9,7 +9,7 @@ import org.junit.Test;
  **/
 
 
-public class RotatedSortedArray {
+public class RotatedSortedArray33 {
     @Test
     public void testRotatedSortedArray() {
         int[] nums = {4, 5, 6, 7, 0, 1, 2};

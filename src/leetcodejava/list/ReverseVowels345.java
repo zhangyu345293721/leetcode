@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class ReverseVowels345 {
     @Test
-    public void reverseVolwelsTestDemo() {
+    public void testReverseVolwels() {
         String str = reverseVowels("Aa");
         System.out.println("str = " + str);
     }

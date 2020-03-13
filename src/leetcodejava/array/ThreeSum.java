@@ -1,4 +1,4 @@
-package leetcodejava.math;
+package leetcodejava.array;
 
 import org.junit.Test;
 

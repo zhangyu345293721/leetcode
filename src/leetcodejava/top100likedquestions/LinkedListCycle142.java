@@ -1,5 +1,7 @@
 package leetcodejava.top100likedquestions;
 
+import leetcodejava.list.ListNode;
+
 /**
  * 找出链表中的环
  *

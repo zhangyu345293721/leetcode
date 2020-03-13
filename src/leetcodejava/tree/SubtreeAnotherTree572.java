@@ -1,4 +1,6 @@
-package leetcodejava.top100likedquestions;
+package leetcodejava.tree;
+
+import org.junit.Test;
 
 /**
  * 判断一棵树是不是另一棵树的子树
@@ -7,12 +9,19 @@ package leetcodejava.top100likedquestions;
  */
 public class SubtreeAnotherTree572 {
 
+    @Test
+    public void testSubtreeAnotherTree() {
+        TreeNode t1 = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3}, 0);
+        TreeNode t2 = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3}, 0);
+        boolean flag = isSubtree(t1, t2);
+        System.out.println(flag);
+    }
 
     /**
      * 判断一棵树是不是另一颗的子树
      *
-     * @param s 树s
-     * @param t 树t
+     * @param s 二叉树s
+     * @param t 二叉树t
      * @return 布尔值
      */
     public boolean isSubtree(TreeNode s, TreeNode t) {

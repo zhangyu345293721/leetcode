@@ -1,5 +1,7 @@
 package leetcodejava.tree;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
@@ -11,13 +13,20 @@ import java.util.Stack;
  */
 public class PostorderTraversal145 {
 
+    @Test
+    public void testPostorderTraversal() {
+        TreeNode t1 = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5}, 0);
+        List<Integer> postOrder = postOrderTraversal2(t1);
+        System.out.println(postOrder);
+    }
+
     /**
      * 后序遍历递归方式
      *
      * @param root 根节点
      * @return 链表
      */
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> postOrderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
         if (root == null) {
             return list;
@@ -48,7 +57,7 @@ public class PostorderTraversal145 {
      * @param root 根节点
      * @return 链表
      */
-    public List<Integer> postorderTraversal2(TreeNode root) {
+    public List<Integer> postOrderTraversal2(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         if (root == null) {
             return res;

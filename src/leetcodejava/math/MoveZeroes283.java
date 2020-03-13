@@ -10,7 +10,7 @@ import java.util.Arrays;
  * @author zhangyu
  **/
 
-public class MoveZeroes {
+public class MoveZeroes283 {
     @Test
     public void testMoveZeroes() {
         int[] nums = {0, 0, 1};
