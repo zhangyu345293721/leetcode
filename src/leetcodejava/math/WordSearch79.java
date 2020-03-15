@@ -7,7 +7,6 @@ import org.junit.Test;
  *
  * @author zhangyu
  **/
-
 public class WordSearch79 {
     @Test
     public void testSearchWords() {

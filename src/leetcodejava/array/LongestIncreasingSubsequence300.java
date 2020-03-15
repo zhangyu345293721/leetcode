@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 
 /**
- * This is the solution of No. xxx problem in the LeetCode,
+ * This is the solution of No.300 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/longest-increasing-subsequence
  * <p>
@@ -43,6 +43,9 @@ public class LongestIncreasingSubsequence300 {
      * @return 增数组个数
      */
     private int lengthOfLIS(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return 0;
+        }
         int[] dp = new int[nums.length];
         int len = 0;
         for (int num : nums) {
@@ -66,11 +69,11 @@ public class LongestIncreasingSubsequence300 {
      * @return 增数组个数
      */
     private int lengthOfLIS2(int[] nums) {
-        // 初始化数组
-        int[] dp = new int[nums.length];
-        for (int i = 0; i < dp.length; i++) {
-            dp[i] = 1;
+        if (nums == null || nums.length < 1) {
+            return 0;
         }
+        int[] dp = new int[nums.length];
+        Arrays.fill(dp, 1);
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < i; j++) {
                 if (nums[j] < nums[i]) {
