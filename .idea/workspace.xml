@@ -1,41 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:修改题目名字">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaxAreaIsland695.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/045cd46472e4a805448817e9f0d67dfc388268af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/1/11aec1fe1ae539dc769d03786d61446926638dd3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1aec436a78af9a6651bddb5a37547abcba2ddd9c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31efcee2059f021bf861eb7f5e2f3d85badd1d35" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31efcee2059f021bf861eb7f5e2f3d85badd1d35" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35bbc68f430f0eb3c7e27c5b351acce5640ab7f4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4674ab9d808c3646ddcedc19355011df65d993fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4674ab9d808c3646ddcedc19355011df65d993fa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55c5f8806d0e1e91f6a3458a337bbbf9e590642b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55c5f8806d0e1e91f6a3458a337bbbf9e590642b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/572e58dfb7158358bef9d531b8cf195309df228d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c32837ab7a852ea8d6c85f5a73b11157b8fab7d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c32837ab7a852ea8d6c85f5a73b11157b8fab7d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/746786c07c4706901a550bcce1ab9679aa7b4928" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91fc6f1e259140a5b86cc91ca0a74f9b53d19d14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b091a407c0fea009616aad84f369e0efccdbee3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/a/aa3f89e80dc70ae1e8f70397e7a5cb6a6181ff5e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c20608419c1ad26cdc8fd3a647ab33213595cae1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c9d66dd34a020119282cfe248183d0d2ba98aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c9d66dd34a020119282cfe248183d0d2ba98aa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2db9cd7c62b3bf57d2e1b4c567b7a9c5a11b66d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c9c7ceaf5df24dee910e8db1d1eb84a654cf4e6e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1bb639e4b0c63c5ba3eccb69cac710747148689" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d547f1f89ddc655c9e4f4d52be0e756da61cb1ce" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d59d93073ff62316b73f022b8d4ca98c0770d86c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df618aeea2cd4366e49e4bed93f493572885267c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/df63f8b4600744ef214651eb9d748bbb2c2dc313" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f017e2567d92da699a27aad9e9baf8b772ea403e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f36fa03209893a72f83eb652633ac683b6fe5054" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f36fa03209893a72f83eb652633ac683b6fe5054" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc2ab3ff3b8743eb440cf36d33e73b61810134d2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc2ab3ff3b8743eb440cf36d33e73b61810134d2" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:提交题目695">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/CompressString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/LongestSubstringWithoutRepeatingCharacters3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/BitCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/BitCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/math/WordSearch79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/math/WordSearch79.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/tree/LongestIncreasingSubsequence300.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,24 +39,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuy122.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuySellStock121.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CellsOddValues1252.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -96,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
+            <state relative-caret-position="275">
               <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
@@ -105,35 +59,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/longest_increasing_subsequence_300.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="600">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/CompressString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
-              <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            <state relative-caret-position="650">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaxAreaIsland695.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestSubstringWithoutRepeatingCharacters3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="66" column="40" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/longest_common_14.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="14" lean-forward="true" selection-end-line="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="825">
+              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -142,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="14" lean-forward="true" selection-end-line="53" />
+              <caret line="4" column="14" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -192,9 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/DiameterBinaryTree543.java" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/tree/diameter_binary_tree_543.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ListNode.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/list/IntersectionTwoLinkedLists160.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/list/intersection_two_linked_lists_160.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/PathSum437.java" />
@@ -240,9 +215,12 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/LongestIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/math/WordSearch79.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/BitCount.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/MaxAreaIsland695.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/CompressString.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/PairsOfParentheses3.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py" />
       </list>
     </option>
   </component>
@@ -263,10 +241,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="486" />
-    <option name="y" value="497" />
+    <option name="x" value="310" />
+    <option name="y" value="375" />
     <option name="width" value="1440" />
-    <option name="height" value="773" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -274,8 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,12 +281,14 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,24 +347,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.max_area_island_695">
+  <component name="RunManager" selected="Python.longest_substring_without_repeating_characters_3">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BitCount.testBitCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompressString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="PATTERN" value="leetcodejava.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.BitCount" />
-      <option name="METHOD_NAME" value="testBitCount" />
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.CompressString" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompressString.testCompressString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.CompressString" />
+      <option name="METHOD_NAME" value="testCompressString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -410,33 +404,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxAreaIsland695" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PairsOfParentheses3.testPairsOfParentheses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="PATTERN" value="leetcodejava.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.MaxAreaIsland695" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxAreaIsland695.testMaxAreaIsland" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.MaxAreaIsland695" />
-      <option name="METHOD_NAME" value="testMaxAreaIsland" />
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.PairsOfParentheses3" />
+      <option name="METHOD_NAME" value="testPairsOfParentheses" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -450,7 +428,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_area_island_695" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="longest_substring_without_repeating_characters_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -458,12 +436,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -551,20 +529,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BitCount.testBitCount" />
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.LongestIncreasingSubsequence300.testLongestIncreasingSubsequence" />
-      <item itemvalue="JUnit.MaxAreaIsland695.testMaxAreaIsland" />
-      <item itemvalue="JUnit.MaxAreaIsland695" />
-      <item itemvalue="Python.max_area_island_695" />
+      <item itemvalue="JUnit.CompressString.testCompressString" />
+      <item itemvalue="JUnit.CompressString" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.PairsOfParentheses3.testPairsOfParentheses" />
+      <item itemvalue="Python.longest_substring_without_repeating_characters_3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.max_area_island_695" />
-        <item itemvalue="JUnit.MaxAreaIsland695.testMaxAreaIsland" />
-        <item itemvalue="JUnit.MaxAreaIsland695" />
+        <item itemvalue="Python.longest_substring_without_repeating_characters_3" />
+        <item itemvalue="JUnit.PairsOfParentheses3.testPairsOfParentheses" />
+        <item itemvalue="JUnit.CompressString.testCompressString" />
+        <item itemvalue="JUnit.CompressString" />
         <item itemvalue="JUnit.LongestIncreasingSubsequence300.testLongestIncreasingSubsequence" />
-        <item itemvalue="JUnit.BitCount.testBitCount" />
       </list>
     </recent_temporary>
   </component>
@@ -659,14 +637,8 @@
       <workItem from="1583907592552" duration="14299000" />
       <workItem from="1583977156677" duration="8421000" />
       <workItem from="1584070488104" duration="9809000" />
-      <workItem from="1584175320243" duration="10357000" />
-    </task>
-    <task id="LOCAL-00071" summary="master:增加题目217题目">
-      <created>1578993162618</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1578993162619</updated>
+      <workItem from="1584175320243" duration="19309000" />
+      <workItem from="1584339143882" duration="5461000" />
     </task>
     <task id="LOCAL-00072" summary="master:增加题目728题目">
       <created>1579052132892</created>
@@ -1004,49 +976,56 @@
       <option name="project" value="LOCAL" />
       <updated>1584082854878</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="master:提交题目695">
+      <created>1584250415525</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1584250415526</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 12h 35m 55s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="CompressString_testCompressString - 2020.03.16 at 10h 36m 39s.xml">
+      <configuration name="CompressString.testCompressString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 12h 36m 56s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 14h 32m 30s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 12h 40m 34s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 14h 35m 32s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 12h 51m 48s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 14h 37m 31s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 13h 04m 38s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 14h 57m 19s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 13h 08m 22s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 14h 57m 42s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 13h 08m 42s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 14h 59m 15s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 13h 10m 40s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 14h 59m 51s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 13h 13m 14s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 15h 25m 54s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaxAreaIsland695_testMaxAreaIsland - 2020.03.15 at 13h 13m 35s.xml">
-      <configuration name="MaxAreaIsland695.testMaxAreaIsland" configurationId="JUnit" />
+    <history-entry file="PairsOfParentheses3_testPairsOfParentheses - 2020.03.16 at 15h 25m 58s.xml">
+      <configuration name="PairsOfParentheses3.testPairsOfParentheses" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="958291000" />
+    <option name="totallyTimeSpent" value="972704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.20402685" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.20671141" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1166,7 +1145,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目733" />
     <MESSAGE value="master:修改题目84题" />
     <MESSAGE value="master:修改题目240题" />
     <MESSAGE value="master:修改题目709题" />
@@ -1191,7 +1169,8 @@
     <MESSAGE value="master:增加题目136" />
     <MESSAGE value="master:增加题目1071" />
     <MESSAGE value="master:修改题目名字" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:修改题目名字" />
+    <MESSAGE value="master:提交题目695" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:提交题目695" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1469,8 +1448,9 @@
     <SUITE FILE_PATH="coverage/leetcode$joseph_problem.coverage" NAME="joseph_problem Coverage Results" MODIFIED="1579057210029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$two_city_scheduling_1029.coverage" NAME="two_city_scheduling_1029 Coverage Results" MODIFIED="1579701482938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$jump_game_55.coverage" NAME="jump_game_55 Coverage Results" MODIFIED="1582445474393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
-    <SUITE FILE_PATH="coverage/leetcode$max_area_island_695.coverage" NAME="max_area_island_695 Coverage Results" MODIFIED="1584250363389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$max_area_island_695.coverage" NAME="max_area_island_695 Coverage Results" MODIFIED="1584250459797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49__1_.coverage" NAME="group_anagrams_49 (1) Coverage Results" MODIFIED="1578540519468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepy" />
+    <SUITE FILE_PATH="coverage/leetcode$longest_substring_without_repeating_characters_3.coverage" NAME="longest_substring_without_repeating_characters_3 Coverage Results" MODIFIED="1584344629096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$add_digits_258.coverage" NAME="add_digits_258 Coverage Results" MODIFIED="1581516632617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$kth_largest_element_215.coverage" NAME="kth_largest_element_215 Coverage Results" MODIFIED="1579057388176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$np_repeated_element_961.coverage" NAME="np_repeated_element_961 Coverage Results" MODIFIED="1579159838208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -1478,31 +1458,6 @@
     <SUITE FILE_PATH="coverage/leetcode$decode_string_394.coverage" NAME="decode_string_394 Coverage Results" MODIFIED="1583294124721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/GreatestCommon1071.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TreeNode.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/convert_bst_538.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1752,6 +1707,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/LongestIncreasingSubsequence300.java" />
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="55" column="24" lean-forward="true" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaxAreaIsland695.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuy122.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1773,6 +1743,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/longest_increasing_subsequence_300.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/CompressString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="14" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -1780,52 +1788,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="13" column="21" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/LongestIncreasingSubsequence300.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/longest_increasing_subsequence_300.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/longest_common_14.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="14" lean-forward="true" selection-end-line="53" />
+          <caret line="4" column="14" lean-forward="true" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaxAreaIsland695.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestSubstringWithoutRepeatingCharacters3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="50">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
