@@ -11,7 +11,7 @@ import java.util.Map;
  *
  * @author: zhangyu
  */
-public class FindWords1160 {
+public class FindWordsCanFormedCharacters1160 {
 
     @Test
     public void testFindWords() {
@@ -49,7 +49,7 @@ public class FindWords1160 {
      * @return 布尔值
      */
     private boolean compareMap(Map<Character, Integer> charsMap, Map<Character, Integer> wordMap) {
-        for (Map.Entry<Character,Integer> ch : wordMap.entrySet()) {
+        for (Map.Entry<Character, Integer> ch : wordMap.entrySet()) {
             if (!charsMap.containsKey(ch.getKey()) || ch.getValue() > charsMap.get(ch.getKey())) {
                 return false;
             }
@@ -64,10 +64,9 @@ public class FindWords1160 {
      * @return map
      */
     private Map<Character, Integer> getDict(String chars) {
-        char[] chs = chars.toCharArray();
         Map<Character, Integer> map = new HashMap<>();
-        for (char ch : chs) {
-            map.put(ch, map.getOrDefault(ch, 0));
+        for (char ch : chars.toCharArray()) {
+            map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
         return map;
     }

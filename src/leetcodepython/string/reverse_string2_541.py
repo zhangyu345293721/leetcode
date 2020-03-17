@@ -14,7 +14,6 @@ def get_reverse_string(s: str, k: int) -> str:
         arr: 字符串
     Returns:
         反转后字符串
-
     '''
     list = []
     sb = ''
@@ -38,16 +37,12 @@ def get_reverse_string2(s: str, k: int) -> str:
         arr: 字符串
     Returns:
         反转后字符串
-
     '''
-    # 当s字符串长度小于k的值
     if len(s) <= k:
         return s[::-1]
-    # 当字符串长度在k和2k之间
     if len(s) > k and len(s) <= 2 * k:
         temp_str = s[0: k]
         return temp_str[::-1] + s[k:len(s)]
-    # 当字符串长度大于2*k
     if len(s) > 2 * k:
         list = []
         sb = ''
@@ -86,7 +81,6 @@ def get_reverse_str(arr):
         arr: 字符串
     Returns:
         反转后字符串
-
     '''
     s = ''
     for i in range(len(arr)):
