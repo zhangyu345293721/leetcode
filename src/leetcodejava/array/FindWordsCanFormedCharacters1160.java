@@ -17,7 +17,7 @@ public class FindWordsCanFormedCharacters1160 {
     public void testFindWords() {
         String[] words = {"hello", "world", "java"};
         String chars = "welldonehoneyr";
-        int total = countCharacters(words, chars);
+        int total = countCharacters2(words, chars);
         System.out.println(total);
     }
 
@@ -69,5 +69,40 @@ public class FindWordsCanFormedCharacters1160 {
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
         return map;
+    }
+
+    /**
+     * @param words 单词数组
+     * @param chars 字符串
+     * @return 个数
+     */
+    public int countCharacters2(String[] words, String chars) {
+        int[] charCounts = new int[26];
+        for (char c : chars.toCharArray()) {
+            charCounts[c - 'a']++;
+        }
+        int totalLength = 0;
+        for (String word : words) {
+            if (canBeFormed(word, charCounts)) {
+                totalLength += word.length();
+            }
+        }
+        return totalLength;
+    }
+
+    /**
+     * @param word       单词
+     * @param charCounts 字符数组
+     * @return 布尔值
+     */
+    private boolean canBeFormed(String word, int[] charCounts) {
+        int[] counts = new int[26];
+        for (char c : word.toCharArray()) {
+            int idx = c - 'a';
+            if (++counts[idx] > charCounts[idx]) {
+                return false;
+            }
+        }
+        return true;
     }
 }

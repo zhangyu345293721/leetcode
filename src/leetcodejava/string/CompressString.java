@@ -9,18 +9,18 @@ import java.util.List;
  * This is the solution of No. 0106 problem in the book <i>Cracking the Coding Interview</i>,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/compress-string-lcci/
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * Implement a method to perform basic string compression using the counts of repeated characters.
  * For example, the string aabcccccaaa would become a2blc5a3. If the "compressed" string would not
  * become smaller than the original string, your method should return the original string.
  * You can assume the string has only uppercase and lowercase letters (a - z).
- *
+ * <p>
  * Example 1:
  * Input: "aabcccccaaa"
  * Output: "a2b1c5a3"
- *
+ * <p>
  * Example 2:
  * Input: "abbccd"
  * Output: "abbccd"
@@ -31,7 +31,7 @@ import java.util.List;
  * - 0 <= S.length <= 50000
  * ==========================================================================================================
  *
- * @author  zhangyu (zhangyuyu417@gmail.com)
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class CompressString {
 
@@ -88,7 +88,7 @@ public class CompressString {
      * @return 压缩后字符串
      */
     public String compressString2(String S) {
-        if (S == null || S.trim().equals("")) {
+        if (S == null || S.length()<2) {
             return S;
         }
         StringBuffer sb = new StringBuffer();
@@ -97,13 +97,11 @@ public class CompressString {
             if (S.charAt(i) == S.charAt(i + 1)) {
                 length++;
             } else {
-                sb.append(S.charAt(i));
-                sb.append(length);
+                sb.append(S.charAt(i)).append(length);
                 length = 1;
             }
         }
-        sb.append(S.charAt(S.length() - 1));
-        sb.append(length);
+        sb.append(S.charAt(S.length() - 1)).append(length);
         return sb.toString().length() >= S.length() ? S : sb.toString();
     }
 }
