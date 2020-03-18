@@ -10,11 +10,12 @@ from typing import List
 
 def is_rectangle_overlap(rec1: List[int], rec2: List[int]) -> bool:
     '''
-        获取最小路径
+        判断两个矩形是否重叠
     Args:
-        grid: 二维数组
+        rec1: 矩形1
+        rec2: 矩形2
     Returns:
-        最小路径
+        是否重叠布尔值
     '''
     x11, y11, x12, y12 = rec1[0], rec1[1], rec1[2], rec1[3]
     x21, y21, x22, y22 = rec2[0], rec2[1], rec2[2], rec2[3]

@@ -32,8 +32,7 @@ public class HouseRobber337 {
         }
         int[] l = helper(node.left);
         int[] r = helper(node.right);
-        return new int[]{node.val + l[1] + r[1], Math.max(l[0], l[1]) + Math.max(r[0],
-                r[1])};
+        return new int[]{node.val + l[1] + r[1], Math.max(l[0], l[1]) + Math.max(r[0], r[1])};
     }
 
     /**
