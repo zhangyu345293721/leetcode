@@ -7,7 +7,6 @@ date:2020.3.20
 '''
 from typing import List
 
-
 from queue import PriorityQueue as PQueue
 
 
@@ -42,13 +41,31 @@ def get_least_numbers2(arr: List[int], k: int) -> List[int]:
     return new_arr
 
 
-def swap(arr, i, j):
+def swap(arr: List[int], i: int, j: int) -> None:
+    '''
+        交换数组中两个元素的位置
+    Args:
+        arr: 数组
+        i: 位置i
+        j: 位置j
+    Returns:
+
+    '''
     temp = arr[i]
     arr[i] = arr[j]
     arr[j] = temp
 
 
 def partition(arr: List[int], left: int, right: int) -> int:
+    '''
+        找到分割点位置
+    Args:
+        arr: 数组
+        left: 左边
+        right: 右边
+    Returns:
+        下标位置
+    '''
     pivot = arr[left]
     index = left
     for i in range(left + 1, right + 1):
