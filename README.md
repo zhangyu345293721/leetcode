@@ -407,7 +407,7 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83069550">Intersection of Two Arrays II</a></th>
     <th>Easy</th>
   </tr> <tr>
-    <th ></th>
+    <th >520</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83059879">Detect Capital</a></th>
     <th>Easy</th>
   </tr> <tr>
