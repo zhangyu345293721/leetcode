@@ -1,7 +1,6 @@
 package leetcodejava.array;
 
 import org.junit.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -16,11 +15,10 @@ public class SolutionView40 {
 
     @Test
     public void testSolutionView() {
-        int[] arr = {3, 4, 5, 6, 1, 3};
+        int[] arr = {3, 4, 5, 6, 1, 3, 5, 6, 7, 9};
         int k = 3;
-        int[] leastNumbers = getLeastNumbers3(arr, k);
-        System.out.println(leastNumbers);
-
+        int[] partition = getLeastNumbers3(arr, k);
+        System.out.println(partition);
     }
 
     /**
@@ -96,7 +94,7 @@ public class SolutionView40 {
     }
 
     /**
-     * 进行分区操作
+     * 进行分区操作,是的左边小于阈值，右边大于等于阈值
      *
      * @param arr   数组
      * @param left  左边

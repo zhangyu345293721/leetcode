@@ -613,3 +613,7 @@ a
 1src/leetcodejava/tree/MergeTwoBinaryTrees617.java,b\8\b8c7a4eff57d12a62815fb144a746226db13d102
 a
 1src/leetcodejava/string/LongestPalindrome409.java,4\f\4f0831c81b0feb4c353cde2d00e967253a84f527
+\
+,src/leetcodepython/array/solution_view_40.py,c\4\c4c482672cd1d38f7e602e7ce0dff20c5dd44376
+Z
+*src/leetcodejava/array/SolutionView40.java,c\1\c1765d825fe023517b2bb94b5613ece06b98d9d1

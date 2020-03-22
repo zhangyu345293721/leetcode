@@ -66,8 +66,7 @@ def partition(arr: List[int], left: int, right: int) -> int:
     Returns:
         下标位置
     '''
-    pivot = arr[left]
-    index = left
+    pivot, index = arr[left], left
     for i in range(left + 1, right + 1):
         if arr[i] < pivot:
             index += 1
