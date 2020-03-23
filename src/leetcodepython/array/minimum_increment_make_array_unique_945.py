@@ -23,7 +23,6 @@ def min_increment_for_unique(A: List[int]) -> int:
             count += abs(temp - A[i])
     return count
 
-
 if __name__ == '__main__':
     A = [3, 2, 1, 2, 1, 7]
     count = min_increment_for_unique(A)
