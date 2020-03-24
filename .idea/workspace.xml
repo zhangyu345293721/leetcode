@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:提交题目876">
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/list/middle_linked_list_876.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/TheMasseuseLCCI16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/list/MiddleLinkedList876.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/list/MiddleLinkedList876.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,49 +40,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/water_jug_problem_365.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="775">
-              <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MinimumIncrementMakeArrayUnique945.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="16" column="35" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/MiddleLinkedList876.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-53">
+            <state relative-caret-position="1125">
               <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/middle_linked_list_876.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+            <state relative-caret-position="397">
+              <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TheMasseuseLCCI16.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/task_scheduler_621.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" lean-forward="true" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -170,8 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/list/ReverseList206.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/list/ReverseVowels345.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/ThreeSum.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/math/ReverseString.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/math/MoveZeroes283.java" />
@@ -221,6 +216,8 @@
         <option value="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/list/MiddleLinkedList876.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/list/middle_linked_list_876.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/TheMasseuseLCCI16.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py" />
       </list>
     </option>
   </component>
@@ -281,6 +278,13 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
               <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -294,8 +298,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,7 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.middle_linked_list_876">
+  <component name="RunManager" selected="Python.the_masseuse_LCCI_16">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -378,7 +382,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumIncrementMakeArrayUnique945.testMinimumIncrementMakeArrayUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TheMasseuseLCCI16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -387,8 +391,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.MinimumIncrementMakeArrayUnique945" />
-      <option name="METHOD_NAME" value="testMinimumIncrementMakeArrayUnique" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.TheMasseuseLCCI16" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TheMasseuseLCCI16.testsTheMasseuseLCC" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.TheMasseuseLCCI16" />
+      <option name="METHOD_NAME" value="testsTheMasseuseLCC" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -424,7 +444,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="minimum_increment_make_array_unique_945" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="the_masseuse_LCCI_16" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -437,29 +457,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="water_jug_problem_365" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcodepython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/math" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/math/water_jug_problem_365.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -547,20 +545,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MinimumIncrementMakeArrayUnique945.testMinimumIncrementMakeArrayUnique" />
       <item itemvalue="JUnit.MiddleLinkedList876.testMiddleLinkedList" />
-      <item itemvalue="Python.water_jug_problem_365" />
-      <item itemvalue="Python.minimum_increment_make_array_unique_945" />
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="Python.middle_linked_list_876" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.TheMasseuseLCCI16.testsTheMasseuseLCC" />
+      <item itemvalue="JUnit.TheMasseuseLCCI16" />
+      <item itemvalue="Python.the_masseuse_LCCI_16" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.the_masseuse_LCCI_16" />
+        <item itemvalue="JUnit.TheMasseuseLCCI16" />
+        <item itemvalue="JUnit.TheMasseuseLCCI16.testsTheMasseuseLCC" />
         <item itemvalue="Python.middle_linked_list_876" />
         <item itemvalue="JUnit.MiddleLinkedList876.testMiddleLinkedList" />
-        <item itemvalue="Python.minimum_increment_make_array_unique_945" />
-        <item itemvalue="JUnit.MinimumIncrementMakeArrayUnique945.testMinimumIncrementMakeArrayUnique" />
-        <item itemvalue="Python.water_jug_problem_365" />
       </list>
     </recent_temporary>
   </component>
@@ -662,14 +660,8 @@
       <workItem from="1584489486322" duration="22113000" />
       <workItem from="1584671527639" duration="16886000" />
       <workItem from="1584776841658" duration="15668000" />
-      <workItem from="1584943149459" duration="2525000" />
-    </task>
-    <task id="LOCAL-00080" summary="master:增加题目942">
-      <created>1579244351784</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1579244351784</updated>
+      <workItem from="1584943149459" duration="2578000" />
+      <workItem from="1585015441996" duration="4226000" />
     </task>
     <task id="LOCAL-00081" summary="master:增加题目152">
       <created>1579248525181</created>
@@ -1007,19 +999,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584923935834</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="master:提交题目876">
+      <created>1584959017023</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1584959017023</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionView40_testSolutionView - 2020.03.20 at 16h 18m 41s.xml">
-      <configuration name="SolutionView40.testSolutionView" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaterJugProblem365_testWaterJugProblem - 2020.03.21 at 16h 18m 10s.xml">
-      <configuration name="WaterJugProblem365.testWaterJugProblem" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WaterJugProblem365_testWaterJugProblem - 2020.03.21 at 16h 23m 09s.xml">
-      <configuration name="WaterJugProblem365.testWaterJugProblem" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MinimumIncrementMakeArrayUnique945_testMinimumIncrementMakeArrayUnique - 2020.03.22 at 11h 51m 34s.xml">
       <configuration name="MinimumIncrementMakeArrayUnique945.testMinimumIncrementMakeArrayUnique" configurationId="JUnit" />
     </history-entry>
@@ -1041,15 +1031,24 @@
     <history-entry file="MiddleLinkedList876_testMiddleLinkedList - 2020.03.23 at 07h 54m 07s.xml">
       <configuration name="MiddleLinkedList876.testMiddleLinkedList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TheMasseuseLCCI16_testsTheMasseuseLCC - 2020.03.24 at 11h 04m 51s.xml">
+      <configuration name="TheMasseuseLCCI16.testsTheMasseuseLCC" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TheMasseuseLCCI16_testsTheMasseuseLCC - 2020.03.24 at 11h 38m 06s.xml">
+      <configuration name="TheMasseuseLCCI16.testsTheMasseuseLCC" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TheMasseuseLCCI16 - 2020.03.24 at 11h 38m 58s.xml">
+      <configuration name="TheMasseuseLCCI16" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1044043000" />
+    <option name="totallyTimeSpent" value="1048322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.18120806" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.18389262" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1447,6 +1446,7 @@
     <SUITE FILE_PATH="coverage/leetcode$longest_valid_parentheses_32.coverage" NAME="longest_valid_parentheses_32 Coverage Results" MODIFIED="1581774444118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$flood_fill_733.coverage" NAME="flood_fill_733 Coverage Results" MODIFIED="1580634911270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$tree_node.coverage" NAME="tree_node Coverage Results" MODIFIED="1584079549653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
+    <SUITE FILE_PATH="coverage/leetcode$the_masseuse_LCCI_16.coverage" NAME="the_masseuse_LCCI_16 Coverage Results" MODIFIED="1585021939768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$decompress_run_length_encoded_1313.coverage" NAME="decompress_run_length_encoded_1313 Coverage Results" MODIFIED="1579098984194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$find_difference_389.coverage" NAME="find_difference_389 Coverage Results" MODIFIED="1581397655844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$longest_common_14.coverage" NAME="longest_common_14 Coverage Results" MODIFIED="1581608725472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
@@ -1517,27 +1517,6 @@
     <SUITE FILE_PATH="coverage/leetcode$decode_string_394.coverage" NAME="decode_string_394 Coverage Results" MODIFIED="1583294124721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="14" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/longest_common_14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="14" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestSubstringWithoutRepeatingCharacters3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1835,7 +1814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MinimumIncrementMakeArrayUnique945.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="400">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1847,6 +1826,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/MiddleLinkedList876.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="72" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1878,24 +1871,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="72" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/MiddleLinkedList876.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/middle_linked_list_876.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="51" column="19" lean-forward="true" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        <state relative-caret-position="397">
+          <caret line="40" column="15" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TheMasseuseLCCI16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/task_scheduler_621.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" lean-forward="true" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
