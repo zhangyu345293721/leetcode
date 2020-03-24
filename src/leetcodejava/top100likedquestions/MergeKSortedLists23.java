@@ -3,9 +3,28 @@ package leetcodejava.top100likedquestions;
 import leetcodejava.list.ListNode;
 
 /**
- * 合并k个有序数组
+ * This is the solution of No.23 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/merge-k-sorted-lists/
  *
- * @author: zhangyu
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
+ *
+ * 示例:
+ *
+ * 输入:
+ * [
+ *   1->4->5,
+ *   1->3->4,
+ *   2->6
+ * ]
+ * 输出: 1->1->2->3->4->4->5->6
+ *
+ * 来源：力扣（LeetCode）
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class MergeKSortedLists23 {
 
