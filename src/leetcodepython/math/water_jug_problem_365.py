@@ -7,7 +7,6 @@ date:2020.2.12
 '''
 import math
 
-
 def can_measure_water(x: int, y: int, z: int) -> bool:
     '''
         是否可以测量体积
@@ -25,7 +24,6 @@ def can_measure_water(x: int, y: int, z: int) -> bool:
     if x == 0 or y == 0:
         return x + y == z
     return z % math.gcd(x, y) == 0
-
 
 if __name__ == '__main__':
     num = can_measure_water(x=3, y=4, z=5)

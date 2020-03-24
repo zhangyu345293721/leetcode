@@ -3,9 +3,27 @@ package leetcodejava.top100likedquestions;
 import org.junit.Test;
 
 /**
- * 找出二维数组中最大正方形
+ * This is the solution of No.221 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/maximal-square/
  *
- * @author: zhangyu
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 在一个由 0 和 1 组成的二维矩阵内，找到只包含 1 的最大正方形，并返回其面积。
+ *
+ * 示例:
+ * 输入:
+ * 1 0 1 0 0
+ * 1 0 1 1 1
+ * 1 1 1 1 1
+ * 1 0 0 1 0
+ *
+ * 输出: 4
+ *
+ * 来源：力扣（LeetCode）
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class MaximalSquare221 {
 

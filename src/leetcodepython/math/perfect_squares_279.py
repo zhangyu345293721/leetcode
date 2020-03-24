@@ -7,7 +7,6 @@ date:2020.2.12
 '''
 import sys
 
-
 def num_squares(num: int) -> int:
     '''
         找出一个数是平方的和
@@ -25,7 +24,6 @@ def num_squares(num: int) -> int:
             j += 1
         dp[i] = min_value
     return dp[i]
-
 
 if __name__ == '__main__':
     num = 18
