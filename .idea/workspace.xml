@@ -4,14 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcodejava/string/CompressString.java" line="99" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:修改题目注释">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SurfaceArea3DShapes892.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/surface_area_3_d_shapes_892.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bd40f6e83a7c18899ce4f2e23aa0eca09c3453d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bd40f6e83a7c18899ce4f2e23aa0eca09c3453d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c32837ab7a852ea8d6c85f5a73b11157b8fab7d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c32837ab7a852ea8d6c85f5a73b11157b8fab7d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7db627feba6c66c8ada4bcaeeabbe94cfc86d426" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/d/7db627feba6c66c8ada4bcaeeabbe94cfc86d426" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3b732967cc8b15356bf8f4d7a4b701c6e7718b7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3b732967cc8b15356bf8f4d7a4b701c6e7718b7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f36fa03209893a72f83eb652633ac683b6fe5054" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/3/f36fa03209893a72f83eb652633ac683b6fe5054" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目914">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/AvailableCapturesRook999.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/XKindDeckCards914.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/x_kind_deck_cards_914.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -45,67 +41,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TaskScheduler621.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SurfaceArea3DShapes892.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="28" column="3" selection-start-line="4" selection-end-line="28" selection-end-column="3" />
+            <state relative-caret-position="1825">
+              <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TrappingRainWater42.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/surface_area_3_d_shapes_892.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="325">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/solution_view_40.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AvailableCapturesRook999.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="57" lean-forward="true" selection-end-line="105" />
+            <state relative-caret-position="850">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/XKindDeckCards914.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" selection-start-line="8" selection-end-line="9" />
               <folding>
-                <element signature="e#65#88#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/hashtable/CountPrimes204.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/x_kind_deck_cards_914.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="400">
+              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding>
+                <element signature="e#70#90#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/DecompressRunLengthEncoded1313.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/two_sum_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state>
+              <caret selection-end-line="5" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SurfaceArea3DShapes892.java">
+        <entry file="jar://D:/install/javajdk/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/surface_area_3_d_shapes_892.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="7875">
+              <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -113,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SubtractSum1281.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="225">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
@@ -122,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="5" selection-start-line="5" selection-end-line="27" selection-end-column="3" />
+            <state relative-caret-position="200">
+              <caret line="8" column="11" selection-start-line="5" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -164,6 +163,7 @@
       <replace>grid</replace>
       <replace>]</replace>
       <replace>ch</replace>
+      <replace>'</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\octopus\Desktop\leetcode</dir>
@@ -175,10 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/string/ReverseString541.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/string/DetectCapital520.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/list/LinkedListCycle141.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SearchInsertPosition35.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/ConstructStringBinaryTree606.java" />
@@ -226,6 +222,10 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/UniquePath62.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SurfaceArea3DShapes892.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/surface_area_3_d_shapes_892.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/demo.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/AvailableCapturesRook999.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/x_kind_deck_cards_914.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/XKindDeckCards914.java" />
       </list>
     </option>
   </component>
@@ -257,6 +257,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,6 +276,13 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -306,8 +315,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,31 +373,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.surface_area_3_d_shapes_892">
+  <component name="RunManager" selected="Python.x_kind_deck_cards_914">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecompressRunLengthEncoded1313.testDecompressRunLengthEncoded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.list" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.list.DecompressRunLengthEncoded1313" />
-      <option name="METHOD_NAME" value="testDecompressRunLengthEncoded" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SurfaceArea3DShapes892.testSurfaceArea3DShapes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AvailableCapturesRook999" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -399,8 +389,57 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.SurfaceArea3DShapes892" />
-      <option name="METHOD_NAME" value="testSurfaceArea3DShapes" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.AvailableCapturesRook999" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AvailableCapturesRook999.testAvailableCapturesRook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.AvailableCapturesRook999" />
+      <option name="METHOD_NAME" value="testAvailableCapturesRook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XKindDeckCards914" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.XKindDeckCards914" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XKindDeckCards914.testXKindDeckCards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.XKindDeckCards914" />
+      <option name="METHOD_NAME" value="testXKindDeckCards" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -414,7 +453,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="surface_area_3_d_shapes_892" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="x_kind_deck_cards_914" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -427,51 +466,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/surface_area_3_d_shapes_892.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="the_masseuse_LCCI_16" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcodepython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="water_jug_problem_365" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcodepython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/math" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/math/water_jug_problem_365.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/x_kind_deck_cards_914.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -559,20 +554,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DecompressRunLengthEncoded1313.testDecompressRunLengthEncoded" />
-      <item itemvalue="Python.the_masseuse_LCCI_16" />
-      <item itemvalue="Python.water_jug_problem_365" />
+      <item itemvalue="JUnit.AvailableCapturesRook999.testAvailableCapturesRook" />
+      <item itemvalue="JUnit.AvailableCapturesRook999" />
+      <item itemvalue="JUnit.XKindDeckCards914.testXKindDeckCards" />
+      <item itemvalue="JUnit.XKindDeckCards914" />
       <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.SurfaceArea3DShapes892.testSurfaceArea3DShapes" />
-      <item itemvalue="Python.surface_area_3_d_shapes_892" />
+      <item itemvalue="Python.x_kind_deck_cards_914" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.surface_area_3_d_shapes_892" />
-        <item itemvalue="JUnit.SurfaceArea3DShapes892.testSurfaceArea3DShapes" />
-        <item itemvalue="JUnit.DecompressRunLengthEncoded1313.testDecompressRunLengthEncoded" />
-        <item itemvalue="Python.water_jug_problem_365" />
-        <item itemvalue="Python.the_masseuse_LCCI_16" />
+        <item itemvalue="Python.x_kind_deck_cards_914" />
+        <item itemvalue="JUnit.XKindDeckCards914.testXKindDeckCards" />
+        <item itemvalue="JUnit.XKindDeckCards914" />
+        <item itemvalue="JUnit.AvailableCapturesRook999.testAvailableCapturesRook" />
+        <item itemvalue="JUnit.AvailableCapturesRook999" />
       </list>
     </recent_temporary>
   </component>
@@ -676,14 +671,12 @@
       <workItem from="1584776841658" duration="15668000" />
       <workItem from="1584943149459" duration="2578000" />
       <workItem from="1585015441996" duration="12981000" />
-      <workItem from="1585096795010" duration="3895000" />
-    </task>
-    <task id="LOCAL-00084" summary="master:增加题目389">
-      <created>1579503964503</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1579503964503</updated>
+      <workItem from="1585096795010" duration="4322000" />
+      <workItem from="1585114497515" duration="10000" />
+      <workItem from="1585114519164" duration="2482000" />
+      <workItem from="1585178233400" duration="8612000" />
+      <workItem from="1585268864685" duration="5494000" />
+      <workItem from="1585289321446" duration="1904000" />
     </task>
     <task id="LOCAL-00085" summary="master:增加题目1029">
       <created>1579702928495</created>
@@ -1021,49 +1014,56 @@
       <option name="project" value="LOCAL" />
       <updated>1585033282698</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="master:增加题目892. Surface Area of 3D Shapes">
+      <created>1585104255497</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1585104255497</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinimumIncrementMakeArrayUnique945_testMinimumIncrementMakeArrayUnique - 2020.03.22 at 12h 38m 45s.xml">
-      <configuration name="MinimumIncrementMakeArrayUnique945.testMinimumIncrementMakeArrayUnique" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 08h 49m 17s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiddleLinkedList876_testMiddleLinkedList - 2020.03.23 at 07h 53m 35s.xml">
-      <configuration name="MiddleLinkedList876.testMiddleLinkedList" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 08h 51m 44s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MiddleLinkedList876_testMiddleLinkedList - 2020.03.23 at 07h 54m 07s.xml">
-      <configuration name="MiddleLinkedList876.testMiddleLinkedList" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 08h 51m 54s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheMasseuseLCCI16_testsTheMasseuseLCC - 2020.03.24 at 11h 04m 51s.xml">
-      <configuration name="TheMasseuseLCCI16.testsTheMasseuseLCC" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 09h 48m 37s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheMasseuseLCCI16_testsTheMasseuseLCC - 2020.03.24 at 11h 38m 06s.xml">
-      <configuration name="TheMasseuseLCCI16.testsTheMasseuseLCC" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 09h 48m 54s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TheMasseuseLCCI16 - 2020.03.24 at 11h 38m 58s.xml">
-      <configuration name="TheMasseuseLCCI16" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 09h 50m 46s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompressRunLengthEncoded1313_testDecompressRunLengthEncoded - 2020.03.24 at 15h 23m 47s.xml">
-      <configuration name="DecompressRunLengthEncoded1313.testDecompressRunLengthEncoded" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 10h 03m 07s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DecompressRunLengthEncoded1313_testDecompressRunLengthEncoded - 2020.03.24 at 15h 35m 20s.xml">
-      <configuration name="DecompressRunLengthEncoded1313.testDecompressRunLengthEncoded" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914 - 2020.03.27 at 10h 15m 11s.xml">
+      <configuration name="XKindDeckCards914" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SurfaceArea3DShapes892_testSurfaceArea3DShapes - 2020.03.25 at 09h 54m 14s.xml">
-      <configuration name="SurfaceArea3DShapes892.testSurfaceArea3DShapes" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 10h 48m 43s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SurfaceArea3DShapes892_testSurfaceArea3DShapes - 2020.03.25 at 09h 55m 39s.xml">
-      <configuration name="SurfaceArea3DShapes892.testSurfaceArea3DShapes" configurationId="JUnit" />
+    <history-entry file="XKindDeckCards914_testXKindDeckCards - 2020.03.27 at 14h 18m 15s.xml">
+      <configuration name="XKindDeckCards914.testXKindDeckCards" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1060972000" />
+    <option name="totallyTimeSpent" value="1079901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.18657719" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1072,8 +1072,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32348597" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.23929098" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3633678" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.38700148" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.418813" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1183,8 +1183,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:更新题目：中序遍历和后序遍历" />
-    <MESSAGE value="master:更新题目：中序遍历和后序遍历(python)" />
     <MESSAGE value="master:更新题目" />
     <MESSAGE value="master:增加题目139" />
     <MESSAGE value="master:增加题目注释" />
@@ -1208,7 +1206,9 @@
     <MESSAGE value="master:提交题目876" />
     <MESSAGE value="master:提交题目LCCI_16" />
     <MESSAGE value="master:修改题目注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:修改题目注释" />
+    <MESSAGE value="master:增加题目892. Surface Area of 3D Shapes" />
+    <MESSAGE value="master:增加题目914" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目914" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1405,6 +1405,18 @@
           <properties />
           <option name="timeStamp" value="125" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/AvailableCapturesRook999.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/XKindDeckCards914.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py</url>
           <line>33</line>
@@ -1452,6 +1464,7 @@
     <SUITE FILE_PATH="coverage/leetcode$perfect_squares_279.coverage" NAME="perfect_squares_279 Coverage Results" MODIFIED="1581498141176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/math" />
     <SUITE FILE_PATH="coverage/leetcode$reverse_integer_7.coverage" NAME="reverse_integer_7 Coverage Results" MODIFIED="1579065921031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$rectangle_overlap_836.coverage" NAME="rectangle_overlap_836 Coverage Results" MODIFIED="1584514416787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$x_kind_deck_cards_914.coverage" NAME="x_kind_deck_cards_914 Coverage Results" MODIFIED="1585290921844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$day_year_1154.coverage" NAME="day_year_1154 Coverage Results" MODIFIED="1581432595373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$distribute_candies_people_1103.coverage" NAME="distribute_candies_people_1103 Coverage Results" MODIFIED="1583421262215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$low_first_char_709.coverage" NAME="low_first_char_709 Coverage Results" MODIFIED="1581305185809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
@@ -1494,6 +1507,7 @@
     <SUITE FILE_PATH="coverage/leetcode$contains_duplicate_217.coverage" NAME="contains_duplicate_217 Coverage Results" MODIFIED="1582084777680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$merge_two_binary_trees_617.coverage" NAME="merge_two_binary_trees_617 Coverage Results" MODIFIED="1584522900330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
     <SUITE FILE_PATH="coverage/leetcode$unique_path_62.coverage" NAME="unique_path_62 Coverage Results" MODIFIED="1581948191499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
+    <SUITE FILE_PATH="coverage/leetcode$demo.coverage" NAME="demo Coverage Results" MODIFIED="1585114544653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1582349620957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$longest_consecutive_128.coverage" NAME="longest_consecutive_128 Coverage Results" MODIFIED="1582368958025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$merge_array_88.coverage" NAME="merge_array_88 Coverage Results" MODIFIED="1583757416210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -1533,45 +1547,6 @@
     <SUITE FILE_PATH="coverage/leetcode$decode_string_394.coverage" NAME="decode_string_394 Coverage Results" MODIFIED="1583294124721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_traversal_102.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#46#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/flatten_binary_tree_linked_list_114.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/merge_two_binary_trees_617.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="63" column="27" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
-          <folding>
-            <element signature="e#46#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/add_digits_258.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_inorder_traversal_94.pyi">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="66" selection-start-line="47" selection-start-column="1" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/GreatestCommon1071.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2975">
@@ -1832,10 +1807,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/demo.py" />
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TrappingRainWater42.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/solution_view_40.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" selection-end-line="105" />
+          <folding>
+            <element signature="e#65#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1846,6 +1832,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/DecompressRunLengthEncoded1313.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SurfaceArea3DShapes892.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1825">
+          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/surface_area_3_d_shapes_892.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AvailableCapturesRook999.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/javajdk/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7875">
+          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SubtractSum1281.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="11" selection-start-line="5" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/UniquePath62.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="875">
@@ -1853,48 +1888,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/DecompressRunLengthEncoded1313.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/two_sum_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SubtractSum1281.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/x_kind_deck_cards_914.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="5" selection-start-line="5" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SurfaceArea3DShapes892.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="73" column="54" selection-start-line="73" selection-start-column="54" selection-end-line="73" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/solution_view_40.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="57" lean-forward="true" selection-end-line="105" />
+        <state relative-caret-position="400">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           <folding>
-            <element signature="e#65#88#0" expanded="true" />
+            <element signature="e#70#90#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/surface_area_3_d_shapes_892.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/XKindDeckCards914.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
