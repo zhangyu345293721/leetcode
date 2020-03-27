@@ -92,7 +92,7 @@ public class AvailableCapturesRook999 {
             while (++step > 0) {
                 int tx = start + step * dx[i];
                 int ty = end + step * dy[i];
-                if (tx < 0 || tx >= 8 | ty < 0 || ty >= 8 || board[tx][ty] == 'B') {
+                if (tx < 0 || tx >= 8 || ty < 0 || ty >= 8 || board[tx][ty] == 'B') {
                     break;
                 }
                 if (board[tx][ty] == 'p') {

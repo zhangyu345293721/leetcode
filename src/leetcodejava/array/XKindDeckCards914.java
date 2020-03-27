@@ -2,6 +2,7 @@ package leetcodejava.array;
 
 import org.junit.Test;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -81,6 +82,7 @@ public class XKindDeckCards914 {
         }
         return x >= 2;
     }
+
     /**
      * 是否能分成多组
      *
@@ -92,16 +94,7 @@ public class XKindDeckCards914 {
         for (int num : deck) {
             counter[num]++;
         }
-        int x = -1;
-        for (int num : counter) {
-            if (num > 0) {
-                x = x == -1 ? num : gcd(x, num);
-                if (x == 1) {
-                    return false;
-                }
-            }
-        }
-        return x >= 2;
+        return Arrays.stream(counter).filter(e -> e > 0).reduce(0,this::gcd) >= 2;
     }
 
     /**
