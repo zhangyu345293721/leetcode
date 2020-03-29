@@ -641,3 +641,7 @@ d
 4src/leetcodejava/array/AvailableCapturesRook999.java,4\8\48670054111bb95a1704c9c7a13d3ef02d11fd2a
 ]
 -src/leetcodejava/array/XKindDeckCards914.java,d\9\d924dcc374a88932de49f1b74f2b9d83fd73926e
+a
+1src/leetcodepython/array/x_kind_deck_cards_914.py,1\1\11cb302109df7ba50a60296c7224d35975b310f0
+g
+7src/leetcodepython/array/available_captures_rook_999.py,a\1\a1c7a754c407ffeee7ed108c2fe3fe234ed77567

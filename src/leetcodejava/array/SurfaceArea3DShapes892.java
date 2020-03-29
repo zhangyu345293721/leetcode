@@ -47,7 +47,6 @@ public class SurfaceArea3DShapes892 {
         int[][] arr = {{1, 2}, {3, 4}};
         int i = surfaceArea(arr);
         System.out.println(i);
-
     }
 
     /**
