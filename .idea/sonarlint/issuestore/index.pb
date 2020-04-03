@@ -645,3 +645,17 @@ a
 1src/leetcodepython/array/x_kind_deck_cards_914.py,1\1\11cb302109df7ba50a60296c7224d35975b310f0
 g
 7src/leetcodepython/array/available_captures_rook_999.py,a\1\a1c7a754c407ffeee7ed108c2fe3fe234ed77567
+`
+0src/leetcodejava/tree/ShortEncodingWords820.java,1\a\1ae1c3e2fc96ddf4a59e6e31e67297fb80249fc3
+O
+src/leetcodejava/tree/Trie.java,4\b\4bf6b9b0cb1fca30edf18605ca4b03412d05659a
+S
+#src/leetcodejava/tree/TrieNode.java,8\b\8b25bd324c536921fa26626b51101129a3c486d8
+e
+5src/leetcodepython/string/short_encoding_words_820.py,5\f\5fe07700338ab1958c087c05f5c65b9b72107284
+a
+1src/leetcodejava/array/AsFarLandPossible1162.java,8\7\872cf50c2f400f2c5183cad7ef4d297db5c635bc
+Z
+*src/leetcodejava/array/QuestionView64.java,b\6\b6d403a9390f841fff942d7f3363d541d50c54ce
+X
+(src/leetcodejava/array/SortArray912.java,0\a\0ace9fe526fa8ae2b2e932b3026c4552658f50f8
