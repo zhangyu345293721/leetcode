@@ -659,3 +659,5 @@ Z
 *src/leetcodejava/array/QuestionView64.java,b\6\b6d403a9390f841fff942d7f3363d541d50c54ce
 X
 (src/leetcodejava/array/SortArray912.java,0\a\0ace9fe526fa8ae2b2e932b3026c4552658f50f8
+[
++src/leetcodejava/string/StringInteger8.java,e\b\ebf406e5fee968f971e3f4800236b8e5b2a8886b
