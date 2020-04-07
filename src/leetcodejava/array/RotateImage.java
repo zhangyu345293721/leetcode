@@ -15,6 +15,7 @@ public class RotateImage {
                         {7, 8, 9}
                 };
         rotate(matrix);
+        System.out.println(matrix);
     }
 
     /**
@@ -24,21 +25,20 @@ public class RotateImage {
      */
     public void rotate(int[][] matrix) {
         int r = matrix.length;
-        int c = matrix[0].length;
+        // 上下翻转
         for (int i = 0; i < r / 2; i++) {
-            for (int j = 0; j < c; j++) {
+            for (int j = 0; j < r; j++) {
                 int temp = matrix[r - 1 - i][j];
                 matrix[r - 1 - i][j] = matrix[i][j];
                 matrix[i][j] = temp;
             }
         }
+        // 对角线翻转
         for (int i = 0; i < r; i++) {
-            for (int j = 0; j < c; j++) {
-                if (i > j) {
+            for (int j = 0; j < i; j++) {
                     int temp = matrix[i][j];
                     matrix[i][j] = matrix[j][i];
                     matrix[j][i] = temp;
-                }
             }
         }
     }
