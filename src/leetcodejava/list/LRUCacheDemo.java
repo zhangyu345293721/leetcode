@@ -8,7 +8,7 @@ import org.junit.Test;
 public class LRUCacheDemo {
     @Test
     public void testLRUDemo() {
-        LRUCache lruCache = new LRUCache(2);
+        LRUCache146_1 lruCache = new LRUCache146_1(2);
         lruCache.put(1, 1);
         lruCache.put(2, 2);
         lruCache.get(1);
