@@ -20,8 +20,9 @@ public class ConstructStringBinaryTree606 {
      * @return 字符串
      */
     public String tree2str(TreeNode t) {
-        if (t == null)
+        if (t == null) {
             return "";
+        }
 
         String left = tree2str(t.left);
         String right = tree2str(t.right);

@@ -14,7 +14,7 @@ import java.util.Queue;
  */
 public class BinaryTreeLevelOrderTraversal102 {
     @Test
-    public void testBinaryTreeLevelOrderTraversal() {
+    public void binaryTreeLevelOrderTraversalTest() {
         TreeNode treeNode = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5}, 0);
         List<List<Integer>> list = levelOrder(treeNode);
         System.out.println(list);
@@ -40,7 +40,9 @@ public class BinaryTreeLevelOrderTraversal102 {
      * @param height 高度
      */
     public void helper(List<List<Integer>> res, TreeNode root, int height) {
-        if (root == null) return;
+        if (root == null) {
+            return;
+        }
         if (height >= res.size()) {
             res.add(new LinkedList<>());
         }

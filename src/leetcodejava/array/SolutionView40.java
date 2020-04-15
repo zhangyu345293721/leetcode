@@ -1,6 +1,7 @@
 package leetcodejava.array;
 
 import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -29,15 +30,18 @@ public class SolutionView40 {
      * @return 数组
      */
     public int[] getLeastNumbers(int[] arr, int k) {
-        if (arr.length == 0)
+        if (arr.length == 0) {
             return arr;
-        for (int i = 0; i < arr.length; i++)
-            for (int j = 0; j < arr.length - 1 - i; j++)
+        }
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j + 1] < arr[j]) {
                     int temp = arr[j + 1];
                     arr[j + 1] = arr[j];
                     arr[j] = temp;
                 }
+            }
+        }
         return Arrays.stream(arr).limit(k).toArray();
     }
 

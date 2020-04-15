@@ -10,7 +10,7 @@ import org.junit.Test;
 public class ContainerWithMostWater11 {
 
     @Test
-    public void testCoinChange() {
+    public void coinChangeTest() {
         int height[] = {1, 2, 5};
         int area = maxArea(height);
         System.out.println(area);

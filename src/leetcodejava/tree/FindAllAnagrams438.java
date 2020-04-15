@@ -12,7 +12,7 @@ import java.util.List;
 
 public class FindAllAnagrams438 {
     @Test
-    public void testFindAllAnagrams() {
+    public void findAllAnagramsTest() {
         String s = "baa";
         String p = "aa";
         List<Integer> list = findAllAnagrams(s, p);
