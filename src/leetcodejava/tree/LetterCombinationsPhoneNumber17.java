@@ -12,7 +12,7 @@ import java.util.List;
 
 public class LetterCombinationsPhoneNumber17 {
     @Test
-    public void testLetterCombinationsPhoneNumber() {
+    public void letterCombinationsPhoneNumberTest() {
         String digits = "23";
         List<String> list = letterCombinationsPhoneNumber(digits);
         System.out.println(list);

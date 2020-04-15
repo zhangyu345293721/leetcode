@@ -13,7 +13,7 @@ import java.util.Set;
 
 public class FindDuplicateNumber287 {
     @Test
-    public void testFindDuplicateNumber() {
+    public void findDuplicateNumberTest() {
         int arr[] = {1, 3, 4, 2, 2};
         int duplicateNumber = findDuplicateNumber2(arr);
         System.out.println(duplicateNumber);

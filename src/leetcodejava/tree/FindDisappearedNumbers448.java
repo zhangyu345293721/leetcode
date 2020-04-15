@@ -53,7 +53,9 @@ public class FindDisappearedNumbers448 {
      */
     private List<Integer> findDisappearedNumbers2(int[] nums) {
         List<Integer> res = new ArrayList<>();
-        if (nums == null || nums.length == 0) return res;
+        if (nums == null || nums.length == 0) {
+            return res;
+        }
         int n = nums.length;
         for (int num : nums) {    // 这是一种转换的技巧算法，非常实用，但是难以想到
             int idx = Math.abs(num) - 1;

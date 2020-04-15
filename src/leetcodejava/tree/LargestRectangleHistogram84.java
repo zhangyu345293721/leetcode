@@ -14,7 +14,7 @@ import java.util.LinkedList;
 
 public class LargestRectangleHistogram84 {
     @Test
-    public void testLargestRectangleHistogram() {
+    public void largestRectangleHistogramTest() {
         int[] heights = {1, 2, 3};
         int maxArea = largestRectangleHistogram(heights);
         System.out.println(maxArea);

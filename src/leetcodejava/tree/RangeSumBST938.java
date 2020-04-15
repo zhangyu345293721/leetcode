@@ -12,9 +12,8 @@ public class RangeSumBST938 {
 
     @Test
     public void testRangeSumBST() {
-        TreeNode treeNode = new TreeNode();
         Integer[] arr = {10, 5, 15, 3, 7, null, 18};
-        TreeNode t = treeNode.createBinaryTreeByArray(arr, 0);
+        TreeNode t = TreeNode.createBinaryTreeByArray(arr, 0);
         int sum = rangeSumBST(t, 7, 15);
         System.out.println(sum);
     }

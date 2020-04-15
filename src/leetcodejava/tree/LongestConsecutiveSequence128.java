@@ -13,7 +13,7 @@ import java.util.Set;
 
 public class LongestConsecutiveSequence128 {
     @Test
-    public void testLongestConsecutiveSequence() {
+    public void longestConsecutiveSequenceTest() {
         int[] nums = {12, 13, 1, 4, 5, 6};
         int maxLength = longestConsecutive2(nums);
         System.out.println(maxLength);

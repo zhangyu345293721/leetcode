@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class LongestPalindromicSubstring5 {
     @Test
-    public void testLongestPalindromicSubstring() {
+    public void longestPalindromicSubstringTest() {
         String s = "aaab";
         String subString = longestPalindromicSubstring2(s);
         System.out.println(subString);

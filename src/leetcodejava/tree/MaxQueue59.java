@@ -50,11 +50,7 @@ public class MaxQueue59 {
      * @return 布尔值
      */
     private boolean isEmpty() {
-        if (front == rear) {
-            return true;
-        } else {
-            return false;
-        }
+        return front == rear;
     }
 
     /**
