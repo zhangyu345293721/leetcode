@@ -34,7 +34,7 @@ public class MinPathSum64 {
 
 
     @Test
-    public void testMinPathSum() {
+    public void minPathSumTest() {
 
         int[][] arr = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
         int num = minPathSum(arr);

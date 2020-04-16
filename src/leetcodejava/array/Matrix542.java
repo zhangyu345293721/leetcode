@@ -50,7 +50,7 @@ import java.util.Queue;
  */
 public class Matrix542 {
     @Test
-    public void testMatrix() {
+    public void matrixTest() {
         int[][] arr = {
                 {0}, {0}, {0}, {0}, {0}
         };

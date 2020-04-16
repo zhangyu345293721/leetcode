@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -38,6 +39,7 @@ public class MergeIntervals56 {
         int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         int[][] arr = merge(intervals);
         System.out.println(arr);
+        System.out.println("hhhh:  "+new Date());
     }
 
     /**
@@ -47,11 +49,11 @@ public class MergeIntervals56 {
      * @return 合并后的区间
      */
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
-        List<int[]> list = new ArrayList<>();
         if (intervals.length < 1) {
             return intervals;
         }
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        List<int[]> list = new ArrayList<>();
         int[] curInterval = intervals[0];
         for (int i = 1; i < intervals.length; i++) {
             if (intervals[i][0] <= curInterval[1]) {
