@@ -5,11 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 约瑟夫环问题
- *
- * @author: zhangyu
- */
+
 public class QuestionView64 {
 
     @Test
