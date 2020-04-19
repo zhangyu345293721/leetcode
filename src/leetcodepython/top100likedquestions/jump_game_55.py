@@ -70,6 +70,45 @@ def get_judge_jump_arr3(arr: List[int]) -> bool:
     return True
 
 
+def jump_flag(arr: List[int], i: int) -> bool:
+    '''
+        能不能跳过0点
+    Args:
+        arr: 数组
+        i: 位置i
+    Returns:
+        布尔值
+    '''
+    j = i
+    while j > 0:
+        if arr[j] > i - j:
+            return True
+        j -= 1
+    return False
+
+
+def get_judge_jump_arr4(arr: List[int]) -> bool:
+    '''
+         跳远数组
+    Args:
+        arr: 数组
+    Returns:
+        是否能调到最后，布尔值
+    '''''
+    if len(arr) < 2:
+        return True
+    if arr == None or arr[0] == 0:
+        return True
+    for i in range(len(arr)):
+        if arr[i] == 0:
+            flag = jump_flag(arr, i)
+            if flag:
+                continue
+            else:
+                return flag
+    return True
+
+
 if __name__ == '__main__':
     arr = [2, 3, 1, 1, 4]
     flag = get_judge_jump_arr3(arr)

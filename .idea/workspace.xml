@@ -7,14 +7,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcodejava/string/CompressString.java" line="99" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目56注释">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ContainerMostWater11.java" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目11">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/CountRepetitions466.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/OrangeRotting994.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/OrangeRotting994.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/PartitionEqualSubsetSum416.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/PartitionEqualSubsetSum416.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/PeakIndexMountainArray852.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/PeakIndexMountainArray852.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/RectangleOverlap836.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/RectangleOverlap836.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +45,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+            <state relative-caret-position="301">
+              <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="106" column="17" lean-forward="true" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CountRepetitions466.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -63,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RemoveDuplicatesSortedArray26.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="-650">
+              <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -75,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="36" selection-start-line="5" selection-end-line="27" selection-end-column="3" />
+            <state relative-caret-position="-350">
+              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -84,17 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="-575">
               <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RotateImage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-275">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -102,17 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RotateNumber788.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="83">
+              <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SingleNumber136.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/StudentAttendance551.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-200">
-              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            <state relative-caret-position="123">
+              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -167,8 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/ContainerWithMostWater11.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/FindAllAnagrams438.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/FindDisappearedNumbers448.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/FindDuplicateNumber287.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/FindFirstLastPosition34.java" />
@@ -191,7 +195,6 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/array/ReplaceGreatestRight1299.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/RotateImage.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/RotateNumber788.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SearchInsertPosition35.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/Shift2DGrid1260.java" />
@@ -216,8 +219,11 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/array/PartitionEqualSubsetSum416.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/PeakIndexMountainArray852.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/RectangleOverlap836.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/ContainerMostWater11.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/RotateNumber788.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/CountRepetitions466.java" />
       </list>
     </option>
   </component>
@@ -238,10 +244,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="240" />
+    <option name="y" value="128" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -280,13 +286,6 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RotateNumber788.testRotateNumber">
+  <component name="RunManager" selected="JUnit.CountRepetitions466.countRepetitionsTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -375,17 +374,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LowFirstChar709.testLowFirstChar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CountRepetitions466.countRepetitionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.tree.*" />
+          <option name="PATTERN" value="leetcodejava.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.tree" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.tree.LowFirstChar709" />
-      <option name="METHOD_NAME" value="testLowFirstChar" />
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.CountRepetitions466" />
+      <option name="METHOD_NAME" value="countRepetitionsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -535,19 +534,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.LowFirstChar709.testLowFirstChar" />
       <item itemvalue="JUnit.MergeIntervals56.testMergeIntervals" />
       <item itemvalue="Python.sort_array_912" />
       <item itemvalue="JUnit.ContainerMostWater11.containerMostWaterTest" />
       <item itemvalue="JUnit.RotateNumber788.testRotateNumber" />
+      <item itemvalue="JUnit.CountRepetitions466.countRepetitionsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountRepetitions466.countRepetitionsTest" />
         <item itemvalue="JUnit.RotateNumber788.testRotateNumber" />
         <item itemvalue="JUnit.ContainerMostWater11.containerMostWaterTest" />
         <item itemvalue="JUnit.MergeIntervals56.testMergeIntervals" />
         <item itemvalue="Python.sort_array_912" />
-        <item itemvalue="JUnit.LowFirstChar709.testLowFirstChar" />
       </list>
     </recent_temporary>
   </component>
@@ -668,14 +667,7 @@
       <workItem from="1586509093588" duration="3561000" />
       <workItem from="1586736265001" duration="5501000" />
       <workItem from="1586836161823" duration="16816000" />
-      <workItem from="1586925558492" duration="30230000" />
-    </task>
-    <task id="LOCAL-00102" summary="master:优化题目">
-      <created>1582095552907</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1582095552907</updated>
+      <workItem from="1586925558492" duration="40771000" />
     </task>
     <task id="LOCAL-00103" summary="master:更新题目：中序遍历和后序遍历">
       <created>1582123370413</created>
@@ -1013,19 +1005,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587052430233</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="master:增加题目11">
+      <created>1587221786881</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1587221786881</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeIntervals56_testMergeIntervals - 2020.04.16 at 10h 28m 40s.xml">
-      <configuration name="MergeIntervals56.testMergeIntervals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeIntervals56_testMergeIntervals - 2020.04.16 at 10h 30m 02s.xml">
-      <configuration name="MergeIntervals56.testMergeIntervals" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeIntervals56_testMergeIntervals - 2020.04.16 at 10h 30m 16s.xml">
-      <configuration name="MergeIntervals56.testMergeIntervals" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MergeIntervals56_testMergeIntervals - 2020.04.16 at 23h 21m 34s.xml">
       <configuration name="MergeIntervals56.testMergeIntervals" configurationId="JUnit" />
     </history-entry>
@@ -1047,9 +1037,18 @@
     <history-entry file="ContainerMostWater11_containerMostWaterTest - 2020.04.18 at 22h 49m 30s.xml">
       <configuration name="ContainerMostWater11.containerMostWaterTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RotateNumber788_testRotateNumber - 2020.04.18 at 22h 55m 21s.xml">
+      <configuration name="RotateNumber788.testRotateNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RotateNumber788_testRotateNumber - 2020.04.19 at 00h 13m 18s.xml">
+      <configuration name="RotateNumber788.testRotateNumber" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CountRepetitions466_countRepetitionsTest - 2020.04.19 at 22h 03m 50s.xml">
+      <configuration name="CountRepetitions466.countRepetitionsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1244830000" />
+    <option name="totallyTimeSpent" value="1255371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1065,8 +1064,8 @@
       <window_info anchor="bottom" id="Inspection Results" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32348597" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.44756278" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42097488" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928367" visible="true" weight="0.14032497" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.072378136" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1176,7 +1175,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目1071" />
     <MESSAGE value="master:修改题目名字" />
     <MESSAGE value="master:提交题目695" />
     <MESSAGE value="master:提交题目3" />
@@ -1201,7 +1199,8 @@
     <MESSAGE value="master:对数组进行快速排序" />
     <MESSAGE value="master:修改题目注释" />
     <MESSAGE value="master:增加题目56注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目56注释" />
+    <MESSAGE value="master:增加题目11" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1575,20 +1574,6 @@
     <SUITE FILE_PATH="coverage/leetcode$decode_string_394.coverage" NAME="decode_string_394 Coverage Results" MODIFIED="1583294124721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SortArray912.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SortArrayByParity905.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SortArrayParity922.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-325">
@@ -1600,13 +1585,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-425">
           <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/StudentAttendance551.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -1865,24 +1843,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RotateImage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-275">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RotateNumber788.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1900,17 +1864,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RemoveElement27.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="87" column="18" lean-forward="true" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="36" selection-start-line="5" selection-end-line="27" selection-end-column="3" />
+        <state relative-caret-position="375">
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1921,17 +1878,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RemoveElement27.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RemoveDuplicatesSortedArray26.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state relative-caret-position="-650">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RemoveDuplicatesSortedArray26.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="-350">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RotateNumber788.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="46" column="38" lean-forward="true" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/StudentAttendance551.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="106" column="17" lean-forward="true" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CountRepetitions466.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
