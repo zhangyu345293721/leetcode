@@ -3,9 +3,9 @@
 '''
 计算岛屿的个数
 author:zhangyu
-date:2020.1.9
 '''
 from typing import List
+import numpy as np
 
 
 def num_islands(grid: List[List[str]]) -> None:
@@ -21,7 +21,8 @@ def num_islands(grid: List[List[str]]) -> None:
         return 0
     result = 0
     row, column = len(grid), len(grid[0])
-    visited = [[False] * column for x in range(row)]
+    # visited = [[False] * column for x in range(row)]
+    visited = np.empty((row, column), dtype=bool)
     for i in range(row):
         for j in range(column):
             if grid[i][j] == '1' and not visited[i][j]:
