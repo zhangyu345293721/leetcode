@@ -37,10 +37,10 @@ public class NumberIslands200 {
     @Test
     public void testNumberIslands() {
         char[][] chs = {
-                {'1', '1', '1', '1', '0'},
-                {'1', '1', '0', '1', '0'},
-                {'1', '1', '0', '0', '1'},
-                {'0', '0', '0', '0', '0'}
+                {'1', '1', '1'},
+                {'0', '1', '0'},
+                {'1', '0', '0'},
+                {'1', '0', '1'}
         };
         int num = numIslands(chs);
         System.out.println(num);

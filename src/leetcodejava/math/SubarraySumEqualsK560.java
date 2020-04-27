@@ -14,7 +14,7 @@ public class SubarraySumEqualsK560 {
     public void testSubarraySumEqualsK() {
         int nums[] = {1, 2, 3};
         int k = 3;
-        int key = subarraySum(nums, k);
+        int key = subarraySum4(nums, k);
         System.out.println(key);
     }
 
