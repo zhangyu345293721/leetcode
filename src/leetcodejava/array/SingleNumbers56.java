@@ -35,11 +35,9 @@ public class SingleNumbers56 {
 
     @Test
     public void singleNumberTest() {
-        int[] nums = {4, 1, 4, 6};
-        int[] ints = singleNumbers(nums);
+        int[] nums = {4, 1, 4, 5,5,6};
+        int[] ints = singleNumbers2(nums);
         System.out.println(ints);
-
-
     }
 
     /**

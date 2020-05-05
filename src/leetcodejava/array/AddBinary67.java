@@ -7,20 +7,20 @@ import org.junit.Test;
  * This is the solution of No. 67 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/add-binary/
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定两个二进制字符串，返回他们的和（用二进制表示）。
- *
+ * <p>
  * 输入为非空字符串且只包含数字 1 和 0。
- *
+ * <p>
  * 示例 1:
  * 输入: a = "11", b = "1"
  * 输出: "100"
  * 示例 2:
  * 输入: a = "1010", b = "1011"
  * 输出: "10101"
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -33,6 +33,7 @@ public class AddBinary67 {
         String b = "1011";
         String sum = addBinary3(a, b);
         System.out.println(sum);
+
     }
 
     /**

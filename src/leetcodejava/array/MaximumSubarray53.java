@@ -48,6 +48,7 @@ public class MaximumSubarray53 {
             } else {
                 sum += nums[i];
             }
+            // 记录最大值
             result = Math.max(result, sum);
         }
         return result;

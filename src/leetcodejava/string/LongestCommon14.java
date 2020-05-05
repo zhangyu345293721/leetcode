@@ -4,9 +4,30 @@ package leetcodejava.string;
 import org.junit.Test;
 
 /**
- * 最长前缀
+ * This is the solution of No. 14 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/longest-common-prefix
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 编写一个函数来查找字符串数组中的最长公共前缀。
  *
- * @author: zhangyu
+ * 如果不存在公共前缀，返回空字符串 ""。
+ *
+ * 示例 1:
+ *
+ * 输入: ["flower","flow","flight"]
+ * 输出: "fl"
+ * 示例 2:
+ *
+ * 输入: ["dog","racecar","car"]
+ * 输出: ""
+ * 解释: 输入不存在公共前缀。
+ *
+ * 来源：力扣（LeetCode）
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class LongestCommon14 {
 

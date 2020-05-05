@@ -719,3 +719,9 @@ Z
 *src/leetcodejava/array/WaysToChange11.java,0\4\04b857f20c30ea6e9a96db237db5f9fb17354037
 f
 6src/leetcodejava/array/SearchRotatedSortedArray33.java,5\0\5000ad4880105c16ec8045b152b25f01fa873f1e
+[
++src/leetcodejava/array/SingleNumbers56.java,f\d\fd1991a02fcdef8e2b038e3e11f3c2bbf52807e9
+Z
+*src/leetcodejava/array/HappyNumber202.java,f\c\fc1a813361222325653377f85eaa494351c16072
+`
+0src/leetcodejava/list/MergeTwoSortedLists21.java,f\4\f4979337eed6b1c0889ec7fe3d1849f5f4b19146
