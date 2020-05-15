@@ -19,7 +19,7 @@ def lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode
     if not root or not p or not q:
         return root
     left = lowest_common_ancestor(root.left, p, q)
-    right = lowest_common_ancestor(root.right.p, q)
+    right = lowest_common_ancestor(root.right,p, q)
     if not left and not right:
         return None
     if left and right:
@@ -28,3 +28,12 @@ def lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode
         return right
     else:
         return left
+
+if __name__ == '__main__':
+    nums = [3, 5, 1, 6, 2, 0, 8, None, None, 7, 4]
+    tree_node = TreeNode()
+    p = TreeNode(5)
+    q = TreeNode(1)
+    root = tree_node.create_binary_tree_array(nums)
+    result = lowest_common_ancestor(root, p, q)
+    print(result)

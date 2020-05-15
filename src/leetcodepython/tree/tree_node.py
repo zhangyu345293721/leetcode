@@ -3,6 +3,7 @@
 author:zhangyu
 date:2020/3/13
 '''
+from typing import List
 
 
 class TreeNode:
@@ -11,7 +12,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
-    def create_binary_tree_array(self, array, index):
+    def create_binary_tree_array(self, array:List[int], index=0):
         '''
             将数组构造成二叉树
         Args:
@@ -35,5 +36,5 @@ class TreeNode:
 if __name__ == '__main__':
     arr = [5, 2, 13]
     tree_node = TreeNode()
-    tree = tree_node.create_binary_tree_array(arr, 0)
+    tree = tree_node.create_binary_tree_array(arr)
     print(tree)

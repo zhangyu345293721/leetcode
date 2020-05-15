@@ -5,18 +5,37 @@ import org.junit.Test;
 import java.util.HashMap;
 
 /**
- * @author zhangyu
- **/
-
-
+ * This is the solution of No. 560 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/subarray-sum-equals-k
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给定一个整数数组和一个整数 k，你需要找到该数组中和为 k 的连续的子数组的个数。
+ *
+ * 示例 1 :
+ *
+ * 输入:nums = [1,1,1], k = 2
+ * 输出: 2 , [1,1] 与 [1,1] 为两种不同的情况。
+ * 说明 :
+ *
+ * 数组的长度为 [1, 20,000]。
+ * 数组中元素的范围是 [-1000, 1000] ，且整数 k 的范围是 [-1e7, 1e7]。
+ *
+ * 来源：力扣（LeetCode）
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 public class SubarraySumEqualsK560 {
     @Test
     public void testSubarraySumEqualsK() {
-        int nums[] = {1, 2, 3};
+        int nums[] = {1, 2,0, 3};
         int k = 3;
-        int key = subarraySum4(nums, k);
+        int key = subarraySum2(nums, k);
         System.out.println(key);
     }
+
 
     /**
      * 求和
@@ -26,29 +45,6 @@ public class SubarraySumEqualsK560 {
      * @return 数字和
      */
     public int subarraySum(int[] nums, int k) {
-        int sum = 0;
-        int count = 0;
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i; j < nums.length; j++) {
-                sum = sum + nums[j];
-                if (sum == k) {
-                    count++;
-                    sum = 0;
-                    break;
-                }
-            }
-        }
-        return count;
-    }
-
-    /**
-     * 求和
-     *
-     * @param nums 数组
-     * @param k    k个数
-     * @return 数字和
-     */
-    public int subarraySum2(int[] nums, int k) {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
             int sum = 0;
@@ -69,36 +65,11 @@ public class SubarraySumEqualsK560 {
      * @param k    k个数
      * @return 数字和
      */
-    public int subarraySum3(int[] nums, int k) {
+    public int subarraySum2(int[] nums, int k) {
         int count = 0;
         int sum = 0;
         HashMap<Integer, Integer> map = new HashMap<>();
-        map.put(0, 1);
-        for (int i = 0; i < nums.length; i++) {
-            sum += nums[i];
-            if (map.containsKey(sum - k)) {
-                count += map.get(sum - k);
-            }
-            if (!map.containsKey(sum)) {
-                map.put(sum, 1);
-            } else {
-                map.put(sum, map.get(sum) + 1);
-            }
-        }
-        return count;
-    }
-
-    /**
-     * 求和
-     *
-     * @param nums 数组
-     * @param k    k个数
-     * @return 数字和
-     */
-    public int subarraySum4(int[] nums, int k) {
-        int count = 0;
-        int sum = 0;
-        HashMap<Integer, Integer> map = new HashMap<>();
+        // 和数字本身的时候，加入0
         map.put(0, 1);
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
