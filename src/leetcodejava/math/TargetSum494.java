@@ -5,12 +5,35 @@ import org.junit.Test;
 import java.util.LinkedList;
 
 /**
- * 用了基本的方法没有做出来，现在就要用深度优先算法来进行计算；
+ * This is the solution of No.494 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/target-sum
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给定一个非负整数数组，a1, a2, ..., an, 和一个目标数，S。现在你有两个符号 + 和 -。对于数组中的任意一个整数，你都可以从 + 或 -中选择一个符号添加在前面。
  *
- * @author zhangyu
- **/
-
-
+ * 返回可以使最终数组和为目标数 S 的所有添加符号的方法数。
+ *
+ * 示例 1:
+ *
+ * 输入: nums: [1, 1, 1, 1, 1], S: 3
+ * 输出: 5
+ * 解释:
+ *
+ * -1+1+1+1+1 = 3
+ * +1-1+1+1+1 = 3
+ * +1+1-1+1+1 = 3
+ * +1+1+1-1+1 = 3
+ * +1+1+1+1-1 = 3
+ *
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/target-sum
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 public class TargetSum494 {
     @Test
     public void testTargetSum() {

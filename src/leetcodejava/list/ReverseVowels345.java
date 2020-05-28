@@ -3,9 +3,29 @@ package leetcodejava.list;
 import org.junit.Test;
 
 /**
- * 字符串中元音字母反转
+ * This is the solution of No. 345 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/reverse-vowels-of-a-string
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 编写一个函数，以字符串作为输入，反转该字符串中的元音字母。
  *
- * @author: zhangyu
+ * 示例 1:
+ *
+ * 输入: "hello"
+ * 输出: "holle"
+ * 示例 2:
+ *
+ * 输入: "leetcode"
+ * 输出: "leotcede"
+ *
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/reverse-vowels-of-a-string
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class ReverseVowels345 {
     @Test

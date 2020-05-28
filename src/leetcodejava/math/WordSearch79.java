@@ -3,10 +3,32 @@ package leetcodejava.math;
 import org.junit.Test;
 
 /**
- * 匹配字符包含问题
+ * This is the solution of No.79 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/word-search
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给定一个二维网格和一个单词，找出该单词是否存在于网格中。
  *
- * @author zhangyu
- **/
+ * 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母不允许被重复使用。
+ *
+ * 示例:
+ *
+ * board =
+ * [
+ *   ['A','B','C','E'],
+ *   ['S','F','C','S'],
+ *   ['A','D','E','E']
+ * ]
+ *
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/word-search
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 public class WordSearch79 {
     @Test
     public void testSearchWords() {

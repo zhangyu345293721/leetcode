@@ -11,8 +11,7 @@ package leetcodejava.string;
  *
  * 给定一组用外星语书写的单词 words，以及其字母表的顺序 order，只有当给定的单词在这种外星语中按字典序排列时，返回 true；否则，返回 false。
  *
- *  
- *
+
  * 示例 1：
  *
  * 输入：words = ["hello","leetcode"], order = "hlabcdefgijkmnopqrstuvwxyz"
