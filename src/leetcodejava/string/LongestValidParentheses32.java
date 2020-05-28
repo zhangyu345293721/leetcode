@@ -5,9 +5,31 @@ import org.junit.Test;
 import java.util.Stack;
 
 /**
- * 最长的有效匹配串
+ * This is the solution of No.830 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/longest-valid-parentheses
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给定一个只包含 '(' 和 ')' 的字符串，找出最长的包含有效括号的子串的长度。
  *
- * @author: zhangyu
+ * 示例 1:
+ *
+ * 输入: "(()"
+ * 输出: 2
+ * 解释: 最长有效括号子串为 "()"
+ * 示例 2:
+ *
+ * 输入: ")()())"
+ * 输出: 4
+ * 解释: 最长有效括号子串为 "()()"
+ *
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/longest-valid-parentheses
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class LongestValidParentheses32 {
 

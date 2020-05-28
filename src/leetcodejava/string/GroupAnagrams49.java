@@ -5,11 +5,35 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- * 基本思路是循环遍历每个元素，如果已经加入到list当中，那么就把该元素标记为“1”，下次看到“1”直接跳过
+ * This is the solution of No. 49 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/group-anagrams
  *
- * @author zhangyu
- **/
-
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给定一个字符串数组，将字母异位词组合在一起。字母异位词指字母相同，但排列不同的字符串。
+ *
+ * 示例:
+ *
+ * 输入: ["eat", "tea", "tan", "ate", "nat", "bat"]
+ * 输出:
+ * [
+ *   ["ate","eat","tea"],
+ *   ["nat","tan"],
+ *   ["bat"]
+ * ]
+ * 说明：
+ *
+ * 所有输入均为小写字母。
+ * 不考虑答案输出的顺序。
+ *
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/group-anagrams
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author  zhangyu (zhangyuyu417@gmail.com)
+ */
 public class GroupAnagrams49 {
     @Test
     public void testGroupAnagrams() {
