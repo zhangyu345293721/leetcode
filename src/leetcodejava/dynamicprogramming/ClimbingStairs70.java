@@ -39,12 +39,9 @@ import org.junit.Test;
 public class ClimbingStairs70 {
     @Test
     public void testClimbingStairs() {
-        long startTime = System.currentTimeMillis();
         int n = 44;
         int num = climbingStairs(n);
-        long endTime = System.currentTimeMillis();
         System.out.println(num);
-        System.out.println((endTime - startTime) / 1000.0 + "s");
     }
 
     /**
