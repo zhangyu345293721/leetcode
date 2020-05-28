@@ -27,7 +27,7 @@ import java.util.Arrays;
 public class ArrayPartition561 {
 
     @Test
-    public void testArrayPartion() {
+    public void testArrayPartition() {
         int nums[] = {1, 2, 3, 4};
         int sum = arrayPairSum(nums);
         System.out.println(sum);

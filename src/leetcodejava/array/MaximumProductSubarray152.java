@@ -29,7 +29,6 @@ import org.junit.Test;
  */
 public class MaximumProductSubarray152 {
 
-
     @Test
     public void testMaximumProductSubarray() {
         int[] nums = {2, 3, -2, 4};

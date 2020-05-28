@@ -3,15 +3,33 @@ package leetcodejava.tree;
 import org.junit.Test;
 
 /**
- * @author zhangyu
- **/
-
-
+ * This is the solution of No. 5 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/longest-palindromic-substring
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
+ * <p>
+ * 示例 1：
+ * 输入: "babad"
+ * 输出: "bab"
+ * 注意: "aba" 也是一个有效答案。
+ * <p>
+ * 示例 2：
+ * 输入: "cbbd"
+ * 输出: "bb"
+ * <p>
+ * 来源：力扣（LeetCode）
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 public class LongestPalindromicSubstring5 {
     @Test
     public void longestPalindromicSubstringTest() {
-        String s = "aaab";
-        String subString = longestPalindromicSubstring2(s);
+        String s = "aba";
+        String subString = longestPalindromicSubstring3(s);
         System.out.println(subString);
     }
 
@@ -84,5 +102,50 @@ public class LongestPalindromicSubstring5 {
             j++;
         }
         return s.substring(i + 1, j);
+    }
+
+    /**
+     * brute force
+     *
+     * @param s 最大字符串
+     * @return 最大字符串
+     */
+    private static String longestPalindromicSubstring3(String s) {
+        String maxStr = "";
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i + 1; j < s.length() + 1; j++) {
+                String sub = s.substring(i, j);
+                boolean flag = isPalindromicSubstring(sub);
+                if (flag) {
+                    if (maxStr.length() < sub.length()) {
+                        maxStr = sub;
+                    }
+                }
+            }
+        }
+        return maxStr;
+    }
+
+    /**
+     * 判断一个字符串是回文串
+     *
+     * @param sub 字符串
+     * @return 布尔值
+     */
+    private static boolean isPalindromicSubstring(String sub) {
+        if (sub == null || sub.length() < 1) {
+            return true;
+        }
+        int i = 0;
+        int j = sub.length() - 1;
+        while (i < j) {
+            if (sub.charAt(i) == sub.charAt(j)) {
+                i++;
+                j--;
+            } else {
+                return false;
+            }
+        }
+        return true;
     }
 }
