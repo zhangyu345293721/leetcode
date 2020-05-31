@@ -34,6 +34,7 @@ import java.util.*;
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class HouseRobber198 {
+
     @Test
     public void testHouseRobber() {
         int[] nums = {1, 1, 1};
