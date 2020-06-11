@@ -9,25 +9,22 @@ import java.util.Set;
 /**
  * This is the solution of No. 128 problem in the LeetCode,
  * the website of the problem is as follow:
- * https://leetcode-cn.com/problems/binary-tree-inorder-traversal
+ * https://leetcode-cn.com/problems/longest-consecutive-sequence
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
- * 给定一个二叉树，返回它的中序 遍历。
- * <p>
+ * 给定一个未排序的整数数组，找出最长连续序列的长度。
+ *
+ * 要求算法的时间复杂度为 O(n)。
+ *
  * 示例:
- * <p>
- * 输入: [1,null,2,3]
- * 1
- * \
- * 2
- * /
- * 3
- * <p>
- * 输出: [1,3,2]
- * <p>
+ *
+ * 输入: [100, 4, 200, 1, 3, 2]
+ * 输出: 4
+ * 解释: 最长连续序列是 [1, 2, 3, 4]。它的长度为 4。
+ *
  * 来源：力扣（LeetCode）
- * 链接：https://leetcode-cn.com/problems/binary-tree-inorder-traversal
+ * 链接：https://leetcode-cn.com/problems/longest-consecutive-sequence
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * ==========================================================================================================
  *
@@ -37,10 +34,9 @@ public class LongestConsecutiveSequence128 {
     @Test
     public void longestConsecutiveSequenceTest() {
         int[] nums = {12, 13, 1, 4, 5, 6};
-        int maxLength = longestConsecutive2(nums);
+        int maxLength = longestConsecutive(nums);
         System.out.println(maxLength);
     }
-
 
     /**
      * 连续数的长度
@@ -63,9 +59,7 @@ public class LongestConsecutiveSequence128 {
                     count = 1;
                 }
             }
-            if (maxLength < count) {
-                maxLength = count;
-            }
+            maxLength=Math.max(count,maxLength);
         }
         return maxLength;
     }
