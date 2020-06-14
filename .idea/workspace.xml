@@ -7,14 +7,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcodejava/string/CompressString.java" line="99" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目739,9">
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/interview_46.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/3716bc947c91f1aa5d92b3c998b6d1b28ab0bc2c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2ef305d0466004017e3c9c8a60125d62fac4f0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2ef305d0466004017e3c9c8a60125d62fac4f0f" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:增加题目15,三个数求和">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/SumMutatedArrayClosestTarget1300.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/ThreeSum15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSum15.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="733">
-              <caret line="134" column="24" lean-forward="true" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+            <state relative-caret-position="3300">
+              <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -93,17 +90,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Sqrt69.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="725">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SumMutatedArrayClosestTarget1300.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="1149">
+              <caret line="84" column="37" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -125,8 +131,8 @@
         <option value="Enum" />
         <option value="Setup Script" />
         <option value="Python Stub" />
-        <option value="Class" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -158,7 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/LowFirstChar709.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/ConstructStringBinaryTree606.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/string/FindAllAnagrams438.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/string/LongestPalindromicSubstring5.java" />
@@ -209,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/leetcodepython/string/interview_46.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/ThreeSum15.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/SumMutatedArrayClosestTarget1300.java" />
       </list>
     </option>
   </component>
@@ -229,10 +235,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1780" />
-    <option name="y" value="51" />
-    <option name="width" value="1551" />
-    <option name="height" value="839" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -283,7 +290,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,26 +348,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThreeSum15.testThreeSum">
+  <component name="RunManager" selected="JUnit.SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainsDuplicate219.testContainsDuplicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.ContainsDuplicate219" />
-      <option name="METHOD_NAME" value="testContainsDuplicate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -377,6 +366,23 @@
       <option name="PACKAGE_NAME" value="leetcodejava.string" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.string.Interview46" />
       <option name="METHOD_NAME" value="interviewTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.SumMutatedArrayClosestTarget1300" />
+      <option name="METHOD_NAME" value="sumMutatedArrayClosestTargetTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -530,20 +536,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ContainsDuplicate219.testContainsDuplicate" />
       <item itemvalue="JUnit.Interview46.interviewTest" />
-      <item itemvalue="Python.interview_46" />
-      <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="Python.three_sum_15" />
       <item itemvalue="JUnit.ThreeSum15.testThreeSum" />
+      <item itemvalue="Python.interview_46" />
+      <item itemvalue="Python.three_sum_15" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ThreeSum15.testThreeSum" />
+        <item itemvalue="JUnit.SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" />
         <item itemvalue="Python.three_sum_15" />
+        <item itemvalue="JUnit.ThreeSum15.testThreeSum" />
         <item itemvalue="Python.interview_46" />
         <item itemvalue="JUnit.Interview46.interviewTest" />
-        <item itemvalue="JUnit.ContainsDuplicate219.testContainsDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -706,14 +712,8 @@
       <workItem from="1591887247172" duration="222000" />
       <workItem from="1591887622900" duration="3320000" />
       <workItem from="1591950013516" duration="2901000" />
-      <workItem from="1591953141100" duration="2008000" />
-    </task>
-    <task id="LOCAL-00116" summary="master:提交题目322">
-      <created>1583713960060</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1583713960060</updated>
+      <workItem from="1591953141100" duration="3830000" />
+      <workItem from="1592143014996" duration="5806000" />
     </task>
     <task id="LOCAL-00117" summary="master:增加题目136">
       <created>1583979895832</created>
@@ -1051,43 +1051,50 @@
       <option name="project" value="LOCAL" />
       <updated>1591856504676</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="master:增加题目15,三个数求和">
+      <created>1591955396670</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1591955396671</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DailyTemperatures739_dailyTemperaturesTest - 2020.06.11 at 13h 53m 15s.xml">
-      <configuration name="DailyTemperatures739.dailyTemperaturesTest" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 43m 47s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures739_dailyTemperaturesTest - 2020.06.11 at 13h 53m 37s.xml">
-      <configuration name="DailyTemperatures739.dailyTemperaturesTest" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 44m 06s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures739_dailyTemperaturesTest - 2020.06.11 at 13h 54m 05s.xml">
-      <configuration name="DailyTemperatures739.dailyTemperaturesTest" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 49m 31s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures739_dailyTemperaturesTest - 2020.06.11 at 13h 54m 38s.xml">
-      <configuration name="DailyTemperatures739.dailyTemperaturesTest" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 50m 06s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures739_dailyTemperaturesTest - 2020.06.11 at 13h 56m 13s.xml">
-      <configuration name="DailyTemperatures739.dailyTemperaturesTest" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 50m 42s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures739_dailyTemperaturesTest - 2020.06.11 at 13h 58m 02s.xml">
-      <configuration name="DailyTemperatures739.dailyTemperaturesTest" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 51m 42s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DailyTemperatures739_dailyTemperaturesTest - 2020.06.11 at 13h 58m 13s.xml">
-      <configuration name="DailyTemperatures739.dailyTemperaturesTest" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 57m 23s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Interview46_interviewTest - 2020.06.12 at 16h 56m 06s.xml">
-      <configuration name="Interview46.interviewTest" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 57m 32s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreeSum15_testThreeSum - 2020.06.12 at 17h 22m 42s.xml">
-      <configuration name="ThreeSum15.testThreeSum" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 22h 58m 49s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreeSum15_testThreeSum - 2020.06.12 at 17h 29m 01s.xml">
-      <configuration name="ThreeSum15.testThreeSum" configurationId="JUnit" />
+    <history-entry file="SumMutatedArrayClosestTarget1300_sumMutatedArrayClosestTargetTest - 2020.06.14 at 23h 02m 14s.xml">
+      <configuration name="SumMutatedArrayClosestTarget1300.sumMutatedArrayClosestTargetTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1461600000" />
+    <option name="totallyTimeSpent" value="1469228000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1102,7 +1109,7 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" weight="0.20330843" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.2054429" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1111,8 +1118,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32348597" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.23292273" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38404727" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" weight="0.23292273" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.38297874" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3293944" />
@@ -1142,7 +1149,7 @@
       <window_info anchor="right" id="SciView" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.20330843" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" weight="0.20330843" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1157,7 +1164,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3293944" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32795697" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026681" side_tool="true" visible="true" weight="0.23292273" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026681" side_tool="true" weight="0.23292273" />
       <window_info anchor="bottom" id="Statistic" order="9" weight="0.31757754" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49932885" weight="0.064992614" />
@@ -1243,7 +1250,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目914" />
     <MESSAGE value="master:增加题目999" />
     <MESSAGE value="master:增加题目1162" />
     <MESSAGE value="master:增加题目8" />
@@ -1268,7 +1274,8 @@
     <MESSAGE value="master:修改题目注释" />
     <MESSAGE value="master:修改题目" />
     <MESSAGE value="master:增加题目739,9" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目739,9" />
+    <MESSAGE value="master:增加题目15,三个数求和" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:增加题目15,三个数求和" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1695,7 +1702,7 @@
     <SUITE FILE_PATH="coverage/leetcode$word_break_138.coverage" NAME="word_break_138 Coverage Results" MODIFIED="1582514414168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$coin_change_322.coverage" NAME="coin_change_322 Coverage Results" MODIFIED="1583683908407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$interview_46.coverage" NAME="interview_46 Coverage Results" MODIFIED="1591952296090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
-    <SUITE FILE_PATH="coverage/leetcode$three_sum_15.coverage" NAME="three_sum_15 Coverage Results" MODIFIED="1591953983319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/math" />
+    <SUITE FILE_PATH="coverage/leetcode$three_sum_15.coverage" NAME="three_sum_15 Coverage Results" MODIFIED="1591956833815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/math" />
     <SUITE FILE_PATH="coverage/leetcode$sort_array_912.coverage" NAME="sort_array_912 Coverage Results" MODIFIED="1587029709552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$max_area_island_695.coverage" NAME="max_area_island_695 Coverage Results" MODIFIED="1584250459797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$add_digits_258.coverage" NAME="add_digits_258 Coverage Results" MODIFIED="1581516632617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -1807,13 +1814,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/StringInteger8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/ValidPalindrome125.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -2111,6 +2111,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSum15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3300">
+          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate219.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1075">
@@ -2139,13 +2146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Sqrt69.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/water_jug_problem_365.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2153,17 +2153,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSum15.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="733">
-          <caret line="134" column="24" lean-forward="true" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+        <state relative-caret-position="666">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Sqrt69.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="725">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SumMutatedArrayClosestTarget1300.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1149">
+          <caret line="84" column="37" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="37" />
         </state>
       </provider>
     </entry>

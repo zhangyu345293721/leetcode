@@ -9,6 +9,12 @@ from typing import List
 
 
 def three_sum(nums: List[int]) -> List[List[int]]:
+    '''
+        三个数之和
+    Args:
+        nums: 数组
+    Returns: 链表
+    '''
     s = set()
     nums.sort()
     for i in range(len(nums)):
@@ -26,6 +32,6 @@ def three_sum(nums: List[int]) -> List[List[int]]:
     return list(s)
 
 if __name__ == '__main__':
-    nums = [-1, 0, 1, 2, -1, -4, 0, 0];
+    nums = [-1, 0, 1, 2, -1, -4, 0, 0]
     result = three_sum(nums)
-    print(result);
+    print(result)
