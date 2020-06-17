@@ -36,7 +36,7 @@ import java.util.List;
 public class SelfDivingNumber728 {
 
     @Test
-    public void testSelfDivingNumber() {
+    public void selfDivingNumberTest() {
         int left = 1;
         int right = 22;
         List<Integer> list=selfDividingNumbers(left, right);

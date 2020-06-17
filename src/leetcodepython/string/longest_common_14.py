@@ -5,6 +5,7 @@ author:zhangyu
 date:2020/2/13
 '''
 from typing import List
+import sys
 
 
 def is_all_match(sub_str: str, strs: List[str]) -> bool:
@@ -45,7 +46,31 @@ def longest_common_prefix(strs: List[str]) -> str:
     return longest_str
 
 
+def longest_common_prefix_2(strs: List[str]) -> str:
+    '''
+        暴力破解
+    Args:
+        strs:输入数组
+    Returns:
+        最长子字符串
+    '''
+    if not strs:
+        return ""
+    min_length = sys.maxsize
+    for s in strs:
+        if len(s) < min_length:
+            min_length = len(s)
+    for i in range(min_length):
+        ch = strs[0][i]
+        j = 1
+        while j < len(strs):
+            if strs[j][i] != ch:
+                return strs[0][0: i]
+            j += 1
+    return strs[0][0:min_length]
+
+
 if __name__ == '__main__':
     strs = ["c", "c"]
-    longest_str = longest_common_prefix(strs)
+    longest_str = longest_common_prefix_2(strs)
     print(longest_str)
