@@ -3,6 +3,7 @@ package leetcodejava.tree;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -14,18 +15,18 @@ import java.util.Stack;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个二叉树，返回它的 后序 遍历。
- *
+ * <p>
  * 示例:
- *
+ * <p>
  * 输入: [1,null,2,3]
- *    1
- *     \
- *      2
- *     /
- *    3
- *
+ * 1
+ * \
+ * 2
+ * /
+ * 3
+ * <p>
  * 输出: [3,2,1]
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/binary-tree-postorder-traversal
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -33,10 +34,10 @@ import java.util.Stack;
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
-public class PostorderTraversal145 {
+public class BinaryTreePostorderTraversal145 {
 
     @Test
-    public void testPostorderTraversal() {
+    public void postorderTraversalTest() {
         TreeNode t1 = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5}, 0);
         List<Integer> postOrder = postOrderTraversal2(t1);
         System.out.println(postOrder);
@@ -49,28 +50,28 @@ public class PostorderTraversal145 {
      * @return 链表
      */
     public List<Integer> postOrderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        if (root == null) {
-            return list;
-        }
-        helper(list, root);
-        return list;
+        List<Integer> postOrderList = new ArrayList<>();
+        helper(postOrderList, root);
+        return postOrderList;
     }
 
     /**
-     * 帮助方法
+     * 后续遍历帮助方法
      *
-     * @param list 链表
-     * @param root 根节点
+     * @param postOrderList 链表
+     * @param root          根节点
      */
-    private void helper(List<Integer> list, TreeNode root) {
+    private void helper(List<Integer> postOrderList, TreeNode root) {
+        if (root == null) {
+            return;
+        }
         if (root.left != null) {
-            helper(list, root.left);
+            helper(postOrderList, root.left);
         }
         if (root.right != null) {
-            helper(list, root.right);
+            helper(postOrderList, root.right);
         }
-        list.add(root.val);
+        postOrderList.add(root.val);
     }
 
     /**
@@ -80,7 +81,7 @@ public class PostorderTraversal145 {
      * @return 链表
      */
     public List<Integer> postOrderTraversal2(TreeNode root) {
-        List<Integer> res = new ArrayList<>();
+        List<Integer> res = new LinkedList<>();
         if (root == null) {
             return res;
         }
