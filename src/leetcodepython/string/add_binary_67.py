@@ -64,10 +64,20 @@ def add_binary2(a: str, b: str) -> str:
         sb += str(1)
     return sb[::-1]
 
+def add_binary3(a: str, b: str) -> str:
+    '''
+         对二进制字符串相加减
+    Args:
+        a: 二进制a
+        b: 二进制b
+    Returns:
+         二进制数
+    '''
+    return bin(int(a,2)+int(b,2))[2:]
 
 
 if __name__ == '__main__':
     a = "11"
     b = "10"
-    num = add_binary2(a, b)
+    num = add_binary3(a, b)
     print(num)

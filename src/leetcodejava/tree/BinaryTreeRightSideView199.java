@@ -2,10 +2,7 @@ package leetcodejava.tree;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * This is the solution of No.199 problem in the LeetCode,

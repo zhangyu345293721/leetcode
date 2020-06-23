@@ -31,29 +31,10 @@ public class AddBinary67 {
     public void addBinaryTest() {
         String a = "1010";
         String b = "1011";
-        String sum = addBinary3(a, b);
+        String sum = addBinary(a, b);
         System.out.println(sum);
-
     }
 
-    /**
-     * 字符串相加(先将字符串转成十进制，再十进制相加减)
-     *
-     * @param a 字符串1
-     * @param b 字符串2
-     * @return 相加字符串
-     */
-    private String addBinary(String a, String b) {
-        if (a == null || a.length() < 1) {
-            return b;
-        }
-        if (b == null || b.length() < 1) {
-            return a;
-        }
-        Integer integerA = Integer.valueOf(a, 2);
-        Integer integerB = Integer.valueOf(b, 2);
-        return Integer.toBinaryString(integerA + integerB);
-    }
 
     /**
      * 字符串相加(直接位运算)
@@ -62,7 +43,7 @@ public class AddBinary67 {
      * @param b 字符串2
      * @return 相加字符串
      */
-    private String addBinary3(String a, String b) {
+    private String addBinary(String a, String b) {
         if (a == null || a.length() < 1) {
             return b;
         }
