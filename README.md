@@ -536,6 +536,7 @@
     <th>Easy</th>
   </tr>
 </table>
+
 ## 7.tree
 
 <table border="2" >
