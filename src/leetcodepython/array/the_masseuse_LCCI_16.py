@@ -11,7 +11,7 @@ def massage(nums: List[int]) -> int:
     '''
         求最大利润
     Args:
-        nums:
+        nums:数组
     Returns:
         最大利润
     '''
