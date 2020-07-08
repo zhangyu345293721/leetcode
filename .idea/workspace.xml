@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 增加题目718">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaximumLengthRepeatedSubarray718.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/ThreeSumClosest16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/DivingBoardLCCI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/PathSum112.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55c5f8806d0e1e91f6a3458a337bbbf9e590642b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55c5f8806d0e1e91f6a3458a337bbbf9e590642b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcce80f74462fe2e171902f957e1e3d9e88c5afd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcce80f74462fe2e171902f957e1e3d9e88c5afd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c9d66dd34a020119282cfe248183d0d2ba98aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c9d66dd34a020119282cfe248183d0d2ba98aa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,30 +42,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeInorderTraversal94.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/the_masseuse_LCCI_16.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSumClosest16.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="100">
               <caret line="6" selection-start-line="6" selection-end-line="29" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="350">
               <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -98,11 +74,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaximumLengthRepeatedSubarray718.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="650">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/PathSum112.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/DivingBoardLCCI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1641">
+              <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/PathSum437.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="19" selection-start-line="2" selection-end-line="41" selection-end-column="3" />
+            <state relative-caret-position="200">
+              <caret line="8" column="19" selection-start-line="2" selection-end-line="41" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -186,9 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/math/WordSearch79.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/dynamicprogramming/HouseRobber198.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/SymmetricTree101.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/math/ProductArrayExceptSelf238.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SpiralMatrix54.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/spiral_matrix_54.py" />
@@ -237,6 +234,9 @@
         <option value="$PROJECT_DIR$/../打分/搬运次数.txt" />
         <option value="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/MaximumLengthRepeatedSubarray718.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/PathSum112.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/tree/PathSum112.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/DivingBoardLCCI.java" />
       </list>
     </option>
   </component>
@@ -257,10 +257,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -268,7 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -295,17 +294,11 @@
               <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
               <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,26 +323,26 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\string" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
-      <recent name="C:\Users\octopus\Desktop\leetcode\untitled" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="leetcodejava.list" />
-      <recent name="leetcodejava.math" />
-      <recent name="leetcodejava.array" />
-      <recent name="leetcodejava.tree" />
-      <recent name="array" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodejava\array" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\math" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\array" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodejava\list" />
       <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\tree" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcodejava.tree" />
+      <recent name="leetcodejava.list" />
+      <recent name="leetcodejava.math" />
+      <recent name="leetcodejava.array" />
+      <recent name="array" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython\string" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\leetcodepython" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\src\python" />
+      <recent name="C:\Users\octopus\Desktop\leetcode\untitled" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -364,9 +357,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MaximumLengthRepeatedSubarray718">
+  <component name="RunManager" selected="JUnit.DivingBoardLCCI.divingBoardLCCITest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DivingBoardLCCI.divingBoardLCCITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.DivingBoardLCCI" />
+      <option name="METHOD_NAME" value="divingBoardLCCITest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -382,23 +392,6 @@
       <option name="PACKAGE_NAME" value="leetcodejava.list" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.list.KthLargestElement215" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KthLargestElement215.testKthLargestElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.list" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.list.KthLargestElement215" />
-      <option name="METHOD_NAME" value="testKthLargestElement" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -437,17 +430,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSumClosest16.threeSumClosetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PathSum112.pathSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="PATTERN" value="leetcodejava.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.ThreeSumClosest16" />
-      <option name="METHOD_NAME" value="threeSumClosetTest" />
+      <option name="PACKAGE_NAME" value="leetcodejava.tree" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.tree.PathSum112" />
+      <option name="METHOD_NAME" value="pathSumTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -540,20 +533,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ThreeSumClosest16.threeSumClosetTest" />
-      <item itemvalue="JUnit.KthLargestElement215.testKthLargestElement" />
       <item itemvalue="JUnit.KthLargestElement215" />
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.MaximumLengthRepeatedSubarray718.maximumLengthRepeatedSubarrayTest" />
       <item itemvalue="JUnit.MaximumLengthRepeatedSubarray718" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.PathSum112.pathSumTest" />
+      <item itemvalue="JUnit.DivingBoardLCCI.divingBoardLCCITest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DivingBoardLCCI.divingBoardLCCITest" />
+        <item itemvalue="JUnit.PathSum112.pathSumTest" />
         <item itemvalue="JUnit.MaximumLengthRepeatedSubarray718" />
         <item itemvalue="JUnit.MaximumLengthRepeatedSubarray718.maximumLengthRepeatedSubarrayTest" />
         <item itemvalue="JUnit.KthLargestElement215" />
-        <item itemvalue="JUnit.KthLargestElement215.testKthLargestElement" />
-        <item itemvalue="JUnit.ThreeSumClosest16.threeSumClosetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -728,14 +721,10 @@
       <workItem from="1593394081775" duration="893000" />
       <workItem from="1593444449944" duration="2007000" />
       <workItem from="1593501117094" duration="4984000" />
-      <workItem from="1593613480380" duration="3445000" />
-    </task>
-    <task id="LOCAL-00122" summary="master:提交题目3">
-      <created>1584412690849</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1584412690849</updated>
+      <workItem from="1593613480380" duration="5615000" />
+      <workItem from="1593703734735" duration="23000" />
+      <workItem from="1593704171195" duration="597000" />
+      <workItem from="1594113281840" duration="9830000" />
     </task>
     <task id="LOCAL-00123" summary="master:提交题目836">
       <created>1584514456989</created>
@@ -1073,43 +1062,50 @@
       <option name="project" value="LOCAL" />
       <updated>1592906465627</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="master: 增加题目718">
+      <created>1593617461521</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1593617461521</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThreeSumClosest16_threeSumClosetTest - 2020.06.24 at 20h 48m 36s.xml">
-      <configuration name="ThreeSumClosest16.threeSumClosetTest" configurationId="JUnit" />
+    <history-entry file="PathSum112_pathSumTest - 2020.07.08 at 13h 58m 34s.xml">
+      <configuration name="PathSum112.pathSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ThreeSumClosest16_threeSumClosetTest - 2020.06.24 at 21h 05m 28s.xml">
-      <configuration name="ThreeSumClosest16.threeSumClosetTest" configurationId="JUnit" />
+    <history-entry file="PathSum112_pathSumTest - 2020.07.08 at 13h 58m 56s.xml">
+      <configuration name="PathSum112.pathSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestElement215_testKthLargestElement - 2020.06.30 at 15h 36m 43s.xml">
-      <configuration name="KthLargestElement215.testKthLargestElement" configurationId="JUnit" />
+    <history-entry file="PathSum112_pathSumTest - 2020.07.08 at 14h 00m 35s.xml">
+      <configuration name="PathSum112.pathSumTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestElement215_testKthLargestElement - 2020.06.30 at 15h 36m 47s.xml">
-      <configuration name="KthLargestElement215.testKthLargestElement" configurationId="JUnit" />
+    <history-entry file="DivingBoardLCCI_divingBoardLCCITest - 2020.07.08 at 15h 48m 50s.xml">
+      <configuration name="DivingBoardLCCI.divingBoardLCCITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestElement215_testKthLargestElement - 2020.06.30 at 15h 37m 18s.xml">
-      <configuration name="KthLargestElement215.testKthLargestElement" configurationId="JUnit" />
+    <history-entry file="DivingBoardLCCI_divingBoardLCCITest - 2020.07.08 at 15h 49m 05s.xml">
+      <configuration name="DivingBoardLCCI.divingBoardLCCITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestElement215_testKthLargestElement - 2020.06.30 at 16h 35m 18s.xml">
-      <configuration name="KthLargestElement215.testKthLargestElement" configurationId="JUnit" />
+    <history-entry file="DivingBoardLCCI_divingBoardLCCITest - 2020.07.08 at 16h 05m 57s.xml">
+      <configuration name="DivingBoardLCCI.divingBoardLCCITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestElement215 - 2020.06.30 at 16h 35m 39s.xml">
-      <configuration name="KthLargestElement215" configurationId="JUnit" />
+    <history-entry file="DivingBoardLCCI_divingBoardLCCITest - 2020.07.08 at 16h 06m 40s.xml">
+      <configuration name="DivingBoardLCCI.divingBoardLCCITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumLengthRepeatedSubarray718_maximumLengthRepeatedSubarrayTest - 2020.07.01 at 22h 48m 43s.xml">
-      <configuration name="MaximumLengthRepeatedSubarray718.maximumLengthRepeatedSubarrayTest" configurationId="JUnit" />
+    <history-entry file="DivingBoardLCCI_divingBoardLCCITest - 2020.07.08 at 16h 06m 45s.xml">
+      <configuration name="DivingBoardLCCI.divingBoardLCCITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumLengthRepeatedSubarray718_maximumLengthRepeatedSubarrayTest - 2020.07.01 at 22h 49m 59s.xml">
-      <configuration name="MaximumLengthRepeatedSubarray718.maximumLengthRepeatedSubarrayTest" configurationId="JUnit" />
+    <history-entry file="DivingBoardLCCI_divingBoardLCCITest - 2020.07.08 at 16h 07m 16s.xml">
+      <configuration name="DivingBoardLCCI.divingBoardLCCITest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MaximumLengthRepeatedSubarray718 - 2020.07.01 at 22h 50m 25s.xml">
-      <configuration name="MaximumLengthRepeatedSubarray718" configurationId="JUnit" />
+    <history-entry file="DivingBoardLCCI_divingBoardLCCITest - 2020.07.08 at 16h 08m 46s.xml">
+      <configuration name="DivingBoardLCCI.divingBoardLCCITest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1531681000" />
+    <option name="totallyTimeSpent" value="1544301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1121,10 +1117,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.15314835" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.20067114" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1133,8 +1129,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2418813" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" weight="0.35050392" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.211226" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" weight="0.21270311" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.23485968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3293944" />
@@ -1143,7 +1139,7 @@
       <window_info anchor="bottom" id="Statistic" order="9" weight="0.31757754" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49932885" weight="0.2788354" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.24636059" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.18463811" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Sequence" order="15" />
@@ -1625,6 +1621,30 @@
           <properties />
           <option name="timeStamp" value="207" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/tree/PathSum112.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/tree/PathSum112.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/tree/PathSum112.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/array/DivingBoardLCCI.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py</url>
           <line>33</line>
@@ -1830,34 +1850,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSum15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3300">
-          <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ContainsDuplicate219.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1075">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/long_pressed_925.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TheMasseuseLCCI16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/water_jug_problem_365.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2112,7 +2104,7 @@
     <entry file="file://$PROJECT_DIR$/../打分/搬运次数.txt" />
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeInorderTraversal94.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
+        <state relative-caret-position="700">
           <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2127,10 +2119,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSumClosest16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="29" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/WordBreak139.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2148,13 +2160,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/PathSum437.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="19" selection-start-line="2" selection-end-line="41" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -2162,30 +2167,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ThreeSumClosest16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="29" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaximumLengthRepeatedSubarray718.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="650">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/PathSum112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/PathSum437.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" selection-start-line="2" selection-end-line="41" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/PathSum112.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/DivingBoardLCCI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1641">
+          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
