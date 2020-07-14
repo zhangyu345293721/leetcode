@@ -42,10 +42,6 @@ public class PathSum112 {
         Integer[] arr = {5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1};
         TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr, 0);
         boolean b = hasPathSum2(binaryTreeByArray, 22);
-
-        Boolean s = true;
-
-        System.out.println(s.toString());
         System.out.println(b);
     }
 
