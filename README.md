@@ -536,4 +536,18 @@
     <th>Easy</th>
   </tr>
 </table>
+
 ## 7.tree
+
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
+  </tr>
+  <tr>
+    <th >94</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104189181">Binary Tree Inorder Traversal</a></th>
+    <th>Easy</th>
+  </tr>
+</table>
