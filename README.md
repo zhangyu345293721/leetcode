@@ -436,7 +436,7 @@
     <th>Easy</th>
   </tr> 
   <tr>
-    <th >3</th>
+    <th>3</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/81868702">Pairs Of Parentheses</a></th>
     <th>Middle</th>
   </tr> <tr>
