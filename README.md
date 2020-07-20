@@ -1,6 +1,6 @@
  # leetcode算法题目
- ###  题目官网:  https://leetcode.com/problemset/all/
-<br>  目前题目java实现，后面增加python实现，后续按照题目类型不断补充题目,类别主要分为：top100likedquestions，array，list，string，hashtable，math，tree：
+ ### 题目官网:  https://leetcode.com/problemset/all/
+<br>   目前题目java实现，后面增加python实现，后续按照题目类型不断补充题目,类别主要分为：top100likedquestions，array，list，string，hashtable，math，tree：
 
 ## 1.top100likedquestions
 <table border="2" >
@@ -436,7 +436,7 @@
     <th>Easy</th>
   </tr> 
   <tr>
-    <th >3</th>
+    <th>3</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/81868702">Pairs Of Parentheses</a></th>
     <th>Middle</th>
   </tr> <tr>
@@ -487,6 +487,43 @@
 </table>
 
 ## 3.list
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
+  </tr>
+  <tr>
+    <th >217</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/103976728">Contains Duplicate</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th >728</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/103983703">Self Dividing Numbers</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th >733</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104135666">Flood Fill</a></th>
+    <th>Easy</th>
+  </tr>
+  <tr>
+    <th >240</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104163813">Search 2D</a></th>
+    <th>Easy</th>
+  </tr>
+  <tr>
+    <th>122</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104198493">Best Time Buy</a></th>
+    <th>Easy</th>
+  </tr>
+  <tr>
+    <th>1217</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104282307">Play With Chips</a></th>
+    <th>Easy</th>
+  </tr>
+</table>
 ## 4.string
 
 <table border="2" >
