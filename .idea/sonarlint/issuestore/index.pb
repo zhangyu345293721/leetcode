@@ -795,3 +795,7 @@ S
 #src/leetcodejava/array/Offer11.java,4\f\4fe0ca25907199508137f9580c49b85706d42b7e
 [
 +src/leetcodejava/tree/BinarySearchTree.java,b\a\ba6895e6fd7263a7f83e3ca22f0cc01476ba0c0c
+]
+-src/leetcodejava/string/IsSubsequence392.java,1\3\13bb3d63be041c07f43fc3cfae16f6cfdb4a6b7e
+Z
+*src/leetcodejava/array/MagicIndexLCCI.java,9\b\9b32390e8271cdc829537617db2a071df9d3f989

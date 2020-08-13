@@ -4,16 +4,12 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 增加题目167">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/Offer11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/IsSubsequence392.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/UniqueBinarySearchTrees95.java" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 增加题目392">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/MagicIndexLCCI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bd40f6e83a7c18899ce4f2e23aa0eca09c3453d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bd40f6e83a7c18899ce4f2e23aa0eca09c3453d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c9d66dd34a020119282cfe248183d0d2ba98aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c9d66dd34a020119282cfe248183d0d2ba98aa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/IsSubsequence392.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/IsSubsequence392.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,17 +43,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="188" column="32" lean-forward="true" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
+            <state relative-caret-position="4600">
+              <caret line="188" column="32" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/IsSubsequence392.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/IsSubsequence392.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MagicIndexLCCI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+            <state relative-caret-position="1900">
+              <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+              <folding>
+                <element signature="e#718#719#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,17 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/Interview46.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="17" column="9" selection-start-line="4" selection-end-line="25" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/install/javajdk/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+            <state relative-caret-position="600">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -177,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/SumMutatedArrayClosestTarget1300.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/Sqrt69.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SortArray912.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java" />
@@ -228,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/Insert2BST.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/BinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/string/IsSubsequence392.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/MagicIndexLCCI.java" />
       </list>
     </option>
   </component>
@@ -361,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IsSubsequence392.IsSubsequenceTest">
+  <component name="RunManager" selected="JUnit.MagicIndexLCCI.magicIndexLCCITest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -379,6 +379,23 @@
       <option name="PACKAGE_NAME" value="leetcodejava.string" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.string.IsSubsequence392" />
       <option name="METHOD_NAME" value="IsSubsequenceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MagicIndexLCCI.magicIndexLCCITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.MagicIndexLCCI" />
+      <option name="METHOD_NAME" value="magicIndexLCCITest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -429,23 +446,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="leetcodejava.tree" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.tree.UniqueBinarySearchTrees95" />
-      <option name="METHOD_NAME" value="uniqueBinarySearchTreesTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniqueBinarySearchTrees96.uniqueBinarySearchTreesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.dynamicprogramming" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.dynamicprogramming.UniqueBinarySearchTrees96" />
       <option name="METHOD_NAME" value="uniqueBinarySearchTreesTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -539,20 +539,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UniqueBinarySearchTrees96.uniqueBinarySearchTreesTest" />
       <item itemvalue="JUnit.TwoSum167.twoSumTest" />
       <item itemvalue="JUnit.UniqueBinarySearchTrees95.uniqueBinarySearchTreesTest" />
       <item itemvalue="JUnit.Offer11.offerTest" />
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.IsSubsequence392.IsSubsequenceTest" />
+      <item itemvalue="JUnit.MagicIndexLCCI.magicIndexLCCITest" />
+      <item itemvalue="Tomcat Server.mytomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MagicIndexLCCI.magicIndexLCCITest" />
         <item itemvalue="JUnit.IsSubsequence392.IsSubsequenceTest" />
         <item itemvalue="JUnit.Offer11.offerTest" />
         <item itemvalue="JUnit.UniqueBinarySearchTrees95.uniqueBinarySearchTreesTest" />
         <item itemvalue="JUnit.TwoSum167.twoSumTest" />
-        <item itemvalue="JUnit.UniqueBinarySearchTrees96.uniqueBinarySearchTreesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -743,14 +743,10 @@
       <workItem from="1595397851929" duration="488000" />
       <workItem from="1595515576569" duration="3508000" />
       <workItem from="1595581744223" duration="4135000" />
-      <workItem from="1595817265139" duration="4252000" />
-    </task>
-    <task id="LOCAL-00127" summary="master:提交题目945">
-      <created>1584864342669</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1584864342669</updated>
+      <workItem from="1595817265139" duration="6098000" />
+      <workItem from="1595950581757" duration="941000" />
+      <workItem from="1596176066114" duration="3453000" />
+      <workItem from="1597288771222" duration="1448000" />
     </task>
     <task id="LOCAL-00128" summary="master:提交题目876">
       <created>1584923935824</created>
@@ -1088,22 +1084,17 @@
       <option name="project" value="LOCAL" />
       <updated>1595258248809</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <task id="LOCAL-00176" summary="master: 增加题目392">
+      <created>1595831927031</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1595831927031</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoSum167_twoSumTest - 2020.07.20 at 10h 32m 44s.xml">
-      <configuration name="TwoSum167.twoSumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoSum167_twoSumTest - 2020.07.20 at 15h 12m 25s.xml">
-      <configuration name="TwoSum167.twoSumTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UniqueBinarySearchTrees95_uniqueBinarySearchTreesTest - 2020.07.21 at 10h 48m 11s.xml">
-      <configuration name="UniqueBinarySearchTrees95.uniqueBinarySearchTreesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Offer11_offerTest - 2020.07.22 at 14h 08m 37s.xml">
-      <configuration name="Offer11.offerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IsSubsequence392_IsSubsequenceTest - 2020.07.27 at 11h 09m 41s.xml">
       <configuration name="IsSubsequence392.IsSubsequenceTest" configurationId="JUnit" />
     </history-entry>
@@ -1122,9 +1113,21 @@
     <history-entry file="IsSubsequence392_IsSubsequenceTest - 2020.07.27 at 14h 36m 20s.xml">
       <configuration name="IsSubsequence392.IsSubsequenceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IsSubsequence392_IsSubsequenceTest - 2020.07.28 at 23h 38m 02s.xml">
+      <configuration name="IsSubsequence392.IsSubsequenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsSubsequence392_IsSubsequenceTest - 2020.07.28 at 23h 39m 51s.xml">
+      <configuration name="IsSubsequence392.IsSubsequenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MagicIndexLCCI_magicIndexLCCITest - 2020.07.31 at 14h 18m 31s.xml">
+      <configuration name="MagicIndexLCCI.magicIndexLCCITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MagicIndexLCCI_magicIndexLCCITest - 2020.07.31 at 14h 18m 53s.xml">
+      <configuration name="MagicIndexLCCI.magicIndexLCCITest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1587988000" />
+    <option name="totallyTimeSpent" value="1595676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1137,9 +1140,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.23959732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1149,7 +1151,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2418813" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" weight="0.23633678" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4519941" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27769572" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3293944" />
@@ -1176,7 +1178,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Maven" order="9" weight="0.3295302" />
-      <window_info anchor="right" id="SciView" order="10" />
+      <window_info anchor="right" id="SciView" order="10" weight="0.3295302" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" weight="0.20330843" />
@@ -1280,7 +1282,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目注释" />
     <MESSAGE value="master:更新注释" />
     <MESSAGE value="master:对数组进行快速排序" />
     <MESSAGE value="master:增加题目56注释" />
@@ -1305,7 +1306,8 @@
     <MESSAGE value="master: 增加题目120" />
     <MESSAGE value="master: 增加题目" />
     <MESSAGE value="master: 增加题目167" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: 增加题目167" />
+    <MESSAGE value="master: 增加题目392" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: 增加题目392" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1883,13 +1885,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeRightSideView199.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/ValidPalindrome125.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
@@ -2168,6 +2163,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/javajdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4600">
+          <caret line="188" column="32" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/Interview46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -2210,38 +2233,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="188" column="32" lean-forward="true" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/install/javajdk/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/Interview46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="17" column="9" selection-start-line="4" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/IsSubsequence392.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state relative-caret-position="125">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MagicIndexLCCI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
+          <folding>
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
