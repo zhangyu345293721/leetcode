@@ -538,20 +538,6 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
     <th>Easy</th>
   </tr>
-  <tr>
-    <th >709</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104238836">Low First Char</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >925</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104247551">Is Long Pressed</a></th>
-    <th>Easy</th>
-  </tr>
- <th >14</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104305111">Longest Common</a></th>
-    <th>Easy</th>
-  </tr>
 </table>
 
 ## 5.hashtable
