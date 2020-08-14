@@ -524,7 +524,7 @@
     <th>Easy</th>
   </tr>
 </table>
-## 4.string
+## 3.list
 
 <table border="2" >
   <tr align="center" >
