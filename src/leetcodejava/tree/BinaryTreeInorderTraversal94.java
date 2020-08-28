@@ -36,7 +36,7 @@ public class BinaryTreeInorderTraversal94 {
     @Test
     public void binaryTreeInorderTraversalTest() {
         Integer arr[] = {1, 2, 3, 4, 5, 6};
-        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr, 0);
+        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr,null);
         List<Integer> list = inorderTraversal(binaryTreeByArray);
         System.out.println(list);
     }

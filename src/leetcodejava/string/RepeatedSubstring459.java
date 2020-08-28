@@ -16,24 +16,24 @@ import java.util.stream.Collectors;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个非空的字符串，判断它是否可以由它的一个子串重复多次构成。给定的字符串只含有小写英文字母，并且长度不超过10000。
- *
+ * <p>
  * 示例 1:
  * 输入: "abab"
- *
+ * <p>
  * 输出: True
- *
+ * <p>
  * 解释: 可由子字符串 "ab" 重复两次构成。
  * 示例 2:
  * 输入: "aba"
- *
+ * <p>
  * 输出: False
  * 示例 3:
  * 输入: "abcabcabcabc"
- *
+ * <p>
  * 输出: True
- *
+ * <p>
  * 解释: 可由子字符串 "abc" 重复四次构成。 (或者子字符串 "abcabc" 重复两次构成。)
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/repeated-substring-pattern
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -45,8 +45,8 @@ public class RepeatedSubstring459 {
     @Test
     public void repeatedSubstring() {
         String s = "bb";
-        boolean flag = repeatedSubstringPattern(s);
-        System.out.println("flag = " + flag);
+        boolean flag = repeatedSubstringPattern3(s);
+        System.out.println(flag);
     }
 
     /**
@@ -87,6 +87,16 @@ public class RepeatedSubstring459 {
             }
         }
         return flag;
+    }
+
+    /**
+     * 判断是否是重复子字符串
+     *
+     * @param s 主字符串
+     * @return 返回布尔值
+     */
+    public boolean repeatedSubstringPattern3(String s) {
+        return (s + s).indexOf(s, 1) != s.length();
     }
 
     /**

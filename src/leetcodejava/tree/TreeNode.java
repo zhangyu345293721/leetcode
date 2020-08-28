@@ -25,7 +25,10 @@ public class TreeNode {
      * @param index 下标
      * @return 二叉树
      */
-    public static TreeNode createBinaryTreeByArray(Integer[] array, int index) {
+    public static TreeNode createBinaryTreeByArray(Integer[] array, Integer index) {
+        if (index == null) {
+            index = 0;
+        }
         TreeNode treeNode = null;
         if (index < array.length) {
             Integer value = array[index];

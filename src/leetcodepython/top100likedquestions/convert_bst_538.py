@@ -11,7 +11,6 @@ class TreeNode:
         self.left = None
         self.right = None
 
-    @staticmethod
     def create_binary_tree_array(self, array, index):
         tree_node = None
         if index < len(array):
@@ -46,5 +45,6 @@ def convert_bst(root: TreeNode) -> TreeNode:
 
 if __name__ == '__main__':
     arr = [5, 2, 13]
-    tree = TreeNode.create_binary_tree_array(arr, 0)
+    treeNode = TreeNode()
+    tree = treeNode.create_binary_tree_array(arr, 0)
     print(tree)
