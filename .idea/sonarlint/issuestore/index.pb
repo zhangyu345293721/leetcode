@@ -817,3 +817,7 @@ e
 5src/leetcodejava/array/BitwiseANDNumbersRange201.java,0\a\0a50b427373434d69c29cdd40535c1a1ed06aaee
 e
 5src/leetcodejava/array/IncreasingSubsequences491.java,3\5\354d2451bb0f25ea998e528214efa44247d2f0dc
+`
+0src/leetcodejava/array/RobotReturnOrigin657.java,1\2\12d5d1c3da87dcc3dec3b8d665573e733fd33b00
+b
+2src/leetcodejava/string/ShortestPalindrome214.java,a\c\acaf21d7e4c538659c1ec20007e6697b365fe099
