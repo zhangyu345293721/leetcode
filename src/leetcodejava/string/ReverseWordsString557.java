@@ -67,7 +67,7 @@ public class ReverseWordsString557 {
         String[] strings = s.split(" ");
         StringBuilder sb = new StringBuilder();
         for (String sub : strings) {
-            sb.append(new StringBuffer(sub).reverse().toString());
+            sb.append(new StringBuffer(sub).reverse().toString()+" ");
         }
         return sb.toString().trim();
     }
