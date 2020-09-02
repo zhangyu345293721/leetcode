@@ -52,13 +52,13 @@ public class IsPalindromic {
      * 判断是不是回文串用双指针的形式
      *
      * @param list 链表
-     * @return
+     * @return 返回布尔值
      */
     public boolean isPalindromeList(List<Integer> list) {
         int i = 0;
         int j = list.size() - 1;
         while (i < j) {
-            if (list.get(i) != list.get(j)) {
+            if (list.get(i).equals(list.get(j))) {
                 return false;
             }
         }

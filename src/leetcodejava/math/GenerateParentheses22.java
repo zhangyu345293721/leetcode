@@ -6,11 +6,32 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 按照要求生成括号
+ * This is the solution of No.22 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/generate-parentheses
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 数字 n 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 有效的 括号组合。
+ * <p>
+ * 示例：
+ * <p>
+ * 输入：n = 3
+ * 输出：[
+ * "((()))",
+ * "(()())",
+ * "(())()",
+ * "()(())",
+ * "()()()"
+ * ]
+ * <p>
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/generate-parentheses
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
  *
- * @author zhangyu
- **/
-
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 
 public class GenerateParentheses22 {
     @Test

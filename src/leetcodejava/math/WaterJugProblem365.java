@@ -3,7 +3,7 @@ package leetcodejava.math;
 import org.junit.Test;
 
 /**
- * This is the solution of No.494 problem in the LeetCode,
+ * This is the solution of No.365 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/water-and-jug-problem
  * <p>

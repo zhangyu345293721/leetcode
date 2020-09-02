@@ -1,25 +1,30 @@
 package leetcodejava.list;
 
 /**
- * @author: zhangyu
- * @date: 2020/05/12 22:13
+ * 定义一个最小栈
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class MinStack {
-    private Node stack=null;
+    /**
+     * 定义一个节点
+     */
+    private Node stack = null;
+
     public MinStack() {
     }
 
     public void push(int x) {
-        if(stack==null){
-            stack=new Node(x,x);
-        }else{
-            stack=new Node(x,Math.min(x,stack.min),stack);
+        if (stack == null) {
+            stack = new Node(x, x);
+        } else {
+            stack = new Node(x, Math.min(x, stack.min), stack);
         }
     }
 
     // 弹出一个元素
     public void pop() {
-       stack=stack.next;
+        stack = stack.next;
     }
 
     public int top() {
@@ -30,19 +35,21 @@ public class MinStack {
         return stack.min;
     }
 
-    private class Node{
+    private class Node {
         int val;
         int min;
         Node next;
-        public Node(int val,int min,Node next){
-            this.val=val;
-            this.min=min;
-            this.next=next;
+
+        public Node(int val, int min, Node next) {
+            this.val = val;
+            this.min = min;
+            this.next = next;
         }
-        public Node(int val,int min){
-            this.val=val;
-            this.next=null;
-            this.min=min;
+
+        public Node(int val, int min) {
+            this.val = val;
+            this.next = null;
+            this.min = min;
         }
     }
 }

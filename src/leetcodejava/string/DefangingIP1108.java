@@ -41,7 +41,7 @@ public class DefangingIP1108 {
      * 对于.位置改为[.]
      *
      * @param address 地址
-     * @return
+     * @return 字符串
      */
     public String defangIPaddr(String address) {
         return address.replaceAll("\\.", "[\\.]");

@@ -34,13 +34,17 @@ public class LetterCombinationsPhoneNumber17 {
         System.out.println(list);
     }
 
-    // 数字到号码的映射
+    /**
+     * 数字到号码的映射
+     */
     private String[] map = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
     // 路径
     private StringBuilder sb = new StringBuilder();
 
-    // 结果集
+    /**
+     * 结果集
+     */
     private List<String> res = new ArrayList<>();
 
     /**

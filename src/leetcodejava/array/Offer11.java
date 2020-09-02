@@ -52,7 +52,6 @@ public class Offer11 {
                 r = mid;
             } else if (numbers[r] < numbers[mid]) {
                 l = mid + 1;
-                //去重
             } else {
                 r--;
             }
