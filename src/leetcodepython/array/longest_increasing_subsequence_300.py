@@ -1,9 +1,29 @@
 # encoding='utf-8'
 
 '''
-最大增数组的长度
-author:zhangyu
-date:2020.2.26
+/**
+ * This is the solution of No.300 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/longest-increasing-subsequence
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给定一个无序的整数数组，找到其中最长上升子序列的长度。
+ * <p>
+ * 示例:
+ * <p>
+ * 输入: [10,9,2,5,3,7,101,18]
+ * 输出: 4
+ * 解释: 最长的上升子序列是 [2,3,7,101]，它的长度是 4。
+ * 说明:
+ * 可能会有多种最长上升子序列的组合，你只需要输出对应的长度即可。
+ * 你算法的时间复杂度应该为 O(n2) 。
+ * <p>
+ * 来源：力扣（LeetCode）
+ * * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 '''
 from typing import List
 import numpy as np

@@ -1,8 +1,34 @@
 from typing import List
 
 '''
-author:zhangyu
-date:2020.4.16
+/**
+ * This is the solution of No. 912 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/sort-an-array
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给你一个整数数组 nums，请你将该数组升序排列。
+ * <p>
+ * 示例 1：
+ * <p>
+ * 输入：nums = [5,2,3,1]
+ * 输出：[1,2,3,5]
+ * 示例 2：
+ * <p>
+ * 输入：nums = [5,1,1,2,0,0]
+ * 输出：[0,0,1,1,2,5]
+ *  
+ * 提示：
+ * <p>
+ * 1 <= nums.length <= 50000
+ * -50000 <= nums[i] <= 50000
+ * <p>
+ * 来源：力扣（LeetCode）
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 '''
 def sort_array(nums: List[int]) -> List[int]:
     '''

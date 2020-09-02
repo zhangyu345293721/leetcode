@@ -25,7 +25,6 @@ import java.util.Map;
  * Output: 2
  * ==========================================================================================================
  * @author  zhangyu (zhangyuyu417@gmail.com)
- * @date    2019/03/13
  */
 public class MajorityElement169 {
     @Test

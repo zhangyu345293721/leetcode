@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This is the solution of No.680 problem in the LeetCode,
+ * This is the solution of No.409 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/longest-palindrome
  * <p>

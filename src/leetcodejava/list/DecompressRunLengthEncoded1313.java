@@ -30,7 +30,6 @@ import java.util.List;
  * 输入：nums = [1,1,2,3]
  * 输出：[1,3,3]
  *  
- *
  * 提示：
  *
  * 2 <= nums.length <= 100

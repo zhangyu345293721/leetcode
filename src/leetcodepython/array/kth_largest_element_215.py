@@ -1,9 +1,36 @@
 # encoding='utf-8'
 
 '''
-   author:zhangyu
-   date:2019.8.14
-   description:找出第K个大的数
+/**
+ * This is the solution of No.215 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/kth-largest-element-in-an-array
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 在未排序的数组中找到第 k 个最大的元素。请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
+ * <p>
+ * 示例 1:
+ * <p>
+ * 输入: [3,2,1,5,6,4] 和 k = 2
+ * 输出: 5
+ * 示例 2:
+ * <p>
+ * 输入: [3,2,3,1,2,4,5,5,6] 和 k = 4
+ * 输出: 4
+ * 说明:
+ * <p>
+ * 你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。
+ * <p>
+ * 通过次数120,951提交次数193,510
+ * <p>
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/kth-largest-element-in-an-array
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 '''
 
 from queue import PriorityQueue as PQ
