@@ -4,69 +4,158 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 题目修改提交">
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: python代码增加注释">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/FreqAlphabets1309.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03fb42f81582e69d718fbe9155492e968caa032f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/04b857f20c30ea6e9a96db237db5f9fb17354037" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/9/0935dd32f151e6cbe6edf3363aeaaa310de4ffe0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a4ec6b244e6ab01217bd90cbf981205e6cde06a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a4ec6b244e6ab01217bd90cbf981205e6cde06a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0a615179905ad90cb11bc753bbd39aea21a97041" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0be110e07c66adf33a7eada8b52baa09c45c3c8d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e1d7ecad6d2c5e1fda8813ad5a86cdaf9e58e27" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e1d7ecad6d2c5e1fda8813ad5a86cdaf9e58e27" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f6ddc1264df3ae3bf0c1c412397eddd771d705b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f6ddc1264df3ae3bf0c1c412397eddd771d705b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13bb3d63be041c07f43fc3cfae16f6cfdb4a6b7e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13bb3d63be041c07f43fc3cfae16f6cfdb4a6b7e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/170ed5fcabb225a7f16dc86b4c7722c4c4dbe827" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18c884033543860388e0ba9bc07683d5ae2320e6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18c884033543860388e0ba9bc07683d5ae2320e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e8f59e4cfa4066d364dbd3184691fcde02fe6af" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e8f59e4cfa4066d364dbd3184691fcde02fe6af" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/225ae68c3deb842f4e8ebc895e9b7a9b5ffc9346" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/2/225ae68c3deb842f4e8ebc895e9b7a9b5ffc9346" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23d0283e6e56db02928bebe9a08e5f7f520b04fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/23d0283e6e56db02928bebe9a08e5f7f520b04fd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258ec59ec031cdec71a02c2ab304b37c41483ca5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258ec59ec031cdec71a02c2ab304b37c41483ca5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/288502f8b601190b9744965270eb85986a78c1c1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/288502f8b601190b9744965270eb85986a78c1c1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b20d14095c1da56d79b47e8276501dc459f0693" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b20d14095c1da56d79b47e8276501dc459f0693" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c1825a968e68b4ef210579cc41e2b36a576e651" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c1825a968e68b4ef210579cc41e2b36a576e651" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2dce574741f6cdf4481bd946229c0a43f814db95" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2dce574741f6cdf4481bd946229c0a43f814db95" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/354d2451bb0f25ea998e528214efa44247d2f0dc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/354d2451bb0f25ea998e528214efa44247d2f0dc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36bef9dab9e3b5172783872c1b3a08426e3c5671" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38fc09f00c5564b891f0973469cf3680300526ed" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38fc09f00c5564b891f0973469cf3680300526ed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1b694cadd32d72064afbfbb9dc7fb302120911" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1b694cadd32d72064afbfbb9dc7fb302120911" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1f1af44274015cce66d3c4b869fa3a63dc1a3e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1f1af44274015cce66d3c4b869fa3a63dc1a3e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c8d1de8d75360643bbdf1120796ecc9e33d4e95" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c8d1de8d75360643bbdf1120796ecc9e33d4e95" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cbd55b8d5252817fb307913033ceacee43776b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d0fb3f6640b9f80a8037cbe48795cd90264a1b3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d0fb3f6640b9f80a8037cbe48795cd90264a1b3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/431dc4be0ebc734fa5ada9442d87ced2c982dddb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/431dc4be0ebc734fa5ada9442d87ced2c982dddb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/436d5a53342d174820914d5c46947d48b770d971" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4826254ef5404e992c004c9dae555308265ad1de" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4826254ef5404e992c004c9dae555308265ad1de" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48670054111bb95a1704c9c7a13d3ef02d11fd2a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48670054111bb95a1704c9c7a13d3ef02d11fd2a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48cdd8cc44ef35cb67b6dca38272e71d30f57ce1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48cdd8cc44ef35cb67b6dca38272e71d30f57ce1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bd40f6e83a7c18899ce4f2e23aa0eca09c3453d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bd40f6e83a7c18899ce4f2e23aa0eca09c3453d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d04dfd350b0f94128946a21d29d353236e26dc9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d04dfd350b0f94128946a21d29d353236e26dc9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d6537d6e851aabd40be7cbc1c0c661d7348e0d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4fe0ca25907199508137f9580c49b85706d42b7e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/f/4fe0ca25907199508137f9580c49b85706d42b7e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51df85de254eeec8243a7ef54d0275667f758a91" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/1/51df85de254eeec8243a7ef54d0275667f758a91" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5472e9fde3f7f420692d8e518aa3de4d689d10ae" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5472e9fde3f7f420692d8e518aa3de4d689d10ae" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55c5f8806d0e1e91f6a3458a337bbbf9e590642b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55c5f8806d0e1e91f6a3458a337bbbf9e590642b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/592552e63ba9000c3328be118fccc3070faba755" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/592552e63ba9000c3328be118fccc3070faba755" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a6a9d7c705cf3b2cb209493fd16f1126ab3a84d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a6a9d7c705cf3b2cb209493fd16f1126ab3a84d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c32837ab7a852ea8d6c85f5a73b11157b8fab7d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c32837ab7a852ea8d6c85f5a73b11157b8fab7d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/619371bf0410389833f8e9f45ef7eed3aeae1a47" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/619371bf0410389833f8e9f45ef7eed3aeae1a47" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/620c0e6577aedd7f294a4aeb88e4f1174b3f295f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/620c0e6577aedd7f294a4aeb88e4f1174b3f295f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/626d9ca690ddb7d484ba300b70464dfb2b267286" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/626d9ca690ddb7d484ba300b70464dfb2b267286" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6408328c818531e1bef3d19e441065f9262cf672" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6408328c818531e1bef3d19e441065f9262cf672" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f4163b4e444efd4156a2c4dfd0497651de151e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f4163b4e444efd4156a2c4dfd0497651de151e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d873ab13bdd243728fbdde3ee2987c378ef5400" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d873ab13bdd243728fbdde3ee2987c378ef5400" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6edbc896a486842abbf966e0df85b9cda49e1515" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6edbc896a486842abbf966e0df85b9cda49e1515" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f58d0930334da5d9dfd7cb3bf9cf86bb8fc98f6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f58d0930334da5d9dfd7cb3bf9cf86bb8fc98f6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79664cc805f773fc319344ebfca5c47f1a7d0973" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79664cc805f773fc319344ebfca5c47f1a7d0973" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f49599e2794ec2af6e00efb365895444704976d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f49599e2794ec2af6e00efb365895444704976d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897aad7f93c68381611654cb33da54a8da515060" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/897aad7f93c68381611654cb33da54a8da515060" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92df34c99d0832b6053d1a9108970ffad8fa3012" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92df34c99d0832b6053d1a9108970ffad8fa3012" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/957e005dba0e6d538915d3399c5eda7557335a6b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/957e005dba0e6d538915d3399c5eda7557335a6b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9696792f4d86698009c9ce2b9a5eb5a493e114cd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9696792f4d86698009c9ce2b9a5eb5a493e114cd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/975fa85fcc9fb2e781be2c9675ff647669dff9b5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b9e60904e6095ee608e158797885e43c18ec770" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b9e60904e6095ee608e158797885e43c18ec770" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1c7a754c407ffeee7ed108c2fe3fe234ed77567" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a1c7a754c407ffeee7ed108c2fe3fe234ed77567" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a49a9d2d1cdefafc7e4285b1d99d8e2077275153" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a49a9d2d1cdefafc7e4285b1d99d8e2077275153" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a990cc9bbe775d3875f08dafac2237176a894d17" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a990cc9bbe775d3875f08dafac2237176a894d17" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1765d825fe023517b2bb94b5613ece06b98d9d1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1765d825fe023517b2bb94b5613ece06b98d9d1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5b70a92d178a56b2ab803ef78e35d23cca4f6cf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/5/c5b70a92d178a56b2ab803ef78e35d23cca4f6cf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c82ce3aa3e627035eb5627ae0a1e7e3f5ce80016" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c82ce3aa3e627035eb5627ae0a1e7e3f5ce80016" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c948cd198c4cf8010c584537bc115269b09fde4d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c948cd198c4cf8010c584537bc115269b09fde4d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccc0050722ad0e31a1c3248cde3bec29fcaf4256" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccc0050722ad0e31a1c3248cde3bec29fcaf4256" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d17b900df9d71bc2a8f99e04d9f2c5acd4f56fee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2ef305d0466004017e3c9c8a60125d62fac4f0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2ef305d0466004017e3c9c8a60125d62fac4f0f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4fcd919b0449aac09567167e7dd134fd4e2b1ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4fcd919b0449aac09567167e7dd134fd4e2b1ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d923f627d522aee51b9fbca05c93ab97fe2918ef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d923f627d522aee51b9fbca05c93ab97fe2918ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/dad78acc89b9899eb2ffe1f58dcbed2ba9983fae" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dc9c0b76771cc778375f4a6aec365ee2a8882391" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcce80f74462fe2e171902f957e1e3d9e88c5afd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcce80f74462fe2e171902f957e1e3d9e88c5afd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2a25cb740625be965779ad1217d81a962dbff66" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2a25cb740625be965779ad1217d81a962dbff66" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7969f830e32d8b368e80fcd26fdfb6937302d87" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7969f830e32d8b368e80fcd26fdfb6937302d87" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8b33bc0f92e4e93a697cec697713ad0959edd96" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e8b33bc0f92e4e93a697cec697713ad0959edd96" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eab41a0ceee0c3c9ebe83a120163fd86d619b011" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/eab41a0ceee0c3c9ebe83a120163fd86d619b011" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f238a627d9b7d961f85b7f412e7d395f982cfa50" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f238a627d9b7d961f85b7f412e7d395f982cfa50" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9583abb5d11ea08759e98c2302e29d28dfdc31f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9583abb5d11ea08759e98c2302e29d28dfdc31f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/fa7d7a47d53d05f946a9fed5103f77f91d4d42cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb2159343ae8239465a9ce07aef8375d2b70fbab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc2ab3ff3b8743eb440cf36d33e73b61810134d2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd170487dcde2f5f3194c93393cbdddd51c87605" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd170487dcde2f5f3194c93393cbdddd51c87605" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/MinPathSum64.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/ProductSubarray152.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/Sqrt69.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/list/DecompressRunLengthEncoded1313.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/list/DecompressRunLengthEncoded1313.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/math/MajorityElement169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/math/MajorityElement169.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/LongestPalindrome409.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/LongestPalindrome409.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/tree/PartitionEqualSubsetSum416.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/add_digits_258.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/add_digits_258.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/array_partition_561.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/array_partition_561.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/available_captures_rook_999.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/available_captures_rook_999.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/best_sight_seeing_1014.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/best_sight_seeing_1014.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_122.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_122.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_sell_stock_121.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_sell_stock_121.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/coin_change_322.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/coin_change_322.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/container_with_most_water_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/container_with_most_water_11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_219.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_219.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/day_week_1185.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/day_week_1185.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/decompress_run_length_encoded_1313.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/decompress_run_length_encoded_1313.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/distribute_candies_people_1103.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/distribute_candies_people_1103.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/duplicate_zeros_1089.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/duplicate_zeros_1089.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/find_continuous_sequence_57.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/find_continuous_sequence_57.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/flood_fill_733.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/flood_fill_733.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/get_single_number_136.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/get_single_number_136.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/jump_game_45.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/jump_game_45.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/keys_and_rooms_841.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/keys_and_rooms_841.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/largest_rectangle_histogram_84.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/largest_rectangle_histogram_84.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/longest_increasing_subsequence_300.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/longest_increasing_subsequence_300.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/maximal_rectangle_85.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximal_rectangle_85.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/maximal_square_221.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximal_square_221.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/maximum_subarray_53.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximum_subarray_53.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/partition_equal_subset_sum_416.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/partition_equal_subset_sum_416.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/peak_index_mountain_array_852.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/peak_index_mountain_array_852.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/play_with_chips_1217.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/play_with_chips_1217.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/reconstruct_queue_406.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/reconstruct_queue_406.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/rectangle_overlap_836.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/rectangle_overlap_836.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/reshape_matrix_566.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/reshape_matrix_566.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/rotate_image_48.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/rotate_image_48.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/self_diving_number_728.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/self_diving_number_728.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/shortest_completing_word_748.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/shortest_completing_word_748.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/sort_array_912.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/sort_array_912.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/spiral_matrix_54.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/spiral_matrix_54.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/sqrt_69.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/sqrt_69.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/subarray_sum_equals_k_560.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/subarray_sum_equals_k_560.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_k_max_number_215.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/ReverseOnlyLetters917.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/ReverseOnlyLetters917.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/tree/FlattenBinaryTreeLinkedList114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/tree/FlattenBinaryTreeLinkedList114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/trapping_rain_water_42.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/trapping_rain_water_42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/two_city_scheduling_1029.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/two_city_scheduling_1029.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/two_sum_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/two_sum_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/unique_number_occurrences_1207.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/unique_number_occurrences_1207.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/x_kind_deck_cards_914.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/x_kind_deck_cards_914.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/list/intersection_two_linked_lists_160.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/list/intersection_two_linked_lists_160.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/list/middle_linked_list_876.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/list/middle_linked_list_876.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/math/palindrome_number_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/math/palindrome_number_9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/math/perfect_squares_279.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/math/perfect_squares_279.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/math/three_sum_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/math/unique_binary_search_trees_96.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/math/unique_binary_search_trees_96.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/math/water_jug_problem_365.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/math/water_jug_problem_365.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/add_binary_67.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/add_binary_67.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/day_year_1154.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/day_year_1154.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/excel_sheet_column_number_171.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/excel_sheet_column_number_171.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/generate_parenthess_22.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/generate_parenthess_22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/interview_46.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/interview_46.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/long_pressed_925.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/long_pressed_925.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/longest_common_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/longest_common_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/longest_valid_parentheses_32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/low_first_char_709.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/low_first_char_709.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/multiply_strings_43.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/multiply_strings_43.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/palindromic_substrings_647.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/palindromic_substrings_647.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/reverse_only_letters_917.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/reverse_only_letters_917.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/short_encoding_words_820.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/short_encoding_words_820.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/valid_parentheses_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/valid_parentheses_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/verifying_alien_dictionary_953.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/verifying_alien_dictionary_953.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/word_break_139.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/word_break_139.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/combination_sum_39.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/combination_sum_39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/convert_bst_538.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/convert_bst_538.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_duplicate_number_287.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_duplicate_number_287.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_k_sorted_lists_23.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_k_sorted_lists_23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/minimum_path_sum_64.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/unique_path_62.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/unique_path_62.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_inorder_traversal_94.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_inorder_traversal_94.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_traversal_102.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_traversal_102.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/diameter_binary_tree_543.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/diameter_binary_tree_543.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/flatten_binary_tree_linked_list_114.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/flatten_binary_tree_linked_list_114.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/lowest_common_ancestory_binary_tree_236.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/lowest_common_ancestory_binary_tree_236.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/merge_two_binary_trees_617.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/merge_two_binary_trees_617.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/minimum_depth_binary_tree_111.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/minimum_depth_binary_tree_111.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/postorder_traversal_145.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/postorder_traversal_145.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/preorder_traversal_144.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/preorder_traversal_144.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/range_sum_bst_938.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/range_sum_bst_938.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/validate_binary_search_tree_98.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/validate_binary_search_tree_98.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,91 +187,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/solution_view_40.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/minimum_depth_binary_tree_111.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="221">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SolutionView40.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/postorder_traversal_145.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="371">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/sort_array_912.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/preorder_traversal_144.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="446">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/spiral_matrix_54.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/range_sum_bst_938.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <state relative-caret-position="50">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/sqrt_69.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/subarray_sum_equals_k_560.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/validate_binary_search_tree_98.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+            <state relative-caret-position="-4">
+              <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/SubarraySumEqualsK560.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/ValidateBinarySearchTree98.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="28" column="3" lean-forward="true" selection-start-line="6" selection-end-line="28" selection-end-column="3" />
+            <state relative-caret-position="100">
+              <caret line="6" selection-start-line="6" selection-end-line="43" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/Sqrt69.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/RangeSumBST938.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="425">
+              <caret line="35" column="3" lean-forward="true" selection-start-line="4" selection-end-line="35" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SpiralMatrix54.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreePreorderTraversal144.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="28" column="3" lean-forward="true" selection-start-line="4" selection-end-line="28" selection-end-column="3" />
+            <state relative-caret-position="100">
+              <caret line="9" selection-start-line="9" selection-end-line="36" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SortArray912.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreePostorderTraversal145.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="34" column="3" lean-forward="true" selection-start-line="7" selection-end-line="34" selection-end-column="3" />
+            <state relative-caret-position="100">
+              <caret line="9" selection-start-line="9" selection-end-line="35" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -231,57 +316,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/best_time_buy_sell_stock_121.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/coin_change_322.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/container_with_most_water_11.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_219.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/day_week_1185.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/list/DecompressRunLengthEncoded1313.java" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/decompress_run_length_encoded_1313.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/distribute_candies_people_1103.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/find_continuous_sequence_57.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/flood_fill_733.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/get_single_number_136.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/jump_game_45.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/keys_and_rooms_841.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/largest_rectangle_histogram_84.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/longest_increasing_subsequence_300.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/math/MajorityElement169.java" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/max_area_island_695.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/maximal_rectangle_85.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/maximal_square_221.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/maximum_subarray_53.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/partition_equal_subset_sum_416.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/peak_index_mountain_array_852.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/play_with_chips_1217.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/reconstruct_queue_406.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/rectangle_overlap_836.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/reshape_matrix_566.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/rotate_image_48.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/self_diving_number_728.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/string/ShortestCompletingWord748.java" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/shortest_completing_word_748.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/string/LongestPalindrome409.java" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/sort_array_912.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/spiral_matrix_54.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/sqrt_69.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/subarray_sum_equals_k_560.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/math/water_jug_problem_365.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/add_binary_67.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/day_year_1154.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/excel_sheet_column_number_171.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/find_difference_389.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/generate_parenthess_22.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/interview_46.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/long_pressed_925.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/longest_common_14.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/longest_substring_without_repeating_characters_3.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/low_first_char_709.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/multiply_strings_43.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/palindromic_substrings_647.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/remove_outer_most_parenthess_1021.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/ReverseOnlyLetters917.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/reverse_only_letters_917.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/reverse_string2_541.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/short_encoding_words_820.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/valid_parentheses_20.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/verifying_alien_dictionary_953.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/word_break_139.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/FreqAlphabets1309.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/combination_sum_39.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/convert_bst_538.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_duplicate_number_287.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_k_sorted_lists_23.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/unique_path_62.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_inorder_traversal_94.pyi" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_traversal_102.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/diameter_binary_tree_543.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/tree/FlattenBinaryTreeLinkedList114.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/flatten_binary_tree_linked_list_114.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/lowest_common_ancestory_binary_tree_236.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/merge_two_binary_trees_617.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/minimum_depth_binary_tree_111.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/postorder_traversal_145.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/preorder_traversal_144.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/range_sum_bst_938.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/validate_binary_search_tree_98.py" />
       </list>
     </option>
   </component>
@@ -302,10 +387,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-2009" />
+    <option name="y" value="89" />
+    <option name="width" value="1551" />
+    <option name="height" value="839" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -330,40 +415,6 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="top100likedquestions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -429,24 +480,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.reverse_integer_7">
+  <component name="RunManager" selected="Python.freq_alphabets_1309">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbingStairs70.testClimbingStairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FreqAlphabets1309.freqAlphabetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcodejava.dynamicprogramming.*" />
+          <option name="PATTERN" value="leetcodejava.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.dynamicprogramming" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.dynamicprogramming.ClimbingStairs70" />
-      <option name="METHOD_NAME" value="testClimbingStairs" />
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.FreqAlphabets1309" />
+      <option name="METHOD_NAME" value="freqAlphabetsTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -482,28 +533,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="duplicate_zeros_1089" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcodepython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/duplicate_zeros_1089.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="element_appearing_1287" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -518,6 +547,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/element_appearing_1287.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="freq_alphabets_1309" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -627,20 +678,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.ClimbingStairs70.testClimbingStairs" />
-      <item itemvalue="Python.duplicate_zeros_1089" />
       <item itemvalue="Python.element_appearing_1287" />
       <item itemvalue="Python.add_two_numer" />
       <item itemvalue="Python.reverse_integer_7" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.FreqAlphabets1309.freqAlphabetsTest" />
+      <item itemvalue="Python.freq_alphabets_1309" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.freq_alphabets_1309" />
+        <item itemvalue="JUnit.FreqAlphabets1309.freqAlphabetsTest" />
         <item itemvalue="Python.reverse_integer_7" />
         <item itemvalue="Python.add_two_numer" />
         <item itemvalue="Python.element_appearing_1287" />
-        <item itemvalue="Python.duplicate_zeros_1089" />
-        <item itemvalue="JUnit.ClimbingStairs70.testClimbingStairs" />
       </list>
     </recent_temporary>
   </component>
@@ -846,14 +897,8 @@
       <workItem from="1598968590000" duration="921000" />
       <workItem from="1599025376396" duration="337000" />
       <workItem from="1599026165244" duration="579000" />
-      <workItem from="1599034006471" duration="6186000" />
-    </task>
-    <task id="LOCAL-00134" summary="master:增加题目914">
-      <created>1585291229327</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1585291229328</updated>
+      <workItem from="1599034006471" duration="7639000" />
+      <workItem from="1599120400324" duration="4685000" />
     </task>
     <task id="LOCAL-00135" summary="master:增加题目999">
       <created>1585301913086</created>
@@ -1191,28 +1236,17 @@
       <option name="project" value="LOCAL" />
       <updated>1599037464446</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="master: python代码增加注释">
+      <created>1599040456884</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1599040456884</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BitwiseANDNumbersRange201_bitwiseANDNumbersRangeTest - 2020.08.23 at 17h 04m 30s.xml">
-      <configuration name="BitwiseANDNumbersRange201.bitwiseANDNumbersRangeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedSubstring459_repeatedSubstring - 2020.08.25 at 09h 19m 10s.xml">
-      <configuration name="RepeatedSubstring459.repeatedSubstring" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RepeatedSubstring459_repeatedSubstring - 2020.08.25 at 09h 19m 28s.xml">
-      <configuration name="RepeatedSubstring459.repeatedSubstring" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LetterCombinationsPhoneNumber17_testLetterCombinationsPhoneNumber - 2020.08.26 at 11h 36m 08s.xml">
-      <configuration name="LetterCombinationsPhoneNumber17.testLetterCombinationsPhoneNumber" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RobotReturnOrigin657_robotReturnOriginTest - 2020.08.28 at 16h 03m 53s.xml">
-      <configuration name="RobotReturnOrigin657.robotReturnOriginTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPalindrome214_shortestPalindromeTest - 2020.08.29 at 11h 25m 19s.xml">
-      <configuration name="ShortestPalindrome214.shortestPalindromeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShortestPalindrome214_shortestPalindromeTest - 2020.08.29 at 12h 01m 17s.xml">
       <configuration name="ShortestPalindrome214.shortestPalindromeTest" configurationId="JUnit" />
     </history-entry>
@@ -1225,9 +1259,27 @@
     <history-entry file="ClimbingStairs70_testClimbingStairs - 2020.09.02 at 16h 50m 56s.xml">
       <configuration name="ClimbingStairs70.testClimbingStairs" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FreqAlphabets1309_freqAlphabetsTest - 2020.09.03 at 17h 05m 17s.xml">
+      <configuration name="FreqAlphabets1309.freqAlphabetsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FreqAlphabets1309_freqAlphabetsTest - 2020.09.03 at 17h 06m 06s.xml">
+      <configuration name="FreqAlphabets1309.freqAlphabetsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FreqAlphabets1309_freqAlphabetsTest - 2020.09.03 at 17h 06m 31s.xml">
+      <configuration name="FreqAlphabets1309.freqAlphabetsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FreqAlphabets1309_freqAlphabetsTest - 2020.09.03 at 17h 11m 41s.xml">
+      <configuration name="FreqAlphabets1309.freqAlphabetsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FreqAlphabets1309_freqAlphabetsTest - 2020.09.03 at 17h 11m 58s.xml">
+      <configuration name="FreqAlphabets1309.freqAlphabetsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FreqAlphabets1309_freqAlphabetsTest - 2020.09.03 at 17h 12m 11s.xml">
+      <configuration name="FreqAlphabets1309.freqAlphabetsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1649240000" />
+    <option name="totallyTimeSpent" value="1655378000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1240,9 +1292,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.22465315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.22785486" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1251,8 +1302,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2418813" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.27547592" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43131462" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.38633817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.431131" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3293944" />
@@ -1383,7 +1434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目11" />
     <MESSAGE value="master:增加题目466" />
     <MESSAGE value="master:增加题目200" />
     <MESSAGE value="master:增加题目33" />
@@ -1408,7 +1458,8 @@
     <MESSAGE value="master: 题目214" />
     <MESSAGE value="master: 题目557" />
     <MESSAGE value="master: 题目修改提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: 题目修改提交" />
+    <MESSAGE value="master: python代码增加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: python代码增加注释" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1775,7 +1826,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py</url>
-          <line>33</line>
+          <line>65</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1785,27 +1836,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/add_binary_67.py</url>
-          <line>54</line>
+          <line>74</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/generate_parenthess_22.py</url>
-          <line>20</line>
+          <line>44</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/list/reverse_list_206.py</url>
-          <line>73</line>
+          <line>86</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/list/middle_linked_list_876.py</url>
-          <line>53</line>
+          <line>96</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/tree/validate_binary_search_tree_98.py</url>
-          <line>57</line>
+          <line>93</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -1887,6 +1938,7 @@
     <SUITE FILE_PATH="coverage/leetcode$find_duplicate_number_287.coverage" NAME="find_duplicate_number_287 Coverage Results" MODIFIED="1582084623461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$remove_outer_most_parenthess_1021.coverage" NAME="remove_outer_most_parenthess_1021 Coverage Results" MODIFIED="1579066786518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$middle_linked_list_876.coverage" NAME="middle_linked_list_876 Coverage Results" MODIFIED="1584958891639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/list" />
+    <SUITE FILE_PATH="coverage/leetcode$freq_alphabets_1309.coverage" NAME="freq_alphabets_1309 Coverage Results" MODIFIED="1599124475261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$long_pressed_925.coverage" NAME="long_pressed_925 Coverage Results" MODIFIED="1581313108673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$minimum_increment_make_array_unique_945.coverage" NAME="minimum_increment_make_array_unique_945 Coverage Results" MODIFIED="1584864536615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$largest_rectangle_histogram_84.coverage" NAME="largest_rectangle_histogram_84 Coverage Results" MODIFIED="1580711938560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -1997,356 +2049,358 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py">
+    <entry file="jar://D:/install/javajdk/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+        <state relative-caret-position="216">
+          <caret line="4568" column="28" selection-start-line="4568" selection-start-column="28" selection-end-line="4568" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/FreqAlphabets1309.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="48" selection-start-line="8" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/CombinationSum39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="43" column="3" lean-forward="true" selection-start-line="8" selection-end-line="43" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/combination_sum_39.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/ConvertBST538.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" selection-start-line="5" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/convert_bst_538.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance72.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="39" column="3" lean-forward="true" selection-start-line="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/FindDuplicateNumber287.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="38" column="3" lean-forward="true" selection-start-line="8" selection-end-line="38" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/find_duplicate_number_287.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="32" column="3" lean-forward="true" selection-start-line="4" selection-end-line="32" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MinPathSum64.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/jump_game_55.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_arr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1500" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/MergeKSortedLists23.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_k_sorted_lists_23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#62#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/minimum_path_sum_64.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-900" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MinimumIncrementMakeArrayUnique945.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="35" column="3" lean-forward="true" selection-start-line="8" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MonotonicArray896.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="4" selection-start-line="4" selection-end-line="34" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/number_islands_200.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/NextGreaterElement496.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
+        <state relative-caret-position="146">
           <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/NRepeatedElement961.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="7" selection-end-line="34" selection-end-column="3" />
+        <state relative-caret-position="25">
+          <caret line="4" selection-start-line="4" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/transpose_matrix_867.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/NthTribonacciNumber1137.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="4" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/nth_tribonacci_number_1137.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="775">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/PartitionEqualSubsetSum416.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/PartitionEqualSubsetSum416.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="6" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/partition_equal_subset_sum_416.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/PeakIndexMountainArray852.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/peak_index_mountain_array_852.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/PlayWithChips1217.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="36" column="3" lean-forward="true" selection-start-line="4" selection-end-line="36" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/play_with_chips_1217.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ReconstructQueue406.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="8" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/reconstruct_queue_406.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/RectangleOverlap836.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/rectangle_overlap_836.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ReshapeMatrix566.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" selection-start-line="7" selection-end-line="47" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/reshape_matrix_566.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/reverse_integer_7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/RotateImage48.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="4" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/rotate_image_48.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/Search2D240.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="3" lean-forward="true" selection-start-line="2" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/search_2d_matrix_240.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/search_insert_position_35.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="7" selection-end-line="34" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/self_diving_number_728.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Shift2DGrid1260.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="8" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/shift_2d_grid_1260.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
+        <state relative-caret-position="446">
           <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/ShortestCompletingWord748.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/UniquePath62.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="49" column="3" lean-forward="true" selection-start-line="9" selection-end-line="49" selection-end-column="3" />
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/shortest_completing_word_748.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/unique_path_62.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="42" column="3" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        <state relative-caret-position="221">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestPalindrome409.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeInorderTraversal94.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="32" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/solution_view_40.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_inorder_traversal_94.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="446">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SolutionView40.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeLevelOrderTraversal102.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" selection-start-line="9" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_traversal_102.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/diameter_binary_tree_543.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/DiameterBinaryTree543.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="8" selection-start-line="2" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/flatten_binary_tree_linked_list_114.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/FlattenBinaryTreeLinkedList114.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <caret line="34" column="13" lean-forward="true" selection-start-line="5" selection-end-line="43" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SortArray912.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="34" column="3" lean-forward="true" selection-start-line="7" selection-end-line="34" selection-end-column="3" />
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="44" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/sort_array_912.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
+        <state relative-caret-position="446">
+          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/LowestCommonAncestorBinaryTree236.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/lowest_common_ancestory_binary_tree_236.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
           <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SpiralMatrix54.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/MergeTwoBinaryTrees617.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="4" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="25">
+          <caret line="7" selection-start-line="7" selection-end-line="42" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/spiral_matrix_54.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/merge_two_binary_trees_617.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state relative-caret-position="446">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Sqrt69.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/MinimumDepthBinaryTree111.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/minimum_depth_binary_tree_111.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreePostorderTraversal145.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" selection-start-line="9" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/postorder_traversal_145.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreePreorderTraversal144.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="9" selection-start-line="9" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/preorder_traversal_144.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/RangeSumBST938.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="3" lean-forward="true" selection-start-line="4" selection-end-line="35" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/range_sum_bst_938.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/Sqrt69.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/ValidateBinarySearchTree98.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="43" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/sqrt_69.py">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/validate_binary_search_tree_98.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/SubarraySumEqualsK560.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="6" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/subarray_sum_equals_k_560.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        <state relative-caret-position="-4">
+          <caret line="38" column="3" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="3" />
         </state>
       </provider>
     </entry>

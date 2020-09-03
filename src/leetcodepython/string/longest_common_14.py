@@ -1,8 +1,31 @@
 # -*- coding:utf-8 -*-
 '''
-最长前缀
-author:zhangyu
-date:2020/2/13
+/**
+ * This is the solution of No. 14 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/longest-common-prefix
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 编写一个函数来查找字符串数组中的最长公共前缀。
+ * <p>
+ * 如果不存在公共前缀，返回空字符串 ""。
+ * <p>
+ * 示例 1:
+ * <p>
+ * 输入: ["flower","flow","flight"]
+ * 输出: "fl"
+ * 示例 2:
+ * <p>
+ * 输入: ["dog","racecar","car"]
+ * 输出: ""
+ * 解释: 输入不存在公共前缀。
+ * <p>
+ * 来源：力扣（LeetCode）
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 '''
 from typing import List
 import sys

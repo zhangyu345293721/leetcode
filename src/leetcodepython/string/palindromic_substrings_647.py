@@ -1,9 +1,35 @@
 # encoding='utf-8'
 
 '''
-计算一个字符串中，它的子字符串包含多少回文串
-author:zhangyu
-date:2020.8.22
+/**
+ * This is the solution of No. 647 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/palindromic-substrings
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给定一个字符串，你的任务是计算这个字符串中有多少个回文子串。
+ * <p>
+ * 具有不同开始位置或结束位置的子串，即使是由相同的字符组成，也会被视作不同的子串。
+ * <p>
+ * 示例 1：
+ * <p>
+ * 输入："abc"
+ * 输出：3
+ * 解释：三个回文子串: "a", "b", "c"
+ * 示例 2：
+ * <p>
+ * 输入："aaa"
+ * 输出：6
+ * 解释：6个回文子串: "a", "a", "a", "aa", "aa", "aaa"
+ * <p>
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/palindromic-substrings
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 '''
 
 

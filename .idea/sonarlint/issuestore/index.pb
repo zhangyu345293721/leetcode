@@ -27,8 +27,6 @@ $src/leetcodejava/array/BitCount.java,8\f\8feb71156929334c93773ed75b409d53af715
 ,src/leetcodejava/array/FlippingImage832.java,5\7\573c20a2efd4766e5098eb1aea1a1d795d3a1514
 ]
 -src/leetcodejava/array/HeightChecker1051.java,e\a\ea01e5f84a5cde08c1cf851ddc4bdd9fe83477c4
-X
-(src/leetcodejava/array/InvertNumber.java,3\c\3cbd55b8d5252817fb307913033ceacee43776b5
 V
 &src/leetcodejava/array/JumpGame55.java,4\8\4826254ef5404e992c004c9dae555308265ad1de
 g
@@ -41,8 +39,6 @@ i
 9src/leetcodejava/array/MinimumAbsoluteDifference1200.java,1\2\123e118ac2e431f704e5f75aa5d2f617764ef068
 ]
 -src/leetcodejava/array/PlaywithChips1217.java,c\3\c336f69498f811833d593a0f0c80e90c086b8dde
-^
-.src/leetcodejava/array/ProductSubarray152.java,9\7\975fa85fcc9fb2e781be2c9675ff647669dff9b5
 a
 1src/leetcodejava/array/RelativeSortArray1122.java,e\e\ee01e2648da297606ffa588391adeab0377344cc
 [
@@ -83,18 +79,12 @@ V
 -src/leetcodejava/math/HammingDistance461.java,4\9\49343ad9b2b558ca568abb2a1c988b06d3c18eaf
 g
 7src/leetcodejava/math/MaximumNumberofBalloons11892.java,f\a\fa1784c292d858d1f1213bcf00ef260858089633
-`
-0src/leetcodejava/math/PalindromicSubstrings.java,4\d\4d6537d6e851aabd40be7cbc1c0c661d7348e0d1
 \
 ,src/leetcodejava/math/ReplacePattern890.java,3\6\368cc617a2ea35fc0e620d5c988656b5e72b427e
 X
 (src/leetcodejava/math/RotateImage48.java,e\0\e032d0511403528d58f51b2413294d8d3e717977
-m
-=src/leetcodejava/math/ShortestUnsortedContinuousSubarray.java,0\b\0be110e07c66adf33a7eada8b52baa09c45c3c8d
 b
 2src/leetcodejava/math/SlidingWindowMaximum239.java,7\5\75de892bd78b53d086b82869e9beb0700cda1067
-T
-$src/leetcodejava/math/SmallSort.java,f\c\fc2ab3ff3b8743eb440cf36d33e73b61810134d2
 _
 /src/leetcodejava/math/StudentAttendance551.java,2\2\225ae68c3deb842f4e8ebc895e9b7a9b5ffc9346
 `
@@ -103,8 +93,6 @@ T
 $src/leetcodejava/math/Subsets78.java,e\2\e2a25cb740625be965779ad1217d81a962dbff66
 W
 'src/leetcodejava/math/TargetSum494.java,2\d\2dce574741f6cdf4481bd946229c0a43f814db95
-X
-(src/leetcodejava/math/UniquePaths62.java,0\a\0a615179905ad90cb11bc753bbd39aea21a97041
 W
 'src/leetcodejava/math/WordBreak139.java,0\f\0f09c5ffafc2613880b7974f91598154a477021e
 Y
@@ -239,8 +227,6 @@ k
 ;src/leetcodepython/top100likedquestions/edit_distance_72.py,f\1\f1d00c04632809f86771fc9a0fad0de6b064897c
 t
 Dsrc/leetcodepython/top100likedquestions/find_duplicate_number_287.py,d\5\d55a4d3740639d21c68db867a844b35ff217651f
-p
-@src/leetcodepython/top100likedquestions/find_k_max_number_215.py,0\3\03fb42f81582e69d718fbe9155492e968caa032f
 g
 7src/leetcodepython/top100likedquestions/jump_game_55.py,3\b\3be906277238b06b5d3d24710dffb061b74795e5
 w
@@ -311,8 +297,6 @@ h
 .src/leetcodejava/string/FindDifference389.java,5\5\55fc7ca4b8240dedadefbefc1ed8f32a4d5482c5
 ?
 venv/pyvenv.cfg,b\0\b0e04816a9971064291cd324e57037faa4a05306
-^
-.src/leetcodejava/array/MaximalRectangle85.java,f\b\fb2159343ae8239465a9ce07aef8375d2b70fbab
 `
 0src/leetcodepython/array/maximal_rectangle_85.py,2\b\2b20d14095c1da56d79b47e8276501dc459f0693
 `
@@ -413,10 +397,6 @@ n
 >src/leetcodepython/array/longest_increasing_subsequence_300.py,9\1\91288c6c2f76f60f4bf98154818df248e80d6a4b
 k
 ;src/leetcodejava/array/LongestIncreasingSubsequence300.java,6\d\6d43b09878b2c6c200945e27aec8f81aa8633d59
-\
-,src/leetcodejava/array/MergeIntervals56.java,d\a\dad78acc89b9899eb2ffe1f58dcbed2ba9983fae
-X
-(src/leetcodejava/array/MinPathSum64.java,1\7\170ed5fcabb225a7f16dc86b4c7722c4c4dbe827
 [
 +src/leetcodepython/array/min_path_sum_64.py,9\1\9171706760d09f025e9819730e43343bedc42612
 ^
@@ -507,8 +487,6 @@ k
 0src/leetcodejava/tree/SubtreeAnotherTree572.java,4\e\4e7ad83833423611e2f0566ec8e1bfd8876c342a
 d
 4src/leetcodejava/string/EqualsIgnoreOrderString.java,b\a\ba29d7551dbfd97d4653f6064ac1f7cc57128c9a
-e
-5src/leetcodejava/tree/PartitionEqualSubsetSum416.java,d\c\dc9c0b76771cc778375f4a6aec365ee2a8882391
 W
 'src/leetcodejava/math/WordSearch79.java,a\4\a41abc8929fa61d70968b191ffc05a3fb2fdd6a1
 _
@@ -605,14 +583,6 @@ W
 'src/leetcodejava/list/LFUCache4601.java,3\9\39e2ef19c73b1106c5b5b50260405eeae39f03da
 W
 'src/leetcodejava/list/LFUCache4602.java,b\e\be9c90680ad9ca5c9086a2a2526a8fb316439665
-W
-'src/leetcodejava/list/LRUCacheDemo.java,d\1\d17b900df9d71bc2a8f99e04d9f2c5acd4f56fee
-X
-(src/leetcodejava/list/LRUCacheDemo2.java,0\9\0935dd32f151e6cbe6edf3363aeaaa310de4ffe0
-W
-'src/leetcodejava/array/RotateImage.java,3\6\36bef9dab9e3b5172783872c1b3a08426e3c5671
-`
-0src/leetcodejava/list/TestLinkedHashMapDemo.java,4\3\436d5a53342d174820914d5c46947d48b770d971
 [
 +src/leetcodejava/list/LRULinkedHashMap.java,3\5\353ac4748f9fb04f243c18bf401badadf394b4c2
 X
@@ -653,8 +623,6 @@ h
 8src/leetcodejava/array/CountNumberNiceSubarrays1248.java,2\b\2b0e481c81cc289cfe34a296583477c038194301
 e
 5src/leetcodejava/tree/BinaryTreeRightSideView199.java,2\3\2300a2e144ed90cad266e9321b77b1281f805988
-Z
-*src/leetcodejava/array/WaysToChange11.java,0\4\04b857f20c30ea6e9a96db237db5f9fb17354037
 f
 6src/leetcodejava/array/SearchRotatedSortedArray33.java,5\0\5000ad4880105c16ec8045b152b25f01fa873f1e
 [
@@ -673,8 +641,6 @@ X
 (src/leetcodepython/array/jump_game_45.py,5\1\516ffc70a9686f63eb964a54d7b65c114b62d947
 d
 4src/leetcodejava/array/MinimumCostForTickets983.java,4\c\4c5ab95900635ebf201d06c46d7d377147581f6b
-R
-"src/leetcodejava/array/Sqrt69.java,f\a\fa7d7a47d53d05f946a9fed5103f77f91d4d42cd
 S
 #src/leetcodepython/array/sqrt_69.py,c\e\ced80064beb4b8f0902e272e0233df5b5eb893fc
 Q
@@ -827,3 +793,7 @@ b
 +src/leetcodejava/array/KeysAndRooms841.java,6\1\619371bf0410389833f8e9f45ef7eed3aeae1a47
 b
 2src/leetcodejava/string/ReverseWordsString557.java,1\f\1fe908bef34ff9519b00fedb11ea98ee871d045d
+f
+6src/leetcodejava/list/RemoveDuplicateNodeLCCI0201.java,5\0\503f5278225f4279081a0e10ce683e981ce0e974
+S
+#src/leetcodejava/list/MinStack.java,7\f\7f8a79899f043f7620673a7c06b9f4ec80a57d16

@@ -1,7 +1,38 @@
 '''
-二叉树层次遍历
-author:zhangyu
-date:2020.2.14
+/**
+ * This is the solution of No.102 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/binary-tree-level-order-traversal
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ * 给你一个二叉树，请你返回其按 层序遍历 得到的节点值。 （即逐层地，从左到右访问所有节点）。
+ * <p>
+ *  
+ * <p>
+ * 示例：
+ * 二叉树：[3,9,20,null,null,15,7],
+ * <p>
+ * 3
+ * / \
+ * 9  20
+ * /  \
+ * 15   7
+ * 返回其层次遍历结果：
+ * <p>
+ * [
+ * [3],
+ * [9,20],
+ * [15,7]
+ * ]
+ * <p>
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/binary-tree-level-order-traversal
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
+ */
 '''
 from typing import List
 
