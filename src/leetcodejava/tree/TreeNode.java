@@ -18,6 +18,10 @@ public class TreeNode {
     }
 
 
+    public static TreeNode createBinaryTreeByArray(Integer[] array) {
+        return TreeNode.createBinaryTreeByArray(array, 0);
+    }
+
     /**
      * 将数组构建为二叉树
      *
