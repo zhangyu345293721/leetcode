@@ -4,54 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: python代码增加注释2">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeLevelOrderTraversal107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0305768c0a9bfde7b4cd6358b37e6b76f1ed5c83" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/0305768c0a9bfde7b4cd6358b37e6b76f1ed5c83" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03e2c07a3ec997f4fcf65de67464f809d0f49ce8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/03e2c07a3ec997f4fcf65de67464f809d0f49ce8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/084e381e9ec3e884dbbf96b2494be0cfe6e63ff6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/084e381e9ec3e884dbbf96b2494be0cfe6e63ff6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18c884033543860388e0ba9bc07683d5ae2320e6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18c884033543860388e0ba9bc07683d5ae2320e6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c5e2fa4cb16b6710fdf709fe4d7ccd58a32103d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c5e2fa4cb16b6710fdf709fe4d7ccd58a32103d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b4c32605fd80662aaee7911cf2392b7872bf2e3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b4c32605fd80662aaee7911cf2392b7872bf2e3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/317b7d8b775c639bd20b5a6b8ec5218329a4ba5a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/317b7d8b775c639bd20b5a6b8ec5218329a4ba5a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37880ee7d18955c5b157f8e29cbcac218706f230" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37880ee7d18955c5b157f8e29cbcac218706f230" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38bef40713fafd04e5d722e2fa74d1c00636dc8e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1b694cadd32d72064afbfbb9dc7fb302120911" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1b694cadd32d72064afbfbb9dc7fb302120911" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3be906277238b06b5d3d24710dffb061b74795e5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3be906277238b06b5d3d24710dffb061b74795e5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cd60cc2a8dd59e394d2511119ffa30ce621dd18" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3cd60cc2a8dd59e394d2511119ffa30ce621dd18" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42a4fd430c8c56026c241d14d9dbfc4a659efe85" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42a4fd430c8c56026c241d14d9dbfc4a659efe85" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4674ab9d808c3646ddcedc19355011df65d993fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/6/4674ab9d808c3646ddcedc19355011df65d993fa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4826254ef5404e992c004c9dae555308265ad1de" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4826254ef5404e992c004c9dae555308265ad1de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48670054111bb95a1704c9c7a13d3ef02d11fd2a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48670054111bb95a1704c9c7a13d3ef02d11fd2a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49717971e0cee4e4183ec56db9e76477e45c9081" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49717971e0cee4e4183ec56db9e76477e45c9081" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49f438df5c7e00509053390ad988c070ac3db6e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49f438df5c7e00509053390ad988c070ac3db6e9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5472e9fde3f7f420692d8e518aa3de4d689d10ae" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/4/5472e9fde3f7f420692d8e518aa3de4d689d10ae" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5950e7a363014879feb34de4ba772299f3f16622" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/5950e7a363014879feb34de4ba772299f3f16622" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b7f8fd86a3d0f7152f29d53d6e56265b548e936" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5b7f8fd86a3d0f7152f29d53d6e56265b548e936" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c32837ab7a852ea8d6c85f5a73b11157b8fab7d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/c/5c32837ab7a852ea8d6c85f5a73b11157b8fab7d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c5c3efbebec777bb7cc488cba7f34768224b262" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7c5c3efbebec777bb7cc488cba7f34768224b262" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ca8d14acd876592127216b393dac53e4430f5b6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/c/7ca8d14acd876592127216b393dac53e4430f5b6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872cf50c2f400f2c5183cad7ef4d297db5c635bc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872cf50c2f400f2c5183cad7ef4d297db5c635bc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97b47f58ef259b71daa70a556f1f96421c94e6c4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97b47f58ef259b71daa70a556f1f96421c94e6c4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b9e60904e6095ee608e158797885e43c18ec770" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9b9e60904e6095ee608e158797885e43c18ec770" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cf9cf7179a85647606921bbcd21db1e762e3839" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9cf9cf7179a85647606921bbcd21db1e762e3839" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a990cc9bbe775d3875f08dafac2237176a894d17" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a990cc9bbe775d3875f08dafac2237176a894d17" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac09e60f7cc2fb4881a143ceba109defcd8cfacc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac09e60f7cc2fb4881a143ceba109defcd8cfacc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bca064fca40acc530727b612c7c9272fa62f9918" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bca064fca40acc530727b612c7c9272fa62f9918" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0ff10726de20499e938714cfd6a705213342b8f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c82ce3aa3e627035eb5627ae0a1e7e3f5ce80016" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c82ce3aa3e627035eb5627ae0a1e7e3f5ce80016" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc98ac0fd123a5c80fdbe9babea1a6a39020a54d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/cc98ac0fd123a5c80fdbe9babea1a6a39020a54d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf2cb71fdd59f2c2cc1a3f6fb3609c30e1cc3f66" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf2cb71fdd59f2c2cc1a3f6fb3609c30e1cc3f66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2ef305d0466004017e3c9c8a60125d62fac4f0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2ef305d0466004017e3c9c8a60125d62fac4f0f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4190e50d699ae6b82926ca92b92b1bf3d5d9e9f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4190e50d699ae6b82926ca92b92b1bf3d5d9e9f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4fcd919b0449aac09567167e7dd134fd4e2b1ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4fcd919b0449aac09567167e7dd134fd4e2b1ec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8eec66b23d61591665985b4e81022d5ad438ae2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/8/d8eec66b23d61591665985b4e81022d5ad438ae2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e07fa935b26ac746ef2b31fd9cea64692d6cfa3a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e07fa935b26ac746ef2b31fd9cea64692d6cfa3a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeb714d5b9dd06ed26f65aa6e33466112c62b833" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeb714d5b9dd06ed26f65aa6e33466112c62b833" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f73d79512212bb52898bc0e947d0b2bf2d74314b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f73d79512212bb52898bc0e947d0b2bf2d74314b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: leetcode.107提交题目">
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_order_traversal107.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/tree/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,35 +35,30 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeLevelOrderTraversal107.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-275">
+                    <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AvailableCapturesRook999.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/BestSightseeingPair1014.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="875">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuy122.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/BitCount.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,13 +69,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeLevelOrderTraversal107.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_order_traversal107.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#745#768#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_inorder_traversal_94.pyi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="34" selection-end-line="81" />
             </state>
           </provider>
         </entry>
@@ -183,8 +151,8 @@
         <option value="Enum" />
         <option value="Setup Script" />
         <option value="Python Stub" />
-        <option value="Python Script" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -219,7 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/string/day_year_1154.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/excel_sheet_column_number_171.py" />
@@ -270,6 +237,7 @@
         <option value="$PROJECT_DIR$/src/leetcodepython/tree/range_sum_bst_938.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeLevelOrderTraversal107.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_order_traversal107.py" />
       </list>
     </option>
   </component>
@@ -323,7 +291,13 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -390,7 +364,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeLevelOrderTraversal107.binaryTreeLevelOrderTraversalTest">
+  <component name="RunManager" selected="Python.binary_tree_level_order_traversal107">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -414,23 +388,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FreqAlphabets1309.freqAlphabetsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.FreqAlphabets1309" />
-      <option name="METHOD_NAME" value="freqAlphabetsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -438,7 +395,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="freq_alphabets_1309" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="binary_tree_level_order_traversal107" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -446,12 +403,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/freq_alphabets_1309.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_order_traversal107.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -474,6 +431,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/tree/range_sum_bst_938.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tree_node" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/tree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -583,20 +562,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FreqAlphabets1309.freqAlphabetsTest" />
-      <item itemvalue="Python.freq_alphabets_1309" />
       <item itemvalue="Python.validate_binary_search_tree_98" />
       <item itemvalue="Python.range_sum_bst_938" />
       <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.BinaryTreeLevelOrderTraversal107.binaryTreeLevelOrderTraversalTest" />
+      <item itemvalue="Python.binary_tree_level_order_traversal107" />
+      <item itemvalue="Python.tree_node" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.binary_tree_level_order_traversal107" />
         <item itemvalue="JUnit.BinaryTreeLevelOrderTraversal107.binaryTreeLevelOrderTraversalTest" />
+        <item itemvalue="Python.tree_node" />
         <item itemvalue="Python.range_sum_bst_938" />
         <item itemvalue="Python.validate_binary_search_tree_98" />
-        <item itemvalue="Python.freq_alphabets_1309" />
-        <item itemvalue="JUnit.FreqAlphabets1309.freqAlphabetsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -804,14 +783,7 @@
       <workItem from="1599026165244" duration="579000" />
       <workItem from="1599034006471" duration="7639000" />
       <workItem from="1599120400324" duration="5592000" />
-      <workItem from="1599366364279" duration="591000" />
-    </task>
-    <task id="LOCAL-00136" summary="master:增加题目1162">
-      <created>1585463799267</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1585463799268</updated>
+      <workItem from="1599366364279" duration="2876000" />
     </task>
     <task id="LOCAL-00137" summary="master:增加题目8">
       <created>1585877724995</created>
@@ -1149,16 +1121,17 @@
       <option name="project" value="LOCAL" />
       <updated>1599125151629</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="master: leetcode.107提交题目">
+      <created>1599372449621</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1599372449621</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShortestPalindrome214_shortestPalindromeTest - 2020.08.29 at 12h 01m 17s.xml">
-      <configuration name="ShortestPalindrome214.shortestPalindromeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShortestPalindrome214_shortestPalindromeTest - 2020.08.29 at 12h 01m 38s.xml">
-      <configuration name="ShortestPalindrome214.shortestPalindromeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EqualsIgnoreOrderString_testEqualsIgnoreOrderString - 2020.09.02 at 16h 22m 20s.xml">
       <configuration name="EqualsIgnoreOrderString.testEqualsIgnoreOrderString" configurationId="JUnit" />
     </history-entry>
@@ -1183,9 +1156,15 @@
     <history-entry file="FreqAlphabets1309_freqAlphabetsTest - 2020.09.03 at 17h 12m 11s.xml">
       <configuration name="FreqAlphabets1309.freqAlphabetsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BinaryTreeLevelOrderTraversal107_binaryTreeLevelOrderTraversalTest - 2020.09.06 at 14h 05m 15s.xml">
+      <configuration name="BinaryTreeLevelOrderTraversal107.binaryTreeLevelOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinaryTreeLevelOrderTraversal107_binaryTreeLevelOrderTraversalTest - 2020.09.06 at 23h 53m 43s.xml">
+      <configuration name="BinaryTreeLevelOrderTraversal107.binaryTreeLevelOrderTraversalTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1656876000" />
+    <option name="totallyTimeSpent" value="1659161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1197,10 +1176,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="12" width="1152" height="618" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.31501833" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.23087248" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1209,7 +1188,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2418813" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" weight="0.38633817" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.38552436" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.431131" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1341,7 +1320,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目200" />
     <MESSAGE value="master:增加题目33" />
     <MESSAGE value="master:增加题目56" />
     <MESSAGE value="master:增加题目45，98" />
@@ -1366,7 +1344,8 @@
     <MESSAGE value="master: 题目修改提交" />
     <MESSAGE value="master: python代码增加注释" />
     <MESSAGE value="master: python代码增加注释2" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: python代码增加注释2" />
+    <MESSAGE value="master: leetcode.107提交题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: leetcode.107提交题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1822,6 +1801,7 @@
     <SUITE FILE_PATH="coverage/leetcode$add_two_numer__1_.coverage" NAME="add_two_numer (1) Coverage Results" MODIFIED="1578540435991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/untitled/python/array" />
     <SUITE FILE_PATH="coverage/leetcode$solution_view_40.coverage" NAME="solution_view_40 Coverage Results" MODIFIED="1584688348198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$trapping_rain_water_42.coverage" NAME="trapping_rain_water_42 Coverage Results" MODIFIED="1580631707115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$binary_tree_level_order_traversal107.coverage" NAME="binary_tree_level_order_traversal107 Coverage Results" MODIFIED="1599407893691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
     <SUITE FILE_PATH="coverage/leetcode$multiply_strings_43.coverage" NAME="multiply_strings_43 Coverage Results" MODIFIED="1597389033895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$word_break_138.coverage" NAME="word_break_138 Coverage Results" MODIFIED="1582514414168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$coin_change_322.coverage" NAME="coin_change_322 Coverage Results" MODIFIED="1583683908407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -1839,7 +1819,7 @@
     <SUITE FILE_PATH="coverage/leetcode$distribute_candies_people_1103.coverage" NAME="distribute_candies_people_1103 Coverage Results" MODIFIED="1583421262215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$play_with_chips_1217.coverage" NAME="play_with_chips_1217 Coverage Results" MODIFIED="1581499699210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$merge_intervals_56.coverage" NAME="merge_intervals_56 Coverage Results" MODIFIED="1582863176399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$tree_node.coverage" NAME="tree_node Coverage Results" MODIFIED="1598110932433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
+    <SUITE FILE_PATH="coverage/leetcode$tree_node.coverage" NAME="tree_node Coverage Results" MODIFIED="1599407567825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
     <SUITE FILE_PATH="coverage/leetcode$find_difference_389.coverage" NAME="find_difference_389 Coverage Results" MODIFIED="1581397655844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$number_islands_200.coverage" NAME="number_islands_200 Coverage Results" MODIFIED="1587366664474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$find_duplicate_number_287.coverage" NAME="find_duplicate_number_287 Coverage Results" MODIFIED="1582084623461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
@@ -1956,13 +1936,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/EditDistance72.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="39" column="3" lean-forward="true" selection-start-line="3" selection-end-line="39" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/edit_distance_72.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -2089,13 +2062,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_inorder_traversal_94.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_traversal_102.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -2201,13 +2167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/range_sum_bst_938.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
@@ -2299,12 +2258,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_inorder_traversal_94.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="34" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeLevelOrderTraversal107.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="-275">
+          <caret line="33" column="6" lean-forward="true" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_order_traversal107.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="24" />
+          <folding>
+            <element signature="e#745#768#0" expanded="true" />
           </folding>
         </state>
       </provider>
