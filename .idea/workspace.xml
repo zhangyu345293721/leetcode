@@ -4,15 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: leetcode.347提交题目">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19073e3da1c0f8ff34060d97545079d3c14c8602" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19073e3da1c0f8ff34060d97545079d3c14c8602" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1b694cadd32d72064afbfbb9dc7fb302120911" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1b694cadd32d72064afbfbb9dc7fb302120911" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48670054111bb95a1704c9c7a13d3ef02d11fd2a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48670054111bb95a1704c9c7a13d3ef02d11fd2a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d0788bc8a346e22cd1edd23067ed58ea460dd6f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c9d66dd34a020119282cfe248183d0d2ba98aa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c2c9d66dd34a020119282cfe248183d0d2ba98aa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: leetcode.77提交题目">
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/array/combinations_77.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,14 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="-634">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/combinations_77.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -81,18 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeLevelOrderTraversal107.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/install/javajdk/src.zip!/java/util/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="1277" column="22" selection-start-line="1277" selection-start-column="11" selection-end-line="1277" selection-end-column="22" />
+            <state relative-caret-position="152">
+              <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
               <folding>
                 <element signature="e#6283#6284#0" expanded="true" />
                 <element signature="e#6351#6352#0" expanded="true" />
@@ -149,8 +141,8 @@
         <option value="Enum" />
         <option value="Setup Script" />
         <option value="Python Stub" />
-        <option value="Python Script" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -185,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/string/generate_parenthess_22.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/greatest_common_1071.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/interview_46.py" />
@@ -236,6 +227,7 @@
         <option value="$PROJECT_DIR$/src/leetcodepython/array/top_k_frequent_elements_347.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuy122.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/combinations_77.py" />
       </list>
     </option>
   </component>
@@ -289,7 +281,13 @@
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
               <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -356,26 +354,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Combinations77.combinationsTest">
+  <component name="RunManager" selected="Python.combinations_77">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTreeLevelOrderTraversal107.binaryTreeLevelOrderTraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.tree" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.tree.BinaryTreeLevelOrderTraversal107" />
-      <option name="METHOD_NAME" value="binaryTreeLevelOrderTraversalTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -435,6 +416,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/tree/binary_tree_level_order_traversal107.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="combinations_77" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/combinations_77.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -544,20 +547,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BinaryTreeLevelOrderTraversal107.binaryTreeLevelOrderTraversalTest" />
       <item itemvalue="JUnit.TopKFrequentElements347.topKFrequentElementsTest" />
       <item itemvalue="Python.binary_tree_level_order_traversal107" />
       <item itemvalue="Python.top_k_frequent_elements_347" />
       <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.Combinations77.combinationsTest" />
+      <item itemvalue="Python.combinations_77" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.combinations_77" />
         <item itemvalue="JUnit.Combinations77.combinationsTest" />
         <item itemvalue="Python.top_k_frequent_elements_347" />
         <item itemvalue="JUnit.TopKFrequentElements347.topKFrequentElementsTest" />
         <item itemvalue="Python.binary_tree_level_order_traversal107" />
-        <item itemvalue="JUnit.BinaryTreeLevelOrderTraversal107.binaryTreeLevelOrderTraversalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -766,14 +769,7 @@
       <workItem from="1599034006471" duration="7639000" />
       <workItem from="1599120400324" duration="5592000" />
       <workItem from="1599366364279" duration="15250000" />
-      <workItem from="1599528139602" duration="3945000" />
-    </task>
-    <task id="LOCAL-00139" summary="master:增加图片旋转">
-      <created>1586276767709</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1586276767709</updated>
+      <workItem from="1599528139602" duration="11060000" />
     </task>
     <task id="LOCAL-00140" summary="master:leetcode 255">
       <created>1586392738366</created>
@@ -1111,43 +1107,50 @@
       <option name="project" value="LOCAL" />
       <updated>1599495923128</updated>
     </task>
-    <option name="localTasksCounter" value="188" />
+    <task id="LOCAL-00188" summary="master: leetcode.77提交题目">
+      <created>1599534180448</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1599534180449</updated>
+    </task>
+    <option name="localTasksCounter" value="189" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TopKFrequentElements347_topKFrequentElementsTest - 2020.09.07 at 18h 46m 32s.xml">
-      <configuration name="TopKFrequentElements347.topKFrequentElementsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopKFrequentElements347_topKFrequentElementsTest - 2020.09.07 at 22h 30m 55s.xml">
-      <configuration name="TopKFrequentElements347.topKFrequentElementsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopKFrequentElements347_topKFrequentElementsTest - 2020.09.07 at 22h 31m 21s.xml">
-      <configuration name="TopKFrequentElements347.topKFrequentElementsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopKFrequentElements347_topKFrequentElementsTest - 2020.09.07 at 22h 32m 49s.xml">
-      <configuration name="TopKFrequentElements347.topKFrequentElementsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopKFrequentElements347_topKFrequentElementsTest - 2020.09.07 at 22h 32m 53s.xml">
-      <configuration name="TopKFrequentElements347.topKFrequentElementsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopKFrequentElements347_topKFrequentElementsTest - 2020.09.07 at 22h 34m 17s.xml">
-      <configuration name="TopKFrequentElements347.topKFrequentElementsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopKFrequentElements347_topKFrequentElementsTest - 2020.09.07 at 22h 41m 40s.xml">
-      <configuration name="TopKFrequentElements347.topKFrequentElementsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TopKFrequentElements347_topKFrequentElementsTest - 2020.09.07 at 23h 02m 24s.xml">
-      <configuration name="TopKFrequentElements347.topKFrequentElementsTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 09h 52m 10s.xml">
       <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 10h 56m 55s.xml">
       <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 11h 01m 06s.xml">
+      <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 11h 04m 43s.xml">
+      <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 11h 06m 13s.xml">
+      <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 11h 13m 10s.xml">
+      <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 11h 34m 51s.xml">
+      <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 15h 14m 36s.xml">
+      <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 15h 14m 44s.xml">
+      <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Combinations77_combinationsTest - 2020.09.08 at 15h 17m 03s.xml">
+      <configuration name="Combinations77.combinationsTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1675480000" />
+    <option name="totallyTimeSpent" value="1682595000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1162,7 +1165,7 @@
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.18569905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.18569905" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1171,8 +1174,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2418813" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.26427773" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.431131" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.26427773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25195968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3293944" />
@@ -1201,46 +1204,6 @@
       <window_info anchor="right" id="Maven" order="9" weight="0.3295302" />
       <window_info anchor="right" id="SciView" order="10" weight="0.3295302" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.25667024" />
-      <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.2418813" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49786553" visible="true" weight="0.30795074" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15229563" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3293944" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32795697" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026681" side_tool="true" weight="0.23292273" />
-      <window_info anchor="bottom" id="Statistic" order="9" weight="0.31757754" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49932885" weight="0.2788354" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.18463811" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Sequence" order="15" />
-      <window_info anchor="bottom" id="SonarLint" order="16" sideWeight="0.49832103" weight="0.193729" />
-      <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.3293944" />
-      <window_info anchor="bottom" id="Inspection Results" order="18" weight="0.32922733" />
-      <window_info anchor="bottom" id="GitHub Pull Requests" order="19" weight="0.3293944" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.13553895" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3295129" />
-      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Maven" order="9" weight="0.3295302" />
-      <window_info anchor="right" id="SciView" order="10" weight="0.3295302" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1303,7 +1266,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:增加题目56" />
     <MESSAGE value="master:增加题目45，98" />
     <MESSAGE value="master:增加题目,提交新修改" />
     <MESSAGE value="master:修改代码注释部分" />
@@ -1328,7 +1290,8 @@
     <MESSAGE value="master: python代码增加注释2" />
     <MESSAGE value="master: leetcode.107提交题目" />
     <MESSAGE value="master: leetcode.347提交题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: leetcode.347提交题目" />
+    <MESSAGE value="master: leetcode.77提交题目" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: leetcode.77提交题目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1850,6 +1813,7 @@
     <SUITE FILE_PATH="coverage/leetcode$jump_game_55.coverage" NAME="jump_game_55 Coverage Results" MODIFIED="1582445474393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49__1_.coverage" NAME="group_anagrams_49 (1) Coverage Results" MODIFIED="1578540519468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepy" />
     <SUITE FILE_PATH="coverage/leetcode$longest_substring_without_repeating_characters_3.coverage" NAME="longest_substring_without_repeating_characters_3 Coverage Results" MODIFIED="1584344629096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
+    <SUITE FILE_PATH="coverage/leetcode$combinations_77.coverage" NAME="combinations_77 Coverage Results" MODIFIED="1599549975792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$available_captures_rook_999.coverage" NAME="available_captures_rook_999 Coverage Results" MODIFIED="1585300049648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$decode_string_394.coverage" NAME="decode_string_394 Coverage Results" MODIFIED="1583294124721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
   </component>
@@ -1920,17 +1884,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/merge_k_sorted_lists_23.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#62#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/top100likedquestions/minimum_path_sum_64.py" />
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-900" />
@@ -2270,8 +2223,8 @@
     </entry>
     <entry file="jar://D:/install/javajdk/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="1277" column="22" selection-start-line="1277" selection-start-column="11" selection-end-line="1277" selection-end-column="22" />
+        <state relative-caret-position="152">
+          <caret line="176" column="11" selection-start-line="176" selection-start-column="11" selection-end-line="176" selection-end-column="11" />
           <folding>
             <element signature="e#6283#6284#0" expanded="true" />
             <element signature="e#6351#6352#0" expanded="true" />
@@ -2279,13 +2232,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/best_sight_seeing_1014.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="18" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="-634">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/combinations_77.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
         </state>
       </provider>
     </entry>
