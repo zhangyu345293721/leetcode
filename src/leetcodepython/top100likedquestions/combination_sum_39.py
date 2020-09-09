@@ -1,3 +1,9 @@
+# -*- coding:utf-8 -*-
+'''
+author:zhangyu
+date:2020/9/9
+'''
+
 # encoding='utf-8'
 
 '''
@@ -38,40 +44,48 @@
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 '''
+from typing import List
 
 
-def combination_sum(arr, target):
+def combination_sum(nums: List[int], target: int) -> List[List[int]]:
     '''
         数组
     Args:
-        arr: 数组
+        nums: 数组
         target: 目标值
     Returns:
         组合链表
     '''
     result = []
     current = []
-    arr.sort()
-    helper(arr, target, result, current, 0)
+    nums.sort()
+    helper(nums, target, result, current, 0)
     return result
 
 
-def helper(arr, target, result, current, param):
+def helper(nums: List[int], target: int, result: List[List[int]], current: List[int], index: int) -> None:
     '''
         递归获取结果
     Args:
-        arr: 数组
-        target:目标
+        nums: 数组
+        target:目标值
         result:结果集
         current:当前结果
-        param:下标
+        index:下标
     '''
-    for i in range(len(arr)):
-        if arr[i] > target:
+    for i in range(index, len(nums)):
+        if nums[i] > target:
             break
-        current.append(arr[i])
-        if target - arr[i] == 0:
-            result.append(current)
+        current.append(nums[i])
+        if target - nums[i] == 0:
+            result.append(list(current))
         else:
-            helper(arr, target - arr[i], result, i)
-        current.remove(len(current) - 1)
+            helper(nums, target - nums[i], result, current, i)
+        current.pop()
+
+
+if __name__ == '__main__':
+    arr = [2, 3, 6, 7]
+    target = 7
+    result = combination_sum(arr, target)
+    print(result)
