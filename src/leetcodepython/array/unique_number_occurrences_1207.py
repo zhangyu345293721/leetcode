@@ -49,9 +49,11 @@ def unique_number_occurrences(arr: List[int]) -> bool:
         else:
             num_dict[num] = 0
     num_set = set()
-    for time in num_dict.values():
-        num_set.add(time)
-    return len(num_set) == len(num_dict)
+    for num in num_dict.values():
+        if num in num_set:
+            return False
+        num_set.add(num)
+    return True
 
 
 if __name__ == '__main__':

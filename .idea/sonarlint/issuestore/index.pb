@@ -805,3 +805,7 @@ Z
 *src/leetcodejava/array/Combinations77.java,4\a\4a8873b1fec7022761dd643441a40b9fcf796eef
 [
 +src/leetcodepython/array/combinations_77.py,4\e\4ea80229018e19edde20a8940dffa1c0159864e6
+\
+,src/leetcodejava/array/CombinationSum40.java,0\d\0d4e59b0375af4ee5f1861ba85374cab59410db2
+^
+.src/leetcodepython/array/combination_sum_40.py,7\4\746035ee429e3f03bc03e9f1c3cb364cae276113
