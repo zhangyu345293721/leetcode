@@ -91,11 +91,11 @@ public class BinaryTreeLevelOrderTraversal102 {
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
-            List<Integer> list = new ArrayList();
+            List<Integer> tempList = new ArrayList();
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 TreeNode p = queue.poll();
-                list.add(p.val);
+                tempList.add(p.val);
                 if (p.left != null) {
                     queue.add(p.left);
                 }
@@ -103,7 +103,7 @@ public class BinaryTreeLevelOrderTraversal102 {
                     queue.add(p.right);
                 }
             }
-            res.add(list);
+            res.add(tempList);
         }
         return res;
     }

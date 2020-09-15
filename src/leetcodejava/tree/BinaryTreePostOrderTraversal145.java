@@ -2,10 +2,7 @@ package leetcodejava.tree;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * This is the solution of No.145 problem in the LeetCode,
@@ -34,12 +31,12 @@ import java.util.Stack;
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
-public class BinaryTreePostorderTraversal145 {
+public class BinaryTreePostOrderTraversal145 {
 
     @Test
-    public void postorderTraversalTest() {
-        TreeNode t1 = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5}, 0);
-        List<Integer> postOrder = postOrderTraversal2(t1);
+    public void postOrderTraversalTest() {
+        TreeNode root = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5,6});
+        List<Integer> postOrder = postOrderTraversal(root);
         System.out.println(postOrder);
     }
 
@@ -85,7 +82,7 @@ public class BinaryTreePostorderTraversal145 {
         if (root == null) {
             return res;
         }
-        Stack<TreeNode> stack = new Stack<>();
+        Deque<TreeNode> stack = new LinkedList<>();
         stack.push(root);
         while (!stack.isEmpty()) {
             TreeNode node = stack.pop();

@@ -2,10 +2,7 @@ package leetcodejava.tree;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * This is the solution of No.144 problem in the LeetCode,
@@ -35,13 +32,13 @@ import java.util.Stack;
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
-public class BinaryTreePreorderTraversal144 {
+public class BinaryTreePreOrderTraversal144 {
 
     @Test
-    public void binaryTreePreorderTraversalTest() {
+    public void binaryTreePreOrderTraversalTest() {
         Integer[] arr = {1, null, 2, 3};
         TreeNode tree = TreeNode.createBinaryTreeByArray(arr, 0);
-        List<Integer> list = preorderTraversal(tree);
+        List<Integer> list = preOrderTraversal(tree);
         System.out.println(list);
     }
 
@@ -51,9 +48,9 @@ public class BinaryTreePreorderTraversal144 {
      * @param root 根节点
      * @return 链表
      */
-    public List<Integer> preorderTraversal(TreeNode root) {
+    public List<Integer> preOrderTraversal(TreeNode root) {
         List<Integer> resultList = new ArrayList();
-        preorderHelper(resultList, root);
+        preOrderHelper(resultList, root);
         return resultList;
     }
 
@@ -63,16 +60,16 @@ public class BinaryTreePreorderTraversal144 {
      * @param resultList 链表
      * @param root       根节点
      */
-    public void preorderHelper(List<Integer> resultList, TreeNode root) {
+    public void preOrderHelper(List<Integer> resultList, TreeNode root) {
         if (root == null) {
             return;
         }
         resultList.add(root.val);
         if (root.left != null) {
-            preorderHelper(resultList, root.left);
+            preOrderHelper(resultList, root.left);
         }
         if (root.right != null) {
-            preorderHelper(resultList, root.right);
+            preOrderHelper(resultList, root.right);
         }
     }
 
@@ -82,8 +79,8 @@ public class BinaryTreePreorderTraversal144 {
      * @param root 根节点
      * @return 链表
      */
-    public List<Integer> preorderTraversal2(TreeNode root) {
-        Stack<TreeNode> stack = new Stack<>();
+    public List<Integer> preOrderTraversal2(TreeNode root) {
+        Deque<TreeNode> stack = new LinkedList<>();
         LinkedList<Integer> resultList = new LinkedList<>();
         if (root == null) {
             return resultList;
