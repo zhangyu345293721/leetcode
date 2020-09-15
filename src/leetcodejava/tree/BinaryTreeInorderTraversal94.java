@@ -36,8 +36,8 @@ public class BinaryTreeInorderTraversal94 {
     @Test
     public void binaryTreeInorderTraversalTest() {
         Integer arr[] = {1, 2, 3, 4, 5, 6};
-        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr,null);
-        List<Integer> list = inorderTraversal(binaryTreeByArray);
+        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr, null);
+        List<Integer> list = inorderTraversal2(binaryTreeByArray);
         System.out.println(list);
     }
 
@@ -80,17 +80,15 @@ public class BinaryTreeInorderTraversal94 {
      */
     public List<Integer> inorderTraversal2(TreeNode root) {
         List<Integer> resultList = new ArrayList<>();
-        Stack<TreeNode> stack = new Stack<>();
-        TreeNode p = root;
-        while (p != null || !stack.isEmpty()) {
-            if (p != null) {
-                stack.push(p);
-                p = p.left;
-            } else {
-                TreeNode node = stack.pop();
-                resultList.add(node.val);
-                p = node.right;
+        Deque<TreeNode> stack = new LinkedList<>();
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
             }
+            root = stack.pop();
+            resultList.add(root.val);
+            root = root.right;
         }
         return resultList;
     }

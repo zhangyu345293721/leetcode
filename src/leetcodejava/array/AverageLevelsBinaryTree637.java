@@ -65,6 +65,8 @@ public class AverageLevelsBinaryTree637 {
     }
 
     /**
+     * 要保证到最底部，然后再递归右子树
+     *
      * @param root   根节点
      * @param level  深度
      * @param counts 数量

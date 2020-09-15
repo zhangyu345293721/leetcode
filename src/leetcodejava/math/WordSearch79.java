@@ -37,9 +37,8 @@ public class WordSearch79 {
                         {'a', 'b'},
                         {'c', 'd'}
                 };
-        String word = "abcd";
+        String word = "abdc";
         boolean flag = exist(board, word);
-
         System.out.println(flag);
     }
 

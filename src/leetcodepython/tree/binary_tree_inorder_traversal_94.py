@@ -55,7 +55,7 @@ def inorder_traversal1(root: TreeNode) -> List[int]:
         中序递归遍历二叉树
     '''
     result = []
-    if root == None:
+    if not root:
         return result
     helper(result, root);
     return result
@@ -71,11 +71,18 @@ def inorder_traversal2(root: TreeNode) -> List[int]:
     '''
     result, stack = [], []
     while root or stack:
-        if root:
+        while root:
             stack.append(root)
             root = root.left
-        else:
-            node = stack.pop()
-            result.append(node.val)
-            root = node.right
+        root = stack.pop()
+        result.append(root.val)
+        root = root.right
     return result
+
+
+if __name__ == '__main__':
+    arr = [1, 2, 3, 4, 5, 6]
+    tree_node = TreeNode()
+    root = tree_node.create_binary_tree_array(arr)
+    node_list = inorder_traversal1(root)
+    print(node_list)
