@@ -1,5 +1,7 @@
 package leetcodejava.list;
 
+import java.util.List;
+
 /**
  * 定义一个listNode节点
  *
@@ -24,4 +26,23 @@ public class ListNode {
         val = x;
     }
 
+
+    /**
+     * 将list转成ListNode
+     *
+     * @param list 链表
+     * @return ListNode 生成listNode节点
+     */
+    public static ListNode createListNode(List<Integer> list) {
+        if (list == null || list.size() < 1) {
+            return null;
+        }
+        ListNode node = new ListNode(list.get(0));
+        ListNode head = node;
+        for (int i = 1; i < list.size(); i++) {
+            node.next = new ListNode(list.get(i));
+            node = node.next;
+        }
+        return head;
+    }
 }

@@ -44,7 +44,7 @@ public class AsFarLandPossible1162 {
      * 3）返回最短距离
      */
     @Test
-    public void testAsFarLandPossible() {
+    public void asFarLandPossibleTest() {
         int[][] arr = {{1, 0, 1}, {0, 0, 0}, {1, 0, 1}};
         int num = maxDistance(arr);
         System.out.println(num);

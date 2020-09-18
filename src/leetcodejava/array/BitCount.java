@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class BitCount {
     @Test
-    public void testBitCount() {
+    public void bitCountTest() {
         int num = 2;
         int count = bitCountStatistic(num);
         System.out.println(count);

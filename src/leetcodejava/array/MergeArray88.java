@@ -32,6 +32,14 @@ import java.util.Arrays;
  */
 public class MergeArray88 {
 
+    @Test
+    public void mergeArrayTest() {
+        int[] nums1 = {1, 2, 3, 0, 0, 0};
+        int[] nums2 = {2, 5, 6};
+        merge3(nums1, 3, nums2, 3);
+        System.out.println(nums1);
+    }
+
     /**
      * 对数组进行合并排序
      *
@@ -79,7 +87,7 @@ public class MergeArray88 {
      * @param nums2 数组2
      * @param n     开始位置
      */
-    public int[] merge(int[] nums1, int m, int[] nums2, int n) {
+    public int[] merge3(int[] nums1, int m, int[] nums2, int n) {
         int[] arr = new int[nums1.length];
         int index = 0;
         int i = 0;
@@ -109,13 +117,5 @@ public class MergeArray88 {
             index++;
         }
         return arr;
-    }
-
-
-    @Test
-    public void testMergeArray() {
-        int[] nums1 = {1, 2, 3, 0, 0, 0};
-        int[] nums2 = {2, 5, 6};
-        merge(nums1, 3, nums2, 3);
     }
 }

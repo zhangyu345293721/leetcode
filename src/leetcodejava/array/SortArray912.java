@@ -35,7 +35,7 @@ import java.util.PriorityQueue;
  */
 public class SortArray912 {
     @Test
-    public void testSortArray() {
+    public void sortArrayTest() {
         int[] nums = {4, 1, 3, 4, 5, 7};
         int[] arr = sortArray(nums);
         System.out.println(arr);

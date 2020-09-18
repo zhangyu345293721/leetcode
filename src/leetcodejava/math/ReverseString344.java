@@ -3,10 +3,7 @@ package leetcodejava.math;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.Arrays;
 
 /**
  * This is the solution of No.344 problem in the LeetCode,
@@ -16,20 +13,20 @@ import java.util.regex.Pattern;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 编写一个函数，其作用是将输入的字符串反转过来。输入字符串以字符数组 char[] 的形式给出。
- *
+ * <p>
  * 不要给另外的数组分配额外的空间，你必须原地修改输入数组、使用 O(1) 的额外空间解决这一问题。
- *
+ * <p>
  * 你可以假设数组中的所有字符都是 ASCII 码表中的可打印字符。
- *
+ * <p>
  * 示例 1：
- *
+ * <p>
  * 输入：["h","e","l","l","o"]
  * 输出：["o","l","l","e","h"]
  * 示例 2：
- *
+ * <p>
  * 输入：["H","a","n","n","a","h"]
  * 输出：["h","a","n","n","a","H"]
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/reverse-string
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -41,49 +38,37 @@ public class ReverseString344 {
 
     @Test
     public void testReverseString() {
-        String s = "abcdefg";
-        String s1 = getReverseString(s, 2);
-        System.out.println(s1);
+        char[] chs = {'h', 'e', 'l', 'l', 'o'};
+        reverseString(chs);
+        System.out.println(Arrays.toString(chs));
     }
 
     /**
-     * 一个字符串按照要求返回
+     * 倒转字符串数组
      *
-     * @param str 字符串
-     * @param n   位置
-     * @return 返回字符串
+     * @param s 字符数组
      */
-    public String getReverseString(String str, int n) {
-        List<String> list = getStringList(str, n);
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < list.size(); i++) {
-            if ((i & 1) == 0) {
-                sb.append(new StringBuffer(list.get(i)).reverse().toString());
-            } else {
-                sb.append(list.get(i));
-            }
+    public void reverseString(char[] s) {
+        int i = 0;
+        int j = s.length - 1;
+        while (i < j) {
+            swap(s, i, j);
+            i++;
+            j--;
         }
-        return sb.toString();
     }
 
     /**
-     * 获取字符串链表
+     * 交换数组中两个字符的位置
      *
-     * @param str 字符串
-     * @param n   位置
-     * @return 链表
+     * @param num 数组
+     * @param i   位置i
+     * @param j   位置j
      */
-    private List<String> getStringList(String str, int n) {
-        ArrayList<String> list = new ArrayList<String>();
-        String regEx = "\\w{" + n + "}";
-        Pattern pattern = Pattern.compile(regEx);
-        Matcher matcher = pattern.matcher(str);
-        while (matcher.find()) {
-            list.add(matcher.group());
-        }
-        if (n * (list.size()) < str.length()) {
-            list.add(str.substring(n * list.size()));
-        }
-        return list;
+    public void swap(char[] num, int i, int j) {
+        char temp = num[i];
+        num[i] = num[j];
+        num[j] = temp;
     }
+
 }

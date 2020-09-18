@@ -45,6 +45,7 @@ public class HeightChecker1051 {
     @Test
     public void testHeightChecker() {
         int[] nums = {2, 1, 2, 1, 1, 2, 2, 1};
+
         int num = heightChecker(nums);
         System.out.println(num);
     }

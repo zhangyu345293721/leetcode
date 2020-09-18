@@ -6,25 +6,25 @@ import org.junit.Test;
  * This is the solution of No. 258 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/add-digits/
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个非负整数 num，反复将各个位上的数字相加，直到结果为一位数。
- *
+ * <p>
  * 示例:
  * 输入: 38
  * 输出: 2
  * 解释: 各位相加的过程为：3 + 8 = 11, 1 + 1 = 2。 由于 2 是一位数，所以返回 2。
- *
+ * <p>
  * 来源：力扣（LeetCode）
- ** ==========================================================================================================
+ * * ==========================================================================================================
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class AddDigits258 {
 
     @Test
-    public void testAddDigits() {
+    public void addDigitsTest() {
         int num = 38;
         int result = addDigits2(num);
         System.out.println(result);
