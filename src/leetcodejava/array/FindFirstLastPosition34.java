@@ -36,7 +36,6 @@ public class FindFirstLastPosition34 {
     public void findFirstLastPositionTest() {
         int nums[] = {5, 7, 7, 8, 8, 10};
         int target = 8;
-        System.out.println("nums");
         int index = findLastPosition(nums, target);
         System.out.println(index);
 

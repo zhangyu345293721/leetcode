@@ -9,13 +9,13 @@ import java.util.Map;
  * This is the solution of No. 1287 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给你一个非递减的 有序 整数数组，已知这个数组中恰好有一个整数，它的出现次数超过数组元素总数的 25%。
- *
+ * <p>
  * 请你找到并返回这个整数
- *
+ * <p>
  * 示例：
  * 输入：arr = [1,2,2,6,6,6,6,7,10]
  * 输出：6
@@ -23,7 +23,7 @@ import java.util.Map;
  * 提示：
  * 1 <= arr.length <= 10^4
  * 0 <= arr[i] <= 10^5
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -31,7 +31,7 @@ import java.util.Map;
  */
 public class ElementAppearing1287 {
     @Test
-    public void testElementAppearing() {
+    public void elementAppearingTest() {
         int[] arr = {1, 2, 2, 6, 6, 6, 6, 7, 10};
         int num = findSpecialInteger(arr);
         System.out.println(num);

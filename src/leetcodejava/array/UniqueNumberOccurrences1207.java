@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * This is the solution of No. 1207 problem in the LeetCode,
@@ -40,10 +41,10 @@ import java.util.Set;
 public class UniqueNumberOccurrences1207 {
 
     @Test
-    public void testUniqueNumberOccurrences() {
+    public void uniqueNumberOccurrencesTest() {
         int[] arr = {1, 2, 2, 1, 1, 3};
-        boolean flag = uniqueOccurrences(arr);
-        System.out.println(flag);
+        boolean result = uniqueOccurrences(arr);
+        System.out.println(result);
     }
 
     /**
@@ -65,5 +66,19 @@ public class UniqueNumberOccurrences1207 {
             set.add(value);
         }
         return true;
+    }
+
+    /**
+     * 独特发生的次数
+     *
+     * @param arr 数组
+     * @return 布尔值
+     */
+    public boolean uniqueOccurrences2(int[] arr) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int num : arr) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+        return map.values().stream().collect(Collectors.toSet()).size() == map.size();
     }
 }

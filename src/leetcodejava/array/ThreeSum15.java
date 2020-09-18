@@ -35,7 +35,7 @@ import java.util.*;
 public class ThreeSum15 {
     @Test
     public void testThreeSum() {
-        int[] nums = {-1, 0, 1, 2, -1, -4, 0, 0};
+        int[] nums = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> list = threeSum(nums);
         System.out.println(list);
     }
@@ -47,82 +47,6 @@ public class ThreeSum15 {
      * @return 返回list
      */
     private List<List<Integer>> threeSum(int[] nums) {
-        int flag = 0;
-        List<List<Integer>> list = new ArrayList<>();
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                for (int k = j + 1; k < nums.length; k++) {
-                    if (((nums[i] + nums[j] + nums[k]) == 0) && i < j && j < k && i < k) {
-                        if (flag == 0 && isHaveThreeZero(nums[i], nums[j], nums[k])) {
-                            addList(list, nums[i], nums[j], nums[k]);
-                            flag = 1;
-                        }
-                        if (isExists(list, nums[i], nums[j], nums[k])) {
-                            addList(list, nums[i], nums[j], nums[k]);
-                        }
-                    }
-                }
-            }
-        }
-        return list;
-    }
-
-    /**
-     * 是否存在该数字
-     *
-     * @param list 链表
-     * @param num1 数字1
-     * @param num2 数字2
-     * @param num3 数字3
-     * @return 布尔值
-     */
-    private boolean isExists(List<List<Integer>> list, int num1, int num2, int num3) {
-        for (List<Integer> l : list) {
-            if (l.contains(num1) && l.contains(num2) && l.contains(num3)) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    /**
-     * 三个数等于0
-     *
-     * @param num1 数字1
-     * @param num2 数字2
-     * @param num3 数字3
-     * @return 布尔值
-     */
-    private boolean isHaveThreeZero(int num1, int num2, int num3) {
-        if (num1 == 0 && num2 == 0 && num3 == 0) {
-            return true;
-        }
-        return false;
-    }
-
-    /**
-     * 元素增加到链表中
-     *
-     * @param list 链表
-     * @param num1 数字1
-     * @param num2 数字2
-     * @param num3 数字2
-     */
-    private void addList(List<List<Integer>> list, int num1, int num2, int num3) {
-        List<Integer> listSum = new ArrayList<>();
-        listSum.add(num1);
-        listSum.add(num2);
-        listSum.add(num3);
-        list.add(listSum);
-    }
-
-    /**
-     * 三个值相加
-     *
-     * @param nums 数组
-     * @return 返回list
-     */
-    private List<List<Integer>> threeSum2(int[] nums) {
         Set<List<Integer>> set = new HashSet<>();
         Arrays.sort(nums);
         for (int i = 0; i < nums.length; i++) {

@@ -36,6 +36,7 @@ public class LRULinkedHashMap<K, V> extends LinkedHashMap<K, V> {
      * @param eldest 最后访问的元素
      * @return 布尔值
      */
+    @Override
     public boolean removeEldestEntry(Map.Entry<K, V> eldest) {
         return size() > capacity;
     }

@@ -49,9 +49,8 @@ public class PalindromeNumber9 {
      */
     public boolean isPalindrome(int x) {
         String str = String.valueOf(x);
-        StringBuffer sb = new StringBuffer();
-        sb.append(x);
-        return str.equals(sb.reverse().toString());
+        StringBuilder sb = new StringBuilder().append(x).reverse();
+        return str.equals(sb.toString());
     }
 
     /**
