@@ -43,7 +43,7 @@ import java.util.stream.Collectors;
  */
 public class RepeatedSubstring459 {
     @Test
-    public void repeatedSubstring() {
+    public void repeatedSubstringTest() {
         String s = "bb";
         boolean flag = repeatedSubstringPattern3(s);
         System.out.println(flag);

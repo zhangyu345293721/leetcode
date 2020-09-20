@@ -31,7 +31,7 @@ import org.junit.Test;
  */
 public class WordSearch79 {
     @Test
-    public void testSearchWords() {
+    public void searchWordsTest() {
         char[][] board =
                 {
                         {'a', 'b'},

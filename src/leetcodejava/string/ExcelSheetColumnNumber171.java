@@ -44,7 +44,7 @@ import org.junit.Test;
 public class ExcelSheetColumnNumber171 {
 
     @Test
-    public void testExcelSheetColumnNumber() {
+    public void excelSheetColumnNumberTest() {
         String str = "ZY";
         System.out.println(titleToNumber(str));
     }

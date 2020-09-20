@@ -49,7 +49,7 @@ import org.junit.Test;
  */
 public class LongPressed925 {
     @Test
-    public void testLongPressed() {
+    public void longPressedTest() {
         String name = "dfuyalc";
         String typed = "dfuuyallc";
         boolean b = isLongPressedName(name, typed);

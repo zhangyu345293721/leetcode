@@ -43,7 +43,7 @@ import org.junit.Test;
 public class SubtreeAnotherTree572 {
 
     @Test
-    public void testSubtreeAnotherTree() {
+    public void subtreeAnotherTreeTest() {
         TreeNode t1 = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3}, 0);
         TreeNode t2 = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3}, 0);
         boolean flag = isSubtree(t1, t2);

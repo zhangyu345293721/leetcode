@@ -29,7 +29,7 @@ import org.junit.Test;
  */
 public class PerfectSquares279 {
     @Test
-    public void testPerfectSquares() {
+    public void perfectSquaresTest() {
         int num = 13;
         int result = numSquares(num);
         System.out.println(result);

@@ -2,8 +2,6 @@ package leetcodejava.math;
 
 import org.junit.Test;
 
-import java.util.LinkedList;
-
 /**
  * This is the solution of No.494 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -39,7 +37,6 @@ public class TargetSum494 {
     public void testTargetSum() {
         int[] nums = {1, 8, 9, 3, 4, 5, 7};
         int target = 20;
-        LinkedList queue = new LinkedList();
         int way = findTargetSumWays(nums, target);
         System.out.println(way);
     }

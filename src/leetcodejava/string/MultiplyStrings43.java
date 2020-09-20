@@ -39,7 +39,7 @@ import java.math.BigInteger;
 public class MultiplyStrings43 {
 
     @Test
-    public void multiplyString() {
+    public void multiplyStringTest() {
         String num1 = "101";
         String num2 = "11";
         String result = multiply2(num1, num2);

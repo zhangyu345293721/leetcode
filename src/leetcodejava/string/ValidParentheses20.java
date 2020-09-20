@@ -51,7 +51,7 @@ import java.util.LinkedList;
 public class ValidParentheses20 {
 
     @Test
-    public void valiParenthesesTest() {
+    public void validParenthesesTest() {
         String str = "{[]}";
         boolean b = isValid(str);
         System.out.println(b);

@@ -34,7 +34,7 @@ import java.util.Stack;
 public class LongestValidParentheses32 {
 
     @Test
-    public void testLongestValidParentheses() {
+    public void longestValidParenthesesTest() {
         String s = "(()";
         System.out.println(longestValidParentheses(s));
     }

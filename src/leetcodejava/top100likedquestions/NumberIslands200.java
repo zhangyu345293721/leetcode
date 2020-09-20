@@ -35,7 +35,7 @@ import org.junit.Test;
  */
 public class NumberIslands200 {
     @Test
-    public void testNumberIslands() {
+    public void numberIslandsTest() {
         char[][] chs = {
                 {'1', '1', '1'},
                 {'0', '1', '0'},

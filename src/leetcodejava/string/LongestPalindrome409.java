@@ -39,7 +39,7 @@ import java.util.Map;
 public class LongestPalindrome409 {
 
     @Test
-    public void testLongestPalindrome() {
+    public void longestPalindromeTest() {
         String s = "bb";
         int num = longestPalindrome(s);
         System.out.println(num);

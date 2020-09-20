@@ -36,7 +36,7 @@ import java.util.*;
  */
 public class GroupAnagrams49 {
     @Test
-    public void testGroupAnagrams() {
+    public void groupAnagramsTest() {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
         List<List<String>> list = groupAnagrams(strs);
         System.out.println(list);

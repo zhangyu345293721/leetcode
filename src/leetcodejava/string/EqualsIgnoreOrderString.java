@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 public class EqualsIgnoreOrderString {
     @Test
-    public void testEqualsIgnoreOrderString() {
+    public void equalsIgnoreOrderStringTest() {
         String s = "aaaaa";
         String p = "aa";
         boolean b = equalsIgnoreOrderString1(s, p);

@@ -66,7 +66,7 @@ import java.util.List;
 public class StringCompression443 {
 
     @Test
-    public void testStringCompression() {
+    public void stringCompressionTest() {
         String[] strs = {"a", "a", "b", "b", "c", "c", "c"};
         int num = compress(strs);
         System.out.println(num);

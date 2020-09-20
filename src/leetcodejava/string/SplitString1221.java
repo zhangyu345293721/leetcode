@@ -50,7 +50,7 @@ import java.util.LinkedList;
 public class SplitString1221 {
 
     @Test
-    public void splitStringTestDemo() {
+    public void splitStringTest() {
         String s = "RLRRRLLRLL";
         int count = balancedStringSplit(s);
         System.out.println("count = " + count);

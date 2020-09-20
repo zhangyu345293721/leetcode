@@ -42,7 +42,7 @@ import java.util.List;
 
 public class WordBreak139 {
     @Test
-    public void testWordBreak() {
+    public void wordBreakTest() {
         String s = "leetcode";
         List<String> wordDict = new ArrayList<>();
         wordDict.add("leet");

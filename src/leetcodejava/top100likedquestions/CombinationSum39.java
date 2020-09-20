@@ -45,7 +45,7 @@ import java.util.List;
 public class CombinationSum39 {
 
     @Test
-    public void testCombinationSum() {
+    public void combinationSumTest() {
         int[] candidates = {2, 3, 6, 7};
         int target = 7;
         List<List<Integer>> list = combinationSum(candidates, target);

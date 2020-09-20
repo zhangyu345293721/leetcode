@@ -37,7 +37,7 @@ import org.junit.Test;
 public class GreatestCommon1071 {
 
     @Test
-    public void testGreatestCommon() {
+    public void greatestCommonTest() {
         String str1 = "LEET";
         String str2 = "CODe";
         String maxString = gcdOfStrings(str1, str2);

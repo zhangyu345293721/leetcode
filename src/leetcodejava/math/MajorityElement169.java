@@ -28,7 +28,7 @@ import java.util.Map;
  */
 public class MajorityElement169 {
     @Test
-    public void testMajorityElement() {
+    public void majorityElementTest() {
         int[] nums = {3, 2, 2, 2, 3};
         int majorElement = majorityElement2(nums);
         System.out.println(majorElement);

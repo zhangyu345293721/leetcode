@@ -50,7 +50,7 @@ import org.junit.Test;
  */
 public class DecryptString1409 {
     @Test
-    public void testDecryString() {
+    public void decryStringTest() {
         String s = "25#";
         String str = freqAlphabets(s);
         System.out.println(str);

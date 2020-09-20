@@ -35,7 +35,7 @@ import org.junit.Test;
  */
 public class RotateImage48 {
     @Test
-    public void testRotateImage() {
+    public void rotateImageTest() {
         int[][] matrix =
                 {
                         {1, 2, 3},

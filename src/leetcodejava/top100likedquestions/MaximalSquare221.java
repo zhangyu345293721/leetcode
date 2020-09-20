@@ -28,7 +28,7 @@ import org.junit.Test;
 public class MaximalSquare221 {
 
     @Test
-    public void testMaximalSquare() {
+    public void maximalSquareTest() {
         char[][] chs =
                 {{'1', '0', '1', '0', '0'},
                 {'1', '0', '1', '1', '1'},

@@ -29,7 +29,7 @@ import java.util.HashMap;
  */
 public class SubarraySumEqualsK560 {
     @Test
-    public void testSubarraySumEqualsK() {
+    public void subarraySumEqualsKTest() {
         int nums[] = {1, 2,0, 3};
         int k = 3;
         int key = subarraySum2(nums, k);

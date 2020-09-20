@@ -37,7 +37,7 @@ import java.util.Arrays;
 public class ReverseString344 {
 
     @Test
-    public void testReverseString() {
+    public void reverseStringTest() {
         char[] chs = {'h', 'e', 'l', 'l', 'o'};
         reverseString(chs);
         System.out.println(Arrays.toString(chs));

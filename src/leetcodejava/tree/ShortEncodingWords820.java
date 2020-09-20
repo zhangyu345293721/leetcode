@@ -41,7 +41,7 @@ import java.util.*;
 public class ShortEncodingWords820 {
 
     @Test
-    public void testShortEncodingWords() {
+    public void shortEncodingWordsTest() {
         String[] words = {"time", "me", "bell","ti"};
         int i = minimumLengthEncoding(words);
         System.out.println(i);

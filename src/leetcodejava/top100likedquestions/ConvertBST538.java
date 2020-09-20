@@ -33,10 +33,9 @@ public class ConvertBST538 {
     private int sum = 0;
 
     @Test
-    public void testConvertBST() {
+    public void convertBSTTest() {
         Integer[] arr = {5, 2, 13};
-        TreeNode treeNode = new TreeNode();
-        TreeNode tree = treeNode.createBinaryTreeByArray(arr, 0);
+        TreeNode tree = TreeNode.createBinaryTreeByArray(arr, 0);
         System.out.println(tree);
         TreeNode result = convertBST(tree);
         System.out.println(result);

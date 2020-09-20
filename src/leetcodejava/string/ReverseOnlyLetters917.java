@@ -39,7 +39,7 @@ import org.junit.Test;
 public class ReverseOnlyLetters917 {
 
     @Test
-    public void testReverseOnlyLetters() {
+    public void reverseOnlyLettersTest() {
         String str = "ab-cd";
         String result = reverseOnlyLetters1(str);
         System.out.println(result);

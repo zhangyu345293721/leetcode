@@ -42,7 +42,7 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingCharacters3 {
 
     @Test
-    public void testPairsOfParentheses() {
+    public void pairsOfParenthesesTest() {
         String s = "abba";
         int length = lengthOfLongestSubstring2(s);
         System.out.println(length);

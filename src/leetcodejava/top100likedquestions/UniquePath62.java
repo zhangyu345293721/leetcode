@@ -30,7 +30,7 @@ import org.junit.Test;
  */
 public class UniquePath62 {
     @Test
-    public void testUniquePath() {
+    public void uniquePathTest() {
         int n = 3;
         int m = 7;
         int methods = paths(m, n);

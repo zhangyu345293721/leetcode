@@ -41,7 +41,7 @@ import java.util.*;
 public class ReplacePattern890 {
 
     @Test
-    public void replacePatternTestDemo() {
+    public void replacePatternTest() {
         /*String[] words = {"abc", "cba", "xyx", "yxx", "yyx"};
         String pattern = "abc";*/
 

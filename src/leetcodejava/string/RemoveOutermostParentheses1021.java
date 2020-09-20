@@ -55,7 +55,7 @@ import java.util.Stack;
  */
 public class RemoveOutermostParentheses1021 {
     @Test
-    public void testRemoveOutermostParentheses() {
+    public void removeOutermostParenthesesTest() {
         String s = "(()())(())";
         String innerString=removeOuterParentheses(s);
         System.out.println(innerString);

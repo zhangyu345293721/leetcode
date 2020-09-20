@@ -52,7 +52,7 @@ import java.util.List;
 public class SlidingWindowMaximum239 {
 
     @Test
-    public void testSlidingWindowMaximum() {
+    public void slidingWindowMaximumTest() {
         int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
         int key = 3;
         List<Integer> arr = slidingWindowMaximum(nums, key);

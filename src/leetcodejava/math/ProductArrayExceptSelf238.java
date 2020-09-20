@@ -35,7 +35,7 @@ import java.util.Arrays;
  */
 public class ProductArrayExceptSelf238 {
     @Test
-    public void testProductArrayExceptSelf() {
+    public void productArrayExceptSelfTest() {
         int[] nums = {1, 2, 3, 4};
         int[] newArrs = productArrayExceptSelf2(nums);
         System.out.println(Arrays.toString(newArrs));

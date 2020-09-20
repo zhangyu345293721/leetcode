@@ -14,7 +14,7 @@ import java.util.List;
 public class IsPalindromic {
 
     @Test
-    public void testGroupAnagrams() {
+    public void groupAnagramsTest() {
         String str = "eat";
         boolean flag = isPalindromicString1(str);
         System.out.println(flag);

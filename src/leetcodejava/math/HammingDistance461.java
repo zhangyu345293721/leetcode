@@ -11,7 +11,7 @@ import org.junit.Test;
 
 public class HammingDistance461 {
     @Test
-    public void testHammingDistance() {
+    public void hammingDistanceTest() {
         int x = 1;
         int y = 4;
         int distance = hammingDistance3(x, y);

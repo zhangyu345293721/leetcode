@@ -62,7 +62,7 @@ import org.junit.Test;
  */
 public class StringInteger8 {
     @Test
-    public void testStringInteger() {
+    public void stringIntegerTest() {
         String str = "  -0012a42";
         int i = myAtoi(str);
         System.out.println(i);

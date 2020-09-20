@@ -22,7 +22,7 @@ import org.junit.Test;
  */
 public class TrappingRainWater42 {
     @Test
-    public void testTrappingRainWater() {
+    public void trappingRainWaterTest() {
         int height[] = {1, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         int maxWater = trappingRainWater(height);
         System.out.println(maxWater);

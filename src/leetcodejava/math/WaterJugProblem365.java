@@ -36,7 +36,7 @@ import org.junit.Test;
  */
 public class WaterJugProblem365 {
     @Test
-    public void testWaterJugProblem() {
+    public void waterJugProblemTest() {
         int x = 3;
         int y = 4;
         int z = 5;

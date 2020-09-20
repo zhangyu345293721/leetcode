@@ -40,7 +40,7 @@ import java.util.List;
  */
 public class CommonCharacter1002 {
     @Test
-    public void testCommonCharacter() {
+    public void commonCharacterTest() {
         String[] strs = {"cool", "lock", "cook"};
         List<String> list = commonChars(strs);
         System.out.println(list);

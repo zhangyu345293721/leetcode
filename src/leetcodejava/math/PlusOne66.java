@@ -39,7 +39,7 @@ import java.util.Arrays;
 public class PlusOne66 {
 
     @Test
-    public void testPlusOne() {
+    public void plusOneTest() {
         int[] digits = {3, 2, 1, 4};
         int[] newArr = getPlusOne(digits);
         System.out.println(Arrays.toString(newArr));

@@ -29,7 +29,7 @@ import org.junit.Test;
  */
 public class RepeatedString686 {
     @Test
-    public void repeatedStringTestDemo() {
+    public void repeatedStringTest() {
         String A = "abcd";
         String B = "cdabcdab";
         int count = repeatedStringMatch(A, B);

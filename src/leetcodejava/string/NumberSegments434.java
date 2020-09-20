@@ -29,7 +29,7 @@ import org.junit.Test;
  */
 public class NumberSegments434 {
     @Test
-    public void numberSegmentsTestDemo() {
+    public void numberSegmentsTest() {
         String str = "    foo    bar";
         int count = countSegments(str);
         System.out.println(count);

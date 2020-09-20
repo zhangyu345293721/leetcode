@@ -823,3 +823,5 @@ i
 9src/leetcodejava/tree/BinaryTreePreOrderTraversal144.java,f\8\f8c28074b54387496b2293b2e42d052b732ca9e9
 j
 :src/leetcodejava/tree/BinaryTreePostOrderTraversal145.java,e\5\e588c6f809db4a4686969d66384c4dad292c97f4
+Z
+*src/leetcodejava/array/Permutations47.java,0\a\0a8aba06105607504d6144fae830a0dc235dc9f3

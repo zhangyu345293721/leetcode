@@ -38,7 +38,7 @@ import java.util.regex.Pattern;
 public class ReverseString541 {
 
     @Test
-    public void testReverseString541() {
+    public void reverseStringTest() {
         String s = "abcdefg";
         int key = 2;
         String result = getReverseString(s, key);

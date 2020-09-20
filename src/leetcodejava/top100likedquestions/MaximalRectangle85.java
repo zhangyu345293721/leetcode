@@ -6,22 +6,22 @@ import java.util.Arrays;
  * This is the solution of No.85 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/maximal-rectangle/
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个仅包含 0 和 1 的二维二进制矩阵，找出只包含 1 的最大矩形，并返回其面积。
- *
+ * <p>
  * 示例:
- *
+ * <p>
  * 输入:
  * [
- *   ["1","0","1","0","0"],
- *   ["1","0","1","1","1"],
- *   ["1","1","1","1","1"],
- *   ["1","0","0","1","0"]
+ * ["1","0","1","0","0"],
+ * ["1","0","1","1","1"],
+ * ["1","1","1","1","1"],
+ * ["1","0","0","1","0"]
  * ]
  * 输出: 6
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -48,10 +48,11 @@ public class MaximalRectangle85 {
         for (int i = 0; i < m; i++) {
             int curleft = 0, curright = n;
             for (int j = 0; j < n; j++) {
-                if (matrix[i][j] == '1')
+                if (matrix[i][j] == '1') {
                     height[j]++;
-                else
+                } else {
                     height[j] = 0;
+                }
             }
             for (int j = 0; j < n; j++) {
                 if (matrix[i][j] == '1') {

@@ -36,7 +36,7 @@ import java.util.List;
 public class CompressString {
 
     @Test
-    public void testCompressString() {
+    public void compressStringTest() {
         String str = "addddccc";
         String result = compressString2(str);
         System.out.println(result);

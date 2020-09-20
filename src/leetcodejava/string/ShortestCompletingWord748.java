@@ -51,7 +51,7 @@ import java.util.Map;
 public class ShortestCompletingWord748 {
 
     @Test
-    public void testShortestCompletingWord() {
+    public void shortestCompletingWordTest() {
         String licensePlate = "1s3 PSt";
         String[] words = {"step", "steps", "stripe", "stepple"};
         System.out.println(shortestCompletingWord(licensePlate, words));

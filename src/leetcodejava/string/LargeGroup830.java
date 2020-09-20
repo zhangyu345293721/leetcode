@@ -46,7 +46,7 @@ import java.util.List;
 public class LargeGroup830 {
 
     @Test
-    public void fun() {
+    public void largeGroupTest() {
         String str = "abcdddeeeeaabbbcd";
         List<List<Integer>> list = largeGroupPositions(str);
         System.out.println(list);

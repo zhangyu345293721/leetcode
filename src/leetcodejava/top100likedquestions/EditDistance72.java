@@ -40,7 +40,7 @@ import org.junit.Test;
  */
 public class EditDistance72 {
     @Test
-    public void testEditDistance() {
+    public void editDistanceTest() {
         String word1 = "horse";
         String word2 = "ros";
         int num = minDistance(word1, word2);

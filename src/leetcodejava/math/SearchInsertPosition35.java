@@ -39,7 +39,7 @@ import org.junit.Test;
  */
 public class SearchInsertPosition35 {
     @Test
-    public void testSearchIndex() {
+    public void searchIndexTest() {
         int[] arr = {1, 2, 4, 6, 7, 8, 10};
         int key = 9;
         int index = searchIndex1(arr, key);

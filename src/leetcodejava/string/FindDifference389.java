@@ -39,7 +39,7 @@ import java.util.Set;
 public class FindDifference389 {
 
     @Test
-    public void testFindDifference() {
+    public void findDifferenceTest() {
         char ch = findTheDifference2("abcd", "abcde");
         System.out.println(ch);
     }

@@ -38,7 +38,7 @@ import org.junit.Test;
 public class DetectCapital520 {
 
     @Test
-    public void testDetectCapital() {
+    public void detectCapitalTest() {
         String word = "USA";
         boolean flag = detectCapitalUse(word);
         System.out.println(flag);

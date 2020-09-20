@@ -31,7 +31,7 @@ import org.junit.Test;
 public class DefangingIP1108 {
 
     @Test
-    public void defangingIpTestDemo() {
+    public void defangingIpTest() {
         String address = "255.100.50.0";
         String s = defangIPaddr2(address);
         System.out.println("s = " + s);

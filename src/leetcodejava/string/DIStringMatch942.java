@@ -39,7 +39,7 @@ import org.junit.Test;
 public class DIStringMatch942 {
 
     @Test
-    public void testDIStringMatch() {
+    public void dIStringMatchTest() {
         String s = "DDI";
         int[] arr = diStringMatch(s);
         System.out.println(arr);
