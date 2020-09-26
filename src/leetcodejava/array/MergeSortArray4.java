@@ -59,15 +59,17 @@ public class MergeSortArray4 {
             list.add(num2);
         }
         Collections.sort(list);
-        int length = list.size();
-        if (length % 2 == 0) {
-            return (list.get((length - 1) / 2) + list.get((length - 1) / 2 + 1)) / 2.0;
+        int index = (list.size() - 1) / 2;
+        if (list.size() % 2 == 0) {
+            return (list.get(index) + list.get(index + 1)) / 2.0;
         } else {
-            return list.get((length - 1) / 2);
+            return list.get(index);
         }
     }
 
     /**
+     * 寻找中位数
+     *
      * @param nums1 数组1
      * @param nums2 数组2
      * @return 中间数
@@ -80,7 +82,14 @@ public class MergeSortArray4 {
         return (findKth(nums1, 0, nums2, 0, left) + findKth(nums1, 0, nums2, 0, right)) / 2.0;
     }
 
-    //i: nums1的起始位置 j: nums2的起始位置
+    /**
+     * @param nums1 数组1
+     * @param i     nums1的起始位置
+     * @param nums2 数组2
+     * @param j     nums2的起始位置
+     * @param k     寻找k个值
+     * @return 得到中位数
+     */
     public int findKth(int[] nums1, int i, int[] nums2, int j, int k) {
         if (i >= nums1.length) {
             return nums2[j + k - 1];

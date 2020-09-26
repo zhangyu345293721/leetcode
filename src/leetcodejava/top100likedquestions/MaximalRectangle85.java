@@ -36,8 +36,9 @@ public class MaximalRectangle85 {
      * @return 矩形
      */
     public int maximalRectangle(char[][] matrix) {
-        if (matrix == null || matrix.length == 0)
+        if (matrix == null || matrix.length == 0) {
             return 0;
+        }
         int res = 0;
         int m = matrix.length;
         int n = matrix[0].length;
@@ -63,9 +64,9 @@ public class MaximalRectangle85 {
                 }
             }
             for (int j = n - 1; j >= 0; j--) {
-                if (matrix[i][j] == '1')
+                if (matrix[i][j] == '1') {
                     right[j] = Math.min(right[j], curright);
-                else {
+                } else {
                     right[j] = n;
                     curright = j;
                 }

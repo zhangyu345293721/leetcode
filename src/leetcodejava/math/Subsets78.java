@@ -40,7 +40,7 @@ import java.util.List;
  */
 public class Subsets78 {
     @Test
-    public void testSubsets() {
+    public void subsetsTest() {
         int[] nums = {1, 2, 3};
         List<List<Integer>> list = subsets(nums);
         System.out.println(list);

@@ -1,6 +1,7 @@
 package leetcodejava.top100likedquestions;
 
 import leetcodejava.list.ListNode;
+import org.junit.Test;
 
 /**
  * This is the solution of No.23 problem in the LeetCode,
@@ -28,6 +29,10 @@ import leetcodejava.list.ListNode;
  */
 public class MergeKSortedLists23 {
 
+    @Test
+    public void mergeKSortedListsTest(){
+
+    }
     /**
      * @param lists 要合并的链表
      * @return 链表

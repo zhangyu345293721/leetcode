@@ -40,8 +40,8 @@ public class PathSum112 {
     @Test
     public void pathSumTest() {
         Integer[] arr = {5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1};
-        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr, 0);
-        boolean b = hasPathSum2(binaryTreeByArray, 22);
+        TreeNode root = TreeNode.createBinaryTreeByArray(arr);
+        boolean b = hasPathSum2(root, 22);
         System.out.println(b);
     }
 

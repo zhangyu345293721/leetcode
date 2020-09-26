@@ -49,6 +49,9 @@ public class BinaryTreePreOrderTraversal144 {
      * @return 链表
      */
     public List<Integer> preOrderTraversal(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
         List<Integer> resultList = new ArrayList();
         preOrderHelper(resultList, root);
         return resultList;
@@ -61,9 +64,6 @@ public class BinaryTreePreOrderTraversal144 {
      * @param root       根节点
      */
     public void preOrderHelper(List<Integer> resultList, TreeNode root) {
-        if (root == null) {
-            return;
-        }
         resultList.add(root.val);
         if (root.left != null) {
             preOrderHelper(resultList, root.left);

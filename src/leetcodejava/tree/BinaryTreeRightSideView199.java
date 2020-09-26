@@ -19,7 +19,7 @@ import java.util.*;
  * 输出: [1, 3, 4]
  * 解释:
  * <p>
- *    1            <---
+ * 1            <---
  * /   \
  * 2     3         <---
  * \     \
@@ -35,7 +35,7 @@ public class BinaryTreeRightSideView199 {
     @Test
     public void binaryTreeRightSideViewTest() {
         Integer[] arr = {1, 2, 3, null, 5, null, 4};
-        TreeNode treeNode = TreeNode.createBinaryTreeByArray(arr, 0);
+        TreeNode treeNode = TreeNode.createBinaryTreeByArray(arr);
         List<Integer> list = rightSideView(treeNode);
         System.out.println(list);
     }

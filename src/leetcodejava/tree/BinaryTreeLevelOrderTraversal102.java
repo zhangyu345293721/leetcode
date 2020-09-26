@@ -44,7 +44,7 @@ import java.util.Queue;
 public class BinaryTreeLevelOrderTraversal102 {
     @Test
     public void binaryTreeLevelOrderTraversalTest() {
-        TreeNode treeNode = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5}, 0);
+        TreeNode treeNode = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5});
         List<List<Integer>> list = levelOrder(treeNode);
         System.out.println(list);
     }

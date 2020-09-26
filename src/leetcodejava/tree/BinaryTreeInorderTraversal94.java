@@ -36,8 +36,8 @@ public class BinaryTreeInorderTraversal94 {
     @Test
     public void binaryTreeInorderTraversalTest() {
         Integer arr[] = {1, 2, 3, 4, 5, 6};
-        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr, null);
-        List<Integer> list = inorderTraversal2(binaryTreeByArray);
+        TreeNode root = TreeNode.createBinaryTreeByArray(arr);
+        List<Integer> list = inorderTraversal2(root);
         System.out.println(list);
     }
 
@@ -48,6 +48,9 @@ public class BinaryTreeInorderTraversal94 {
      * @return 链表
      */
     public List<Integer> inorderTraversal(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
         List<Integer> inorderList = new ArrayList<>();
         inorderHelper(inorderList, root);
         return inorderList;
@@ -60,9 +63,6 @@ public class BinaryTreeInorderTraversal94 {
      * @param root        根节点
      */
     public void inorderHelper(List<Integer> inorderList, TreeNode root) {
-        if (root == null) {
-            return;
-        }
         if (root.left != null) {
             inorderHelper(inorderList, root.left);
         }

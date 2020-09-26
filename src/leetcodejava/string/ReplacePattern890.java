@@ -42,8 +42,6 @@ public class ReplacePattern890 {
 
     @Test
     public void replacePatternTest() {
-        /*String[] words = {"abc", "cba", "xyx", "yxx", "yyx"};
-        String pattern = "abc";*/
 
         String[] words = {"abc", "deq", "mee", "aqq", "dkd", "ccc"};
         String pattern = "abb";

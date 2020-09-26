@@ -47,7 +47,7 @@ public class ValidateBinarySearchTree98 {
     @Test
     public void validateBinarySearchTreeTest() {
         Integer[] nums = {2, 1, 3};
-        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(nums, 0);
+        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(nums);
         boolean validBST2 = isValidBST2(binaryTreeByArray);
         System.out.println(validBST2);
     }

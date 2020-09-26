@@ -55,7 +55,7 @@ public class MergeTwoBinaryTrees617 {
     }
 
     /**
-     * 合并两颗二叉树
+     * 合并两颗二叉树（深度优先）
      *
      * @param t1 二叉树t1
      * @param t2 二叉树t2
@@ -75,7 +75,7 @@ public class MergeTwoBinaryTrees617 {
     }
 
     /**
-     * 合并二叉树
+     * 合并二叉树(广度优先)
      *
      * @param t1 二叉树t1
      * @param t2 二叉树t2

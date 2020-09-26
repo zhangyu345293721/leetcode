@@ -19,7 +19,7 @@ public class TreeNode {
 
 
     public static TreeNode createBinaryTreeByArray(Integer[] array) {
-        return TreeNode.createBinaryTreeByArray(array, 0);
+        return createBinaryTreeByArray(array, 0);
     }
 
     /**

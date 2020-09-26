@@ -34,7 +34,7 @@ import org.junit.Test;
  */
 public class TargetSum494 {
     @Test
-    public void testTargetSum() {
+    public void targetSumTest() {
         int[] nums = {1, 8, 9, 3, 4, 5, 7};
         int target = 20;
         int way = findTargetSumWays(nums, target);

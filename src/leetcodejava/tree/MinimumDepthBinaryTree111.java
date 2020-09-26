@@ -37,7 +37,7 @@ public class MinimumDepthBinaryTree111 {
     @Test
     public void minimumDepthBinaryTreeTest() {
         Integer[] arr = {3, 9, 20, null, null, 15, 7};
-        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr, 0);
+        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr);
         int num = minDepth(binaryTreeByArray);
         System.out.println(num);
     }

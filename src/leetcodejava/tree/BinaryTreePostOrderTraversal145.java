@@ -35,7 +35,7 @@ public class BinaryTreePostOrderTraversal145 {
 
     @Test
     public void postOrderTraversalTest() {
-        TreeNode root = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5,6});
+        TreeNode root = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5, 6});
         List<Integer> postOrder = postOrderTraversal(root);
         System.out.println(postOrder);
     }
@@ -47,6 +47,9 @@ public class BinaryTreePostOrderTraversal145 {
      * @return 链表
      */
     public List<Integer> postOrderTraversal(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
         List<Integer> postOrderList = new ArrayList<>();
         helper(postOrderList, root);
         return postOrderList;
@@ -59,9 +62,6 @@ public class BinaryTreePostOrderTraversal145 {
      * @param root          根节点
      */
     private void helper(List<Integer> postOrderList, TreeNode root) {
-        if (root == null) {
-            return;
-        }
         if (root.left != null) {
             helper(postOrderList, root.left);
         }

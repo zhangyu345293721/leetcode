@@ -2,8 +2,6 @@ package leetcodejava.string;
 
 import org.junit.Test;
 
-import java.util.List;
-
 /**
  * 判断是不是回文串
  *
@@ -44,23 +42,6 @@ public class IsPalindromic {
             }
             i++;
             j--;
-        }
-        return true;
-    }
-
-    /**
-     * 判断是不是回文串用双指针的形式
-     *
-     * @param list 链表
-     * @return 返回布尔值
-     */
-    public boolean isPalindromeList(List<Integer> list) {
-        int i = 0;
-        int j = list.size() - 1;
-        while (i < j) {
-            if (list.get(i).equals(list.get(j))) {
-                return false;
-            }
         }
         return true;
     }

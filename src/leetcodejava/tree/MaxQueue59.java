@@ -36,7 +36,7 @@ public class MaxQueue59 {
     private int max;
 
     @Test
-    public void testMaxQueue59() {
+    public void maxQueueTest() {
         MaxQueue59 q = new MaxQueue59();
         q.push_back(1);
         q.push_back(2);
