@@ -574,4 +574,16 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/106929330">Binary Tree Inorder Traversal</a></th>
     <th>Easy</th>
   </tr>
+ 
+  <tr>
+    <th >144</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/108887475">Binary Tree PreOrder Traversal</a></th>
+    <th>Middle</th>
+  </tr>
+  
+    <tr>
+    <th >145</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/108884911">Binary Tree Post Order Traversal</a></th>
+    <th>Middle</th>
+  </tr>
 </table>
