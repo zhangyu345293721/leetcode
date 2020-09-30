@@ -571,7 +571,7 @@
   </tr>
   <tr>
     <th >94</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104189181">Binary Tree Inorder Traversal</a></th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/106929330">Binary Tree Inorder Traversal</a></th>
     <th>Easy</th>
   </tr>
 </table>
