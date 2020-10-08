@@ -17,7 +17,7 @@
   <tr>
     <th >84</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85253780">Largest Rectangle in Histogram</a></th>
-    <th>Middle</th>
+    <th>Hard</th>
   </tr>
  <tr>
     <th >*152</th>
