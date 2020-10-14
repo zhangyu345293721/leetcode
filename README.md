@@ -27,7 +27,7 @@
   <tr>
     <th >85</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85229189">Maximal Rectangle</a></th>
-    <th>Middle</th>
+    <th>Hard</th>
   </tr>
   <tr>
     <th >322</th>
