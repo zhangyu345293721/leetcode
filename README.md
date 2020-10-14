@@ -37,7 +37,7 @@
    <tr>
     <th >240</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223378">Search a 2D Matrix II</a></th>
-    <th>Hard</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >621</th>
