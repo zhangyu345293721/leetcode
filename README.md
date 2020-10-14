@@ -32,7 +32,7 @@
   <tr>
     <th >322</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223632">Coin Change</a></th>
-    <th>Hard</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >240</th>
