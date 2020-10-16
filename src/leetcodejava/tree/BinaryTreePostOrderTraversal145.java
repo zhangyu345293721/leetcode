@@ -78,10 +78,10 @@ public class BinaryTreePostOrderTraversal145 {
      * @return 链表
      */
     public List<Integer> postOrderTraversal2(TreeNode root) {
-        List<Integer> res = new LinkedList<>();
         if (root == null) {
-            return res;
+            return new ArrayList<>();
         }
+        List<Integer> res = new LinkedList<>();
         Deque<TreeNode> stack = new LinkedList<>();
         stack.push(root);
         while (!stack.isEmpty()) {

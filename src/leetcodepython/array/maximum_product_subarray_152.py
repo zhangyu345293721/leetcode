@@ -30,7 +30,7 @@
 from typing import List
 
 
-def max_product(arrs: List[int]) -> int:
+def max_product(nums: List[int]) -> int:
     '''
         数组乘积最大值
     Args:
@@ -38,20 +38,44 @@ def max_product(arrs: List[int]) -> int:
     Returns:
         乘积
     '''
-    if len(arrs) < 1:
+    if len(nums) < 1:
         return 0
-    max_num,min_num = arrs[0],arrs[0]
-    result = arrs[0]
-    for i in range(1, len(arrs)):
+    max_num, min_num = nums[0], nums[0]
+    result = nums[0]
+    for i in range(1, len(nums)):
         temp = max_num
-        max_num = max(max(max_num * arrs[i], min_num * arrs[i]), arrs[i])
-        min_num = min(min(temp * arrs[i], min_num * arrs[i]), arrs[i])
+        max_num = max(max(max_num * nums[i], min_num * nums[i]), nums[i])
+        min_num = min(min(temp * nums[i], min_num * nums[i]), nums[i])
         if max_num > result:
             result = max_num
     return result
 
 
+def max_product2(nums: List[int]) -> int:
+    '''
+        数组乘积最大值
+    Args:
+        nums: 数组
+    Returns:
+        乘积
+    '''
+    if len(nums) < 1:
+        return 0
+    result = -1
+    i_max = 1
+    i_min = 1
+    for num in nums:
+        if num < 0:
+            temp = i_max
+            i_max = i_min
+            i_min = temp
+        i_max = max(i_max * num, num)
+        i_min = min(i_min * num, num)
+        result = max(result, i_max)
+    return result
+
+
 if __name__ == '__main__':
     arr = [2, 3, -2, 4]
-    num = max_product(arr)
-    print(num)
+    result = max_product2(arr)
+    print(result)

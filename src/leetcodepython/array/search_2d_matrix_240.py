@@ -39,12 +39,10 @@ def search_matrix(matrix: List[List[int]], target: int) -> bool:
     Returns:
         是否找到那个值
     '''
-    row = len(matrix)
-    if row == 0:
+    if not matrix:
         return False
-    col = len(matrix[0])
-    i, j = 0, col - 1
-    while i < row and j >= 0:
+    i, j = 0, len(matrix[0]) - 1
+    while i < len(matrix) and j >= 0:
         if matrix[i][j] == target:
             return True
         elif matrix[i][j] > target:
@@ -52,3 +50,36 @@ def search_matrix(matrix: List[List[int]], target: int) -> bool:
         else:
             i += 1
     return False
+
+def search_matrix2(matrix: List[List[int]], target: int) -> bool:
+    '''
+        查找二维数组
+    Args:
+        matrix: 二维数组
+        target: 目标值
+    Returns:
+        是否找到那个值
+    '''
+    if not matrix:
+        return False
+    i, j = len(matrix)-1, 0
+    while i >= 0 and j < len(matrix[0]):
+        if matrix[i][j] == target:
+            return True
+        elif matrix[i][j] > target:
+            i -= 1
+        else:
+            j += 1
+    return False
+
+if __name__ == '__main__':
+    target = 5
+    matrix = [
+        [1, 4, 7, 11, 15],
+        [2, 5, 8, 12, 19],
+        [3, 6, 9, 16, 22],
+        [10, 13, 14, 17, 24],
+        [18, 21, 23, 26, 30]
+    ]
+    b = search_matrix2(matrix, target)
+    print(b)

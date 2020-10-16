@@ -40,8 +40,8 @@ def largest_rectangle_histogram(heights: List[int]) -> int:
     stack = []
     max_area, index = 0, 0
     length = len(heights)
-    while index < length:
-        if len(stack) < 1 or (index < length and heights[index] >= heights[stack[-1]]):
+    while index <= length:
+        if not stack or (index < length and heights[index] >= heights[stack[-1]]):
             stack.append(index)
             index += 1
         else:
@@ -49,6 +49,34 @@ def largest_rectangle_histogram(heights: List[int]) -> int:
             width = index if len(stack) < 1 else index - stack[-1] - 1
             max_area = max(max_area, width * heights[top])
     return max_area
+
+
+def largest_rectangle_histogram2(heights: List[int]) -> int:
+    '''
+        计算最大矩形长度
+    Args:
+        heights: 数组长度
+    Returns:
+        矩形最大面积
+    '''
+    if not heights:
+        return 0
+    if len(heights) < 2:
+        return heights[0]
+    area_max = 0
+    for i in range(len(heights)):
+        height = heights[i]
+        width = 1  # 当前宽度为1
+        k = i - 1
+        while k >= 0 and heights[k] >= height:
+            width += 1
+            k -= 1
+        k = i + 1
+        while k <= len(heights) - 1 and heights[k] >= height:
+            width += 1
+            k += 1
+        area_max = max(area_max, height * width)
+    return area_max
 
 
 if __name__ == '__main__':

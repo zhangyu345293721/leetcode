@@ -23,7 +23,7 @@ import org.junit.Test;
 public class TrappingRainWater42 {
     @Test
     public void trappingRainWaterTest() {
-        int height[] = {1, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        int height[] = {1 , 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         int maxWater = trappingRainWater(height);
         System.out.println(maxWater);
     }
@@ -40,7 +40,7 @@ public class TrappingRainWater42 {
         }
         int result = 0;
         int size = height.length;
-        for (int i = 0; i < size - 1; i++) {
+        for (int i = 0; i < size ; i++) {
             int maxLeft = 0;
             int maxRight = 0;
             for (int j = i; j >= 0; j--) {
@@ -71,18 +71,12 @@ public class TrappingRainWater42 {
         int rightMax = 0;
         while (left < right) {
             if (height[left] < height[right]) {
-                if (height[left] > leftMax) {
-                    leftMax = height[left];
-                } else {
-                    result += leftMax - height[left];
-                }
+                leftMax = Math.max(leftMax, height[left]);
+                result += (leftMax - height[left]);
                 left++;
             } else {
-                if (height[right] < rightMax) {
-                    rightMax = height[rightMax];
-                } else {
-                    result += rightMax - height[right];
-                }
+                rightMax = Math.max(rightMax, height[right]);
+                result += (rightMax - height[right]);
                 right--;
             }
         }

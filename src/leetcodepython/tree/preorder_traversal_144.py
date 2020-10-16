@@ -32,7 +32,15 @@ from typing import List
 from tree.tree_node import TreeNode
 
 
-def helper(result: List[int], root: TreeNode):
+def helper(result: List[int], root: TreeNode) -> None:
+    '''
+        遍历帮助类
+    Args:
+        result: 结果链表
+        root: 根节点
+    Returns:
+        None
+    '''
     result.append(root.val)
     if root.left:
         helper(result, root.left)
@@ -40,7 +48,7 @@ def helper(result: List[int], root: TreeNode):
         helper(result, root.right)
 
 
-def per_order_traversal(root: TreeNode) -> List[int]:
+def pre_order_traversal(root: TreeNode) -> List[int]:
     '''
         先序遍历
     Args:
@@ -56,7 +64,14 @@ def per_order_traversal(root: TreeNode) -> List[int]:
     return result
 
 
-def per_order_traversal2(root: TreeNode) -> List[int]:
+def pre_order_traversal2(root: TreeNode) -> List[int]:
+    '''
+        前序遍历
+    Args:
+        root: 根节点
+    Returns:
+        遍历结果
+    '''
     result = []
     if not root:
         return result

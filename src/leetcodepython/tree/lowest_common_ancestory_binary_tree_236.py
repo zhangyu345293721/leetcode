@@ -43,10 +43,12 @@ def lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode
     Returns:
         最小公共祖先
     '''
-    if not root or not p or not q:
+    if not root:
+        return root
+    if not p or not q:
         return root
     left = lowest_common_ancestor(root.left, p, q)
-    right = lowest_common_ancestor(root.right,p, q)
+    right = lowest_common_ancestor(root.right, p, q)
     if not left and not right:
         return None
     if left and right:
@@ -55,6 +57,7 @@ def lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode
         return right
     else:
         return left
+
 
 if __name__ == '__main__':
     nums = [3, 5, 1, 6, 2, 0, 8, None, None, 7, 4]

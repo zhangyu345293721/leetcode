@@ -37,31 +37,39 @@ public class LowestCommonAncestorBinaryTree236 {
     @Test
     public void lowestCommonAncestorBinaryTreeTest() {
         Integer[] nums = {3, 5, 1, 6, 2, 0, 8, null, null, 7, 4};
-        TreeNode root = TreeNode.createBinaryTreeByArray(nums, 0);
+        TreeNode root = TreeNode.createBinaryTreeByArray(nums);
         TreeNode p = new TreeNode(5);
-        TreeNode q = new TreeNode(1);
+        TreeNode q = new TreeNode(4);
         TreeNode treeNode = lowestCommonAncestor(root, p, q);
         System.out.println(treeNode);
     }
 
     /**
+     * 最小公共祖先
+     * (f1 && f2) || (x=p||x=q) && (f1 |f2)
+     *
      * @param root 根节点
      * @param p    节点p
      * @param q    节点q
      * @return 最小相同祖先
      */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        if (root == null || root == p || root == q) {
+        if (root == null) {
+            return root;
+        }
+        if (root == p || root == q) {
             return root;
         }
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
-        if (left == null && right == null) {
-            return null;
-        }
         if (left != null && right != null) {
             return root;
+        } else if (left != null) {
+            return left;
+        } else if (right != null) {
+            return right;
+        } else {
+            return null;
         }
-        return left == null ? right : left;
     }
 }

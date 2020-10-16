@@ -31,42 +31,51 @@
 from typing import List
 
 
-def helper(coins, count, index, amount, min_count):
-    '''
-        dfs帮助类
-    Args:
-        coins: 硬币数组
-        count: 数量
-        index: 下标
-        amount: 金额
-        min_count: 最小数
-    '''
-    if index < 0 or count + amount // coins[index] > min_count[0]:
-        return
-    if amount % coins[index] == 0:
-        min_count[0] = min(min_count[0], count + amount // coins[index])
-        return
-    i = amount // coins[index]
-    while i >= 0:
-        helper(coins, count + i, index - 1, amount - i * coins[index], min_count)
-        i -= 1
+class Solution:
+    def helper(self, coins: List[int], count: int, index: int, amount: int, min_count: int):
+        '''
+            dfs帮助类
+        Args:
+            coins: 硬币数组
+            count: 数量
+            index: 下标
+            amount: 金额
+            min_count: 最小数
+        '''
+        if index >= len(coins):
+            return
+        n = amount // coins[index]
+        i = n
+        while i >= 0:
+            new_count = count + i
+            # 剪枝操作1
+            if amount == i * coins[index]:
+                min_count[0] = min(min_count[0], new_count)
+                break
+            # 剪枝操作2
+            if new_count >= min_count[0]:
+                break
+            self.helper(coins, new_count, index + 1, amount - i * coins[index], min_count)
+            i -= 1
 
-def coin_change(coins: List[int], amount: int) -> int:
-    '''
-        兑换硬币最小数
-    Args:
-        coins: 硬币数组
-        amount: 金额大小
-    Returns:
-        最小数量
-    '''
-    min_count = [amount + 1]
-    coins.sort()
-    helper(coins, 0, len(coins) - 1, amount, min_count)
-    return -1 if min_count[0] == amount + 1 else min_count[0]
+    def coin_change(self, coins: List[int], amount: int) -> int:
+        '''
+            兑换硬币最小数
+        Args:
+            coins: 硬币数组
+            amount: 金额大小
+        Returns:
+            最小数量
+        '''
+        min_count = [amount + 1]
+        coins.sort(reverse=True)
+        self.helper(coins, 0, 0, amount, min_count)
+        return -1 if min_count[0] == amount + 1 else min_count[0]
+
 
 if __name__ == '__main__':
     amount = 11
-    coins = [1, 3, 5]
-    result = coin_change(coins, amount)
+    coins = [1,2,5]
+    solution = Solution()
+    result = solution.coin_change(coins, amount)
     print(result)

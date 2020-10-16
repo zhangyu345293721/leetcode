@@ -59,23 +59,4 @@ def post_order_traversal(root: TreeNode) -> List[int]:
     return result
 
 
-def post_order_traversal2(root: TreeNode) -> List[int]:
-    '''
-        后序遍历
-    Args:
-        res: 链表
-        root: 根节点
-    '''
-    result = []
-    stack = []
-    if len(root) < 1:
-        return result
-    stack.append(root)
-    while len(stack) > 0:
-        node = stack.pop()
-        if root.left:
-            stack.append(root.left)
-        if root.right:
-            stack.append(root.right)
-        result.insert(0, node.val)
-    return result
+
