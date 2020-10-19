@@ -1,6 +1,6 @@
  # leetcode算法题目
  ### 题目官网: https://leetcode.com/problemset/all/
-<br>   目前题目java实现，后面增加python实现，后续按照题目类型不断补充题目,类别主要分为：top100likedquestions，array，list，string，hashtable，math，tree：
+<br>  目前题目java实现，后面增加python实现，后续按照题目类型不断补充题目,类别主要分为：top100likedquestions，array，list，string，hashtable，math，tree：
 
 ## 1.top100likedquestions
 <table border="2" >
@@ -27,17 +27,17 @@
   <tr>
     <th >85</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85229189">Maximal Rectangle</a></th>
-    <th>Middle</th>
+    <th>Hard</th>
   </tr>
   <tr>
     <th >322</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223632">Coin Change</a></th>
-    <th>Hard</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >240</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223378">Search a 2D Matrix II</a></th>
-    <th>Hard</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >621</th>
