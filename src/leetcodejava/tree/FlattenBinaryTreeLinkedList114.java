@@ -1,5 +1,7 @@
 package leetcodejava.tree;
 
+import org.junit.Test;
+
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -11,30 +13,28 @@ import java.util.LinkedList;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个二叉树，原地将它展开为一个单链表。
- *
- *  
- *
+ * <p>
  * 例如，给定二叉树
- *
- *     1
- *    / \
- *   2   5
- *  / \   \
+ * <p>
+ * 1
+ * / \
+ * 2   5
+ * / \   \
  * 3   4   6
  * 将其展开为：
- *
+ * <p>
  * 1
- *  \
- *   2
- *    \
- *     3
- *      \
- *       4
- *        \
- *         5
- *          \
- *           6
- *
+ * \
+ * 2
+ * \
+ * 3
+ * \
+ * 4
+ * \
+ * 5
+ * \
+ * 6
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -43,6 +43,14 @@ import java.util.LinkedList;
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class FlattenBinaryTreeLinkedList114 {
+
+    @Test
+    public void flattenBinaryTreeLinkedListTest() {
+        Integer[] arr = {1, 2, 5, 3, 4, null, 6};
+        TreeNode root = TreeNode.createBinaryTreeByArray(arr);
+        flatten(root);
+        System.out.println(root);
+    }
 
     /**
      * 将二叉树改为链表
@@ -78,20 +86,22 @@ public class FlattenBinaryTreeLinkedList114 {
      * @root 根节点
      */
     public void flatten2(TreeNode root) {
-        falttenForList(root, null);
+        flattenForList(root, null);
     }
 
     /**
+     * 将二叉树遍历成链表
+     *
      * @param root    根节点
      * @param current 当前节点
      * @return 节点
      */
-    private TreeNode falttenForList(TreeNode root, TreeNode current) {
+    private TreeNode flattenForList(TreeNode root, TreeNode current) {
         if (root == null) {
             return current;
         }
-        current = falttenForList(root.right, current);
-        current = falttenForList(root.left, current);
+        current = flattenForList(root.right, current);
+        current = flattenForList(root.left, current);
         root.left = null;
         root.right = current;
         return root;

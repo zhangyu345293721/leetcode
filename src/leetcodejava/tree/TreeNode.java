@@ -18,6 +18,12 @@ public class TreeNode {
     }
 
 
+    /**
+     * 将数组构建为二叉树
+     *
+     * @param array 二维数组
+     * @return 二叉树
+     */
     public static TreeNode createBinaryTreeByArray(Integer[] array) {
         return createBinaryTreeByArray(array, 0);
     }
