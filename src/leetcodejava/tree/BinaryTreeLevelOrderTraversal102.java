@@ -56,6 +56,9 @@ public class BinaryTreeLevelOrderTraversal102 {
      * @return 返回遍历链表
      */
     public List<List<Integer>> levelOrder(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
         List<List<Integer>> res = new ArrayList();
         levelOrderHelper(res, root, 0);
         return res;
@@ -87,6 +90,9 @@ public class BinaryTreeLevelOrderTraversal102 {
      * @return 返回遍历链表
      */
     public List<List<Integer>> levelOrder2(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
         List<List<Integer>> res = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
