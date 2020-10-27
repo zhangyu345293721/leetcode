@@ -32,57 +32,57 @@ from typing import List
 from tree.tree_node import TreeNode
 
 
-def helper(res: List[int], root: TreeNode):
-    '''
-        中序遍历二叉树
-    Args:
-        res: 链表
-        root: 根节点
-    '''
-    if root.left != None:
-        helper(res, root.left)
-    res.append(root.val)
-    if root.right != None:
-        helper(res, root.right)
+class Solution:
+    def helper(self, res: List[int], root: TreeNode):
+        '''
+            中序遍历二叉树
+        Args:
+            res: 链表
+            root: 根节点
+        '''
+        if root.left != None:
+            self.helper(res, root.left)
+        res.append(root.val)
+        if root.right != None:
+            self.helper(res, root.right)
 
-
-def inorder_traversal1(root: TreeNode) -> List[int]:
-    '''
-        中序遍历二叉树
-    Args:
-        root: 跟节点
-    Returns:
-        中序递归遍历二叉树
-    '''
-    result = []
-    if not root:
+    def inorder_traversal1(self, root: TreeNode) -> List[int]:
+        '''
+            中序遍历二叉树
+        Args:
+            root: 跟节点
+        Returns:
+            中序递归遍历二叉树
+        '''
+        result = []
+        if not root:
+            return result
+        self.helper(result, root);
         return result
-    helper(result, root);
-    return result
 
-
-def inorder_traversal2(root: TreeNode) -> List[int]:
-    '''
-        中序遍历二叉树
-    Args:
-        root: 跟节点
-    Returns:
-        中序递归遍历二叉树
-    '''
-    result, stack = [], []
-    while root or stack:
-        while root:
-            stack.append(root)
-            root = root.left
-        root = stack.pop()
-        result.append(root.val)
-        root = root.right
-    return result
+    def inorder_traversal2(self, root: TreeNode) -> List[int]:
+        '''
+            中序遍历二叉树
+        Args:
+            root: 跟节点
+        Returns:
+            中序递归遍历二叉树
+        '''
+        result, stack = [], []
+        while root or stack:
+            while root:
+                stack.append(root)
+                root = root.left
+            root = stack.pop()
+            result.append(root.val)
+            root = root.right
+        return result
 
 
 if __name__ == '__main__':
     arr = [1, 2, 3, 4, 5, 6]
     tree_node = TreeNode()
     root = tree_node.create_binary_tree_array(arr)
-    node_list = inorder_traversal1(root)
-    print(node_list)
+    solution = Solution()
+    node_list = solution.inorder_traversal1(root)
+    assert len(node_list) == 6

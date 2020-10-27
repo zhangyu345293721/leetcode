@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -34,7 +35,7 @@ public class UniquePath62 {
         int n = 3;
         int m = 7;
         int methods = paths(m, n);
-        System.out.println(methods);
+        Assert.assertEquals(methods,28);
     }
 
     /**

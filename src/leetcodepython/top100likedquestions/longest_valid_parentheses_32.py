@@ -1,6 +1,6 @@
 '''
 /**
- * This is the solution of No.830 problem in the LeetCode,
+ * This is the solution of No.32 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/longest-valid-parentheses
  * <p>
@@ -31,44 +31,65 @@
 from typing import List
 
 
-def get_longest_valid_parentheses(strs: List[str]) -> int:
-    '''
-        遍历所有的括号
-    Args:
-        strs: 字符串
-    Returns:
-        匹配字符串长度
-    '''
-    max_len = 0
-    for i in range(len(strs)):
-        j = i + 2
-        while j <= len(strs):
-            if is_valid_parentheses(strs[i:j]):
-                max_len = max(max_len, j - i)
-            j += 2
-    return max_len
+class Solution:
+    def get_longest_valid_parentheses(self, s: List[str]) -> int:
+        '''
+            遍历所有的括号,计算有效字符串
+        Args:
+            s: 字符串
+        Returns:
+            匹配字符串长度
+        '''
+        max_len, left, right = 0, 0, 0
+        for i in range(len(s)):
+            if s[i] == '(':
+                left += 1
+            else:
+                right += 1
+            if left == right:
+                max_len = max(max_len, 2 * right)
+            if right > left:
+                right, left = 0, 0
+        right, left = 0, 0
+        for j in range(len(s))[::-1]:
+            if s[j] == '(':
+                left += 1
+            else:
+                right += 1
+            if left == right:
+                max_len = max(max_len, 2 * left)
+            if left > right:
+                right, left = 0, 0
+        return max_len
 
-
-def is_valid_parentheses(strs: List[str]) -> bool:
-    '''
-        判断括号是不是匹配
-    Args:
-        strs: 字符串
-    Returns:
-        布尔值
-    '''
-    stack = list()
-    for i in range(len(strs)):
-        if strs[i] == '(':
-            stack.append('(')
-        elif len(stack) != 0 and stack[len(stack) - 1] == '(':
-            stack.pop()
-        else:
-            return False
-    return len(stack) == 0
+    def get_longest_valid_parentheses2(self, s: List[str]) -> int:
+        '''
+            遍历所有的括号,计算有效字符串
+        Args:
+            s: 字符串
+        Returns:
+            匹配字符串长度
+        '''
+        length = len(s)
+        dp = [0] * (length + 1)
+        stack = []
+        for i, ch in enumerate(s):
+            index = i + 1
+            if ch == '(':
+                stack.append(ch)
+            else:
+                if stack:
+                    stack.pop()
+                    pairs = 1 + dp[i]
+                    prev_index = index - 2 * pairs
+                    if prev_index >= 0:
+                        pairs += dp[prev_index]
+                        dp[index] = pairs
+        return max(dp) * 2
 
 
 if __name__ == '__main__':
-    strs = '()()'
-    max_len = get_longest_valid_parentheses(strs)
-    print(max_len)
+    s = '()('
+    solution = Solution()
+    max_len = solution.get_longest_valid_parentheses2(s)
+    assert max_len == 2

@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -38,7 +39,7 @@ public class BinaryTreeInorderTraversal94 {
         Integer arr[] = {1, 2, 3, 4, 5, 6};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         List<Integer> list = inorderTraversal2(root);
-        System.out.println(list);
+        Assert.assertEquals(list.size(), 6);
     }
 
     /**
@@ -57,7 +58,7 @@ public class BinaryTreeInorderTraversal94 {
     }
 
     /**
-     * 递归帮助类
+     * 递归遍历帮助类
      *
      * @param inorderList 存储链表
      * @param root        根节点
@@ -79,6 +80,9 @@ public class BinaryTreeInorderTraversal94 {
      * @return 链表
      */
     public List<Integer> inorderTraversal2(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
         List<Integer> resultList = new ArrayList<>();
         Deque<TreeNode> stack = new LinkedList<>();
         while (root != null || !stack.isEmpty()) {

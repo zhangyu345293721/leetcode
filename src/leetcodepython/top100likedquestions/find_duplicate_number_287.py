@@ -36,38 +36,61 @@
 from typing import List
 
 
-def find_duplicate_number(nums: List[int]) -> int:
-    '''
-        找出重复的数字
-    Args:
-        arr: 数组
-    Returns:
-        重复数字
-    '''
-    nums.sort()
-    for i in range(len(nums)):
-        if nums[i] == nums[i + 1]:
-            return nums[i]
-    return -1
+class Solution:
+    def find_duplicate_number(self, nums: List[int]) -> int:
+        '''
+            找出重复的数字
+        Args:
+            arr: 数组
+        Returns:
+            重复数字
+        '''
+        nums.sort()
+        for i in range(len(nums)):
+            if nums[i] == nums[i + 1]:
+                return nums[i]
+        return -1
 
-def find_duplicate_number2(nums: List[int]) -> int:
-    '''
-       找出重复的数字
-   Args:
-       arr: 数组
-   Returns:
-       重复数字
-   '''
-    s = set()
-    for num in nums:
-        if num in s:
-            return num
-        else:
-            s.add(num)
-    return -1
+    def find_duplicate_number2(self, nums: List[int]) -> int:
+        '''
+           找出重复的数字
+       Args:
+           arr: 数组
+       Returns:
+           重复数字
+       '''
+        s = set()
+        for num in nums:
+            if num in s:
+                return num
+            else:
+                s.add(num)
+        return -1
+
+    def find_duplicate_number3(self, nums: List[int]) -> int:
+        '''
+            快慢指针思想, fast 和 slow 是指针
+       Args:
+           arr: 数组
+       Returns:
+           重复数字
+       '''
+        # 找到环的位置
+        slow = nums[0]
+        fast = nums[nums[0]]
+        while slow != fast:
+            slow = nums[slow]
+            fast = nums[nums[fast]]
+        # 另外一只乌龟从原点出发，在重复点时候相遇
+        slow2 = 0
+        while slow2 != slow:
+            slow = nums[slow]
+            slow2 = nums[slow2]
+        return slow2
 
 
 if __name__ == '__main__':
-    arr = [3, 2, 1, 2, 4]
-    num = find_duplicate_number(arr)
+    nums = [3, 2, 1, 2, 4]
+    solution = Solution()
+    num = solution.find_duplicate_number3(nums)
     print(num)

@@ -40,10 +40,7 @@ def max_area(heights: List[int]) -> int:
     for i in range(len(heights) - 1):
         for j in range(i, len(heights)):
             high = min(heights[i], heights[j])
-            wide = abs(i - j)
-            area = high * wide
-            if area > max_area:
-                max_area = area
+            max_area=max(max_area, high *  abs(i - j))
     return max_area
 
 
