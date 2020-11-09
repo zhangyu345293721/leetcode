@@ -47,45 +47,47 @@ date:2020/9/9
 from typing import List
 
 
-def combination_sum(nums: List[int], target: int) -> List[List[int]]:
-    '''
-        数组
-    Args:
-        nums: 数组
-        target: 目标值
-    Returns:
-        组合链表
-    '''
-    result = []
-    current = []
-    nums.sort()
-    helper(nums, target, result, current, 0)
-    return result
+class Solution:
+    def combination_sum(self, nums: List[int], target: int) -> List[List[int]]:
+        '''
+            数组
+        Args:
+            nums: 数组
+            target: 目标值
+        Returns:
+            组合链表
+        '''
+        result = []
+        current = []
+        nums.sort()
+        self.helper(nums, target, result, current, 0)
+        return result
 
-
-def helper(nums: List[int], target: int, result: List[List[int]], current: List[int], index: int) -> None:
-    '''
-        递归获取结果
-    Args:
-        nums: 数组
-        target:目标值
-        result:结果集
-        current:当前结果
-        index:下标
-    '''
-    for i in range(index, len(nums)):
-        if nums[i] > target:
-            break
-        current.append(nums[i])
-        if target - nums[i] == 0:
-            result.append(list(current))
-        else:
-            helper(nums, target - nums[i], result, current, i)
-        current.pop()
+    def helper(self, nums: List[int], target: int, result: List[List[int]], current: List[int], index: int) -> None:
+        '''
+            递归获取结果
+        Args:
+            nums: 数组
+            target:目标值
+            result:结果集
+            current:当前结果
+            index:下标
+        '''
+        for i in range(index, len(nums)):
+            if nums[i] > target:
+                break
+            current.append(nums[i])
+            if target - nums[i] == 0:
+                # 需要复制数组
+                result.append(list(current))
+            else:
+                self.helper(nums, target - nums[i], result, current, i)
+            current.pop()
 
 
 if __name__ == '__main__':
     arr = [2, 3, 6, 7]
     target = 7
-    result = combination_sum(arr, target)
+    solution = Solution()
+    result = solution.combination_sum(arr, target)
     print(result)

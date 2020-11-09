@@ -1,6 +1,7 @@
 package leetcodejava.top100likedquestions;
 
 import org.junit.Test;
+
 /**
  * This is the solution of No. xxx problem in the LeetCode,
  * the website of the problem is as follow:
@@ -35,7 +36,8 @@ import org.junit.Test;
  * exection -> execution (插入 'u')
  * <p>
  * 来源：力扣（LeetCode）
- * * ==========================================================================================================
+ * * ======================================  ====================================================================
+ *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class EditDistance72 {
@@ -71,10 +73,11 @@ public class EditDistance72 {
             for (int j = 1; j < m + 1; j++) {
                 int left = d[i - 1][j] + 1;
                 int down = d[i][j - 1] + 1;
-                int left_down = d[i - 1][j - 1];
-                if (word1.charAt(i - 1) != word2.charAt(j - 1))
-                    left_down += 1;
-                d[i][j] = Math.min(left, Math.min(down, left_down));
+                int leftDown = d[i - 1][j - 1];
+                if (word1.charAt(i - 1) != word2.charAt(j - 1)) {
+                    leftDown += 1;
+                }
+                d[i][j] = Math.min(left, Math.min(down, leftDown));
             }
         }
         return d[n][m];

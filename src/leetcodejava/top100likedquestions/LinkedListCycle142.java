@@ -4,6 +4,8 @@ import leetcodejava.list.ListNode;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * This is the solution of No.142 problem in the LeetCode,
@@ -78,5 +80,30 @@ public class LinkedListCycle142 {
             fast = fast.next;
         }
         return slow;
+    }
+
+
+    /**
+     * 找出链表中的环,利用hashSet
+     *
+     * @param head 头指针
+     * @return 环对象
+     */
+    public ListNode detectCycle2(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        ListNode node = new ListNode(-1);
+        node.next = head;
+        ListNode cur = node;
+        Set<ListNode> set = new HashSet<>();
+        while (cur.next != null) {
+            if (set.contains(cur.next)) {
+                return cur.next;
+            }
+            cur = cur.next;
+            set.add(cur);
+        }
+        return null;
     }
 }

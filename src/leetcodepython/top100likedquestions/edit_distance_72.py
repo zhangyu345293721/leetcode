@@ -2,7 +2,7 @@
 
 '''
 /**
- * This is the solution of No. xxx problem in the LeetCode,
+ * This is the solution of No. 72 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/edit-distance/
  * <p>
@@ -42,37 +42,39 @@
 import numpy as np
 
 
-def min_distance(word1: str, word2: str) -> int:
-    '''
-        得到最小步数
-    Args:
-        word1: 字符串1
-        word2:字符串2
-    Returns:
-        最小步数
-    '''
-    m = len(word1)
-    n = len(word2)
-    if m * n == 0:
-        return n + m
-    d = np.zeros((m + 1, n + 1), dtype=np.int)
-    for i in range(m + 1):
-        d[i][0] = i
-    for j in range(n + 1):
-        d[0][j] = j
-    for i in range(1, m + 1):
-        for j in range(1, n + 1):
-            left = d[i - 1][j] + 1
-            down = d[i][j - 1] + 1
-            left_down = d[i - 1][j - 1]
-            if word1[i - 1] != word2[j - 1]:
-                left_down += 1
-            d[i][j] = min(left, min(down, left_down))
-    return d[n][m]
+class Solution:
+    def min_distance(self, word1: str, word2: str) -> int:
+        '''
+            得到最小步数
+        Args:
+            word1: 字符串1
+            word2:字符串2
+        Returns:
+            最小步数
+        '''
+        m = len(word1)
+        n = len(word2)
+        if m * n == 0:
+            return n + m
+        d = np.zeros((m + 1, n + 1), dtype=np.int)
+        for i in range(m + 1):
+            d[i][0] = i
+        for j in range(n + 1):
+            d[0][j] = j
+        for i in range(1, m + 1):
+            for j in range(1, n + 1):
+                left = d[i - 1][j] + 1
+                down = d[i][j - 1] + 1
+                left_down = d[i - 1][j - 1]
+                if word1[i - 1] != word2[j - 1]:
+                    left_down += 1
+                d[i][j] = min(left, min(down, left_down))
+        return d[n][m]
 
 
 if __name__ == '__main__':
     word1 = "horse"
     word2 = "ros"
-    min_distance = min_distance(word1, word2)
-    print(min_distance())
+    solution = Solution()
+    result = solution.min_distance(word1, word2)
+    print(result)

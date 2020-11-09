@@ -36,13 +36,14 @@
  */
 '''
 
+
 class ListNode:
     def __init__(self, val, next):
         self.val = val
         self.next = next
 
 
-def get_detect_cycle(head: ListNode) -> ListNode:
+def detect_cycle(head: ListNode) -> ListNode:
     '''
         头结点
     Args:
@@ -69,3 +70,25 @@ def get_detect_cycle(head: ListNode) -> ListNode:
         slow = slow.next
         fast = fast.next
     return slow
+
+
+def detect_cycle_2(head: ListNode) -> ListNode:
+    '''
+        头结点
+    Args:
+        head: 头结点位置
+    Returns:
+        环中头结点位置
+    '''
+    if not head or not head.next:
+        return None
+    node = ListNode(-1)
+    node.next = head
+    cur = node
+    list_node_set = set()
+    while cur.next:
+        if cur.next in list_node_set:
+            return cur.next
+        cur = cur.next
+        list_node_set.add(cur)
+    return None

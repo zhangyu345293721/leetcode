@@ -35,7 +35,7 @@ import java.util.List;
 
 public class GenerateParentheses22 {
     @Test
-    public void testGenerateParentheses() {
+    public void generateParenthesesTest() {
         int n = 3;
         List<String> list = generateParentheses(n);
         System.out.println(list);
@@ -45,36 +45,36 @@ public class GenerateParentheses22 {
      * 生成括号
      *
      * @param n 输入字符
-     * @return
+     * @return list
      */
     private List<String> generateParentheses(int n) {
-        List<String> list = new ArrayList<>();
         if (n < 1) {
-            return list;
+            return new ArrayList<>();
         }
-        bracketTrace(list, "", 0, 0, n);
-        return list;
+        List<String> result = new ArrayList<>();
+        bracketTrace(result, "", 0, 0, n);
+        return result;
     }
 
     /**
-     * 括号位置追踪
+     * 括号位置追加
      *
-     * @param list  链表
-     * @param s     字符串
-     * @param left  左边
-     * @param right 右边
-     * @param n     下标
+     * @param result 结果
+     * @param s      字符串
+     * @param left   左边
+     * @param right  右边
+     * @param n      下标
      */
-    private void bracketTrace(List<String> list, String s, int left, int right, int n) {
+    private void bracketTrace(List<String> result, String s, int left, int right, int n) {
         if (s.length() == n * 2) {
-            list.add(s);
+            result.add(s);
             return;
         }
         if (left < n) {
-            bracketTrace(list, s + "(", left + 1, right, n);
+            bracketTrace(result, s + "(", left + 1, right, n);
         }
         if (right < left) {
-            bracketTrace(list, s + ")", left, right + 1, n);
+            bracketTrace(result, s + ")", left, right + 1, n);
         }
     }
 }
