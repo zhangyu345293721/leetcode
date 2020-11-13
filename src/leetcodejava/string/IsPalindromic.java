@@ -14,7 +14,7 @@ public class IsPalindromic {
     @Test
     public void groupAnagramsTest() {
         String str = "eat";
-        boolean flag = isPalindromicString1(str);
+        boolean flag = isPalindromicString2(str);
         System.out.println(flag);
     }
 
@@ -22,7 +22,7 @@ public class IsPalindromic {
      * @param subString 下标
      * @return 布尔值
      */
-    public static boolean isPalindromicString1(String subString) {
+    public boolean isPalindromicString1(String subString) {
         StringBuilder sb = new StringBuilder(subString);
         return subString.equals(sb.reverse().toString());
     }
@@ -33,7 +33,7 @@ public class IsPalindromic {
      * @param subString 子字符串
      * @return 布尔值
      */
-    public static boolean isPalindromicString2(String subString) {
+    public boolean isPalindromicString2(String subString) {
         int i = 0;
         int j = subString.length() - 1;
         while (i < j) {

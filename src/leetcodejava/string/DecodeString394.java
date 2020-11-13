@@ -2,6 +2,8 @@ package leetcodejava.string;
 
 import org.junit.Test;
 
+import java.util.Stack;
+
 /**
  * This is the solution of No. 394 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -32,7 +34,7 @@ public class DecodeString394 {
     @Test
     public void decodeStringTest() {
         String s = "3[a]2[bc]";
-        String result = decodeString(s);
+        String result = decodeString2(s);
         System.out.println(result);
     }
 
@@ -74,5 +76,45 @@ public class DecodeString394 {
             }
         }
         return sb.toString();
+    }
+
+    /**
+     * 解析字符串
+     *
+     * @param s 输入字符
+     * @return 解析后字符串
+     */
+    public String decodeString2(String s) {
+        // 存储数字
+        Stack<Integer> numberStack = new Stack<>();
+        // 存储字符串
+        Stack<String> strStack = new Stack<>();
+        // 记录字符串
+        StringBuilder tail = new StringBuilder();
+        int length = s.length();
+        for (int i = 0; i < length; i++) {
+            char ch = s.charAt(i);
+            if (Character.isDigit(ch)) {
+                int num = ch - '0';
+                while (i + 1 < length && Character.isDigit(s.charAt(i + 1))) {
+                    num = num * 10 + s.charAt(i + 1) - '0';
+                    i++;
+                }
+                numberStack.add(num);
+            } else if (ch == '[') {
+                strStack.push(tail.toString());
+                tail = new StringBuilder();
+            } else if (ch == ']') {
+                StringBuilder temp = new StringBuilder(strStack.pop());
+                int times = numberStack.pop();
+                for (int j = 0; j < times; j++) {
+                    temp.append(tail);
+                }
+                tail = temp;
+            } else {
+                tail.append(ch);
+            }
+        }
+        return tail.toString();
     }
 }

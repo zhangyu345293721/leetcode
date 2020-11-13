@@ -99,5 +99,5 @@ def add_binary3(a: str, b: str) -> str:
 if __name__ == '__main__':
     a = "11"
     b = "10"
-    num = add_binary3(a, b)
+    num = add_binary(a, b)
     print(num)
