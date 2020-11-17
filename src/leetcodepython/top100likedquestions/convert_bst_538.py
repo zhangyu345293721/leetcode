@@ -27,48 +27,31 @@
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 '''
+from tree.tree_node import TreeNode
 
-
-class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
-
-    def create_binary_tree_array(self, array, index):
-        tree_node = None
-        if index < len(array):
-            value = array[index]
-            if not value:
-                return None
-            tree_node = TreeNode(value)
-            tree_node.lef = self.create_binary_tree_array(array, 2 * index + 1)
-            tree_node.right = self.create_binary_tree_array(array, 2 * index + 2)
-            return tree_node
-        return tree_node
-
-
-sum = 0
-
-
-def convert_bst(root: TreeNode) -> TreeNode:
-    '''
-        二分查找树
-    Args:
-        root: 根节点
-    Returns:
-        节点的值
-    '''
-    if not root:
-        convert_bst(root.right)
-        sum += root.val
-        root.val = sum
-        convert_bst(root.left)
-    return root
+total_sum = 0
+class Solution:
+    def convert_bst(self, root: TreeNode) -> TreeNode:
+        '''
+            二分查找树
+        Args:
+            root: 根节点
+        Returns:
+            节点的值
+        '''
+        global total_sum
+        if not root:
+            self.convert_bst(root.right)
+            total_sum += root.val
+            root.val = total_sum
+            self.convert_bst(root.left)
+        return root
 
 
 if __name__ == '__main__':
     arr = [5, 2, 13]
     treeNode = TreeNode()
-    tree = treeNode.create_binary_tree_array(arr, 0)
-    print(tree)
+    tree = treeNode.create_binary_tree_array(arr)
+    solution = Solution()
+    t = solution.convert_bst(tree)
+    print(t)

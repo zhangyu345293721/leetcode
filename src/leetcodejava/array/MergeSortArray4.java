@@ -2,10 +2,6 @@ package leetcodejava.array;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 /**
  * This is the solution of No. 4 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -38,32 +34,55 @@ import java.util.List;
 public class MergeSortArray4 {
 
     @Test
-    public void testMergeArray() {
-        int[] nums1 = {1, 3};
-        int[] nums2 = {2, 4};
-        double median = getMedian(nums1, nums2);
+    public void mergeArrayTest() {
+        int[] nums1 = {0, 0, 0, 0, 0};
+        int[] nums2 = {-1, 0, 0, 0, 0, 1};
+        double median = findMedianSortedArrays1(nums1, nums2);
         System.out.println(median);
     }
 
     /**
+     * 找出中间值
+     *
      * @param nums1 数组1
      * @param nums2 数组2
      * @return 中间数
      */
-    public double getMedian(int[] nums1, int nums2[]) {
-        List<Integer> list = new ArrayList();
-        for (int num1 : nums1) {
-            list.add(num1);
+    public double findMedianSortedArrays1(int[] nums1, int nums2[]) {
+        int length1 = nums1.length;
+        int length2 = nums2.length;
+        int[] nums = new int[length1 + length2];
+        int i = 0, j = 0;
+        int index = 0;
+        while (i < length1 && j < length2) {
+            if (nums1[i] <= nums2[j]) {
+                nums[index] = nums1[i];
+                i++;
+            } else {
+                nums[index] = nums2[j];
+                j++;
+            }
+            index++;
         }
-        for (int num2 : nums2) {
-            list.add(num2);
+        if (i == length1) {
+            while (j < length2) {
+                nums[index] = nums2[j];
+                j++;
+                index++;
+            }
         }
-        Collections.sort(list);
-        int index = (list.size() - 1) / 2;
-        if (list.size() % 2 == 0) {
-            return (list.get(index) + list.get(index + 1)) / 2.0;
+        if (j == length2) {
+            while (i < length1) {
+                nums[index] = nums1[i];
+                i++;
+                index++;
+            }
+        }
+        int length = nums.length;
+        if (nums.length % 2 == 0) {
+            return (nums[length / 2] + nums[length / 2 - 1]) / 2.0;
         } else {
-            return list.get(index);
+            return nums[length / 2];
         }
     }
 
@@ -74,7 +93,7 @@ public class MergeSortArray4 {
      * @param nums2 数组2
      * @return 中间数
      */
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public double findMedianSortedArrays2(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
         int left = (m + n + 1) / 2;

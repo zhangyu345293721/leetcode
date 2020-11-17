@@ -33,29 +33,66 @@
 from typing import List
 
 
-def can_partition(nums: List[int]) -> bool:
-    '''
-        数组是否可以分为两半
-    Args:
-        nums: 数组
-    Returns:
-        布尔值
-    '''
-    total = sum(nums)
-    if total % 2 == 1:
-        return False
-    total = int(total / 2)
-    dp = [False] * (total + 1)
-    dp[0] = True
-    for num in nums:
-        i = total
-        while i >= num:
-            dp[i] = dp[i] or dp[i - num]
-            i -= 1
-    return dp[total]
+class Solution:
+    def can_partition(self, nums: List[int]) -> bool:
+        '''
+            数组是否可以分为两半
+        Args:
+            nums: 数组
+        Returns:
+            布尔值
+        '''
+        total = sum(nums)
+        if total % 2 == 1:
+            return False
+        total = int(total / 2)
+        dp = [False] * (total + 1)
+        dp[0] = True
+        for num in nums:
+            i = total
+            while i >= num:
+                dp[i] = dp[i] or dp[i - num]
+                i -= 1
+        return dp[total]
+
+    def can_partition2(self, nums: List[int]) -> bool:
+        '''
+            数组是否可以分为两半
+        Args:
+            nums: 数组
+        Returns:
+            布尔值
+        '''
+        total = sum(nums)
+        if total % 2 == 1:
+            return False
+        total = int(total / 2)
+        return self.partition_helper(nums, 0, total)
+
+    def partition_helper(self, nums: List[int], index: int, target: int) -> bool:
+        '''
+            分组帮助类
+        Args:
+            nums: 数组
+            index: 下标
+            total: 总和
+        Returns:
+            布尔值
+        '''
+        if index == len(nums) or target < 0:
+            return False
+        if target == 0:
+            return True
+        if self.partition_helper(nums,index+1,target-nums[index]):
+            return True
+        j=index+1
+        while j<len(nums) and nums[j]==nums[index]:
+            j+=1
+        return self.partition_helper(nums,j,target)
 
 
 if __name__ == '__main__':
     nums = [1, 5, 11, 5]
-    result = can_partition(nums)
+    solution = Solution()
+    result = solution.can_partition2(nums)
     print(result)

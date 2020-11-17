@@ -33,7 +33,7 @@ import java.util.List;
  */
 public class ReconstructQueue406 {
     @Test
-    public void testReconstructQueue() {
+    public void reconstructQueueTest() {
         int[][] people = {{7, 0}, {4, 4}, {7, 1}, {5, 0}, {6, 1}, {5, 2}};
         int[][] result = reconstructQueue(people);
         System.out.println(result);
