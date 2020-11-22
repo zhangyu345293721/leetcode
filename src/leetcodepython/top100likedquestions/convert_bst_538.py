@@ -53,5 +53,5 @@ if __name__ == '__main__':
     treeNode = TreeNode()
     tree = treeNode.create_binary_tree_array(arr)
     solution = Solution()
-    t = solution.convert_bst(tree)
-    print(t)
+    result = solution.convert_bst(tree)
+    print(result)
