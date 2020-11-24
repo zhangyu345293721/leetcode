@@ -39,20 +39,21 @@ package leetcodejava.list;
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class MinStack155_3 {
-    private Node stack=null;
+    private Node stack = null;
+
     public MinStack155_3() {
     }
 
     public void push(int x) {
-        if(stack==null){
-            stack=new Node(x,x);
-        }else{
-            stack=new Node(x,Math.min(x,stack.min),stack);
+        if (stack == null) {
+            stack = new Node(x, x);
+        } else {
+            stack = new Node(x, Math.min(x, stack.min), stack);
         }
     }
 
     public void pop() {
-        stack=stack.next;
+        stack = stack.next;
     }
 
     public int top() {
@@ -63,19 +64,21 @@ public class MinStack155_3 {
         return stack.min;
     }
 
-    private class Node{
+    private class Node {
         int val;
         int min;
         Node next;
-        public Node(int val,int min,Node next){
-            this.val=val;
-            this.min=min;
-            this.next=next;
+
+        public Node(int val, int min, Node next) {
+            this.val = val;
+            this.min = min;
+            this.next = next;
         }
-        public Node(int val,int min){
-            this.val=val;
-            this.next=null;
-            this.min=min;
+
+        public Node(int val, int min) {
+            this.val = val;
+            this.next = null;
+            this.min = min;
         }
     }
 }

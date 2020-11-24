@@ -43,7 +43,7 @@ import org.junit.Test;
 public class SurfaceArea3DShapes892 {
 
     @Test
-    public void testSurfaceArea3DShapes() {
+    public void surfaceArea3DShapesTest() {
         int[][] arr = {{1, 2}, {3, 4}};
         int i = surfaceArea(arr);
         System.out.println(i);

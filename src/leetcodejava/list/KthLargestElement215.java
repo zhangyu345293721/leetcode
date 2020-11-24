@@ -38,7 +38,7 @@ import java.util.stream.Collectors;
  */
 public class KthLargestElement215 {
     @Test
-    public void testKthLargestElement() {
+    public void kthLargestElementTest() {
         int[] nums = {3, 2, 1, 5, 6, 4};
         int k = 2;
         int key = kthLargestElement(nums, k);
@@ -58,7 +58,7 @@ public class KthLargestElement215 {
         for (int num : nums) {
             queue.add(num);
         }
-        for (int i = 0; i < nums.length - k ; i++) {
+        for (int i = 0; i < nums.length - k; i++) {
             queue.poll();
         }
         return queue.peek();

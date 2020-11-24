@@ -10,7 +10,7 @@ import org.junit.Test;
 public class TheMasseuseLCCI16 {
 
     @Test
-    public void testsTheMasseuseLCC() {
+    public void theMasseuseLCCTest() {
         int[] arr = {1, 2, 3, 1};
         int massage = massage(arr);
         System.out.println(massage);

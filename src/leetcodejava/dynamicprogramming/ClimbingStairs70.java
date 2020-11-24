@@ -38,7 +38,7 @@ import org.junit.Test;
  */
 public class ClimbingStairs70 {
     @Test
-    public void testClimbingStairs() {
+    public void climbingStairsTest() {
         int n = 44;
         int num = climbingStairs(n);
         System.out.println(num);

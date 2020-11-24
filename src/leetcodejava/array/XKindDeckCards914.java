@@ -48,7 +48,7 @@ import java.util.Map;
  */
 public class XKindDeckCards914 {
     @Test
-    public void testXKindDeckCards() {
+    public void xKindDeckCardsTest() {
         int arr[] = {1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3};
         boolean b = hasGroupsSizeX3(arr);
         System.out.println(b);
@@ -94,7 +94,7 @@ public class XKindDeckCards914 {
         for (int num : deck) {
             counter[num]++;
         }
-        return Arrays.stream(counter).filter(e -> e > 0).reduce(0,this::gcd) >= 2;
+        return Arrays.stream(counter).filter(e -> e > 0).reduce(0, this::gcd) >= 2;
     }
 
     /**

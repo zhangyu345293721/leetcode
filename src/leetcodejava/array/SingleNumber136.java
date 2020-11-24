@@ -9,22 +9,22 @@ import java.util.Set;
  * This is the solution of No. 136 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/single-number
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个非空整数数组，除了某个元素只出现一次以外，其余每个元素均出现两次。找出那个只出现了一次的元素。
- *
+ * <p>
  * 说明：
  * 你的算法应该具有线性时间复杂度。 你可以不使用额外空间来实现吗？
- *
+ * <p>
  * 示例 1:
  * 输入: [2,2,1]
  * 输出: 1
  * 示例 2:
- *
+ * <p>
  * 输入: [4,1,2,1,2]
  * 输出: 4
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -33,7 +33,7 @@ import java.util.Set;
 public class SingleNumber136 {
 
     @Test
-    public void testSingleNumber() {
+    public void singleNumberTest() {
         int[] arr = {2, 3, 3, 2, 4};
         int num = singleNumer1(arr);
         System.out.println(num);

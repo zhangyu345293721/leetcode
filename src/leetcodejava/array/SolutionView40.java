@@ -15,7 +15,7 @@ import java.util.PriorityQueue;
 public class SolutionView40 {
 
     @Test
-    public void testSolutionView() {
+    public void solutionViewTest() {
         int[] arr = {3, 4, 5, 6, 1, 3, 5, 6, 7, 9};
         int k = 3;
         int[] partition = getLeastNumbers3(arr, k);

@@ -34,7 +34,7 @@ import java.util.*;
  */
 public class ThreeSum15 {
     @Test
-    public void testThreeSum() {
+    public void threeSumTest() {
         int[] nums = {-1, 0, 1, 2, -1, -4};
         List<List<Integer>> list = threeSum(nums);
         System.out.println(list);

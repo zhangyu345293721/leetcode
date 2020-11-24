@@ -46,7 +46,7 @@ import java.util.Deque;
 public class MinStack155 {
 
     @Test
-    public void MinStackTest() {
+    public void minStackTest() {
         MinStack155 minStack = new MinStack155();
         minStack.push(-2);
         minStack.push(0);

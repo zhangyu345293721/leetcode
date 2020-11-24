@@ -49,7 +49,7 @@ import java.util.Calendar;
  */
 public class DayYear1154 {
     @Test
-    public void dayYearTestDemo() {
+    public void dayYearTest() {
         String date = "2020-02-11";
         int daysOfYear = dayOfYear2(date);
         System.out.println("daysOfYear = " + daysOfYear);
