@@ -9,11 +9,32 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 找出最多气球个数
+ * This is the solution of No. 892 problem in the LeetCode,
+ * the website of the problem is as follow:
+ * https://leetcode-cn.com/problems/maximum-number-of-balloons
+ * <p>
+ * The description of problem is as follow:
+ * ==========================================================================================================
+ *  给你一个字符串 text，你需要使用 text 中的字母来拼凑尽可能多的单词 "balloon"（气球）。
  *
- * @author: zhangyu
+ *  字符串 text 中的每个字母最多只能被使用一次。请你返回最多可以拼凑出多少个单词 "balloon"。
+ *
+ * 示例 1：
+ *
+ * 输入：text = "nlaebolko"
+ * 输出：1
+ * 示例 2：
+ *
+ * 输入：text = "loonbalxballpoon"
+ *
+ * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/maximum-number-of-balloons
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+ * ==========================================================================================================
+ *
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
-public class MaximumNumberofBalloons11892 {
+public class MaximumNumberofBalloons1189 {
 
     @Test
     public void maximumNumberofBalloonsTest() {

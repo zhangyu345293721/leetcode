@@ -34,14 +34,10 @@
  */
 
 '''
+from list.list_node import ListNode
 
 
-class ListNode:
-    def __init__(self, val):
-        self.val = val
-        self.next = None
-
-def reverse_list(head_a: ListNode, head_b: ListNode) -> ListNode:
+def get_intersection_node(head_a: ListNode, head_b: ListNode) -> ListNode:
     '''
         返回交点
     Args:
@@ -61,3 +57,7 @@ def reverse_list(head_a: ListNode, head_b: ListNode) -> ListNode:
             return head_b
         head_b = head_b.next
     return None
+
+
+if __name__ == '__main__':
+    pass

@@ -79,3 +79,141 @@ public class MinStack155 {
         return stack.stream().mapToInt(e -> e.intValue()).min().getAsInt();
     }
 }
+
+class MinStack155_1 {
+    /**
+     * 定义一个节点
+     */
+    private Node stack = null;
+
+    public MinStack155_1() {
+    }
+
+    public void push(int x) {
+        if (stack == null) {
+            stack = new Node(x, x);
+        } else {
+            stack = new Node(x, Math.min(x, stack.min), stack);
+        }
+    }
+
+    // 弹出一个元素
+    public void pop() {
+        stack = stack.next;
+    }
+
+    public int top() {
+        return stack.val;
+    }
+
+    public int getMin() {
+        return stack.min;
+    }
+
+    private class Node {
+        int val;
+        int min;
+        Node next;
+
+        public Node(int val, int min, Node next) {
+            this.val = val;
+            this.min = min;
+            this.next = next;
+        }
+
+        public Node(int val, int min) {
+            this.val = val;
+            this.next = null;
+            this.min = min;
+        }
+    }
+}
+
+class MinStack155_2 {
+
+    private Deque<Node> stack = null;
+
+    public MinStack155_2() {
+        stack = new ArrayDeque<>();
+    }
+
+    // 入栈操作
+    public void push(int x) {
+        if (stack.isEmpty()) {
+            stack.push(new Node(x, x));
+        } else {
+            stack.push(new Node(x, Math.min(x, stack.peek().min)));
+        }
+    }
+
+    public void pop() {
+        stack.pop();
+    }
+
+    // 取最小顶上一个元素
+    public int top() {
+        return stack.peek().val;
+    }
+
+    // 获取最小值
+    public int getMin() {
+        return stack.peek().min;
+    }
+
+    // 定义内部类
+    private class Node {
+        int val;
+        int min;
+
+        public Node(int val, int min) {
+            this.val = val;
+            this.min = min;
+        }
+    }
+}
+
+class MinStack155_3 {
+    private Node stack = null;
+
+    public MinStack155_3() {
+    }
+
+    public void push(int x) {
+        if (stack == null) {
+            stack = new Node(x, x);
+        } else {
+            stack = new Node(x, Math.min(x, stack.min), stack);
+        }
+    }
+
+    public void pop() {
+        stack = stack.next;
+    }
+
+    public int top() {
+        return stack.val;
+    }
+
+    public int getMin() {
+        return stack.min;
+    }
+
+    private class Node {
+        int val;
+        int min;
+        Node next;
+
+        public Node(int val, int min, Node next) {
+            this.val = val;
+            this.min = min;
+            this.next = next;
+        }
+
+        public Node(int val, int min) {
+            this.val = val;
+            this.next = null;
+            this.min = min;
+        }
+    }
+}
+

@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayDeque;
@@ -34,22 +35,11 @@ public class AddTwoNumbers445 {
 
     @Test
     public void addTwoNumbersTest() {
-        ListNode node1 = new ListNode(7);
-        ListNode node2 = new ListNode(2);
-        ListNode node3 = new ListNode(4);
-        ListNode node4 = new ListNode(3);
-        node1.next = node2;
-        node2.next = node3;
-        node3.next = node4;
+        ListNode node1 = ListNode.createListNode(new Integer[]{7, 2, 4, 3});
+        ListNode node2 = ListNode.createListNode(new Integer[]{5, 6, 4});
 
-        ListNode node5 = new ListNode(5);
-        ListNode node6 = new ListNode(6);
-        ListNode node7 = new ListNode(4);
-        node5.next = node6;
-        node6.next = node7;
-
-        ListNode listNode = addTwoNumbers(node1, node5);
-        System.out.println(listNode);
+        ListNode listNode = addTwoNumbers(node1, node2);
+        Assert.assertEquals(listNode.val, 7);
     }
 
     /**

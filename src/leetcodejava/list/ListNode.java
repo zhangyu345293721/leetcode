@@ -45,4 +45,23 @@ public class ListNode {
         }
         return head;
     }
+
+    /**
+     * 将数组转成ListNode
+     *
+     * @param arr 数组
+     * @return ListNode 生成listNode节点
+     */
+    public static ListNode createListNode(Integer[] arr) {
+        if (arr == null) {
+            return null;
+        }
+        ListNode node = new ListNode(arr[0]);
+        ListNode head = node;
+        for (int i = 1; i < arr.length; i++) {
+            node.next = new ListNode(arr[i]);
+            node = node.next;
+        }
+        return head;
+    }
 }

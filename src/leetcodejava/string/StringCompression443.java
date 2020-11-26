@@ -99,7 +99,6 @@ public class StringCompression443 {
             }
             pos++;
         }
-        System.out.println(list);
         return list.size();
     }
 }

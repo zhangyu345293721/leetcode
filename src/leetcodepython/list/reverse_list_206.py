@@ -18,12 +18,7 @@
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 '''
-
-
-class ListNode:
-    def __init__(self, val):
-        self.val = val
-        self.next = None
+from list.list_node import ListNode
 
 
 def reverse_list(head: ListNode) -> ListNode:

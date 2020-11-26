@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -41,8 +42,8 @@ public class KthLargestElement215 {
     public void kthLargestElementTest() {
         int[] nums = {3, 2, 1, 5, 6, 4};
         int k = 2;
-        int key = kthLargestElement(nums, k);
-        System.out.println(key);
+        int result = kthLargestElement(nums, k);
+        Assert.assertEquals(result, 5);
     }
 
 

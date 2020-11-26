@@ -1,6 +1,8 @@
 package leetcodejava.list;
 
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 /**
@@ -22,11 +24,11 @@ import java.util.concurrent.CopyOnWriteArrayList;
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
-public class LRUCache146_1 {
+public class LRUCache146 {
     private List<int[]> list = null;
     private int capacity;
 
-    public LRUCache146_1(int capacity) {
+    public LRUCache146(int capacity) {
         this.capacity = capacity;
         list = new CopyOnWriteArrayList<>();
     }
@@ -70,6 +72,58 @@ public class LRUCache146_1 {
         } else if (list.size() == capacity) {
             list.remove(0);
             list.add(arr);
+        }
+    }
+}
+
+class LRUCache146_1 {
+    private static Map<Integer, int[]> cache = null;
+    private int capacity = 0;
+
+
+    public LRUCache146_1(int capacity) {
+        cache = new LinkedHashMap<>();
+        this.capacity = capacity;
+    }
+
+    /**
+     * 获取key的值
+     *
+     * @param key key
+     * @return value
+     */
+    public int get(int key) {
+        if (cache.containsKey(key)) {
+            int[] ints = cache.get(key);
+            updateMap(key, ints);
+            return ints[1];
+        }
+        return -1;
+    }
+
+    public void updateMap(int key, int[] arr) {
+        cache.remove(key);
+        cache.put(key, arr);
+    }
+
+    /**
+     * 向LRU中插入值
+     *
+     * @param key   key
+     * @param value value
+     */
+    public void put(int key, int value) {
+        int[] arr = new int[]{key, value};
+        //如果存在这个key就更新value
+        if (cache.containsKey(key)) {
+            updateMap(key, arr);
+            return;
+        }
+        if (cache.size() < capacity) {
+            cache.put(key, arr);
+        } else if (cache.size() == capacity) {
+            int deleteKey = cache.entrySet().iterator().next().getKey();
+            updateMap(deleteKey, arr);
         }
     }
 }

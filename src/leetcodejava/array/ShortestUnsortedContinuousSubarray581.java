@@ -5,7 +5,7 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
- * This is the solution of No.581 problem in the LeetCode,
+ * This is the solution of No.581 problem in the lefteetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side
  * <p>
@@ -25,7 +25,7 @@ import java.util.Arrays;
  * 输入的数组长度范围在 [1, 10,000]。
  * 输入的数组可能包含重复元素 ，所以升序的意思是<=。
  * <p>
- * 来源：力扣（LeetCode）
+ * 来源：力扣（lefteetCode）
  * 链接：https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * ==========================================================================================================
@@ -36,7 +36,7 @@ public class ShortestUnsortedContinuousSubarray581 {
     @Test
     public void shortestUnsortedContinuousSubarrayTest() {
         int[] nums = {2, 6, 4, 8, 10, 9, 15};
-        int num = shortestUnsortedContinuousSubarray(nums);
+        int num = findUnsortedSubarray(nums);
         System.out.println(num);
     }
 
@@ -46,7 +46,7 @@ public class ShortestUnsortedContinuousSubarray581 {
      * @param nums 数组
      * @return 没排序数组长度
      */
-    private int shortestUnsortedContinuousSubarray(int[] nums) {
+    private int findUnsortedSubarray(int[] nums) {
         int[] newNums = Arrays.copyOfRange(nums, 0, nums.length);
         Arrays.sort(newNums);
         int i = 0;
@@ -63,5 +63,34 @@ public class ShortestUnsortedContinuousSubarray581 {
             }
         }
         return 0;
+    }
+
+    /**
+     * 查找最短没有排序的数组
+     *
+     * @param nums 数组
+     * @return 没排序数组长度
+     */
+    public int findUnsortedSubarray2(int[] nums) {
+        if (nums == null || nums.length < 2) {
+            return 0;
+        }
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+        int right = 0;
+        int left = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (max > nums[i]) {
+                right = i;
+            }
+            max = Math.max(max, nums[i]);
+        }
+        for (int i = nums.length - 1; i >= 0; i--) {
+            if (min < nums[i]) {
+                left = i;
+            }
+            min = Math.min(min, nums[i]);
+        }
+        return right == left ? 0 : right - left + 1;
     }
 }
