@@ -1,8 +1,8 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 
@@ -35,7 +35,7 @@ public class DailyTemperatures739 {
     public void dailyTemperaturesTest() {
         int[] temperatures = {73, 74, 75, 71, 69, 72, 76, 73};
         int[] ints = dailyTemperatures(temperatures);
-        System.out.println(Arrays.toString(ints));
+        Assert.assertEquals(ints.length, 8);
     }
 
     /**

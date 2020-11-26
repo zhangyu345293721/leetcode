@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -39,7 +40,7 @@ public class FindContinuousSequence57 {
     public void testFindContinuousSequence() {
         int target = 15;
         int[][] nums = findContinuousSequence1(target);
-        System.out.println(nums);
+        Assert.assertEquals(nums.length, 2);
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -48,7 +49,7 @@ public class DecompressRunLengthEncoded1313 {
     public void decompressRunLengthEncodedTest() {
         int[] nums = {1, 2, 3, 4};
         int[] arr = decompressRLElist(nums);
-        System.out.println(arr);
+        Assert.assertEquals(arr.length, 4);
     }
 
     /**

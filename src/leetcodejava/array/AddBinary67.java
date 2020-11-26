@@ -1,6 +1,7 @@
 package leetcodejava.array;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -32,7 +33,7 @@ public class AddBinary67 {
         String a = "1010";
         String b = "1011";
         String sum = addBinary(a, b);
-        System.out.println(sum);
+        Assert.assertEquals(sum,"10101");
     }
 
 

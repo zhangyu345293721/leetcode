@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -30,7 +31,7 @@ public class BestTimeBuy122 {
     public void bestTimeBuyTest() {
         int arr[] = {7, 1, 5, 3, 6, 4};
         int maxProfit = maxProfit(arr);
-        System.out.println(maxProfit);
+        Assert.assertEquals(maxProfit, 7);
     }
 
     /**

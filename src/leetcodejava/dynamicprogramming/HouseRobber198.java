@@ -1,5 +1,6 @@
 package leetcodejava.dynamicprogramming;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -39,7 +40,7 @@ public class HouseRobber198 {
     public void houseRobberTest() {
         int[] nums = {1, 1, 1};
         int totalMoney = houseRobber(nums);
-        System.out.println(totalMoney);
+        Assert.assertEquals(totalMoney, 2);
     }
 
     /**

@@ -7,7 +7,7 @@ import java.util.List;
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
-public class ListNode {
+public class ListNode implements Cloneable {
     /**
      * 节点存储的值
      */
@@ -25,7 +25,6 @@ public class ListNode {
     public ListNode(int x) {
         val = x;
     }
-
 
     /**
      * 将list转成ListNode
@@ -63,5 +62,16 @@ public class ListNode {
             node = node.next;
         }
         return head;
+    }
+
+    @Override
+    public Object clone() {
+        ListNode node = null;
+        try {
+            node = (ListNode) super.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return node;
     }
 }

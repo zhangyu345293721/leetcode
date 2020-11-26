@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -38,7 +39,7 @@ public class ContainsDuplicate219 {
         int[] arr = {1, 2, 3, 1, 2, 3};
         int k = 2;
         boolean flag = containsNearbyDuplicate(arr, k);
-        System.out.println(flag);
+        Assert.assertEquals(flag, false);
     }
 
     /**

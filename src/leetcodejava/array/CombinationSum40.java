@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -52,7 +53,8 @@ public class CombinationSum40 {
         int[] candidates = {10, 1, 2, 7, 6, 1, 5};
         int target = 8;
         List<List<Integer>> lists = combinationSum2(candidates, target);
-        System.out.println(lists);
+        Assert.assertEquals(lists, 4);
+        ;
     }
 
     /**

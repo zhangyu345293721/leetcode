@@ -1,8 +1,10 @@
 package leetcodejava.dynamicprogramming;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -13,19 +15,19 @@ import java.util.List;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个三角形，找出自顶向下的最小路径和。每一步只能移动到下一行中相邻的结点上。
- *
+ * <p>
  * 相邻的结点 在这里指的是 下标 与 上一层结点下标 相同或者等于 上一层结点下标 + 1 的两个结点。
- *
+ * <p>
  * 例如，给定三角形：
- *
+ * <p>
  * [
- *      [2],
- *     [3,4],
- *    [6,5,7],
- *   [4,1,8,3]
+ * [2],
+ * [3,4],
+ * [6,5,7],
+ * [4,1,8,3]
  * ]
  * 自顶向下的最小路径和为 11（即，2 + 3 + 5 + 1 = 11）。
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/triangle
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -37,30 +39,13 @@ public class Triangle120 {
 
     @Test
     public void triangleTest() {
-        List<Integer> list1 = new ArrayList<>();
-        list1.add(2);
-        List<Integer> list2 = new ArrayList<>();
-        list2.add(3);
-        list2.add(4);
-        List<Integer> list3 = new ArrayList<>();
-        list3.add(6);
-        list3.add(5);
-        list3.add(7);
-        List<Integer> list4 = new ArrayList<>();
-        list4.add(4);
-        list4.add(1);
-        list4.add(8);
-        list4.add(3);
-
-        List<List<Integer>> list = new ArrayList<>();
-        list.add(list1);
-        list.add(list2);
-        list.add(list3);
-        list.add(list4);
-
+        List<Integer> list1 = new ArrayList(Arrays.asList(2));
+        List<Integer> list2 = new ArrayList(Arrays.asList(3, 4));
+        List<Integer> list3 = new ArrayList(Arrays.asList(6, 5, 7));
+        List<Integer> list4 = new ArrayList<>(Arrays.asList(4, 1, 8, 3));
+        List<List<Integer>> list = new ArrayList(Arrays.asList(list1, list2, list3, list4));
         int total = minimumTotal(list);
-        System.out.println(total);
-
+        Assert.assertEquals(total, 11);
     }
 
     /**

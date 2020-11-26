@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -36,7 +37,7 @@ public class CoinChange322 {
         int[] coins = {1, 2, 5};
         int amount = 11;
         int sum = coinChange(coins, amount);
-        System.out.println(sum);
+        Assert.assertEquals(sum, 3);
     }
 
     private int minCount = Integer.MAX_VALUE;

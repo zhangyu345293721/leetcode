@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.LinkedList;
@@ -47,7 +48,7 @@ public class AsFarLandPossible1162 {
     public void asFarLandPossibleTest() {
         int[][] arr = {{1, 0, 1}, {0, 0, 0}, {1, 0, 1}};
         int num = maxDistance(arr);
-        System.out.println(num);
+        Assert.assertEquals(num, 2);
     }
 
     /**

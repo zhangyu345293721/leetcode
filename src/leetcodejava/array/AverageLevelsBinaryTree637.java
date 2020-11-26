@@ -1,6 +1,7 @@
 package leetcodejava.array;
 
 import leetcodejava.tree.TreeNode;
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -43,7 +44,7 @@ public class AverageLevelsBinaryTree637 {
         Integer[] arr = {3, 9, 20, 15, 7};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         List<Double> list = averageOfLevels2(root);
-        System.out.println(list);
+        Assert.assertEquals(list.size(), 4);
     }
 
     /**

@@ -1,31 +1,32 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * This is the solution of No. 466 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/count-the-repetitions
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 由 n 个连接的字符串 s 组成字符串 S，记作 S = [s,n]。例如，["abc",3]=“abcabcabc”。
- *
+ * <p>
  * 如果我们可以从 s2 中删除某些字符使其变为 s1，则称字符串 s1 可以从字符串 s2 获得。例如，根据定义，"abc" 可以从 “abdbec” 获得，但不能从 “acbbe” 获得。
- *
+ * <p>
  * 现在给你两个非空字符串 s1 和 s2（每个最多 100 个字符长）和两个整数 0 ≤ n1 ≤ 106 和 1 ≤ n2 ≤ 106。现在考虑字符串 S1 和 S2，其中 S1=[s1,n1] 、S2=[s2,n2] 。
- *
+ * <p>
  * 请你找出一个可以满足使[S2,M] 从 S1 获得的最大整数 M 。
- *
+ * <p>
  * 示例：
- *
+ * <p>
  * 输入：
  * s1 ="acb",n1 = 4
  * s2 ="ab",n2 = 2
- *
+ * <p>
  * 返回：
  * 2
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -41,7 +42,7 @@ public class CountRepetitions466 {
         String s2 = "ab";
         int n2 = 2;
         int max = getMaxRepetitions(s1, n1, s2, n2);
-        System.out.println(max);
+        Assert.assertEquals(max, 2);
     }
 
     /**

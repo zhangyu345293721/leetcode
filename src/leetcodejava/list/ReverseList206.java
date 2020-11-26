@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -29,7 +30,7 @@ public class ReverseList206 {
         List<Integer> list = new ArrayList<>(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5)));
         ListNode listNode = ListNode.createListNode(list);
         ListNode node = reverseList(listNode);
-        System.out.println(node);
+        Assert.assertEquals(node.val, 5);
     }
 
     /**

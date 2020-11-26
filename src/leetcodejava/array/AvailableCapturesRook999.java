@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -41,8 +42,7 @@ public class AvailableCapturesRook999 {
                 {'.', '.', '.', 'p', '.', '.', '.', '.'},
                 {'.', '.', '.', '.', '.', '.', '.', '.'}};
         int num = numRookCaptures2(board);
-        System.out.println(num);
-
+        Assert.assertEquals(num, 3);
     }
 
     /**

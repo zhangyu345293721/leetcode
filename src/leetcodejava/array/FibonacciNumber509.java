@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -41,7 +42,7 @@ public class FibonacciNumber509 {
     public void testFibonacciNumber() {
         int n = 3;
         int num = fib2(n);
-        System.out.println(num);
+        Assert.assertEquals(num, 2);
     }
 
     /**

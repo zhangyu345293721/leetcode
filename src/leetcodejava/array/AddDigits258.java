@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -27,7 +28,7 @@ public class AddDigits258 {
     public void addDigitsTest() {
         int num = 38;
         int result = addDigits2(num);
-        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

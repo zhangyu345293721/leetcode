@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -40,7 +41,7 @@ public class RemoveDuplicateNodeLCCI0201 {
         List<Integer> list = new ArrayList<>(Arrays.asList(1, 1, 2, 3, 4));
         ListNode listNode = ListNode.createListNode(list);
         ListNode result = removeDuplicateNodes2(listNode);
-        System.out.println(result);
+        Assert.assertEquals(result.val, 1);
     }
 
     /**

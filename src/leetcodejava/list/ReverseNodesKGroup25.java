@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -40,7 +41,7 @@ public class ReverseNodesKGroup25 {
         List<Integer> list = new ArrayList<>(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5)));
         ListNode node = ListNode.createListNode(list);
         ListNode listNode = reverseKGroup(node, 2);
-        System.out.println(listNode);
+        Assert.assertEquals(listNode.val, 2);
 
     }
 

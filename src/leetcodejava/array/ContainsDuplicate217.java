@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -41,7 +42,7 @@ public class ContainsDuplicate217 {
     public void testContainsDuplicate() {
         int[] arr = {1, 2, 3, 4};
         boolean flag = containsDuplicate(arr);
-        System.out.println(flag);
+        Assert.assertEquals(flag,true);
     }
 
     /**

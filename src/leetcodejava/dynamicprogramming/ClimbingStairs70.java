@@ -1,5 +1,6 @@
 package leetcodejava.dynamicprogramming;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -41,7 +42,7 @@ public class ClimbingStairs70 {
     public void climbingStairsTest() {
         int n = 44;
         int num = climbingStairs(n);
-        System.out.println(num);
+        Assert.assertEquals(num,1134903170);
     }
 
     /**

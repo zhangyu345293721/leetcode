@@ -1,5 +1,6 @@
 package leetcodejava.dynamicprogramming;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -36,7 +37,7 @@ public class UniqueBinarySearchTrees96 {
     public void uniqueBinarySearchTreesTest() {
         int n = 3;
         int i = numTrees(n);
-        System.out.println(i);
+        Assert.assertEquals(i, 5);
     }
 
     /**

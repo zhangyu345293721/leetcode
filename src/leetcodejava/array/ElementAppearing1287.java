@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -34,7 +35,7 @@ public class ElementAppearing1287 {
     public void elementAppearingTest() {
         int[] arr = {1, 2, 2, 6, 6, 6, 6, 7, 10};
         int num = findSpecialInteger(arr);
-        System.out.println(num);
+        Assert.assertEquals(num, 6);
     }
 
     /**

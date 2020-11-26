@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -13,7 +14,7 @@ public class BitCount {
     public void bitCountTest() {
         int num = 2;
         int count = bitCountStatistic(num);
-        System.out.println(count);
+        Assert.assertEquals(count, 1);
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -41,7 +42,8 @@ public class Combinations77 {
         int n = 4;
         int k = 2;
         List<List<Integer>> combineList = combine(n, k);
-        System.out.println(combineList);
+        Assert.assertEquals(combineList.size(), 6);
+
     }
 
     /**

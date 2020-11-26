@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -31,7 +32,7 @@ public class ReverseVowels345 {
     @Test
     public void reverseVolwelsTest() {
         String str = reverseVowels("Aa");
-        System.out.println("str = " + str);
+        Assert.assertEquals(str, "aA");
     }
 
     /**

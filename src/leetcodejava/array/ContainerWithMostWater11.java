@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -33,7 +34,7 @@ public class ContainerWithMostWater11 {
     public void coinChangeTest() {
         int height[] = {1, 2, 5};
         int area = maxArea(height);
-        System.out.println(area);
+        Assert.assertEquals(area, 2);
     }
 
     /**

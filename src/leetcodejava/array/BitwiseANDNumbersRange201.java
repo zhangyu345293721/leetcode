@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -34,7 +35,7 @@ public class BitwiseANDNumbersRange201 {
         int m = 5;
         int n = 7;
         int result = rangeBitwiseAnd(m, n);
-        System.out.println(result);
+        Assert.assertEquals(result, 4);
     }
 
     /**
