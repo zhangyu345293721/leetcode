@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -42,7 +43,7 @@ public class FindDuplicateNumber287 {
     public void findDuplicateNumberTest() {
         int nums[] = {1, 3, 4, 2, 2};
         int duplicateNumber = findDuplicateNumber3(nums);
-        System.out.println(duplicateNumber);
+        Assert.assertEquals(duplicateNumber, 2);
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -37,7 +38,7 @@ public class FindFirstLastPosition34 {
         int nums[] = {5, 7, 7, 8, 8, 10};
         int target = 8;
         int index = findLastPosition(nums, target);
-        System.out.println(index);
+        Assert.assertEquals(index, 4);
     }
 
     /**

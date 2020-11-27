@@ -1,6 +1,7 @@
 package leetcodejava.array;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashSet;
@@ -43,7 +44,7 @@ public class UniqueMorse804 {
     public void uniqueMorseTest() {
         String[] words = {"gin", "zen", "gig", "msg"};
         int length = uniqueMorseRepresentations(words);
-        System.out.println("length = " + length);
+        Assert.assertEquals(length, 2);
     }
 
     /**

@@ -30,7 +30,7 @@ import org.junit.Test;
 public class MaximumProductSubarray152 {
 
     @Test
-    public void testMaximumProductSubarray() {
+    public void maximumProductSubarrayTest() {
         int[] nums = {2, 3, -2, 4};
         int maxProfit = maxProduct2(nums);
         System.out.println(maxProfit);

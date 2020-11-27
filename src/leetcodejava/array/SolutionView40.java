@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -19,7 +20,7 @@ public class SolutionView40 {
         int[] arr = {3, 4, 5, 6, 1, 3, 5, 6, 7, 9};
         int k = 3;
         int[] partition = getLeastNumbers3(arr, k);
-        System.out.println(partition);
+        Assert.assertEquals(partition.length, 3);
     }
 
     /**

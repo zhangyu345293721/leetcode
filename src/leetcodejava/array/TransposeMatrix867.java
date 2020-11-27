@@ -33,7 +33,6 @@ public class TransposeMatrix867 {
     public void testTransposeMatrix() {
         int[][] a = {{1, 2, 3}, {4, 5, 6}};
         int[][] A = transpose(a);
-        System.out.println();
     }
 
     /**

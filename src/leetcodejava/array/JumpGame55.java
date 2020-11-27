@@ -33,7 +33,7 @@ import org.junit.Test;
  */
 public class JumpGame55 {
     @Test
-    public void testJumpGame() {
+    public void jumpGameTest() {
         int[] nums = {3, 2, 1, 0, 4};
         boolean flag = canJump3(nums);
         System.out.println(flag);

@@ -30,7 +30,7 @@ import org.junit.Test;
  */
 public class AvailableCapturesRook999 {
     @Test
-    public void AvailableCapturesRookTest() {
+    public void availableCapturesRookTest() {
 
         char[][] board = {
                 {'.', '.', '.', '.', '.', '.', '.', '.'},

@@ -33,7 +33,7 @@ import org.junit.Test;
  */
 public class PartitionEqualSubsetSum416 {
     @Test
-    public void testPartitionEqualSubsetSum() {
+    public void partitionEqualSubsetSumTest() {
         int[] nums = {1, 5, 11, 5};
         boolean b = canPartition2(nums);
         System.out.println(b);

@@ -9,7 +9,7 @@ import java.util.List;
 public class QuestionView64 {
 
     @Test
-    public void testQustionView() {
+    public void questionViewTest() {
         int num = lastRemaining(10, 17);
         System.out.println(num);
     }

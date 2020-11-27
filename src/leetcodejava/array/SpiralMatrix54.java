@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -33,7 +34,7 @@ public class SpiralMatrix54 {
     public void spiralMatrixTest() {
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         int[] ints = spiralOrder(matrix);
-        System.out.println(ints);
+        Assert.assertEquals(ints[0], 4);
     }
 
     /**

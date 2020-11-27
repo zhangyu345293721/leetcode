@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -49,7 +50,7 @@ public class SumMutatedArrayClosestTarget1300 {
         int[] arr = {48772, 52931, 14253, 32289, 75263};
         int target = 40876;
         int bestValue = findBestValue(arr, target);
-        System.out.println(bestValue);
+        Assert.assertEquals(bestValue, 8175);
 
     }
 

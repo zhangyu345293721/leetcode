@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,7 +40,7 @@ public class FindNumbers1295 {
     public void findNumberTest() {
         int[] nums = {12, 345, 2, 6, 7896};
         int count = findNumbers(nums);
-        System.out.println(count);
+        Assert.assertEquals(count, 2);
     }
 
     /**

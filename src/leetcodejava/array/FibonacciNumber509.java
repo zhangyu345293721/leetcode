@@ -39,7 +39,7 @@ import org.junit.Test;
  */
 public class FibonacciNumber509 {
     @Test
-    public void testFibonacciNumber() {
+    public void fibonacciNumberTest() {
         int n = 3;
         int num = fib2(n);
         Assert.assertEquals(num, 2);

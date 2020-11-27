@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -13,7 +14,7 @@ public class TheMasseuseLCCI16 {
     public void theMasseuseLCCTest() {
         int[] arr = {1, 2, 3, 1};
         int massage = massage(arr);
-        System.out.println(massage);
+        Assert.assertEquals(massage, 4);
     }
 
     /**

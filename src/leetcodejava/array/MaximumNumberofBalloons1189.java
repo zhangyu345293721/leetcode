@@ -39,7 +39,7 @@ import java.util.Map;
 public class MaximumNumberofBalloons1189 {
 
     @Test
-    public void maximumNumberofBalloonsTestDemo() {
+    public void maximumNumberofBalloonsTest() {
         String text = "nlaebolko";
         int count = maxNumberOfBalloons(text);
         System.out.println("count = " + count);

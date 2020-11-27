@@ -49,7 +49,7 @@ import org.junit.Test;
 public class DistributeCandiesPeople1103 {
 
     @Test
-    public void testDistributeCandiesPeople() {
+    public void distributeCandiesPeopleTest() {
         int candies = 60;
         int num_people = 4;
         int[] nums = distributeCandies2(candies, num_people);

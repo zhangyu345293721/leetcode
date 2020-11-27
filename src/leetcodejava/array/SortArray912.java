@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -38,7 +39,7 @@ public class SortArray912 {
     public void sortArrayTest() {
         int[] nums = {4, 1, 3, 4, 5, 7};
         int[] arr = sortArray(nums);
-        System.out.println(arr);
+        Assert.assertEquals(arr[0], 1);
     }
 
     /**
@@ -61,7 +62,7 @@ public class SortArray912 {
     }
 
     /**
-     * 利用队列进行排序
+     * 利用库函数进行
      *
      * @param nums 数组
      * @return 数组

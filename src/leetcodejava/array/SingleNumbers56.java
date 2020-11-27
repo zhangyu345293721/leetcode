@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashSet;
@@ -35,9 +36,9 @@ public class SingleNumbers56 {
 
     @Test
     public void singleNumberTest() {
-        int[] nums = {4, 1, 4, 5,5,6};
+        int[] nums = {4, 1, 4, 5, 5, 6};
         int[] ints = singleNumbers2(nums);
-        System.out.println(ints);
+        Assert.assertEquals(ints.length, 2);
     }
 
     /**
@@ -73,19 +74,20 @@ public class SingleNumbers56 {
      * @return 出现一次的数
      */
     public int[] singleNumbers2(int[] nums) {
-        int sum=0;
+        int sum = 0;
         // 得到异或结果，即为不相同两个数的异或结果sum
-        for(int num:nums){
-            sum^=num;}
+        for (int num : nums) {
+            sum ^= num;
+        }
         // 得到sum的二进制的1的最低位
-        int flag=(-sum)&sum;
-        int result[]=new int[2];
+        int flag = (-sum) & sum;
+        int result[] = new int[2];
         // 分成两个组进行异或，每组异或后的结果就是不相同两个数的其中之一
-        for(int num:nums){
-            if((flag&num)==0) {
+        for (int num : nums) {
+            if ((flag & num) == 0) {
                 result[0] ^= num;
-            }else{
-                result[1]^=num;
+            } else {
+                result[1] ^= num;
             }
         }
         return result;

@@ -36,7 +36,7 @@ import org.junit.Test;
  */
 public class ComplexNumber537 {
     @Test
-    public void testComplexNumber() {
+    public void complexNumberTest() {
         String a = "-11+-30i";
         String b = "55+-69i";
         String result = complexNumberMultiply(a, b);

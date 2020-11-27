@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -38,7 +39,7 @@ public class SumEvenNumbers985 {
         int[] A = {1, 2, 3, 4};
         int[][] queries = {{1, 0}, {-3, 1}, {-4, 0}, {2, 3}};
         int[] newA = sumEvenAfterQueries(A, queries);
-        System.out.println(newA);
+        Assert.assertEquals(newA.length, 4);
     }
 
     /**

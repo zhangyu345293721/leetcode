@@ -1,6 +1,7 @@
 package leetcodejava.array;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,7 +40,7 @@ public class StudentAttendance551 {
     public void checkRecordTest() {
         String s = "ALLAPPL";
         boolean b = checkRecord(s);
-        System.out.println(b);
+        Assert.assertEquals(b, false);
     }
 
     /**

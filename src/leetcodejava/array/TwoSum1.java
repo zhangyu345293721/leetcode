@@ -1,8 +1,8 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -35,7 +35,7 @@ public class TwoSum1 {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
         int[] arr = getSumIndex2(nums, target);
-        System.out.println(Arrays.toString(arr));
+        Assert.assertEquals(arr.length, 2);
     }
 
     /**

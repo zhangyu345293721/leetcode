@@ -10,24 +10,24 @@ import org.junit.Test;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 如果数组是单调递增或单调递减的，那么它是单调的。
- *
+ * <p>
  * 如果对于所有 i <= j，A[i] <= A[j]，那么数组 A 是单调递增的。 如果对于所有 i <= j，A[i]> = A[j]，那么数组 A 是单调递减的。
- *
+ * <p>
  * 当给定的数组 A 是单调数组时返回 true，否则返回 false。
- *
+ * <p>
  * 示例 1：
- *
+ * <p>
  * 输入：[1,2,2,3]
  * 输出：true
  * 示例 2：
- *
+ * <p>
  * 输入：[6,5,4,4]
  * 输出：true
  * 示例 3：
- *
+ * <p>
  * 输入：[1,3,2]
  * 输出：false
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -37,7 +37,7 @@ import org.junit.Test;
 public class MonotonicArray896 {
 
     @Test
-    public void testMonotonicArray() {
+    public void monotonicArrayTest() {
         int[] arr = {1, 1, 1};
         boolean flag = isMonotonic(arr);
         System.out.println(flag);

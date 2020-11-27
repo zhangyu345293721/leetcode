@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -46,7 +47,7 @@ public class SurfaceArea3DShapes892 {
     public void surfaceArea3DShapesTest() {
         int[][] arr = {{1, 2}, {3, 4}};
         int i = surfaceArea(arr);
-        System.out.println(i);
+        Assert.assertEquals(i, 34);
     }
 
     /**

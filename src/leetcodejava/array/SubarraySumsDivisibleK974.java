@@ -34,7 +34,7 @@ import org.junit.Test;
 public class SubarraySumsDivisibleK974 {
 
     @Test
-    public void SubarraySumsDivisibleKTest() {
+    public void subarraySumsDivisibleKTest() {
         int[] A = {4, 5, 0, -2, -3, 1};
         int K = 5;
         int i = subarraysDivByK(A, K);

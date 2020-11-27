@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -35,9 +36,7 @@ public class SortArrayByParity905 {
     public void sortArrayByParityTest() {
         int[] arr = {1, 2, 3, 4};
         int[] newArr = sortArrayByParity(arr);
-        for (int num : newArr) {
-            System.out.print(num + " ");
-        }
+        Assert.assertEquals(newArr[0], 4);
     }
 
     /**

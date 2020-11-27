@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -37,7 +38,7 @@ public class ShortestUnsortedContinuousSubarray581 {
     public void shortestUnsortedContinuousSubarrayTest() {
         int[] nums = {2, 6, 4, 8, 10, 9, 15};
         int num = findUnsortedSubarray(nums);
-        System.out.println(num);
+        Assert.assertEquals(num, 5);
     }
 
     /**

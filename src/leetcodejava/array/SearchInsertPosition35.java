@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -40,9 +41,9 @@ public class SearchInsertPosition35 {
     @Test
     public void searchInsertPositionTest() {
         int[] arr = {1, 3, 5, 6};
-        int target=5;
-        int i = searchIndex(arr, target);
-        System.out.println(i);
+        int target = 5;
+        int result = searchIndex(arr, target);
+        Assert.assertEquals(result, 2);
     }
 
     /**
@@ -57,7 +58,7 @@ public class SearchInsertPosition35 {
             return 0;
         }
         int length = nums.length;
-        if (nums[length-1] < target) {
+        if (nums[length - 1] < target) {
             return length;
         }
         if (nums[0] >= target) {

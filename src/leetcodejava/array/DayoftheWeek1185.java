@@ -37,7 +37,7 @@ import java.util.Calendar;
  */
 public class DayoftheWeek1185 {
     @Test
-    public void testDayoftheWeek() {
+    public void dayoftheWeekTest() {
         int day = 15;
         int month = 8;
         int year = 1993;

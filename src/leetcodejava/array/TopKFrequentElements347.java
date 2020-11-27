@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -38,7 +39,7 @@ public class TopKFrequentElements347 {
         int[] nums = {1, 1, 1, 2, 2, 3};
         int k = 2;
         int[] list = topKFrequent3(nums, k);
-        System.out.println(list);
+        Assert.assertEquals(list.length, 2);
 
     }
 

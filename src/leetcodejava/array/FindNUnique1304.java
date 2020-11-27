@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -37,6 +38,7 @@ public class FindNUnique1304 {
         for (int num : arr) {
             System.out.print(num);
         }
+        Assert.assertEquals(arr.length, 5);
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -51,7 +52,7 @@ public class XKindDeckCards914 {
     public void xKindDeckCardsTest() {
         int arr[] = {1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3};
         boolean b = hasGroupsSizeX3(arr);
-        System.out.println(b);
+        Assert.assertEquals(b, false);
     }
 
     /**

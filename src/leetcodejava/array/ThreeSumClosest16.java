@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -34,7 +35,7 @@ public class ThreeSumClosest16 {
         int[] nums = {-1, 2, 1, -4};
         int target = 1;
         int result = threeSumClosest(nums, target);
-        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

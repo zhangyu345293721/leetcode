@@ -37,7 +37,7 @@ import java.util.stream.IntStream;
 public class FindContinuousSequence57 {
 
     @Test
-    public void testFindContinuousSequence() {
+    public void findContinuousSequenceTest() {
         int target = 15;
         int[][] nums = findContinuousSequence1(target);
         Assert.assertEquals(nums.length, 2);

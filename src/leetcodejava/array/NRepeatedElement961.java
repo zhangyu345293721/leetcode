@@ -13,21 +13,21 @@ import java.util.Map;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 在大小为 2N 的数组 A 中有 N+1 个不同的元素，其中有一个元素重复了 N 次。
- *
+ * <p>
  * 返回重复了 N 次的那个元素。
- *
+ * <p>
  * 示例 1：
- *
+ * <p>
  * 输入：[1,2,3,3]
  * 输出：3
  * 示例 2：
- *
+ * <p>
  * 输入：[2,1,2,5,3,2]
  * 输出：2
  * 示例 3：
- *
+ * <p>
  * 输入：[5,1,5
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -37,7 +37,7 @@ import java.util.Map;
 public class NRepeatedElement961 {
 
     @Test
-    public void testNRepeatedElement() {
+    public void nRepeatedElementTest() {
         int[] arr = {1, 2, 3, 3};
         int num = repeatedNTimes(arr);
         System.out.println(num);

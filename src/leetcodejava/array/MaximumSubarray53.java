@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -24,10 +25,10 @@ import org.junit.Test;
  */
 public class MaximumSubarray53 {
     @Test
-    public void testMaximumSubarray() {
-        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        int maxNum = maximumSubarray(nums);
-        System.out.println(maxNum);
+    public void maximumSubarrayTest() {
+        int[] nums = {1};
+        int result = maximumSubarray(nums);
+        Assert.assertEquals(result, 1);
     }
 
 

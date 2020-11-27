@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -33,7 +34,7 @@ public class RotateNumber788 {
     public void testRotateNumber() {
         int n = 10;
         int number = rotatedDigits(n);
-        System.out.println(number);
+        Assert.assertEquals(number, 4);
     }
 
     /**

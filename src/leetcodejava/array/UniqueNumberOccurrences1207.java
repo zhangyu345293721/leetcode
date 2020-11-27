@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -44,7 +45,7 @@ public class UniqueNumberOccurrences1207 {
     public void uniqueNumberOccurrencesTest() {
         int[] arr = {1, 2, 2, 1, 1, 3};
         boolean result = uniqueOccurrences(arr);
-        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

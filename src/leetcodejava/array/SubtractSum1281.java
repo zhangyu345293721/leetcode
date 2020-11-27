@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -38,7 +39,7 @@ public class SubtractSum1281 {
     public void subtractSumTest() {
         int n = 4421;
         int sub = subtractProductAndSum(n);
-        System.out.println(sub);
+        Assert.assertEquals(sub, 21);
     }
 
     /**

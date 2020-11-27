@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashSet;
@@ -36,7 +37,7 @@ public class SingleNumber136 {
     public void singleNumberTest() {
         int[] arr = {2, 3, 3, 2, 4};
         int num = singleNumer1(arr);
-        System.out.println(num);
+        Assert.assertEquals(num, 4);
     }
 
     /**

@@ -35,7 +35,7 @@ import org.junit.Test;
  */
 public class PartitionArrayIntoThreeParts1013 {
     @Test
-    public void testPartitionArrayIntoThreeParts() {
+    public void partitionArrayIntoThreePartsTest() {
         int[] A = {3, 3, 6, 5, -2, 2, 5, 1, -9, 4};
         boolean result = canThreePartsEqualSum2(A);
         System.out.println(result);
