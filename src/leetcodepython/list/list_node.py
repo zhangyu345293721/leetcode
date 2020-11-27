@@ -6,7 +6,7 @@ class ListNode:
         self.val = x
         self.next = None
 
-    def create_list_node_array(self, arr: List[int]):
+    def create_list_node_array(self, arr: object) -> object:
         '''
             创建list_node节点
         Args:
