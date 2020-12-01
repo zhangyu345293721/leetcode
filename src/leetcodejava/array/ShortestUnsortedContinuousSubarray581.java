@@ -6,9 +6,9 @@ import org.junit.Test;
 import java.util.Arrays;
 
 /**
- * This is the solution of No.581 problem in the lefteetCode,
+ * This is the solution of No.581 problem in the LeetCode,
  * the website of the problem is as follow:
- * https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side
+ * https://leetcode-cn.com/problems/shortest-unsorted-continuous-subarray
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================

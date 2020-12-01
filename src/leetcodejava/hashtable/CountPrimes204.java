@@ -1,5 +1,6 @@
 package leetcodejava.hashtable;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -24,7 +25,7 @@ public class CountPrimes204 {
     public void countPrimesTest() {
         int n = 999983;
         int num = countPrimes(n);
-        System.out.println(num);
+        Assert.assertEquals(num, 78497);
     }
 
     /**

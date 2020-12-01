@@ -1,27 +1,28 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * This is the solution of No. 867 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/transpose-matrix
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个矩阵 A， 返回 A 的转置矩阵。
- *
+ * <p>
  * 矩阵的转置是指将矩阵的主对角线翻转，交换矩阵的行索引与列索引。
- *
+ * <p>
  * 示例 1：
- *
+ * <p>
  * 输入：[[1,2,3],[4,5,6],[7,8,9]]
  * 输出：[[1,4,7],[2,5,8],[3,6,9]]
  * 示例 2：
- *
+ * <p>
  * 输入：[[1,2,3],[4,5,6]]
  * 输出：[[1,4],[2,5],[3,6]]
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -30,9 +31,10 @@ import org.junit.Test;
 public class TransposeMatrix867 {
 
     @Test
-    public void testTransposeMatrix() {
+    public void transposeMatrixTest() {
         int[][] a = {{1, 2, 3}, {4, 5, 6}};
         int[][] A = transpose(a);
+        Assert.assertEquals(A.length, 2);
     }
 
     /**

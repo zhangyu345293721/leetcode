@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -36,11 +37,10 @@ public class PalindromicSubstrings647 {
     public void palindromicSubstringsTest() {
         String strs = "abc";
         int num = countSubstrings(strs);
-        System.out.println(num);
+        Assert.assertEquals(num, 3);
     }
 
     int num = 0;
-
     /**
      * 统一个字符串的子字符串有多少回文串
      *
@@ -49,7 +49,7 @@ public class PalindromicSubstrings647 {
      */
     public int countSubstrings(String s) {
         for (int i = 0; i < s.length(); i++) {
-            count(s, i, i);//回文串长度为奇数
+            count(s, i, i); //回文串长度为奇数
             count(s, i, i + 1);//回文串长度为偶数
         }
         return num;

@@ -1,6 +1,7 @@
 package leetcodejava.array;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -38,8 +39,7 @@ public class SubarraySumsDivisibleK974 {
         int[] A = {4, 5, 0, -2, -3, 1};
         int K = 5;
         int i = subarraysDivByK(A, K);
-        System.out.println(i);
-
+        Assert.assertEquals(i, 7);
     }
 
     /**

@@ -6,22 +6,21 @@ class ListNode:
         self.val = x
         self.next = None
 
-    def create_list_node_array(self, arr: object) -> object:
+    def create_list_node_array(self, nums: object) -> object:
         '''
             创建list_node节点
         Args:
-            arr:
-            index:
-
+            nums:数组
+            index:下标
         Returns:
-
+             ListNode链表
         '''
-        if not arr:
+        if not nums:
             return ListNode()
-        node = ListNode(arr[0])
+        node = ListNode(nums[0])
         head = node
-        for i in range(1, len(arr)):
-            node.next = ListNode(arr[i])
+        for i in range(1, len(nums)):
+            node.next = ListNode(nums[i])
             node = node.next
         return head
 

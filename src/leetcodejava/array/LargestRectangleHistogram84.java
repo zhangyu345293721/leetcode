@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Deque;
@@ -32,7 +33,7 @@ public class LargestRectangleHistogram84 {
     public void largestRectangleHistogramTest() {
         int[] heights = {1, 2, 3};
         int maxArea = largestRectangleHistogram(heights);
-        System.out.println(maxArea);
+        Assert.assertEquals(maxArea, 4);
     }
 
     /**
@@ -71,7 +72,7 @@ public class LargestRectangleHistogram84 {
      * @return 面积
      */
     public int largestRectangleHistogram2(int[] heights) {
-        int area = 0, n = heights.length;
+        int maxArea = 0, n = heights.length;
         // 遍历每个柱子，以当前柱子的高度作为矩形的高 h，
         // 从当前柱子向左右遍历，找到矩形的宽度 w。
         for (int i = 0; i < n; i++) {
@@ -83,8 +84,8 @@ public class LargestRectangleHistogram84 {
             while (++j < n && heights[j] >= h) {
                 w++;
             }
-            area = Math.max(area, w * h);
+            maxArea = Math.max(maxArea, w * h);
         }
-        return area;
+        return maxArea;
     }
 }

@@ -43,22 +43,12 @@ public class SortList148 {
      * @return listNode节点
      */
     public ListNode sortList(ListNode head) {
-        return mergeSort(head);
-    }
-
-    /**
-     * 合并链表
-     *
-     * @param node node节点
-     * @return 排序后节点
-     */
-    private ListNode mergeSort(ListNode node) {
-        if (node == null || node.next == null) {
-            return node;
+        if (head == null || head.next == null) {
+            return head;
         }
-        ListNode lastNode = getLastNode(node);
-        ListNode l1 = mergeSort(node);
-        ListNode l2 = mergeSort(lastNode);
+        ListNode lastNode = getLastNode(head);
+        ListNode l1 = sortList(head);
+        ListNode l2 = sortList(lastNode);
         return merge(l1, l2);
     }
 

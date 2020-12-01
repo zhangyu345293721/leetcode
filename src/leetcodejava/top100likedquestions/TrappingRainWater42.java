@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -23,9 +24,9 @@ import org.junit.Test;
 public class TrappingRainWater42 {
     @Test
     public void trappingRainWaterTest() {
-        int height[] = {1 , 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        int height[] = {1, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
         int maxWater = trappingRainWater(height);
-        System.out.println(maxWater);
+        Assert.assertEquals(maxWater, 6);
     }
 
     /**
@@ -40,7 +41,7 @@ public class TrappingRainWater42 {
         }
         int result = 0;
         int size = height.length;
-        for (int i = 0; i < size ; i++) {
+        for (int i = 0; i < size; i++) {
             int maxLeft = 0;
             int maxRight = 0;
             for (int j = i; j >= 0; j--) {

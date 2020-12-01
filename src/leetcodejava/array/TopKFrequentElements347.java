@@ -38,9 +38,8 @@ public class TopKFrequentElements347 {
     public void topKFrequentElementsTest() {
         int[] nums = {1, 1, 1, 2, 2, 3};
         int k = 2;
-        int[] list = topKFrequent3(nums, k);
+        int[] list = topKFrequent2(nums, k);
         Assert.assertEquals(list.length, 2);
-
     }
 
     /**
@@ -49,26 +48,20 @@ public class TopKFrequentElements347 {
      * @return 链表
      */
     public int[] topKFrequent(int[] nums, int k) {
-        List<Integer> result = new ArrayList<>();
         if (nums.length == 0) {
             return new int[]{};
         }
         HashMap<Integer, Integer> frequentMap = getFrequentMap(nums);
-        PriorityQueue<Map.Entry<Integer, Integer>> minheap = new PriorityQueue<>(k, (e1, e2) -> (e1.getValue() - e2.getValue()));
+        PriorityQueue<Map.Entry<Integer, Integer>> maxHeap = new PriorityQueue<>(k, (e1, e2) -> (e1.getValue() - e2.getValue()));
         for (Map.Entry<Integer, Integer> entry : frequentMap.entrySet()) {
-            if (minheap.size() < k) {
-                minheap.offer(entry);
-            } else {
-                if (entry.getValue() > minheap.peek().getValue()) {
-                    minheap.poll();
-                    minheap.offer(entry);
-                }
+            if (maxHeap.size() < k) {
+                maxHeap.offer(entry);
+            } else if (entry.getValue() > maxHeap.peek().getValue()) {
+                maxHeap.poll();
+                maxHeap.offer(entry);
             }
         }
-        while (!minheap.isEmpty()) {
-            result.add(minheap.poll().getKey());
-        }
-        return result.stream().mapToInt(e -> e.intValue()).toArray();
+        return maxHeap.stream().mapToInt(e -> e.getKey().intValue()).toArray();
     }
 
     /**
@@ -90,35 +83,15 @@ public class TopKFrequentElements347 {
      * @param k    前面k数
      * @return 链表
      */
-    public List<Integer> topKFrequent2(int[] nums, int k) {
-        HashMap<Integer, Integer> frequentMap = getFrequentMap(nums);
-        List<Integer>[] bucket = new List[nums.length + 1];
-        for (int num : frequentMap.keySet()) {
-            int freq = frequentMap.get(num);
-            if (bucket[freq] == null) {
-                bucket[freq] = new ArrayList<>();
-            }
-            bucket[freq].add(num);
-        }
-        List<Integer> res = new ArrayList<>();
-        for (int i = nums.length; i >= 0 && res.size() < k; i--) {
-            if (bucket[i] != null) {
-                res.addAll(bucket[i]);
-            }
-        }
-        return res;
-    }
-
-    /**
-     * @param nums 数组
-     * @param k    前面k数
-     * @return 链表
-     */
-    public int[] topKFrequent3(int[] nums, int k) {
+    public int[] topKFrequent2(int[] nums, int k) {
         if (nums.length == 0) {
             return new int[]{};
         }
-        HashMap<Integer, Integer> frequentMap = getFrequentMap(nums);
-        return frequentMap.entrySet().stream().sorted((e1, e2) -> (e2.getValue() - e1.getValue())).limit(k).mapToInt(e -> e.getKey()).toArray();
+        HashMap<Integer, Integer> frequentMap = new HashMap<>();
+        for (int num : nums) {
+            frequentMap.put(num, frequentMap.getOrDefault(num, 0) + 1);
+        }
+        return frequentMap.entrySet().stream().sorted((e1, e2) -> (e2.getValue() - e1.getValue()))
+                .limit(k).mapToInt(e -> e.getKey()).toArray();
     }
 }

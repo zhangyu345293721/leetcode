@@ -86,8 +86,8 @@ public class KthLargestElement215 {
      */
     private int kthLargestElement3(Integer[] nums, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(k + 1);
-        for (int i : nums) {
-            pq.add(i);
+        for (int num : nums) {
+            pq.add(num);
             if (pq.size() > k) {
                 pq.poll();
             }

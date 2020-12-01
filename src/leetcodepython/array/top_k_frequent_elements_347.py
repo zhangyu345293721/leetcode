@@ -30,38 +30,39 @@
 from typing import List
 
 
-def get_qrequent_map(nums: List[int]) -> dict:
-    '''
-        生成频率数组
-    Args:
-        nums:数组
-    Returns:
-        返回map
-    '''
-    qrequent = {}
-    for num in nums:
-        if num in qrequent:
-            qrequent[num] += 1
-        else:
-            qrequent[num] = 1
-    return qrequent
+class Solution:
+    def get_num_map(self, nums: List[int]) -> dict:
+        '''
+            生成频率数组
+        Args:
+            nums:数组
+        Returns:
+            返回map
+        '''
+        num_map = {}
+        for num in nums:
+            if num in num_map:
+                num_map[num] += 1
+            else:
+                num_map[num] = 1
+        return num_map
 
-
-def top_k_frequent(nums: List[int], k: int) -> List[int]:
-    '''
-        截取链表长度
-    Args:
-        nums: 数组
-        k: 最大k
-    Returns:
-        频率最高的k
-    '''
-    qrequent_map = get_qrequent_map(nums)
-    dict_sort_list = sorted(qrequent_map.items(), key=lambda x: x[1], reverse=True)
-    return [x[0] for x in dict_sort_list[0:k]]
+    def top_k_frequent(self, nums: List[int], k: int) -> List[int]:
+        '''
+            截取链表长度
+        Args:
+            nums: 数组
+            k: 最大k
+        Returns:
+            频率最高的k
+        '''
+        num_map = self.get_num_map(nums)
+        dict_sort_list = sorted(num_map.items(), key=lambda x: x[1], reverse=True)
+        return [x[0] for x in dict_sort_list[0:k]]
 
 
 if __name__ == '__main__':
     nums = [1, 1, 1, 2, 2, 3]
-    result = top_k_frequent(nums, 2)
-    print(result)
+    solution = Solution()
+    result = solution.top_k_frequent(nums, 2)
+    assert len(result) == 2
