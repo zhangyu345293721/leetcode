@@ -64,4 +64,4 @@ if __name__ == '__main__':
     nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
     solution = Solution()
     result = solution.max_sub_array2(nums)
-    print(result)
+    assert result == 6

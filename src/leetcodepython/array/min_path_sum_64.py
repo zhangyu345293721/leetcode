@@ -57,4 +57,4 @@ def minimum_path_sum(grid: List[List[int]]) -> int:
 if __name__ == '__main__':
     grid = [[1, 3, 1], [1, 5, 1], [4, 2, 1]]
     num = minimum_path_sum(grid)
-    print(num)
+    assert num==7

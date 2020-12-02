@@ -65,8 +65,9 @@ def merge2(nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         j -= 1
         k -= 1
 
+
 if __name__ == '__main__':
     A = [1, 2, 0, 0]
     B = [3, 6]
     merge1(A, 2, B, 2)
-    print(A)
+    assert len(A) == 4

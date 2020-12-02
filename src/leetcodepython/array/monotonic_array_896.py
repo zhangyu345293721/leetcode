@@ -58,4 +58,4 @@ def is_monotonic(arr: List[int]) -> bool:
 if __name__ == '__main__':
     arr = [1]
     flag = is_monotonic(arr)
-    print(flag)
+    assert flag == True

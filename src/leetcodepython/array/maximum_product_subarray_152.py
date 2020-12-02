@@ -78,4 +78,4 @@ def max_product2(nums: List[int]) -> int:
 if __name__ == '__main__':
     arr = [2, 3, -2, 4]
     result = max_product2(arr)
-    print(result)
+    assert result == 6

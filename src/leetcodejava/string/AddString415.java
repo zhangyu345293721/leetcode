@@ -1,6 +1,7 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -11,18 +12,18 @@ import java.util.stream.Collectors;
  * This is the solution of No. 415 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/add-strings
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定两个字符串形式的非负整数 num1 和num2 ，计算它们的和。
- *
+ * <p>
  * 注意：
- *
+ * <p>
  * num1 和num2 的长度都小于 5100.
  * num1 和num2 都只包含数字 0-9.
  * num1 和num2 都不包含任何前导零。
  * 你不能使用任何內建 BigInteger 库， 也不能直接将输入的字符串转换为整数形式。
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -35,7 +36,7 @@ public class AddString415 {
         String num1 = "12345";
         String num2 = "12345";
         String num = addStr(num1, num2);
-        System.out.println("num = " + num);
+        Assert.assertEquals(num, "24690");
     }
 
     /**

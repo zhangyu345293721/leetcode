@@ -47,4 +47,4 @@ def get_messing_number2(arr: List[int]) -> int:
 if __name__ == '__main__':
     arr = [9, 6, 4, 2, 3, 5, 7, 0, 1]
     messing_number = get_messing_number(arr)
-    print(messing_number)
+    assert messing_number==8

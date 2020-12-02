@@ -90,4 +90,4 @@ if __name__ == '__main__':
     nums1 = [2, 4]
     nums2 = [1, 2, 3, 4]
     arr = next_greater_element(nums1, nums2)
-    print(arr)
+    assert len(arr) == 2

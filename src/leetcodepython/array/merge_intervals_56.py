@@ -36,6 +36,7 @@ from typing import List
    description:合并区间
 '''
 
+
 class Interval:
     def __init__(self, start, end):
         self.start = start
@@ -65,4 +66,5 @@ if __name__ == '__main__':
     arr = []
     arr.extend([i1, i2])
     merged = merge(arr)
-    print(merged[0].start, merged[0].end)
+    assert merged[0].start == 1
+    assert merged[0].end == 4

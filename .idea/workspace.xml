@@ -4,80 +4,28 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 优化更新代码题目148">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/string/RemoveDuplicateLetters316.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/list/merge_two_sorted_lists_21.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodepython/string/remove_duplicate_letters_316.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/0750cc3bef73bfde2714d24eeda06232015b4f40" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/7/0750cc3bef73bfde2714d24eeda06232015b4f40" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12d5d1c3da87dcc3dec3b8d665573e733fd33b00" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12d5d1c3da87dcc3dec3b8d665573e733fd33b00" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19073e3da1c0f8ff34060d97545079d3c14c8602" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/19073e3da1c0f8ff34060d97545079d3c14c8602" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 优化更新代码题目316">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c56d29867ef60c77cb2ee60e65646775c48361e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c56d29867ef60c77cb2ee60e65646775c48361e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c5e2fa4cb16b6710fdf709fe4d7ccd58a32103d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/c/1c5e2fa4cb16b6710fdf709fe4d7ccd58a32103d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c1825a968e68b4ef210579cc41e2b36a576e651" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c1825a968e68b4ef210579cc41e2b36a576e651" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/354d2451bb0f25ea998e528214efa44247d2f0dc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/354d2451bb0f25ea998e528214efa44247d2f0dc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37880ee7d18955c5b157f8e29cbcac218706f230" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37880ee7d18955c5b157f8e29cbcac218706f230" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1b694cadd32d72064afbfbb9dc7fb302120911" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1b694cadd32d72064afbfbb9dc7fb302120911" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1f1af44274015cce66d3c4b869fa3a63dc1a3e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a1f1af44274015cce66d3c4b869fa3a63dc1a3e" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c45f1c2d7ab6056513fc5bb735a0b08aca45ee1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c45f1c2d7ab6056513fc5bb735a0b08aca45ee1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c8d1de8d75360643bbdf1120796ecc9e33d4e95" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c8d1de8d75360643bbdf1120796ecc9e33d4e95" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/431dc4be0ebc734fa5ada9442d87ced2c982dddb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/431dc4be0ebc734fa5ada9442d87ced2c982dddb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44e78f2abc02f41902f0ce67b06aec4131222505" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/44e78f2abc02f41902f0ce67b06aec4131222505" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4826254ef5404e992c004c9dae555308265ad1de" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/4826254ef5404e992c004c9dae555308265ad1de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48670054111bb95a1704c9c7a13d3ef02d11fd2a" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48670054111bb95a1704c9c7a13d3ef02d11fd2a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48cdd8cc44ef35cb67b6dca38272e71d30f57ce1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48cdd8cc44ef35cb67b6dca38272e71d30f57ce1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4ac5794cd1f73b2cefda7a2b5b6ae94e7d3c3108" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4ac5794cd1f73b2cefda7a2b5b6ae94e7d3c3108" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bd40f6e83a7c18899ce4f2e23aa0eca09c3453d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bd40f6e83a7c18899ce4f2e23aa0eca09c3453d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c5ab95900635ebf201d06c46d7d377147581f6b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/c/4c5ab95900635ebf201d06c46d7d377147581f6b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d04dfd350b0f94128946a21d29d353236e26dc9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d04dfd350b0f94128946a21d29d353236e26dc9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/5000ad4880105c16ec8045b152b25f01fa873f1e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/5000ad4880105c16ec8045b152b25f01fa873f1e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/573c20a2efd4766e5098eb1aea1a1d795d3a1514" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/573c20a2efd4766e5098eb1aea1a1d795d3a1514" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58a25f12367ed3e32e7c20cc91559cb083c8fb31" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/8/58a25f12367ed3e32e7c20cc91559cb083c8fb31" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a6a9d7c705cf3b2cb209493fd16f1126ab3a84d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a6a9d7c705cf3b2cb209493fd16f1126ab3a84d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/619371bf0410389833f8e9f45ef7eed3aeae1a47" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/1/619371bf0410389833f8e9f45ef7eed3aeae1a47" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/626d9ca690ddb7d484ba300b70464dfb2b267286" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/626d9ca690ddb7d484ba300b70464dfb2b267286" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6408328c818531e1bef3d19e441065f9262cf672" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6408328c818531e1bef3d19e441065f9262cf672" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6492e35a6b8ec5275c73bc29ba1294a400e1961f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/6492e35a6b8ec5275c73bc29ba1294a400e1961f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67fdbb443a8805b602dd9e8e4d9fa2f6b1ee8c7e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67fdbb443a8805b602dd9e8e4d9fa2f6b1ee8c7e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6af4952fa375b397b933dd214f2578aea16e1ed2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6af4952fa375b397b933dd214f2578aea16e1ed2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6edbc896a486842abbf966e0df85b9cda49e1515" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/e/6edbc896a486842abbf966e0df85b9cda49e1515" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74e40066954a9c1959ebd3c60024d578e596ffb5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74e40066954a9c1959ebd3c60024d578e596ffb5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79664cc805f773fc319344ebfca5c47f1a7d0973" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/79664cc805f773fc319344ebfca5c47f1a7d0973" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872cf50c2f400f2c5183cad7ef4d297db5c635bc" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/872cf50c2f400f2c5183cad7ef4d297db5c635bc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fb655a0b478a340f8ec6d66b9d2de207572d436" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/f/8fb655a0b478a340f8ec6d66b9d2de207572d436" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/957e005dba0e6d538915d3399c5eda7557335a6b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/957e005dba0e6d538915d3399c5eda7557335a6b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9e45335d6cce781f572654c88cc6be0a375f893" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9e45335d6cce781f572654c88cc6be0a375f893" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c11254503efc770f5d5abc9b35d77d7709db242f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c11254503efc770f5d5abc9b35d77d7709db242f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1765d825fe023517b2bb94b5613ece06b98d9d1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c1765d825fe023517b2bb94b5613ece06b98d9d1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7009fad3939d77d4234eb0160717379dc845f28" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7009fad3939d77d4234eb0160717379dc845f28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f58d0930334da5d9dfd7cb3bf9cf86bb8fc98f6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f58d0930334da5d9dfd7cb3bf9cf86bb8fc98f6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f49599e2794ec2af6e00efb365895444704976d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7f49599e2794ec2af6e00efb365895444704976d" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c82016fc0979d1a24ad6f749e9f9d66096f7b276" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c82016fc0979d1a24ad6f749e9f9d66096f7b276" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c948cd198c4cf8010c584537bc115269b09fde4d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/9/c948cd198c4cf8010c584537bc115269b09fde4d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf22d37795e1a11e5c56acb9af5a07f3f7285db0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf22d37795e1a11e5c56acb9af5a07f3f7285db0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf2cb71fdd59f2c2cc1a3f6fb3609c30e1cc3f66" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf2cb71fdd59f2c2cc1a3f6fb3609c30e1cc3f66" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0716042591d95023abd44743c698a5e264dcd3b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/0/d0716042591d95023abd44743c698a5e264dcd3b" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1740de7d05e0c3158da2000a6750cb57ab4afe0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1740de7d05e0c3158da2000a6750cb57ab4afe0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d924dcc374a88932de49f1b74f2b9d83fd73926e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d924dcc374a88932de49f1b74f2b9d83fd73926e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e341d8aba5ec68a5a68d74aa708de6735f15d021" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e341d8aba5ec68a5a68d74aa708de6735f15d021" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebecb96e89a336b41aaeadc88adda9e8b964edef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/b/ebecb96e89a336b41aaeadc88adda9e8b964edef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeb714d5b9dd06ed26f65aa6e33466112c62b833" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eeb714d5b9dd06ed26f65aa6e33466112c62b833" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd1991a02fcdef8e2b038e3e11f3c2bbf52807e9" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd1991a02fcdef8e2b038e3e11f3c2bbf52807e9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f238a627d9b7d961f85b7f412e7d395f982cfa50" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/2/f238a627d9b7d961f85b7f412e7d395f982cfa50" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/LargestRectangleHistogram84.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/LargestRectangleHistogram84.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/ShortestUnsortedContinuousSubarray581.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/ShortestUnsortedContinuousSubarray581.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/SquaresSortedArray977.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/SquaresSortedArray977.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/SubarraySumsDivisibleK974.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/SubarraySumsDivisibleK974.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/TopKFrequentElements347.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/TopKFrequentElements347.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/hashtable/CountPrimes204.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/hashtable/CountPrimes204.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/list/MergeTwoSortedLists21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/list/MergeTwoSortedLists21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/list/SortList148.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/list/SortList148.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/PalindromicSubstrings647.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/PalindromicSubstrings647.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TrappingRainWater42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TrappingRainWater42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/top_k_frequent_elements_347.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/top_k_frequent_elements_347.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/trapping_rain_water_42.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/trapping_rain_water_42.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/list/list_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/list/list_node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/palindromic_substrings_647.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/palindromic_substrings_647.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/AddString415.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/AddString415.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/maximum_subarray_53.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/maximum_subarray_53.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,90 +57,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/LargestRectangleHistogram84.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/maximum_subarray_53.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+            <state relative-caret-position="1650">
+              <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/FindDifference389.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="6" selection-start-line="6" selection-end-line="37" selection-end-column="3" />
+            <state relative-caret-position="1800">
+              <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/LinkedListCycle141.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="1725">
+              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/LRUCache146.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_sort_array_4.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/LRULinkedHashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="1475">
+              <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/list_node.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="1375">
+              <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/merge_two_sorted_lists_21.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+            <state relative-caret-position="1500">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="2" lean-forward="true" selection-end-line="93" />
+            <state relative-caret-position="1125">
+              <caret line="84" column="26" lean-forward="true" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/RemoveDuplicateLetters316.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1768">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/remove_duplicate_letters_316.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="75">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -252,21 +197,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/SearchRotatedSortedArray33.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/SelfDivingNumber728.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/Shift2DGrid1260.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/SingleNumber136.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/SingleNumbers56.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/SolutionView40.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/SpiralMatrix54.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/StudentAttendance551.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/FloodFill733.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/HeightChecker1051.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/JumpGame55.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/MaxAreaIsland695.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/MaximumNumberofBalloons1189.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/AvailableCapturesRook999.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/CellsOddValues1252.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/ComplexNumber537.java" />
@@ -303,6 +237,17 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/string/RemoveDuplicateLetters316.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/remove_duplicate_letters_316.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/AddString415.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/maximum_subarray_53.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py" />
       </list>
     </option>
   </component>
@@ -323,10 +268,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1850" />
-    <option name="y" value="84" />
-    <option name="width" value="1549" />
-    <option name="height" value="837" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -377,14 +322,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -395,8 +333,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -455,43 +393,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.remove_duplicate_letters_316">
+  <component name="RunManager" selected="Python.next_greater_element_496">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicateLetters316.popTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.RemoveDuplicateLetters316" />
-      <option name="METHOD_NAME" value="popTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicateLetters316.removeDuplicateLettersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.RemoveDuplicateLetters316" />
-      <option name="METHOD_NAME" value="removeDuplicateLettersTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -503,7 +407,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="list_node" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="messing_number_268" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -511,12 +415,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/list/list_node.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -525,7 +429,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_two_sorted_lists_21" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="min_path_sum_64" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -533,12 +437,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/list/merge_two_sorted_lists_21.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -547,7 +451,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remove_duplicate_letters_316" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="minimum_increment_make_array_unique_945" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -555,12 +459,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/remove_duplicate_letters_316.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="monotonic_array_896" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="next_greater_element_496" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="leetcodepython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -648,20 +596,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Python.list_node" />
-      <item itemvalue="Python.merge_two_sorted_lists_21" />
+      <item itemvalue="Python.messing_number_268" />
+      <item itemvalue="Python.min_path_sum_64" />
+      <item itemvalue="Python.minimum_increment_make_array_unique_945" />
+      <item itemvalue="Python.monotonic_array_896" />
+      <item itemvalue="Python.next_greater_element_496" />
       <item itemvalue="Tomcat Server.mytomcat" />
-      <item itemvalue="JUnit.RemoveDuplicateLetters316.removeDuplicateLettersTest" />
-      <item itemvalue="JUnit.RemoveDuplicateLetters316.popTest" />
-      <item itemvalue="Python.remove_duplicate_letters_316" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.remove_duplicate_letters_316" />
-        <item itemvalue="JUnit.RemoveDuplicateLetters316.removeDuplicateLettersTest" />
-        <item itemvalue="JUnit.RemoveDuplicateLetters316.popTest" />
-        <item itemvalue="Python.merge_two_sorted_lists_21" />
-        <item itemvalue="Python.list_node" />
+        <item itemvalue="Python.next_greater_element_496" />
+        <item itemvalue="Python.monotonic_array_896" />
+        <item itemvalue="Python.minimum_increment_make_array_unique_945" />
+        <item itemvalue="Python.min_path_sum_64" />
+        <item itemvalue="Python.messing_number_268" />
       </list>
     </recent_temporary>
   </component>
@@ -918,14 +866,10 @@
       <workItem from="1606385313524" duration="237000" />
       <workItem from="1606404289227" duration="39577000" />
       <workItem from="1606790790119" duration="11176000" />
-      <workItem from="1606808005326" duration="8943000" />
-    </task>
-    <task id="LOCAL-00165" summary="master:增加题目15,三个数求和">
-      <created>1591955396670</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1591955396671</updated>
+      <workItem from="1606808005326" duration="9313000" />
+      <workItem from="1606873253808" duration="1141000" />
+      <workItem from="1606908178508" duration="287000" />
+      <workItem from="1606919926568" duration="815000" />
     </task>
     <task id="LOCAL-00166" summary="master:增加题目">
       <created>1592148930161</created>
@@ -1263,22 +1207,17 @@
       <option name="project" value="LOCAL" />
       <updated>1606474192270</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="master: 优化更新代码题目316">
+      <created>1606817884062</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1606817884063</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemoveDuplicateLetters316_removeDuplicateLettersTest - 2020.12.01 at 17h 05m 49s.xml">
-      <configuration name="RemoveDuplicateLetters316.removeDuplicateLettersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveDuplicateLetters316_removeDuplicateLettersTest - 2020.12.01 at 17h 07m 46s.xml">
-      <configuration name="RemoveDuplicateLetters316.removeDuplicateLettersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveDuplicateLetters316_removeDuplicateLettersTest - 2020.12.01 at 17h 07m 50s.xml">
-      <configuration name="RemoveDuplicateLetters316.removeDuplicateLettersTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveDuplicateLetters316_removeDuplicateLettersTest - 2020.12.01 at 17h 09m 08s.xml">
-      <configuration name="RemoveDuplicateLetters316.removeDuplicateLettersTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RemoveDuplicateLetters316_popTest - 2020.12.01 at 17h 17m 32s.xml">
       <configuration name="RemoveDuplicateLetters316.popTest" configurationId="JUnit" />
     </history-entry>
@@ -1297,9 +1236,21 @@
     <history-entry file="RemoveDuplicateLetters316_removeDuplicateLettersTest - 2020.12.01 at 17h 21m 04s.xml">
       <configuration name="RemoveDuplicateLetters316.removeDuplicateLettersTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddString415_addStringTest - 2020.12.02 at 09h 42m 57s.xml">
+      <configuration name="AddString415.addStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddString415_addStringTest - 2020.12.02 at 09h 46m 17s.xml">
+      <configuration name="AddString415.addStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddString415_addStringTest - 2020.12.02 at 09h 46m 52s.xml">
+      <configuration name="AddString415.addStringTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddString415_addStringTest - 2020.12.02 at 19h 23m 40s.xml">
+      <configuration name="AddString415.addStringTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2099964000" />
+    <option name="totallyTimeSpent" value="2102577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1311,10 +1262,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.19210246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.19850586" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1323,7 +1274,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.23964497" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966443" visible="true" weight="0.2746637" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966443" weight="0.2746637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4573991" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1416,7 +1367,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master: python代码增加注释2" />
     <MESSAGE value="master: leetcode.107提交题目" />
     <MESSAGE value="master: leetcode.347提交题目" />
     <MESSAGE value="master: leetcode.77提交题目" />
@@ -1441,7 +1391,8 @@
     <MESSAGE value="master: 优化题目" />
     <MESSAGE value="master: 优化更新代码" />
     <MESSAGE value="master: 优化更新代码题目148" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: 优化更新代码题目148" />
+    <MESSAGE value="master: 优化更新代码题目316" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: 优化更新代码题目316" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2024,7 +1975,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$add_binary_67.coverage" NAME="add_binary_67 Coverage Results" MODIFIED="1605161392375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
-    <SUITE FILE_PATH="coverage/leetcode$maximum_subarray_53.coverage" NAME="maximum_subarray_53 Coverage Results" MODIFIED="1606407032485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$maximum_subarray_53.coverage" NAME="maximum_subarray_53 Coverage Results" MODIFIED="1606908277687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$merge_sort_array_4.coverage" NAME="merge_sort_array_4 Coverage Results" MODIFIED="1605515130771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$shortest_completing_word_748.coverage" NAME="shortest_completing_word_748 Coverage Results" MODIFIED="1580360868397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$spiral_matrix_54.coverage" NAME="spiral_matrix_54 Coverage Results" MODIFIED="1591351820246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -2062,6 +2013,7 @@
     <SUITE FILE_PATH="coverage/leetcode$contains_duplicate_217.coverage" NAME="contains_duplicate_217 Coverage Results" MODIFIED="1582084777680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$merge_two_binary_trees_617.coverage" NAME="merge_two_binary_trees_617 Coverage Results" MODIFIED="1584522900330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
     <SUITE FILE_PATH="coverage/leetcode$validate_binary_search_tree_98.coverage" NAME="validate_binary_search_tree_98 Coverage Results" MODIFIED="1599125279224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
+    <SUITE FILE_PATH="coverage/leetcode$monotonic_array_896.coverage" NAME="monotonic_array_896 Coverage Results" MODIFIED="1606908432272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$top_k_frequent_elements_347.coverage" NAME="top_k_frequent_elements_347 Coverage Results" MODIFIED="1606725288231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1582349620957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$reverse_only_letters_917.coverage" NAME="reverse_only_letters_917 Coverage Results" MODIFIED="1605161472017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
@@ -2093,7 +2045,7 @@
     <SUITE FILE_PATH="coverage/leetcode$reverse_integer_7.coverage" NAME="reverse_integer_7 Coverage Results" MODIFIED="1599039344212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$distribute_candies_people_1103.coverage" NAME="distribute_candies_people_1103 Coverage Results" MODIFIED="1583421262215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$play_with_chips_1217.coverage" NAME="play_with_chips_1217 Coverage Results" MODIFIED="1581499699210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$merge_intervals_56.coverage" NAME="merge_intervals_56 Coverage Results" MODIFIED="1582863176399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$merge_intervals_56.coverage" NAME="merge_intervals_56 Coverage Results" MODIFIED="1606908382747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$ReshapeMatrix566_reshapeMatrixTest.ic" NAME="ReshapeMatrix566.reshapeMatrixTest Coverage Results" MODIFIED="1606446896698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcodejava.array.*</FILTER>
     </SUITE>
@@ -2109,16 +2061,16 @@
     <SUITE FILE_PATH="coverage/leetcode$middle_linked_list_876.coverage" NAME="middle_linked_list_876 Coverage Results" MODIFIED="1584958891639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/list" />
     <SUITE FILE_PATH="coverage/leetcode$freq_alphabets_1309.coverage" NAME="freq_alphabets_1309 Coverage Results" MODIFIED="1599124475261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$long_pressed_925.coverage" NAME="long_pressed_925 Coverage Results" MODIFIED="1581313108673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
-    <SUITE FILE_PATH="coverage/leetcode$minimum_increment_make_array_unique_945.coverage" NAME="minimum_increment_make_array_unique_945 Coverage Results" MODIFIED="1584864536615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$minimum_increment_make_array_unique_945.coverage" NAME="minimum_increment_make_array_unique_945 Coverage Results" MODIFIED="1606908419509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$reconstruct_queue_406.coverage" NAME="reconstruct_queue_406 Coverage Results" MODIFIED="1583566870257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$largest_rectangle_histogram_84.coverage" NAME="largest_rectangle_histogram_84 Coverage Results" MODIFIED="1602224008738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$search_2d_matrix_240.coverage" NAME="search_2d_matrix_240 Coverage Results" MODIFIED="1602726975622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$maximum_product_subarray_152.coverage" NAME="maximum_product_subarray_152 Coverage Results" MODIFIED="1602435580871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$maximum_product_subarray_152.coverage" NAME="maximum_product_subarray_152 Coverage Results" MODIFIED="1606908261797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$minimum_path_sum_64.coverage" NAME="minimum_path_sum_64 Coverage Results" MODIFIED="1581397853241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$palindromic_substrings_647.coverage" NAME="palindromic_substrings_647 Coverage Results" MODIFIED="1606702369203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$add_two_numer.coverage" NAME="add_two_numer Coverage Results" MODIFIED="1605160900188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$messing_number_268.coverage" NAME="messing_number_268 Coverage Results" MODIFIED="1581398986275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$next_greater_element_496.coverage" NAME="next_greater_element_496 Coverage Results" MODIFIED="1582473207923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$messing_number_268.coverage" NAME="messing_number_268 Coverage Results" MODIFIED="1606908387648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$next_greater_element_496.coverage" NAME="next_greater_element_496 Coverage Results" MODIFIED="1606908451212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$task_scheduler_621.coverage" NAME="task_scheduler_621 Coverage Results" MODIFIED="1602775654869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$sqrt_69.coverage" NAME="sqrt_69 Coverage Results" MODIFIED="1589090652087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$valid_parentheses_20.coverage" NAME="valid_parentheses_20 Coverage Results" MODIFIED="1597399474957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
@@ -2130,7 +2082,7 @@
     <SUITE FILE_PATH="coverage/leetcode$unique_path_62.coverage" NAME="unique_path_62 Coverage Results" MODIFIED="1605161351043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
     <SUITE FILE_PATH="coverage/leetcode$demo.coverage" NAME="demo Coverage Results" MODIFIED="1585114544653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$longest_consecutive_128.coverage" NAME="longest_consecutive_128 Coverage Results" MODIFIED="1591420118006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/top100likedquestions" />
-    <SUITE FILE_PATH="coverage/leetcode$merge_array_88.coverage" NAME="merge_array_88 Coverage Results" MODIFIED="1605157466695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$merge_array_88.coverage" NAME="merge_array_88 Coverage Results" MODIFIED="1606908346744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$nth_tribonacci_number_1137.coverage" NAME="nth_tribonacci_number_1137 Coverage Results" MODIFIED="1579933750643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$two_sum_1.coverage" NAME="two_sum_1 Coverage Results" MODIFIED="1580555163700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$longest_increasing_subsequence_300.coverage" NAME="longest_increasing_subsequence_300 Coverage Results" MODIFIED="1582686537738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -2147,7 +2099,7 @@
     <SUITE FILE_PATH="coverage/leetcode$min_stack_155.coverage" NAME="min_stack_155 Coverage Results" MODIFIED="1606214656074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/list" />
     <SUITE FILE_PATH="coverage/leetcode$array_partition_561.coverage" NAME="array_partition_561 Coverage Results" MODIFIED="1579143198462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$get_intersection_349.coverage" NAME="get_intersection_349 Coverage Results" MODIFIED="1578541299193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/python/array" />
-    <SUITE FILE_PATH="coverage/leetcode$min_path_sum_64.coverage" NAME="min_path_sum_64 Coverage Results" MODIFIED="1582793365688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$min_path_sum_64.coverage" NAME="min_path_sum_64 Coverage Results" MODIFIED="1606908406970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$container_with_most_water_11.coverage" NAME="container_with_most_water_11 Coverage Results" MODIFIED="1603806805204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$longest_valid_parentheses_32__1_.coverage" NAME="longest_valid_parentheses_32 (1) Coverage Results" MODIFIED="1581775726378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$word_break_139.coverage" NAME="word_break_139 Coverage Results" MODIFIED="1582516137520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
@@ -2262,100 +2214,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/TransposeMatrix867.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/top_k_frequent_elements_347.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/trapping_rain_water_42.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1574">
-          <caret line="80" column="22" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/shortest_unsorted_continuous_subarray_581.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/ShortestUnsortedContinuousSubarray581.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1475">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SingleNumber136.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SingleNumbers56.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SolutionView40.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SortArray912.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SortArrayByParity905.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SortArrayParity922.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SpiralMatrix54.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SquaresSortedArray977.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/StudentAttendance551.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -2564,6 +2422,20 @@
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/LFUCache460.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/LargestRectangleHistogram84.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="70" column="26" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/FindDifference389.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" selection-start-line="6" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/LinkedListCycle141.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
@@ -2588,23 +2460,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/FindDifference389.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="6" selection-start-line="6" selection-end-line="37" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/LargestRectangleHistogram84.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/merge_two_sorted_lists_21.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="1200">
           <caret line="48" column="18" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
         </state>
       </provider>
@@ -2612,24 +2470,114 @@
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="2" lean-forward="true" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/remove_duplicate_letters_316.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <caret line="7" column="2" selection-end-line="93" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/RemoveDuplicateLetters316.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1768">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="425">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/remove_duplicate_letters_316.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/AddString415.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="85" column="25" lean-forward="true" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" column="35" lean-forward="true" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/maximum_product_subarray_152.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2025">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/maximum_subarray_53.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_array_88.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_intervals_56.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/messing_number_268.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/merge_sort_array_4.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/min_path_sum_64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="17" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/minimum_increment_make_array_unique_945.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="55" column="21" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/monotonic_array_896.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="84" column="26" lean-forward="true" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/np_repeated_element_961.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
