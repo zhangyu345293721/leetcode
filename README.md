@@ -22,7 +22,7 @@
  <tr>
     <th >*152</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85235720">Maximum Product Subarray</a></th>
-    <th>Hard</th>
+    <th>Middle</th>
   </tr>
   <tr>
     <th >85</th>
