@@ -74,7 +74,7 @@ public class SpiralMatrix54 {
             if (top > --bottom) {
                 break;
             }
-            // 从下到上.-
+            // 从下到上
             for (int i = bottom; i >= top; i--) {
                 result.add(matrix[i][left]);
             }
