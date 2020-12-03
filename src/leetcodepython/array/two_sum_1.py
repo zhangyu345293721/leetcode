@@ -65,4 +65,4 @@ if __name__ == '__main__':
     arr = [2, 5, 7, 11]
     target = 7
     result = get_sum_index2(arr, target)
-    print(result)
+    assert result == [0.1]

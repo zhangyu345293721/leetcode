@@ -71,4 +71,4 @@ if __name__ == '__main__':
     A = [1, 2, 3, 4]
     queries = [[1, 0], [-3, 1], [-4, 0], [2, 3]]
     new_A = sum_even_after_queries(A, queries);
-    print(new_A)
+    assert new_A == [8, 6, 2, 4]

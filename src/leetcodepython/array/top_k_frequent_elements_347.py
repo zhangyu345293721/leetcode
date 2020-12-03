@@ -66,3 +66,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.top_k_frequent(nums, 2)
     assert len(result) == 2
+    assert result == [1, 2]

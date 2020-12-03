@@ -3,6 +3,9 @@ package leetcodejava.array;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * This is the solution of No.54 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -33,52 +36,52 @@ public class SpiralMatrix54 {
     @Test
     public void spiralMatrixTest() {
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        int[] ints = spiralOrder(matrix);
-        Assert.assertEquals(ints[0], 4);
+        List<Integer> result = spiralOrder(matrix);
+        Assert.assertEquals(result.get(0).intValue(), 1);
     }
 
     /**
-     * 螺旋顺序
+     * 螺旋顺序输出数组
      *
      * @param matrix 二维数据
      * @return 一维数组
      */
-    public int[] spiralOrder(int[][] matrix) {
+    public List<Integer> spiralOrder(int[][] matrix) {
         if (matrix.length == 0) {
-            return new int[0];
+            return new ArrayList<>();
         }
-        int l = 0, r = matrix[0].length - 1, t = 0, b = matrix.length - 1, x = 0;
-        int[] res = new int[(r + 1) * (b + 1)];
+        int left = 0, right = matrix[0].length - 1, top = 0, bottom = matrix.length - 1;
+        List<Integer> result = new ArrayList();
         while (true) {
-            for (int i = l; i <= r; i++) {
-                res[x++] = matrix[t][i];
+            // 从左向右
+            for (int i = left; i <= right; i++) {
+                result.add(matrix[top][i]);
             }
-            // left to right.
-            if (++t > b) {
+            if (++top > bottom) {
                 break;
             }
-            for (int i = t; i <= b; i++) {
-                res[x++] = matrix[i][r];
+            // 从上到下
+            for (int i = top; i <= bottom; i++) {
+                result.add(matrix[i][right]);
             }
-            // top to bottom.
-            if (l > --r) {
+            if (left > --right) {
                 break;
             }
-            for (int i = r; i >= l; i--) {
-                res[x++] = matrix[b][i];
+            // 从右向左
+            for (int i = right; i >= left; i--) {
+                result.add(matrix[bottom][i]);
             }
-            // right to left.
-            if (t > --b) {
+            if (top > --bottom) {
                 break;
             }
-            for (int i = b; i >= t; i--) {
-                res[x++] = matrix[i][l];
+            // 从下到上.-
+            for (int i = bottom; i >= top; i--) {
+                result.add(matrix[i][left]);
             }
-            // bottom to top.
-            if (++l > r) {
+            if (++left > right) {
                 break;
             }
         }
-        return res;
+        return result;
     }
 }

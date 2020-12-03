@@ -59,4 +59,4 @@ if __name__ == '__main__':
     n = 2
     solution = Solution()
     result = solution.least_interval(tasks, n)
-    print(result)
+    assert result == 8

@@ -69,5 +69,5 @@ def has_groups_size_x(deck: List[int]) -> bool:
 
 if __name__ == '__main__':
     arr = [1, 2, 3, 4, 4, 3, 2, 1]
-    flag = has_groups_size_x(arr)
-    print(flag)
+    res = has_groups_size_x(arr)
+    assert res==True

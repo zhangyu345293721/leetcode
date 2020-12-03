@@ -27,24 +27,55 @@
 '''
 from typing import List
 
-def spiral_order(matrix: List[List[int]]) -> List[int]:
-    '''
-        顺时针打印数组
-    Args:
-        matrix: 二维数组
-        Returns: 一维数组
-    '''
-    res = []
-    while matrix:
-        res += matrix.pop(0)
-        matrix = list(zip(*matrix))[::-1]
-    return res
 
+class Solution:
+    def spiral_order(self, matrix: List[List[int]]) -> List[int]:
+        '''
+            顺时针打印数组
+        Args:
+            matrix: 二维数组
+            Returns: 一维数组
+        '''
+        res = []
+        while matrix:
+            res += matrix.pop(0)
+            matrix = list(zip(*matrix))[::-1]
+        return res
+
+    def spiral_order2(self, matrix: List[List[int]]) -> List[int]:
+        '''
+            顺时针打印数组
+        Args:
+            matrix: 二维数组
+            Returns: 一维数组
+        '''
+        res = []
+        top, bottom, left, right = 0, len(matrix) - 1, 0, len(matrix[0]) - 1
+        while True:
+            for i in range(left, right + 1):
+                res.append(matrix[top][i])
+            top += 1
+            if top > bottom:
+                break
+            for i in range(top, bottom + 1):
+                res.append(matrix[i][bottom])
+            right -= 1
+            if left > right:
+                break
+            for i in range(left, right + 1):
+                res.append(matrix[bottom][i])
+            bottom -= 1
+            if top > bottom:
+                break
+            for i in range(top, bottom + 1):
+                res.append(matrix[i][left])
+            left += 1
+            if left > right:
+                break
+        return res
 
 if __name__ == '__main__':
     matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-    print(matrix.pop(0))
-    print(matrix)
-    print(list(zip(*matrix))[::-1])
-    result = spiral_order(matrix)
-    print(result)
+    solution = Solution()
+    result = solution.spiral_order2(matrix)
+    assert result == [1, 2, 3, 6, 9, 7, 8, 4, 5]

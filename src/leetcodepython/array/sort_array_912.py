@@ -30,6 +30,8 @@ from typing import List
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 '''
+
+
 def sort_array(nums: List[int]) -> List[int]:
     '''
         对数组进行排序
@@ -50,4 +52,5 @@ def sort_array(nums: List[int]) -> List[int]:
 if __name__ == '__main__':
     nums = [5, 2, 3, 1]
     result = sort_array(nums)
-    print(result)
+    assert len(result) == 4
+    assert result[0] == 1

@@ -59,4 +59,4 @@ def unique_number_occurrences(arr: List[int]) -> bool:
 if __name__ == '__main__':
     arr = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
     result = unique_number_occurrences(arr)
-    print(result)
+    assert result == False

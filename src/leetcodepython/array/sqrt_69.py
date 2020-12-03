@@ -27,34 +27,36 @@
  */
 '''
 
-def my_sqrt(x: int) -> int:
-    '''
-        被除数
-    Args:
-        x: 除数
-    Returns:
-        开方数
-    '''
-    return int(x ** 0.5)
 
+class Solution:
+    def my_sqrt(self, x: int) -> int:
+        '''
+            被除数
+        Args:
+            x: 除数
+        Returns:
+            开方数
+        '''
+        return int(x ** 0.5)
 
-def my_sqrt_2(x: int) -> int:
-    '''
-        被除数
-    Args:
-        x: 除数
-    Returns:
-        开方数
-    '''
-    if x <= 1:
-        return x
-    num = 1
-    while num * num <= x:
-        num += 1
-    return num - 1
+    def my_sqrt_2(self, x: int) -> int:
+        '''
+            被除数
+        Args:
+            x: 除数
+        Returns:
+            开方数
+        '''
+        if x <= 1:
+            return x
+        num = 1
+        while num * num <= x:
+            num += 1
+        return num - 1
 
 
 if __name__ == '__main__':
     num = 8
-    result = my_sqrt_2(num)
-    print(result)
+    solution = Solution()
+    result = solution.my_sqrt_2(num)
+    assert result == 2
