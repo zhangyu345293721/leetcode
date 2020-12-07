@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -33,7 +34,7 @@ public class JumpGame45 {
     public void jumpGameTest() {
         int[] nums = {2, 3, 1, 1, 4};
         int jump = jump(nums);
-        System.out.println(jump);
+        Assert.assertEquals(jump, 2);
     }
 
     /**
