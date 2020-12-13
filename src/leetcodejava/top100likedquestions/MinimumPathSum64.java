@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -15,7 +16,7 @@ import org.junit.Test;
  * 示例:
  * 输入:
  * [
- *   [1,3,1],
+ * [1,3,1],
  * [1,5,1],
  * [4,2,1]
  * ]
@@ -31,7 +32,9 @@ public class MinimumPathSum64 {
 
     @Test
     public void minimumPathSumTest() {
-
+        int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
+        int result = minPathSum3(grid);
+        Assert.assertEquals(result, 7);
     }
 
     /**
@@ -57,5 +60,66 @@ public class MinimumPathSum64 {
             }
         }
         return grid[m - 1][n - 1];
+    }
+
+    /**
+     * 最小路径和
+     *
+     * @param grid 二维数组
+     * @return 最小路径和
+     */
+    public int minPathSum2(int[][] grid) {
+        int m = grid.length, n = grid[0].length;
+        for (int i = 1; i < m; i++) {
+            grid[i][0] += grid[i - 1][0];
+        }
+        for (int j = 1; j < n; j++) {
+            grid[0][j] += grid[0][j - 1];
+        }
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                grid[i][j] += Math.min(grid[i - 1][j], grid[i][j - 1]);
+            }
+        }
+        return grid[m - 1][n - 1];
+    }
+
+
+    /**
+     * 最小路径和
+     *
+     * @param grid 二维数组
+     * @return 最小路径和
+     */
+    public int minPathSum3(int[][] grid) {
+        if (grid.length == 0) {
+            return 0;
+        }
+        int rows = grid.length, cols = grid[0].length;
+        return minPathSumDfs(rows - 1, cols - 1, new Integer[rows][cols], grid);
+    }
+
+    /**
+     * 最小路径dfs操作
+     *
+     * @param i      行
+     * @param j      列
+     * @param result 缓存数组
+     * @param grid   二维数组
+     * @return 最小值
+     */
+    private int minPathSumDfs(int i, int j, Integer[][] result, int[][] grid) {
+        if (i < 0 || j < 0) {
+            return Integer.MAX_VALUE;
+        }
+        if (i == 0 && j == 0) {
+            return grid[i][j];
+        }
+        if (result[i][j] != null) {
+            return result[i][j];
+        }
+        int sum = Math.min(minPathSumDfs(i - 1, j, result, grid), minPathSumDfs(i, j - 1, result, grid));
+        result[i][j] = sum + grid[i][j];
+        return result[i][j];
     }
 }

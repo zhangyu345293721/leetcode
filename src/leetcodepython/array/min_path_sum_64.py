@@ -16,7 +16,7 @@
  * <p>
  * 输入:
  * [
- *   [1,3,1],
+ * [1,3,1],
  * [1,5,1],
  * [4,2,1]
  * ]
@@ -30,31 +30,69 @@
  */
 '''
 from typing import List
+import sys
 
 
-def minimum_path_sum(grid: List[List[int]]) -> int:
-    '''
-        获取最小路径
-    Args:
-        grid: 二维数组
-    Returns:
-        最小路径
-    '''
-    m, n = len(grid), len(grid[0])
-    for i in range(m):
-        for j in range(n):
-            if i == 0 and j == 0:
-                continue
-            if i == 0:
-                grid[0][j] += grid[0][j - 1]
-            elif j == 0:
-                grid[i][0] += grid[i - 1][0]
-            else:
-                grid[i][j] += min(grid[i - 1][j], grid[i][j - 1])
-    return grid[m - 1][n - 1]
+class Solution:
+    def minimum_path_sum(self, grid: List[List[int]]) -> int:
+        '''
+            获取最小路径
+        Args:
+            grid: 二维数组
+        Returns:
+            最小路径
+        '''
+        m, n = len(grid), len(grid[0])
+        for i in range(m):
+            for j in range(n):
+                if i == 0 and j == 0:
+                    continue
+                if i == 0:
+                    grid[0][j] += grid[0][j - 1]
+                elif j == 0:
+                    grid[i][0] += grid[i - 1][0]
+                else:
+                    grid[i][j] += min(grid[i - 1][j], grid[i][j - 1])
+        return grid[m - 1][n - 1]
+
+    def minimum_path_sum2(self, grid: List[List[int]]) -> int:
+        '''
+            获取最小路径
+        Args:
+            grid: 二维数组
+        Returns:
+            最小路径
+        '''
+        if len(grid) == 0:
+            return 0
+        rows, cols = len(grid), len(grid[0])
+        return self.minimum_path_sum_dfs(rows - 1, cols - 1, [[None for i in range(cols)] for j in range(rows)], grid)
+
+    def minimum_path_sum_dfs(self, i: int, j: int, result, grid: List[List[int]]) -> int:
+        '''
+            深度优先遍历
+        Args:
+            i: 下标i
+            j: 下标j
+            result: 结果数组
+            grid: 二维数组
+        Returns:
+            最小距离
+        '''
+        if i < 0 or j < 0:
+            return sys.maxsize
+        if i == 0 and j == 0:
+            return result[i][j]
+        if result[i][j] != None:
+            return result[i][j]
+        total = min(self.minimum_path_sum_dfs(i - 1, j, result, grid),
+                    self.minimum_path_sum_dfs(i, j - 1, result, grid))
+        result[i][j] = total + grid[i][j]
+        return result[i][j]
 
 
 if __name__ == '__main__':
     grid = [[1, 3, 1], [1, 5, 1], [4, 2, 1]]
-    num = minimum_path_sum(grid)
-    assert num==7
+    solution = Solution()
+    num = solution.minimum_path_sum2(grid)
+    assert num == 7

@@ -1,11 +1,12 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
 
 /**
- * This is the solution of No. 88 problem in the LeetCode,
+ * This is the solution of No.88 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/merge-sorted-array
  * <p>
@@ -36,8 +37,8 @@ public class MergeArray88 {
     public void mergeArrayTest() {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {2, 5, 6};
-        merge3(nums1, 3, nums2, 3);
-        System.out.println(nums1);
+        merge2(nums1, 3, nums2, 3);
+        Assert.assertArrayEquals(nums1, new int[]{1, 2, 3, 2, 5, 6});
     }
 
     /**
@@ -77,45 +78,5 @@ public class MergeArray88 {
         while (j >= 0) {
             nums1[k--] = nums2[j--];
         }
-    }
-
-    /**
-     * 按照要求合并两个数组
-     *
-     * @param nums1 数组1
-     * @param m     开始位置
-     * @param nums2 数组2
-     * @param n     开始位置
-     */
-    public int[] merge3(int[] nums1, int m, int[] nums2, int n) {
-        int[] arr = new int[nums1.length];
-        int index = 0;
-        int i = 0;
-        int j = 0;
-        // 按照顺序插入到另外一个链表中
-        while (i < m && j < n) {
-            if (nums1[i] <= nums2[j]) {
-                arr[index] = nums1[i];
-                i++;
-                index++;
-            } else {
-                arr[index] = nums2[j];
-                j++;
-                index++;
-            }
-        }
-        // 如果没插入完整继续
-        while (i < m) {
-            arr[index] = nums1[i];
-            i++;
-            index++;
-        }
-        // 如果没插入完整继续
-        while (j < n) {
-            arr[index] = nums2[j];
-            j++;
-            index++;
-        }
-        return arr;
     }
 }

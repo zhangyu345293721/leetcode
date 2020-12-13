@@ -47,7 +47,8 @@ public class RotateNumber788 {
         int count = 0;
         for (int i = 0; i <= N; i++) {
             String strN = String.valueOf(i);
-            if ((strN.contains("2") || strN.contains("5") || strN.contains("6") || strN.contains("9")) && (!strN.contains("3") && !strN.contains("4") && !strN.contains("7"))) {
+            if ((strN.contains("2") || strN.contains("5") || strN.contains("6") || strN.contains("9"))
+                    && (!strN.contains("3") && !strN.contains("4") && !strN.contains("7"))) {
                 count++;
             }
         }

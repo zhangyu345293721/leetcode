@@ -853,3 +853,11 @@ a
 1src/leetcodepython/array/spiral_reverse_matrix.py,f\f\ffc49d4f0ddea0a166685bf487e5b074cd0f1206
 _
 /src/leetcodejava/array/SpiralMatrixReverse.java,d\a\da50b0d43fc1842eb738ffba0f54e5c431215644
+d
+4src/leetcodepython/array/score_matrix_reverse_861.py,5\3\53d7c85f12253be48e3390fd851dcb4ab81c0c0f
+g
+7src/leetcodejava/array/ScoreAfterFlippingMatrix861.java,1\0\10137efc89e7081d6bef1bc84bdb2bd992cbeb2f
+]
+-src/leetcodejava/array/LemonadeChange860.java,6\8\68f9afed5720c69af15a62a93116bd645b99c7a6
+_
+/src/leetcodepython/array/lemonade_change_860.py,f\d\fdf5eacf3ba31bca72ecf6f557f63687ba28c436
