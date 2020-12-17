@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -30,13 +31,10 @@ public class MaximalSquare221 {
     @Test
     public void maximalSquareTest() {
         char[][] chs =
-                {{'1', '0', '1', '0', '0'},
-                        {'1', '0', '1', '1', '1'},
-                        {'1', '1', '1', '1', '1'},
-                        {'1', '0', '0', '1', '0'}
-                };
-        int num = maximalSquare2(chs);
-        System.out.println(num);
+                {{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}};
+        int result = maximalSquare(chs);
+        Assert.assertEquals(result, 4);
+
     }
 
     /**
@@ -51,16 +49,14 @@ public class MaximalSquare221 {
         }
         int row = matrix.length;
         int col = matrix[0].length;
-        int max = 0;
+        int maxSquare = 0;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 int temp = getMaxSquare(matrix, i, j);
-                if (max < temp) {
-                    max = temp;
-                }
+                maxSquare = Math.max(maxSquare, temp);
             }
         }
-        return max;
+        return maxSquare;
     }
 
     /**
@@ -80,14 +76,14 @@ public class MaximalSquare221 {
         int length = 1;
         int maxSize = Math.min(row - rowIndex, col - colIndex);
         for (int size = 1; size < maxSize; size++) {
+            int newCol = colIndex + size;
+            int newRow = rowIndex + size;
             for (int i = rowIndex; i <= rowIndex + size; i++) {
-                int newCol = colIndex + size;
                 if (matrix[i][newCol] == '0') {
                     return length * length;
                 }
             }
             for (int j = colIndex; j <= colIndex + size; j++) {
-                int newRow = rowIndex + size;
                 if (matrix[newRow][j] == '0') {
                     return length * length;
                 }
@@ -106,12 +102,12 @@ public class MaximalSquare221 {
     public int maximalSquare2(char[][] matrix) {
         int maxSide = 0;
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
-            return maxSide;
+            return maxSide * maxSide;
         }
-        int rows = matrix.length, columns = matrix[0].length;
-        int[][] dp = new int[rows][columns];
+        int rows = matrix.length, cols = matrix[0].length;
+        int[][] dp = new int[rows][cols];
         for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < columns; j++) {
+            for (int j = 0; j < cols; j++) {
                 if (matrix[i][j] == '1') {
                     if (i == 0 || j == 0) {
                         dp[i][j] = 1;
@@ -122,7 +118,6 @@ public class MaximalSquare221 {
                 }
             }
         }
-        int maxSquare = maxSide * maxSide;
-        return maxSquare;
+        return maxSide * maxSide;
     }
 }

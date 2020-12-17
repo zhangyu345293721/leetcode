@@ -39,15 +39,18 @@ class Solution:
         Returns:
             数字和
         '''
-        dp = [0] * (n + 1)
+        dp = [sys.maxsize] * (n + 1)
+        dp[0] = 0
+        i = 1
+        while i * i <= n:
+            dp[i * i] = 1
+            i += 1
         for i in range(1, n + 1):
-            min_value = sys.maxsize
             j = 1
             while j * j <= i:
-                min_value = min(min_value, 1 + dp[i - j * j])
+                dp[i] = min(dp[i], 1 + dp[i - j * j])
                 j += 1
-            dp[i] = min_value
-        return dp[i]
+        return dp[n]
 
 
 if __name__ == '__main__':

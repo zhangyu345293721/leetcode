@@ -1,7 +1,9 @@
-package leetcodejava.top100likedquestions;
+package leetcodejava.dp;
 
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.Arrays;
 
 /**
  * This is the solution of No.279 problem in the LeetCode,
@@ -44,12 +46,16 @@ public class PerfectSquares279 {
      */
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
+        // 复制
+        Arrays.fill(dp, Integer.MAX_VALUE);
+        dp[0] = 1;
+        for (int i = 0; i * i <= n; i++) {
+            dp[i * i] = 1;
+        }
         for (int i = 1; i <= n; i++) {
-            int min = Integer.MAX_VALUE;
-            for (int k = 1; k * k <= i; k++) {
-                min = Math.min(min, 1 + dp[i - k * k]);
+            for (int j = 1; j * j <= i; j++) {
+                dp[i] = Math.min(dp[i], 1 + dp[i - j * j]);
             }
-            dp[i] = min;
         }
         return dp[n];
     }

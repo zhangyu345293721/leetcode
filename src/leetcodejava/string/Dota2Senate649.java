@@ -91,35 +91,36 @@ public class Dota2Senate649 {
      * @return 字符串
      */
     public String predictPartyVictory2(String senate) {
-        char[] c = senate.toCharArray();
+        char[] chs = senate.toCharArray();
+        int length = chs.length;
         int R = 0, D = 0;
-        for (int i = 0; i < c.length; ++i) {
-            if (c[i] == 'R') {
+        for (int i = 0; i < length; ++i) {
+            if (chs[i] == 'R') {
                 R++;
             } else {
                 D++;
             }
         }
-        int countR = 0, countD = 0, index = 0, end;
+        int currentR = 0, currentD = 0, index = 0, end = 0;
         while (R > 0 && D > 0) {
             end = index;
             index = 0;
-            for (int i = 0; i < (end == 0 ? c.length : end); ++i) {
-                if (c[i] == 'R') {
-                    if (countD == 0) {
-                        countR++;
-                        c[index++] = 'R';
+            for (int i = 0; i < (end == 0 ? length : end); ++i) {
+                if (chs[i] == 'R') {
+                    if (currentD == 0) {
+                        currentR++;
+                        chs[index++] = 'R';
                     } else {
                         R--;
-                        countD--;
+                        currentD--;
                     }
                 } else {
-                    if (countR == 0) {
-                        countD++;
-                        c[index++] = 'D';
+                    if (currentR == 0) {
+                        currentD++;
+                        chs[index++] = 'D';
                     } else {
                         D--;
-                        countR--;
+                        currentR--;
                     }
                 }
             }
