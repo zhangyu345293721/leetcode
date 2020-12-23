@@ -72,4 +72,4 @@ if __name__ == '__main__':
     root = tree_node.create_binary_tree_array(arr)
     solution = Solution()
     result = solution.diameter_of_binary_tree(root)
-    print(result)
+    assert result == 3

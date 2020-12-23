@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -37,10 +38,11 @@ public class DiameterBinaryTree543 {
         Integer[] arr = {1, 2, 3, 4, 5, 6, 7};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         int maxDiameter = diameterOfBinaryTree(root);
-        System.out.println(maxDiameter);
+        Assert.assertEquals(maxDiameter, 4);
     }
 
     private int maxDiameter = 0;
+
     /**
      * 求最大直径
      *

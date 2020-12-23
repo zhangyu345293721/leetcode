@@ -101,3 +101,4 @@ if __name__ == '__main__':
     b = "10"
     num = add_binary(a, b)
     print(num)
+    assert num=='0b101'

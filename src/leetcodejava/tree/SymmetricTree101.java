@@ -64,8 +64,8 @@ public class SymmetricTree101 {
     /**
      * 帮助类
      *
-     * @param t1 t1
-     * @param t2 t2
+     * @param t1 子树t1
+     * @param t2 子树t2
      * @return 布尔值
      */
     private boolean helper(TreeNode t1, TreeNode t2) {

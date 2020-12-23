@@ -31,24 +31,27 @@
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 '''
-import  numpy as np
-def num_trees(n: int) -> int:
-    dp = np.zeros(n+1)
-    dp[0] = 1
-    for i in range(1, n + 1):
-        l, r, count = 0, i - 1, 0
-        while i < r:
-            count += dp[l] * dp[r]
-            l += 1
-            r -= 1
-        count *= 2
-        if l == r:
-            count += dp[l] * dp[l]
-        dp[i] = count
-    return dp[n]
+
+
+class Solution:
+    def num_trees(self, n: int) -> int:
+        dp = [0 for x in range(n + 1)]
+        dp[0] = 1
+        for i in range(1, n + 1):
+            l, r, count = 0, i - 1, 0
+            while i < r:
+                count += dp[l] * dp[r]
+                l += 1
+                r -= 1
+            count *= 2
+            if l == r:
+                count += dp[l] * dp[l]
+            dp[i] = count
+        return dp[n]
 
 
 if __name__ == '__main__':
-    num=3
-    result = num_trees(3)
+    solution = Solution()
+    result = solution.num_trees(3)
     print(result)
+    assert result == 0
