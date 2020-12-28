@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,6 +40,7 @@ public class MergeSortArray4 {
         int[] nums2 = {-1, 0, 0, 0, 0, 1};
         double median = findMedianSortedArrays1(nums1, nums2);
         System.out.println(median);
+        Assert.assertEquals((float) median, 0.0f);
     }
 
     /**

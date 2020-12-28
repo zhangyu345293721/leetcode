@@ -45,3 +45,4 @@ if __name__ == '__main__':
     nums = [7, 1, 5, 3, 6, 4]
     max_profit = best_time_buy_sell_stock(nums)
     print(max_profit)
+    assert max_profit == 7

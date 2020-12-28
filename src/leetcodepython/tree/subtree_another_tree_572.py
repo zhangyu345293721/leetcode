@@ -1,38 +1,31 @@
 '''
 /**
- * This is the solution of No.98 problem in the LeetCode,
+ * This is the solution of No.572 problem in the LeetCode,
  * the website of the problem is as follow:
- * https://leetcode-cn.com/problems/validate-binary-search-tree
+ * https://leetcode-cn.com/problems/subtree-of-another-tree
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
- * 给定一个二叉树，判断其是否是一个有效的二叉搜索树。
- *
- * 假设一个二叉搜索树具有如下特征：
- *
- * 节点的左子树只包含小于当前节点的数。
- * 节点的右子树只包含大于当前节点的数。
- * 所有左子树和右子树自身必须也是二叉搜索树。
- * 示例 1:
- *
- * 输入:
- *     2
- *    / \
- *   1   3
- * 输出: true
- * 示例 2:
- *
- * 输入:
- *     5
- *    / \
- *   1   4
- *      / \
- *     3   6
- * 输出: false
- * 解释: 输入为: [5,1,4,null,null,3,6]。
- *      根节点的值为 5 ，但是其右子节点值为 4 。
- *
+ * 给定两个非空二叉树 s 和 t，检验 s 中是否包含和 t 具有相同结构和节点值的子树。s 的一个子树包括 s 的一个节点和这个节点的所有子孙。s 也可以看做它自身的一棵子树。
+ * <p>
+ * 示例 1:
+ * 给定的树 s:
+ * <p>
+ * 3
+ * / \
+ * 4   5
+ * / \
+ * 1   2
+ * 给定的树 t：
+ * <p>
+ * 4
+ * / \
+ * 1   2
+ * 返回 true，因为 t 与 s 的一个子树拥有相同的结构和节点值。
+ * <p>
  * 来源：力扣（LeetCode）
+ * 链接：https://leetcode-cn.com/problems/subtree-of-another-tree
+ * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * ==========================================================================================================
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
@@ -73,7 +66,7 @@ class Solution:
             return False
         if s.val == t.val and self.is_same(s, t):
             return True
-        return self.is_subtree(s.left, s) or self.is_subtree(s.right, s)
+        return self.is_subtree(s.left, t) or self.is_subtree(s.right, t)
 
 
 if __name__ == '__main__':
@@ -84,4 +77,4 @@ if __name__ == '__main__':
     t = tree_node.create_binary_tree_array(arr2)
     solution = Solution()
     result = solution.is_subtree(s, t)
-    print(result)
+    assert result == True

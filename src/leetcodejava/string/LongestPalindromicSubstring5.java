@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -30,7 +31,7 @@ public class LongestPalindromicSubstring5 {
     public void longestPalindromicSubstringTest() {
         String s = "aba";
         String subString = longestPalindromicSubstring1(s);
-        System.out.println(subString);
+        Assert.assertEquals(subString,"aba");
     }
 
     /**
