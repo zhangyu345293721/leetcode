@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -35,10 +36,10 @@ public class PartitionEqualSubsetSum416 {
     @Test
     public void partitionEqualSubsetSumTest() {
         int[] nums = {1, 5, 11, 5};
-        boolean b = canPartition2(nums);
-        System.out.println(b);
+        boolean b = canPartition(nums);
+        Assert.assertEquals(b, true);
     }
-
+    
     /**
      * 集合是否能分成相等两部分
      *
@@ -50,17 +51,15 @@ public class PartitionEqualSubsetSum416 {
         for (int num : nums) {
             sum += num;
         }
-        if ((sum & 1) == 1) {   //sum % 2 == 1
+        if (sum % 2 == 1) {
             return false;
         }
-        sum /= 2; // sum=sum>>1;
+        sum /= 2;
         boolean[] dp = new boolean[sum + 1];
         dp[0] = true;
         for (int num : nums) {
             for (int i = sum; i >= num; i--) {
-                if (i >= num) {
-                    dp[i] = dp[i] || dp[i - num];
-                }
+                dp[i] = dp[i] || dp[i - num];
             }
         }
         return dp[sum];

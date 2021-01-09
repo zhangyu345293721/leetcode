@@ -19,6 +19,7 @@ class TreeNode:
             array:数组
             index:开始下标
         Returns:
+            object: 
             二叉树
         '''
         tree_node = None

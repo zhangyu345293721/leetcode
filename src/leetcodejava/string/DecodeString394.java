@@ -85,11 +85,8 @@ public class DecodeString394 {
      * @return 解析后字符串
      */
     public String decodeString2(String s) {
-        // 存储数字
         Stack<Integer> numberStack = new Stack<>();
-        // 存储字符串
         Stack<String> strStack = new Stack<>();
-        // 记录字符串
         StringBuilder tail = new StringBuilder();
         int length = s.length();
         for (int i = 0; i < length; i++) {

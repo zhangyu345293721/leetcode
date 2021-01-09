@@ -88,7 +88,7 @@ public class RestoreIPAddresses93 {
         if (start == s.length()) {
             return;
         }
-        // 由于不能有前导零，如果当前数字为 0
+        // 由于不能有零在数字前面，如果当前数字为 0
         if (s.charAt(start) == '0') {
             segments[segId] = 0;
             searchHelper(s, segId + 1, start + 1);

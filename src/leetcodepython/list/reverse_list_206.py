@@ -21,51 +21,50 @@
 from list.list_node import ListNode
 
 
-def reverse_list(head: ListNode) -> ListNode:
-    '''
-        反转链表（递归方式）
-    Args:
-        head: 头结点位置
-    Returns:
-        头节点
-    '''
-    if not head or not head.next:
-        return head
-    node = reverse_list(head.next)
-    head.next.next = head
-    head.next = None
-    return node
+class Solution:
+    def reverse_list(self, head: ListNode) -> ListNode:
+        '''
+            反转链表（递归方式）
+        Args:
+            head: 头结点位置
+        Returns:
+            头节点
+        '''
+        if not head or not head.next:
+            return head
+        node = self.reverse_list(head.next)
+        head.next.next = head
+        head.next = None
+        return node
 
+    def reverse_list2(self, head: ListNode) -> ListNode:
+        '''
+            反转链表(非递归方式)
+        Args:
+            head: 头结点位置
+        Returns:
+            头节点
+        '''
+        cur, pre, temp = head, None, None
+        while cur:
+            temp = cur.next
+            cur.next = pre
+            pre = cur
+            cur = temp
+        return pre
 
-def reverse_list2(head: ListNode) -> ListNode:
-    '''
-        反转链表(非递归方式)
-    Args:
-        head: 头结点位置
-    Returns:
-        头节点
-    '''
-    cur, pre, temp = head, None, None
-    while cur:
-        temp = cur.next
-        cur.next = pre
-        pre = cur
-        cur = temp
-    return pre
-
-
-def reverse_list3(head: ListNode) -> ListNode:
-    '''
-        反转链表(非递归方式)
-    Args:
-        head: 头结点位置
-    Returns:
-        头节点
-    '''
-    cur, pre, temp = head, None, None
-    while cur:
-        cur.next, pre, cur = pre, cur, cur.next
-    return pre
+    def reverse_list3(self, head: ListNode) -> ListNode:
+        '''
+            反转链表(非递归方式)
+        Args:
+            head: 头结点位置
+        Returns:
+            头节点
+        '''
+        cur, pre, temp = head, None, None
+        while cur:
+            cur.next, pre, cur = pre, cur, cur.next
+        return pre
 
 
 if __name__ == '__main__':
@@ -78,5 +77,6 @@ if __name__ == '__main__':
     node2.next = node3
     node3.next = node4
     node4.next = node5
-    node = reverse_list2(node1)
+    solution = Solution()
+    node = solution.reverse_list2(node1)
     print(node)

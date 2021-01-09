@@ -31,32 +31,39 @@ from typing import List
 from tree.tree_node import TreeNode
 
 
-def helper(result: List[int], root: TreeNode):
-    '''
-        帮助方法
-    Args:
-        result: 结果集
-        root: 根节点
-    '''
-    if root.left:
-        helper(result, root.left)
-    if root.right:
-        helper(result, root.right)
-    result.append(root.val)
+class Solution:
+    def helper(self, result: List[int], root: TreeNode):
+        '''
+            帮助方法
+        Args:
+            result: 结果集
+            root: 根节点
+        '''
+        if root.left:
+            self.helper(result, root.left)
+        if root.right:
+            self.helper(result, root.right)
+        result.append(root.val)
 
-
-def post_order_traversal(root: TreeNode) -> List[int]:
-    '''
-        后序遍历
-    Args:
-        res: 链表
-        root: 根节点
-    '''
-    result = []
-    if not root:
+    def post_order_traversal(self, root: TreeNode) -> List[int]:
+        '''
+            后序遍历
+        Args:
+            res: 链表
+            root: 根节点
+        '''
+        result = []
+        if not root:
+            return result
+        self.helper(result, root)
         return result
-    helper(result, root)
-    return result
 
 
-
+if __name__ == '__main__':
+    arr = [1, 2, 3, 4, 5]
+    tree_node = TreeNode()
+    tree = tree_node.create_binary_tree_array(arr)
+    solution = Solution()
+    result = solution.post_order_traversal(tree)
+    print(result)
+    assert result[len(result) - 1] == 1

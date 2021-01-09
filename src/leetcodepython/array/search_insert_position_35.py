@@ -29,59 +29,62 @@ date:2020.7.17
 '''
 from typing import List
 
-def search_insert(nums: List[int], target: int) -> int:
-    '''
-       返回元素插入位置
-   Args:
-       nums: 数组
-       target: 目标值
-   Returns:
-       返回需要插入的位置
-   '''
-    if not nums:
-        return 0
-    length = len(nums)
-    if nums[length - 1] < target:
-        return length
-    if nums[0] >= target:
-        return 0
-    for i in range(0, length - 1):
-        if nums[i] < target and nums[i + 1] >= target:
-            return i + 1
-    return -1
 
+class Solution:
+    def search_insert(self, nums: List[int], target: int) -> int:
+        '''
+           返回元素插入位置
+       Args:
+           nums: 数组
+           target: 目标值
+       Returns:
+           返回需要插入的位置
+       '''
+        if not nums:
+            return 0
+        length = len(nums)
+        if nums[length - 1] < target:
+            return length
+        if nums[0] >= target:
+            return 0
+        for i in range(0, length - 1):
+            if nums[i] < target and nums[i + 1] >= target:
+                return i + 1
+        return -1
 
-def search_insert2(nums: List[int], target: int) -> int:
-    '''
-        返回元素插入位置
-    Args:
-        nums: 数组
-        target: 目标值
-    Returns:
-        返回需要插入的位置
-    '''
-    if not nums:
-        return 0
-    if nums[0] >= target:
-        return 0
-    i, j = 0, len(nums) - 1
-    while i < j:
-        middle = i + (j - i) // 2
-        if nums[middle] > target:
-            j = middle - 1
-        elif nums[middle] < target:
-            if nums[middle + 1] >= target:
-                return middle + 1
+    def search_insert2(self, nums: List[int], target: int) -> int:
+        '''
+            返回元素插入位置
+        Args:
+            nums: 数组
+            target: 目标值
+        Returns:
+            返回需要插入的位置
+        '''
+        if not nums:
+            return 0
+        if nums[0] >= target:
+            return 0
+        i, j = 0, len(nums) - 1
+        while i < j:
+            middle = i + (j - i) // 2
+            if nums[middle] > target:
+                j = middle - 1
+            elif nums[middle] < target:
+                if nums[middle + 1] >= target:
+                    return middle + 1
+                else:
+                    i = middle + 1
             else:
-                i = middle + 1
-        else:
-            return middle
-    if nums[j] < target:
-        return j + 1
-    return -1
+                return middle
+        if nums[j] < target:
+            return j + 1
+        return -1
+
 
 if __name__ == '__main__':
     nums = [1, 3, 5, 6]
     target = 5
-    result = search_insert2(nums, target)
+    solution = Solution()
+    result = solution.search_insert2(nums, target)
     print(result)

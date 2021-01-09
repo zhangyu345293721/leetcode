@@ -1,6 +1,8 @@
-# encoding='utf-8'
+package leetcodejava.list;
 
-'''
+import org.junit.Assert;
+import org.junit.Test;
+
 /**
  * This is the solution of No. 268 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -34,62 +36,44 @@
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
-'''
-from typing import List
+public class MissingNumber268 {
 
+    @Test
+    public void missingNumberTest() {
+        int[] nums = {3, 0, 1};
+        int res = missingNumber(nums);
+        System.out.println(res);
+        Assert.assertEquals(res, 2);
+    }
 
-class Solution:
-    def get_messing_number(self, arr: List[int]) -> int:
-        '''
-            寻找缺失的数字
-        Args:
-            arr: 数组
-        Returns:
-            缺失的数
-        '''
-        length = len(arr)
-        s = set()
-        for i in range(length + 1):
-            s.add(i)
-        for j in range(len(arr)):
-            if arr[j] in s:
-                s.remove(arr[j])
-        if len(s) == 1:
-            return s.pop()
-        else:
-            return -1
+    /**
+     * 找出缺失的数
+     *
+     * @param nums 数字
+     * @return 缺失值
+     */
+    public int missingNumber(int[] nums) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        int length = nums.length;
+        int totalSum = length * (length + 1) / 2;
+        return totalSum - sum;
+    }
 
-    def get_messing_number2(self, arr: List[int]) -> int:
-        '''
-           寻找缺失的数字
-       Args:
-           arr: 数组
-       Returns:
-           缺失的数
-       '''
-        sum, n = 0, len(arr)
-        total_sum = (n + 1) * n // 2
-        for i in range(len(arr)):
-            sum += arr[i]
-        return total_sum - sum
-
-    def get_messing_number3(self, nums: List[int]) -> int:
-        '''
-           寻找缺失的数字
-       Args:
-           arr: 数组
-       Returns:
-           缺失的数
-       '''
-        result = len(nums)
-        for i in range(len(nums)):
-            result ^= nums[i]
-            result ^= i
-        return result
-
-
-if __name__ == '__main__':
-    nums = [9, 6, 4, 2, 3, 5, 7, 0, 1]
-    solution = Solution()
-    messing_number = solution.get_messing_number3(nums)
-    assert messing_number == 8
+    /**
+     * 找出缺失的数
+     *
+     * @param nums 数字
+     * @return 缺失值
+     */
+    public int missingNumber2(int[] nums) {
+        int result = nums.length;
+        for (int i = 0; i < nums.length; i++) {
+            result ^= nums[i];
+            result ^= i;
+        }
+        return result;
+    }
+}

@@ -37,25 +37,6 @@ class Solution:
         Returns:
             数组种数
         '''
-        total, count, length = 0, 0, len(nums)
-        for i in range(length):
-            for j in range(i, length):
-                total += nums[j]
-                if total == k:
-                    count += 1
-                    total = 0
-                    break
-        return total
-
-    def subarray_sum_equals_k2(self, nums: List[int], k: int) -> int:
-        '''
-            找出和相同的数组
-        Args:
-            nums:数组
-            k:固定值
-        Returns:
-            数组种数
-        '''
         count, length = 0, len(nums)
         for i in range(length):
             total = 0
@@ -65,7 +46,7 @@ class Solution:
                     count += 1
         return count
 
-    def subarray_sum_equals_k3(self, nums: List[int], k: int) -> int:
+    def subarray_sum_equals_k2(self, nums: List[int], k: int) -> int:
         '''
             找出和相同的数组
         Args:
@@ -84,7 +65,7 @@ class Solution:
             if total not in map:
                 map[total] = 1
             else:
-                map[total] = map[total] + 1
+                map[total] += map[total]
         return total
 
 

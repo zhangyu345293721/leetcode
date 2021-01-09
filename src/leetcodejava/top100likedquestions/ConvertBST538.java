@@ -1,6 +1,7 @@
 package leetcodejava.top100likedquestions;
 
 import leetcodejava.tree.TreeNode;
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -36,9 +37,8 @@ public class ConvertBST538 {
     public void convertBSTTest() {
         Integer[] arr = {5, 2, 13};
         TreeNode tree = TreeNode.createBinaryTreeByArray(arr);
-        System.out.println(tree);
         TreeNode result = convertBST(tree);
-        System.out.println(result);
+        Assert.assertEquals(result.val, 18);
     }
 
     /**

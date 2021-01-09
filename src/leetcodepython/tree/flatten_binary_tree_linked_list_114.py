@@ -42,30 +42,32 @@
 from tree.tree_node import TreeNode
 
 
-def flatten(root: TreeNode) -> None:
-    '''
-        转换二叉树
-    Args:
-        root: 根节点
-    Returns:
-        只有有节点的二叉树
-    '''
-    if root == None:
-        return
-    stack = []
-    stack.append(root)
-    while len(stack) > 0:
-        current_node = stack.pop()
-        if current_node.right != None:
-            stack.append(current_node.right)
-        if current_node.left != None:
-            stack.append(current_node.left)
-        if len(stack) > 0:
-            current_node.right = stack[-1]
-        current_node.left = None
+class Solution:
+
+    def flatten(self, root: TreeNode) -> None:
+        '''
+            转换二叉树
+        Args:
+            root: 根节点
+        Returns:
+            只有有节点的二叉树
+        '''
+        if root == None:
+            return
+        stack = []
+        stack.append(root)
+        while len(stack) > 0:
+            current_node = stack.pop()
+            if current_node.right != None:
+                stack.append(current_node.right)
+            if current_node.left != None:
+                stack.append(current_node.left)
+            if len(stack) > 0:
+                current_node.right = stack[-1]
+            current_node.left = None
 
 
-def flatten_for_list(root: TreeNode, current_node) -> TreeNode:
+def flatten_for_list(self, root: TreeNode, current_node) -> TreeNode:
     '''
         循环递归树
     Args:
@@ -83,7 +85,7 @@ def flatten_for_list(root: TreeNode, current_node) -> TreeNode:
     return root
 
 
-def flatten2(root: TreeNode) -> None:
+def flatten2(self, root: TreeNode) -> None:
     '''
         转换二叉树
     Args:

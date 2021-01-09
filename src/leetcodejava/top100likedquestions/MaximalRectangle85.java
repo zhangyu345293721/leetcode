@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -40,7 +41,7 @@ public class MaximalRectangle85 {
                 {'1', '0', '0', '1', '0'}
         };
         int result = maximalRectangle2(chs);
-        System.out.println(result);
+        Assert.assertEquals(result, 6);
     }
 
     /**
@@ -120,7 +121,7 @@ public class MaximalRectangle85 {
                     height[j] = 0;
                 }
             }
-            res = Math.max(res,largestRectangleHistogram(height) );
+            res = Math.max(res, largestRectangleHistogram(height));
         }
         return res;
     }

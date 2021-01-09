@@ -179,8 +179,6 @@ _
 0src/leetcodepython/array/get_intersection_349.py,5\f\5f8f19442df90fc399df6046ac857dd81d609a80
 a
 1src/leetcodepython/array/get_single_number_136.py,6\6\66d2e32e4df4796347f7e348b01d97c5b46e8901
-Z
-*src/leetcodepython/array/joseph_problem.py,3\4\34c6d6c697f6d56afe18d9350ad1e566b04eded7
 c
 3src/leetcodepython/array/kth_largest_element_215.py,9\6\9694acc38362c106799521ec54c5c1e8979dfbbd
 m
@@ -875,3 +873,7 @@ a
 1src/leetcodejava/string/RestoreIPAddresses93.java,f\4\f442a2b9b6c0e3ea4ac87a4662d2764c73a7554f
 d
 4src/leetcodepython/string/restore_ip_addresses_93.py,e\d\ed9f60e914149a520eb6a28b059b7d0550e5968e
+Y
+)src/leetcodepython/math/joseph_problem.py,7\8\7826bf0a502b57a8394df835ad8ab830e4b62024
+X
+(src/leetcodejava/math/JosephProblem.java,b\a\ba99edbe44ab7ca699c4f16aed9b5e68f78fb3ca

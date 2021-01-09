@@ -32,42 +32,45 @@
 from typing import List
 
 
-def judge_dividing_number(i: int) -> bool:
-    '''
-        判断是不是自除数
-    Args:
-        i: 输入数
-    Returns:
-        布尔值
-    '''
-    flag = True
-    temp = i
-    while i > 0:
-        num = i % 10
-        i = i // 10
-        if num == 0 or temp % num != 0:
-            flag = False
-    return flag
+class Solution:
+    def judge_dividing_number(self, i: int) -> bool:
+        '''
+            判断是不是自除数
+        Args:
+            i: 输入数
+        Returns:
+            布尔值
+        '''
+        flag = True
+        temp = i
+        while i > 0:
+            num = i % 10
+            i = i // 10
+            if num == 0 or temp % num != 0:
+                flag = False
+        return flag
 
-
-def self_dividing_numbers(left: int, right: int) -> List[int]:
-    '''
-        找出自除数
-    Args:
-        left: 左边
-        right: 右边
-    Returns:
-        list链表
-    '''
-    dividing_num_list = []
-    for i in range(left, right + 1):
-        flag = judge_dividing_number(i)
-        if flag:
-            dividing_num_list.append(i)
-    return dividing_num_list
+    def self_dividing_numbers(self, left: int, right: int) -> List[int]:
+        '''
+            找出自除数
+        Args:
+            left: 左边
+            right: 右边
+        Returns:
+            list链表
+        '''
+        dividing_num_list = []
+        for i in range(left, right + 1):
+            flag = self.judge_dividing_number(i)
+            if flag:
+                dividing_num_list.append(i)
+        return dividing_num_list
 
 
 if __name__ == '__main__':
     left = 1
     right = 20
-    print(self_dividing_numbers(left, right))
+    solution = Solution()
+    result = solution.self_dividing_numbers(left, right)
+    print(result)
+    assert result == [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15]

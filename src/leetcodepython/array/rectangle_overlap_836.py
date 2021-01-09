@@ -37,24 +37,26 @@
 from typing import List
 
 
-def is_rectangle_overlap(rec1: List[int], rec2: List[int]) -> bool:
-    '''
-        判断两个矩形是否重叠
-    Args:
-        rec1: 矩形1
-        rec2: 矩形2
-    Returns:
-        是否重叠布尔值
-    '''
-    x11, y11, x12, y12 = rec1[0], rec1[1], rec1[2], rec1[3]
-    x21, y21, x22, y22 = rec2[0], rec2[1], rec2[2], rec2[3]
-    y_flag = not (y21 >= x12 or y22 <= y11)
-    x_flag = not (x21 >= x12 or x22 <= x11)
-    return x_flag and y_flag
+class Solution:
+    def is_rectangle_overlap(self, rec1: List[int], rec2: List[int]) -> bool:
+        '''
+            判断两个矩形是否重叠
+        Args:
+            rec1: 矩形1
+            rec2: 矩形2
+        Returns:
+            是否重叠布尔值
+        '''
+        x11, y11, x12, y12 = rec1[0], rec1[1], rec1[2], rec1[3]
+        x21, y21, x22, y22 = rec2[0], rec2[1], rec2[2], rec2[3]
+        y_flag = not (y21 >= x12 or y22 <= y11)
+        x_flag = not (x21 >= x12 or x22 <= x11)
+        return x_flag and y_flag
 
 
 if __name__ == '__main__':
     rec1 = [5, 15, 8, 18]
     rec2 = [0, 3, 7, 9]
-    flag = is_rectangle_overlap(rec1, rec2)
+    solution = Solution()
+    flag = solution.is_rectangle_overlap(rec1, rec2)
     print(flag)

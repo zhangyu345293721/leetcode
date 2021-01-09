@@ -32,43 +32,47 @@
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 '''
-from tree.tree_node import TreeNode, create_binary_tree_by_array
+from tree.tree_node import TreeNode
 
 
-def dfs_search_tree(node: TreeNode, L: int, R: int, ans: int) -> None:
-    '''
-        递归求值
-    Args:
-        root: 根节点
-        L: 最小值
-        R: 最大值
-    '''
-    if node :
-        if L <= node.val and node.val <= R:
-            ans += node.val
-        if L < node.val:
-            dfs_search_tree(node.left, L, R)
-        if node.val < R:
-            dfs_search_tree(node.right, L, R)
+class Solution:
 
+    def dfs_search_tree(self, node: TreeNode, L: int, R: int, ans: int) -> None:
+        '''
+            递归求值
+        Args:
+            root: 根节点
+            L: 最小值
+            R: 最大值
+        '''
+        if node:
+            if L <= node.val and node.val <= R:
+                ans += node.val
+            if L < node.val:
+                self.dfs_search_tree(node.left, L, R)
+            if node.val < R:
+                self.dfs_search_tree(node.right, L, R)
 
-def range_sum_bst(root: TreeNode, L: int, R: int) -> int:
-    '''
-        求和取最大数
-    Args:
-        root: 根节点
-        L: 最小值
-        R: 最大值
-    Returns:
-        求和
-    '''
-    ans = 0
-    dfs_search_tree(root, L, R, ans)
-    return ans
+    def range_sum_bst(self, root: TreeNode, L: int, R: int) -> int:
+        '''
+            求和取最大数
+        Args:
+            root: 根节点
+            L: 最小值
+            R: 最大值
+        Returns:
+            求和
+        '''
+        ans = 0
+        self.dfs_search_tree(root, L, R, ans)
+        return ans
 
 
 if __name__ == '__main__':
     arr = [10, 5, 15, 3, 7, None, 18]
-    tree_node = create_binary_tree_by_array(arr, 0)
-    total_sum = range_sum_bst(tree_node, 7, 15)
+    tree_node = TreeNode()
+    root = tree_node.create_binary_tree_array(arr)
+    solution = Solution()
+    total_sum = solution.range_sum_bst(root, 7, 15)
     print(total_sum)
+    assert total_sum == 45

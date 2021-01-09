@@ -64,8 +64,8 @@ public class ReverseList206 {
             tmp = cur.next;
             // 始终保持cur是pre的后驱节点，然后将当前节点指向pre
             cur.next = pre;
-            // pre和cur节点都前进一位
             pre = cur;
+            // cur节点前进一位
             cur = tmp;
         }
         return pre;

@@ -30,47 +30,49 @@
 from typing import List
 
 
-def search_matrix(matrix: List[List[int]], target: int) -> bool:
-    '''
-        查找二维数组
-    Args:
-        matrix: 二维数组
-        target: 目标值
-    Returns:
-        是否找到那个值
-    '''
-    if not matrix:
+class Solution:
+    def search_matrix(self, matrix: List[List[int]], target: int) -> bool:
+        '''
+            查找二维数组
+        Args:
+            matrix: 二维数组
+            target: 目标值
+        Returns:
+            是否找到那个值
+        '''
+        if not matrix:
+            return False
+        i, j = 0, len(matrix[0]) - 1
+        while i < len(matrix) and j >= 0:
+            if matrix[i][j] == target:
+                return True
+            elif matrix[i][j] > target:
+                j -= 1
+            else:
+                i += 1
         return False
-    i, j = 0, len(matrix[0]) - 1
-    while i < len(matrix) and j >= 0:
-        if matrix[i][j] == target:
-            return True
-        elif matrix[i][j] > target:
-            j -= 1
-        else:
-            i += 1
-    return False
 
-def search_matrix2(matrix: List[List[int]], target: int) -> bool:
-    '''
-        查找二维数组
-    Args:
-        matrix: 二维数组
-        target: 目标值
-    Returns:
-        是否找到那个值
-    '''
-    if not matrix:
+    def search_matrix2(self, matrix: List[List[int]], target: int) -> bool:
+        '''
+            查找二维数组
+        Args:
+            matrix: 二维数组
+            target: 目标值
+        Returns:
+            是否找到那个值
+        '''
+        if not matrix:
+            return False
+        i, j = len(matrix) - 1, 0
+        while i >= 0 and j < len(matrix[0]):
+            if matrix[i][j] == target:
+                return True
+            elif matrix[i][j] > target:
+                i -= 1
+            else:
+                j += 1
         return False
-    i, j = len(matrix)-1, 0
-    while i >= 0 and j < len(matrix[0]):
-        if matrix[i][j] == target:
-            return True
-        elif matrix[i][j] > target:
-            i -= 1
-        else:
-            j += 1
-    return False
+
 
 if __name__ == '__main__':
     target = 5
@@ -81,5 +83,7 @@ if __name__ == '__main__':
         [10, 13, 14, 17, 24],
         [18, 21, 23, 26, 30]
     ]
-    b = search_matrix2(matrix, target)
+    solution = Solution()
+    b = solution.search_matrix2(matrix, target)
     print(b)
+    assert b == True

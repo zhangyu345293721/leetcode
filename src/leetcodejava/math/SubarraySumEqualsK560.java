@@ -1,8 +1,10 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * This is the solution of No. 560 problem in the LeetCode,
@@ -33,7 +35,7 @@ public class SubarraySumEqualsK560 {
         int nums[] = {1, 2, 0, 3};
         int k = 3;
         int key = subarraySum2(nums, k);
-        System.out.println(key);
+        Assert.assertEquals(key, 4);
     }
 
 
@@ -59,7 +61,7 @@ public class SubarraySumEqualsK560 {
     }
 
     /**
-     * 求和 大的区间减去小的区间就是连续区间
+     * 求和大的区间减去小的区间就是连续区间
      *
      * @param nums 数组
      * @param k    k个数
@@ -68,7 +70,7 @@ public class SubarraySumEqualsK560 {
     public int subarraySum2(int[] nums, int k) {
         int count = 0;
         int sum = 0;
-        HashMap<Integer, Integer> map = new HashMap<>();
+        Map<Integer, Integer> map = new HashMap<>();
         // 和数字本身的时候，加入0
         map.put(0, 1);
         for (int i = 0; i < nums.length; i++) {

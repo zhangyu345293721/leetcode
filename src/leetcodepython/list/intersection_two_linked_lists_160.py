@@ -36,27 +36,27 @@
 '''
 from list.list_node import ListNode
 
-
-def get_intersection_node(head_a: ListNode, head_b: ListNode) -> ListNode:
-    '''
-        返回交点
-    Args:
-        head_a: 链表a
-        head_b: 链表b
-    Returns:
-        交点
-    '''
-    node_list = []
-    if not head_a or not head_b:
+class Solution:
+    def get_intersection_node(self,head_a: ListNode, head_b: ListNode) -> ListNode:
+        '''
+            返回交点
+        Args:
+            head_a: 链表a
+            head_b: 链表b
+        Returns:
+            交点
+        '''
+        node_list = []
+        if not head_a or not head_b:
+            return None
+        while head_a:
+            node_list.append(head_a.val)
+            head_a = head_a.next
+        while head_b:
+            if head_b.val in node_list:
+                return head_b
+            head_b = head_b.next
         return None
-    while head_a:
-        node_list.append(head_a.val)
-        head_a = head_a.next
-    while head_b:
-        if head_b.val in node_list:
-            return head_b
-        head_b = head_b.next
-    return None
 
 
 if __name__ == '__main__':

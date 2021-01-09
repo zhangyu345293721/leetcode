@@ -42,7 +42,7 @@ public class KthLargestElement215 {
     public void kthLargestElementTest() {
         int[] nums = {3, 2, 1, 5, 6, 4};
         int k = 2;
-        int result = kthLargestElement(nums, k);
+        int result = kthLargestElement3(nums, k);
         Assert.assertEquals(result, 5);
     }
 
@@ -84,7 +84,7 @@ public class KthLargestElement215 {
      * @param k    k个
      * @return 最大值
      */
-    private int kthLargestElement3(Integer[] nums, int k) {
+    private int kthLargestElement3(int[] nums, int k) {
         PriorityQueue<Integer> pq = new PriorityQueue<>(k + 1);
         for (int num : nums) {
             pq.add(num);

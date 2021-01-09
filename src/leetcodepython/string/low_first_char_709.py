@@ -32,14 +32,18 @@
 '''
 
 
-def get_low_first_char(strs: str) -> str:
-    str_arr = []
-    for ch in strs:
-        str_arr.append(chr(ord(ch) + 32))
-    return ''.join(str_arr)
+class Solution:
+
+    def get_low_first_char(self, strs: str) -> str:
+        str_arr = []
+        for ch in strs:
+            str_arr.append(chr(ord(ch) + 32))
+        return ''.join(str_arr)
 
 
 if __name__ == '__main__':
     s = "ABC"
-    result = get_low_first_char(s)
+    solution = Solution()
+    result = solution.get_low_first_char(s)
     print(result)
+    assert result=="abc"

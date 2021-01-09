@@ -34,29 +34,31 @@
 from typing import List
 
 
-def unique_number_occurrences(arr: List[int]) -> bool:
-    '''
-        找出数组出现独特次数
-    Args:
-        arr: 输入数组
-    Returns:
-        布尔值
-    '''
-    num_dict = {}
-    for num in arr:
-        if num in num_dict:
-            num_dict[num] += 1
-        else:
-            num_dict[num] = 0
-    num_set = set()
-    for num in num_dict.values():
-        if num in num_set:
-            return False
-        num_set.add(num)
-    return True
+class Solution:
+    def unique_number_occurrences(self, arr: List[int]) -> bool:
+        '''
+            找出数组出现独特次数
+        Args:
+            arr: 输入数组
+        Returns:
+            布尔值
+        '''
+        num_dict = {}
+        for num in arr:
+            if num in num_dict:
+                num_dict[num] += 1
+            else:
+                num_dict[num] = 0
+        num_set = set()
+        for num in num_dict.values():
+            if num in num_set:
+                return False
+            num_set.add(num)
+        return True
 
 
 if __name__ == '__main__':
     arr = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
-    result = unique_number_occurrences(arr)
+    solution = Solution()
+    result = solution.unique_number_occurrences(arr)
     assert result == False

@@ -31,28 +31,36 @@ from typing import List
 import numpy as np
 
 
-def transpose(arr: List[List[int]]) -> List[List[int]]:
-    '''
-        转置二维数组
-    Args:
-        arr: 二维数组
-    Returns:
-        转置后的数组
-    '''
-    return zip(*arr)
+class Solution:
+
+    def transpose(self, arr: List[List[int]]) -> List[List[int]]:
+        '''
+            转置二维数组
+        Args:
+            arr: 二维数组
+        Returns:
+            转置后的数组
+        '''
+        return zip(*arr)
+
+    def transpose(self, arr: List[List[int]]) -> List[List[int]]:
+        '''
+            转置二维数组
+        Args:
+            arr: 二维数组
+        Returns:
+            转置后的数组
+        '''
+        m, n = len(arr[0]), len(arr)
+        new_arr = np.zeros((m, n), dtype=int)
+        for i in range(len(arr)):
+            for j in range(arr[0]):
+                new_arr[j][i] = arr[i][j]
+        return new_arr
 
 
-def transpose(arr: List[List[int]]) -> List[List[int]]:
-    '''
-        转置二维数组
-    Args:
-        arr: 二维数组
-    Returns:
-        转置后的数组
-    '''
-    m, n = len(arr[0]), len(arr)
-    new_arr = np.zeros((m, n), dtype=int)
-    for i in range(len(arr)):
-        for j in range(arr[0]):
-            new_arr[j][i] = arr[i][j]
-    return new_arr
+if __name__ == '__main__':
+    nums = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    solution = Solution()
+    res = solution.transpose(nums)
+    print(res)
