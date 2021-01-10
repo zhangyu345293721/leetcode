@@ -79,4 +79,4 @@ if __name__ == '__main__':
     node4.next = node5
     solution = Solution()
     node = solution.reverse_list2(node1)
-    print(node)
+    assert node.val == 5

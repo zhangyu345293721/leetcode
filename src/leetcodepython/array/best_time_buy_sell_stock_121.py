@@ -75,3 +75,4 @@ if __name__ == '__main__':
     solution = Solution()
     max_profit = solution.max_profit2(prices)
     print(max_profit)
+    assert max_profit == 5

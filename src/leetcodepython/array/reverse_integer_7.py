@@ -28,21 +28,20 @@ class Solution:
         else:
             return 0
 
-
-def reverse_integer(self, num: int) -> int:
-    '''
-      反转数字
-  Args:
-      num:数字
-  Returns:
-      反转后数字
-  '''
-    if num == 0:
-        return num
-    if num > 0:
-        return int(str(num)[::-1])
-    else:
-        return int('-' + str(num)[1:][::-1])
+    def reverse_integer(self, num: int) -> int:
+        '''
+          反转数字
+      Args:
+          num:数字
+      Returns:
+          反转后数字
+      '''
+        if num == 0:
+            return num
+        if num > 0:
+            return int(str(num)[::-1])
+        else:
+            return int('-' + str(num)[1:][::-1])
 
 
 if __name__ == '__main__':

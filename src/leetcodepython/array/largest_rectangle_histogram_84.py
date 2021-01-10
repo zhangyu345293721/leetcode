@@ -27,59 +27,62 @@
 from typing import List
 
 
-def largest_rectangle_histogram(heights: List[int]) -> int:
-    '''
-        计算最大矩形长度
-    Args:
-        heights: 数组长度
-    Returns:
-        矩形最大面积
-    '''
-    if not heights:
-        return 0
-    stack = []
-    max_area, index = 0, 0
-    length = len(heights)
-    while index <= length:
-        if not stack or (index < length and heights[index] >= heights[stack[-1]]):
-            stack.append(index)
-            index += 1
-        else:
-            top = stack.pop()
-            width = index if len(stack) < 1 else index - stack[-1] - 1
-            max_area = max(max_area, width * heights[top])
-    return max_area
+class Solution:
 
+    def largest_rectangle_histogram(self, heights: List[int]) -> int:
+        '''
+            计算最大矩形长度
+        Args:
+            heights: 数组长度
+        Returns:
+            矩形最大面积
+        '''
+        if not heights:
+            return 0
+        stack = []
+        max_area, index = 0, 0
+        length = len(heights)
+        while index <= length:
+            if not stack or (index < length and heights[index] >= heights[stack[-1]]):
+                stack.append(index)
+                index += 1
+            else:
+                top = stack.pop()
+                width = index if len(stack) < 1 else index - stack[-1] - 1
+                max_area = max(max_area, width * heights[top])
+        return max_area
 
-def largest_rectangle_histogram2(heights: List[int]) -> int:
-    '''
-        计算最大矩形长度
-    Args:
-        heights: 数组长度
-    Returns:
-        矩形最大面积
-    '''
-    if not heights:
-        return 0
-    if len(heights) < 2:
-        return heights[0]
-    area_max = 0
-    for i in range(len(heights)):
-        height = heights[i]
-        width = 1  # 当前宽度为1
-        k = i - 1
-        while k >= 0 and heights[k] >= height:
-            width += 1
-            k -= 1
-        k = i + 1
-        while k <= len(heights) - 1 and heights[k] >= height:
-            width += 1
-            k += 1
-        area_max = max(area_max, height * width)
-    return area_max
+    def largest_rectangle_histogram2(self, heights: List[int]) -> int:
+        '''
+            计算最大矩形长度
+        Args:
+            heights: 数组长度
+        Returns:
+            矩形最大面积
+        '''
+        if not heights:
+            return 0
+        if len(heights) < 2:
+            return heights[0]
+        area_max = 0
+        for i in range(len(heights)):
+            height = heights[i]
+            width = 1  # 当前宽度为1
+            k = i - 1
+            while k >= 0 and heights[k] >= height:
+                width += 1
+                k -= 1
+            k = i + 1
+            while k <= len(heights) - 1 and heights[k] >= height:
+                width += 1
+                k += 1
+            area_max = max(area_max, height * width)
+        return area_max
 
 
 if __name__ == '__main__':
     heights = [2, 1, 5, 6, 2, 3]
-    max_area = largest_rectangle_histogram(heights)
+    solution = Solution()
+    max_area = solution.largest_rectangle_histogram(heights)
     print(max_area)
+    assert max_area == 10

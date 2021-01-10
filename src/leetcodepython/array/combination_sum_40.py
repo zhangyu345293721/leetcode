@@ -92,3 +92,4 @@ if __name__ == '__main__':
     target = 7
     result = combination_sum(candidates, target)
     print(result)
+    assert result == [[2, 5]]

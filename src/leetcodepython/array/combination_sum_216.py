@@ -34,46 +34,49 @@
 from typing import List
 
 
-def combination_sum_helper(k: int, target: int, result: List[List[int]], temp: int, num: int) -> None:
-    '''
-        递归循环帮助类
-    Args:
-        k: 数字个数
-        target: 目标值
-        result: 结果链表
-        temp: 临时链表
-        num: 数值
-    Returns:
-       链表
-    '''
-    for i in range(num, 10):
-        if i > target:
-            break
-        temp.append(i)
-        if i == target and k == len(temp):
-            result.append(list(temp))
-        else:
-            combination_sum_helper(k, target - i, result, temp, i + 1)
-        temp.pop()
+class Solution:
 
+    def combination_sum_helper(self, k: int, target: int, result: List[List[int]], temp: int, num: int) -> None:
+        '''
+            递归循环帮助类
+        Args:
+            k: 数字个数
+            target: 目标值
+            result: 结果链表
+            temp: 临时链表
+            num: 数值
+        Returns:
+           链表
+        '''
+        for i in range(num, 10):
+            if i > target:
+                break
+            temp.append(i)
+            if i == target and k == len(temp):
+                result.append(list(temp))
+            else:
+                self.combination_sum_helper(k, target - i, result, temp, i + 1)
+            temp.pop()
 
-def combination_sum(k: int, n: int) -> List[List[int]]:
-    '''
-        循环计算组合数和
-    Args:
-        k: 数字个数
-        n: 数字和
-    Returns:
-        None
-    '''
-    result = []
-    temp = []
-    combination_sum_helper(k, n, result, temp, 1)
-    return result
+    def combination_sum(self, k: int, n: int) -> List[List[int]]:
+        '''
+            循环计算组合数和
+        Args:
+            k: 数字个数
+            n: 数字和
+        Returns:
+            None
+        '''
+        result = []
+        temp = []
+        self.combination_sum_helper(k, n, result, temp, 1)
+        return result
 
 
 if __name__ == '__main__':
     k = 3
     n = 9
-    result = combination_sum(k, n)
+    solution = Solution()
+    result = solution.combination_sum(k, n)
     print(result)
+    assert result == [[1, 2, 6], [1, 3, 5], [2, 3, 4]]

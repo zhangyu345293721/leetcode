@@ -34,45 +34,47 @@
 from typing import List
 
 
-def search_num(n: int, k: int, num: int, result: List[List[int]], temp: List[int]) -> None:
-    '''
-        深度优先遍历
-    Args:
-        n: 1-n之间的数
-        k: 选择k个数
-        num:当前数字
-        result:结果链表
-        temp:当前链表
-    Returns:
-        结果链表
-    '''
-    if len(temp) == k:
-        result.append(list(temp))
-        return
-    i = num
-    while i <= n - (k - len(temp)) + 1:
-        temp.append(i)
-        search_num(n, k, i + 1, result, temp)
-        temp.pop()
-        i += 1
+class Solution:
+    def search_num(self, n: int, k: int, num: int, result: List[List[int]], temp: List[int]) -> None:
+        '''
+            深度优先遍历
+        Args:
+            n: 1-n之间的数
+            k: 选择k个数
+            num:当前数字
+            result:结果链表
+            temp:当前链表
+        Returns:
+            结果链表
+        '''
+        if len(temp) == k:
+            result.append(list(temp))
+            return
+        i = num
+        while i <= n - (k - len(temp)) + 1:
+            temp.append(i)
+            self.search_num(n, k, i + 1, result, temp)
+            temp.pop()
+            i += 1
 
-
-def combine(n: int, k: int) -> List[List[int]]:
-    '''
-        数组排列组合
-    Args:
-        n: 1-n之间的数
-        k: 选择k个数
-    Returns:
-        排列组合之后结果
-    '''
-    result = []
-    temp = []
-    search_num(n, k, 1, result, temp)
-    return result
+    def combine(self, n: int, k: int) -> List[List[int]]:
+        '''
+            数组排列组合
+        Args:
+            n: 1-n之间的数
+            k: 选择k个数
+        Returns:
+            排列组合之后结果
+        '''
+        result = []
+        temp = []
+        self.search_num(n, k, 1, result, temp)
+        return result
 
 
 if __name__ == '__main__':
     n, k = 4, 2
-    result = combine(n, k)
+    solution = Solution()
+    result = solution.combine(n, k)
     print(result)
+    assert result == [[1, 2], [1, 3], [1, 4], [2, 3], [2, 4], [3, 4]]

@@ -32,43 +32,47 @@
 from typing import List
 
 
-def contains_duplicate(nums: List[int]) -> bool:
-    '''
-        判断是否有重复的数
-    Args:
-        nums: 数组
-    Returns:
-        布尔值
-    '''
-    number_dict = {}
-    for num in nums:
-        if num in number_dict:
-            number_dict[num] += 1
-        else:
-            number_dict[num] = 1
-    for num in number_dict.values():
-        if num > 1:
-            return True
-    return False
+class Solution:
 
+    def contains_duplicate(self, nums: List[int]) -> bool:
+        '''
+            判断是否有重复的数
+        Args:
+            nums: 数组
+        Returns:
+            布尔值
+        '''
+        number_dict = {}
+        for num in nums:
+            if num in number_dict:
+                number_dict[num] += 1
+            else:
+                number_dict[num] = 1
+        for num in number_dict.values():
+            if num > 1:
+                return True
+        return False
 
-def contains_duplicate2(nums: List[int]) -> bool:
-    '''
-        判断是否有重复的数
-    Args:
-        nums: 数组
-    Returns:
-        布尔值
-    '''
-    number_set = set()
-    for num in nums:
-        if num in number_set:
-            return True
-        else:
-            number_set.add(num)
-    return False
+    def contains_duplicate2(self, nums: List[int]) -> bool:
+        '''
+            判断是否有重复的数
+        Args:
+            nums: 数组
+        Returns:
+            布尔值
+        '''
+        number_set = set()
+        for num in nums:
+            if num in number_set:
+                return True
+            else:
+                number_set.add(num)
+        return False
 
 
 if __name__ == '__main__':
     arr = [1, 2, 3, 3, 4]
-    print(contains_duplicate(arr))
+    solution = Solution()
+    result = solution.contains_duplicate(arr)
+    print(result)
+    assert result == True

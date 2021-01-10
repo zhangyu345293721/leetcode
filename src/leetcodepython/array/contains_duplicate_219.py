@@ -30,24 +30,29 @@
 from typing import List
 
 
-def contains_duplicate2(nums: List[int], k: int) -> bool:
-    '''
-        判断是否有重复的数
-    Args:
-        nums: 数组
-    Returns:
-        布尔值
-    '''
-    number_dict = {}
-    for i in range(len(nums)):
-        if nums[i] in number_dict:
-            if abs(i - number_dict[nums[i]]) <= k:
-                return True
-        number_dict[nums[i]] = i
-    return False
+class Solution:
+
+    def contains_duplicate2(self, nums: List[int], k: int) -> bool:
+        '''
+            判断是否有重复的数
+        Args:
+            nums: 数组
+        Returns:
+            布尔值
+        '''
+        number_dict = {}
+        for i in range(len(nums)):
+            if nums[i] in number_dict:
+                if abs(i - number_dict[nums[i]]) <= k:
+                    return True
+            number_dict[nums[i]] = i
+        return False
 
 
 if __name__ == '__main__':
     nums = [1, 2, 3, 1]
     k = 3
-    print(contains_duplicate2(nums, k))
+    solution = Solution()
+    result = solution.contains_duplicate2(nums, k)
+    print(result)
+    assert result == True

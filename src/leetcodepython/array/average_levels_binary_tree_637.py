@@ -35,35 +35,39 @@ from typing import List
 from tree.tree_node import TreeNode
 
 
-def average_of_levels2(root: TreeNode) -> List[float]:
-    '''
-        计算二叉树每层平均值
-    Args:
-        root: 根节点
-    Returns:
-        每层平均值链表
-    '''
-    if not root:
-        return
-    queue, result = [], []
-    queue.append(root)
-    while queue:
-        size = len(queue)
-        sum = 0
-        for i in range(size):
-            node = queue.pop()
-            sum += node.val
-            if node.left:
-                queue.append(node.left)
-            if node.right:
-                queue.append(node.right)
-        result.append(sum / size)
-    return result
+class Solution:
+
+    def average_of_levels2(self, root: TreeNode) -> List[float]:
+        '''
+            计算二叉树每层平均值
+        Args:
+            root: 根节点
+        Returns:
+            每层平均值链表
+        '''
+        if not root:
+            return
+        queue, result = [], []
+        queue.append(root)
+        while queue:
+            size = len(queue)
+            sum = 0
+            for i in range(size):
+                node = queue.pop()
+                sum += node.val
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            result.append(sum / size)
+        return result
 
 
 if __name__ == '__main__':
     arr = [3, 9, 20, 15, 7]
     tree_node = TreeNode()
     tree = tree_node.create_binary_tree_array(arr)
-    result = average_of_levels2(tree)
+    solution = Solution()
+    result = solution.average_of_levels2(tree)
     print(result)
+    assert result == [3.0, 14.5, 11.0]

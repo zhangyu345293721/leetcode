@@ -75,7 +75,8 @@ class Solution:
 
 if __name__ == '__main__':
     amount = 11
-    coins = [1,2,5]
+    coins = [1, 2, 5]
     solution = Solution()
     result = solution.coin_change(coins, amount)
     print(result)
+    assert result == 3
