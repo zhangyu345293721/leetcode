@@ -69,10 +69,23 @@ class Solution:
                 number_set.add(num)
         return False
 
+    def contains_duplicate3(self, nums: List[int]) -> bool:
+        '''
+            判断是否有重复的数
+        Args:
+            nums: 数组
+        Returns:
+            布尔值
+        '''
+        number_set = set()
+        for num in nums:
+            number_set.add(num)
+        return len(number_set)!=len(nums)
+
 
 if __name__ == '__main__':
     arr = [1, 2, 3, 3, 4]
     solution = Solution()
-    result = solution.contains_duplicate(arr)
+    result = solution.contains_duplicate3(arr)
     print(result)
     assert result == True

@@ -60,3 +60,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.length_of_longest_substring(s)
     print(result)
+    assert result == 5

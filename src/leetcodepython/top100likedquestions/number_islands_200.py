@@ -34,7 +34,9 @@
  */
 '''
 from typing import List
-import numpy as np
+
+
+# import numpy as np
 
 
 class Solution:
@@ -50,11 +52,11 @@ class Solution:
         if len(grid) < 1 or len(grid[0]) < 1:
             return 0
         result = 0
-        row, column = len(grid), len(grid[0])
-        # visited = [[False] * column for x in range(row)]
-        visited = np.empty((row, column), dtype=bool)
+        row, col = len(grid), len(grid[0])
+        visited = [[False] * col for x in range(row)]
+        # visited = np.empty((row, column), dtype=bool)
         for i in range(row):
-            for j in range(column):
+            for j in range(col):
                 if grid[i][j] == '1' and not visited[i][j]:
                     self.helper(grid, visited, i, j)
                     result += 1
@@ -92,3 +94,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.num_islands(chs)
     print(result)
+    assert result == 2

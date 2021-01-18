@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -38,6 +39,7 @@ public class MergeIntervals56 {
         int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
         int[][] merge = merge(intervals);
         System.out.println(merge);
+        Assert.assertArrayEquals(merge[0], new int[]{1, 6});
     }
 
     /**
@@ -49,11 +51,12 @@ public class MergeIntervals56 {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         List<int[]> list = new ArrayList<>();
-        if (intervals.length <= 1) {
+        int length = intervals.length;
+        if (length <= 1) {
             return intervals;
         }
         int[] curInterval = intervals[0];
-        for (int i = 1; i < intervals.length; i++) {
+        for (int i = 1; i < length; i++) {
             if (intervals[i][0] <= curInterval[1]) {
                 curInterval[1] = Math.max(intervals[i][1], curInterval[1]);
             } else {
@@ -62,8 +65,9 @@ public class MergeIntervals56 {
             }
         }
         list.add(curInterval);
-        int[][] ret = new int[list.size()][];
-        for (int i = 0; i < list.size(); i++) {
+        int size = list.size();
+        int[][] ret = new int[size][];
+        for (int i = 0; i < size; i++) {
             ret[i] = list.get(i);
         }
         return ret;

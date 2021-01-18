@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Stack;
@@ -34,8 +35,9 @@ public class DecodeString394 {
     @Test
     public void decodeStringTest() {
         String s = "3[a]2[bc]";
-        String result = decodeString2(s);
+        String result = decodeString(s);
         System.out.println(result);
+        Assert.assertEquals(result, "aaabcbc");
     }
 
     /**
@@ -45,10 +47,14 @@ public class DecodeString394 {
      * @return 解析后字符串
      */
     public String decodeString(String s) {
+        if (s.indexOf('[') == -1 || s.indexOf(']') == -1) {
+            return s;
+        }
         char[] t = s.toCharArray();
         int i = 0, n = s.length();
         StringBuilder sb = new StringBuilder();
         while (i < n) {
+            // 找到"["的位置
             int idx = s.indexOf('[', i);
             if (idx == -1) {
                 sb.append(s.substring(i));
@@ -58,9 +64,11 @@ public class DecodeString394 {
                 sb.append(t[i]);
                 i++;
             }
+            // 找到数字
             int len = Integer.valueOf(s.substring(i, idx));
             int count = 1;
             i = idx + 1;
+            // 找出"]"下标位置
             while (count != 0) {
                 if (t[i] == '[') {
                     count++;
@@ -79,13 +87,16 @@ public class DecodeString394 {
     }
 
     /**
-     * 解析字符串
+     * 解析字符串,利用字符串栈和数字栈存储字符和数字
      *
      * @param s 输入字符
      * @return 解析后字符串
      */
     public String decodeString2(String s) {
-        Stack<Integer> numberStack = new Stack<>();
+        if (s.indexOf('[') == -1 || s.indexOf(']') == -1) {
+            return s;
+        }
+        Stack<Integer> numStack = new Stack<>();
         Stack<String> strStack = new Stack<>();
         StringBuilder tail = new StringBuilder();
         int length = s.length();
@@ -97,13 +108,13 @@ public class DecodeString394 {
                     num = num * 10 + s.charAt(i + 1) - '0';
                     i++;
                 }
-                numberStack.add(num);
+                numStack.add(num);
             } else if (ch == '[') {
                 strStack.push(tail.toString());
                 tail = new StringBuilder();
             } else if (ch == ']') {
                 StringBuilder temp = new StringBuilder(strStack.pop());
-                int times = numberStack.pop();
+                int times = numStack.pop();
                 for (int j = 0; j < times; j++) {
                     temp.append(tail);
                 }

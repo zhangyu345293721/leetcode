@@ -43,7 +43,10 @@ class Solution:
         n = len(s)
         sb = []
         while i < n:
-            idx = s.index('[', i)
+            try:
+                idx = s.index('[', i, n)
+            except Exception as e:
+                idx = -1
             if idx == -1:
                 sb.append(s[i:])
                 break
@@ -64,9 +67,43 @@ class Solution:
                 sb.append(sub)
         return ''.join(sb)
 
+    def decode_string2(self, s: str) -> str:
+        '''
+            解析字符串
+        Args:
+            s: 字符串
+        Returns:
+            解析后的字符串
+        '''
+        num_stack = []
+        str_stack = []
+        sb = ""
+        length = len(s)
+        for i in range(length):
+            ch = s[i]
+            if ch.isdigit():
+                num = int(ch)
+                while i + 1 < length and s[i + 1].isdigit():
+                    num = 10 * num + (int(s[i + 1]))
+                    i += 1
+                num_stack.append(num)
+            elif ch == '[':
+                str_stack.append(sb)
+                sb = ''
+            elif ch == ']':
+                temp = str_stack.pop()
+                times = num_stack.pop()
+                for j in range(times):
+                    temp += sb
+                sb = temp
+            else:
+                sb += ch
+        return sb
+
 
 if __name__ == '__main__':
     s = "3[a]2[bc]"
     solution = Solution()
     result = solution.decode_string(s)
     print(result)
+    assert result == 'aaabcbc'
