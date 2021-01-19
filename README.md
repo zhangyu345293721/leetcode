@@ -484,6 +484,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104282307">Play With Chips</a></th>
     <th>Easy</th>
   </tr>
+ 
+  <tr>
+    <th>57</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/112842309">Insert Interval</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 3.list
