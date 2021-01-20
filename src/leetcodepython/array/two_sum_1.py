@@ -28,7 +28,7 @@ from typing import List
 
 
 class Solution:
-    def get_sum_index(self, nums: List[int], target: int) -> int:
+    def two_sum(self, nums: List[int], target: int) -> int:
         '''
             计算组成和下标
         Args:
@@ -43,7 +43,7 @@ class Solution:
                     return [i, j]
         return [-1, -1]
 
-    def get_sum_index2(self, nums: List[int], target: int) -> int:
+    def two_sum2(self, nums: List[int], target: int) -> int:
         '''
             计算组成和下标
         Args:
@@ -65,5 +65,5 @@ if __name__ == '__main__':
     arr = [2, 5, 7, 11]
     target = 7
     solution = Solution()
-    result = solution.get_sum_index2(arr, target)
+    result = solution.two_sum(arr, target)
     assert result == [0, 1]

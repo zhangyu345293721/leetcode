@@ -77,3 +77,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.find_continuous_sequence2(50252)
     print(result)
+    assert len(result) == 3

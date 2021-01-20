@@ -46,7 +46,6 @@ public class PerfectSquares279 {
      */
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
-        // 复制
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 1;
         for (int i = 0; i * i <= n; i++) {
@@ -56,6 +55,25 @@ public class PerfectSquares279 {
             for (int j = 1; j * j <= i; j++) {
                 dp[i] = Math.min(dp[i], 1 + dp[i - j * j]);
             }
+        }
+        return dp[n];
+    }
+
+    /**
+     * 这个数由几个完全平方组成
+     *
+     * @param n 输入数字
+     * @return 多少数组成
+     */
+    public int numSquares2(int n) {
+        int[] dp = new int[n + 1];
+        dp[0] = 0;
+        for (int i = 1; i <= n; i++) {
+            int min = Integer.MAX_VALUE;
+            for (int k = 1; k * k <= i; k++) {
+                min = Math.min(min, 1 + dp[i - k * k]);
+            }
+            dp[i] = min;
         }
         return dp[n];
     }

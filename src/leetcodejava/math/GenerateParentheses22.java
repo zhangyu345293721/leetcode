@@ -1,5 +1,6 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -39,6 +40,7 @@ public class GenerateParentheses22 {
         int n = 3;
         List<String> list = generateParentheses(n);
         System.out.println(list);
+        Assert.assertEquals(list.size(), 5);
     }
 
     /**

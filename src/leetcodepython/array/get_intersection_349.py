@@ -19,8 +19,8 @@ class Solution:
         Returns:
             数组交集
         '''
-        arr1.sort();
-        arr2.sort();
+        arr1.sort()
+        arr2.sort()
         i, j, arr = 0, 0, []
         while i < len(arr1) and j < len(arr2):
             if arr1[i] < arr2[j]:

@@ -63,24 +63,24 @@ public class ReshapeMatrix566 {
      * @param nums 数组
      * @param r    行
      * @param c    列
-     * @return
+     * @return 转换之后的数组
      */
     public int[][] matrixReshape(int[][] nums, int r, int c) {
-        List<Integer> maxtrixList = new ArrayList<>();
+        List<Integer> matrixList = new ArrayList<>();
         for (int i = 0; i < nums.length; i++) {
             for (int j = 0; j < nums[0].length; j++) {
-                maxtrixList.add(nums[i][j]);
+                matrixList.add(nums[i][j]);
             }
         }
         int index = 0;
-        if (maxtrixList.size() % r != 0 || maxtrixList.size() % c != 0 || c * r != maxtrixList.size()) {
+        if (matrixList.size() % r != 0 || matrixList.size() % c != 0 || c * r != matrixList.size()) {
             return nums;
         }
 
         int[][] newArr = new int[r][c];
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-                newArr[i][j] = maxtrixList.get(index++);
+                newArr[i][j] = matrixList.get(index++);
             }
         }
         return newArr;
