@@ -38,6 +38,37 @@ from typing import List
 
 class Solution:
     def plus_one(self, digits: List[int]) -> List[int]:
+        '''
+            一个数组加1操作
+        Args:
+            digits: 数组数字
+        Returns:
+            加1后结果
+        '''
+        result = []
+        count = 1
+        for num in reversed(digits):
+            if count == 1:
+                sum = num + 1
+                if sum > 9:
+                    result.insert(0, 0)
+                else:
+                    result.insert(0, sum)
+                    count = 0
+            else:
+                result.insert(0, num)
+        if count == 1:
+            result.insert(0, 1)
+        return result
+
+    def plus_one2(self, digits: List[int]) -> List[int]:
+        '''
+            一个数组加1操作
+        Args:
+            digits: 数组数字
+        Returns:
+            加1后结果
+        '''
         if not digits:
             return digits
         i = len(digits) - 1
@@ -51,9 +82,10 @@ class Solution:
         result[0] = 1
         return result
 
+
 if __name__ == '__main__':
     digits = [9, 9]
     solution = Solution()
-    result = solution.plus_one(digits)
+    result = solution.plus_one2(digits)
     print(result)
     assert result == [1, 0, 0]

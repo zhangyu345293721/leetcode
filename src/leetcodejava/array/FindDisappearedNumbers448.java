@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -41,6 +42,7 @@ public class FindDisappearedNumbers448 {
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
         List<Integer> list = findDisappearedNumbers(nums);
         System.out.println(list);
+        Assert.assertEquals(list.size(), 2);
     }
 
     /**

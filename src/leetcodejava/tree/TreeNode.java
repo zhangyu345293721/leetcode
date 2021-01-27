@@ -6,8 +6,17 @@ package leetcodejava.tree;
  * @author: zhangyu
  */
 public class TreeNode {
+    /**
+     * 节点的值
+     */
     public int val;
+    /**
+     * 左子树节点
+     */
     public TreeNode left;
+    /**
+     * 右子树节点
+     */
     public TreeNode right;
 
     public TreeNode() {

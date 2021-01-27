@@ -90,9 +90,9 @@ public class BinaryTreeInorderTraversal94 {
                 stack.push(root);
                 root = root.left;
             }
-            root = stack.pop();
-            resultList.add(root.val);
-            root = root.right;
+            TreeNode node = stack.pop();
+            resultList.add(node.val);
+            root = node.right;
         }
         return resultList;
     }
