@@ -3,8 +3,6 @@ package leetcodejava.dp;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.*;
-
 /**
  * This is the solution of No.198 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -50,63 +48,6 @@ public class HouseRobber198 {
      * @return 钱数
      */
     private int houseRobber(int[] nums) {
-        if (nums.length == 1) {
-            return nums[0];
-        }
-        int maxMoney = 0;
-        int[] newArr = Arrays.copyOf(nums, nums.length);
-        Arrays.sort(newArr);
-        for (int i = nums.length - 1; i >= 0; i--) {
-            int index = getMaxValueFirstIndex(nums, newArr[i]);
-            if (index == 0) {
-                if (nums[index + 1] != -1) {
-                    maxMoney += nums[index];
-                    nums[index] = -1;
-                } else {
-                    nums[index] = 0;
-                }
-            } else if (index == nums.length - 1) {
-                if (nums[index - 1] != -1) {
-                    maxMoney += nums[index];
-                    nums[index] = -1;
-                } else {
-                    nums[index] = 0;
-                }
-            } else {
-                if (nums[index - 1] != -1 && nums[index + 1] != -1) {
-                    maxMoney += nums[index];
-                    nums[index] = -1;
-                } else {
-                    nums[index] = 0;
-                }
-            }
-        }
-        return maxMoney;
-    }
-
-    /**
-     * 找出最大值的下标
-     *
-     * @param nums 数组
-     * @param max  最大值
-     * @return 下标位置
-     */
-    private int getMaxValueFirstIndex(int[] nums, int max) {
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == max) {
-                return i;
-            }
-        }
-        return -1;
-    }
-
-    /**
-     * 求总共钱数
-     *
-     * @param nums 数组
-     * @return 钱数
-     */
-    private int houseRobber3(int[] nums) {
         int n = nums.length;
         if (n == 0) {
             return 0;
@@ -132,7 +73,7 @@ public class HouseRobber198 {
      * @param nums 数组
      * @return 钱数
      */
-    private int houseRobber4(int[] nums) {
+    private int houseRobber2(int[] nums) {
         int preMax = 0, max = 0;
         for (int num : nums) {
             int temp = Math.max(preMax + num, max);

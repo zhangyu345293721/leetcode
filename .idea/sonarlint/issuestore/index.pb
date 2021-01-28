@@ -893,3 +893,9 @@ _
 /src/leetcodepython/math/sum_two_integers_371.py,0\d\0dd5586b3cfef477a395f4eb8f30339ffbdd0115
 \
 ,src/leetcodejava/math/SumTwoIntegers371.java,3\8\38b82ea880dd87b324c09e749b9b5e69093960b6
+`
+0src/leetcodepython/string/additive_number_306.py,c\1\c1428bbf19ee62188b116165bcac8916968ea8a7
+V
+&src/leetcodejava/list/ExamRoom855.java,c\2\c25325a96e6b6488eb198c544ad9593b708b7b72
+Y
+)src/leetcodepython/dp/house_robber_198.py,4\d\4d7b1d95bdcce510933b0d7d3094751830479ad7
