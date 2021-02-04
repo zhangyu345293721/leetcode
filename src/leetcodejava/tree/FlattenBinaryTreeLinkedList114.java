@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Deque;
@@ -50,6 +51,7 @@ public class FlattenBinaryTreeLinkedList114 {
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         flatten(root);
         System.out.println(root);
+        Assert.assertEquals(root.val, 1);
     }
 
     /**

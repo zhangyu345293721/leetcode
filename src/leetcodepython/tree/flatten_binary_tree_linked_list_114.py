@@ -58,39 +58,46 @@ class Solution:
         stack.append(root)
         while len(stack) > 0:
             current_node = stack.pop()
-            if current_node.right != None:
+            if current_node.right:
                 stack.append(current_node.right)
-            if current_node.left != None:
+            if current_node.left:
                 stack.append(current_node.left)
             if len(stack) > 0:
                 current_node.right = stack[-1]
             current_node.left = None
 
+    def flatten_for_list(self, root: TreeNode, current_node) -> TreeNode:
+        '''
+            循环递归树
+        Args:
+            root: 根节点
+            current_node: 当前节点
+        Returns:
+            root
+        '''
+        if not root:
+            return current_node
+        current_node = self.flatten_for_list(root.right, current_node)
+        current_node = self.flatten_for_list(root.left, current_node)
+        root.left = None
+        root.right = current_node
+        return root
 
-def flatten_for_list(self, root: TreeNode, current_node) -> TreeNode:
-    '''
-        循环递归树
-    Args:
-        root: 根节点
-        current_node: 当前节点
-    Returns:
-        root
-    '''
-    if not root:
-        return current_node
-    current_node = flatten_for_list(root.right, current_node)
-    current_node = flatten_for_list(root.left, current_node)
-    root.left = None
-    root.right = current_node
-    return root
+    def flatten2(self, root: TreeNode) -> None:
+        '''
+            转换二叉树
+        Args:
+            root: 根节点
+        Returns:
+            只有有节点的二叉树
+        '''
+        self.flatten_for_list(root, None)
 
 
-def flatten2(self, root: TreeNode) -> None:
-    '''
-        转换二叉树
-    Args:
-        root: 根节点
-    Returns:
-        只有有节点的二叉树
-    '''
-    flatten_for_list(root, None)
+if __name__ == '__main__':
+    arr = [1, 2, 5, 3, 4, None, 6]
+    tree_node = TreeNode()
+    root = tree_node.create_binary_tree_array(arr)
+    solution = Solution()
+    solution.flatten(root)
+    assert root.val == 1

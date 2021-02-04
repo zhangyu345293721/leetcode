@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -10,25 +11,25 @@ import java.util.List;
  * This is the solution of No.39 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/combination-sum/
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个无重复元素的数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
  * candidates 中的数字可以无限制重复被选取。
- *
+ * <p>
  * 说明：
  * 所有数字（包括 target）都是正整数。
  * 解集不能包含重复的组合。 
  * 示例 1:
- *
+ * <p>
  * 输入: candidates = [2,3,6,7], target = 7,
  * 所求解集为:
  * [
- *   [7],
- *   [2,2,3]
+ * [7],
+ * [2,2,3]
  * ]
  * 示例 2:
- *
+ * <p>
  * 输入: candidates = [2,3,5], target = 8,
  * 所求解集为:
  * [
@@ -36,7 +37,7 @@ import java.util.List;
  *   [2,3,3],
  *   [3,5]
  * ]
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * * ==========================================================================================================
  *
@@ -50,42 +51,82 @@ public class CombinationSum39 {
         int target = 7;
         List<List<Integer>> list = combinationSum(candidates, target);
         System.out.println(list);
+        Assert.assertEquals(list.size(), 2);
     }
 
     /**
      * 获取所有的组合
      *
-     * @param nums   数组
-     * @param target 目标值
+     * @param candidates 数组
+     * @param target     目标值
      * @return 所有组合
      */
-    public List<List<Integer>> combinationSum(int[] nums, int target) {
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> result = new ArrayList();
         List<Integer> current = new ArrayList<>();
-        Arrays.sort(nums);
-        helper(nums, target, result, current, 0);
+        Arrays.sort(candidates);
+        helper(candidates, target, result, current, 0);
+        return result;
+    }
+
+    /**
+     * 获取所有的组合
+     *
+     * @param candidates 数组
+     * @param target     目标值
+     * @return 所有组合
+     */
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> result = new ArrayList();
+        List<Integer> current = new ArrayList<>();
+        Arrays.sort(candidates);
+        helper(candidates, target, result, current, 0);
         return result;
     }
 
     /**
      * 递归帮助类
      *
-     * @param nums    数组
-     * @param target  目标值
-     * @param result  结果链表
-     * @param current 当前链表
-     * @param index   下标位置
+     * @param candidates 数组
+     * @param target     目标值
+     * @param result     结果链表
+     * @param current    当前链表
+     * @param index      下标位置
      */
-    private void helper(int[] nums, int target, List<List<Integer>> result, List<Integer> current, int index) {
-        for (int i = index; i < nums.length; i++) {
-            if (nums[i] > target) {
+    private void helper(int[] candidates, int target, List<List<Integer>> result, List<Integer> current, int index) {
+        for (int i = index; i < candidates.length; i++) {
+            if (candidates[i] > target) {
                 break;
             }
-            current.add(nums[i]);
-            if (target - nums[i] == 0) {
+            current.add(candidates[i]);
+            if (target - candidates[i] == 0) {
                 result.add(new ArrayList(current));
             } else {
-                helper(nums, target - nums[i], result, current, i);
+                helper(candidates, target - candidates[i], result, current, i);
+            }
+            current.remove(current.size() - 1);
+        }
+    }
+
+    /**
+     * 递归帮助类
+     *
+     * @param candidates 数组
+     * @param target     目标值
+     * @param result     结果链表
+     * @param current    当前链表
+     * @param index      下标位置
+     */
+    private void helper2(int[] candidates, int target, List<List<Integer>> result, List<Integer> current, int index) {
+        for (int i = index; i < candidates.length; i++) {
+            if (target - candidates[i] == 0) {
+                current.add(candidates[i]);
+                result.add(new ArrayList(current));
+            } else if (target > candidates[i]) {
+                current.add(candidates[i]);
+                helper2(candidates, target - candidates[i], result, current, i);
+            } else {
+                break;
             }
             current.remove(current.size() - 1);
         }

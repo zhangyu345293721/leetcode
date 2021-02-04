@@ -38,6 +38,9 @@ public class AddDigits258 {
      * @return 各位数的和
      */
     public int addDigits(int num) {
+        if (num == 0) {
+            return 0;
+        }
         int total = 0;
         while (num > 0) {
             int leftNumber = num % 10;

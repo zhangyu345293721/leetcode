@@ -47,6 +47,7 @@ public class KthLargestElement215 {
     }
 
 
+
     /**
      * 找出第k大的值
      *
@@ -85,14 +86,14 @@ public class KthLargestElement215 {
      * @return 最大值
      */
     private int kthLargestElement3(int[] nums, int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>(k + 1);
+        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(k + 1);
         for (int num : nums) {
-            pq.add(num);
-            if (pq.size() > k) {
-                pq.poll();
+            priorityQueue.add(num);
+            if (priorityQueue.size() > k) {
+                priorityQueue.poll();
             }
         }
-        return pq.poll();
+        return priorityQueue.poll();
     }
 }
 
