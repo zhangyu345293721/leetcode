@@ -99,3 +99,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.is_symmetric2(root)
     print(result)
+    assert result == True

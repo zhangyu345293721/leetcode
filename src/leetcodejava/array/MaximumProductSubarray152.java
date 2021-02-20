@@ -38,12 +38,52 @@ public class MaximumProductSubarray152 {
     }
 
     /**
+     * 最大子数组乘积
+     *
+     * @param nums 数组
+     * @return 最大乘积
+     */
+    private int maxProduct1(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return 0;
+        }
+        int length = nums.length;
+        int maxProduct = Integer.MIN_VALUE;
+        for (int i = 0; i < length; i++) {
+            for (int j = i + 1; j < length; j++) {
+                int product = multiply(nums, i, j);
+                maxProduct = Math.max(maxProduct, product);
+            }
+        }
+        return maxProduct;
+    }
+
+    /**
+     * 数组相乘
+     *
+     * @param nums 数组
+     * @param i    位置i
+     * @param j    位置j
+     * @return 最大值
+     */
+    private int multiply(int[] nums, int i, int j) {
+        if (nums == null && nums.length < 1) {
+            return 0;
+        }
+        int total = 1;
+        for (int k = i; k <= j; k++) {
+            total *= nums[k];
+        }
+        return total;
+    }
+
+    /**
      * 最大连续子数组乘积
      *
      * @param nums 数组
      * @return 最大乘积
      */
-    private int maxProduct(int[] nums) {
+    private int maxProduct2(int[] nums) {
         if (nums == null || nums.length < 1) {
             return 0;
         }
@@ -67,47 +107,8 @@ public class MaximumProductSubarray152 {
      * @param nums 数组
      * @return 最大乘积
      */
-    private int maxProduct2(int[] nums) {
-        if (nums == null || nums.length < 1) {
-            return 0;
-        }
-        int max_product = Integer.MIN_VALUE;
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                int product = multiply(nums, i, j);
-                max_product = Math.max(max_product, product);
-            }
-        }
-        return max_product;
-    }
-
-    /**
-     * 数组相乘
-     *
-     * @param nums 数组
-     * @param i    位置i
-     * @param j    位置j
-     * @return 最大值
-     */
-    private int multiply(int[] nums, int i, int j) {
-        if (nums == null && nums.length < 1) {
-            return 0;
-        }
-        int total = 1;
-        for (int k = i; k <= j; k++) {
-            total *= nums[k];
-        }
-        return total;
-    }
-
-    /**
-     * 最大子数组乘积
-     *
-     * @param nums 数组
-     * @return 最大乘积
-     */
     public int maxProduct3(int[] nums) {
-        int result = Integer.MIN_VALUE, imax = 1, imin = 1;
+        int maxResult = Integer.MIN_VALUE, imax = 1, imin = 1;
         for (int num : nums) {
             if (num < 0) {
                 int tmp = imax;
@@ -117,8 +118,8 @@ public class MaximumProductSubarray152 {
             imax = Math.max(imax * num, num);
             imin = Math.min(imin * num, num);
             // 记录最大值
-            result = Math.max(result, imax);
+            maxResult = Math.max(maxResult, imax);
         }
-        return result;
+        return maxResult;
     }
 }

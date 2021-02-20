@@ -12,7 +12,8 @@ class TreeNode:
         self.left = None
         self.right = None
 
-    def create_binary_tree_array(self, array:List[int], index=0):
+    @classmethod
+    def create_binary_tree_array(self, array: List[int], index=0):
         '''
             将数组构造成二叉树
         Args:

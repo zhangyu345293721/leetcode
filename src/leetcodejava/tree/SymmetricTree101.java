@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.LinkedList;
@@ -43,8 +44,9 @@ public class SymmetricTree101 {
     public void symmetricTreeTest() {
         Integer[] nums = {1, 2, 2, 3, 4, 4, 3};
         TreeNode root = TreeNode.createBinaryTreeByArray(nums);
-        boolean symmetric = isSymmetric2(root);
+        boolean symmetric = isSymmetric(root);
         System.out.println(symmetric);
+        Assert.assertEquals(symmetric, true);
 
     }
 

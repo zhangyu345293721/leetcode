@@ -48,6 +48,16 @@ from tree.tree_node import TreeNode
 
 
 class Solution:
+    def rob(self, root: TreeNode) -> int:
+        '''
+            找出抢劫最大值
+        Args:
+            root: 跟节点
+        Returns:
+            最大值
+        '''
+        result = self.helper(root)
+        return max(result[0], result[1])
     def helper(self, node: TreeNode) -> List[int]:
         '''
             帮助方法
@@ -63,17 +73,6 @@ class Solution:
         l = self.helper(node.left)
         r = self.helper(node.right)
         return [node.val + l[1] + r[1], max(r[0], r[1]) + max(l[0] + l[1])]
-
-    def rob(self, root: TreeNode) -> int:
-        '''
-            找出抢劫最大值
-        Args:
-            root: 跟节点
-        Returns:
-            最大值
-        '''
-        result = self.helper(root)
-        return max(result[0], result[1])
 
     def rob2(self, root: TreeNode) -> int:
         '''
@@ -94,4 +93,9 @@ class Solution:
 
 
 if __name__ == '__main__':
-    pass
+    arr = [3, 2, 3, None, 3, None, 1]
+    node = TreeNode.create_binary_tree_array(arr)
+    solution = Solution()
+    result = solution.rob2(node)
+    print(result)
+    assert result == 7
