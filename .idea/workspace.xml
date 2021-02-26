@@ -10,15 +10,16 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcodepython/array/insert_interval_57.py" line="48" mnemonic="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 增加题目114.flatten binary tree linked list">
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 337.house_rob">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/431dc4be0ebc734fa5ada9442d87ced2c982dddb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/431dc4be0ebc734fa5ada9442d87ced2c982dddb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50a2e26c74188aa766c491fff572886b7d8f4faf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50a2e26c74188aa766c491fff572886b7d8f4faf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a990cc9bbe775d3875f08dafac2237176a894d17" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a990cc9bbe775d3875f08dafac2237176a894d17" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c15827a5910d828140fb265efa4efd2b8de41e97" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c15827a5910d828140fb265efa4efd2b8de41e97" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1740de7d05e0c3158da2000a6750cb57ab4afe0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d1740de7d05e0c3158da2000a6750cb57ab4afe0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/tree/SymmetricTree101.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/tree/SymmetricTree101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/symmetric_tree_101.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/symmetric_tree_101.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/LongestConsecutiveSequence128.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/LongestConsecutiveSequence128.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,25 +51,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1875">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/GroupAnagrams49.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="72" column="5" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-              <folding>
-                <element signature="e#1102#1125#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="175">
+              <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -76,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-360">
+            <state relative-caret-position="375">
               <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
@@ -85,17 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-984">
+            <state relative-caret-position="1175">
               <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/SlidingWindowMaximum239.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -200,11 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/contains_duplicate_217.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/string/DecodeString394.java" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/two_sum_1.py" />
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/get_intersection_349.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/find_continuous_sequence_57.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/InsertInterval57.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/insert_interval_57.py" />
@@ -251,6 +241,11 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py" />
         <option value="$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/math/Pow50.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/LongestConsecutiveSequence128.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/GroupAnagrams49.java" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" />
       </list>
     </option>
   </component>
@@ -271,10 +266,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1099" />
+    <option name="x" value="-1773" />
+    <option name="y" value="158" />
+    <option name="width" value="1550" />
+    <option name="height" value="583" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -283,7 +278,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -328,6 +322,13 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,6 +336,20 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
+              <item name="string" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -351,6 +366,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,9 +426,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.house_robber_3_337">
+  <component name="RunManager" selected="Python.group_anagrams_49">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestConsecutiveSequence128.longestConsecutiveSequenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.LongestConsecutiveSequence128" />
+      <option name="METHOD_NAME" value="longestConsecutiveSequenceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -441,7 +474,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="diameter_binary_tree_543" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="group_anagrams_49" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -449,34 +482,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/string" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/tree/diameter_binary_tree_543.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="flatten_binary_tree_linked_list_114" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="leetcodepython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/tree/flatten_binary_tree_linked_list_114.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -507,7 +518,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="symmetric_tree_101" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="longest_consecutive_sequence _128" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -515,12 +526,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/tree/symmetric_tree_101.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -609,19 +620,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SymmetricTree101.symmetricTreeTest" />
-      <item itemvalue="Python.flatten_binary_tree_linked_list_114" />
-      <item itemvalue="Python.diameter_binary_tree_543" />
-      <item itemvalue="Python.symmetric_tree_101" />
-      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.LongestConsecutiveSequence128.longestConsecutiveSequenceTest" />
       <item itemvalue="Python.house_robber_3_337" />
+      <item itemvalue="Python.longest_consecutive_sequence _128" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="Python.group_anagrams_49" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.group_anagrams_49" />
+        <item itemvalue="Python.longest_consecutive_sequence _128" />
+        <item itemvalue="JUnit.LongestConsecutiveSequence128.longestConsecutiveSequenceTest" />
         <item itemvalue="Python.house_robber_3_337" />
         <item itemvalue="JUnit.SymmetricTree101.symmetricTreeTest" />
-        <item itemvalue="Python.symmetric_tree_101" />
-        <item itemvalue="Python.diameter_binary_tree_543" />
-        <item itemvalue="Python.flatten_binary_tree_linked_list_114" />
       </list>
     </recent_temporary>
   </component>
@@ -939,14 +950,10 @@
       <workItem from="1612752913267" duration="26000" />
       <workItem from="1612939429869" duration="1404000" />
       <workItem from="1613619248046" duration="150000" />
-      <workItem from="1613788979838" duration="557000" />
-    </task>
-    <task id="LOCAL-00182" summary="master: 题目修改提交">
-      <created>1599037464446</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1599037464446</updated>
+      <workItem from="1613788979838" duration="2157000" />
+      <workItem from="1614237063929" duration="4091000" />
+      <workItem from="1614266781326" duration="2374000" />
+      <workItem from="1614320433435" duration="3537000" />
     </task>
     <task id="LOCAL-00183" summary="master: python代码增加注释">
       <created>1599040456884</created>
@@ -1284,16 +1291,17 @@
       <option name="project" value="LOCAL" />
       <updated>1612414445771</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="master: 337.house_rob">
+      <created>1613789841245</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1613789841246</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingleNumber137_singleNumberTest - 2021.02.01 at 22h 03m 11s.xml">
-      <configuration name="SingleNumber137.singleNumberTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingleNumber137_singleNumberTest - 2021.02.01 at 22h 05m 25s.xml">
-      <configuration name="SingleNumber137.singleNumberTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SingleNumber137_singleNumberTest - 2021.02.01 at 22h 32m 47s.xml">
       <configuration name="SingleNumber137.singleNumberTest" configurationId="JUnit" />
     </history-entry>
@@ -1318,9 +1326,15 @@
     <history-entry file="SymmetricTree101_symmetricTreeTest - 2021.02.05 at 17h 20m 28s.xml">
       <configuration name="SymmetricTree101.symmetricTreeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LongestConsecutiveSequence128_longestConsecutiveSequenceTest - 2021.02.25 at 15h 12m 45s.xml">
+      <configuration name="LongestConsecutiveSequence128.longestConsecutiveSequenceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestConsecutiveSequence128_longestConsecutiveSequenceTest - 2021.02.25 at 15h 13m 10s.xml">
+      <configuration name="LongestConsecutiveSequence128.longestConsecutiveSequenceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2396308000" />
+    <option name="totallyTimeSpent" value="2407910000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1332,10 +1346,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.22483222" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.18623266" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1344,8 +1358,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.23964165" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" visible="true" weight="0.23633678" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49839914" weight="0.22284435" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49395972" visible="true" weight="0.2049272" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49839914" weight="0.22156574" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32922733" />
@@ -1438,7 +1452,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master: leetcode.216 提交" />
     <MESSAGE value="master: leetcode.637 提交" />
     <MESSAGE value="master: leetcode.94 题目修改" />
     <MESSAGE value="master: leetcode.题目修改" />
@@ -1463,7 +1476,8 @@
     <MESSAGE value="master: 增加题目306" />
     <MESSAGE value="master: 增加题目198.house robber" />
     <MESSAGE value="master: 增加题目114.flatten binary tree linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: 增加题目114.flatten binary tree linked list" />
+    <MESSAGE value="master: 337.house_rob" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: 337.house_rob" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2239,7 +2253,7 @@
     <SUITE FILE_PATH="coverage/leetcode$monotonic_array_896.coverage" NAME="monotonic_array_896 Coverage Results" MODIFIED="1606908432272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$top_k_frequent_elements_347.coverage" NAME="top_k_frequent_elements_347 Coverage Results" MODIFIED="1606978762997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$reverse_only_letters_917.coverage" NAME="reverse_only_letters_917 Coverage Results" MODIFIED="1605161472017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
-    <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1608713515850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
+    <SUITE FILE_PATH="coverage/leetcode$group_anagrams_49.coverage" NAME="group_anagrams_49 Coverage Results" MODIFIED="1614323151301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/string" />
     <SUITE FILE_PATH="coverage/leetcode$rotate_image_48.coverage" NAME="rotate_image_48 Coverage Results" MODIFIED="1610198942175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$house_robber_198.coverage" NAME="house_robber_198 Coverage Results" MODIFIED="1611829956293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/dp" />
     <SUITE FILE_PATH="coverage/leetcode$day_week_1185.coverage" NAME="day_week_1185 Coverage Results" MODIFIED="1610206350664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -2273,7 +2287,7 @@
     <SUITE FILE_PATH="coverage/leetcode$reverse_integer_7.coverage" NAME="reverse_integer_7 Coverage Results" MODIFIED="1611125588795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/math" />
     <SUITE FILE_PATH="coverage/leetcode$distribute_candies_people_1103.coverage" NAME="distribute_candies_people_1103 Coverage Results" MODIFIED="1610206469174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$reshape_matrix_566.coverage" NAME="reshape_matrix_566 Coverage Results" MODIFIED="1610198710621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
-    <SUITE FILE_PATH="coverage/leetcode$longest_consecutive_sequence__128.coverage" NAME="longest_consecutive_sequence _128 Coverage Results" MODIFIED="1610286105232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
+    <SUITE FILE_PATH="coverage/leetcode$longest_consecutive_sequence__128.coverage" NAME="longest_consecutive_sequence _128 Coverage Results" MODIFIED="1614239508393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$house_robber_3_337.coverage" NAME="house_robber_3_337 Coverage Results" MODIFIED="1613789389147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
     <SUITE FILE_PATH="coverage/leetcode$play_with_chips_1217.coverage" NAME="play_with_chips_1217 Coverage Results" MODIFIED="1610198577874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$merge_intervals_56.coverage" NAME="merge_intervals_56 Coverage Results" MODIFIED="1610096526399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
@@ -2462,30 +2476,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/sum_two_integers_371.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/additive_number_306.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="88" column="2" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/day_year_1154.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="2" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/decode_string_394.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/SumTwoIntegers371.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -2681,13 +2671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/Pow50.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/list_node.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -2761,6 +2744,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/Pow50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#1102#1125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2875">
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/LongestConsecutiveSequence128.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="89" column="13" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/longest_consecutive_sequence _128.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1875">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/list/linked_list_cycle2_142.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2784,37 +2822,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MaximumProductSubarray152.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/GroupAnagrams49.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="404">
+          <caret line="72" column="5" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-984">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/tree_node.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/tree/house_robber_3_337.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="96" column="30" lean-forward="true" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-          <folding>
-            <element signature="e#1102#1125#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="175">
+          <caret line="52" column="33" selection-start-line="52" selection-start-column="33" selection-end-line="52" selection-end-column="33" />
         </state>
       </provider>
     </entry>

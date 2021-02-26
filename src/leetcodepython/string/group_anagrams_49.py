@@ -36,28 +36,7 @@ from typing import List
 
 
 class Solution:
-    def group_anagrams(self, strs: List[str]) -> List[str]:
-        '''
-            字符串
-        Args:
-            strs: 字符串数组
-        Returns:
-            链表
-        '''
-        str_set = set()
-        result = []
-        for s in strs:
-            str_set.add(self.get_sort_str(s))
-        for ele in str_set:
-            list_str = []
-            for s in strs:
-                sort_s = self.et_sort_str(s)
-                if ele == sort_s:
-                    list_str.append(s)
-            result.append(list_str)
-        return result
-
-    def group_anagrams2(self, arr: List[str]) -> List[str]:
+    def group_anagrams1(self, arr: List[str]) -> List[str]:
         '''
             字符串
         Args:
@@ -68,10 +47,10 @@ class Solution:
         dic = {}
         for ele in arr:
             sorted_str = self.get_sort_str(ele)
-            if str not in dic:
+            if sorted_str not in dic:
                 dic[sorted_str] = []
             dic[sorted_str].append(ele)
-        return dic.values()
+        return list(dic.values())
 
     def get_sort_str(self, s: str) -> str:
         '''
@@ -84,7 +63,7 @@ class Solution:
         s = sorted(list(s))
         return ''.join(s)
 
-    def group_anagrams3(self, strs: List[str]) -> List[str]:
+    def group_anagrams2(self, strs: List[str]) -> List[str]:
         '''
             字符串
         Args:
@@ -119,6 +98,6 @@ class Solution:
 if __name__ == '__main__':
     strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
     solution = Solution()
-    str_list = solution.group_anagrams3(strs)
+    str_list = solution.group_anagrams1(strs)
     print(str_list)
     assert str_list == [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]
