@@ -31,7 +31,14 @@ import numpy as np
 
 class Solution:
 
-    def longest_increasing_subsequence(self, nums: List[int]):
+    def length_of_LIS(self, nums: List[int]) -> int:
+        '''
+            最长增数组
+        Args:
+            nums:数组
+        Returns:
+            数组长度
+        '''
         dp = np.zeros(len(nums))
         length = 0
         for num in nums:
@@ -43,11 +50,11 @@ class Solution:
                 length = i + 1
         return length
 
-    def binary_search(self, arr: List[int], l: int, r: int, x: int):
+    def binary_search(self, nums: List[int], l: int, r: int, x: int):
         '''
             二分查找
         Args:
-            arr: 输入数组
+            nums: 输入数组
             l: 开始下标
             r: 结束下标
             x: 要查找的数
@@ -56,18 +63,38 @@ class Solution:
         '''
         if r >= l:
             mid = int(l + (r - l) / 2)  # 防止溢出
-            if arr[mid] == x:
+            if nums[mid] == x:
                 return mid
-            elif arr[mid] > x:
-                return self.binary_search(arr, l, mid - 1, x)
+            elif nums[mid] > x:
+                return self.binary_search(nums, l, mid - 1, x)
             else:
-                return self.binary_search(arr, mid + 1, r, x)
+                return self.binary_search(nums, mid + 1, r, x)
         else:
             return -1  # 不存在
 
+    def length_of_LIS2(self, nums: List[int]):
+        '''
+             最长增数组
+         Args:
+             nums:数组
+         Returns:
+             数组长度
+         '''
+        if nums == None or len(nums) < 1:
+            return 0
+        dp = [1 for i in range(len(nums) + 1)]
+        max_length = 1
+        for i in range(len(nums)):
+            for j in range(i):
+                if nums[j] > nums[i]:
+                    dp[i] = max(dp[i], dp[j] + 1)
+                max_length = max(max_length, dp[i])
+        return max_length
+
 
 if __name__ == '__main__':
-    arr = [10, 9, 2, 5, 3, 7, 101, 18]
+    nums = [10, 9, 2, 5, 3, 7, 101, 18]
     solution = Solution()
-    length = solution.longest_increasing_subsequence(arr)
-    print(length)
+    result = solution.length_of_LIS2(nums)
+    print(result)
+    assert result == 4

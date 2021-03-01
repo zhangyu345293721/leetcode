@@ -62,11 +62,16 @@ class Solution:
         '''
         if matrix == None or len(matrix) < 1:
             return matrix
+        # 先进性对称变换
         for i in range(len(matrix) - 1):
             j = i
             while j < len(matrix[0]):
                 self.swap(matrix, i, j, j, i)
                 j += 1
+        # 再进行中间变换
+        for i in range(len(matrix)):
+            for j in range(len(matrix[0]) - 1):
+                self.swap(matrix, i, j, i, len(matrix[0]) - j - 1)
         return matrix
 
 
@@ -83,4 +88,4 @@ if __name__ == '__main__':
     solution = Solution()
     matrix = solution.rotate(matrix)
     print(matrix)
-    assert matrix == [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+    assert matrix == [[7, 4, 1], [8, 5, 2], [9, 6, 3]]

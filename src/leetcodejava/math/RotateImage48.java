@@ -1,35 +1,36 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * This is the solution of No. 48 problem in the LeetCode,
- * the website of the problem is as follow:
+ * the website of the problem is asm follow:
  * https://leetcode-cn.com/problems/rotate-image/
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个 n × n 的二维矩阵表示一个图像。
  * 将图像顺时针旋转 90 度。
  * 说明：
  * 你必须在原地旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要使用另一个矩阵来旋转图像。
- *
+ * <p>
  * 示例 1:
  * 给定 matrix =
  * [
- *   [1,2,3],
- *   [4,5,6],
- *   [7,8,9]
+ * [1,2,3],
+ * [4,5,6],
+ * [7,8,9]
  * ],
  * 原地旋转输入矩阵，使其变为:
  * [
- *   [7,4,1],
- *   [8,5,2],
- *   [9,6,3]
+ * [7,4,1],
+ * [8,5,2],
+ * [9,6,3]
  * ]
- *
+ * <p>
  * 来源：力扣（LeetCode）
- ** ==========================================================================================================
+ * * ==========================================================================================================
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
@@ -43,12 +44,7 @@ public class RotateImage48 {
                         {7, 8, 9}
                 };
         rotate(matrix);
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length; j++) {
-                System.out.print(matrix[i][j] + " ");
-            }
-            System.out.println();
-        }
+        Assert.assertArrayEquals(matrix[0], new int[]{7, 4, 1});
     }
 
     /**

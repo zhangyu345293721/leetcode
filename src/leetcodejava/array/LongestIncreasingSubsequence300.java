@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -34,6 +35,7 @@ public class LongestIncreasingSubsequence300 {
         int[] nums = {10, 9, 2, 5, 3, 7, 101, 18};
         int length = lengthOfLIS2(nums);
         System.out.println(length);
+        Assert.assertEquals(length, 4);
     }
 
     /**
@@ -42,7 +44,7 @@ public class LongestIncreasingSubsequence300 {
      * @param nums 数字
      * @return 增数组个数
      */
-    private int lengthOfLIS(int[] nums) {
+    private int lengthOfLIS1(int[] nums) {
         if (nums == null || nums.length < 1) {
             return 0;
         }
