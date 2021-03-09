@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -47,6 +48,7 @@ public class EditDistance72 {
         String word2 = "ros";
         int num = minDistance(word1, word2);
         System.out.println(num);
+        Assert.assertEquals(num, 3);
     }
 
     /**

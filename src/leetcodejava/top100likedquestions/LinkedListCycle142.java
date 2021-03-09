@@ -1,6 +1,7 @@
 package leetcodejava.top100likedquestions;
 
 import leetcodejava.list.ListNode;
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -47,6 +48,7 @@ public class LinkedListCycle142 {
         ListNode nodes = ListNode.createListNode(Arrays.asList(1, 2, 2, 3, 4));
         ListNode listNode = detectCycle(nodes);
         System.out.println(listNode);
+        Assert.assertEquals(listNode, null);
     }
 
     /**
@@ -60,7 +62,6 @@ public class LinkedListCycle142 {
             return null;
         }
         ListNode slow = head, fast = head;
-
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;

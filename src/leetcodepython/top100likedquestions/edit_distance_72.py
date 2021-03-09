@@ -78,3 +78,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.min_distance(word1, word2)
     print(result)
+    assert result == 3
