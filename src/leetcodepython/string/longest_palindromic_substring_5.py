@@ -40,13 +40,11 @@ class Solution:
         s1 = ''
         s2 = ''
         for i in range(len(s) - 1):
-            # 字符串长度为基数
-            if len(s1) < len(self.max_str(s, i, i)):
-                s1 = self.max_str(s, i, i)
-            # 字符串长度为偶数时候
-            if len(s2) < len(self.max_str(s, i, i + 1)):
-                s2 = self.max_str(s, i, i + 1)
-        return s1 if len(s1) > len(s2) else s1
+            s1_max = self.max_str(s, i, i)
+            s2_max = self.max_str(s, i, i + 1)
+            s1 = s1 if len(s1) >= len(s1_max) else s1_max
+            s2 = s2 if len(s2) >= len(s2_max) else s2_max
+        return s1 if len(s1) > len(s2) else s2
 
     def max_str(self, s: str, i: int, j: int) -> str:
         '''

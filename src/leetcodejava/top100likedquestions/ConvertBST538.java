@@ -31,7 +31,6 @@ import org.junit.Test;
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class ConvertBST538 {
-    private int sum = 0;
 
     @Test
     public void convertBSTTest() {
@@ -40,7 +39,7 @@ public class ConvertBST538 {
         TreeNode result = convertBST(tree);
         Assert.assertEquals(result.val, 18);
     }
-
+    private int sum = 0;
     /**
      * 转换搜索二叉树
      *

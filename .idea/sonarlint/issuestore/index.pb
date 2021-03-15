@@ -907,3 +907,7 @@ Y
 +src/leetcodepython/list/add_two_number_2.py,d\3\d32ee876757817db24a2467cb8ab1b2d4bb29e91
 Z
 *src/leetcodejava/math/SingleNumber137.java,5\5\55ab1e858c8d872d83000f7dfd08158b263315cc
+e
+5src/leetcodejava/array/ValidateStackSequences946.java,8\6\868dc04464c300b5bfff1d49f8d6a1764105e988
+h
+8src/leetcodepython/array/validate_stack_sequences_946.py,6\5\656fd32570bdc352f88368edab7153c09b9a4ca9

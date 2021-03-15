@@ -31,7 +31,7 @@ public class LongestPalindromicSubstring5 {
     public void longestPalindromicSubstringTest() {
         String s = "aba";
         String subString = longestPalindromicSubstring1(s);
-        Assert.assertEquals(subString,"aba");
+        Assert.assertEquals(subString, "aba");
     }
 
     /**
@@ -40,7 +40,7 @@ public class LongestPalindromicSubstring5 {
      * @param s 主符串
      * @return 最大字回文串
      */
-    private static String longestPalindromicSubstring1(String s) {
+    private String longestPalindromicSubstring1(String s) {
         if (s.length() <= 1) {
             return s;
         }
@@ -63,7 +63,7 @@ public class LongestPalindromicSubstring5 {
      * @param j 下标j
      * @return 最大子回文串
      */
-    private static String maxStr(String s, int i, int j) {
+    private String maxStr(String s, int i, int j) {
         while (i >= 0 && j < s.length() && s.charAt(i) == s.charAt(j)) {
             i--;
             j++;
@@ -77,7 +77,7 @@ public class LongestPalindromicSubstring5 {
      * @param s 最大字符串
      * @return 最大字符串
      */
-    private static String longestPalindromicSubstring2(String s) {
+    private String longestPalindromicSubstring2(String s) {
         String maxStr = "";
         for (int i = 0; i < s.length(); i++) {
             for (int j = i + 1; j < s.length() + 1; j++) {
@@ -99,7 +99,7 @@ public class LongestPalindromicSubstring5 {
      * @param sub 字符串
      * @return 布尔值
      */
-    private static boolean isPalindromicSubstring(String sub) {
+    private boolean isPalindromicSubstring(String sub) {
         if (sub == null || sub.length() < 1) {
             return true;
         }
