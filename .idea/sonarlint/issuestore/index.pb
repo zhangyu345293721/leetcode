@@ -925,3 +925,5 @@ Z
 .src/leetcodejava/tree/InvertBinaryTree226.java,8\4\846ff01964204127eb0edbd7c6b9dba3ddeacc2a
 a
 1src/leetcodepython/tree/invert_binary_tree_226.py,d\f\dfaa8bde1f12230776e2e65ce1feb04cc21abf84
+Z
+*src/leetcodepython/array/target_sum_494.py,a\5\a5ffb2a4019c40fc919da5ff98c86be4bc102550
