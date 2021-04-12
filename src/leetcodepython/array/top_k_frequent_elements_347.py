@@ -28,6 +28,7 @@
  */
 '''
 from typing import List
+import queue
 
 
 class Solution:
@@ -60,10 +61,56 @@ class Solution:
         dict_sort_list = sorted(num_map.items(), key=lambda x: x[1], reverse=True)
         return [x[0] for x in dict_sort_list[0:k]]
 
+    def top_k_frequent_2(self, nums: List[int], k: int) -> List[int]:
+        '''
+            截取链表长度
+        Args:
+            nums: 数组
+            k: 最大k
+        Returns:
+            频率最高的k
+        '''
+        result = []
+        num_map = self.get_num_map(nums)
+        q = queue.PriorityQueue()
+        for e in num_map.items():
+            q.put([e[1], e[0]])
+            if q.qsize() > k:
+                q.get()
+
+        while not q.empty():
+            result.append(q.get()[1])
+        return result
+
+    def top_k_frequent_3(self, nums: List[int], k: int) -> List[int]:
+        '''
+           截取链表长度
+       Args:
+           nums: 数组
+           k: 最大k
+       Returns:
+           频率最高的k
+       '''
+        num_map = self.get_num_map(nums)
+        # 找到最大出现次数
+        max_size = 0
+        for num in num_map:
+            if num_map[k] > max_size:
+                max_size = num_map[num]
+        # 找结果集
+        result = []
+        while k > 0:
+            for num in num_map:
+                if num_map[num] == max_size:
+                    result.append(num)
+                    k -= 1
+            max_size -= 1
+        return result
+
 
 if __name__ == '__main__':
     nums = [1, 1, 1, 2, 2, 3]
     solution = Solution()
-    result = solution.top_k_frequent(nums, 2)
+    result = solution.top_k_frequent_3(nums, 2)
     assert len(result) == 2
     assert result == [1, 2]

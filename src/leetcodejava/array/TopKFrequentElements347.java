@@ -94,4 +94,39 @@ public class TopKFrequentElements347 {
         return frequentMap.entrySet().stream().sorted((e1, e2) -> (e2.getValue() - e1.getValue()))
                 .limit(k).mapToInt(e -> e.getKey()).toArray();
     }
+
+    /**
+     * @param nums 数组
+     * @param k    前面k数
+     * @return 链表
+     */
+    public int[] topKFrequent3(int[] nums, int k) {
+        if (nums.length == 0) {
+            return new int[]{};
+        }
+        // 计算出现次数
+        HashMap<Integer, Integer> frequentMap = new HashMap<>();
+        for (int num : nums) {
+            frequentMap.put(num, frequentMap.getOrDefault(num, 0) + 1);
+        }
+        // 获取数字出现的最大次数
+        int maxSize = 0;
+        for (Map.Entry<Integer, Integer> entry : frequentMap.entrySet()) {
+            if (entry.getValue() > maxSize) {
+                maxSize = entry.getValue();
+            }
+        }
+        // 找到出现次数最多的数组
+        int[] result = new int[k];
+        while (k > 0) {
+            for (Map.Entry<Integer, Integer> entry : frequentMap.entrySet()) {
+                if (entry.getValue() == maxSize) {
+                    result[k - 1] = entry.getKey();
+                    k--;
+                }
+            }
+            maxSize--;
+        }
+        return result;
+    }
 }
