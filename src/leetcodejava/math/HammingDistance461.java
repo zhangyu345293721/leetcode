@@ -42,7 +42,7 @@ public class HammingDistance461 {
     public void hammingDistanceTest() {
         int x = 1;
         int y = 4;
-        int distance = hammingDistance3(x, y);
+        int distance = hammingDistance2(x, y);
         System.out.println(distance);
         Assert.assertEquals(distance, 2);
     }
@@ -54,7 +54,7 @@ public class HammingDistance461 {
      * @param y 值2
      * @return 距离
      */
-    private int hammingDistance3(int x, int y) {
+    private int hammingDistance2(int x, int y) {
         int c = x ^ y;
         int res = 0;
         while (c > 0) {
