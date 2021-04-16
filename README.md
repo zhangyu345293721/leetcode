@@ -414,11 +414,7 @@
     <th >19</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82984093">Remove Nth Node From End of List</a></th>
     <th>Easy</th>
-  </tr> <tr>
-    <th ></th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82983152">Find Middle Node </a></th>
-    <th>Easy</th>
-  </tr> <tr>
+  </tr>  <tr>
     <th ></th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82585979">Sorted Question </a></th>
     <th>Easy</th>
