@@ -382,11 +382,7 @@
     <th >917</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83743873">Reverse Only Letters</a></th>
     <th>Easy</th>
-  </tr> <tr>
-    <th ></th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83478742">Binary Search Modification</a></th>
-    <th>Easy</th>
-  </tr> <tr>
+  </tr><tr>
     <th >136</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83185189">Single Number</a></th>
     <th>Easy</th>
