@@ -10,11 +10,7 @@
     <th width="300">题目难度</th>   
   </tr>
  
-  <tr>
-    <th >94</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85046785">Binary Tree Inorder Traversal</a></th>
-    <th>Middle</th>
-  </tr>
+
   <tr>
     <th >62</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85019853">Unique Paths</a></th>
@@ -551,6 +547,12 @@
   <tr>
     <th >102</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85049161">Binary Tree Level Order Traversal</a></th>
+    <th>Middle</th>
+  </tr>
+  
+    <tr>
+    <th >94</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85046785">Binary Tree Inorder Traversal</a></th>
     <th>Middle</th>
   </tr>
 </table>
