@@ -345,10 +345,6 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83048617">Reverse String II</a></th>
     <th>Easy</th>
   </tr> <tr>
-    <th >1</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83023107">Two Sum</a></th>
-    <th>Easy</th>
-  </tr> <tr>
     <th >19</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82984093">Remove Nth Node From End of List</a></th>
     <th>Easy</th>
@@ -485,6 +481,19 @@
 </table>
 
 ## 5.hashtable
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
+  </tr>
+   <tr>
+    <th >1</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83023107">Two Sum</a></th>
+    <th>Easy</th>
+  </tr>
+</table>
+
 ## 6.math
 
 <table border="2" >
