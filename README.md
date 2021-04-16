@@ -10,16 +10,7 @@
     <th width="300">题目难度</th>   
   </tr>
  
-  <tr>
-    <th >*337</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85050118">House Robber III</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >102</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85049161">Binary Tree Level Order Traversal</a></th>
-    <th>Middle</th>
-  </tr>
+ 
   <tr>
     <th >32</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85055216">Longest Valid Parentheses</a></th>
@@ -542,6 +533,16 @@
    <tr>
     <th >236</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164131">Lowest Common Ancestor of a Binary Tree</a></th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >*337</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85050118">House Robber III</a></th>
+    <th>Middle</th>
+  </tr>
+  <tr>
+    <th >102</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85049161">Binary Tree Level Order Traversal</a></th>
     <th>Middle</th>
   </tr>
 </table>
