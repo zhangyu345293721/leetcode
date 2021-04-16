@@ -349,11 +349,6 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82984093">Remove Nth Node From End of List</a></th>
     <th>Easy</th>
   </tr>
-  <tr>
-    <th>3</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/81868702">Pairs Of Parentheses</a></th>
-    <th>Middle</th>
-  </tr> 
 </table>
 其中加*表示花了很长时间！题目没有进行分类，后期将对题目整理分类！
 
@@ -492,6 +487,11 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83023107">Two Sum</a></th>
     <th>Easy</th>
   </tr>
+   <tr>
+    <th>3</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/81868702">Pairs Of Parentheses</a></th>
+    <th>Middle</th>
+  </tr> 
 </table>
 
 ## 6.math
