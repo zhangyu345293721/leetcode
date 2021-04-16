@@ -350,11 +350,7 @@
     <th >66</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84542375">Plus one</a></th>
     <th>Easy</th>
-  </tr> <tr>
-    <th ></th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84330072">MergeArray</a></th>
-    <th>Easy</th>
-  </tr> <tr>
+  </tr>  <tr>
     <th >347</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84310615">Top K Frequent Elements</a></th>
     <th>Easy</th>
