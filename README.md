@@ -10,12 +10,6 @@
     <th width="300">题目难度</th>   
   </tr>
  
- 
-  <tr>
-    <th >32</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85055216">Longest Valid Parentheses</a></th>
-    <th>Hard</th>
-  </tr>
   <tr>
     <th >94</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85046785">Binary Tree Inorder Traversal</a></th>
@@ -472,6 +466,11 @@
     <th >67</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
     <th>Easy</th>
+  </tr>
+   <tr>
+    <th >32</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85055216">Longest Valid Parentheses</a></th>
+    <th>Hard</th>
   </tr>
 </table>
 
