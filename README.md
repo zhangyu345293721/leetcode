@@ -481,11 +481,6 @@
     <th>Easy</th>
   </tr>
   <tr>
-    <th >240</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104163813">Search 2D</a></th>
-    <th>Easy</th>
-  </tr>
-  <tr>
     <th>122</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104198493">Best Time Buy</a></th>
     <th>Easy</th>
