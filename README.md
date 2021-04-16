@@ -431,11 +431,6 @@
     <th width="300">题目难度</th>   
   </tr>
    <tr>
-    <th >728</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/103983703">Self Dividing Numbers</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
     <th >733</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104135666">Flood Fill</a></th>
     <th>Easy</th>
