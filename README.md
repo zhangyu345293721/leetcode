@@ -9,11 +9,7 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
-  <tr>
-    <th >236</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164131">Lowest Common Ancestor of a Binary Tree</a></th>
-    <th>Middle</th>
-  </tr><tr>
+ <tr>
     <th >114</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85163338">Flatten Binary Tree to Linked List</a></th>
     <th>Middle</th>
@@ -540,6 +536,11 @@
    <tr>
     <th >145</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/108884911">Binary Tree Post Order Traversal</a></th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >236</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164131">Lowest Common Ancestor of a Binary Tree</a></th>
     <th>Middle</th>
   </tr>
 </table>
