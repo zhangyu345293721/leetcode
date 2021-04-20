@@ -10,21 +10,7 @@
     <th width="300">题目难度</th>   
   </tr>
 
-   <tr>
-    <th >23</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84994970">Merge k Sorted Lists</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >*55</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84991870">Jump Game</a></th>
-    <th>Middle</th>
-  </tr>
-    <tr>
-    <th >139</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84988686">Word Break</a></th>
-    <th>Middle</th>
-  </tr>
+ 
     <tr>
     <th >48</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84985595"> Rotate Image</a></th>
@@ -401,6 +387,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84993730">Kth Largest Element in an Array</a></th>
     <th>Middle</th>
   </tr>
+  
+   <tr>
+    <th >*55</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84991870">Jump Game</a></th>
+    <th>Middle</th>
+  </tr>
 </table>
 
 ## 3.list
@@ -440,6 +432,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85163338">Flatten Binary Tree to Linked List</a></th>
     <th>Middle</th>
   </tr>
+ 
+  <tr>
+    <th >23</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84994970">Merge k Sorted Lists</a></th>
+    <th>Middle</th>
+  </tr>
 </table>
 
 ## 4.string
@@ -450,11 +448,7 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
-  <tr>
-    <th >67</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
-    <th>Easy</th>
-  </tr>
+
    <tr>
     <th >32</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85055216">Longest Valid Parentheses</a></th>
@@ -469,6 +463,12 @@
    <tr>
     <th >49</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85013887">Group Anagrams</a></th>
+    <th>Middle</th>
+  </tr>
+  
+  <tr>
+    <th >139</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84988686">Word Break</a></th>
     <th>Middle</th>
   </tr>
 </table>
@@ -557,5 +557,11 @@
     <th >94</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85046785">Binary Tree Inorder Traversal</a></th>
     <th>Middle</th>
+  </tr>
+  
+   <tr>
+    <th >67</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
+    <th>Easy</th>
   </tr>
 </table>
