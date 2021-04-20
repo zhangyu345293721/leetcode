@@ -10,11 +10,6 @@
     <th width="300">题目难度</th>   
   </tr>
    <tr>
-    <th> *128</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85006310">Longest Consecutive Sequence</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
     <th >*215</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84993730">Kth Largest Element in an Array</a></th>
     <th>Middle</th>
@@ -396,6 +391,12 @@
    <tr>
     <th >287</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85015366">Find the Duplicate Number</a></th>
+    <th>Middle</th>
+  </tr>
+  
+  <tr>
+    <th> *128</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85006310">Longest Consecutive Sequence</a></th>
     <th>Middle</th>
   </tr>
 </table>
