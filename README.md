@@ -10,16 +10,6 @@
     <th width="300">题目难度</th>   
   </tr>
    <tr>
-    <th >*22</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85014549">Generate Parentheses</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >49</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85013887">Group Anagrams</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
     <th> *128</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85006310">Longest Consecutive Sequence</a></th>
     <th>Middle</th>
@@ -466,6 +456,17 @@
     <th >32</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85055216">Longest Valid Parentheses</a></th>
     <th>Hard</th>
+  </tr>
+  
+   <tr>
+    <th >*22</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85014549">Generate Parentheses</a></th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >49</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85013887">Group Anagrams</a></th>
+    <th>Middle</th>
   </tr>
 </table>
 
