@@ -23,53 +23,52 @@ from typing import List
 
 
 class Solution:
-    def trapping_rain_water(self, arr: List[int]) -> int:
+    def trapping_rain_water(self, height: List[int]) -> int:
         '''
             计算能装多少水
         Args:
-            arr:数组
+            height:数组
         Returns:
             装的水
         '''
-        if arr is None or len(arr) < 3:
+        if height is None or len(height) < 3:
             return 0
-        result = 0
-        size = len(arr)
+        result, size = 0, len(height)
         for i in range(size - 1):
             max_left = 0
             max_right = 0
             j = i
             while j >= 0:
-                max_left = max(max_left, arr[j])
+                max_left = max(max_left, height[j])
                 j -= 1
             k = i
             while k < size:
-                max_right = max(max_right, arr[k])
+                max_right = max(max_right, height[k])
                 k += 1
-            result += min(max_left, max_right) - arr[i]
+            result += min(max_left, max_right) - height[i]
         return result
 
-    def trapping_rain_water2(self, arr: List[int]) -> int:
+    def trapping_rain_water2(self, height: List[int]) -> int:
         '''
             计算能装多少水
         Args:
-            arr:数组
+            height:数组
         Returns:
             装的水
         '''
-        if not arr or len(arr) < 3:
+        if not height or len(height) < 3:
             return 0
         left_max, right_max = 0, 0
-        left, right = 0, len(arr) - 1
+        left, right = 0, len(height) - 1
         result = 0
         while left < right:
-            if arr[left] < arr[right]:
-                left_max = max(left_max, arr[left])
-                result += (left_max - arr[left])
+            if height[left] < height[right]:
+                left_max = max(left_max, height[left])
+                result += (left_max - height[left])
                 left += 1
             else:
-                right_max = max(right_max, arr[right])
-                result += (right_max - arr[right])
+                right_max = max(right_max, height[right])
+                result += (right_max - height[right])
                 right -= 1
         return result
 

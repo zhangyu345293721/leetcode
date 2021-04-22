@@ -1,39 +1,41 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * This is the solution of No.830 problem in the LeetCode,
+ * This is the solution of No.917 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/reverse-only-letters
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个字符串 S，返回 “反转后的” 字符串，其中不是字母的字符都保留在原地，而所有字母的位置发生反转。
- *
+ * <p>
  * 示例 1：
- *
+ * <p>
  * 输入："ab-cd"
  * 输出："dc-ba"
  * 示例 2：
- *
+ * <p>
  * 输入："a-bC-dEf-ghIj"
  * 输出："j-Ih-gfE-dCba"
  * 示例 3：
- *
+ * <p>
  * 输入："Test1ng-Leet=code-Q!"
  * 输出："Qedo1ct-eeLg=ntse-T!"
  *  
  * 提示：
- *
+ * <p>
  * S.length <= 100
  * 33 <= S[i].ASCIIcode <= 122 
  * S 中不包含 \ or "
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/reverse-only-letters
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * ==========================================================================================================
+ *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class ReverseOnlyLetters917 {
@@ -43,7 +45,7 @@ public class ReverseOnlyLetters917 {
         String str = "ab-cd";
         String result = reverseOnlyLetters1(str);
         System.out.println(result);
-
+        Assert.assertEquals(result, "dc-ba");
     }
 
     /**

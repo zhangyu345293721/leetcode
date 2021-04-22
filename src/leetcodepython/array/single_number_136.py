@@ -31,34 +31,34 @@ from typing import List
 
 
 class Solution:
-    def single_number(self, arr: List[int]) -> int:
+    def single_number(self, nums: List[int]) -> int:
         '''
             求只出现一次的数字
         Args:
-            arr: 数组
+            nums: 数组
         Returns:
             数字
         '''
-        set_arr = set()
-        for ele in arr:
-            if ele in set_arr:
-                set_arr.remove(ele)
+        num_set = set()
+        for ele in nums:
+            if ele in num_set:
+                num_set.remove(ele)
             else:
-                set_arr.add(ele)
-        return set_arr.pop()
+                num_set.add(ele)
+        return num_set.pop()
 
-    def single_number2(self, arr: List[int]) -> int:
+    def single_number2(self, nums: List[int]) -> int:
         '''
            求只出现一次的数字
        Args:
-           arr: 数组
+           nums: 数组
        Returns:
            数字
        '''
-        single_number = arr[0]
-        for i in range(1, len(arr)):
-            single_number = single_number ^ arr[i]
-        return single_number
+        res = nums[0]
+        for i in range(1, len(nums)):
+            res ^= nums[i]
+        return res
 
 
 if __name__ == '__main__':

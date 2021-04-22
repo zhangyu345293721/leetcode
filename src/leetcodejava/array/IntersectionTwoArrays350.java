@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -48,6 +49,7 @@ public class IntersectionTwoArrays350 {
         int[] nums2 = {2, 2};
         int nums[] = intersect(nums1, nums2);
         System.out.println(nums);
+        Assert.assertArrayEquals(nums, new int[]{2, 2});
     }
 
     /**
@@ -93,6 +95,6 @@ public class IntersectionTwoArrays350 {
                 j++;
             }
         }
-        return list.stream().mapToInt(e->e).toArray();
+        return list.stream().mapToInt(e -> e).toArray();
     }
 }

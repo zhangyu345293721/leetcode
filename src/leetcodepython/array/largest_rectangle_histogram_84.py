@@ -47,9 +47,9 @@ class Solution:
                 stack.append(index)
                 index += 1
             else:
-                top = stack.pop()
+                old_index = stack.pop()
                 width = index if len(stack) < 1 else index - stack[-1] - 1
-                max_area = max(max_area, width * heights[top])
+                max_area = max(max_area, width * heights[old_index])
         return max_area
 
     def largest_rectangle_histogram2(self, heights: List[int]) -> int:
@@ -60,7 +60,7 @@ class Solution:
         Returns:
             矩形最大面积
         '''
-        if not heights:
+        if not heights or len(heights) < 1:
             return 0
         if len(heights) < 2:
             return heights[0]
@@ -73,7 +73,7 @@ class Solution:
                 width += 1
                 k -= 1
             k = i + 1
-            while k <= len(heights) - 1 and heights[k] >= height:
+            while k < len(heights) and heights[k] >= height:
                 width += 1
                 k += 1
             area_max = max(area_max, height * width)

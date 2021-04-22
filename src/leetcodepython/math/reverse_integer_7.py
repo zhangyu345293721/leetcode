@@ -40,8 +40,9 @@
  */
 '''
 
+
 class Solution:
-    def reverse(self, num: int) -> int:
+    def reverse(self, x: int) -> int:
         '''
             反转数字
         Args:
@@ -49,16 +50,17 @@ class Solution:
         Returns:
             反转后数字
         '''
-        if num == 0:
-            return num
-        sum = 0
-        while num != 0:
-            sum = 10 * sum + num % 10
-            num = num // 10
-        return int(sum) if int(sum) == sum else 0
+        if x == 0:
+            return x
+        total = 0
+        while x != 0:
+            total = 10 * total + x % 10
+            x = x // 10
+        return total
+
 
 if __name__ == '__main__':
     solution = Solution()
-    number = solution.reverse(321)
-    print(number)
-    assert number == -123
+    res = solution.reverse(321)
+    print(res)
+    assert res == 123

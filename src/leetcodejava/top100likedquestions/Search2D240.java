@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -42,6 +43,7 @@ public class Search2D240 {
         int target = 5;
         boolean b = searchMatrix2(matrix, target);
         System.out.println(b);
+        Assert.assertEquals(b, true);
     }
 
     /**

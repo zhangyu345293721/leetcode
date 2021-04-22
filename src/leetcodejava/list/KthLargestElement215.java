@@ -3,8 +3,8 @@ package leetcodejava.list;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.*;
-import java.util.stream.Collectors;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 
 /**
@@ -47,7 +47,6 @@ public class KthLargestElement215 {
     }
 
 
-
     /**
      * 找出第k大的值
      *
@@ -74,8 +73,83 @@ public class KthLargestElement215 {
      * @return 数字
      */
     private int kthLargestElement2(Integer[] nums, int k) {
-        List<Integer> list = Arrays.stream(nums).sorted(Comparator.reverseOrder()).collect(Collectors.toList());
-        return list.get(k - 1);
+        if (nums == null || nums.length < k) {
+            return -1;
+        }
+        return quickSort(nums, 0, nums.length - 1, k);
+    }
+
+    /**
+     * 快速排序选择元素
+     *
+     * @param nums 数组
+     * @param l    位置l
+     * @param r    位置r
+     * @param k    第k大的数
+     * @return 数字
+     */
+    private int quickSort(Integer[] nums, int l, int r, int k) {
+        int index = randomPartition(nums, l, r);
+        if (index == k - 1) {
+            return nums[k - 1];
+        } else if (index > k - 1) {
+            return quickSort(nums, l, index - 1, k);
+        } else {
+            return quickSort(nums, index + 1, r, k);
+        }
+    }
+
+    /**
+     * 随机划分
+     *
+     * @param nums 数组
+     * @param l    位置l
+     * @param r    位置r
+     * @return 选择位置
+     */
+    private int randomPartition(Integer[] nums, int l, int r) {
+        int i = (int) Math.random() * (r - l) + l;
+        swap(nums, i, r);
+        return partition(nums, l, r);
+    }
+
+    /**
+     * 划分数组，比阈值大的在左边，比阈值小的在右边
+     *
+     * @param nums 数组
+     * @param l    位置l
+     * @param r    位置r
+     * @return 阈值位置
+     */
+    private int partition(Integer[] nums, int l, int r) {
+        int pivot = nums[r];
+        int rightMost = r;
+        while (l <= r) {
+            while (l <= r && nums[l] > pivot) {
+                l++;
+            }
+            while (l <= r && nums[r] <= pivot) {
+                r--;
+            }
+            if (l <= r) {
+                swap(nums, l, r);
+            }
+        }
+        swap(nums, l, rightMost);
+        return l;
+    }
+
+    /**
+     * 交换数组中两个元素的位置
+     *
+     * @param nums 数组
+     * @param l    位置l
+     * @param r    位置r
+     */
+    private void swap(Integer[] nums, int l, int r) {
+        int temp = nums[l];
+        nums[l] = nums[r];
+        nums[r] = temp;
     }
 
     /**

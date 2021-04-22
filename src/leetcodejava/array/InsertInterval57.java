@@ -118,10 +118,10 @@ public class InsertInterval57 {
         if (!placed) {
             intervalList.add(new int[]{left, right});
         }
-        int[][] ans = new int[intervalList.size()][];
+        int[][] res = new int[intervalList.size()][];
         for (int i = 0; i < intervalList.size(); ++i) {
-            ans[i] = intervalList.get(i);
+            res[i] = intervalList.get(i);
         }
-        return ans;
+        return res;
     }
 }

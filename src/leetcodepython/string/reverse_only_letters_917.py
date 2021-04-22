@@ -2,7 +2,7 @@
 
 '''
 /**
- * This is the solution of No.830 problem in the LeetCode,
+ * This is the solution of No.719 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/reverse-only-letters
  * <p>
@@ -86,3 +86,4 @@ if __name__ == '__main__':
     solution = Solution()
     reverse_str = solution.reverse_only_letters('a-b-vf')
     print(reverse_str)
+    assert reverse_str == "f-v-ba"

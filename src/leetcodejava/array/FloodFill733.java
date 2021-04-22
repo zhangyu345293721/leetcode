@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -49,6 +50,7 @@ public class FloodFill733 {
         int newColor = 2;
         int[][] oldColor = floodFill(image, sr, sc, newColor);
         System.out.println(oldColor);
+        Assert.assertEquals(oldColor[0], new int[]{2, 2, 2});
     }
 
     /**
@@ -74,8 +76,8 @@ public class FloodFill733 {
      */
     public int[][] floodFillMethod(int[][] image, int sr, int sc, int oldColor, int newColor) {
         int rowLength = image.length;
-        int colmnLength = image[0].length;
-        if (sr < 0 || sr >= rowLength || sc < 0 || sc >= colmnLength || image[sr][sc] != oldColor || image[sr][sc] == newColor) {
+        int colLength = image[0].length;
+        if (sr < 0 || sr >= rowLength || sc < 0 || sc >= colLength || image[sr][sc] != oldColor || image[sr][sc] == newColor) {
             return image;
         }
         image[sr][sc] = newColor;

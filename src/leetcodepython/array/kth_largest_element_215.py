@@ -35,22 +35,105 @@
 
 from queue import PriorityQueue as PQ
 from typing import List
+import random
 
 
 class Solution:
-    def find_k_max_number(self, arr: List[int], k: int) -> int:
+    def kth_largest_element_num_1(self, nums: List[int], k: int) -> int:
         '''
             找出第K个大的数
         Args:
-            arr: 数组
+            nums: 数组
             k: k个最大数
         Returns:
             第k大那个数
         '''
-        new_arr = sorted(arr, reverse=True)
+        new_arr = sorted(nums, reverse=True)
         return new_arr[k - 1]
 
-    def kth_largest_element_num(self, arr: List[int], k: int) -> int:
+    def kth_largest_element_num_2(self, nums: List[int], k: int) -> int:
+        '''
+            找出第K个大的数
+        Args:
+            nums: 数组
+            k: k个最大数
+        Returns:
+            第k大那个数
+        '''
+        if nums == None or len(nums) < k:
+            return None
+        return self.quick_sort(nums, 0, len(nums) - 1, k)
+
+    def quick_sort(self, nums: List[int], l: int, r: int, k: int) -> int:
+        '''
+            快速排序
+        Args:
+            nums: 数组
+            l: 位置l
+            r: 位置r
+            k:  第k大的数
+        Returns:
+            数字
+        '''
+        index = self.random_partition(nums, l, r)
+        if index == k - 1:
+            return nums[k - 1]
+        elif index > k - 1:
+            return self.quick_sort(nums, l, index - 1, k)
+        else:
+            return self.quick_sort(nums, index + 1, r, k)
+
+    def random_partition(self, nums: List[int], l: int, r: int) -> int:
+        '''
+            随机生成数组
+        Args:
+            nums: 数组
+            l:位置l
+            r:位置r
+        Returns:
+            位置
+        '''
+        i = random.randint(l, r)
+        self.swap(nums, i, r)
+        return self.partition(nums, l, r)
+
+    def swap(self, nums: List[int], l: int, r: int) -> None:
+        """
+            交换两个数的位置
+        Args:
+            nums: 数组
+            l: 位置l
+            r: 位置r
+        Returns:
+            None
+        """
+        temp = nums[l]
+        nums[l] = nums[r]
+        nums[r] = temp
+
+    def partition(self, nums: List[int], l: int, r: int) -> int:
+        '''
+            分组
+        Args:
+            nums: 数组
+            l: 位置l
+            r: 位置r
+        Returns:
+            分组
+        '''
+        pivot = nums[r]
+        right_most = r
+        while l <= r:
+            while l <= r and nums[l] > pivot:
+                l += 1
+            while l <= r and nums[r] <= pivot:
+                r -= 1
+            if l <= r:
+                self.swap(nums, l, r)
+        self.swap(nums, l, right_most)
+        return l
+
+    def kth_largest_element_num_1(self, arr: List[int], k: int) -> int:
         '''
             找出第K个大的数
         Args:
@@ -70,5 +153,6 @@ class Solution:
 if __name__ == '__main__':
     numbers = [1, -3, 2, 9, 4, 7, 5]
     solution = Solution()
-    num = solution.find_k_max_number(numbers, 2)
+    num = solution.kth_largest_element_num_2(numbers, 2)
     print(num)
+    assert num == 7

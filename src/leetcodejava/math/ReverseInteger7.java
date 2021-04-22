@@ -61,6 +61,6 @@ public class ReverseInteger7 {
             result = 10 * result + x % 10;
             x = x / 10;
         }
-        return (int) result == result ? (int) result : 0;
+        return (int) result == result ? (int) result : -1;
     }
 }
