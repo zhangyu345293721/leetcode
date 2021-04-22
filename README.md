@@ -312,7 +312,7 @@
   <tr>
     <th>57</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/112842309">Insert Interval</a></th>
-    <th>Easy</th>
+    <th>Middle</th>
   </tr>
    <tr>
     <th >42</th>
