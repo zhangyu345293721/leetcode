@@ -9,131 +9,9 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
-  <tr>
-    <th >42</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164977">Trapping Rain Water</a></th>
-    <th>Hard</th>
-  </tr>
-  <tr>
-    <th >84</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85253780">Largest Rectangle in Histogram</a></th>
-    <th>Hard</th>
-  </tr>
- <tr>
-    <th >*152</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85235720">Maximum Product Subarray</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >85</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85229189">Maximal Rectangle</a></th>
-    <th>Hard</th>
-  </tr>
-  <tr>
-    <th >322</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223632">Coin Change</a></th>
-    <th>Middle</th>
-  </tr>
+
+ 
    <tr>
-    <th >240</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223378">Search a 2D Matrix II</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >621</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85221280">Task Scheduler</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >236</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164131">Lowest Common Ancestor of a Binary Tree</a></th>
-    <th>Middle</th>
-  </tr><tr>
-    <th >114</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85163338">Flatten Binary Tree to Linked List</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >221</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85161333">Maximal Square</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >279</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85159912">Perfect Squares</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >*337</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85050118">House Robber III</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >102</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85049161">Binary Tree Level Order Traversal</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >32</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85055216">Longest Valid Parentheses</a></th>
-    <th>Hard</th>
-  </tr>
-  <tr>
-    <th >94</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85046785">Binary Tree Inorder Traversal</a></th>
-    <th>Middle</th>
-  </tr>
-  <tr>
-    <th >62</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85019853">Unique Paths</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >11</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85018708">Container With Most Water</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >287</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85015366">Find the Duplicate Number</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >*22</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85014549">Generate Parentheses</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >49</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85013887">Group Anagrams</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th> *128</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85006310">Longest Consecutive Sequence</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >*215</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84993730">Kth Largest Element in an Array</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >23</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84994970">Merge k Sorted Lists</a></th>
-    <th>Middle</th>
-  </tr>
-   <tr>
-    <th >*55</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84991870">Jump Game</a></th>
-    <th>Middle</th>
-  </tr>
-    <tr>
-    <th >139</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84988686">Word Break</a></th>
-    <th>Middle</th>
-  </tr>
-    <tr>
     <th >48</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84985595"> Rotate Image</a></th>
     <th>Middle</th>
@@ -350,11 +228,7 @@
     <th >66</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84542375">Plus one</a></th>
     <th>Easy</th>
-  </tr> <tr>
-    <th ></th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84330072">MergeArray</a></th>
-    <th>Easy</th>
-  </tr> <tr>
+  </tr>  <tr>
     <th >347</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84310615">Top K Frequent Elements</a></th>
     <th>Easy</th>
@@ -386,11 +260,7 @@
     <th >917</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83743873">Reverse Only Letters</a></th>
     <th>Easy</th>
-  </tr> <tr>
-    <th ></th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83478742">Binary Search Modification</a></th>
-    <th>Easy</th>
-  </tr> <tr>
+  </tr><tr>
     <th >136</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83185189">Single Number</a></th>
     <th>Easy</th>
@@ -415,33 +285,8 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83048617">Reverse String II</a></th>
     <th>Easy</th>
   </tr> <tr>
-    <th >1</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83023107">Two Sum</a></th>
-    <th>Easy</th>
-  </tr> <tr>
     <th >19</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82984093">Remove Nth Node From End of List</a></th>
-    <th>Easy</th>
-  </tr> <tr>
-    <th ></th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82983152">Find Middle Node </a></th>
-    <th>Easy</th>
-  </tr> <tr>
-    <th ></th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82585979">Sorted Question </a></th>
-    <th>Easy</th>
-  </tr> <tr>
-    <th >*</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82390156">Compute Digit</a></th>
-    <th>Easy</th>
-  </tr> 
-  <tr>
-    <th>3</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/81868702">Pairs Of Parentheses</a></th>
-    <th>Middle</th>
-  </tr> <tr>
-    <th ></th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/81749015">Joseph Problem</a></th>
     <th>Easy</th>
   </tr>
 </table>
@@ -454,16 +299,6 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
-  <tr>
-    <th >217</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/103976728">Contains Duplicate</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >728</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/103983703">Self Dividing Numbers</a></th>
-    <th>Easy</th>
-  </tr>
    <tr>
     <th >733</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104135666">Flood Fill</a></th>
@@ -475,20 +310,88 @@
     <th>Easy</th>
   </tr>
   <tr>
-    <th>122</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104198493">Best Time Buy</a></th>
-    <th>Easy</th>
-  </tr>
-  <tr>
-    <th>1217</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104282307">Play With Chips</a></th>
-    <th>Easy</th>
-  </tr>
- 
-  <tr>
     <th>57</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/112842309">Insert Interval</a></th>
-    <th>Easy</th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >42</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164977">Trapping Rain Water</a></th>
+    <th>Hard</th>
+  </tr>
+  <tr>
+    <th >84</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85253780">Largest Rectangle in Histogram</a></th>
+    <th>Hard</th>
+  </tr>
+ <tr>
+    <th >*152</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85235720">Maximum Product Subarray</a></th>
+    <th>Middle</th>
+  </tr>
+  <tr>
+    <th >85</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85229189">Maximal Rectangle</a></th>
+    <th>Hard</th>
+  </tr>
+  <tr>
+    <th >322</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223632">Coin Change</a></th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >240</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85223378">Search a 2D Matrix II</a></th>
+    <th>Middle</th>
+  </tr>
+  <tr>
+    <th >621</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85221280">Task Scheduler</a></th>
+    <th>Middle</th>
+  </tr>
+  <tr>
+    <th >221</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85161333">Maximal Square</a></th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >279</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85159912">Perfect Squares</a></th>
+    <th>Middle</th>
+  </tr>
+  <tr>
+    <th >62</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85019853">Unique Paths</a></th>
+    <th>Middle</th>
+  </tr>
+ 
+   <tr>
+    <th >11</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85018708">Container With Most Water</a></th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >287</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85015366">Find the Duplicate Number</a></th>
+    <th>Middle</th>
+  </tr>
+  
+  <tr>
+    <th> *128</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85006310">Longest Consecutive Sequence</a></th>
+    <th>Middle</th>
+  </tr>
+  
+   <tr>
+    <th >*215</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84993730">Kth Largest Element in an Array</a></th>
+    <th>Middle</th>
+  </tr>
+  
+   <tr>
+    <th >*55</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84991870">Jump Game</a></th>
+    <th>Middle</th>
   </tr>
 </table>
 
@@ -515,11 +418,6 @@
     <th>Easy</th>
   </tr>
   <tr>
-    <th >240</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104163813">Search 2D</a></th>
-    <th>Easy</th>
-  </tr>
-  <tr>
     <th>122</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104198493">Best Time Buy</a></th>
     <th>Easy</th>
@@ -528,6 +426,17 @@
     <th>1217</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104282307">Play With Chips</a></th>
     <th>Easy</th>
+  </tr>
+  <tr>
+    <th >114</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85163338">Flatten Binary Tree to Linked List</a></th>
+    <th>Middle</th>
+  </tr>
+ 
+  <tr>
+    <th >23</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84994970">Merge k Sorted Lists</a></th>
+    <th>Middle</th>
   </tr>
 </table>
 
@@ -539,14 +448,50 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
+
+   <tr>
+    <th >32</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85055216">Longest Valid Parentheses</a></th>
+    <th>Hard</th>
+  </tr>
+  
+   <tr>
+    <th >*22</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85014549">Generate Parentheses</a></th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >49</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85013887">Group Anagrams</a></th>
+    <th>Middle</th>
+  </tr>
+  
   <tr>
-    <th >67</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
-    <th>Easy</th>
+    <th >139</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84988686">Word Break</a></th>
+    <th>Middle</th>
   </tr>
 </table>
 
 ## 5.hashtable
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
+  </tr>
+   <tr>
+    <th >1</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83023107">Two Sum</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th>3</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/81868702">Pairs Of Parentheses</a></th>
+    <th>Middle</th>
+  </tr> 
+</table>
+
 ## 6.math
 
 <table border="2" >
@@ -591,5 +536,32 @@
     <th >145</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/108884911">Binary Tree Post Order Traversal</a></th>
     <th>Middle</th>
+  </tr>
+   <tr>
+    <th >236</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85164131">Lowest Common Ancestor of a Binary Tree</a></th>
+    <th>Middle</th>
+  </tr>
+   <tr>
+    <th >*337</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85050118">House Robber III</a></th>
+    <th>Middle</th>
+  </tr>
+  <tr>
+    <th >102</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85049161">Binary Tree Level Order Traversal</a></th>
+    <th>Middle</th>
+  </tr>
+  
+   <tr>
+    <th >94</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85046785">Binary Tree Inorder Traversal</a></th>
+    <th>Middle</th>
+  </tr>
+  
+   <tr>
+    <th >67</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
+    <th>Easy</th>
   </tr>
 </table>
