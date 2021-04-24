@@ -9,54 +9,13 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
-  <tr>
-    <th >394</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84957568">Decode String</a></th>
-    <th>Middle</th>
-  </tr>  <tr>
-    <th >560</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84952201">Subarray Sum Equals K</a></th>
-    <th>Middle</th>
-  </tr>  <tr>
-    <th >406</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84941352">Queue Reconstruction by Height</a></th>
-    <th>Middle</th>
-  </tr> 
-  <tr>
-    <th >416</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84936435">Partition Equal Subset Sum</a></th>
-    <th>Middle</th>
-  </tr> 
-  <tr>
-    <th >4</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84875908">Median of Two Sorted Arrays</a></th>
-    <th>Middle</th>
-  </tr>
+  
   <tr>
     <th >*5</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84870880">Longest Palindromic Substring</a></th>
     <th>Easy</th>
   </tr>
-  <tr>
-    <th >538</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84863120">Convert BST to Greater Tree</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >572</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84861633">Subtree of Another Tree</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >543</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84861015">Diameter of Binary Tree</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >101</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84859674">Symmetric Tree</a></th>
-    <th>Easy</th>
-  </tr>
+ 
    <tr>
     <th >121</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84857583">Best Time to Buy and Sell Stock</a></th>
@@ -385,6 +344,26 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84960329">Number of Islands</a></th>
     <th>Middle</th>
   </tr>
+  <tr>
+    <th >560</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84952201">Subarray Sum Equals K</a></th>
+    <th>Middle</th>
+  </tr>  
+  <tr>
+    <th >406</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84941352">Queue Reconstruction by Height</a></th>
+    <th>Middle</th>
+  </tr>
+  <tr>
+    <th >416</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84936435">Partition Equal Subset Sum</a></th>
+    <th>Middle</th>
+  </tr> 
+  <tr>
+    <th >4</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84875908">Median of Two Sorted Arrays</a></th>
+    <th>Middle</th>
+  </tr>
 </table>
 
 ## 3.list
@@ -469,6 +448,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84988686">Word Break</a></th>
     <th>Middle</th>
   </tr>
+  
+  <tr>
+    <th >394</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84957568">Decode String</a></th>
+    <th>Middle</th>
+  </tr>  
 </table>
 
 ## 5.hashtable
@@ -565,6 +550,26 @@
    <tr>
     <th >67</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
+    <th>Easy</th>
+  </tr>
+  <tr>
+    <th >538</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84863120">Convert BST to Greater Tree</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th >572</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84861633">Subtree of Another Tree</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th >543</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84861015">Diameter of Binary Tree</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th >101</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84859674">Symmetric Tree</a></th>
     <th>Easy</th>
   </tr>
 </table>
