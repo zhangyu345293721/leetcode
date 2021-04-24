@@ -10,35 +10,7 @@
     <th width="300">题目难度</th>   
   </tr>
 
- 
-   <tr>
-    <th >48</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84985595"> Rotate Image</a></th>
-    <th>Middle</th>
-  </tr>
-    <tr>
-    <th >300</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84984249">Longest Increasing Subsequence</a></th>
-    <th>Middle</th>
-  </tr>
-    <tr>
-    <th >*64</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84979265">Minimum Path Sum</a></th>
-    <th>Middle</th>
-  </tr> 
   <tr>
-    <th >56</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84978045">Merge Intervals</a></th>
-    <th>Middle</th>
-  </tr>  <tr>
-    <th >72</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84976445">Edit Distance</a></th>
-    <th>Middle</th>
-  </tr>  <tr>
-    <th >*142</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84961106">Linked List Cycle II</a></th>
-    <th>Middle</th>
-  </tr>  <tr>
     <th >39</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84960687">Combination Sum</a></th>
     <th>Middle</th>
@@ -393,6 +365,26 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84991870">Jump Game</a></th>
     <th>Middle</th>
   </tr>
+  <tr>
+    <th >300</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84984249">Longest Increasing Subsequence</a></th>
+    <th>Middle</th>
+  </tr>
+    <tr>
+    <th >*64</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84979265">Minimum Path Sum</a></th>
+    <th>Middle</th>
+  </tr> 
+  <tr>
+    <th >56</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84978045">Merge Intervals</a></th>
+    <th>Middle</th>
+  </tr> 
+  <tr>
+    <th >72</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84976445">Edit Distance</a></th>
+    <th>Middle</th>
+  </tr> 
 </table>
 
 ## 3.list
@@ -438,6 +430,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84994970">Merge k Sorted Lists</a></th>
     <th>Middle</th>
   </tr>
+  
+  <tr>
+    <th >*142</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84961106">Linked List Cycle II</a></th>
+    <th>Middle</th>
+  </tr> 
 </table>
 
 ## 4.string
@@ -489,7 +487,12 @@
     <th>3</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/81868702">Pairs Of Parentheses</a></th>
     <th>Middle</th>
-  </tr> 
+  </tr>
+  <tr>
+    <th >48</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84985595"> Rotate Image</a></th>
+    <th>Middle</th>
+  </tr>
 </table>
 
 ## 6.math
