@@ -2,18 +2,10 @@
  ### 题目官网: https://leetcode.com/problemset/all/
 <br>  目前题目java实现，后面增加python实现，后续按照题目类型不断补充题目,类别主要分为：top100likedquestions，array，list，string，hashtable，math，tree：<br>
  ##### 代码的博客地址: https://blog.csdn.net/zy345293721
-## 1.top100likedquestions
-<table border="2" >
-  <tr align="center" >
-    <th width="300">题号</th>
-    <th width="300">题目内容</th>
-    <th width="300">题目难度</th>   
-  </tr>
- 
-</table>
+
 其中加*表示花了很长时间！题目没有进行分类，后期将对题目整理分类！
 
-## 2.array
+## 1.array
 <table border="2" >
   <tr align="center" >
     <th width="300">题号</th>
@@ -262,7 +254,7 @@
   </tr> 
 </table>
 
-## 3.list
+## 2.list
 <table border="2" >
   <tr align="center" >
     <th width="300">题号</th>
@@ -375,7 +367,7 @@
   
 </table>
 
-## 4.string
+## 3.string
 
 <table border="2" >
   <tr align="center" >
@@ -444,7 +436,7 @@
   </tr> 
 </table>
 
-## 5.hashtable
+## 4.hashtable
 <table border="2" >
   <tr align="center" >
     <th width="300">题号</th>
@@ -486,7 +478,7 @@
   </tr> 
 </table>
 
-## 6.math
+## 5.math
 
 <table border="2" >
   <tr align="center" >
@@ -506,7 +498,7 @@
   </tr>
 </table>
 
-## 7.tree
+## 6.tree
 
 <table border="2" >
   <tr align="center" >
