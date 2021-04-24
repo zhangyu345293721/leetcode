@@ -9,23 +9,8 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
-  
-  <tr>
-    <th >*5</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84870880">Longest Palindromic Substring</a></th>
-    <th>Easy</th>
-  </tr>
  
-   <tr>
-    <th >121</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84857583">Best Time to Buy and Sell Stock</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >581</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84855501">Shortest Unsorted Continuous Subarray</a></th>
-    <th>Easy</th>
-  </tr>
+
    <tr>
     <th >155</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84852978">Min Stack</a></th>
@@ -364,6 +349,17 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84875908">Median of Two Sorted Arrays</a></th>
     <th>Middle</th>
   </tr>
+  
+  <tr>
+    <th >121</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84857583">Best Time to Buy and Sell Stock</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th >581</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84855501">Shortest Unsorted Continuous Subarray</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 3.list
@@ -447,6 +443,11 @@
     <th >139</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84988686">Word Break</a></th>
     <th>Middle</th>
+  </tr>
+  <tr>
+    <th >*5</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84870880">Longest Palindromic Substring</a></th>
+    <th>Easy</th>
   </tr>
   
   <tr>
