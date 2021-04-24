@@ -9,16 +9,6 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
-
-  <tr>
-    <th >39</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84960687">Combination Sum</a></th>
-    <th>Middle</th>
-  </tr>  <tr>
-    <th >200</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84960329">Number of Islands</a></th>
-    <th>Middle</th>
-  </tr>
   <tr>
     <th >394</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84957568">Decode String</a></th>
@@ -385,6 +375,16 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84976445">Edit Distance</a></th>
     <th>Middle</th>
   </tr> 
+   <tr>
+    <th >39</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84960687">Combination Sum</a></th>
+    <th>Middle</th>
+  </tr> 
+  <tr>
+    <th >200</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84960329">Number of Islands</a></th>
+    <th>Middle</th>
+  </tr>
 </table>
 
 ## 3.list
