@@ -10,12 +10,6 @@
     <th width="300">题目难度</th>   
   </tr>
  
-
-   <tr>
-    <th >155</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84852978">Min Stack</a></th>
-    <th>Easy</th>
-  </tr>
    <tr>
     <th >53</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84848699">Maximum Subarray</a></th>
@@ -34,21 +28,6 @@
    <tr>
     <th >438</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84842726">Find All Anagrams in a String</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >70</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84839426">Climbing Stairs</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >437</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84837693">Path Sum III</a></th>
-    <th >Middle</th>
-  </tr>
-   <tr>
-    <th >*198</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84836482">House Robber</a></th>
     <th>Easy</th>
   </tr>
    <tr>
@@ -350,6 +329,22 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84855501">Shortest Unsorted Continuous Subarray</a></th>
     <th>Easy</th>
   </tr>
+  
+   <tr>
+    <th >70</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84839426">Climbing Stairs</a></th>
+    <th>Easy</th>
+  </tr>
+   <tr>
+    <th >437</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84837693">Path Sum III</a></th>
+    <th >Middle</th>
+  </tr>
+   <tr>
+    <th >*198</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84836482">House Robber</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 3.list
@@ -412,6 +407,13 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84849622">Palindrome Linked List</a></th>
     <th>Easy</th>
   </tr>
+   <tr>
+    <th >155</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84852978">Min Stack</a></th>
+    <th>Easy</th>
+  </tr>
+  
+  
 </table>
 
 ## 4.string
