@@ -9,15 +9,7 @@
     <th width="300">题目内容</th>
     <th width="300">题目难度</th>   
   </tr>
- <tr>
-    <th >66</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84542375">Plus one</a></th>
-    <th>Easy</th>
-  </tr>  <tr>
-    <th >19</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82984093">Remove Nth Node From End of List</a></th>
-    <th>Easy</th>
-  </tr>
+ 
 </table>
 其中加*表示花了很长时间！题目没有进行分类，后期将对题目整理分类！
 
@@ -374,6 +366,12 @@
     <th>Easy</th>
   </tr> 
   
+   <tr>
+    <th >19</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/82984093">Remove Nth Node From End of List</a></th>
+    <th>Easy</th>
+  </tr>
+  
   
 </table>
 
@@ -438,6 +436,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/83048617">Reverse String II</a></th>
     <th>Easy</th>
   </tr>
+  
+  <tr>
+    <th >66</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84542375">Plus one</a></th>
+    <th>Easy</th>
+  </tr> 
 </table>
 
 ## 5.hashtable
