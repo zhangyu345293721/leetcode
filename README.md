@@ -430,6 +430,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84842726">Find All Anagrams in a String</a></th>
     <th>Easy</th>
   </tr>
+  
+   <tr>
+    <th >67</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 4.hashtable
@@ -540,12 +546,7 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/85046785">Binary Tree Inorder Traversal</a></th>
     <th>Middle</th>
   </tr>
-  
-   <tr>
-    <th >67</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104173291">Add Binary</a></th>
-    <th>Easy</th>
-  </tr>
+ 
   <tr>
     <th >538</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84863120">Convert BST to Greater Tree</a></th>
