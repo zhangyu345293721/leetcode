@@ -273,6 +273,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104282307">Play With Chips</a></th>
     <th>Easy</th>
   </tr>
+  
+  <tr>
+    <th >26</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84562766">Remove Duplicates from Sorted Array</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 2.list
@@ -469,11 +475,8 @@
     <th >771</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84567745">Jewels and Stones</a></th>
     <th>Easy</th>
-  </tr> <tr>
-    <th >26</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84562766">Remove Duplicates from Sorted Array</a></th>
-    <th>Easy</th>
-  </tr> <tr>
+  </tr> 
+  <tr>
     <th >167</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84561249">Two Sum II - Input array is sorted</a></th>
     <th>Easy</th>
