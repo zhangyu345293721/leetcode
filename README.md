@@ -257,24 +257,10 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/103976728">Contains Duplicate</a></th>
     <th>Easy</th>
   </tr>
-</table>
-
-## 2.list
-<table border="2" >
-  <tr align="center" >
-    <th width="300">题号</th>
-    <th width="300">题目内容</th>
-    <th width="300">题目难度</th>   
-  </tr>
   
    <tr>
     <th >728</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/103983703">Self Dividing Numbers</a></th>
-    <th>Easy</th>
-  </tr>
-   <tr>
-    <th >733</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104135666">Flood Fill</a></th>
     <th>Easy</th>
   </tr>
   <tr>
@@ -286,6 +272,15 @@
     <th>1217</th>
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/104282307">Play With Chips</a></th>
     <th>Easy</th>
+  </tr>
+</table>
+
+## 2.list
+<table border="2" >
+  <tr align="center" >
+    <th width="300">题号</th>
+    <th width="300">题目内容</th>
+    <th width="300">题目难度</th>   
   </tr>
   <tr>
     <th >114</th>
