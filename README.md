@@ -1,6 +1,6 @@
  #  leetcode算法题目
  ### 题目官网: https://leetcode.com/problemset/all/
-<br>  目前题目java实现，后面增加python实现，后续按照题目类型不断补充题目,类别主要分为：array，list，string，hashtable，math，tree：<br>
+<br>  目前题目java，python实现，按照题目类型不断补充,类型主要分为：array，list，string，hashtable，math，tree：<br>
  ##### 代码的博客地址: https://blog.csdn.net/zy345293721
 
 其中加*表示花了很长时间！题目没有进行分类，后期将对题目整理分类！
