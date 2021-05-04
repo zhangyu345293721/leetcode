@@ -279,6 +279,12 @@
     <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84562766">Remove Duplicates from Sorted Array</a></th>
     <th>Easy</th>
   </tr>
+  
+   <tr>
+    <th >53</th>
+    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84848699">Maximum Subarray</a></th>
+    <th>Easy</th>
+  </tr>
 </table>
 
 ## 2.list
@@ -333,11 +339,7 @@
     <th>Easy</th>
   </tr>
   
-   <tr>
-    <th >53</th>
-    <th><a target="_blank" href="https://blog.csdn.net/zy345293721/article/details/84848699">Maximum Subarray</a></th>
-    <th>Easy</th>
-  </tr>
+  
   
    <tr>
     <th >206</th>
