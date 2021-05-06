@@ -73,6 +73,6 @@ class Solution:
 if __name__ == '__main__':
     arr = [2, 2, 2, 3, 3]
     solution = Solution()
-    times = solution.min_cost_to_move_chips2(arr)
-    print(times)
-    assert times == 2
+    res = solution.min_cost_to_move_chips2(arr)
+    print(res)
+    assert res == 2

@@ -42,16 +42,12 @@ public class AddDigits258 {
             return 0;
         }
         int total = 0;
-        while (num > 0) {
+        while (num != 0) {
             int leftNumber = num % 10;
             total += leftNumber;
             num = num / 10;
         }
-        if (total < 10) {
-            return total;
-        } else {
-            return addDigits(total);
-        }
+        return total < 10 ? total : addDigits(total);
     }
 
     /**

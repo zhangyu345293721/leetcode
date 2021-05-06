@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -42,6 +43,7 @@ public class PlayWithChips1217 {
         int[] chips = {2, 2, 2, 3, 3};
         int steps = minCostToMoveChips2(chips);
         System.out.println(steps);
+        Assert.assertEquals(steps, 2);
     }
 
     /**

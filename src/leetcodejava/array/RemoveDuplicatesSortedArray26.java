@@ -49,9 +49,10 @@ public class RemoveDuplicatesSortedArray26 {
             return 0;
         }
         int index = 0;
-        for (int j = 1; j < nums.length; j++) {
-            if (nums[index] != nums[j]) {
-                nums[++index] = nums[j];
+        for (int j = 0; j < nums.length - 1; j++) {
+            if (nums[j] != nums[j + 1]) {
+                index++;
+                nums[index] = nums[j];
             }
         }
         return index + 1;

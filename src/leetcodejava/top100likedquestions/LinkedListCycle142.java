@@ -62,6 +62,7 @@ public class LinkedListCycle142 {
             return null;
         }
         ListNode slow = head, fast = head;
+        // 先去判断有没有环
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
@@ -75,6 +76,7 @@ public class LinkedListCycle142 {
         if (fast == null || fast.next == null) {
             return null;
         }
+        // 有环然后找出环的位置
         slow = head;
         while (slow != fast) {
             slow = slow.next;

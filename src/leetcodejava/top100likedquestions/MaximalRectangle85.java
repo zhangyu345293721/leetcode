@@ -133,6 +133,9 @@ public class MaximalRectangle85 {
      * @return 面积
      */
     public int largestRectangleHistogram(int[] heights) {
+        if (heights == null || heights.length < 1) {
+            return 0;
+        }
         int area = 0, n = heights.length;
         // 遍历每个柱子，以当前柱子的高度作为矩形的高 h，
         // 从当前柱子向左右遍历，找到矩形的宽度 w。

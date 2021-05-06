@@ -76,7 +76,7 @@ class Solution:
 
 
 if __name__ == '__main__':
-    arr = [2, 3, -2, 4]
+    nums = [2, 3, -2, 4]
     solution = Solution()
-    result = solution.max_product2(arr)
+    result = solution.max_product2(nums)
     assert result == 6

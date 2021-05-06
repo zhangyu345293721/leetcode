@@ -26,6 +26,11 @@ public class ListNode implements Cloneable {
         val = x;
     }
 
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+
     /**
      * 将list转成ListNode
      *

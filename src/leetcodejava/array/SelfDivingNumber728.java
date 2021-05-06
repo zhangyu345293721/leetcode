@@ -52,14 +52,13 @@ public class SelfDivingNumber728 {
      * @return list链表
      */
     public List<Integer> selfDividingNumbers(int left, int right) {
-        List<Integer> list = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
         for (int i = left; i <= right; i++) {
-            boolean flag = judgeSelfDiving(i);
-            if (flag) {
-                list.add(i);
+            if (judgeSelfDiving(i)) {
+                result.add(i);
             }
         }
-        return list;
+        return result;
     }
 
     /**
@@ -69,15 +68,14 @@ public class SelfDivingNumber728 {
      * @return 布尔值
      */
     private boolean judgeSelfDiving(int i) {
-        boolean flag = true;
         int temp = i;
         while (i > 0) {
             int num = i % 10;
             i = i / 10;
             if (num == 0 || temp % num != 0) {
-                flag = false;
+                return false;
             }
         }
-        return flag;
+        return true;
     }
 }

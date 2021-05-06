@@ -47,9 +47,7 @@ public class SortList148 {
             return head;
         }
         ListNode lastNode = getLastNode(head);
-        ListNode l1 = sortList(head);
-        ListNode l2 = sortList(lastNode);
-        return merge(l1, l2);
+        return merge(sortList(head), sortList(lastNode));
     }
 
     /**
@@ -61,16 +59,13 @@ public class SortList148 {
     private ListNode getLastNode(ListNode node) {
         ListNode fast = node;
         ListNode slow = node;
-        ListNode breakPoint = node;
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
-            breakPoint = slow;
             slow = slow.next;
         }
-        breakPoint.next = null;
+        slow.next = null;
         return slow;
     }
-
     /**
      * 合并两个链表
      *

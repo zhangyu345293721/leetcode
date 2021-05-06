@@ -49,7 +49,7 @@ public class FlattenBinaryTreeLinkedList114 {
     public void flattenBinaryTreeLinkedListTest() {
         Integer[] arr = {1, 2, 5, 3, 4, null, 6};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        flatten(root);
+        flatten2(root);
         System.out.println(root);
         Assert.assertEquals(root.val, 1);
     }
