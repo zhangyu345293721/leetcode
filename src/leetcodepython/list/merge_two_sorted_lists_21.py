@@ -50,11 +50,32 @@ class Solution:
             node.next = l1
         return head.next
 
+    def merge_two_lists_2(self, l1: ListNode, l2: ListNode) -> ListNode:
+        '''
+            合并两个链表
+        Args:
+            l1: l1链表
+            l2: l2链表
+        Returns:
+            合并后的链表
+        '''
+        if not l1:
+            return l2
+        if not l2:
+            return l1
+        if l1.val <= l2.val:
+            l1.next = self.merge_two_lists_2(l1.next, l2)
+            return l1
+        else:
+            l2.next = self.merge_two_lists_2(l1, l2.next)
+            return l2
+
 
 if __name__ == '__main__':
     list_node = ListNode()
     l1 = list_node.create_list_node_array([1, 2, 4])
     l2 = list_node.create_list_node_array([1, 3, 4, 5])
     solution = Solution()
-    result = solution.merge_two_lists(l1, l2)
+    result = solution.merge_two_lists_2(l1, l2)
     print(result.val)
+    assert result.val == 1

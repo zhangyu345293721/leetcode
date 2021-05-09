@@ -61,7 +61,7 @@ class Solution:
         Returns:
             头节点
         '''
-        cur, pre, temp = head, None, None
+        cur, pre = head, None
         while cur:
             cur.next, pre, cur = pre, cur, cur.next
         return pre

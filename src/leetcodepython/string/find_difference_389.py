@@ -74,7 +74,7 @@ class Solution:
                 ch_set.remove(ch2)
         else:
             ch_set.add(ch2)
-        return list(ch_set)[0]
+        return ch_set.pop()
 
 
 if __name__ == '__main__':

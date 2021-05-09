@@ -41,8 +41,8 @@ public class ContainsDuplicate217 {
     @Test
     public void containsDuplicateTest() {
         int[] arr = {1, 2, 3, 4};
-        boolean flag = containsDuplicate(arr);
-        Assert.assertEquals(flag, true);
+        boolean result = containsDuplicate(arr);
+        Assert.assertEquals(result, true);
     }
 
     /**
