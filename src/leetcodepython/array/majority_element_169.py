@@ -65,10 +65,47 @@ class Solution:
                 count -= 1
         return majority
 
+    def majority_element3(self, nums: List[int]) -> int:
+        '''
+            大多数元素
+        Args:
+            nums: 数组
+        Returns:
+            元素
+        '''
+        if not nums or len(nums) < 1:
+            return
+        return self.get_majority(nums, 0, len(nums) - 1)
+
+    def get_majority(self, nums: List[int], left: int, right: int) -> int:
+        '''
+            获取大多数元素
+        Args:
+            nums: 数组
+            left: 位置left
+            right: 位置right
+        Returns:
+            int
+        '''
+        if left == right:
+            return nums[left]
+        mid = left + (right - left) // 2
+        left_majority = self.get_majority(nums, left, mid)
+        right_majority = self.get_majority(nums, mid + 1, right)
+        if left_majority == right_majority:
+            return left_majority
+        left_count, right_count = 0, 0
+        for i in range(left, right + 1):
+            if nums[i] == left_majority:
+                left_count += 1
+            if nums[i] == right_majority:
+                right_count += 1
+        return left_majority if left_count > right_count else right_majority
+
 
 if __name__ == '__main__':
     nums = [1, 2, 2, 2, 3]
     solution = Solution()
-    num = solution.majority_element(nums)
+    num = solution.majority_element3(nums)
     print(num)
     assert num == 2

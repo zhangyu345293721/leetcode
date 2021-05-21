@@ -1,6 +1,7 @@
-package leetcodejava.math;
+package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -39,8 +40,9 @@ public class ReverseString344 {
     @Test
     public void reverseStringTest() {
         char[] chs = {'h', 'e', 'l', 'l', 'o'};
-        reverseString(chs);
+        reverseString2(chs);
         System.out.println(Arrays.toString(chs));
+        Assert.assertArrayEquals(chs, new char[]{'o', 'l', 'l', 'e', 'h'});
     }
 
     /**
@@ -59,16 +61,43 @@ public class ReverseString344 {
     }
 
     /**
+     * 倒转字符串数组
+     *
+     * @param s 字符数组
+     */
+    public void reverseString2(char[] s) {
+        if (s == null || s.length < 1) {
+            return;
+        }
+        reverseRecursion(s, 0, s.length - 1);
+        return;
+    }
+
+    /**
+     * 反转字符粗
+     *
+     * @param s     字符串s
+     * @param left  left位置
+     * @param right right位置
+     */
+    private void reverseRecursion(char[] s, int left, int right) {
+        if (left >= right) {
+            return;
+        }
+        reverseRecursion(s, left + 1, right - 1);
+        swap(s, left, right);
+    }
+
+    /**
      * 交换数组中两个字符的位置
      *
-     * @param num 数组
+     * @param s 数组
      * @param i   位置i
      * @param j   位置j
      */
-    public void swap(char[] num, int i, int j) {
-        char temp = num[i];
-        num[i] = num[j];
-        num[j] = temp;
+    public void swap(char[] s, int i, int j) {
+        char temp = s[i];
+        s[i] = s[j];
+        s[j] = temp;
     }
-
 }

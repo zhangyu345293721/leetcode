@@ -33,7 +33,7 @@ public class MajorityElement169 {
     @Test
     public void majorityElementTest() {
         int[] nums = {3, 2, 2, 2, 3};
-        int majorElement = majorityElement2(nums);
+        int majorElement = majorityElement3(nums);
         System.out.println(majorElement);
         Assert.assertEquals(majorElement, 2);
     }
@@ -77,5 +77,49 @@ public class MajorityElement169 {
             }
         }
         return major;
+    }
+
+    /**
+     * 找出一个数的个数大于数组中一半的长度
+     *
+     * @param nums 数组
+     * @return int类型
+     */
+    private int majorityElement3(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return -1;
+        }
+        return getMajority(nums, 0, nums.length - 1);
+    }
+
+    /**
+     * 获取最大多元素
+     *
+     * @param nums  元素数组
+     * @param left  左边位置
+     * @param right 右边位置
+     * @return 最多元素
+     */
+    private int getMajority(int[] nums, int left, int right) {
+        if (left == right) {
+            return nums[left];
+        }
+        int mid = left + (right - left) / 2;
+        int leftMajority = getMajority(nums, left, mid);
+        int rightMajority = getMajority(nums, mid + 1, right);
+        if (leftMajority == rightMajority) {
+            return leftMajority;
+        }
+        int leftCount = 0;
+        int rightCount = 0;
+        for (int i = left; i <= right; i++) {
+            if (nums[i] == leftMajority) {
+                leftCount++;
+            }
+            if (nums[i] == rightMajority) {
+                rightCount++;
+            }
+        }
+        return leftCount > rightCount ? leftMajority : rightMajority;
     }
 }
