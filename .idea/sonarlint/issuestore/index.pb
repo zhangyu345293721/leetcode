@@ -959,3 +959,9 @@ k
 ;src/leetcodepython/list/remove_nth_node_from_end_list_19.py,0\b\0b037843b25fdec83f605332b9c6ca416da5909f
 e
 5src/leetcodejava/list/RemoveNthNodeFromEndList19.java,5\2\528c24440a2bd832c49a927e74d9bca923b8680e
+Y
+)src/leetcodepython/math/word_search_79.py,f\1\f1bdc4c2c1102c6305d09b21f84d05a233752208
+i
+9src/leetcodepython/array/minimum_size_subarray_sum_209.py,2\0\20f7b1260472e2b9f12509cf7ba142e53c1c2588
+e
+5src/leetcodejava/array/MinimumSizeSubarraySum209.java,7\9\79daf3f454bc866a90200eff51b1f266796c2177

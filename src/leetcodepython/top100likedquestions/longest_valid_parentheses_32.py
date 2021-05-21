@@ -87,9 +87,48 @@ class Solution:
                         dp[index] = pairs
         return max(dp) * 2
 
+    def get_longest_valid_parentheses3(self, s: List[str]) -> int:
+        '''
+            遍历所有的括号,计算有效字符串
+        Args:
+            s: 字符串
+        Returns:
+            匹配字符串长度
+        '''
+        if not s or len(s) < 1:
+            return 0
+        result = 0
+        for i in range(len(s) - 1):
+            j = i + 2
+            while j <= len(s):
+                if self.is_valid(s[i:j]):
+                    result = max(result, len(s[i:j]))
+                j += 2
+        return result
+
+    def is_valid(self, sub_s: str):
+        '''
+            判断是否是合法括号
+        Args:
+            sub_s: 字符串
+        Returns:
+            布尔值
+        '''
+        stack = []
+        for ch in sub_s:
+            if ch == '(':
+                stack.append(ch)
+            else:
+                if len(stack) > 0 and stack[-1] == '(':
+                    stack.pop(-1)
+                else:
+                    return False
+        return len(stack) == 0
+
 
 if __name__ == '__main__':
     s = '()('
     solution = Solution()
-    max_len = solution.get_longest_valid_parentheses2(s)
+    max_len = solution.get_longest_valid_parentheses3(s)
+    print(max_len)
     assert max_len == 2

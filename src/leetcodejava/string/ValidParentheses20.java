@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Deque;
@@ -53,8 +54,9 @@ public class ValidParentheses20 {
     @Test
     public void validParenthesesTest() {
         String str = "{[]}";
-        boolean b = isValid(str);
-        System.out.println(b);
+        boolean result = isValid(str);
+        System.out.println(result);
+        Assert.assertEquals(result, false);
     }
 
     /**

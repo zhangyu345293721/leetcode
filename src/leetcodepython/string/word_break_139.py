@@ -33,7 +33,7 @@
  * ==========================================================================================================
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
- */4
+ */
 '''
 from typing import List
 
@@ -48,14 +48,32 @@ class Solution:
         Returns:
             布尔值
         '''
-        length = len(word_dict)
+        length = len(s)
+        f = [False for i in range(length + 1)]
+        f[0] = True
+        for i in range(length):
+            for j in range(i + 1, length + 1):
+                if f[i] and (s[i:j] in word_dict):
+                    f[j] = True
+        return f[length]
+
+    def word_break2(self, s: str, word_dict: List[str]) -> bool:
+        '''
+            判断一个单词是不是分成这个数组
+        Args:
+            s: 字符串
+            word_dict: 字符表
+        Returns:
+            布尔值
+        '''
+        length = len(s)
         f = [False for i in range(length + 1)]
         f[0] = True
         for i in range(1, length + 1):
             for j in range(i):
                 if f[j] and (s[j:i] in word_dict):
                     f[i] = True
-                    break;
+                    break
         return f[length]
 
 
@@ -63,6 +81,6 @@ if __name__ == '__main__':
     s = "leetcode"
     word_dict = ["leet", "code"]
     solution = Solution()
-    flag = solution.word_break(s, word_dict)
+    flag = solution.word_break2(s, word_dict)
     print(flag)
-    assert flag == False
+    assert flag == True

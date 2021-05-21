@@ -54,18 +54,18 @@ class Solution:
             所有字符串下标
         '''
         result = []
-        n = len(s)
-        l = len(p)
+        len_n = len(s)
+        len_p = len(p)
         ch_p = [0] * 26
         ch_s = [0] * 26
         for ch in p:
             ch_p[ord(ch) - ord('a')] += 1
-        for i in range(n):
-            if i >= l:
-                ch_s[ord(s[i - 1]) - ord('a')] -= 1
+        for i in range(len_n):
+            if i >= len_p:
+                ch_s[ord(s[i - len_p]) - ord('a')] -= 1
             ch_s[ord(s[i]) - ord('a')] += 1
             if ch_s == ch_p:
-                result.append(i - l + 1)
+                result.append(i - len_p + 1)
         return result
 
 
@@ -75,3 +75,4 @@ if __name__ == '__main__':
     solution = Solution()
     result = solution.find_all_anagrams(s, p)
     print(result)
+    assert result == [1]

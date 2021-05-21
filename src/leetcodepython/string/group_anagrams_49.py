@@ -36,7 +36,7 @@ from typing import List
 
 
 class Solution:
-    def group_anagrams1(self, arr: List[str]) -> List[str]:
+    def group_anagrams1(self, strs: List[str]) -> List[str]:
         '''
             字符串
         Args:
@@ -44,13 +44,13 @@ class Solution:
         Returns:
             链表
         '''
-        dic = {}
-        for ele in arr:
+        str_dict = {}
+        for ele in strs:
             sorted_str = self.get_sort_str(ele)
-            if sorted_str not in dic:
-                dic[sorted_str] = []
-            dic[sorted_str].append(ele)
-        return list(dic.values())
+            if sorted_str not in str_dict:
+                str_dict[sorted_str] = []
+            str_dict[sorted_str].append(ele)
+        return list(str_dict.values())
 
     def get_sort_str(self, s: str) -> str:
         '''
@@ -60,6 +60,8 @@ class Solution:
         Returns:
             排序后字符串
         '''
+        if not s or len(s) < 1:
+            return None
         s = sorted(list(s))
         return ''.join(s)
 
@@ -71,15 +73,15 @@ class Solution:
         Returns:
             链表
         '''
-        dic = {}
+        words_dict = {}
         for str in strs:
-            key = self.invert_to_num(str)
-            if key not in dic:
-                dic[key] = []
-            dic[key].append(str)
-        return list(dic.values())
+            word_key = self.word_to_num(str)
+            if word_key not in words_dict:
+                words_dict[word_key] = []
+            words_dict[word_key].append(str)
+        return list(words_dict.values())
 
-    def invert_to_num(self, s: str) -> int:
+    def word_to_num(self, s: str) -> int:
         '''
             将字符串转成素数
         Args:
@@ -96,8 +98,8 @@ class Solution:
 
 
 if __name__ == '__main__':
-    strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+    words = ["eat", "tea", "tan", "ate", "nat", "bat"]
     solution = Solution()
-    str_list = solution.group_anagrams1(strs)
-    print(str_list)
-    assert str_list == [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]
+    result = solution.group_anagrams1(words)
+    print(result)
+    assert result == [['eat', 'tea', 'ate'], ['tan', 'nat'], ['bat']]

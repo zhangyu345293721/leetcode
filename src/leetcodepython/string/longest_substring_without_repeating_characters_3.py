@@ -37,7 +37,7 @@
 
 
 class Solution:
-    def length_of_longest_substring2(self, s: str) -> bool:
+    def length_of_longest_substring(self, s: str) -> bool:
         '''
             最大无重复字符串
         Args:
@@ -52,22 +52,6 @@ class Solution:
                 left = max(left, str_map.get(s[i]) + 1)
             str_map[s[i]] = i
             max_length = max(max_length, i - left + 1)
-        return max_length
-
-    def length_of_longest_substring(self, s: str) -> bool:
-        '''
-            最大无重复字符串
-        Args:
-            s: 字符串
-        Returns:
-            长度
-        '''
-        max_length = 0
-        for i in range(len(s)):
-            for j in range(i + 1, len(s) + 1):
-                sub = s[i:j]
-                if len(set(sub)) == len(sub):
-                    max_length = max(max_length, len(sub))
         return max_length
 
 

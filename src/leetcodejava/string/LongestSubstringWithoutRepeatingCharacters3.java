@@ -4,8 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * This is the solution of No.3 problem in the LeetCode,
@@ -45,47 +43,9 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
     @Test
     public void pairsOfParenthesesTest() {
         String s = "abba";
-        int length = lengthOfLongestSubstring2(s);
+        int length = lengthOfLongestSubstring(s);
         System.out.println(length);
         Assert.assertEquals(length, 2);
-    }
-
-    /**
-     * 最长无重复字符串
-     *
-     * @param s 字符串
-     * @return 长度
-     */
-    public int lengthOfLongestSubstring(String s) {
-        if (s == null || s.length() < 1) {
-            return 0;
-        }
-        int length = s.length();
-        int maxLength = 0;
-        for (int i = 0; i < length; i++) {
-            for (int j = i + 1; j < length + 1; j++) {
-                String sub = s.substring(i, j);
-                boolean flag = judgeNoRepeat(sub);
-                if (flag) {
-                    maxLength = Math.max(maxLength, sub.length());
-                }
-            }
-        }
-        return maxLength;
-    }
-
-    /**
-     * 判断字符串有没有重复字符串
-     *
-     * @param sub 子字符串
-     * @return 布尔值
-     */
-    private boolean judgeNoRepeat(String sub) {
-        Set<Character> set = new HashSet<>();
-        for (char ch : sub.toCharArray()) {
-            set.add(ch);
-        }
-        return set.size() == sub.length();
     }
 
     /**
@@ -94,8 +54,8 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
      * @param s 字符串
      * @return 长度S
      */
-    public int lengthOfLongestSubstring2(String s) {
-        if (s.length() == 0) {
+    public int lengthOfLongestSubstring(String s) {
+        if (s == null || s.length() == 0) {
             return 0;
         }
         HashMap<Character, Integer> map = new HashMap<>();

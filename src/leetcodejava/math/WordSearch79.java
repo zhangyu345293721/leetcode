@@ -1,5 +1,6 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -38,8 +39,9 @@ public class WordSearch79 {
                         {'c', 'd'}
                 };
         String word = "abdc";
-        boolean flag = exist(board, word);
-        System.out.println(flag);
+        boolean result = exist(board, word);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**
@@ -50,12 +52,14 @@ public class WordSearch79 {
      * @return 布尔值
      */
     public boolean exist(char[][] board, String word) {
-        boolean[][] visited = new boolean[board.length][board[0].length];
         if (word == null || word.length() == 0) {
             return true;
         }
-        for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board[0].length; j++) {
+        int m = board.length;
+        int n = board[0].length;
+        boolean[][] visited = new boolean[m][n];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 if (board[i][j] == word.charAt(0) && dfs(board, word, i, j, 0, visited)) {
                     return true;
                 }

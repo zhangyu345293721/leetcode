@@ -43,10 +43,10 @@ public class ReverseList206 {
         if (head == null || head.next == null) {
             return head;
         }
-        ListNode node = reverseList(head.next);
+        ListNode pre = reverseList(head.next);
         head.next.next = head;
         head.next = null;
-        return node;
+        return pre;
     }
 
     /**

@@ -1,9 +1,14 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
+
 /**
- * This is the solution of No.945 problem in the LeetCode,
+ * This is the solution of No.496 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/next-greater-element-i
  * <p>
@@ -38,10 +43,11 @@ public class NextGreaterElement496 {
 
     @Test
     public void nextGreaterElementTest() {
-        int[] nums1 = {2, 4};
-        int[] nums2 = {1, 2, 3, 4};
-        int[] array = nextGreaterElement(nums1, nums2);
-        System.out.println(array);
+        int[] nums1 = {4, 1, 2};
+        int[] nums2 = {1, 3, 4, 2};
+        int[] result = nextGreaterElement(nums1, nums2);
+        System.out.println(result);
+        Assert.assertArrayEquals(result, new int[]{-1, 3, -1});
     }
 
     /**
@@ -52,47 +58,59 @@ public class NextGreaterElement496 {
      * @return 数组
      */
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
-        int[] newArr = new int[nums1.length];
-        for (int i = 0; i < nums1.length; i++) {
-            int element = getNumber(nums2, nums1[i]);
-            newArr[i] = element;
-        }
-        return newArr;
-    }
-
-    /**
-     * 找出nums2中有没有元素大于num
-     *
-     * @param nums2 数组num2
-     * @param num   数字
-     * @return 返回数
-     */
-    private int getNumber(int[] nums2, int num) {
-        int index = getIndex(nums2, num);
-        if (index == nums2.length - 1) {
-            return -1;
-        }
-        for (int i = index + 1; i < nums2.length; i++) {
-            if (nums2[i] > num) {
-                return nums2[i];
+        Stack<Integer> stack = new Stack<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int num : nums2) {
+            while (!stack.isEmpty() && stack.peek() < num) {
+                map.put(stack.pop(), num);
             }
+            stack.push(num);
         }
-        return -1;
+        while (!stack.isEmpty()) {
+            map.put(stack.pop(), -1);
+        }
+        int[] res = new int[nums1.length];
+        int i = 0;
+        for (int num : nums1) {
+            res[i++] = map.get(num);
+        }
+        return res;
     }
 
+
     /**
-     * 获取树
+     * 下一个数组中大的
      *
+     * @param nums1 数组1
      * @param nums2 数组2
-     * @param num   数字
-     * @return 下标
+     * @return 数组
      */
-    private int getIndex(int[] nums2, int num) {
-        for (int i = 0; i < nums2.length; i++) {
-            if (num == nums2[i]) {
-                return i;
+    public int[] nextGreaterElement2(int[] nums1, int[] nums2) {
+        int[] result = new int[nums1.length];
+        Stack<Integer> stack = new Stack<>();
+        int i = 0;
+        for (int num : nums2) {
+            stack.push(num);
+        }
+        for (int num : nums1) {
+            Stack<Integer> temp = new Stack<>();
+            boolean isFound = false;
+            int max = -1;
+            while (!stack.isEmpty() && !isFound) {
+                int top = stack.pop();
+                if (top > num) {
+                    max = top;
+                } else if (top == num) {
+                    isFound = true;
+                }
+                temp.add(top);
+            }
+            result[i] = max;
+            i++;
+            while (!temp.isEmpty()) {
+                stack.push(temp.pop());
             }
         }
-        return -1;
+        return result;
     }
 }

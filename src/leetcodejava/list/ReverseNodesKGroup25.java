@@ -71,6 +71,6 @@ public class ReverseNodesKGroup25 {
             prev = curr;
             curr = prev.next;
         }
-        return dummy.next;
+        return head;
     }
 }

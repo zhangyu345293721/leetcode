@@ -63,13 +63,13 @@ class Solution:
             if ch == '[' or ch == '(' or ch == '{':
                 stack.append(ch)
             elif ch == ']':
-                if not stack or stack.pop() != '[':
+                if len(stack) > 0 or stack.pop() != '[':
                     return False
             elif ch == ')':
-                if not stack or stack.pop() != '(':
+                if len(stack) > 0 or stack.pop() != '(':
                     return False
             else:
-                if not stack or stack.pop() != '{':
+                if len(stack) > 0 or stack.pop() != '{':
                     return False
         return not stack
 
@@ -89,7 +89,7 @@ class Solution:
                 stack.append(')')
             elif ch == '{':
                 stack.append('}')
-            elif not stack or ch != stack.pop():
+            elif len(stack) > 0 or ch != stack.pop():
                 return False
         return not stack
 
@@ -97,6 +97,6 @@ class Solution:
 if __name__ == '__main__':
     a = '()'
     solution = Solution()
-    num = solution.is_valid2(a)
-    print(num)
-    assert num == True
+    result = solution.is_valid2(a)
+    print(result)
+    assert result == True

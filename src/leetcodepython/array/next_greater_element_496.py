@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 '''
 /**
- * This is the solution of No.945 problem in the LeetCode,
+ * This is the solution of No.496 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/next-greater-element-i
  * <p>
@@ -38,39 +38,29 @@ from typing import List
 
 class Solution:
 
-    def get_index(self, num: int, nums2: List[int]) -> int:
-        '''
-            获取数组下标
-        Args:
-            num: 数字1
-            nums2: 数组
-        Returns:
-            下标
-        '''
-        for i in range(len(nums2)):
-            if num == nums2[i]:
-                return i
-        return -1
-
-    def get_number(self, nums2: List[int], num: int) -> int:
-        '''
-            获取结果数组
-        Args:
-            index: 下标
-            nums2: 数组2
-            num:  数字
-        Returns:
-            结果数
-        '''
-        index = self.get_index(num, nums2)
-        if (index == len(nums2) - 1):
-            return -1
-        for i in range(index + 1, len(nums2)):
-            if nums2[i] > num:
-                return nums2[i]
-        return -1
-
     def next_greater_element(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        '''
+            获取比较大的数组
+        Args:
+            nums1: 数组1
+            nums2: 数组2
+        Returns:
+            结果数组
+        '''
+        greater_dict = {}
+        stack = []
+        result = []
+        for num in nums2:
+            while len(stack) > 0 and stack[-1] < num:
+                greater_dict[stack.pop(-1)] = num
+            stack.append(num)
+        while len(stack) > 0:
+            greater_dict[stack.pop(-1)] = -1
+        for num in nums1:
+            result.append(greater_dict[num])
+        return result
+
+    def next_greater_element_2(self, nums1: List[int], nums2: List[int]) -> List[int]:
         '''
             获取比较大的数组
         Args:
@@ -79,16 +69,31 @@ class Solution:
         Returns:
             新数组
         '''
-        arr = []
+        res = []
+        stack = []
+        for num in nums2:
+            stack.append(num)
         for num in nums1:
-            result = self.get_number(nums2, num)
-            arr.append(result)
-        return arr
+            max_num = -1
+            temp = []
+            is_found = False
+            while len(stack) > 0 and not is_found:
+                top = stack.pop()
+                if top > num:
+                    max_num = top
+                elif top == num:
+                    is_found = True
+                temp.append(top)
+            res.append(max_num)
+            while len(temp) > 0:
+                stack.append(temp.pop())
+        return res
 
 
 if __name__ == '__main__':
     nums1 = [2, 4]
     nums2 = [1, 2, 3, 4]
     solution = Solution()
-    arr = solution.next_greater_element(nums1, nums2)
-    assert len(arr) == 2
+    result = solution.next_greater_element_2(nums1, nums2)
+    print(result)
+    assert len(result) == 2

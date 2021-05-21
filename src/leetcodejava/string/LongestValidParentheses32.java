@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Stack;
@@ -38,47 +39,7 @@ public class LongestValidParentheses32 {
         String s = "()";
         int validLength = longestValidParentheses2(s);
         System.out.println(validLength);
-    }
-
-    /**
-     * 最长有效括号
-     *
-     * @param s 输入字符串
-     * @return 最长数
-     */
-    public int longestValidParentheses(String s) {
-        int maxLen = 0;
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 2; j <= s.length(); j += 2) {
-                String sub = s.substring(i, j);
-                if (isValid(sub)) {
-                    maxLen = Math.max(maxLen, j - i);
-                }
-            }
-        }
-        return maxLen;
-    }
-
-    /**
-     * 判断字符串是不是合法字符串
-     *
-     * @param subStr 子字符串
-     * @return 布尔值
-     */
-    public boolean isValid(String subStr) {
-        Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < subStr.length(); i++) {
-            if (subStr.charAt(i) == '(') {
-                stack.push('(');
-            } else {
-                if (!stack.empty() && stack.peek() == '(') {
-                    stack.pop();
-                } else {
-                    return false;
-                }
-            }
-        }
-        return stack.empty();
+        Assert.assertEquals(validLength, 2);
     }
 
     /**
@@ -114,7 +75,7 @@ public class LongestValidParentheses32 {
                 maxPairs = num;
             }
         }
-        return maxPairs*2;
+        return maxPairs * 2;
     }
 
     /**
@@ -123,7 +84,7 @@ public class LongestValidParentheses32 {
      * @param s 输入字符串
      * @return 最长数
      */
-    public int longestValidParentheses3(String s) {
+    public int longestValidParentheses(String s) {
         int left = 0, right = 0, maxlength = 0;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
@@ -151,5 +112,46 @@ public class LongestValidParentheses32 {
             }
         }
         return maxlength;
+    }
+
+    /**
+     * 最长有效括号
+     *
+     * @param s 输入字符串
+     * @return 最长数
+     */
+    public int longestValidParentheses3(String s) {
+        int maxLen = 0;
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i + 2; j <= s.length(); j += 2) {
+                String sub = s.substring(i, j);
+                if (isValid(sub)) {
+                    maxLen = Math.max(maxLen, j - i);
+                }
+            }
+        }
+        return maxLen;
+    }
+
+    /**
+     * 判断字符串是不是合法字符串
+     *
+     * @param subStr 子字符串
+     * @return 布尔值
+     */
+    public boolean isValid(String subStr) {
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < subStr.length(); i++) {
+            if (subStr.charAt(i) == '(') {
+                stack.push('(');
+            } else {
+                if (!stack.empty() && stack.peek() == '(') {
+                    stack.pop();
+                } else {
+                    return false;
+                }
+            }
+        }
+        return stack.empty();
     }
 }
