@@ -45,12 +45,12 @@ class Solution:
         Returns:
             长度
         '''
-        str_map = {}
+        hashtable = {}
         left, max_length = 0, 0
         for i in range(len(s)):
-            if s[i] in str_map:
-                left = max(left, str_map.get(s[i]) + 1)
-            str_map[s[i]] = i
+            if s[i] in hashtable:
+                left = max(left, hashtable.get(s[i]) + 1)
+            hashtable[s[i]] = i
             max_length = max(max_length, i - left + 1)
         return max_length
 

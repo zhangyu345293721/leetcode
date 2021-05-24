@@ -31,6 +31,7 @@ public class ArrayPartition561 {
     public void arrayPartitionTest() {
         int nums[] = {1, 2, 3, 4};
         int sum = arrayPairSum(nums);
+        System.out.println(sum);
         Assert.assertEquals(sum, 4);
     }
 

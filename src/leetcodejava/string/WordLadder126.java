@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -61,6 +62,7 @@ public class WordLadder126 {
         List<String> wordList = new ArrayList<>(Arrays.asList("hot", "dot", "dog", "lot", "log", "cog"));
         List<List<String>> ladders = findLadders(beginWord, endWord, wordList);
         System.out.println(ladders);
+        Assert.assertEquals(ladders.get(0).get(0), "hit");
     }
 
     /**

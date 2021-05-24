@@ -45,9 +45,10 @@ class Solution:
         i = 0
         j = len(nums) - 1
         while i < j:
-            if nums[i] + nums[j] < target:
+            total = nums[i] + nums[j]
+            if total < target:
                 i += 1
-            elif nums[i] + nums[j] > target:
+            elif total > target:
                 j -= 1
             else:
                 return [i + 1, j + 1]
@@ -55,9 +56,9 @@ class Solution:
 
 
 if __name__ == '__main__':
-    arr = [2, 5, 7, 11]
+    nums = [2, 5, 7, 11]
     target = 7
     solution = Solution()
-    result = solution.two_sum(arr, target)
+    result = solution.two_sum(nums, target)
     print(result)
     assert result == [1, 2]

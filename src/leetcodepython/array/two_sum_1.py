@@ -37,33 +37,19 @@ class Solution:
         Returns:
             目标值下标
         '''
-        for i in range(len(nums) - 1):
-            for j in range(i + 1, len(nums)):
-                if nums[i] + nums[j] == target:
-                    return [i, j]
-        return [-1, -1]
-
-    def two_sum2(self, nums: List[int], target: int) -> int:
-        '''
-            计算组成和下标
-        Args:
-            nums: 数组
-            target: 目标值
-        Returns:
-            目标值下标
-        '''
-        nums_dict = {}
+        hashtable = {}
         for i in range(len(nums)):
-            if (target - nums[i]) in nums_dict:
-                return [nums_dict[target - nums[i]], i]
+            if (target - nums[i]) in hashtable:
+                return [hashtable[target - nums[i]], i]
             else:
-                nums_dict[nums[i]] = i
+                hashtable[nums[i]] = i
         return [-1, -1]
 
 
 if __name__ == '__main__':
-    arr = [2, 5, 7, 11]
+    nums = [2, 5, 7, 11]
     target = 7
     solution = Solution()
-    result = solution.two_sum(arr, target)
+    result = solution.two_sum(nums, target)
+    print(result)
     assert result == [0, 1]

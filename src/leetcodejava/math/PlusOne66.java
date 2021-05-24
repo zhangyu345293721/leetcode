@@ -55,35 +55,30 @@ public class PlusOne66 {
      * @return 数组
      */
     private int[] plusOne(int[] digits) {
-        if (digits == null) {
+        if (digits == null || digits.length < 1) {
             return new int[0];
         }
-        List<Integer> digitList = new ArrayList<>();
-        int length = digits.length;
-        // 是否进位
         int count = 1;
-        for (int i = length - 1; i >= 0; i--) {
-            if (count == 0) {
-                digitList.add(0, digits[i]);
-            } else {
-                int num = digits[i] + 1;
-                if (num > 9) {
-                    digitList.add(0, 0);
+        int i = digits.length - 1;
+        List<Integer> list = new ArrayList<>();
+        while (i >= 0) {
+            int sum = digits[i] + 1;
+            if (count == 1) {
+                if (sum > 9) {
+                    list.add(0, 0);
                 } else {
-                    digitList.add(0, num);
+                    list.add(0, sum);
                     count = 0;
                 }
+            } else {
+                list.add(0, sum);
             }
+            i--;
         }
         if (count == 1) {
-            digitList.add(0, 1);
+            list.add(0, 1);
         }
-        int[] result = new int[digitList.size()];
-        int index = 0;
-        for (int num : digitList) {
-            result[index++] = num;
-        }
-        return result;
+        return list.stream().mapToInt(e -> e.intValue()).toArray();
     }
 
     /**

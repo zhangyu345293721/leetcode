@@ -43,8 +43,7 @@ public class AddDigits258 {
         }
         int total = 0;
         while (num != 0) {
-            int leftNumber = num % 10;
-            total += leftNumber;
+            total += num % 10;
             num = num / 10;
         }
         return total < 10 ? total : addDigits(total);

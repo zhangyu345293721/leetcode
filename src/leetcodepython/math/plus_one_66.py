@@ -69,8 +69,8 @@ class Solution:
         Returns:
             加1后结果
         '''
-        if not digits:
-            return digits
+        if not digits or len(digits) < 1:
+            return []
         i = len(digits) - 1
         while i >= 0:
             if digits[i] != 9:

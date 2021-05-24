@@ -49,11 +49,11 @@ public class BestTimeBuy122 {
             return 0;
         }
         int curMin = prices[0];
-        int ans = 0;
+        int result = 0;
         for (int i = 1; i < prices.length; i++) {
-            ans += Math.max(prices[i] - curMin, 0);
+            result += Math.max(prices[i] - curMin, 0);
             curMin = prices[i];
         }
-        return ans;
+        return result;
     }
 }

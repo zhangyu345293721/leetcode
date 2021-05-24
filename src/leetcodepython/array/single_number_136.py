@@ -39,6 +39,8 @@ class Solution:
         Returns:
             数字
         '''
+        if not nums or len(nums) < 1:
+            return -1
         num_set = set()
         for ele in nums:
             if ele in num_set:
@@ -55,6 +57,8 @@ class Solution:
        Returns:
            数字
        '''
+        if not nums or len(nums) < 1:
+            return -1
         res = nums[0]
         for i in range(1, len(nums)):
             res ^= nums[i]
@@ -62,8 +66,8 @@ class Solution:
 
 
 if __name__ == '__main__':
-    arr = [2, 3, 3, 2, 4]
+    nums = [2, 3, 3, 2, 4]
     solution = Solution()
-    element = solution.single_number(arr)
+    element = solution.single_number(nums)
     print(element)
     assert element == 4

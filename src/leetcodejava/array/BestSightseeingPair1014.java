@@ -39,8 +39,8 @@ public class BestSightseeingPair1014 {
     @Test
     public void bestSightseeingPairTest() {
         int[] A = {8, 1, 5, 2, 6};
-        int result = maxScoreSightseeingPair(A);
-        Assert.assertEquals(result, 4);
+        int result = maxScoreSightseeingPair2(A);
+        Assert.assertEquals(result, 11);
     }
 
     /**
@@ -50,6 +50,9 @@ public class BestSightseeingPair1014 {
      * @return 观景最大值
      */
     public int maxScoreSightseeingPair(int[] A) {
+        if (A == null || A.length < 1) {
+            return Integer.MIN_VALUE;
+        }
         int length = A.length;
         int result = Integer.MIN_VALUE;
         for (int i = 0; i < length; i++) {
@@ -65,12 +68,15 @@ public class BestSightseeingPair1014 {
 
     /**
      * 分别去数组最大值
-     * 求最大值公式：total=A[i]+A[j]-i-j;可以分成量部分：A[i]+i 和A[j]-j的最大值
+     * 求最大值公式：total=A[i]+A[j]+i-j;可以分成量部分：A[i]+i 和A[j]-j的最大值
      *
      * @param A 数组A
      * @return 最大值
      */
     public int maxScoreSightseeingPair2(int[] A) {
+        if (A == null || A.length < 1) {
+            return Integer.MIN_VALUE;
+        }
         int left = A[0], res = Integer.MIN_VALUE;
         for (int j = 1; j < A.length; j++) {
             res = Math.max(res, left + A[j] - j);

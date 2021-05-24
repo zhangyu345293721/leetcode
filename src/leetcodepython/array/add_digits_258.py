@@ -33,15 +33,13 @@ class Solution:
         Returns:
             固定值
         '''
+        if num < 9:
+            return num
         total = 0
         while num > 0:
-            left_number = num % 10
-            total += left_number
+            total += num % 10
             num = num // 10
-        if total < 10:
-            return total
-        else:
-            return self.add_digits(total)
+        return total if total < 9 else self.add_digits(total)
 
     def add_digits2(self, num: int) -> int:
         '''
@@ -59,6 +57,6 @@ class Solution:
 if __name__ == '__main__':
     num = 38
     solution = Solution()
-    result = solution.add_digits2(num)
+    result = solution.add_digits(num)
     print(result)
     assert result == 2

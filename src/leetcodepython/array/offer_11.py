@@ -1,9 +1,5 @@
-package leetcodejava.array;
-
-
-import org.junit.Assert;
-import org.junit.Test;
-
+# -*- coding:utf-8 -*-
+'''
 /**
  * This is the solution of No.offer 11 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -30,38 +26,36 @@ import org.junit.Test;
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
-public class Offer11 {
+'''
+from typing import List
 
-    @Test
-    public void offerTest() {
-        int numbers[] = {3, 4, 5, 1, 2};
-        int result = minArray(numbers);
-        System.out.println(result);
-        Assert.assertEquals(result, 1);
-    }
 
-    /**
-     * 旋转数组的最小数字
-     *
-     * @param numbers 数组
-     * @return 最小数
-     */
-    public int minArray(int[] numbers) {
-        if (numbers == null || numbers.length < 1) {
-            return Integer.MIN_VALUE;
-        }
-        int l = 0, r = numbers.length - 1;
-        while (l < r) {
-            int mid = (r - l) / 2 + l;
-            // 只要右边比中间大，那右边一定是有序数组
-            if (numbers[r] > numbers[mid]) {
-                r = mid;
-            } else if (numbers[r] < numbers[mid]) {
-                l = mid + 1;
-            } else {
-                r--;
-            }
-        }
-        return numbers[l];
-    }
-}
+class Solution:
+    def min_array(self, nums: List[int]) -> int:
+        '''
+            找到最小数字
+        Args:
+            nums: 数组
+            target: 目标值
+        Returns:
+            数组下标
+        '''
+        l = 0
+        r = len(nums) - 1
+        while l < r:
+            mid = (l + r) // 2
+            if nums[mid] < nums[r]:
+                r = mid
+            elif nums[mid] > nums[r]:
+                l = mid + 1
+            else:
+                r -= 1
+        return nums[l]
+
+
+if __name__ == '__main__':
+    nums = [3, 4, 5, 1, 2]
+    solution = Solution()
+    result = solution.min_array(nums)
+    print(result)
+    assert result == 1

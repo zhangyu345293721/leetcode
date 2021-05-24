@@ -48,6 +48,9 @@ public class TwoSum167 {
      * @return 下标数组
      */
     public int[] twoSum(int[] numbers, int target) {
+        if (numbers == null) {
+            return new int[0];
+        }
         int i = 0;
         int j = numbers.length - 1;
         while (i < j) {

@@ -35,9 +35,9 @@ public class SingleNumber136 {
 
     @Test
     public void singleNumberTest() {
-        int[] arr = {2, 3, 3, 2, 4};
-        int num = singleNumber1(arr);
-        Assert.assertEquals(num, 4);
+        int[] nums = {2, 3, 3, 2, 4};
+        int result = singleNumber1(nums);
+        Assert.assertEquals(result, 4);
     }
 
     /**
@@ -47,6 +47,9 @@ public class SingleNumber136 {
      * @return 单个数
      */
     private int singleNumber1(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return Integer.MIN_VALUE;
+        }
         Set<Integer> set = new HashSet<>();
         for (int ele : nums) {
             if (set.contains(ele)) {
@@ -65,6 +68,9 @@ public class SingleNumber136 {
      * @return 单个数
      */
     private int singleNumber2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return Integer.MIN_VALUE;
+        }
         int singleNumber = nums[0];
         for (int i = 1; i < nums.length; i++) {
             singleNumber ^= nums[i];
