@@ -69,17 +69,13 @@ class Solution:
         year, month, day = date.split('-')
         days = 0
         day_months = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-        if self.is_leep(int(year)):
+        if self.is_leap(int(year)):
             day_months[2] += 1
-            for i in range(int(month)):
-                days += day_months[i]
-        else:
-            for i in range(int(month)):
-                days += day_months[i]
-        days += int(day)
-        return days
+        for i in range(int(month)):
+            days += day_months[i]
+        return days+int(day)
 
-    def is_leep(self, year: int) -> bool:
+    def is_leap(self, year: int) -> bool:
         '''
             判断是不是闰年
         Args:

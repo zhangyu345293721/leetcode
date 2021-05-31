@@ -70,49 +70,4 @@ public class LongestPalindromicSubstring5 {
         }
         return s.substring(i + 1, j);
     }
-
-    /**
-     * 暴力算法，寻找最长回文串
-     *
-     * @param s 最大字符串
-     * @return 最大字符串
-     */
-    private String longestPalindromicSubstring2(String s) {
-        String maxStr = "";
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 1; j < s.length() + 1; j++) {
-                String sub = s.substring(i, j);
-                boolean palindromicFlag = isPalindromicSubstring(sub);
-                if (palindromicFlag) {
-                    if (maxStr.length() < sub.length()) {
-                        maxStr = sub;
-                    }
-                }
-            }
-        }
-        return maxStr;
-    }
-
-    /**
-     * 判断一个字符串是回文串
-     *
-     * @param sub 字符串
-     * @return 布尔值
-     */
-    private boolean isPalindromicSubstring(String sub) {
-        if (sub == null || sub.length() < 1) {
-            return true;
-        }
-        int i = 0;
-        int j = sub.length() - 1;
-        while (i < j) {
-            if (sub.charAt(i) == sub.charAt(j)) {
-                i++;
-                j--;
-            } else {
-                return false;
-            }
-        }
-        return true;
-    }
 }

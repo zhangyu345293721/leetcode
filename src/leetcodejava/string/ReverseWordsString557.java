@@ -47,8 +47,8 @@ public class ReverseWordsString557 {
             while (i < length && s.charAt(i) != ' ') {
                 i++;
             }
-            for (int p = start; p < i; p++) {
-                result.append(s.charAt(start + i - 1 - p));
+            for (int p = i - 1; p >= start; p--) {
+                result.append(s.charAt(p));
             }
             while (i < length && s.charAt(i) == ' ') {
                 i++;
