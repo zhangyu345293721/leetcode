@@ -75,13 +75,15 @@ class Solution:
         Returns:
             数字
         '''
-        index = self.random_partition(nums, l, r)
-        if index == k - 1:
-            return nums[k - 1]
-        elif index > k - 1:
-            return self.quick_sort(nums, l, index - 1, k)
-        else:
-            return self.quick_sort(nums, index + 1, r, k)
+        while l <= r:
+            index = self.random_partition(nums, l, r)
+            if index == k - 1:
+                return nums[k - 1]
+            elif index > k - 1:
+                r = index - 1
+            else:
+                l = index + 1
+        return -1
 
     def random_partition(self, nums: List[int], l: int, r: int) -> int:
         '''
@@ -94,8 +96,7 @@ class Solution:
             位置
         '''
         i = random.randint(l, r)
-        self.swap(nums, i, r)
-        return self.partition(nums, l, r)
+        return self.partition(nums, l, r, i)
 
     def swap(self, nums: List[int], l: int, r: int) -> None:
         """
@@ -111,18 +112,20 @@ class Solution:
         nums[l] = nums[r]
         nums[r] = temp
 
-    def partition(self, nums: List[int], l: int, r: int) -> int:
+    def partition(self, nums: List[int], l: int, r: int, i: int) -> int:
         '''
             分组
         Args:
             nums: 数组
             l: 位置l
             r: 位置r
+            i: 位置i
         Returns:
             分组
         '''
-        pivot = nums[r]
+        pivot = nums[i]
         right_most = r
+        self.swap(nums, i, r)
         while l <= r:
             while l <= r and nums[l] > pivot:
                 l += 1
@@ -133,7 +136,7 @@ class Solution:
         self.swap(nums, l, right_most)
         return l
 
-    def kth_largest_element_num_1(self, arr: List[int], k: int) -> int:
+    def kth_largest_element_num_1(self, nums: List[int], k: int) -> int:
         '''
             找出第K个大的数
         Args:
@@ -143,8 +146,8 @@ class Solution:
             第k大那个数
         '''
         pq = PQ()
-        for ele in arr:
-            pq.put(ele)
+        for num in nums:
+            pq.put(num)
             if pq.qsize() > k:
                 pq.get()
         return pq.get()
@@ -153,6 +156,6 @@ class Solution:
 if __name__ == '__main__':
     numbers = [1, -3, 2, 9, 4, 7, 5]
     solution = Solution()
-    num = solution.kth_largest_element_num_2(numbers, 2)
-    print(num)
-    assert num == 7
+    result = solution.kth_largest_element_num_2(numbers, 2)
+    print(result)
+    assert result == 7

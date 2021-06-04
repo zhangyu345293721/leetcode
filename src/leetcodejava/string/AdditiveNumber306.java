@@ -41,9 +41,9 @@ public class AdditiveNumber306 {
     @Test
     public void additiveNumberTest() {
         String str = "0235813";
-        boolean additiveNumber = isAdditiveNumber(str);
-        System.out.println(additiveNumber);
-        Assert.assertEquals(additiveNumber, false);
+        boolean result = isAdditiveNumber(str);
+        System.out.println(result);
+        Assert.assertEquals(result, false);
     }
 
     private boolean flag = false;

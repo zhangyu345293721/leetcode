@@ -42,10 +42,10 @@ public class KthLargestElement215 {
     public void kthLargestElementTest() {
         int[] nums = {3, 2, 1, 5, 6, 4};
         int k = 2;
-        int result = kthLargestElement3(nums, k);
+        int result = kthLargestElement2(nums, k);
+        System.out.println(result);
         Assert.assertEquals(result, 5);
     }
-
 
     /**
      * 找出第k大的值
@@ -72,7 +72,7 @@ public class KthLargestElement215 {
      * @param k    个数
      * @return 数字
      */
-    private int kthLargestElement2(Integer[] nums, int k) {
+    private int kthLargestElement2(int[] nums, int k) {
         if (nums == null || nums.length < k) {
             return -1;
         }
@@ -88,15 +88,18 @@ public class KthLargestElement215 {
      * @param k    第k大的数
      * @return 数字
      */
-    private int quickSort(Integer[] nums, int l, int r, int k) {
-        int index = randomPartition(nums, l, r);
-        if (index == k - 1) {
-            return nums[k - 1];
-        } else if (index > k - 1) {
-            return quickSort(nums, l, index - 1, k);
-        } else {
-            return quickSort(nums, index + 1, r, k);
+    private int quickSort(int[] nums, int l, int r, int k) {
+        while (l <= r) {
+            int index = randomPartition(nums, l, r);
+            if (index == k - 1) {
+                return nums[k - 1];
+            } else if (index > k - 1) {
+                r = index - 1;
+            } else {
+                l = index + 1;
+            }
         }
+        return Integer.MIN_VALUE;
     }
 
     /**
@@ -107,10 +110,9 @@ public class KthLargestElement215 {
      * @param r    位置r
      * @return 选择位置
      */
-    private int randomPartition(Integer[] nums, int l, int r) {
+    private int randomPartition(int[] nums, int l, int r) {
         int i = (int) Math.random() * (r - l) + l;
-        swap(nums, i, r);
-        return partition(nums, l, r);
+        return partition(nums, l, r, i);
     }
 
     /**
@@ -121,9 +123,10 @@ public class KthLargestElement215 {
      * @param r    位置r
      * @return 阈值位置
      */
-    private int partition(Integer[] nums, int l, int r) {
-        int pivot = nums[r];
+    private int partition(int[] nums, int l, int r, int i) {
+        int pivot = nums[i];
         int rightMost = r;
+        swap(nums, i, r);
         while (l <= r) {
             while (l <= r && nums[l] > pivot) {
                 l++;
@@ -146,7 +149,7 @@ public class KthLargestElement215 {
      * @param l    位置l
      * @param r    位置r
      */
-    private void swap(Integer[] nums, int l, int r) {
+    private void swap(int[] nums, int l, int r) {
         int temp = nums[l];
         nums[l] = nums[r];
         nums[r] = temp;
@@ -160,14 +163,14 @@ public class KthLargestElement215 {
      * @return 最大值
      */
     private int kthLargestElement3(int[] nums, int k) {
-        PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(k + 1);
+        PriorityQueue<Integer> priority = new PriorityQueue<>(k + 1);
         for (int num : nums) {
-            priorityQueue.add(num);
-            if (priorityQueue.size() > k) {
-                priorityQueue.poll();
+            priority.add(num);
+            if (priority.size() > k) {
+                priority.poll();
             }
         }
-        return priorityQueue.poll();
+        return priority.poll();
     }
 }
 
