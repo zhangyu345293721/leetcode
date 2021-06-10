@@ -1,9 +1,10 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Deque;
+import java.util.LinkedList;
 
 /**
  * This is the solution of No.239 problem in the LeetCode,
@@ -13,35 +14,35 @@ import java.util.List;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个数组 nums，有一个大小为 k 的滑动窗口从数组的最左侧移动到数组的最右侧。你只可以看到在滑动窗口内的 k 个数字。滑动窗口每次只向右移动一位。
- *
+ * <p>
  * 返回滑动窗口中的最大值。
- *
+ * <p>
  * 进阶：
- *
+ * <p>
  * 你能在线性时间复杂度内解决此题吗？
- *
+ * <p>
  * 示例:
- *
+ * <p>
  * 输入: nums = [1,3,-1,-3,5,3,6,7], 和 k = 3
  * 输出: [3,3,5,5,6,7]
  * 解释:
- *
- *   滑动窗口的位置                最大值
+ * <p>
+ * 滑动窗口的位置                最大值
  * ---------------               -----
  * [1  3  -1] -3  5  3  6  7       3
- *  1 [3  -1  -3] 5  3  6  7       3
- *  1  3 [-1  -3  5] 3  6  7       5
- *  1  3  -1 [-3  5  3] 6  7       5
- *  1  3  -1  -3 [5  3  6] 7       6
- *  1  3  -1  -3  5 [3  6  7]      7
+ * 1 [3  -1  -3] 5  3  6  7       3
+ * 1  3 [-1  -3  5] 3  6  7       5
+ * 1  3  -1 [-3  5  3] 6  7       5
+ * 1  3  -1  -3 [5  3  6] 7       6
+ * 1  3  -1  -3  5 [3  6  7]      7
  *  
- *
+ * <p>
  * 提示：
- *
+ * <p>
  * 1 <= nums.length <= 10^5
  * -10^4 <= nums[i] <= 10^4
  * 1 <= k <= nums.length
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/sliding-window-maximum
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -55,47 +56,24 @@ public class SlidingWindowMaximum239 {
     public void slidingWindowMaximumTest() {
         int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
         int key = 3;
-        List<Integer> arr = slidingWindowMaximum(nums, key);
-        System.out.println(arr);
+        int[] res = slidingWindowMaximum2(nums, key);
+        System.out.println(res);
+        Assert.assertArrayEquals(res, new int[]{3, 3, 5, 5, 6, 7});
     }
 
     /**
-     * 最大活动窗口
-     *
      * @param nums 数组
-     * @param key  关键字
+     * @param k    窗口大小
      * @return list
      */
-    private List<Integer> slidingWindowMaximum(int[] nums, int key) {
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < nums.length - key + 1; i++) {
-            int temp = i + key;
-            int j = i;
-            int max = Integer.MIN_VALUE;
-            while (j < temp && temp <= nums.length) {
-                if (nums[j] > max) {
-                    max = nums[j];
-                }
-                j++;
-            }
-            list.add(max);
-        }
-        return list;
-    }
-
-
-    /**
-     * @param nums 数组
-     * @param key  关键字
-     * @return list
-     */
-    private int[] slidingWindowMaximum2(int[] nums, int key) {
+    private int[] slidingWindowMaximum(int[] nums, int k) {
         if (nums.length < 1) {
             return new int[0];
         }
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < nums.length - key + 1; i++) {
-            int temp = i + key;
+        int len = nums.length;
+        int[] res = new int[len - k + 1];
+        for (int i = 0; i < len - k + 1; i++) {
+            int temp = i + k;
             int j = i;
             int max = Integer.MIN_VALUE;
             while (j < temp && temp <= nums.length) {
@@ -104,15 +82,38 @@ public class SlidingWindowMaximum239 {
                 }
                 j++;
             }
-            list.add(max);
+            res[i] = max;
         }
-        // 把链表变成数组
-        int[] arr = new int[list.size()];
+        return res;
+    }
+
+    /**
+     * 找最大的数
+     *
+     * @param nums 数组
+     * @param k    窗口大小
+     * @return list
+     */
+    private int[] slidingWindowMaximum2(int[] nums, int k) {
+        if (nums.length < 1) {
+            return new int[0];
+        }
+        Deque<Integer> deque = new LinkedList<>();
+        int len = nums.length;
+        int[] res = new int[len - k + 1];
         int index = 0;
-        for (int num : list) {
-            arr[index] = num;
-            index++;
+        for (int i = 0; i < len; i++) {
+            while (!deque.isEmpty() && nums[i] > nums[deque.getLast()]) {
+                deque.removeLast();
+            }
+            if (!deque.isEmpty() && i - k >= deque.peek()) {
+                deque.pop();
+            }
+            deque.add(i);
+            if (i >= k - 1) {
+                res[index++] = nums[deque.getFirst()];
+            }
         }
-        return arr;
+        return res;
     }
 }

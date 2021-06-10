@@ -13,14 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 增加题目">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/288502f8b601190b9744965270eb85986a78c1c1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/288502f8b601190b9744965270eb85986a78c1c1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49343ad9b2b558ca568abb2a1c988b06d3c18eaf" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/49343ad9b2b558ca568abb2a1c988b06d3c18eaf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccc0050722ad0e31a1c3248cde3bec29fcaf4256" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/c/ccc0050722ad0e31a1c3248cde3bec29fcaf4256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcodepython/math/sliding_window_maximum_239.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/084e381e9ec3e884dbbf96b2494be0cfe6e63ff6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/084e381e9ec3e884dbbf96b2494be0cfe6e63ff6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55c5f8806d0e1e91f6a3458a337bbbf9e590642b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/55c5f8806d0e1e91f6a3458a337bbbf9e590642b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75de892bd78b53d086b82869e9beb0700cda1067" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75de892bd78b53d086b82869e9beb0700cda1067" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2ef305d0466004017e3c9c8a60125d62fac4f0f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2ef305d0466004017e3c9c8a60125d62fac4f0f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/AdditiveNumber306.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/AdditiveNumber306.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/math/SlidingWindowMaximum239.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/math/SlidingWindowMaximum239.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,55 +51,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/combination_sum_40.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="109" selection-start-line="9" selection-start-column="109" selection-end-line="9" selection-end-column="109" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/reverse_words_string_557.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestPalindromicSubstring5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-659">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/AdditiveNumber306.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="4050">
+              <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/SlidingWindowMaximum239.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/sliding_window_maximum_239.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/joseph_problem.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/plus_one_66.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="78" column="25" lean-forward="true" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+            <state relative-caret-position="3800">
+              <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
               <folding>
                 <element signature="e#929#966#0" expanded="true" />
               </folding>
@@ -111,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/install/javajdk/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="825">
               <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
             </state>
           </provider>
@@ -120,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/DayYear1154.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3150">
+            <state relative-caret-position="3250">
               <caret line="132" column="5" selection-start-line="97" selection-start-column="2" selection-end-line="132" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -132,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/StringInteger8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1700">
+            <state relative-caret-position="1725">
               <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -218,8 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodepython/array/next_greater_element_496.py" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/NextGreaterElement496.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/top100likedquestions/longest_valid_parentheses_32.py" />
         <option value="$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/string/group_anagrams_49.py" />
@@ -269,6 +265,8 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/string/AdditiveNumber306.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java" />
         <option value="$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py" />
+        <option value="$PROJECT_DIR$/src/leetcodepython/math/sliding_window_maximum_239.py" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/math/SlidingWindowMaximum239.java" />
       </list>
     </option>
   </component>
@@ -289,10 +287,10 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-1928" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -300,8 +298,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,14 +323,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -345,14 +336,7 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodepython" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -447,26 +431,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kth_largest_element_215">
+  <component name="RunManager" selected="JUnit.SlidingWindowMaximum239.slidingWindowMaximumTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DayYear1154.dayYearTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.math.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.math" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.math.DayYear1154" />
-      <option name="METHOD_NAME" value="dayYearTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -482,6 +449,23 @@
       <option name="PACKAGE_NAME" value="leetcodejava.list" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.list.KthLargestElement215" />
       <option name="METHOD_NAME" value="kthLargestElementTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlidingWindowMaximum239.slidingWindowMaximumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.math" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.math.SlidingWindowMaximum239" />
+      <option name="METHOD_NAME" value="slidingWindowMaximumTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -539,7 +523,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="single_number_136" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="sliding_window_maximum_239" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcodepython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -547,12 +531,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/leetcodepython/math" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/array/single_number_136.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/leetcodepython/math/sliding_window_maximum_239.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -640,20 +624,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.DayYear1154.dayYearTest" />
-      <item itemvalue="Python.single_number_136" />
-      <item itemvalue="Python.reverse_words_string_557" />
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.KthLargestElement215.kthLargestElementTest" />
+      <item itemvalue="JUnit.SlidingWindowMaximum239.slidingWindowMaximumTest" />
+      <item itemvalue="Python.reverse_words_string_557" />
       <item itemvalue="Python.kth_largest_element_215" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="Python.sliding_window_maximum_239" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SlidingWindowMaximum239.slidingWindowMaximumTest" />
+        <item itemvalue="Python.sliding_window_maximum_239" />
         <item itemvalue="Python.kth_largest_element_215" />
         <item itemvalue="JUnit.KthLargestElement215.kthLargestElementTest" />
         <item itemvalue="Python.reverse_words_string_557" />
-        <item itemvalue="JUnit.DayYear1154.dayYearTest" />
-        <item itemvalue="Python.single_number_136" />
       </list>
     </recent_temporary>
   </component>
@@ -1035,14 +1019,9 @@
       <workItem from="1622386829910" duration="1180000" />
       <workItem from="1622428231902" duration="762000" />
       <workItem from="1622531170370" duration="41000" />
-      <workItem from="1622705978048" duration="5764000" />
-    </task>
-    <task id="LOCAL-00202" summary="master: 增加题目优化题目114">
-      <created>1603077417425</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1603077417425</updated>
+      <workItem from="1622705978048" duration="7367000" />
+      <workItem from="1623203635399" duration="442000" />
+      <workItem from="1623233314339" duration="4831000" />
     </task>
     <task id="LOCAL-00203" summary="master: 增加题目优化题目102">
       <created>1603295069181</created>
@@ -1380,22 +1359,17 @@
       <option name="project" value="LOCAL" />
       <updated>1622428925822</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="master: 增加题目">
+      <created>1622787413205</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1622787413207</updated>
+    </task>
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringInteger8_stringIntegerTest - 2021.05.23 at 23h 34m 27s.xml">
-      <configuration name="StringInteger8.stringIntegerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WordLadder126_wordLadderTest - 2021.05.23 at 23h 34m 50s.xml">
-      <configuration name="WordLadder126.wordLadderTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestSightseeingPair1014_bestSightseeingPairTest - 2021.05.24 at 09h 30m 42s.xml">
-      <configuration name="BestSightseeingPair1014.bestSightseeingPairTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestSightseeingPair1014_bestSightseeingPairTest - 2021.05.24 at 09h 30m 59s.xml">
-      <configuration name="BestSightseeingPair1014.bestSightseeingPairTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BestSightseeingPair1014_bestSightseeingPairTest - 2021.05.24 at 09h 36m 20s.xml">
       <configuration name="BestSightseeingPair1014.bestSightseeingPairTest" configurationId="JUnit" />
     </history-entry>
@@ -1414,9 +1388,21 @@
     <history-entry file="KthLargestElement215_kthLargestElementTest - 2021.06.04 at 14h 07m 56s.xml">
       <configuration name="KthLargestElement215.kthLargestElementTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SlidingWindowMaximum239_slidingWindowMaximumTest - 2021.06.09 at 09h 58m 40s.xml">
+      <configuration name="SlidingWindowMaximum239.slidingWindowMaximumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlidingWindowMaximum239_slidingWindowMaximumTest - 2021.06.09 at 10h 01m 16s.xml">
+      <configuration name="SlidingWindowMaximum239.slidingWindowMaximumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlidingWindowMaximum239_slidingWindowMaximumTest - 2021.06.09 at 18h 22m 32s.xml">
+      <configuration name="SlidingWindowMaximum239.slidingWindowMaximumTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SlidingWindowMaximum239_slidingWindowMaximumTest - 2021.06.10 at 10h 22m 26s.xml">
+      <configuration name="SlidingWindowMaximum239.slidingWindowMaximumTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2624337000" />
+    <option name="totallyTimeSpent" value="2631213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1428,10 +1414,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.23959732" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.19583778" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1440,8 +1426,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.23964165" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" weight="0.42983752" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49839914" weight="0.3538634" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49395972" weight="0.2967525" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49839914" visible="true" weight="0.35274357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32922733" />
@@ -2267,6 +2253,12 @@
           <properties />
           <option name="timeStamp" value="427" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/math/SlidingWindowMaximum239.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py</url>
           <line>67</line>
@@ -2388,6 +2380,7 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/leetcode$shift_2d_grid_1260.coverage" NAME="shift_2d_grid_1260 Coverage Results" MODIFIED="1610095500728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/array" />
     <SUITE FILE_PATH="coverage/leetcode$range_sum_bst_938.coverage" NAME="range_sum_bst_938 Coverage Results" MODIFIED="1610205567283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
+    <SUITE FILE_PATH="coverage/leetcode$sliding_window_maximum_239.coverage" NAME="sliding_window_maximum_239 Coverage Results" MODIFIED="1623291193301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/math" />
     <SUITE FILE_PATH="coverage/leetcode$subtree_another_tree_572.coverage" NAME="subtree_another_tree_572 Coverage Results" MODIFIED="1608880171694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
     <SUITE FILE_PATH="coverage/leetcode$postorder_traversal_145.coverage" NAME="postorder_traversal_145 Coverage Results" MODIFIED="1610205069572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/tree" />
     <SUITE FILE_PATH="coverage/leetcode$water_jug_problem_365.coverage" NAME="water_jug_problem_365 Coverage Results" MODIFIED="1608712413836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/leetcodepython/math" />
@@ -2645,27 +2638,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/MajorityElement169.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="116" column="28" lean-forward="true" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/majority_element_169.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-959">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/ReverseString541.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="129" column="12" lean-forward="true" selection-start-line="129" selection-start-column="12" selection-end-line="129" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeRightSideView199.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2719,13 +2691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-975">
           <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/plus_one_66.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="78" column="25" lean-forward="true" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -2925,40 +2890,6 @@
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/short_encoding_words_820.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/DayYear1154.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3150">
-          <caret line="132" column="5" selection-start-line="97" selection-start-column="2" selection-end-line="132" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/StringInteger8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/WordLadder126.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2625">
-          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestPalindromicSubstring5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-659">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/ReverseWordsString557.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -2975,38 +2906,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/string/reverse_words_string_557.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="58" column="12" lean-forward="true" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        <state relative-caret-position="1450">
+          <caret line="58" column="12" selection-start-line="58" selection-start-column="12" selection-end-line="58" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestPalindromicSubstring5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/AdditiveNumber306.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="87" column="9" lean-forward="true" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/install/javajdk/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state relative-caret-position="2150">
+          <caret line="87" column="9" selection-start-line="87" selection-start-column="9" selection-end-line="87" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/list/KthLargestElement215.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="4050">
+          <caret line="166" column="24" selection-start-line="166" selection-start-column="24" selection-end-line="166" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/array/kth_largest_element_215.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="77" column="19" selection-start-line="77" selection-start-column="19" selection-end-line="77" selection-end-column="19" />
+        <state relative-caret-position="3800">
+          <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
           <folding>
             <element signature="e#929#966#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/javajdk/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/DayYear1154.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3250">
+          <caret line="132" column="5" selection-start-line="97" selection-start-column="2" selection-end-line="132" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/StringInteger8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/WordLadder126.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2625">
+          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/joseph_problem.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/plus_one_66.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="78" column="25" lean-forward="true" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodepython/math/sliding_window_maximum_239.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/SlidingWindowMaximum239.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
