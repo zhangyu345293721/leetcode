@@ -32,7 +32,6 @@ public class MergeTwoSortedLists21 {
         ListNode l2 = ListNode.createListNode(Arrays.asList(1, 3, 4, 5));
         ListNode node = mergeTwoLists(l1, l2);
         Assert.assertEquals(node.val, 1);
-
     }
 
     /**
@@ -43,7 +42,7 @@ public class MergeTwoSortedLists21 {
      * @return 合并后链表
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode listNode = new ListNode(0);
+        ListNode listNode = new ListNode(-1);
         ListNode node = listNode;
         while (l1 != null && l2 != null) {
             if (l1.val <= l2.val) {

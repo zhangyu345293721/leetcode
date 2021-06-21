@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -40,6 +41,7 @@ public class PalindromeLinkedList234 {
         ListNode node = ListNode.createListNode(arr1);
         boolean palindrome = isPalindrome2(node);
         System.out.println(palindrome);
+        Assert.assertEquals(palindrome, true);
     }
 
     /**
@@ -49,6 +51,9 @@ public class PalindromeLinkedList234 {
      * @return 布尔值
      */
     public boolean isPalindrome(ListNode head) {
+        if(head == null || head.next == null){
+            return true;
+        }
         List<Integer> list = new ArrayList<>();
         while (head != null) {
             list.add(head.val);
@@ -67,7 +72,7 @@ public class PalindromeLinkedList234 {
         int i = 0;
         int j = list.size() - 1;
         while (i < j) {
-            if (list.get(i).equals(list.get(j))) {
+            if (!list.get(i).equals(list.get(j))) {
                 return false;
             }
             i++;
@@ -108,7 +113,7 @@ public class PalindromeLinkedList234 {
     }
 
     /**
-     * 判断链表是不是回文链表
+     * 判断链表是不是回文链表(新建回文串)
      *
      * @param head 头结点
      * @return 布尔值

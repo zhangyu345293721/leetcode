@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -36,8 +37,9 @@ public class BinaryTreePostOrderTraversal145 {
     @Test
     public void postOrderTraversalTest() {
         TreeNode root = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5, 6});
-        List<Integer> postOrder = postOrderTraversal(root);
-        System.out.println(postOrder);
+        List<Integer> postOrderList = postOrderTraversal(root);
+        System.out.println(postOrderList);
+        Assert.assertEquals((int) postOrderList.get(0), 4);
     }
 
     /**
@@ -82,7 +84,7 @@ public class BinaryTreePostOrderTraversal145 {
             return new ArrayList<>();
         }
         List<Integer> res = new LinkedList<>();
-        Deque<TreeNode> stack = new LinkedList<>();
+        Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.isEmpty()) {
             TreeNode node = stack.pop();

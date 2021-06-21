@@ -1,4 +1,4 @@
-package leetcodejava.list;
+package leetcodejava.array;
 
 import org.junit.Assert;
 import org.junit.Test;

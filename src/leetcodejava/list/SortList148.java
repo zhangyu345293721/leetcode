@@ -59,11 +59,13 @@ public class SortList148 {
     private ListNode getLastNode(ListNode node) {
         ListNode fast = node;
         ListNode slow = node;
+        ListNode breakN = node;
         while (fast != null && fast.next != null) {
             fast = fast.next.next;
+            breakN = slow;
             slow = slow.next;
         }
-        slow.next = null;
+        breakN.next = null;
         return slow;
     }
     /**

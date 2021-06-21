@@ -54,51 +54,49 @@ public class BinaryTreePreOrderTraversal144 {
         if (root == null) {
             return new ArrayList<>();
         }
-        List<Integer> resultList = new ArrayList();
-        preOrderHelper(resultList, root);
-        return resultList;
+        List<Integer> result = new ArrayList();
+        preOrderHelper(result, root);
+        return result;
     }
 
     /**
      * 帮助方法
      *
-     * @param resultList 链表
-     * @param root       根节点
+     * @param result 链表
+     * @param root   根节点
      */
-    public void preOrderHelper(List<Integer> resultList, TreeNode root) {
-        resultList.add(root.val);
+    public void preOrderHelper(List<Integer> result, TreeNode root) {
+        result.add(root.val);
         if (root.left != null) {
-            preOrderHelper(resultList, root.left);
+            preOrderHelper(result, root.left);
         }
         if (root.right != null) {
-            preOrderHelper(resultList, root.right);
+            preOrderHelper(result, root.right);
         }
     }
 
     /**
-     * 线序遍历二叉树（先进先出）
+     * 先序遍历二叉树（后进先出）
      *
      * @param root 根节点
      * @return 链表
      */
     public List<Integer> preOrderTraversal2(TreeNode root) {
-        Deque<TreeNode> stack = new LinkedList<>();
-        LinkedList<Integer> resultList = new LinkedList<>();
         if (root == null) {
-            return resultList;
+            return new ArrayList<>();
         }
-        stack.add(root);
-        while (!stack.isEmpty()) {
-            TreeNode node = stack.pop();
-            resultList.add(node.val);
-            if (node.right != null) {
-                stack.add(node.right);
+        List<Integer> res = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+        while (!stack.isEmpty() || root != null) {
+            while (root != null) {
+                res.add(root.val);
+                stack.push(root);
+                root = root.left;
             }
-            if (node.left != null) {
-                stack.add(node.left);
-            }
+            root = stack.pop();
+            root = root.right;
         }
-        return resultList;
+        return res;
     }
 }
 

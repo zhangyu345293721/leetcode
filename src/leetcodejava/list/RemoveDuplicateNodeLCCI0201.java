@@ -56,7 +56,8 @@ public class RemoveDuplicateNodeLCCI0201 {
         }
         Set<Integer> set = new HashSet<>();
         set.add(head.val);
-        ListNode dummyHead = head;
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
         while (head.next != null) {
             if (!set.contains(head.next.val)) {
                 set.add(head.next.val);
@@ -65,6 +66,6 @@ public class RemoveDuplicateNodeLCCI0201 {
                 head.next = head.next.next;
             }
         }
-        return dummyHead;
+        return dummy.next;
     }
 }

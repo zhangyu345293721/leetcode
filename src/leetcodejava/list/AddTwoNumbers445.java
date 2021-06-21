@@ -67,7 +67,6 @@ public class AddTwoNumbers445 {
             stack2.push(l2.val);
             l2 = l2.next;
         }
-
         int carry = 0;
         ListNode head = null;
         while (!stack1.isEmpty() || !stack2.isEmpty() || carry > 0) {

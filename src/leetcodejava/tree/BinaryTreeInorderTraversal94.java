@@ -84,8 +84,8 @@ public class BinaryTreeInorderTraversal94 {
             return new ArrayList<>();
         }
         List<Integer> resultList = new ArrayList<>();
-        Deque<TreeNode> stack = new LinkedList<>();
-        while (root != null || !stack.isEmpty()) {
+        Stack<TreeNode> stack = new Stack<>();
+        while (!stack.isEmpty() || root != null) {
             while (root != null) {
                 stack.push(root);
                 root = root.left;
