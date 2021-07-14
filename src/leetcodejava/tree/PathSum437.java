@@ -1,9 +1,10 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * This is the solution of No.98 problem in the LeetCode,
+ * This is the solution of No.437 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/path-sum-iii
  * <p>
@@ -51,8 +52,8 @@ public class PathSum437 {
         int sum = 8;
         int i = pathSum(root, sum);
         System.out.println(i);
+        Assert.assertEquals(i, 3);
     }
-
 
     /**
      * 求二叉树中路径为固定值的种数
@@ -84,5 +85,42 @@ public class PathSum437 {
         res += helper(root.left, sum - root.val);
         res += helper(root.right, sum - root.val);
         return res;
+    }
+
+    int pathNumber = 0;
+
+    /**
+     * 求二叉树中路径为固定值的种数
+     *
+     * @param root 根节点
+     * @param sum  和
+     * @return 种数
+     */
+    public int pathSum2(TreeNode root, int sum) {
+        if (root == null) {
+            return 0;
+        }
+        Sum(root, sum);
+        pathSum(root.left, sum);
+        pathSum(root.right, sum);
+        return pathNumber;
+    }
+
+    /**
+     * 路径和为
+     *
+     * @param root 根节点
+     * @param sum  目标和
+     */
+    public void Sum(TreeNode root, int sum) {
+        if (root == null) {
+            return;
+        }
+        sum -= root.val;
+        if (sum == 0) {
+            pathNumber++;
+        }
+        Sum(root.left, sum);
+        Sum(root.right, sum);
     }
 }

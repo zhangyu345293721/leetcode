@@ -3,9 +3,6 @@ package leetcodejava.string;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * This is the solution of No. 389 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -65,7 +62,6 @@ public class FindDifference389 {
         return ch;
     }
 
-
     /**
      * 找出字符串不通
      *
@@ -74,21 +70,36 @@ public class FindDifference389 {
      * @return 字符
      */
     public char findTheDifference2(String s, String t) {
-        Set<Character> set = new HashSet<>();
-        for (char ch1 : s.toCharArray()) {
-            if (set.contains(ch1)) {
-                set.remove(ch1);
-            } else {
-                set.add(ch1);
+        int total = 0;
+        for (char c : t.toCharArray()) {
+            total += c;
+        }
+        for (char c : s.toCharArray()) {
+            total -= c;
+        }
+        return (char) total;
+    }
+
+    /**
+     * 找出字符串不通(数组字典形式)
+     *
+     * @param s 字符串s
+     * @param t 字符串t
+     * @return 字符
+     */
+    public char findTheDifference3(String s, String t) {
+        int[] chs = new int[26];
+        for (char ch : t.toCharArray()) {
+            chs[ch - 'a']++;
+        }
+        for (char ch : s.toCharArray()) {
+            chs[ch - 'a']++;
+        }
+        for (int i = 0; i < 26; i++) {
+            if (s.charAt(i) > 0) {
+                return (char) (i + 'a');
             }
         }
-        for (char ch2 : t.toCharArray()) {
-            if (set.contains(ch2)) {
-                set.remove(ch2);
-            } else {
-                set.add(ch2);
-            }
-        }
-        return set.stream().findFirst().get();
+        return '0';
     }
 }

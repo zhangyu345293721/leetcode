@@ -41,13 +41,12 @@ class Solution:
         Returns:
             不连续子数组长度
         '''
-        nums_copy = nums.copy()
-        nums_copy.sort()
+        nums_sored = sorted(nums)
         i, j = 0, len(nums) - 1
         while i < j:
-            if nums[i] == nums_copy[i]:
+            if nums[i] == nums_sored[i]:
                 i += 1
-            elif nums[j] == nums_copy[j]:
+            elif nums[j] == nums_sored[j]:
                 j -= 1
             elif i == j:
                 return 0
@@ -55,9 +54,32 @@ class Solution:
                 return j - i + 1
         return 0
 
+    def shortest_unsorted_continuous_subarray2(self, nums: List[int]) -> bool:
+        '''
+            求最短不连续子数组
+        Args:
+            nums: 数据
+        Returns:
+            不连续子数组长度
+        '''
+        left = len(nums)
+        right = 0
+        stack = []
+        for i in range(len(nums)):
+            while len(stack) > 1 and nums[stack[-1]] > nums[i]:
+                left = min(left, stack.pop())
+            stack.append(i)
+        stack.clear()
+        for j in reversed(range(len(nums))):
+            while len(stack) > 1 and nums[stack[-1]] > nums[j]:
+                right = max(right, stack.pop())
+            stack.append(j)
+        return 0 if right <= left else right - left + 1
+
 
 if __name__ == '__main__':
     nums = [2, 6, 4, 8, 10, 9, 15]
     solution = Solution()
-    result = solution.shortest_unsorted_continuous_subarray(nums)
+    result = solution.shortest_unsorted_continuous_subarray2(nums)
+    print(result)
     assert result == 5

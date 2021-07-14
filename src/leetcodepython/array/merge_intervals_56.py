@@ -29,14 +29,8 @@
 from typing import List
 
 
-class Interval:
-    def __init__(self, start, end):
-        self.start = start
-        self.end = end
-
-
 class Solution:
-    def merge(self, intervals: List[Interval]) -> List[Interval]:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
         '''
             合并区间
         Args:
@@ -44,21 +38,25 @@ class Solution:
         Returns:
             区间集合
         '''
-        intervals.sort(key=lambda x: x.start)
+        if not intervals or len(intervals) < 1:
+            return intervals
+        intervals.sort(key=lambda x: x[0])
         merged = []
-        for interval in intervals:
-            if not merged or merged[-1].end < interval.start:
-                merged.append(interval)
+        cur = intervals[0]
+        for i in range(1, len(intervals)):
+            if cur[1] >= intervals[i][0]:
+                cur[1] = max(cur[1], intervals[i][1])
             else:
-                merged[-1].end = max(merged[-1].end, interval.end)
+                merged.append(cur)
+                cur = intervals[i]
+        merged.append(cur)
         return merged
 
 
 if __name__ == '__main__':
-    i1, i2 = Interval(1, 2), Interval(1, 4)
-    arr = []
-    arr.extend([i1, i2])
+    nums = [[1, 2], [1, 4]]
     solution = Solution()
-    merged = solution.merge(arr)
-    assert merged[0].start == 1
-    assert merged[0].end == 4
+    merged = solution.merge(nums)
+    print(merged)
+    assert merged[0][0] == 1
+    assert merged[0][1] == 4

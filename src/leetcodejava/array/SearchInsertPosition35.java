@@ -105,4 +105,29 @@ public class SearchInsertPosition35 {
         }
         return -1;
     }
+
+    /**
+     * 插入目标数的位置
+     *
+     * @param nums   目标数组
+     * @param target 目标数
+     * @return 位置
+     */
+    public int searchInsert3(int[] nums, int target) {
+        if(nums == null || nums.length < 1) {
+            return -1;
+        }
+        int l = 0, r = nums.length - 1;
+        while(l <= r) {
+            int mid = l + (r - l)/2;
+            if(nums[mid] == target){
+                return mid;
+            }else if (nums[mid] > target) {
+                r = mid - 1;
+            }else {
+                l = mid + 1;
+            }
+        }
+        return l;
+    }
 }

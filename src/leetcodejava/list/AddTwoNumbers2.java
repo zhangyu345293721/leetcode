@@ -61,7 +61,7 @@ public class AddTwoNumbers2 {
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode node = new ListNode(-1);
-        ListNode head = node;
+        ListNode dummy = node;
         int carry = 0;
         while (l1 != null || l2 != null) {
             int num1 = l1 == null ? 0 : l1.val;
@@ -80,7 +80,7 @@ public class AddTwoNumbers2 {
         if (carry > 0) {
             node.next = new ListNode(carry);
         }
-        return head.next;
+        return dummy.next;
     }
 
     /**

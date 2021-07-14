@@ -89,6 +89,30 @@ class Solution:
             return j + 1
         return -1
 
+    def search_insert3(self, nums: List[int], target: int) -> int:
+        '''
+            返回元素插入位置
+        Args:
+            nums: 数组
+            target: 目标值
+        Returns:
+            返回需要插入的位置
+        '''
+        if not nums:
+            return 0
+        if nums[0] >= target:
+            return 0
+        i, j = 0, len(nums) - 1
+        while i < j:
+            middle = i + (j - i) // 2
+            if nums[middle] > target:
+                j = middle - 1
+            elif nums[middle] < target:
+                    i = middle + 1
+            else:
+                return middle
+        return i
+
 
 if __name__ == '__main__':
     nums = [1, 3, 5, 6]

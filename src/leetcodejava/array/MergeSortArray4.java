@@ -51,6 +51,29 @@ public class MergeSortArray4 {
      * @return 中间数
      */
     public double findMedianSortedArrays1(int[] nums1, int nums2[]) {
+        int[] nums = getMergedArray(nums1, nums2);
+        int length = nums.length;
+        if (nums.length % 2 == 0) {
+            return (nums[length / 2] + nums[length / 2 - 1]) / 2.0;
+        } else {
+            return nums[length / 2];
+        }
+    }
+
+    /**
+     * 把两个有序数组合并成一个数组
+     *
+     * @param nums1 数组1
+     * @param nums2 数组2
+     * @return 合并后的数组
+     */
+    private int[] getMergedArray(int[] nums1, int[] nums2) {
+        if (nums1 == null || nums1.length < 1) {
+            return nums2;
+        }
+        if (nums2 == null || nums2.length < 1) {
+            return nums1;
+        }
         int length1 = nums1.length;
         int length2 = nums2.length;
         int[] nums = new int[length1 + length2];
@@ -58,34 +81,23 @@ public class MergeSortArray4 {
         int index = 0;
         while (i < length1 && j < length2) {
             if (nums1[i] <= nums2[j]) {
-                nums[index] = nums1[i];
-                i++;
+                nums[index] = nums1[i++];
             } else {
-                nums[index] = nums2[j];
-                j++;
+                nums[index] = nums2[j++];
             }
             index++;
         }
         if (i == length1) {
             while (j < length2) {
-                nums[index] = nums2[j];
-                j++;
-                index++;
+                nums[index++] = nums2[j++];
             }
         }
         if (j == length2) {
             while (i < length1) {
-                nums[index] = nums1[i];
-                i++;
-                index++;
+                nums[index++] = nums1[i++];
             }
         }
-        int length = nums.length;
-        if (nums.length % 2 == 0) {
-            return (nums[length / 2] + nums[length / 2 - 1]) / 2.0;
-        } else {
-            return nums[length / 2];
-        }
+        return nums;
     }
 
     /**

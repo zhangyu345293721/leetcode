@@ -8,7 +8,6 @@
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定两个字符串 s 和 t，它们只包含小写字母。
- *
  * 字符串 t 由字符串 s 随机重排，然后在随机位置添加一个字母。
  *
  * 请找出在 t 中被添加的字母。
@@ -34,53 +33,64 @@
  */
 '''
 
-from typing import List
-
 
 class Solution:
-    def find_difference2(self, s1: str, s2: str) -> List[int]:
+    def find_difference1(self, s: str, t: str) -> chr:
         '''
             找出两个字符串中不相同的部分
         Args:
-            s1: 字符串s1
-            s2: 字符串s2
+            s: 字符串s
+            t: 字符串t
+        Returns:
+            不同的字符
+        '''
+        total = 0
+        for c in s:
+            total += ord(c)
+        for c in t:
+            total -= ord(c)
+        return chr(total)
+
+    def find_difference2(self, s: str, t: str) -> chr:
+        '''
+            找出两个字符串中不相同的部分
+        Args:
+            s: 字符串s
+            t: 字符串t
         Returns:
             不同的字符
         '''
         ch = 0
-        for ch1 in s1:
+        for ch1 in s:
             ch ^= ord(ch1)
-        for ch2 in s2:
+        for ch2 in t:
             ch ^= ord(ch2)
         return chr(ch)
 
-    def find_difference(self, s1: str, s2: str) -> List[int]:
+    def find_difference3(self, s: str, t: str) -> chr:
         '''
             找出两个字符串中不相同的部分
         Args:
-            s1: 字符串s1
-            s2: 字符串s2
+            s: 字符串s
+            t: 字符串t
         Returns:
             不同的字符
         '''
-        ch_set = set()
-        for ch1 in s1:
-            if ch1 in ch_set:
-                ch_set.remove(ch1)
-            else:
-                ch_set.add(ch1)
-        for ch2 in s2:
-            if ch2 in ch_set:
-                ch_set.remove(ch2)
-        else:
-            ch_set.add(ch2)
-        return ch_set.pop()
+        chs = [0 for x in range(26)]
+        for ch in t:
+            chs[ord(ch) - ord('a')] += 1
+        for ch in s:
+            chs[ord(ch) - ord('a')] -= 1
+        for i in range(26):
+            if chs[i] > 0:
+                return chs(i + ord('a'))
+        return 'a'
 
 
 if __name__ == '__main__':
     s1 = 'abcd'
     s2 = 'abcde'
     solution = Solution()
-    ch = solution.find_difference(s1, s2)
+    ch = solution.find_difference2(s1, s2)
     print(ch)
     assert ch == 'e'

@@ -47,7 +47,7 @@ public class LongestConsecutiveSequence128 {
      * @return 连续数组长度
      */
     private int longestConsecutive(int[] nums) {
-        if (nums.length <= 1) {
+        if (nums == null || nums.length <= 1) {
             return nums.length;
         }
         Arrays.sort(nums);
@@ -73,6 +73,9 @@ public class LongestConsecutiveSequence128 {
      * @return 最大长度
      */
     public int longestConsecutive2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return 0;
+        }
         Set<Integer> numSet = new HashSet();
         for (int num : nums) {
             numSet.add(num);

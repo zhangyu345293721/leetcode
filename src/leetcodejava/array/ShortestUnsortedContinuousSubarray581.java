@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 /**
  * This is the solution of No.581 problem in the LeetCode,
@@ -37,7 +38,7 @@ public class ShortestUnsortedContinuousSubarray581 {
     @Test
     public void shortestUnsortedContinuousSubarrayTest() {
         int[] nums = {2, 6, 4, 8, 10, 9, 15};
-        int num = findUnsortedSubarray(nums);
+        int num = findUnsortedSubarray3(nums);
         Assert.assertEquals(num, 5);
     }
 
@@ -93,5 +94,34 @@ public class ShortestUnsortedContinuousSubarray581 {
             min = Math.min(min, nums[i]);
         }
         return right == left ? 0 : right - left + 1;
+    }
+
+    /**
+     * 查找最短没有排序的数组
+     *
+     * @param nums 数组
+     * @return 没排序数组长度
+     */
+    public int findUnsortedSubarray3(int[] nums) {
+        if (nums == null || nums.length < 2) {
+            return 0;
+        }
+        int left = Integer.MAX_VALUE;
+        int right = 0;
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < nums.length; i++) {
+            while (!stack.isEmpty() && nums[stack.peek()] > nums[i]) {
+                left = Math.min(stack.pop(), left);
+            }
+            stack.push(i);
+        }
+        stack.clear();
+        for (int i = nums.length - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && nums[stack.peek()] < nums[i]) {
+                right = Math.max(stack.pop(), right);
+            }
+            stack.push(i);
+        }
+        return right > left ? right - left + 1 : 0;
     }
 }

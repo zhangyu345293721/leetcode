@@ -36,9 +36,6 @@
 from typing import List
 
 
-# import numpy as np
-
-
 class Solution:
     def num_islands(self, grid: List[List[str]]) -> int:
         '''
@@ -47,14 +44,12 @@ class Solution:
             grid: 二维数组
         Returns:
             岛屿个数
-
         '''
         if len(grid) < 1 or len(grid[0]) < 1:
             return 0
         result = 0
         row, col = len(grid), len(grid[0])
         visited = [[False] * col for x in range(row)]
-        # visited = np.empty((row, column), dtype=bool)
         for i in range(row):
             for j in range(col):
                 if grid[i][j] == '1' and not visited[i][j]:
@@ -82,6 +77,36 @@ class Solution:
         self.helper(grid, visited, x + 1, y)
         self.helper(grid, visited, x, y - 1)
         self.helper(grid, visited, x, y + 1)
+
+    def num_islands2(self, grid: List[List[str]]) -> int:
+        '''
+             计算岛屿个数
+        Args:
+            grid: 二维数组
+        Returns:
+            岛屿个数
+        '''
+        if len(grid) < 1 or len(grid[0]) < 1:
+            return 0
+        result = 0
+        row, col = len(grid), len(grid[0])
+        queue = []
+        directions = [[0, -1], [0, 1], [-1, 0], [1, 0]]
+        for i in range(row):
+            for j in range(col):
+                if grid[i][j] == '1':
+                    queue.append([i, j])
+                    grid[i][j] = '0'
+                    result += 1
+                    while len(queue) > 0:
+                        q = queue.pop(0)
+                        for d in directions:
+                            x = q[0] + d[0]
+                            y = q[1] + d[1]
+                            if x >= 0 and x < row and y >= 0 and y < col and grid[x][y] == '1':
+                                queue.append([x, y])
+                                grid[x][y] = '0'
+        return result
 
 
 if __name__ == '__main__':

@@ -70,6 +70,41 @@ class Solution:
             node.next = ListNode(carry)
         return head.next
 
+    def add_two_number2(self, l1: ListNode, l2: ListNode) -> ListNode:
+        '''
+            两个链表相加
+        Args:
+            l1: 链表l1
+            l2: 链表l2
+        Returns:
+            链表的和
+        '''
+        if not l1:
+            return l2
+        if not l2:
+            return l1
+        return self.add_two_number_helper(l1, l2, 0)
+
+    def add_two_number_helper(self, l1: ListNode, l2: ListNode, v: 0) -> ListNode:
+        '''
+            相加帮助类
+        Args:
+            l1: l1链表
+            l2: l2链表
+            v: 值
+        Returns:
+            链表
+        '''
+        if not l1 and not l2:
+            return None if v == 0 else ListNode(v)
+        if l1:
+            v += l1.val
+            l1 = l1.next
+        if l2:
+            v += l2.val
+            l2 = l2.val
+        return ListNode(v % 10, self.add_two_number_helper(l1, l2, v / 10))
+
 
 if __name__ == '__main__':
     entity = ListNode()

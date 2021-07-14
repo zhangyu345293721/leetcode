@@ -39,14 +39,17 @@ public class PartitionEqualSubsetSum416 {
         boolean b = canPartition(nums);
         Assert.assertEquals(b, true);
     }
-    
+
     /**
-     * 集合是否能分成相等两部分
+     * 集合是否能分成相等两部分(找到和为整个数组和的一半)
      *
      * @param nums 数组
      * @return 布尔值
      */
     public boolean canPartition(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return true;
+        }
         int sum = 0;
         for (int num : nums) {
             sum += num;
@@ -54,15 +57,17 @@ public class PartitionEqualSubsetSum416 {
         if (sum % 2 == 1) {
             return false;
         }
-        sum /= 2;
-        boolean[] dp = new boolean[sum + 1];
-        dp[0] = true;
+        int target = sum / 2;
+        int[] dp = new int[target + 1];
         for (int num : nums) {
-            for (int i = sum; i >= num; i--) {
-                dp[i] = dp[i] || dp[i - num];
+            for (int i = target; i >= num; i--) {
+                dp[i] = Math.max(dp[i], dp[i - num] + num);
+                if (dp[i] == target) {
+                    return true;
+                }
             }
         }
-        return dp[sum];
+        return false;
     }
 
     /**
@@ -79,8 +84,8 @@ public class PartitionEqualSubsetSum416 {
         if (sum % 2 == 1) {
             return false;
         }
-        sum /= 2; // sum=sum>>1;
-        return helper(nums, 0, sum);
+        int target = sum / 2;
+        return helper(nums, 0, target);
     }
 
     /**
@@ -101,11 +106,48 @@ public class PartitionEqualSubsetSum416 {
         if (helper(nums, index + 1, target - nums[index])) {
             return true;
         }
-        // 1,1，1，100
         int j = index + 1;
         while (j < nums.length && nums[index] == nums[j]) {
             j++;
         }
         return helper(nums, j, target);
+    }
+
+    /**
+     * 集合是否能分成相等两部分
+     *
+     * @param nums 数组
+     * @return 布尔值
+     */
+    public boolean canPartition3(int[] nums) {
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum = sum + nums[i];
+        }
+        if (sum % 2 != 0) {
+            return false;
+        }
+        int N = nums.length;
+        int W = sum / 2;
+        int[][] dp = new int[N + 1][W + 1];
+        for (int i = 0; i < N + 1; i++) {
+            dp[i][0] = 0;
+        }
+        for (int j = 0; j < W + 1; j++) {
+            dp[0][j] = 0;
+        }
+        for (int i = 1; i < N + 1; i++) {
+            for (int j = 1; j < W + 1; j++) {
+                if (j - nums[i - 1] < 0) {
+                    dp[i][j] = dp[i - 1][j];
+                    continue;
+                }
+                dp[i][j] = Math.max(dp[i - 1][j], dp[i - 1][j - nums[i - 1]] + nums[i - 1]);
+                if (dp[i][j] == W) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

@@ -45,15 +45,16 @@ class Solution:
         total = sum(nums)
         if total % 2 == 1:
             return False
-        total = int(total / 2)
-        dp = [False] * (total + 1)
-        dp[0] = True
+        target = int(total / 2)
+        dp = [0] * (total + 1)
         for num in nums:
-            i = total
+            i = target
             while i >= num:
-                dp[i] = dp[i] or dp[i - num]
+                dp[i] = max(dp[i], dp[i - num] + num)
                 i -= 1
-        return dp[total]
+                if dp[i] == target:
+                    return True
+        return False
 
     def can_partition2(self, nums: List[int]) -> bool:
         '''
@@ -83,12 +84,12 @@ class Solution:
             return False
         if target == 0:
             return True
-        if self.partition_helper(nums,index+1,target-nums[index]):
+        if self.partition_helper(nums, index + 1, target - nums[index]):
             return True
-        j=index+1
-        while j<len(nums) and nums[j]==nums[index]:
-            j+=1
-        return self.partition_helper(nums,j,target)
+        j = index + 1
+        while j < len(nums) and nums[j] == nums[index]:
+            j += 1
+        return self.partition_helper(nums, j, target)
 
 
 if __name__ == '__main__':
