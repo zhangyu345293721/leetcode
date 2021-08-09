@@ -39,8 +39,8 @@ public class FindNumbers1295 {
     @Test
     public void findNumberTest() {
         int[] nums = {12, 345, 2, 6, 7896};
-        int count = findNumbers(nums);
-        Assert.assertEquals(count, 2);
+        int result = findNumbers(nums);
+        Assert.assertEquals(result, 2);
     }
 
     /**
@@ -50,12 +50,34 @@ public class FindNumbers1295 {
      * @return 寻找数字
      */
     public int findNumbers(int[] nums) {
-        int count = 0;
+        if (nums == null || nums.length < 1) {
+            return -1;
+        }
+        int result = 0;
         for (int num : nums) {
             if (String.valueOf(num).length() % 2 == 0) {
-                count++;
+                result++;
             }
         }
-        return count;
+        return result;
+    }
+
+    /**
+     * 寻找数字
+     *
+     * @param nums 数组
+     * @return 寻找数字
+     */
+    public int findNumbers2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return -1;
+        }
+        int result = 0;
+        for (int num : nums) {
+            if ((num > 9 && num < 100) || (num > 999 && num < 10000) || num == 100000) {
+                result++;
+            }
+        }
+        return result;
     }
 }

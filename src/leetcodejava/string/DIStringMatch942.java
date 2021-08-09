@@ -41,8 +41,8 @@ public class DIStringMatch942 {
     @Test
     public void dIStringMatchTest() {
         String s = "DDI";
-        int[] arr = diStringMatch(s);
-        System.out.println(arr);
+        int[] result = diStringMatch(s);
+        System.out.println(result);
     }
 
     /**

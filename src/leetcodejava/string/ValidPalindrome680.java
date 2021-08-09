@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -34,8 +35,9 @@ public class ValidPalindrome680 {
     @Test
     public void validPalindromeTest() {
         String str = "aba";
-        boolean b = validPalindrome(str);
-        System.out.println(b);
+        boolean result = validPalindrome(str);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**
@@ -47,7 +49,6 @@ public class ValidPalindrome680 {
     public boolean validPalindrome(String s) {
         for (int i = 0; i < s.length(); i++) {
             String str = s.substring(0, i) + s.substring(i + 1);
-            System.out.println(str);
             boolean b = judgePalindrome(str);
             if (b == true) {
                 return true;

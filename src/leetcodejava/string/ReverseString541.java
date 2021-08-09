@@ -1,12 +1,9 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 /**
  * This is the solution of No.830 problem in the LeetCode,
@@ -41,8 +38,9 @@ public class ReverseString541 {
     public void reverseStringTest() {
         String s = "abcdefg";
         int key = 2;
-        String result = getReverseString(s, key);
+        String result = reverseStr2(s, key);
         System.out.println(result);
+        Assert.assertEquals(result, "bacdfeg");
     }
 
     /**
@@ -52,46 +50,7 @@ public class ReverseString541 {
      * @param k k
      * @return 字符串
      */
-    private String getReverseString(String s, int k) {
-        if (s.length() <= k) {
-            return new StringBuffer(s).reverse().toString();
-        }
-        if (s.length() > k && s.length() <= 2 * k) {
-            String subString = s.substring(0, k);
-            subString = new StringBuffer(subString).reverse().toString();
-            return subString + s.substring(k);
-        }
-        if (s.length() > 2 * k) {
-            LinkedList<String> list = new LinkedList<>();
-            StringBuffer sb = new StringBuffer();
-            int number = s.length() / k;
-            for (int i = 0; i < number; i++) {
-                list.add(s.substring(i * k, i * k + k));
-            }
-            if (number * k < s.length()) {
-                list.add(s.substring(number * k));
-            }
-            for (int index = 0; index < list.size(); index++) {
-                if (index % 2 == 0) {
-                    String temp = new StringBuffer(list.get(index)).reverse().toString();
-                    sb.append(temp);
-                } else {
-                    sb.append(list.get(index));
-                }
-            }
-            return sb.toString();
-        }
-        return null;
-    }
-
-    /**
-     * 翻转字符串
-     *
-     * @param s 字符串s
-     * @param k k
-     * @return 字符串
-     */
-    public String reverseStr2(String s, int k) {
+    public String reverseStr(String s, int k) {
         LinkedList<String> list = new LinkedList<>();
         StringBuffer sb = new StringBuffer();
         int number = s.length() / k;
@@ -112,36 +71,36 @@ public class ReverseString541 {
         return sb.toString();
     }
 
-    private ArrayList<String> getStringList(String str, int n) {
-        ArrayList<String> list = new ArrayList<String>();
-        String regEx = "\\w{" + n + "}";
-        Pattern pattern = Pattern.compile(regEx);
-        Matcher matcher = pattern.matcher(str);
-        while (matcher.find()) {
-            list.add(matcher.group());
-        }
-        if (n * (list.size()) < str.length()) {
-            list.add(str.substring(n * list.size()));
-        }
-        return list;
-    }
-
     /**
      * 翻转字符串
      *
      * @param s 字符串s
-     * @param k k
+     * @param k 数字k
      * @return 字符串
      */
-    public String getReverseString3(List<String> list) {
-        StringBuffer sb = new StringBuffer();
-        for (int i = 0; i < list.size(); i++) {
-            if (i % 2 == 0) {
-                sb.append(new StringBuffer(list.get(i)).reverse().toString());
-            } else {
-                sb.append(list.get(i));
-            }
+    public String reverseStr2(String s, int k) {
+        char[] chs = s.toCharArray();
+        for (int start = 0; start < chs.length; start += 2 * k) {
+            int i = start, j = Math.min(start + k - 1, chs.length - 1);
+            reverseArray(chs, i, j);
         }
-        return sb.toString();
+        return new String(chs);
+    }
+
+    /**
+     * 交换两个字符的位置
+     *
+     * @param chs 字符数组
+     * @param i   位置i
+     * @param j   位置j
+     */
+    public void reverseArray(char[] chs, int i, int j) {
+        while (i < j) {
+            char tmp = chs[i];
+            chs[i] = chs[j];
+            chs[j] = tmp;
+            i++;
+            j--;
+        }
     }
 }

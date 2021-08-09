@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,7 +40,7 @@ public class MagicIndexLCCI {
         int[] nums = {0, 2, 3, 4, 5};
         int magicIndex = findMagicIndex(nums);
         System.out.println(magicIndex);
-
+        Assert.assertEquals(magicIndex, 0);
     }
 
     /**
@@ -64,6 +65,9 @@ public class MagicIndexLCCI {
      * @return 下标index
      */
     public int findMagicIndex2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return -1;
+        }
         return getAnswer(nums, 0, nums.length - 1);
     }
 

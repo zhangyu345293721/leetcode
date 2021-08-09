@@ -44,9 +44,9 @@ import java.util.Queue;
 public class BinaryTreeLevelOrderTraversal102 {
     @Test
     public void binaryTreeLevelOrderTraversalTest() {
-        TreeNode treeNode = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5});
-        List<List<Integer>> list = levelOrder(treeNode);
-        System.out.println(list);
+        TreeNode treeNode = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5, 6, 7});
+        levelOrderHelper3(treeNode, 3, 0);
+        System.out.println(count);
     }
 
     /**
@@ -63,6 +63,8 @@ public class BinaryTreeLevelOrderTraversal102 {
         levelOrderHelper(res, root, 0);
         return res;
     }
+
+    int count = 0;
 
     /**
      * 递归遍历
@@ -81,6 +83,24 @@ public class BinaryTreeLevelOrderTraversal102 {
         res.get(height).add(root.val);
         levelOrderHelper(res, root.left, height + 1);
         levelOrderHelper(res, root.right, height + 1);
+    }
+
+    /**
+     * 递归遍历
+     *
+     * @param res    结果链表
+     * @param root   根节点
+     * @param height 高度
+     */
+    public void levelOrderHelper3(TreeNode root, int h, int height) {
+        if (root == null) {
+            return;
+        }
+        if (height == h - 1) {
+            count++;
+        }
+        levelOrderHelper3(root.left, h, height + 1);
+        levelOrderHelper3(root.right, h, height + 1);
     }
 
     /**

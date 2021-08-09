@@ -1,6 +1,7 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -36,8 +37,9 @@ public class ValidPalindrome125 {
     public void validPalindromeTest() {
         //String str = "A man, a plan, a canal: Panama";
         String str = "0P";
-        boolean flag = isPalindrome2(str);
-        System.out.println(flag);
+        boolean result = isPalindrome2(str);
+        System.out.println(result);
+        Assert.assertEquals(result, false);
     }
 
     /**
@@ -93,7 +95,8 @@ public class ValidPalindrome125 {
      * @return 返回flag
      */
     private boolean getValidFlag(String s, int index) {
-        return (s.charAt(index) >= 'a' && s.charAt(index) <= 'z') || (s.charAt(index) >= 'A' && s.charAt(index) <= 'Z') || (s.charAt(index) >= '0' && s.charAt(index) <= '9');
+        return (s.charAt(index) >= 'a' && s.charAt(index) <= 'z') || (s.charAt(index) >= 'A' && s.charAt(index) <= 'Z')
+                || (s.charAt(index) >= '0' && s.charAt(index) <= '9');
     }
 
     /**

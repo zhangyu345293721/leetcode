@@ -44,7 +44,6 @@ public class RestoreIPAddresses93 {
         Assert.assertEquals(ipAddresses.size(), 2);
     }
 
-    static final int COUNT = 4;
     List<String> result = new ArrayList<>();
     int[] segments = null;
 
@@ -55,10 +54,10 @@ public class RestoreIPAddresses93 {
      * @return ip链表
      */
     public List<String> restoreIpAddresses(String s) {
-        if (s.length() < 4 || s.length() > 12) {
+        if (s == null || s.length() < 4 || s.length() > 12) {
             return result;
         }
-        segments = new int[COUNT];
+        segments = new int[4];
         searchHelper(s, 0, 0);
         return result;
     }
@@ -66,18 +65,18 @@ public class RestoreIPAddresses93 {
     /**
      * 深度优先遍历
      *
-     * @param s        字符串
-     * @param segId    部分id
+     * @param s     字符串
+     * @param segId 部分id
      * @param start 开始位置
      */
     public void searchHelper(String s, int segId, int start) {
         // 如果找到了 4 段 IP 地址并且遍历完了字符串，那么就是一种答案
-        if (segId == COUNT) {
+        if (segId == 4) {
             if (start == s.length()) {
                 StringBuilder ipAddress = new StringBuilder();
-                for (int i = 0; i < COUNT; ++i) {
+                for (int i = 0; i < 4; ++i) {
                     ipAddress.append(segments[i]);
-                    if (i != COUNT - 1) {
+                    if (i != 3) {
                         ipAddress.append('.');
                     }
                 }

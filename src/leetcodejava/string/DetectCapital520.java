@@ -41,9 +41,9 @@ public class DetectCapital520 {
     @Test
     public void detectCapitalTest() {
         String word = "USA";
-        boolean flag = detectCapitalUse(word);
-        System.out.println(flag);
-        Assert.assertEquals(flag, true);
+        boolean result = detectCapitalUse(word);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

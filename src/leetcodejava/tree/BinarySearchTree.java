@@ -1,7 +1,7 @@
 package leetcodejava.tree;
 
 /**
- * 二叉搜索树
+ * 二叉搜索树的构建，查找，插入，删除
  *
  * @author: zhangyu
  */
@@ -38,6 +38,35 @@ public class BinarySearchTree {
         return root;
     }
 
+    /**
+     * 像搜索二叉树中插入元素
+     *
+     * @param data 数值
+     */
+    public void insertIntoBST2(int data) {
+        if (root == null) {
+            root = new TreeNode(data);
+            return;
+        }
+        TreeNode p = root;
+        while (p != null) {
+            if (data > p.val) {
+                if (p.right == null) {
+                    p.right = new TreeNode(data);
+                    return;
+                }
+                p = p.right;
+            } else {
+                if (p.left == null) {
+                    p.left = new TreeNode(data);
+                    return;
+                }
+                p = p.left;
+            }
+        }
+    }
+
+
 
     /**
      * 二叉查找树,递归方式
@@ -57,157 +86,74 @@ public class BinarySearchTree {
         }
     }
 
+
     /**
-     * 二叉查找树,非递归方式
+     * 查找树，查看节点是否存在
      *
-     * @param root 根节点
-     * @param val  查找的值
-     * @return 查找节点
+     * @param data 数值
+     * @return 根节点
      */
-    private TreeNode searchBST2(TreeNode root, int val) {
-        if (root == null) {
-            return null;
-        }
-        while (true) {
-            if (root.val == val) {
-                return root;
-            } else if (root.val < val) {
-                root = root.right;
+    public TreeNode searchBST2(int data) {
+        TreeNode p = root;
+        while (p != null) {
+            if (data < p.val) {
+                p = p.left;
+            } else if (data > p.val) {
+                p = p.right;
             } else {
-                root = root.left;
-            }
-            if (root == null) {
-                return null;
+                return p;
             }
         }
+        return null;
     }
-
     /**
-     * 待删除节点可能有四种情况：
-     * 1.待删除节点：没有左孩子也没有右孩子，删除节点后return null即可
-     * 2.待删除节点：只有左孩子，删除节点后return 该节点的左子树即可
-     * 3.待删除节点：只有右孩子，删除节点后return 该节点的右子树即可
-     * 4.待删除节点：左孩子和右孩子都不为null：用待删除节点的右子树中最小的节点值，
-     * 也就是用待删除节点的右子树最左端的节点值替换待删除节点的值，然后删除待删除节点的右子树最左端的节点即可
-     * （该节点没有左孩子），因为是最左端节点。
+     * 删除一个节点（判断节点）
      *
-     * @param val 删除节点
+     * @param data 数值
      */
-    public void deleteNode(int val) {
-        root = deleteNode(root, val);
-    }
-
-    /**
-     * 删除节点1
-     *
-     * @param curNode 当前节点
-     * @param key     关键字
-     * @return 要删除的节点
-     */
-    private TreeNode deleteNode(TreeNode curNode, int key) {
-        if (curNode == null) {
-            return null;
-        }
-        if (key < curNode.val) {
-            curNode.left = deleteNode(curNode.left, key);
-        } else if (key > curNode.val) {
-            curNode.right = deleteNode(curNode.right, key);
-        } else {
-            // curNode为带输出节点
-            if (curNode.left == null) {// 待删除节点只有右孩子或者没有孩子节点
-                return curNode.right;
-            } else if (curNode.right == null) {// 待删除节点只有左孩子
-                return curNode.left;
-            }
-            // 左右孩子都有
-            // 找到待删除节点右子树中最left的节点，也就是右子树中值最小的节点
-            TreeNode minNode = findMin(curNode.right);
-            curNode.val = minNode.val;// 更新curNode的值为待删除节点右子树中值最小的节点的值
-            // 删除curNode右子树中值最left的节点
-            curNode.right = deleteNode(curNode.right, curNode.val);
-        }
-        return curNode;
-    }
-
-    /**
-     * 找到以node为根节点的所有节点中值最小的节点，也就是最左端的节点
-     *
-     * @param node 节点
-     * @return node节点
-     */
-    private TreeNode findMin(TreeNode node) {
-        while (node.left != null) {
-            node = node.left;
-        }
-        return node;
-    }
-
-    /**
-     * 删除节点2
-     *
-     * @param root 根节点
-     * @param key  关键字
-     * @return
-     */
-    private TreeNode deleteNode1(TreeNode root, int key) {
-        TreeNode cur = root;
-        TreeNode pre = null;
-        while (cur != null) {
-            pre = cur;
-            if (key < cur.val) {
-                cur = cur.left;
-            } else if (key > cur.val) {
-                cur = cur.right;
+    public void delete(int data) {
+        TreeNode p = root;
+        TreeNode pp = null;
+        while (p != null && p.val != data) {
+            pp = p;
+            if (data > p.val) {
+                p = p.right;
             } else {
-                break;
+                p = p.left;
             }
         }
-        // cur指向待删除节点
-        if (cur == null) {
-            return null;  // 没找到待删除节点
+        if (p == null) {
+            return;
         }
-        if (pre == null) {// 删除根节点
-            root = deleteRootNode(cur);
-        } else if (pre.left == cur) {  // 删除左节点
-            pre.left = deleteRootNode(cur);
-        } else {           // 删除有节点
-            pre.right = deleteRootNode(cur);
+        //删除的节点有两个子节点
+        if (p.left != null && p.right != null) {
+            TreeNode minP = p.right;
+            TreeNode minPP = p;
+            while (minP.left != null) {
+                minPP = minP;
+                minP = minP.left;
+            }
+            // 赋值节点
+            p.val = minP.val;
+            // 删除叶子节点
+            minPP.left = null;
+            return;
+        } else {  // 删除的节点是叶子节点或者有一个子节点
+            TreeNode child;
+            if (p.left != null) {
+                child = p.left;
+            } else if (p.right != null) {
+                child = p.right;
+            } else {
+                child = null;
+            }
+            if (pp == null) {
+                root = child;
+            } else if (pp.left == p) {
+                pp.left = child;
+            } else {
+                pp.right = child;
+            }
         }
-        return root;
-    }
-
-    /**
-     * 删除root节点
-     *
-     * @param root 删除root节点
-     * @return 返回节点
-     */
-    private TreeNode deleteRootNode(TreeNode root) {
-        if (root == null) {
-            return null;
-        }
-        if (root.left == null) {
-            return root.right;
-        }
-        if (root.right == null) {
-            return root.left;
-        }
-        TreeNode next = root.right;
-        TreeNode pre = root;
-        // next指向待删除节点的右分支最小节点
-        // pre指向next的父节点
-       /* for (; next.left != null; pre = next, next = next.left) {
-            ;
-        }*/
-        while (next.left != null) {
-            pre = next;
-            next = next.left;
-        }
-        next.left = root.left;
-        if (root.right != next) {// 不是要删除next节点本身
-            pre.left = next.right;
-            next.right = root.right;
-        }
-        return next;
     }
 }

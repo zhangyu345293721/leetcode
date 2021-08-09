@@ -2,7 +2,7 @@
 
 '''
 /**
- * This is the solution of No. 67 problem in the LeetCode,
+ * This is the solution of No. 415 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/add-binary/
  * <p>
@@ -38,9 +38,7 @@ class Solution:
             字符串结果
         '''
         sb = []
-        i = len(num1) - 1
-        j = len(num2) - 1
-        carry = 0
+        i, j, carry = len(num1) - 1, (num2) - 1, 0
         while i >= 0 or j >= 0:
             a = 0 if i < 0 else int(num1[i])
             b = 0 if j < 0 else int(num2[j])
@@ -58,5 +56,6 @@ if __name__ == '__main__':
     a = "9"
     b = "99"
     solution = Solution()
-    num = solution.add_string(a, b)
-    print(num)
+    result = solution.add_string(a, b)
+    print(result)
+    assert result == "108"

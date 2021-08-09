@@ -3,6 +3,9 @@ package leetcodejava.math;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * This is the solution of No.79 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -39,13 +42,13 @@ public class WordSearch79 {
                         {'c', 'd'}
                 };
         String word = "abdc";
-        boolean result = exist(board, word);
+        boolean result = exist2(board, word);
         System.out.println(result);
         Assert.assertEquals(result, true);
     }
 
     /**
-     * 字符串是否存在
+     * 字符串是否存在（深度优先遍历）
      *
      * @param board 二维字符
      * @param word  单词
@@ -57,10 +60,10 @@ public class WordSearch79 {
         }
         int m = board.length;
         int n = board[0].length;
-        boolean[][] visited = new boolean[m][n];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (board[i][j] == word.charAt(0) && dfs(board, word, i, j, 0, visited)) {
+                boolean[][] visited = new boolean[m][n];
+                if (board[i][j] == word.charAt(0) && searchHelper(board, word, i, j, 0, visited)) {
                     return true;
                 }
             }
@@ -69,9 +72,17 @@ public class WordSearch79 {
     }
 
     /**
-     * 深度优先搜索
+     * 深度优先遍历
+     *
+     * @param board   字符数组
+     * @param word    单词
+     * @param i       横坐标位置i
+     * @param j       纵坐标位置j
+     * @param index   单词下标
+     * @param visited 是否访问过过该点
+     * @return 布尔值
      */
-    public boolean dfs(char[][] board, String word, int i, int j, int index, boolean[][] visited) {
+    public boolean searchHelper(char[][] board, String word, int i, int j, int index, boolean[][] visited) {
         if (index == word.length()) {
             return true;
         }
@@ -79,13 +90,60 @@ public class WordSearch79 {
             return false;
         }
         visited[i][j] = true;
-        if (dfs(board, word, i - 1, j, index + 1, visited) ||
-                dfs(board, word, i + 1, j, index + 1, visited) ||
-                dfs(board, word, i, j - 1, index + 1, visited) ||
-                dfs(board, word, i, j + 1, index + 1, visited)) {
+        if (searchHelper(board, word, i - 1, j, index + 1, visited) ||
+                searchHelper(board, word, i + 1, j, index + 1, visited) ||
+                searchHelper(board, word, i, j - 1, index + 1, visited) ||
+                searchHelper(board, word, i, j + 1, index + 1, visited)) {
             return true;
         }
         visited[i][j] = false;
+        return false;
+    }
+
+    /**
+     * 字符串是否存在(广度优先遍历)
+     *
+     * @param board 二维字符
+     * @param word  单词
+     * @return 布尔值
+     */
+    public boolean exist2(char[][] board, String word) {
+        if (word == null || word.length() == 0) {
+            return true;
+        }
+        int row = board.length;
+        int col = board[0].length;
+        Queue<int[]> queue = new LinkedList<>();
+        int len = word.length();
+        int[][] directions = new int[][]{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                boolean[][] visited = new boolean[row][col];
+                int index = 0;
+                if (board[i][j] == word.charAt(0)) {
+                    queue.add(new int[]{i, j});
+                    visited[i][j] = true;
+                    index++;
+                    while (!queue.isEmpty()) {
+                        int[] q = queue.poll();
+                        if (index == len) {
+                            return true;
+                        }
+                        for (int[] d : directions) {
+                            int x = q[0] + d[0];
+                            int y = q[1] + d[1];
+                            if (x >= 0 && x < row && y >= 0 && y < col) {
+                                if (index < len && board[x][y] == word.charAt(index) && !visited[x][y]) {
+                                    queue.add(new int[]{x, y});
+                                    visited[i][j] = true;
+                                    index++;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
         return false;
     }
 }

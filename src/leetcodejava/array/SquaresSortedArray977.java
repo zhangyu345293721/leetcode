@@ -37,22 +37,53 @@ import java.util.Arrays;
 public class SquaresSortedArray977 {
     @Test
     public void squaresSortedArrayTest() {
-        int[] arr = {-4, -1, 0, 3, 10};
-        int[] sortedArray = sortedSquares(arr);
+        int[] nums = {-4, -1, 0, 3, 10};
+        int[] sortedArray = sortedSquares2(nums);
         Assert.assertEquals(sortedArray.length, 5);
     }
 
     /**
      * 一个数组返回新数组
      *
-     * @param arr 输入数组
+     * @param nums 输入数组
      * @return 新数组
      */
-    public int[] sortedSquares(int[] arr) {
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = arr[i] * arr[i];
+    public int[] sortedSquares(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return null;
         }
-        Arrays.sort(arr);
-        return arr;
+        for (int i = 0; i < nums.length; i++) {
+            nums[i] = nums[i] * nums[i];
+        }
+        Arrays.sort(nums);
+        return nums;
+    }
+
+    /**
+     * 一个数组返回新数组(每次都找到一个最大值)
+     *
+     * @param nums 输入数组
+     * @return 新数组
+     */
+    public int[] sortedSquares2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return null;
+        }
+        int i = 0;
+        int j = nums.length - 1;
+        int[] result = new int[nums.length];
+        int index = nums.length - 1;
+        while (i <= j) {
+            int left = nums[i] * nums[i];
+            int right = nums[j] * nums[j];
+            if (left > right) {
+                result[index--] = left;
+                i++;
+            } else {
+                result[index--] = right;
+                j--;
+            }
+        }
+        return result;
     }
 }

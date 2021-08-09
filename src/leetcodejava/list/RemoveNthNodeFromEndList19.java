@@ -65,6 +65,7 @@ public class RemoveNthNodeFromEndList19 {
             p2 = p2.next;
         }
         p1.next = p1.next.next;
+        p1.next = null;
         return dummy.next;
     }
 }

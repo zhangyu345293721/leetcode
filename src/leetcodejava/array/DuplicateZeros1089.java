@@ -41,8 +41,8 @@ public class DuplicateZeros1089 {
 
     @Test
     public void duplicateZerosTest() {
-        int[] arr = {1, 0, 2, 3, 0, 4, 5, 0};
-        duplicateZeros(arr);
+        int[] result = {1, 0, 2, 3, 0, 4, 5, 0};
+        duplicateZeros(result);
     }
 
 

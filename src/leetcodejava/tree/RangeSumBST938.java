@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -35,14 +36,15 @@ import org.junit.Test;
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class RangeSumBST938 {
-    private int ans;
+    private int ans = 0;
 
     @Test
     public void rangeSumBSTTest() {
         Integer[] arr = {10, 5, 15, 3, 7, null, 18};
         TreeNode t = TreeNode.createBinaryTreeByArray(arr);
-        int sum = rangeSumBST(t, 7, 15);
-        System.out.println(sum);
+        int result = rangeSumBST(t, 7, 15);
+        System.out.println(result);
+        Assert.assertEquals(result, 32);
     }
 
     /**
@@ -52,7 +54,9 @@ public class RangeSumBST938 {
      * @return 和
      */
     public int rangeSumBST(TreeNode root, int L, int R) {
-        ans = 0;
+        if (root == null) {
+            return 0;
+        }
         dfs(root, L, R);
         return ans;
     }

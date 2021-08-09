@@ -101,8 +101,8 @@ public class PathSum437 {
             return 0;
         }
         Sum(root, sum);
-        pathSum(root.left, sum);
-        pathSum(root.right, sum);
+        pathSum2(root.left, sum);
+        pathSum2(root.right, sum);
         return pathNumber;
     }
 

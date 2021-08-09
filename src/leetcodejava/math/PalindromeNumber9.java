@@ -1,5 +1,6 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,6 +40,7 @@ public class PalindromeNumber9 {
     public void palindromeNumberTest() {
         boolean palindrome = isPalindrome2(121);
         System.out.println(palindrome);
+        Assert.assertEquals(palindrome, true);
     }
 
     /**

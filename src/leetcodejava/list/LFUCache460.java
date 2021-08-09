@@ -3,7 +3,7 @@ package leetcodejava.list;
 import java.util.*;
 
 /**
- * This is the solution of No.1313 problem in the LeetCode,
+ * This is the solution of No.460 problem in the LeetCode,
  * the website of the problem is as follow:
  *https://leetcode-cn.com/problems/lfu-cache
  * <p>

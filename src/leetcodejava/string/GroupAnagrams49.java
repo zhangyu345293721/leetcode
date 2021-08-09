@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -38,9 +39,9 @@ public class GroupAnagrams49 {
     @Test
     public void groupAnagramsTest() {
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        List<List<String>> list = groupAnagrams2(strs);
-        System.out.println(list);
-        System.out.println(Arrays.toString(strs));
+        List<List<String>> result = groupAnagrams2(strs);
+        System.out.println(result);
+        Assert.assertEquals(result.get(0).get(0), "eat");
     }
 
 

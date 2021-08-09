@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * This is the solution of No. xxx problem in the LeetCode,
+ * This is the solution of No. 72 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/edit-distance/
  * <p>
@@ -64,24 +64,24 @@ public class EditDistance72 {
         if (n * m == 0) {
             return n + m;
         }
-        int[][] d = new int[n + 1][m + 1];
+        int[][] dp = new int[n + 1][m + 1];
         for (int i = 0; i < n + 1; i++) {
-            d[i][0] = i;
+            dp[i][0] = i;
         }
         for (int j = 0; j < m + 1; j++) {
-            d[0][j] = j;
+            dp[0][j] = j;
         }
         for (int i = 1; i < n + 1; i++) {
             for (int j = 1; j < m + 1; j++) {
-                int left = d[i - 1][j] + 1;
-                int down = d[i][j - 1] + 1;
-                int leftDown = d[i - 1][j - 1];
+                int left = dp[i - 1][j] + 1;
+                int down = dp[i][j - 1] + 1;
+                int leftDown = dp[i - 1][j - 1];
                 if (word1.charAt(i - 1) != word2.charAt(j - 1)) {
                     leftDown += 1;
                 }
-                d[i][j] = Math.min(left, Math.min(down, leftDown));
+                dp[i][j] = Math.min(left, Math.min(down, leftDown));
             }
         }
-        return d[n][m];
+        return dp[n][m];
     }
 }

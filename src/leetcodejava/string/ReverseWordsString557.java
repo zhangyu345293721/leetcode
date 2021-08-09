@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -30,6 +31,7 @@ public class ReverseWordsString557 {
         String s = "Let's take LeetCode contest";
         String reverseWords = reverseWords(s);
         System.out.println(reverseWords);
+        Assert.assertEquals(reverseWords,"s'teL ekat edoCteeL tsetnoc");
     }
 
     /**

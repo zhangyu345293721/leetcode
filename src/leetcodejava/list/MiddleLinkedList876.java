@@ -1,5 +1,6 @@
 package leetcodejava.list;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -45,6 +46,7 @@ public class MiddleLinkedList876 {
         ListNode node1 = ListNode.createListNode(new Integer[]{1, 2, 3, 4, 5});
         ListNode middle = middleNode(node1);
         System.out.println(middle);
+        Assert.assertEquals(middle.val, 3);
     }
 
     /**
@@ -56,6 +58,7 @@ public class MiddleLinkedList876 {
     public ListNode middleNode(ListNode head) {
         int length = 0;
         ListNode temp = head;
+        // 找出链表的长度
         while (temp != null) {
             length++;
             temp = temp.next;

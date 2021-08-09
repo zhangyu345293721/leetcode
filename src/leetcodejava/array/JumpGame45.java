@@ -33,8 +33,8 @@ public class JumpGame45 {
     @Test
     public void jumpGameTest() {
         int[] nums = {2, 3, 1, 1, 4};
-        int jump = jump(nums);
-        Assert.assertEquals(jump, 2);
+        int result = jump(nums);
+        Assert.assertEquals(result, 2);
     }
 
     /**

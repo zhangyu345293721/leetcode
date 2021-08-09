@@ -40,8 +40,8 @@ public class ContainsDuplicate217 {
 
     @Test
     public void containsDuplicateTest() {
-        int[] arr = {1, 2, 3, 4};
-        boolean result = containsDuplicate(arr);
+        int[] nums = {1, 2, 3, 4};
+        boolean result = containsDuplicate(nums);
         Assert.assertEquals(result, true);
     }
 
@@ -52,6 +52,9 @@ public class ContainsDuplicate217 {
      * @return 布尔值
      */
     public boolean containsDuplicate(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return false;
+        }
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
             map.put(num, map.getOrDefault(num, 0) + 1);
@@ -71,6 +74,9 @@ public class ContainsDuplicate217 {
      * @return 布尔值
      */
     public boolean containsDuplicate2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return false;
+        }
         Set<Integer> set = new HashSet<>();
         for (int num : nums) {
             if (set.contains(num)) {
@@ -80,19 +86,5 @@ public class ContainsDuplicate217 {
             }
         }
         return false;
-    }
-
-    /**
-     * 数组中是否包含重复的数
-     *
-     * @param nums 数组
-     * @return 布尔值
-     */
-    public boolean containsDuplicate3(int[] nums) {
-        Set<Integer> set = new HashSet<>();
-        for (int num : nums) {
-            set.add(num);
-        }
-        return set.size() != nums.length;
     }
 }

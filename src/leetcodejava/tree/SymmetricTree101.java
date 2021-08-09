@@ -44,10 +44,9 @@ public class SymmetricTree101 {
     public void symmetricTreeTest() {
         Integer[] nums = {1, 2, 2, 3, 4, 4, 3};
         TreeNode root = TreeNode.createBinaryTreeByArray(nums);
-        boolean symmetric = isSymmetric(root);
-        System.out.println(symmetric);
-        Assert.assertEquals(symmetric, true);
-
+        boolean result = isSymmetric(root);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

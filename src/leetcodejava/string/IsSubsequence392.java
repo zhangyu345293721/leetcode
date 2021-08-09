@@ -34,8 +34,8 @@ public class IsSubsequence392 {
     public void IsSubsequenceTest() {
         String s = "abc";
         String t = "ahbgdc";
-        boolean subsequence = isSubsequence2(s, t);
-        System.out.println(subsequence);
+        boolean result = isSubsequence2(s, t);
+        System.out.println(result);
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -14,8 +15,9 @@ public class IsPalindromic {
     @Test
     public void groupAnagramsTest() {
         String str = "eat";
-        boolean flag = isPalindromicString2(str);
-        System.out.println(flag);
+        boolean result = isPalindromicString2(str);
+        System.out.println(result);
+        Assert.assertEquals(result, false);
     }
 
     /**
@@ -23,6 +25,9 @@ public class IsPalindromic {
      * @return 布尔值
      */
     public boolean isPalindromicString1(String subString) {
+        if (subString == null || subString.length() < 2) {
+            return true;
+        }
         StringBuilder sb = new StringBuilder(subString);
         return subString.equals(sb.reverse().toString());
     }
@@ -34,6 +39,9 @@ public class IsPalindromic {
      * @return 布尔值
      */
     public boolean isPalindromicString2(String subString) {
+        if (subString == null || subString.length() < 2) {
+            return true;
+        }
         int i = 0;
         int j = subString.length() - 1;
         while (i < j) {

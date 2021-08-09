@@ -1,5 +1,6 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -42,6 +43,7 @@ public class Pow50 {
         int n = -2147483648;
         double result = myPow(x, n);
         System.out.println(result);
+        Assert.assertEquals((int) result, 0);
     }
 
     /**

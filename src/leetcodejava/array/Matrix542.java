@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.LinkedList;
@@ -51,11 +52,12 @@ import java.util.Queue;
 public class Matrix542 {
     @Test
     public void matrixTest() {
-        int[][] arr = {
+        int[][] nums = {
                 {0}, {0}, {0}, {0}, {0}
         };
-        int[][] result = updateMatrix(arr);
+        int[][] result = updateMatrix(nums);
         System.out.println(result);
+        Assert.assertEquals(result.length, 4);
     }
 
     /**

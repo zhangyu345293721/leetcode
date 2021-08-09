@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -45,9 +46,9 @@ public class HeightChecker1051 {
     @Test
     public void heightCheckerTest() {
         int[] nums = {2, 1, 2, 1, 1, 2, 2, 1};
-
-        int num = heightChecker(nums);
-        System.out.println(num);
+        int result = heightChecker(nums);
+        System.out.println(result);
+        Assert.assertEquals(result, 4);
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -53,6 +54,7 @@ public class FreqAlphabets1309 {
         String s = "25#";
         String result = freqAlphabets(s);
         System.out.println(result);
+        Assert.assertEquals(result, "y");
     }
 
     /**

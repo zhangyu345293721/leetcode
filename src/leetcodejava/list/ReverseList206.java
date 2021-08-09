@@ -56,6 +56,9 @@ public class ReverseList206 {
      * @return 节点
      */
     public ListNode reverseList2(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
         ListNode pre = null;
         ListNode cur = head;
         ListNode tmp = null;

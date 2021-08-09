@@ -42,8 +42,14 @@ public class MergeTwoSortedLists21 {
      * @return 合并后链表
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode listNode = new ListNode(-1);
-        ListNode node = listNode;
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+        ListNode dummy = new ListNode(-1);
+        ListNode node = dummy;
         while (l1 != null && l2 != null) {
             if (l1.val <= l2.val) {
                 node.next = l1;
@@ -60,7 +66,7 @@ public class MergeTwoSortedLists21 {
         if (l2 == null) {
             node.next = l1;
         }
-        return listNode.next;
+        return dummy.next;
     }
 
     /**

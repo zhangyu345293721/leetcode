@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -41,8 +42,9 @@ public class ReverseWordsString151 {
     @Test
     public void reverseWordsStringTest() {
         String s = "the sky is blue";
-        String reverseWords = reverseWords(s);
-        System.out.println(reverseWords);
+        String result = reverseWords(s);
+        System.out.println(result);
+        Assert.assertEquals(result,"blue is sky the");
     }
 
     /**

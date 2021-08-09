@@ -49,10 +49,10 @@ class Solution:
         '''
         if x <= 1:
             return x
-        num = 1
-        while num * num <= x:
-            num += 1
-        return num - 1
+        result = 1
+        while result * result <= x:
+            result += 1
+        return result - 1
 
 
 if __name__ == '__main__':

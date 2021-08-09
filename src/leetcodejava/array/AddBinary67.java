@@ -32,8 +32,9 @@ public class AddBinary67 {
     public void addBinaryTest() {
         String a = "1010";
         String b = "1011";
-        String sum = addBinary(a, b);
-        Assert.assertEquals(sum,"10101");
+        String result = addBinary(a, b);
+        System.out.println(result);
+        Assert.assertEquals(result, "10101");
     }
 
 
@@ -60,14 +61,14 @@ public class AddBinary67 {
             int tempB = 0;
             if (i >= 0) {
                 tempA = a.charAt(i) - '0';
+                i--;
             }
             if (j >= 0) {
                 tempB = b.charAt(j) - '0';
+                j--;
             }
             carry += tempA + tempB;
             sb.append(carry % 2);
-            i--;
-            j--;
             carry = carry / 2;
         }
         if (carry > 0) {

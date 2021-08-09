@@ -36,8 +36,9 @@
 '''
 from list.list_node import ListNode
 
+
 class Solution:
-    def get_intersection_node(self,head_a: ListNode, head_b: ListNode) -> ListNode:
+    def get_intersection_node(self, head_a: ListNode, head_b: ListNode) -> ListNode:
         '''
             返回交点
         Args:
@@ -46,18 +47,21 @@ class Solution:
         Returns:
             交点
         '''
-        node_list = []
         if not head_a or not head_b:
             return None
-        while head_a:
-            node_list.append(head_a.val)
-            head_a = head_a.next
-        while head_b:
-            if head_b.val in node_list:
-                return head_b
-            head_b = head_b.next
-        return None
-
+        p_A = head_a
+        p_B = head_b
+        while p_A != p_B:
+            p_A = head_b if not p_A else p_A.next
+            p_B = head_a if not p_B else p_B.next
+        return p_A
 
 if __name__ == '__main__':
-    pass
+    arr1 = [4, 1, 8, 4, 5]
+    l1 = ListNode.create_list_node_array(arr1)
+    arr2 = [5, 0, 1, 8, 4, 5]
+    l2 = ListNode.create_list_node_array(arr2)
+    solution = Solution()
+    result = solution.get_intersection_node(l1, l2)
+    print(result)
+    assert result == None

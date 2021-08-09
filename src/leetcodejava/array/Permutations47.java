@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -13,17 +14,17 @@ import java.util.*;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个可包含重复数字的序列，返回所有不重复的全排列。
- *
+ * <p>
  * 示例:
- *
+ * <p>
  * 输入: [1,1,2]
  * 输出:
  * [
- *   [1,1,2],
- *   [1,2,1],
- *   [2,1,1]
+ * [1,1,2],
+ * [1,2,1],
+ * [2,1,1]
  * ]
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/permutations-ii
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -37,8 +38,9 @@ public class Permutations47 {
     @Test
     public void permutationsTest() {
         int[] nums = {1, 1, 2};
-        List<List<Integer>> lists = permuteUnique(nums);
-        System.out.println(lists);
+        List<List<Integer>> result = permuteUnique(nums);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 3);
     }
 
     /**
@@ -48,6 +50,9 @@ public class Permutations47 {
      * @return 结果链表
      */
     public List<List<Integer>> permuteUnique(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return new ArrayList<>();
+        }
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
         helper(nums, result, temp, 0);

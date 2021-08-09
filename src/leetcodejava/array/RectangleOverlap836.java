@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -40,8 +41,10 @@ public class RectangleOverlap836 {
     public void rectangleOverlapTest() {
         int[] rec1 = {5, 15, 8, 18};
         int[] rec2 = {0, 3, 7, 9};
-        boolean flag = isRectangleOverlap(rec1, rec2);
-        System.out.println(flag);
+        boolean result = isRectangleOverlap(rec1, rec2);
+        System.out.println(result);
+        Assert.assertEquals(result, false);
+
     }
 
     /**

@@ -46,10 +46,28 @@ class Solution:
             b <<= 1
         return a | b
 
+    def get_sum2(self, a: int, b: int) -> int:
+        '''
+            计算两个数的和
+        Args:
+            a: 数字a
+            b: 数字b
+        Returns:
+            总和
+        '''
+        while b != 0:
+            if b > 0:
+                b -= 1
+                a += 1
+            else:
+                b += 1
+                a -= 1
+        return a
+
 
 if __name__ == '__main__':
     a, b = 2, 5
     solution = Solution()
-    result = solution.get_sum(a, b)
+    result = solution.get_sum2(a, b)
     print(result)
     assert result == 7

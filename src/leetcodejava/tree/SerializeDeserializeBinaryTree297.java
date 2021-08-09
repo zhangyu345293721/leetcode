@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -9,22 +10,22 @@ import org.junit.Test;
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
- *  序列化是将一个数据结构或者对象转换为连续的比特位的操作，进而可以将转换后的数据存储在一个文件或者内存中，同时也可以通过网络传输到另一个计算机环境，采取相反方式重构得到原数据。
- *
+ * 序列化是将一个数据结构或者对象转换为连续的比特位的操作，进而可以将转换后的数据存储在一个文件或者内存中，同时也可以通过网络传输到另一个计算机环境，采取相反方式重构得到原数据。
+ * <p>
  * 请设计一个算法来实现二叉树的序列化与反序列化。这里不限定你的序列 / 反序列化算法执行逻辑，你只需要保证一个二叉树可以被序列化为一个字符串并且将这个字符串反序列化为原始的树结构。
- *
+ * <p>
  * 示例: 
- *
+ * <p>
  * 你可以将以下二叉树：
- *
- *     1
- *    / \
- *   2   3
- *      / \
- *     4   5
- *
+ * <p>
+ * 1
+ * / \
+ * 2   3
+ * / \
+ * 4   5
+ * <p>
  * 序列化为 "[1,2,3,null,null,4,5]"
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -38,13 +39,15 @@ public class SerializeDeserializeBinaryTree297 {
     public void serializeDeserializeBinaryTreeTest() {
         Integer[] arr = {1, 2, 3, null, null, 4, 5};
         TreeNode treeNode = TreeNode.createBinaryTreeByArray(arr, 0);
-        String serialize = serialize(treeNode);
-        System.out.println(serialize);
+        String result = serialize(treeNode);
+        System.out.println(result);
+        Assert.assertEquals(result, "1,2,#,#,3,4,#,#,5,#,#");
     }
 
 
     /**
      * 序列化树
+     *
      * @param root 二叉树
      * @return 字符串
      */
@@ -66,6 +69,7 @@ public class SerializeDeserializeBinaryTree297 {
 
     /**
      * 字符串转成二叉树
+     *
      * @param data 数据
      * @return 二叉树
      */

@@ -1,5 +1,6 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -42,42 +43,9 @@ public class Subsets78 {
     @Test
     public void subsetsTest() {
         int[] nums = {1, 2, 3};
-        List<List<Integer>> list = subsets(nums);
-        System.out.println(list);
-    }
-
-
-    /**
-     * 子集
-     *
-     * @param nums 数组
-     * @return 子集
-     */
-    private List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        List<Integer> subList = new ArrayList<>();
-        subsets(nums, 0, subList, result);
-        return result;
-    }
-
-    /**
-     * 找出一个数组的所有子集
-     *
-     * @param nums    数组
-     * @param i       下标
-     * @param subList 子集
-     * @param list    链表
-     */
-    private void subsets(int[] nums, int i, List<Integer> subList, List<List<Integer>> list) {
-        if (i == nums.length) {
-            list.add(subList);
-            return;
-        }
-        int num = nums[i];
-        List<Integer> temp = new ArrayList<>(subList);
-        temp.add(num);
-        subsets(nums, i + 1, temp, list);
-        subsets(nums, i + 1, subList, list);
+        List<List<Integer>> result = subsets3(nums);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 8);
     }
 
     /**
@@ -86,33 +54,61 @@ public class Subsets78 {
      * @param nums 数组
      * @return 链表
      */
-    private List<List<Integer>> subsets2(int[] nums) {
-        List<List<Integer>> ret = new ArrayList<List<Integer>>();
-        if (nums == null || nums.length == 0) {
-            return ret;
-        }
-        int[] pos = new int[nums.length];
-        int index = 0;
-        pos[0] = -1;
-        while (index >= 0) {
-            pos[index]++;
-            if (pos[index] < nums.length) {
-                List<Integer> s = new ArrayList<Integer>();
-                for (int ii = 0; ii <= index; ii++) {
-                    s.add(nums[pos[ii]]);
-                }
-                ret.add(s);
-                if (index < nums.length - 1) {
-                    index++;
-                    pos[index] = pos[index - 1];
-                }
-                continue;
+    public List<List<Integer>> subsets1(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        result.add(new ArrayList<>());
+        for (int num : nums) {
+            int size = result.size();
+            for (int i = 0; i < size; i++) {
+                // 复制一下，防止引用传递
+                List<Integer> r = new ArrayList<>(result.get(i));
+                r.add(num);
+                result.add(r);
             }
-            index--;
         }
-        ret.add(new ArrayList());
-        return ret;
+        return result;
     }
+
+    /**
+     * 数组生成所有的子集
+     *
+     * @param nums 数组
+     * @return 链表
+     */
+    public List<List<Integer>> subsets2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return new ArrayList<>();
+        }
+        List<List<Integer>> result = new ArrayList<>();
+        result.add(new ArrayList<>());
+        for (int len = 1; len <= nums.length; len++) {
+            searchHelper2(nums, result, len, 0, new ArrayList<>());
+        }
+        return result;
+    }
+
+    /**
+     * 回溯遍历
+     *
+     * @param nums   数组
+     * @param result 结果链表
+     * @param len    长度
+     * @param index  下标
+     * @param subset 子集
+     */
+    private void searchHelper2(int[] nums, List<List<Integer>> result, int len, int index, List<Integer> subset) {
+        // 到了一定长度就退出
+        if (subset.size() == len) {
+            result.add(new ArrayList<>(subset));
+            return;
+        }
+        for (int i = index; i < nums.length; i++) {
+            subset.add(nums[i]);
+            searchHelper2(nums, result, len, i + 1, subset);
+            subset.remove(subset.size() - 1);
+        }
+    }
+
 
     /**
      * 数组生成所有的子集
@@ -121,16 +117,32 @@ public class Subsets78 {
      * @return 链表
      */
     public List<List<Integer>> subsets3(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        result.add(new ArrayList<>());
-        for (int i = 0; i < nums.length; i++) {
-            int all = result.size();
-            for (int j = 0; j < all; j++) {
-                List<Integer> tmp = new ArrayList<>(result.get(j));
-                tmp.add(nums[i]);
-                result.add(tmp);
-            }
+        if (nums == null || nums.length < 1) {
+            return new ArrayList<>();
         }
+        List<List<Integer>> result = new ArrayList<>();
+        searchHelper3(nums, result, 0, nums.length, new ArrayList<>());
         return result;
+    }
+
+    /**
+     * 深度优先遍历
+     *
+     * @param nums   数组
+     * @param result 结果链表
+     * @param index  下标
+     * @param temp   子集
+     */
+    public void searchHelper3(int[] nums, List<List<Integer>> result, int index, int len, List<Integer> temp) {
+        // 复制链表，防止引用传递
+        result.add(new ArrayList<>(temp));
+        if (len == index) {
+            return;
+        }
+        for (int i = index; i < len; i++) {
+            temp.add(nums[i]);
+            searchHelper3(nums, result, i + 1, len, temp);
+            temp.remove(temp.size() - 1);
+        }
     }
 }

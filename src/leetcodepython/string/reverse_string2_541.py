@@ -2,7 +2,7 @@
 
 '''
 /**
- * This is the solution of No.830 problem in the LeetCode,
+ * This is the solution of No.541 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/reverse-string-ii
  * <p>
@@ -114,10 +114,34 @@ class Solution:
                 s += arr[i]
         return s
 
+    def get_reverse_string3(self, s: str, k: int) -> str:
+        '''
+            字符串反转
+        Args:
+            arr: 字符串
+        Returns:
+            反转后字符串
+        '''
+        if len(s) < k:
+            return s[::-1]
+        i = 0
+        length = len(s)
+        str_list = list(s)
+        while i < length:
+            start, end = i, min(i + k - 1, length - 1)
+            while start < end:
+                temp = str_list[start]
+                str_list[start] = str_list[end]
+                str_list[end] = temp
+                start += 1
+                end -= 1
+            i += 2 * k
+        return ''.join(str_list)
+
 
 if __name__ == '__main__':
     s = 'abc'
     solution = Solution()
-    reversed_s = solution.get_reverse_string(s, 2)
+    reversed_s = solution.get_reverse_string3(s, 2)
     print(reversed_s)
     assert reversed_s == 'bac'

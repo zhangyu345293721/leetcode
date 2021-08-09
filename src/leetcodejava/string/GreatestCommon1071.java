@@ -1,38 +1,39 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
  * This is the solution of No. 1071 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode.com/problems/greatest-common-divisor-of-strings/
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * For strings S and T, we say "T divides S" if and only if S = T + ... + T  (T concatenated with itself 1 or more times)
- *
+ * <p>
  * Return the largest string X such that X divides str1 and X divides str2.
- *
+ * <p>
  * Example 1:
  * Input: str1 = "ABCABC", str2 = "ABC"
  * Output: "ABC"
- *
+ * <p>
  * Example 2:
  * Input: str1 = "ABABAB", str2 = "ABAB"
  * Output: "AB"
- *
+ * <p>
  * Example 3:
  * Input: str1 = "LEET", str2 = "CODE"
  * Output: ""
- *
+ * <p>
  * Note:
  * - 1 <= str1.length <= 1000
  * - 1 <= str2.length <= 1000
  * - str1[i] and str2[i] are English uppercase letters.
  * ==========================================================================================================
  *
- * @author  zhangyu (zhangyuyu417@gmail.com)
+ * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class GreatestCommon1071 {
 
@@ -40,8 +41,9 @@ public class GreatestCommon1071 {
     public void greatestCommonTest() {
         String str1 = "LEET";
         String str2 = "CODe";
-        String maxString = gcdOfStrings(str1, str2);
-        System.out.println("maxString = " + maxString);
+        String result = gcdOfStrings(str1, str2);
+        System.out.println(result);
+        Assert.assertEquals(result, "y");
     }
 
     /**
@@ -78,6 +80,7 @@ public class GreatestCommon1071 {
         }
         return temp;
     }
+
     /**
      * 判断是否被整除
      *

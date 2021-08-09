@@ -13,8 +13,8 @@ public class BitCount {
     @Test
     public void bitCountTest() {
         int num = 2;
-        int count = bitCountStatistic(num);
-        Assert.assertEquals(count, 1);
+        int result = bitCountStatistic(num);
+        Assert.assertEquals(result, 1);
     }
 
     /**
@@ -24,11 +24,11 @@ public class BitCount {
      * @return 数量
      */
     private int bitCountStatistic(int num) {
-        int count = 0;
+        int res = 0;
         while (num > 0) {
-            count = count + (num & 1);
+            res = res + (num & 1);
             num = num >> 1;
         }
-        return count;
+        return res;
     }
 }

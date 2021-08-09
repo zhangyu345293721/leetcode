@@ -1,6 +1,7 @@
 package leetcodejava.tree;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.LinkedList;
@@ -46,8 +47,9 @@ public class PopulatingNextRightPointersEachNode117 {
     public void populatingNextRightPointersEachNodeTest() {
         Integer[] arr = {1, 2, 3, 4, 5, null, 7};
         Node node = Node.createTreeByArray(arr);
-        Node connect = connect2(node);
-        System.out.println(connect);
+        Node result = connect2(node);
+        System.out.println(result);
+        Assert.assertEquals(result.val, 1);
     }
 
     /**

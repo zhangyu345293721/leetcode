@@ -41,8 +41,8 @@ public class RecoverTreeFromPreorderTraversal1028 {
     @Test
     public void recoverTreeFromPreorderTraversalTest() {
         String S = "1-2--3--4-5--6--7";
-        TreeNode tree = recoverFromPreorder(S);
-        System.out.println(tree);
+        TreeNode result = recoverFromPreorder(S);
+        System.out.println(result);
     }
 
     /**

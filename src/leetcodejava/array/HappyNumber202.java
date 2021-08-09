@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -35,8 +36,9 @@ public class HappyNumber202 {
     @Test
     public void happyNumberTest() {
         int n = 19;
-        boolean flag = isHappy(n);
-        System.out.println(flag);
+        boolean result = isHappy(n);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

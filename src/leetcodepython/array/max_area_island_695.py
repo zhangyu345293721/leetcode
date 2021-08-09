@@ -84,5 +84,6 @@ if __name__ == '__main__':
     #         [0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0]]
     nums = [[0, 1, 1], [0, 1, 1]]
     solution = Solution()
-    max_island = solution.max_area_island(nums)
-    print(max_island)
+    result = solution.max_area_island(nums)
+    print(result)
+    assert result == 4

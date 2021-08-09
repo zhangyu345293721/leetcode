@@ -34,11 +34,11 @@ import org.junit.Test;
 public class FindNUnique1304 {
     @Test
     public void findUniqueTest() {
-        int arr[] = sumZero(5);
-        for (int num : arr) {
+        int nums[] = sumZero(5);
+        for (int num : nums) {
             System.out.print(num);
         }
-        Assert.assertEquals(arr.length, 5);
+        Assert.assertEquals(nums.length, 5);
     }
 
     /**
@@ -48,13 +48,13 @@ public class FindNUnique1304 {
      * @return 总和为0的数组
      */
     public int[] sumZero(int n) {
-        int[] arr = new int[n];
+        int[] nums = new int[n];
         int j = n - 1;
         for (int i = 0; i < (n / 2); i++) {
-            arr[i] = i + 1;
-            arr[j] = -arr[i];
+            nums[i] = i + 1;
+            nums[j] = -nums[i];
             j--;
         }
-        return arr;
+        return nums;
     }
 }

@@ -34,8 +34,8 @@ public class TwoSum1 {
     public void twoSumTest() {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
-        int[] arr = getSumIndex(nums, target);
-        Assert.assertEquals(arr.length, 2);
+        int[] result = twoSum(nums, target);
+        Assert.assertEquals(result.length, 2);
     }
 
     /**
@@ -45,7 +45,10 @@ public class TwoSum1 {
      * @param target 目标
      * @return 数组
      */
-    private int[] getSumIndex(int[] nums, int target) {
+    private int[] twoSum(int[] nums, int target) {
+        if (nums == null || nums.length < 2) {
+            return new int[]{-1, -1};
+        }
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             if (map.containsKey(target - nums[i])) {

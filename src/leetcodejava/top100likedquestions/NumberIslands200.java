@@ -67,7 +67,7 @@ public class NumberIslands200 {
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
                 if (grid[i][j] == '1') {
-                    helper(grid, i, j);
+                    searchHelper(grid, i, j);
                     res++;
                 }
             }
@@ -82,7 +82,7 @@ public class NumberIslands200 {
      * @param x    x坐标
      * @param y    y坐标
      */
-    private void helper(char[][] grid, int x, int y) {
+    private void searchHelper(char[][] grid, int x, int y) {
         if (x < 0 || x >= grid.length) {
             return;
         }
@@ -93,10 +93,10 @@ public class NumberIslands200 {
             return;
         }
         grid[x][y] = 0;
-        helper(grid, x - 1, y);
-        helper(grid, x + 1, y);
-        helper(grid, x, y - 1);
-        helper(grid, x, y + 1);
+        searchHelper(grid, x - 1, y);
+        searchHelper(grid, x + 1, y);
+        searchHelper(grid, x, y - 1);
+        searchHelper(grid, x, y + 1);
     }
 
     /**
@@ -111,11 +111,11 @@ public class NumberIslands200 {
         }
         int res = 0;
         int row = grid.length;
-        int column = grid[0].length;
+        int col = grid[0].length;
         Queue<int[]> queue = new LinkedList<>();
         int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         for (int i = 0; i < row; i++) {
-            for (int j = 0; j < column; j++) {
+            for (int j = 0; j < col; j++) {
                 if (grid[i][j] == '1') {
                     queue.add(new int[]{i, j});
                     res++;
@@ -125,7 +125,7 @@ public class NumberIslands200 {
                         for (int[] d : directions) {
                             int x = point[0] + d[0];
                             int y = point[1] + d[1];
-                            if (x >= 0 && x < row && y >= 0 && y < column) {
+                            if (x >= 0 && x < row && y >= 0 && y < col) {
                                 if (grid[x][y] == '1') {
                                     queue.add(new int[]{x, y});
                                     grid[x][y] = '0';

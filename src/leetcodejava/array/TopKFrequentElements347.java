@@ -38,8 +38,8 @@ public class TopKFrequentElements347 {
     public void topKFrequentElementsTest() {
         int[] nums = {1, 1, 1, 2, 2, 3};
         int k = 2;
-        int[] list = topKFrequent2(nums, k);
-        Assert.assertEquals(list.length, 2);
+        int[] result = topKFrequent2(nums, k);
+        Assert.assertEquals(result.length, 2);
     }
 
     /**

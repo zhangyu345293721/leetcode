@@ -45,80 +45,6 @@ public class ExamRoom855 {
         examRoom.leave(0);
         System.out.println(examRoom.seat());
         examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
-        System.out.println(examRoom.seat());
-        examRoom.leave(0);
 
     }
 
@@ -208,7 +134,7 @@ public class ExamRoom855 {
     /**
      * 删除某个元素
      *
-     * @param p
+     * @param p 删除元素
      */
     public void leave(int p) {
         if (p <= studentList.size()) {

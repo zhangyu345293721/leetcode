@@ -33,42 +33,19 @@ public class MinimumPathSum64 {
     @Test
     public void minimumPathSumTest() {
         int[][] grid = {{1, 3, 1}, {1, 5, 1}, {4, 2, 1}};
-        int result = minPathSum3(grid);
+        int result = minPathSum2(grid);
         Assert.assertEquals(result, 7);
     }
-
     /**
      * 最小路径和
      *
      * @param grid 二维数组
      * @return 最小路径和
      */
-    public int minPathSum(int[][] grid) {
-        int m = grid.length, n = grid[0].length;
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (i == 0 && j == 0) {
-                    continue;
-                }
-                if (i == 0) {
-                    grid[0][j] += grid[0][j - 1];
-                } else if (j == 0) {
-                    grid[i][0] += grid[i - 1][0];
-                } else {
-                    grid[i][j] += Math.min(grid[i - 1][j], grid[i][j - 1]);
-                }
-            }
+    public int minPathSum1(int[][] grid) {
+        if (grid == null || grid.length < 1) {
+            return 0;
         }
-        return grid[m - 1][n - 1];
-    }
-
-    /**
-     * 最小路径和
-     *
-     * @param grid 二维数组
-     * @return 最小路径和
-     */
-    public int minPathSum2(int[][] grid) {
         int m = grid.length, n = grid[0].length;
         for (int i = 1; i < m; i++) {
             grid[i][0] += grid[i - 1][0];
@@ -91,7 +68,7 @@ public class MinimumPathSum64 {
      * @param grid 二维数组
      * @return 最小路径和
      */
-    public int minPathSum3(int[][] grid) {
+    public int minPathSum2(int[][] grid) {
         if (grid.length == 0) {
             return 0;
         }

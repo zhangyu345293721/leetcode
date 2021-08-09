@@ -41,9 +41,8 @@ public class Combinations77 {
     public void combinationsTest() {
         int n = 4;
         int k = 2;
-        List<List<Integer>> combineList = combine(n, k);
-        Assert.assertEquals(combineList.size(), 6);
-
+        List<List<Integer>> result = combine(n, k);
+        Assert.assertEquals(result.size(), 6);
     }
 
     /**
@@ -55,7 +54,7 @@ public class Combinations77 {
      */
     public List<List<Integer>> combine(int n, int k) {
         if (n < k || k <= 0) {
-            return null;
+            return new ArrayList<>();
         }
         List<List<Integer>> result = new ArrayList<>(); // 用于存储 总结果集
         List<Integer> temp = new ArrayList<>(); // 用于存储 当前结果
@@ -64,8 +63,9 @@ public class Combinations77 {
     }
 
     /**
-     * i 从 index 开始，保证 在当前循环中，不会重复遍历 之前遍历过的数字
-     * n - (k - path.size()) + 1 表示 当前循环，起点所能达到的最大的数(保证最后一个数字加入时，正好能组成长度为k的结果)
+     * 保证在当前循环中，不会重复遍历之前遍历过的数字
+     * n - (k - path.size()) + 1 表示当前循环，起点所能达到的最大的数(保证最后一个数字加入时，
+     * 正好能组成长度为k的结果)
      *
      * @param n      数字范围
      * @param k      长度
@@ -74,14 +74,17 @@ public class Combinations77 {
      * @param result 结果
      */
     private void search(int n, int k, int num, List<Integer> temp, List<List<Integer>> result) {
-        if (temp.size() == k) { // 长度合适，增加当前结果，结束本轮递归
+        // 长度合适，增加当前结果，结束本轮递归
+        if (temp.size() == k) {
             result.add(new ArrayList<>(temp));
             return;
         }
         for (int i = num; i <= n - (k - temp.size()) + 1; i++) {
-            temp.add(i);    // 将新元素添加至尾部，照应后面的处理
+            // 将新元素添加至尾部，照应后面的处理
+            temp.add(i);
             search(n, k, i + 1, temp, result);
-            temp.remove(temp.size() - 1);  // 移除最后添加进去的元素
+            // 移除最后添加进去的元素
+            temp.remove(temp.size() - 1);
         }
     }
 }

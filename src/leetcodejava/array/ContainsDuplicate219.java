@@ -50,6 +50,9 @@ public class ContainsDuplicate219 {
      * @return 布尔值
      */
     public boolean containsNearbyDuplicate(int[] nums, int k) {
+        if (nums == null || nums.length < 1) {
+            return false;
+        }
         Map<Integer, Integer> numIndexMap = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             if (numIndexMap.containsKey(nums[i])) {

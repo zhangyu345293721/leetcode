@@ -34,27 +34,27 @@ import org.junit.Test;
 public class TwoSum167 {
     @Test
     public void twoSumTest() {
-        int[] numbers = {2, 7, 11, 15};
+        int[] nums = {2, 7, 11, 15};
         int target = 9;
-        int[] indexs = twoSum(numbers, target);
-        Assert.assertEquals(indexs.length, 2);
+        int[] result = twoSum(nums, target);
+        Assert.assertEquals(result.length, 2);
     }
 
     /**
      * 两个数相加求出数位置
      *
-     * @param numbers 数字
-     * @param target  目标值
+     * @param nums   数字
+     * @param target 目标值
      * @return 下标数组
      */
-    public int[] twoSum(int[] numbers, int target) {
-        if (numbers == null) {
-            return new int[0];
+    public int[] twoSum(int[] nums, int target) {
+        if (nums == null || nums.length < 2) {
+            return new int[]{-1, -1};
         }
         int i = 0;
-        int j = numbers.length - 1;
+        int j = nums.length - 1;
         while (i < j) {
-            int sum = numbers[i] + numbers[j];
+            int sum = nums[i] + nums[j];
             if (sum < target) {
                 i++;
             } else if (sum > target) {
@@ -63,6 +63,6 @@ public class TwoSum167 {
                 return new int[]{i + 1, j + 1};
             }
         }
-        return new int[0];
+        return new int[]{-1, -1};
     }
 }

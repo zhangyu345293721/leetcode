@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -47,6 +48,7 @@ public class BinaryTreeLevelOrderTraversal107 {
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         List<List<Integer>> lists = levelOrderBottom(root);
         System.out.println(lists);
+        Assert.assertEquals(lists.size(), 3);
     }
 
     /**

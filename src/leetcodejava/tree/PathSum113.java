@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -49,8 +50,9 @@ public class PathSum113 {
         Integer arr[] = {5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, null, 5, 1};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         int sum = 22;
-        List<List<Integer>> lists = pathSum(root, sum);
-        System.out.println(lists);
+        List<List<Integer>> result = pathSum(root, sum);
+        System.out.println(result);
+        Assert.assertEquals((int) result.get(0).get(0), 5);
     }
 
     /**

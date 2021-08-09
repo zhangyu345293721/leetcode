@@ -36,8 +36,8 @@ public class JumpGame55 {
     @Test
     public void jumpGameTest() {
         int[] nums = {3, 2, 1, 0, 4};
-        boolean flag = jumpGame2(nums);
-        Assert.assertEquals(flag, false);
+        boolean result = jumpGame1(nums);
+        Assert.assertEquals(result, false);
     }
 
     /**
@@ -58,46 +58,6 @@ public class JumpGame55 {
                 if (rightMost >= n - 1) {
                     return true;
                 }
-            }
-        }
-        return false;
-    }
-
-    /**
-     * 跳步游戏
-     *
-     * @param nums 数组
-     * @return 布尔值
-     */
-    public boolean jumpGame2(int[] nums) {
-        if (nums.length == 1) {
-            return true;
-        }
-        if (nums == null || nums[0] == 0) {
-            return false;
-        }
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == 0) {
-                boolean flag = jumpFlag(nums, i);
-                if (!flag) {
-                    return false;
-                }
-            }
-        }
-        return true;
-    }
-
-    /**
-     * 判断是否能跳过0
-     *
-     * @param nums 数组
-     * @param i    位置
-     * @return 布尔值
-     */
-    private boolean jumpFlag(int[] nums, int i) {
-        for (int j = i - 1; j >= 0; j--) {
-            if (nums[j] > i - j) {
-                return true;
             }
         }
         return false;

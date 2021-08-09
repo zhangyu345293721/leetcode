@@ -111,8 +111,8 @@ public class KthLargestElement215 {
      * @return 选择位置
      */
     private int randomPartition(int[] nums, int l, int r) {
-        int i = (int) Math.random() * (r - l) + l;
-        return partition(nums, l, r, i);
+        int randomIndex = (int) Math.random() * (r - l) + l;
+        return partition(nums, l, r, randomIndex);
     }
 
     /**
@@ -123,10 +123,10 @@ public class KthLargestElement215 {
      * @param r    位置r
      * @return 阈值位置
      */
-    private int partition(int[] nums, int l, int r, int i) {
-        int pivot = nums[i];
+    private int partition(int[] nums, int l, int r, int index) {
+        int pivot = nums[index];
         int rightMost = r;
-        swap(nums, i, r);
+        swap(nums, index, r);
         while (l <= r) {
             while (l <= r && nums[l] > pivot) {
                 l++;

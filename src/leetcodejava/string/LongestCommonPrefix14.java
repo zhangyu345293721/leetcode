@@ -1,6 +1,7 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -34,8 +35,9 @@ public class LongestCommonPrefix14 {
     @Test
     public void longestCommonTest() {
         String[] strs = {"c", "ceee"};
-        String longestStr = longestCommonPrefix1(strs);
-        System.out.println("longestStr = " + longestStr);
+        String result = longestCommonPrefix1(strs);
+        System.out.println(result);
+        Assert.assertEquals(result, "c");
     }
 
     /**
@@ -145,6 +147,13 @@ public class LongestCommonPrefix14 {
         return commonPrefix(left, right);
     }
 
+    /**
+     * 找出相同前缀
+     *
+     * @param s1 s1字符串
+     * @param s2 s2字符串
+     * @return 相同字符串
+     */
     public String commonPrefix(String s1, String s2) {
         int minLen = Math.min(s1.length(), s2.length());
         for (int i = 0; i < minLen; ++i) {

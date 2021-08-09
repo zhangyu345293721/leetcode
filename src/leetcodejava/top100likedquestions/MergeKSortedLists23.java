@@ -1,19 +1,22 @@
 package leetcodejava.top100likedquestions;
 
 import leetcodejava.list.ListNode;
+import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.Arrays;
 
 /**
  * This is the solution of No.23 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/merge-k-sorted-lists/
- *
+ * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
  * 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
- *
+ * <p>
  * 示例:
- *
+ * <p>
  * 输入:
  * [
  *   1->4->5,
@@ -21,7 +24,7 @@ import org.junit.Test;
  *   2->6
  * ]
  * 输出: 1->1->2->3->4->4->5->6
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -30,10 +33,19 @@ import org.junit.Test;
 public class MergeKSortedLists23 {
 
     @Test
-    public void mergeKSortedListsTest(){
-
+    public void mergeKSortedListsTest() {
+        ListNode l1 = ListNode.createListNode(Arrays.asList(1, 3, 4));
+        ListNode l2 = ListNode.createListNode(Arrays.asList(1, 2, 5));
+        ListNode l3 = ListNode.createListNode(Arrays.asList(1, 3, 7));
+        ListNode[] lists = {l1, l2, l3};
+        ListNode node = mergeKList(lists);
+        System.out.println(node);
+        Assert.assertEquals(node.val, 1);
     }
+
     /**
+     * 多路合并链表
+     *
      * @param lists 要合并的链表
      * @return 链表
      */
@@ -58,7 +70,9 @@ public class MergeKSortedLists23 {
             return lists[l];
         }
         int mid = (l + r) / 2;
-        return merge(helper(lists, l, mid), helper(lists, mid + 1, r));
+        ListNode l1 = helper(lists, l, mid);
+        ListNode l2 = helper(lists, mid + 1, r);
+        return merge(l1, l2);
     }
 
     /**

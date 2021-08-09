@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -10,8 +11,9 @@ public class QuestionView64 {
 
     @Test
     public void questionViewTest() {
-        int num = lastRemaining(10, 17);
-        System.out.println(num);
+        int result = lastRemaining(10, 17);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

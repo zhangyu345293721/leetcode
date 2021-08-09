@@ -37,8 +37,8 @@ public class ThreeSum15 {
     @Test
     public void threeSumTest() {
         int[] nums = {-1, 0, 1, 2, -1, -4};
-        List<List<Integer>> list = threeSum(nums);
-        Assert.assertEquals(list.size(), 2);
+        List<List<Integer>> result = threeSum(nums);
+        Assert.assertEquals(result.size(), 2);
     }
 
     /**

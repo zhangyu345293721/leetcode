@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Stack;
 
 /**
  * This is the solution of No. 155 problem in the LeetCode,
@@ -215,5 +216,35 @@ class MinStack155_3 {
             this.min = min;
         }
     }
+}
+
+class MinStack155_4 {
+    private Stack<Integer> stack = null;
+    private Stack<Integer> minStack = null;
+
+    public MinStack155_4() {
+        stack = new Stack<>();
+        minStack = new Stack<>();
+        minStack.push(Integer.MAX_VALUE);
+    }
+
+    public void push(int x) {
+        stack.push(x);
+        minStack.push(Math.min(x, minStack.peek()));
+    }
+
+    public void pop() {
+        stack.pop();
+        minStack.pop();
+    }
+
+    public int top() {
+        return stack.peek();
+    }
+
+    public int getMin() {
+        return minStack.peek();
+    }
+
 }
 

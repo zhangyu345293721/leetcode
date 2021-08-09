@@ -56,7 +56,6 @@ public class AddTwoNumbers445 {
         if (l2 == null) {
             return l1;
         }
-
         Deque<Integer> stack1 = new ArrayDeque<>();
         while (l1 != null) {
             stack1.push(l1.val);

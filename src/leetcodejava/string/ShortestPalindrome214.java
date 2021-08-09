@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -36,6 +37,7 @@ public class ShortestPalindrome214 {
         String str = "abcd";
         String result = shortestPalindrome2(str);
         System.out.println(result);
+        Assert.assertEquals(result, "dcbabcd");
     }
 
     /**
@@ -71,6 +73,7 @@ public class ShortestPalindrome214 {
         ans.append(s);
         return ans.toString();
     }
+
     /**
      * 生成最短回文串
      *
@@ -80,9 +83,9 @@ public class ShortestPalindrome214 {
     public String shortestPalindrome2(String s) {
         String temp = new StringBuffer(s).reverse().toString();
         int length = temp.length();
-        for (int index = 0; index<length ;++index){
-            if(temp.substring(index).equals(s.substring(0,length-index))){
-                temp = temp.substring(0,index);
+        for (int index = 0; index < length; ++index) {
+            if (temp.substring(index).equals(s.substring(0, length - index))) {
+                temp = temp.substring(0, index);
                 break;
             }
         }

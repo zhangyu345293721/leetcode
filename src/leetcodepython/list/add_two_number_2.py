@@ -107,9 +107,8 @@ class Solution:
 
 
 if __name__ == '__main__':
-    entity = ListNode()
-    l1 = entity.create_list_node_array([1, 2, 3])
-    l2 = entity.create_list_node_array([2, 3, 4])
+    l1 = ListNode.create_list_node_array([1, 2, 3])
+    l2 = ListNode.create_list_node_array([2, 3, 4])
     solution = Solution()
     result = solution.add_two_number(l1, l2)
     print(result)

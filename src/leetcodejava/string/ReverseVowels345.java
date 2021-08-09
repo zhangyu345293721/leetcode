@@ -31,8 +31,8 @@ import org.junit.Test;
 public class ReverseVowels345 {
     @Test
     public void reverseVolwelsTest() {
-        String str = reverseVowels("Aa");
-        Assert.assertEquals(str, "aA");
+        String result = reverseVowels("Aa");
+        Assert.assertEquals(result, "aA");
     }
 
     /**
@@ -55,7 +55,6 @@ public class ReverseVowels345 {
             }
         }
         return new String(chs);
-
     }
 
     /**

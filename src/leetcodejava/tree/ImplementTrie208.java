@@ -1,4 +1,4 @@
-package leetcodejava.string;
+package leetcodejava.tree;
 
 import org.junit.Test;
 
@@ -54,13 +54,13 @@ public class ImplementTrie208 {
     /**
      * 构造root节点
      */
-    private Node root;
+    private TrieNode root;
 
     /**
      * 构造trie树方法
      */
     public ImplementTrie208() {
-        root = new Node();
+        root = new TrieNode();
     }
 
     /**
@@ -71,11 +71,11 @@ public class ImplementTrie208 {
      * @param word 插入单词
      */
     public void insert(String word) {
-        Node cur = root;
+        TrieNode cur = root;
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
             if (cur.next.get(c) == null) {
-                cur.next.put(c, new Node());
+                cur.next.put(c, new TrieNode());
             }
             cur = cur.next.get(c);
         }
@@ -91,7 +91,7 @@ public class ImplementTrie208 {
      * @return 布尔值
      */
     public boolean search(String word) {
-        Node cur = root;
+        TrieNode cur = root;
         for (int i = 0; i < word.length(); i++) {
             char c = word.charAt(i);
             if (cur.next.get(c) == null) {
@@ -111,7 +111,7 @@ public class ImplementTrie208 {
      * @return 布尔值
      */
     public boolean startsWith(String prefix) {
-        Node cur = root;
+        TrieNode cur = root;
         for (int i = 0; i < prefix.length(); i++) {
             char c = prefix.charAt(i);
             if (cur.next.get(c) == null) {
@@ -123,7 +123,7 @@ public class ImplementTrie208 {
     }
 }
 
-class Node {
+class TrieNode {
     /**
      * 是否为单词的标志位
      */
@@ -131,14 +131,14 @@ class Node {
     /**
      * 存储单词穿的map
      */
-    public TreeMap<Character, Node> next;
+    public TreeMap<Character, TrieNode> next;
 
     /**
      * 构造node节点的构造方法
      *
      * @param isWord 是否是word标志位
      */
-    public Node(boolean isWord) {
+    public TrieNode(boolean isWord) {
         this.isWord = isWord;
         next = new TreeMap<>();
     }
@@ -146,7 +146,7 @@ class Node {
     /**
      * 构造node节点的方法
      */
-    public Node() {
+    public TrieNode() {
         this(false);
     }
 }

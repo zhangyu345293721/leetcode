@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -34,10 +35,11 @@ public class RelativeSortArray1122 {
     public void relativeSortArrayTest() {
         int[] arr1 = {2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19};
         int[] arr2 = {2, 1, 4, 3, 9, 6};
-        int[] arr = relativeSortArray(arr1, arr2);
-        for (Integer num : arr) {
+        int[] result = relativeSortArray(arr1, arr2);
+        for (Integer num : result) {
             System.out.print(num + " ");
         }
+        Assert.assertEquals(result[0], 2);
     }
 
     /**

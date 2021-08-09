@@ -60,25 +60,25 @@ public class AddTwoNumbers2 {
      * @return 链表结果
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode node = new ListNode(-1);
-        ListNode dummy = node;
+        ListNode head = new ListNode(-1);
+        ListNode dummy = head;
         int carry = 0;
         while (l1 != null || l2 != null) {
             int num1 = l1 == null ? 0 : l1.val;
             int num2 = l2 == null ? 0 : l2.val;
             int total = num1 + num2 + carry;
             carry = total / 10;
-            node.next = new ListNode(total % 10);
+            head.next = new ListNode(total % 10);
             if (l1 != null) {
                 l1 = l1.next;
             }
             if (l2 != null) {
                 l2 = l2.next;
             }
-            node = node.next;
+            head = head.next;
         }
         if (carry > 0) {
-            node.next = new ListNode(carry);
+            head.next = new ListNode(carry);
         }
         return dummy.next;
     }
