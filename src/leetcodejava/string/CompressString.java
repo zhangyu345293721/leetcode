@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -40,6 +41,7 @@ public class CompressString {
         String str = "addddccc";
         String result = compressString2(str);
         System.out.println(result);
+        Assert.assertEquals(result,"a1d4c3");
     }
 
     /**
@@ -68,16 +70,16 @@ public class CompressString {
      * @return 字符串链表
      */
     private List<String> splitString(String s) {
-        List<String> list = new ArrayList<>();
+        List<String> res = new ArrayList<>();
         int start = 0;
         for (int i = 0; i < s.length() - 1; i++) {
             if (s.charAt(i) != s.charAt(i + 1)) {
-                list.add(s.substring(start, i + 1));
+                res.add(s.substring(start, i + 1));
                 start = i + 1;
             }
         }
-        list.add(s.substring(start));
-        return list;
+        res.add(s.substring(start));
+        return res;
     }
     /**
      * 压缩字符串

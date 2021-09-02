@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -7,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * This is the solution of No. 1002 problem in the LeetCode,
+ * This is the solution of No.1002 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/find-common-characters
  * <p>
@@ -42,40 +43,41 @@ import java.util.List;
 public class CommonCharacter1002 {
     @Test
     public void commonCharacterTest() {
-        String[] strs = {"cool", "lock", "cook"};
-        List<String> list = commonChars(strs);
-        System.out.println(list);
+        String[] words = {"cool", "lock", "cook"};
+        List<String> result = commonChars(words);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 2);
     }
 
     /**
      * 计算重复字符
      *
      * @param words 单词数组
-     * @return list
+     * @return result
      */
     public List<String> commonChars(String[] words) {
         if (words.length < 1) {
             return new ArrayList<>();
         }
         if (words.length == 1) {
-            return Arrays.asList(words[0].split(""));
+            return Arrays.asList(String.valueOf(words[0].charAt(0)));
         }
-        List<String> list = new ArrayList<>();
+        List<String> result = new ArrayList<>();
         char[] chs = words[0].toCharArray();
         for (char ch : chs) {
             boolean flag = true;
             String chStr = String.valueOf(ch);
             for (int i = 1; i < words.length; i++) {
                 if (words[i].contains(chStr)) {
-                    words[i] = words[i].replaceFirst(chStr, "\\.");
+                    words[i] = words[i].replaceFirst(chStr, "A");
                 } else {
                     flag = false;
                 }
             }
             if (flag) {
-                list.add(chStr);
+                result.add(chStr);
             }
         }
-        return list;
+        return result;
     }
 }

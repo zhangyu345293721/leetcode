@@ -35,6 +35,7 @@ public class PerfectSquares279 {
     public void perfectSquaresTest() {
         int num = 13;
         int result = numSquares(num);
+        System.out.println(result);
         Assert.assertEquals(result, 2);
     }
 
@@ -47,7 +48,6 @@ public class PerfectSquares279 {
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
         Arrays.fill(dp, Integer.MAX_VALUE);
-        dp[0] = 1;
         for (int i = 0; i * i <= n; i++) {
             dp[i * i] = 1;
         }

@@ -29,8 +29,8 @@ public class ReverseList206 {
     public void reverseListTest() {
         List<Integer> list = new ArrayList<>(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5)));
         ListNode listNode = ListNode.createListNode(list);
-        ListNode node = reverseList(listNode);
-        Assert.assertEquals(node.val, 5);
+        ListNode result = reverseList3(listNode);
+        Assert.assertEquals(result.val, 5);
     }
 
     /**
@@ -72,5 +72,30 @@ public class ReverseList206 {
             cur = tmp;
         }
         return pre;
+    }
+
+    /**
+     * 链表返回 非递归方式
+     *
+     * @param head 头节点
+     * @return 节点
+     */
+    public ListNode reverseList3(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        // 定义前驱节点
+        ListNode pre = dummy;
+        // 定义当前节点
+        ListNode cur = head;
+        while (cur.next != null) {
+            ListNode nextP = cur.next;
+            cur.next = nextP.next;
+            nextP.next = pre.next;
+            pre.next = nextP;
+        }
+        return dummy.next;
     }
 }

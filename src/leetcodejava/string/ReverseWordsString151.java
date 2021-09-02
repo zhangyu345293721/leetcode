@@ -41,10 +41,10 @@ public class ReverseWordsString151 {
 
     @Test
     public void reverseWordsStringTest() {
-        String s = "the sky is blue";
-        String result = reverseWords(s);
+        String s = "           the    sky is      blue    ";
+        String result = reverseWords4(s);
         System.out.println(result);
-        Assert.assertEquals(result,"blue is sky the");
+        Assert.assertEquals(result, "blue is sky the");
     }
 
     /**
@@ -54,6 +54,9 @@ public class ReverseWordsString151 {
      * @return 反转后单词
      */
     public String reverseWords(String s) {
+        if (s == null || s.length() < 2) {
+            return s;
+        }
         StringBuffer sb = new StringBuffer();
         String[] s1 = s.trim().split(" +");
         for (int i = s1.length - 1; i >= 0; i--) {
@@ -70,6 +73,9 @@ public class ReverseWordsString151 {
      * @return 反转后单词
      */
     public String reverseWords2(String s) {
+        if (s == null || s.length() < 2) {
+            return s;
+        }
         StringBuilder sb = new StringBuilder();
         int i = s.length() - 1, j = i;
         while (i >= 0) {
@@ -91,8 +97,91 @@ public class ReverseWordsString151 {
      * @return 反转后单词
      */
     public String reverseWords3(String s) {
+        if (s == null || s.length() < 2) {
+            return s;
+        }
         String[] words = s.trim().split(" +");
         Collections.reverse(Arrays.asList(words));
         return String.join(" ", words);
+    }
+
+    /**
+     * 反转单词
+     *
+     * @param s 字符串
+     * @return 反转后单词
+     */
+    public String reverseWords4(String s) {
+        if (s == null || s.length() < 2) {
+            return s;
+        }
+        char[] chs = s.toCharArray();
+        // 过滤后数组的长度
+        int n = trim(chs);
+        if (n == 0) {
+            return "";
+        }
+        reverse(chs, 0, n - 1);
+        int i = 0, j = 0;
+        while (j < n) {
+            if (chs[j] == ' ') {
+                reverse(chs, i, j - 1);
+                i = ++j;
+            }
+            if (j == n - 1) {
+                reverse(chs, i, j);
+            }
+            j++;
+        }
+        char[] newChs = new char[n];
+        for (int index = 0; index < n; index++) {
+            newChs[index] = chs[index];
+        }
+        return new String(newChs);
+    }
+
+    /**
+     * 反转字符串
+     *
+     * @param chs 字符串数组
+     * @param i   下标i
+     * @param j   下标j
+     */
+    public void reverse(char[] chs, int i, int j) {
+        while (i < j) {
+            char temp = chs[i];
+            chs[i] = chs[j];
+            chs[j] = temp;
+            i++;
+            j--;
+        }
+    }
+
+    /**
+     * 去除空字符串和压缩中间出现过的字符串
+     *
+     * @param chs 字符串数组
+     * @return 新数组长度
+     */
+    public int trim(char[] chs) {
+        int i = 0;
+        int len = chs.length;
+        int k = 0;
+        // 去除字符串前面的字符
+        while (i < len && chs[i] == ' ') {
+            i++;
+        }
+        while (i < len) {
+            if (chs[i] == ' ') {
+                // 当为空字符串
+                if (i + 1 < len && chs[i + 1] != ' ') {
+                    chs[k++] = ' ';
+                }
+            } else {
+                chs[k++] = chs[i];
+            }
+            i++;
+        }
+        return k;
     }
 }

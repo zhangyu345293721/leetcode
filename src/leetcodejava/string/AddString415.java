@@ -31,8 +31,9 @@ public class AddString415 {
     public void addStringTest() {
         String num1 = "12345";
         String num2 = "12345";
-        String num = addStr(num1, num2);
-        Assert.assertEquals(num, "24690");
+        String result = addStr(num1, num2);
+        System.out.println(result);
+        Assert.assertEquals(result, "24690");
     }
 
     /**

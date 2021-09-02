@@ -39,7 +39,7 @@ public class PalindromeLinkedList234 {
     public void palindromeLinkedListTest() {
         Integer[] arr1 = {1, 2, 1};
         ListNode node = ListNode.createListNode(arr1);
-        boolean palindrome = isPalindrome2(node);
+        boolean palindrome = isPalindrome5(node);
         System.out.println(palindrome);
         Assert.assertEquals(palindrome, true);
     }
@@ -213,5 +213,27 @@ public class PalindromeLinkedList234 {
             slow = slow.next;
         }
         return slow;
+    }
+
+    /**
+     * 判斷是否是回文链表
+     *
+     * @param head 头结点
+     * @return 布尔值
+     */
+    public boolean isPalindrome5(ListNode head) {
+        if (head == null || head.next == null) {
+            return true;
+        }
+        long s1 = 0, s2 = 0;
+        long t = 1;
+        ListNode p = head;
+        while (p != null) {
+            s1 = 10 * s1 + p.val;
+            s2 = s2 + t * p.val;
+            t *= 10;
+            p = p.next;
+        }
+        return s1 == s2;
     }
 }

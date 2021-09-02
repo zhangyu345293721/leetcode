@@ -3,11 +3,13 @@ package leetcodejava.tree;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 /**
- * This is the solution of No. 104 problem in the LeetCode,
+ * This is the solution of No. 662 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/maximum-depth-of-binary-tree
  * <p>
@@ -55,7 +57,7 @@ public class MaximumWidthBinaryTree662 {
     public void maximumWidthBinaryTreeTest() {
         Integer[] nums = {1, 3, 2, 5, 2, null, 9};
         TreeNode root = TreeNode.createBinaryTreeByArray(nums);
-        int width = widthOfBinaryTree(root);
+        int width = widthOfBinaryTree2(root);
         Assert.assertEquals(width, 4);
         System.out.println(width);
     }
@@ -95,5 +97,42 @@ public class MaximumWidthBinaryTree662 {
             result = Math.max(result, index - initIndex + 1);
         }
         return result;
+    }
+
+    private int maxWidth = 0;
+
+    /**
+     * 树的宽度
+     *
+     * @param root 根节点
+     * @return 宽度
+     */
+    public int widthOfBinaryTree2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        List<Integer> left = new ArrayList<>();
+        searchHelper(root, 1, 1, left);
+        return maxWidth;
+    }
+
+    /**
+     * 深度优先搜索帮助类
+     *
+     * @param root  树
+     * @param level 级别
+     * @param index 下标
+     * @param left  链表
+     */
+    private void searchHelper(TreeNode root, int level, int index, List<Integer> left) {
+        if (root == null) {
+            return;
+        }
+        if (level > left.size()) {
+            left.add(index);
+        }
+        maxWidth = Math.max(maxWidth, index - left.get(level - 1) + 1);
+        searchHelper(root.left, level + 1, index * 2, left);
+        searchHelper(root.right, level + 1, index * 2 + 1, left);
     }
 }

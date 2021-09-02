@@ -36,8 +36,9 @@ public class UniqueBinarySearchTrees96 {
     @Test
     public void uniqueBinarySearchTreesTest() {
         int n = 3;
-        int i = numTrees(n);
-        Assert.assertEquals(i, 5);
+        int result = numTrees(n);
+        System.out.println(result);
+        Assert.assertEquals(result, 5);
     }
 
     /**

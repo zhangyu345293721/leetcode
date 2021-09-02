@@ -38,7 +38,8 @@
 
 
 class Solution:
-    flag = False
+    res = False
+
     def is_additive_number(self, num: str) -> bool:
         '''
             判断一个字符串是不是累加树
@@ -47,20 +48,19 @@ class Solution:
         Returns:
             布尔值
         '''
-        if len(num) < 3:
+        if num is None or len(num) < 3:
             return False
-        i = 0
-        num_length = len(num)
-        for j in range(i + 1, num_length):
-            for k in range(j + 1, num_length):
+        i, length = 0, len(num)
+        for j in range(i + 1, length):
+            for k in range(j + 1, length):
                 self.helper(i, j, k, num)
-                if self.flag:
-                    return self.flag
-        return self.flag
+                if self.res:
+                    return self.res
+        return self.res
 
     def helper(self, i: int, j: int, k: int, num: str) -> None:
         '''
-            累加树遍历帮助类
+            累加数遍历帮助类
         Args:
             i:下标i
             j: 下标j
@@ -75,11 +75,9 @@ class Solution:
         if num[j] == '0' and k - j > 1:
             return
         if k >= len(num):
-            self.flag = True
+            self.res = True
             return
-        num1 = int(num[i:j])
-        num2 = int(num[j:k])
-        total = num1 + num2
+        total = int(num[i:j]) + int(num[j:k])
         end = k + len(str(total))
         # 剪枝操作
         if total != int(num[k:end]):

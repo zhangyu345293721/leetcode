@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * This is the solution of No. 48 problem in the LeetCode,
+ * This is the solution of No.48 problem in the LeetCode,
  * the website of the problem is asm follow:
  * https://leetcode-cn.com/problems/rotate-image/
  * <p>
@@ -56,16 +56,17 @@ public class RotateImage48 {
         if (matrix == null || matrix.length < 1) {
             return;
         }
-        // 先进行对称交换
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = i; j < matrix[0].length; j++) {
+        int n = matrix.length;
+        // 先进行对称交换   右上 - 左下
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
                 swap(matrix, i, j, j, i);
             }
         }
-        // 再中间进行变换
-        for (int i = 0; i < matrix.length; i++) {
-            for (int j = 0; j < matrix[0].length / 2; j++) {
-                swap(matrix, i, j, i, matrix[0].length - j - 1);
+        // 再每行对列进行对称变换
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n / 2; j++) {
+                swap(matrix, i, j, i, n - j - 1);
             }
         }
     }
@@ -84,4 +85,5 @@ public class RotateImage48 {
         nums[x1][y1] = nums[x2][y2];
         nums[x2][y2] = temp;
     }
+
 }

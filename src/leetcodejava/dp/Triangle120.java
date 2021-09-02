@@ -44,8 +44,8 @@ public class Triangle120 {
         List<Integer> list3 = new ArrayList(Arrays.asList(6, 5, 7));
         List<Integer> list4 = new ArrayList<>(Arrays.asList(4, 1, 8, 3));
         List<List<Integer>> list = new ArrayList(Arrays.asList(list1, list2, list3, list4));
-        int total = minimumTotal(list);
-        Assert.assertEquals(total, 11);
+        int result = minimumTotal(list);
+        Assert.assertEquals(result, 11);
     }
 
     /**
@@ -67,5 +67,24 @@ public class Triangle120 {
             }
         }
         return dp[0][0];
+    }
+
+    /**
+     * 三角形最小路径
+     *
+     * @param triangle 三角形二维链表
+     * @return 最小路径
+     */
+    public int minimumTotal2(List<List<Integer>> triangle) {
+        if (triangle == null || triangle.size() == 0) {
+            return 0;
+        }
+        int[] dp = new int[triangle.size() + 1];
+        for (int i = triangle.size() - 1; i >= 0; i--) {
+            for (int j = 0; j <= i; j++) {
+                dp[j] = Math.min(dp[j], dp[j + 1]) + triangle.get(i).get(j);
+            }
+        }
+        return dp[0];
     }
 }

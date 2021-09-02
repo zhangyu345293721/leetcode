@@ -50,7 +50,7 @@ public class ReverseString344 {
      *
      * @param s 字符数组
      */
-    public void reverseString(char[] s) {
+    public void reverseString1(char[] s) {
         int i = 0;
         int j = s.length - 1;
         while (i < j) {
@@ -74,6 +74,21 @@ public class ReverseString344 {
     }
 
     /**
+     * 倒转字符串数组
+     *
+     * @param s 字符数组
+     */
+    public void reverseString3(char[] s) {
+        if (s == null || s.length < 1) {
+            return;
+        }
+        int len = s.length;
+        for (int i = 0; i < len / 2; i++) {
+            swap(s, i, len - 1 - i);
+        }
+    }
+
+    /**
      * 反转字符粗
      *
      * @param s     字符串s
@@ -92,8 +107,8 @@ public class ReverseString344 {
      * 交换数组中两个字符的位置
      *
      * @param s 数组
-     * @param i   位置i
-     * @param j   位置j
+     * @param i 位置i
+     * @param j 位置j
      */
     public void swap(char[] s, int i, int j) {
         char temp = s[i];

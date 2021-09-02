@@ -35,9 +35,9 @@ public class ValidPalindrome125 {
 
     @Test
     public void validPalindromeTest() {
-        //String str = "A man, a plan, a canal: Panama";
-        String str = "0P";
-        boolean result = isPalindrome2(str);
+        String str = "A man, a plan, a canal: Panama";
+        // String str = "0P";
+        boolean result = isPalindrome2("A man, a plan, a canal: Panama");
         System.out.println(result);
         Assert.assertEquals(result, false);
     }
@@ -48,64 +48,7 @@ public class ValidPalindrome125 {
      * @param s 要判断字符串
      * @return 布尔类型值
      */
-    public boolean isPalindrome(String s) {
-        int i = 0;
-        int j = s.length() - 1;
-        while (i < j) {
-            boolean flag1 = getValidFlag(s, i);
-            boolean flag2 = getValidFlag(s, j);
-            if (flag1 && flag2) {
-                if (Character.toLowerCase(s.charAt(i)) != Character.toLowerCase(s.charAt(j))) {
-                    return false;
-                }
-                i++;
-                j--;
-            } else if (flag1 == false && flag2 == true) {
-                i++;
-            } else if (flag1 == true && flag2 == false) {
-                j--;
-            } else {
-                i++;
-                j--;
-            }
-        }
-        return true;
-    }
-
-    /**
-     * 判断是不是回文组
-     *
-     * @param s 要判断字符串
-     * @return 布尔类型值
-     */
-    public boolean isPalindrome2(String s) {
-        if (s == null || s.length() < 1) {
-            return true;
-        }
-        s = s.replaceAll("[^a-zA-Z0-9]", "");
-        return new StringBuilder(s).reverse().toString().equalsIgnoreCase(s);
-    }
-
-
-    /**
-     * 判断是不是
-     *
-     * @param s     输入串
-     * @param index 下标
-     * @return 返回flag
-     */
-    private boolean getValidFlag(String s, int index) {
-        return (s.charAt(index) >= 'a' && s.charAt(index) <= 'z') || (s.charAt(index) >= 'A' && s.charAt(index) <= 'Z')
-                || (s.charAt(index) >= '0' && s.charAt(index) <= '9');
-    }
-
-    /**
-     * 判断是不是回文组
-     *
-     * @param s 要判断字符串
-     * @return 布尔类型值
-     */
-    public boolean isPalindrome3(String s) {
+    public boolean isPalindrome1(String s) {
         if (s == null) {
             return true;
         }
@@ -118,5 +61,71 @@ public class ValidPalindrome125 {
             }
         }
         return str.toString().equals(str.reverse().toString());
+    }
+
+    /**
+     * 判断是不是回文组
+     *
+     * @param s 要判断字符串
+     * @return 布尔类型值
+     */
+    public boolean isPalindrome2(String s) {
+        if (s == null || s.length() < 1) {
+            return true;
+        }
+        char chs[] = s.toCharArray();
+        int i = 0;
+        int j = chs.length - 1;
+        while (i < j) {
+            if (!isValidChar(chs[i])) {
+                i++;
+                continue;
+            }
+            if (!isValidChar(chs[j])) {
+                j--;
+                continue;
+            }
+            if (toLowerChar(chs[i]) != toLowerChar(chs[j])) {
+                return false;
+            }
+            i++;
+            j--;
+        }
+        return true;
+    }
+
+    /**
+     * 判断是否是合法字符
+     *
+     * @param ch 字符
+     * @return 布尔值
+     */
+    public boolean isValidChar(char ch) {
+        if (ch >= '0' && ch <= '9') {
+            return true;
+        }
+        if (ch >= 'A' && ch <= 'Z') {
+            return true;
+        }
+        if (ch >= 'a' && ch <= 'z') {
+            return true;
+        }
+        return false;
+    }
+
+    /**
+     * 将大写字母变成小写
+     *
+     * @param ch 字符
+     * @return 小写字符
+     */
+    public char toLowerChar(char ch) {
+        if (ch >= '0' && ch <= '9') {
+            return ch;
+        }
+        if (ch >= 'a' && ch <= 'z') {
+            return ch;
+        }
+        return (char) (ch + 32);
     }
 }

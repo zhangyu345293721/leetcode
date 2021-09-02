@@ -83,4 +83,44 @@ public class SpiralMatrix54 {
         }
         return result;
     }
+
+    /**
+     * 旋转链表
+     *
+     * @param matrix 二维数组
+     * @return 结果链表
+     */
+    public List<Integer> spitalOrder2(int[][] matrix) {
+        if (matrix == null || matrix.length < 1) {
+            return new ArrayList<>();
+        }
+        int bottom = matrix.length - 1;
+        int left = 0;
+        int right = matrix[0].length - 1;
+        int top = 0;
+        List<Integer> result = new ArrayList<>();
+        while (top <= bottom && left <= right) {
+            // 从left-right遍历
+            for (int i = left; i <= right; i++) {
+                result.add(matrix[top][i]);
+            }
+            top++;
+            //从top-bottom遍历
+            for (int i = top; i <= bottom; i++) {
+                result.add(matrix[i][right]);
+            }
+            right--;
+            //从right-left遍历
+            for (int i = right; i >= left && top <= bottom; i--) {
+                result.add(matrix[bottom][i]);
+            }
+            bottom--;
+            // 从bottom-top遍历
+            for (int i = bottom; i >= top && left <= right; i--) {
+                result.add(matrix[i][left]);
+            }
+            left++;
+        }
+        return result;
+    }
 }

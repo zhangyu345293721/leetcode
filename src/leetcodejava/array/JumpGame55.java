@@ -53,7 +53,8 @@ public class JumpGame55 {
         int n = nums.length;
         int rightMost = 0;
         for (int i = 0; i < n; i++) {
-            if (i <= rightMost) {
+            // 先要判断该点是否能够到达
+            if (rightMost >= i) {
                 rightMost = Math.max(rightMost, i + nums[i]);
                 if (rightMost >= n - 1) {
                     return true;

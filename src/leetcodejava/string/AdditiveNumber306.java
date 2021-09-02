@@ -40,13 +40,13 @@ public class AdditiveNumber306 {
 
     @Test
     public void additiveNumberTest() {
-        String str = "0235813";
-        boolean result = isAdditiveNumber(str);
+        String num = "0235813";
+        boolean result = isAdditiveNumber(num);
         System.out.println(result);
         Assert.assertEquals(result, false);
     }
 
-    private boolean flag = false;
+    private boolean result = false;
 
     /**
      * 判断是不是累加数
@@ -55,7 +55,7 @@ public class AdditiveNumber306 {
      * @return 布尔值
      */
     public boolean isAdditiveNumber(String num) {
-        if (num.length() < 3) {
+        if (num == null || num.length() < 3) {
             return false;
         }
         int length = num.length();
@@ -63,12 +63,12 @@ public class AdditiveNumber306 {
         for (int j = 1; j < length; j++) {
             for (int k = j + 1; k < length; k++) {
                 helper(i, j, k, num);
-                if (flag) {
-                    return flag;
+                if (result) {
+                    return result;
                 }
             }
         }
-        return flag;
+        return result;
     }
 
     /**
@@ -80,19 +80,20 @@ public class AdditiveNumber306 {
      * @param num 字符串
      */
     private void helper(int i, int j, int k, String num) {
+        // 防止此类：1023的数1 + 02 = 3 满足的情况
         if (num.charAt(i) == '0' && j - i > 1) {
             return;
         }
         if (num.charAt(j) == '0' && k - j > 1) {
             return;
         }
+        if (k >= num.length()) {
+            result = true;
+            return;
+        }
         Long num1 = Long.valueOf(num.substring(i, j));
         Long num2 = Long.valueOf(num.substring(j, k));
         long total = num1 + num2;
-        if (k >= num.length()) {
-            flag = true;
-            return;
-        }
         int length = String.valueOf(total).length();
         int end = k + length;
         if (end > num.length()) {
