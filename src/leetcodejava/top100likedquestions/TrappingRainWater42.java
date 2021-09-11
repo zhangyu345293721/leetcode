@@ -66,10 +66,8 @@ public class TrappingRainWater42 {
             return 0;
         }
         int result = 0;
-        int left = 0;
-        int right = height.length - 1;
-        int leftMax = 0;
-        int rightMax = 0;
+        int left = 0, right = height.length - 1;
+        int leftMax = 0, rightMax = 0;
         while (left < right) {
             if (height[left] < height[right]) {
                 leftMax = Math.max(leftMax, height[left]);
@@ -82,5 +80,36 @@ public class TrappingRainWater42 {
             }
         }
         return result;
+    }
+
+    /**
+     * 装多少水
+     *
+     * @param height 数组
+     * @return 多少水
+     */
+    private int trappingRainWater3(int[] height) {
+        if (height == null || height.length < 3) {
+            return 0;
+        }
+        int len = height.length;
+        int[] leftArr = new int[len];
+        int[] rightArr = new int[len];
+        int max = 0;
+        int res = 0;
+        for (int i = 0; i < len; i++) {
+            leftArr[i] = Math.max(max, height[i]);
+            max = leftArr[i];
+        }
+        max = 0;
+        for (int i = len - 1; i >= 0; i--) {
+            rightArr[i] = Math.max(max, height[i]);
+            max = rightArr[i];
+        }
+
+        for (int i = 0; i < len; i++) {
+            res += Math.min(leftArr[i], rightArr[i]) - height[i] > 0 ? Math.min(leftArr[i], rightArr[i]) - height[i] : 0;
+        }
+        return res;
     }
 }
