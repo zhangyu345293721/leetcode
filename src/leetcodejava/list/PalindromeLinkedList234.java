@@ -111,29 +111,6 @@ public class PalindromeLinkedList234 {
         temp = temp.next;
         return res;
     }
-
-    /**
-     * 判断链表是不是回文链表(新建回文串)
-     *
-     * @param head 头结点
-     * @return 布尔值
-     */
-    public boolean isPalindrome3(ListNode head) {
-        if (head == null || head.next == null) {
-            return true;
-        }
-        ListNode temp = (ListNode) head.clone();
-        ListNode reverseNode = reverse(head);
-        while (temp != null && reverseNode != null) {
-            if (temp.val != reverseNode.val) {
-                return false;
-            }
-            temp = temp.next;
-            reverseNode = reverseNode.next;
-        }
-        return true;
-    }
-
     /**
      * 反转节点
      *
