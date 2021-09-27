@@ -98,4 +98,46 @@ public class BinaryTreePostOrderTraversal145 {
         }
         return res;
     }
+
+    /**
+     * 后序遍历非递归方式
+     *
+     * @param root 根节点
+     * @return 链表
+     */
+    public List<Integer> postOrderTraversal3(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
+        List<Integer> result = new LinkedList<>();
+        Stack<SFrame> stack = new Stack<>();
+        stack.push(new SFrame(1, root));
+        while (!stack.isEmpty()) {
+            if (stack.peek().status == 1) {
+                stack.peek().status = 2;
+                if (stack.peek().node.left != null) {
+                    stack.push(new SFrame(1, stack.peek().node.left));
+                }
+            } else if (stack.peek().status == 2) {
+                stack.peek().status = 3;
+                if (stack.peek().node.right != null) {
+                    stack.push(new SFrame(1, stack.peek().node.right));
+                }
+            } else if (stack.peek().status == 3) {
+                result.add(stack.peek().node.val);
+                stack.pop();
+            }
+        }
+        return result;
+    }
+
+    private class SFrame {
+        int status;
+        TreeNode node;
+
+        public SFrame(int status, TreeNode node) {
+            this.status = status;
+            this.node = node;
+        }
+    }
 }

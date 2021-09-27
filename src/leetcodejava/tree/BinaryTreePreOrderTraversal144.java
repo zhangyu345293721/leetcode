@@ -85,18 +85,70 @@ public class BinaryTreePreOrderTraversal144 {
         if (root == null) {
             return new ArrayList<>();
         }
-        List<Integer> res = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
-        while (!stack.isEmpty() || root != null) {
-            while (root != null) {
-                res.add(root.val);
-                stack.push(root);
-                root = root.left;
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            TreeNode p = stack.pop();
+            result.add(p.val);
+            if (p.right != null) {
+                stack.push(p.right);
             }
-            root = stack.pop();
-            root = root.right;
+            if (p.left != null) {
+                stack.push(p.left);
+            }
         }
-        return res;
+        return result;
+    }
+
+
+    /**
+     * 先序遍历二叉树（后进先出）
+     *
+     * @param root 根节点
+     * @return 链表
+     */
+    public List<Integer> preOrderTraversal3(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
+        List<Integer> result = new ArrayList<>();
+        Stack<SFrame> stack = new Stack<>();
+        stack.push(new SFrame(1, root));
+        while (!stack.isEmpty()) {
+            if (stack.peek().status == 1) {
+                result.add(stack.peek().node.val);
+                stack.peek().status = 2;
+                if (stack.peek().node.left != null) {
+                    stack.push(new SFrame(1, stack.peek().node.left));
+                }
+            } else if (stack.peek().status == 2) {
+                stack.peek().status = 3;
+                if (stack.peek().node.right != null) {
+                    stack.push(new SFrame(1, stack.peek().node.right));
+                }
+            } else if (stack.peek().status == 3) {
+                stack.pop();
+            }
+        }
+        return result;
+    }
+
+
+    private class SFrame {
+        int status;
+        TreeNode node;
+
+        /**
+         * 建立一个栈帧
+         *
+         * @param status 标志位
+         * @param node   元素
+         */
+        public SFrame(int status, TreeNode node) {
+            this.status = status;
+            this.node = node;
+        }
     }
 }
 

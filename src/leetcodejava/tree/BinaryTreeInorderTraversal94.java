@@ -3,7 +3,9 @@ package leetcodejava.tree;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
 
 /**
  * This is the solution of No.94 problem in the LeetCode,
@@ -95,5 +97,50 @@ public class BinaryTreeInorderTraversal94 {
             root = node.right;
         }
         return resultList;
+    }
+
+
+    /**
+     * 中序遍历二叉树
+     *   1）status=1 表示要扩展左⼦树，将左⼦节点⼊栈
+     *   2）status=2 表示左⼦树扩展完了，要扩展右⼦树，将右⼦节点⼊栈
+     *   3）status=3 表示左右⼦树都扩展完了，出栈
+     * @param root 根节点
+     * @return 链表
+     */
+    public List<Integer> inorderTraversal3(TreeNode root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
+        List<Integer> result = new ArrayList<>();
+        Stack<SFrame> stack = new Stack<>();
+        stack.push(new SFrame(1, root));
+        while (!stack.isEmpty()) {
+            if (stack.peek().status == 1) {
+                stack.peek().status = 2;
+                if (stack.peek().node.left != null) {
+                    stack.push(new SFrame(1, stack.peek().node.left));
+                }
+            } else if (stack.peek().status == 2) {
+                stack.peek().status = 3;
+                result.add(stack.peek().node.val);
+                if (stack.peek().node.right != null) {
+                    stack.push(new SFrame(1, stack.peek().node.right));
+                }
+            } else if (stack.peek().status == 3) {
+                stack.pop();
+            }
+        }
+        return result;
+    }
+
+    private class SFrame {
+        int status;
+        TreeNode node;
+
+        public SFrame(int status, TreeNode node) {
+            this.status = status;
+            this.node = node;
+        }
     }
 }
