@@ -44,9 +44,9 @@ public class ReverseInteger7 {
     @Test
     public void reverseIntegerTest() {
         int x = -123;
-        int reverse = reverse(x);
-        System.out.println(reverse);
-        Assert.assertEquals(reverse, -321);
+        int result = reverse(x);
+        System.out.println(result);
+        Assert.assertEquals(result, -321);
     }
 
     /**

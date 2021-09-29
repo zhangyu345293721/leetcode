@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -49,6 +50,7 @@ public class BinaryTreeMaximumPathSum124 {
         TreeNode treeNode = TreeNode.createBinaryTreeByArray(arr);
         int totalSum = maxPathSum(treeNode);
         System.out.println(totalSum);
+        Assert.assertEquals(totalSum,17);
     }
 
     private int result = Integer.MIN_VALUE;

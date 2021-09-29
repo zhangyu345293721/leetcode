@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -43,8 +44,9 @@ public class FindModeBinarySearchTree501 {
     public void findModeBinarySearchTreeTest() {
         Integer[] arr = new Integer[]{3, 2, 3, 1, 2};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        int[] mode = findMode2(root);
-        System.out.println(mode);
+        int[] result = findMode2(root);
+        System.out.println(result[0]);
+        Assert.assertEquals(result, 2);
     }
 
     /**

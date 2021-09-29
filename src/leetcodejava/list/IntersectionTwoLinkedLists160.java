@@ -45,8 +45,8 @@ public class IntersectionTwoLinkedLists160 {
 
         Integer[] arr2 = {5, 0, 1, 8, 4, 5};
         ListNode listNode2 = ListNode.createListNode(arr2);
-        ListNode intersectionNode = getIntersectionNode(listNode1, listNode2);
-        Assert.assertEquals(intersectionNode.val, 4);
+        ListNode result = getIntersectionNode(listNode1, listNode2);
+        Assert.assertEquals(result.val, 4);
     }
 
     /**

@@ -41,9 +41,9 @@ public class Search2D240 {
                 {18, 21, 23, 26, 30}
         };
         int target = 5;
-        boolean b = searchMatrix2(matrix, target);
-        System.out.println(b);
-        Assert.assertEquals(b, true);
+        boolean result = searchMatrix2(matrix, target);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -30,8 +31,9 @@ public class LetterCombinationsPhoneNumber17 {
     @Test
     public void letterCombinationsPhoneNumberTest() {
         String digits = "23";
-        List<String> list = letterCombinations(digits);
-        System.out.println(list);
+        List<String> result = letterCombinations(digits);
+        System.out.println(result);
+        Assert.assertEquals(result.get(0),"ad");
     }
 
     /**

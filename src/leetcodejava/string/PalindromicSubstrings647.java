@@ -35,9 +35,9 @@ import org.junit.Test;
 public class PalindromicSubstrings647 {
     @Test
     public void palindromicSubstringsTest() {
-        String strs = "abc";
-        int num = countSubstrings(strs);
-        Assert.assertEquals(num, 3);
+        String s = "abc";
+        int result = countSubstrings(s);
+        Assert.assertEquals(result, 3);
     }
 
     int num = 0;

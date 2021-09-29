@@ -1,12 +1,13 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * This is the solution of No.98 problem in the LeetCode,
+ * This is the solution of No.112 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/path-sum
  * <p>
@@ -41,8 +42,9 @@ public class PathSum112 {
     public void pathSumTest() {
         Integer[] arr = {5, 4, 8, 11, null, 13, 4, 7, 2, null, null, null, 1};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        boolean b = hasPathSum2(root, 22);
-        System.out.println(b);
+        boolean result = hasPathSum2(root, 22);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

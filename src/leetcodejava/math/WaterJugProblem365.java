@@ -41,9 +41,9 @@ public class WaterJugProblem365 {
         int x = 3;
         int y = 4;
         int z = 5;
-        boolean b = canMeasureWater(x, y, z);
-        System.out.println(b);
-        Assert.assertEquals(b, true);
+        boolean result= canMeasureWater(x, y, z);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -51,8 +52,9 @@ public class HouseRobber337 {
     public void houseRobberTest() {
         Integer[] arr = {3, 2, 3, null, 3, null, 1};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        int rob = rob(root);
-        System.out.println(rob);
+        int result = rob(root);
+        System.out.println(result);
+        Assert.assertEquals(result, 7);
     }
 
     /**

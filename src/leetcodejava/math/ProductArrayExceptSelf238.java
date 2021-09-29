@@ -1,5 +1,6 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -37,8 +38,9 @@ public class ProductArrayExceptSelf238 {
     @Test
     public void productArrayExceptSelfTest() {
         int[] nums = {1, 2, 3, 4};
-        int[] newArrs = productArrayExceptSelf2(nums);
-        System.out.println(Arrays.toString(newArrs));
+        int[] result = productArrayExceptSelf2(nums);
+        System.out.println(Arrays.toString(result));
+        Assert.assertEquals(result[0], 24);
     }
 
     /**

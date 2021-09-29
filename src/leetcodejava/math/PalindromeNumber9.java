@@ -38,9 +38,9 @@ public class PalindromeNumber9 {
 
     @Test
     public void palindromeNumberTest() {
-        boolean palindrome = isPalindrome2(121);
-        System.out.println(palindrome);
-        Assert.assertEquals(palindrome, true);
+        boolean result = isPalindrome2(121);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

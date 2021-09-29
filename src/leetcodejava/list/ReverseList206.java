@@ -85,16 +85,13 @@ public class ReverseList206 {
             return head;
         }
         ListNode dummy = new ListNode(-1);
-        dummy.next = head;
-        // 定义前驱节点
-        ListNode pre = dummy;
-        // 定义当前节点
-        ListNode cur = head;
-        while (cur.next != null) {
-            ListNode nextP = cur.next;
-            cur.next = nextP.next;
-            nextP.next = pre.next;
-            pre.next = nextP;
+        ListNode h = dummy;
+        ListNode p = head;
+        while(p != null) {
+            ListNode temp = p.next;
+            p.next = h.next;
+            h.next = p;
+            p = temp;
         }
         return dummy.next;
     }

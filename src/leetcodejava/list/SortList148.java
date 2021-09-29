@@ -32,8 +32,8 @@ public class SortList148 {
     @Test
     public void sortListTest() {
         ListNode node = ListNode.createListNode(new Integer[]{1, 2, 3, 3, 4, 3});
-        ListNode listNode = sortList2(node);
-        Assert.assertEquals(listNode.val, 1);
+        ListNode result = sortList2(node);
+        Assert.assertEquals(result.val, 1);
     }
 
     /**

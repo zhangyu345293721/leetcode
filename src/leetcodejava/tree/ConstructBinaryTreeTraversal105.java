@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,7 +40,8 @@ public class ConstructBinaryTreeTraversal105 {
         int[] preorder = {3, 9, 20, 15, 7};
         int[] inorder = {9, 3, 15, 20, 7};
         TreeNode node = buildTree(preorder, inorder);
-        System.out.println(node);
+        System.out.println(node.val);
+        Assert.assertEquals(node.val, 3);
     }
 
     /**

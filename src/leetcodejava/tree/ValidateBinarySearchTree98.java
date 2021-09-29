@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Stack;
@@ -12,31 +13,31 @@ import java.util.Stack;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定一个二叉树，判断其是否是一个有效的二叉搜索树。
- *
+ * <p>
  * 假设一个二叉搜索树具有如下特征：
- *
+ * <p>
  * 节点的左子树只包含小于当前节点的数。
  * 节点的右子树只包含大于当前节点的数。
  * 所有左子树和右子树自身必须也是二叉搜索树。
  * 示例 1:
- *
+ * <p>
  * 输入:
- *     2
- *    / \
- *   1   3
+ * 2
+ * / \
+ * 1   3
  * 输出: true
  * 示例 2:
- *
+ * <p>
  * 输入:
- *     5
- *    / \
- *   1   4
+ * 5
+ * / \
+ * 1   4
  *      / \
  *     3   6
  * 输出: false
  * 解释: 输入为: [5,1,4,null,null,3,6]。
  *      根节点的值为 5 ，但是其右子节点值为 4 。
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * ==========================================================================================================
  *
@@ -48,8 +49,9 @@ public class ValidateBinarySearchTree98 {
     public void validateBinarySearchTreeTest() {
         Integer[] nums = {2, 1, 3};
         TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(nums);
-        boolean validBST2 = isValidBST2(binaryTreeByArray);
-        System.out.println(validBST2);
+        boolean result = isValidBST2(binaryTreeByArray);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     long pre = Long.MIN_VALUE;
@@ -86,7 +88,6 @@ public class ValidateBinarySearchTree98 {
     public boolean isValidBST2(TreeNode root) {
         Stack<TreeNode> stack = new Stack();
         double inorder = -Double.MAX_VALUE;
-
         while (!stack.isEmpty() || root != null) {
             while (root != null) {
                 stack.push(root);

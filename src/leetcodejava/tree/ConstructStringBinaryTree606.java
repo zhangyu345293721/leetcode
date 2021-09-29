@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -54,6 +55,7 @@ public class ConstructStringBinaryTree606 {
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         String str = tree2str(root);
         System.out.println(str);
+        Assert.assertEquals(str,"1(2()(4))(3)");
     }
 
     /**

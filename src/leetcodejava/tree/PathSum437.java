@@ -50,9 +50,9 @@ public class PathSum437 {
         Integer[] arr = {10, 5, -3, 3, 2, null, 11, 3, -2, null, 1};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         int sum = 8;
-        int i = pathSum(root, sum);
-        System.out.println(i);
-        Assert.assertEquals(i, 3);
+        int result = pathSum(root, sum);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**

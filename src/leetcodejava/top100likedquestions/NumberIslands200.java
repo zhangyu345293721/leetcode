@@ -140,7 +140,7 @@ public class NumberIslands200 {
     }
 
     /**
-     * 计算岛屿的个数(BFS)
+     * 计算岛屿的个数(unionfind)
      *
      * @param grid 二维数组
      * @return 岛屿个数

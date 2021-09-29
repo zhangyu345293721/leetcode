@@ -49,9 +49,9 @@ public class CombinationSum39 {
     public void combinationSumTest() {
         int[] candidates = {2, 3, 6, 7};
         int target = 7;
-        List<List<Integer>> list = combinationSum(candidates, target);
-        System.out.println(list);
-        Assert.assertEquals(list.size(), 2);
+        List<List<Integer>> result = combinationSum(candidates, target);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 2);
     }
 
     /**

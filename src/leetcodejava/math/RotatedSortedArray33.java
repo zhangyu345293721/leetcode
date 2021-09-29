@@ -1,5 +1,6 @@
 package leetcodejava.math;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,8 +40,9 @@ public class RotatedSortedArray33 {
     @Test
     public void rotatedSortedArrayTest() {
         int[] nums = {4, 5, 6, 7, 0, 1, 2};
-        int index = rotatedSortedArray2(nums, 0);
-        System.out.println(index);
+        int result = rotatedSortedArray2(nums, 0);
+        System.out.println(result);
+        Assert.assertEquals(result, 4);
     }
 
     /**

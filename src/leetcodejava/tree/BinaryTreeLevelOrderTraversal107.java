@@ -46,9 +46,9 @@ public class BinaryTreeLevelOrderTraversal107 {
     public void binaryTreeLevelOrderTraversalTest() {
         Integer[] arr = {3, 9, 20, null, null, 15, 7};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        List<List<Integer>> lists = levelOrderBottom(root);
-        System.out.println(lists);
-        Assert.assertEquals(lists.size(), 3);
+        List<List<Integer>> result = levelOrderBottom(root);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 3);
     }
 
     /**

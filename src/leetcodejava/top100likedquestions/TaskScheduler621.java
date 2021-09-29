@@ -1,5 +1,6 @@
 package leetcodejava.top100likedquestions;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -42,8 +43,9 @@ public class TaskScheduler621 {
     public void taskSchedulerTest() {
         char[] tasks = {'A', 'A', 'A', 'B', 'B', 'B', 'C'};
         int n = 2;
-        int interval = leastInterval(tasks, n);
-        System.out.println(interval);
+        int result = leastInterval(tasks, n);
+        System.out.println(result);
+        Assert.assertEquals(result, 8);
     }
 
     /**

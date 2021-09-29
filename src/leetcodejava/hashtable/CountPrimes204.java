@@ -24,8 +24,8 @@ public class CountPrimes204 {
     @Test
     public void countPrimesTest() {
         int n = 999983;
-        int num = countPrimes(n);
-        Assert.assertEquals(num, 78497);
+        int result = countPrimes(n);
+        Assert.assertEquals(result, 78497);
     }
 
     /**

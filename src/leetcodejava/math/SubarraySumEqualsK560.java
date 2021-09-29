@@ -34,8 +34,8 @@ public class SubarraySumEqualsK560 {
     public void subarraySumEqualsKTest() {
         int nums[] = {1, 2, 0, 3};
         int k = 3;
-        int key = subarraySum2(nums, k);
-        Assert.assertEquals(key, 4);
+        int result = subarraySum2(nums, k);
+        Assert.assertEquals(result, 4);
     }
 
 

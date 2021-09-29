@@ -29,9 +29,9 @@ public class ReverseWordsString557 {
     @Test
     public void reverseWordsStringTest() {
         String s = "Let's take LeetCode contest";
-        String reverseWords = reverseWords(s);
-        System.out.println(reverseWords);
-        Assert.assertEquals(reverseWords,"s'teL ekat edoCteeL tsetnoc");
+        String result = reverseWords(s);
+        System.out.println(result);
+        Assert.assertEquals(result,"s'teL ekat edoCteeL tsetnoc");
     }
 
     /**

@@ -41,9 +41,9 @@ public class MaximumDepthBinaryTree104 {
     public void maximumDepthBinaryTreeTest() {
         Integer[] arr = {3, 9, 20, null, null, 15, 7};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        int depth = maxDepth(root);
-        System.out.println(depth);
-        Assert.assertEquals(depth, 3);
+        int result = maxDepth(root);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**

@@ -38,9 +38,9 @@ public class MergeKSortedLists23 {
         ListNode l2 = ListNode.createListNode(Arrays.asList(1, 2, 5));
         ListNode l3 = ListNode.createListNode(Arrays.asList(1, 3, 7));
         ListNode[] lists = {l1, l2, l3};
-        ListNode node = mergeKList(lists);
-        System.out.println(node);
-        Assert.assertEquals(node.val, 1);
+        ListNode result = mergeKList(lists);
+        System.out.println(result);
+        Assert.assertEquals(result.val, 1);
     }
 
     /**

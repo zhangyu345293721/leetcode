@@ -38,8 +38,8 @@ public class AddTwoNumbers445 {
         ListNode node1 = ListNode.createListNode(new Integer[]{7, 2, 4, 3});
         ListNode node2 = ListNode.createListNode(new Integer[]{5, 6, 4});
 
-        ListNode listNode = addTwoNumbers(node1, node2);
-        Assert.assertEquals(listNode.val, 7);
+        ListNode result = addTwoNumbers(node1, node2);
+        Assert.assertEquals(result.val, 7);
     }
 
     /**

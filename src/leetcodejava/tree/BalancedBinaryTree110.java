@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -55,8 +56,9 @@ public class BalancedBinaryTree110 {
     public void balancedBinaryTreeTest() {
         Integer[] arr = {3, 9, 20, null, null, 15, 7};
         TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(arr, 0);
-        boolean balanced = isBalanced(binaryTreeByArray);
-        System.out.println(balanced);
+        boolean result = isBalanced(binaryTreeByArray);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

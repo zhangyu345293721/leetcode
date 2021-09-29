@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -42,8 +43,9 @@ public class PatternMatchingLCCI {
     public void patternMatchingLCCITest() {
         String pattern = "abba";
         String value = "dogcatcatdog";
-        boolean b = patternMatching(pattern, value);
-        System.out.println(b);
+        boolean result = patternMatching(pattern, value);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

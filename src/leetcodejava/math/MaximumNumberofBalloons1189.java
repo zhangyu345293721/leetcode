@@ -39,8 +39,8 @@ public class MaximumNumberofBalloons1189 {
     @Test
     public void maximumNumberofBalloonsTest() {
         String text = "nlaebolko";
-        int count = maxNumberOfBalloons(text);
-        System.out.println(count);
+        int result = maxNumberOfBalloons(text);
+        System.out.println(result);
     }
 
     /**

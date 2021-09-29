@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -41,8 +42,9 @@ public class LowestCommonAncestorBinarySearchTree235 {
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
         TreeNode p = new TreeNode(2);
         TreeNode q = new TreeNode(8);
-        TreeNode treeNode = lowestCommonAncestor(root, p, q);
-        System.out.println(treeNode);
+        TreeNode result = lowestCommonAncestor(root, p, q);
+        System.out.println(result.val);
+        Assert.assertEquals(result.val, 6);
     }
 
     /**

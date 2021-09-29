@@ -37,9 +37,9 @@ public class MergeIntervals56 {
     @Test
     public void mergeIntervalsTest() {
         int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
-        int[][] merge = merge(intervals);
-        System.out.println(merge);
-        Assert.assertArrayEquals(merge[0], new int[]{1, 6});
+        int[][] result = merge(intervals);
+        System.out.println(result);
+        Assert.assertArrayEquals(result[0], new int[]{1, 6});
     }
 
     /**

@@ -39,9 +39,9 @@ public class BinaryTreePreOrderTraversal144 {
     public void binaryTreePreOrderTraversalTest() {
         Integer[] arr = {1, null, 2, 3};
         TreeNode tree = TreeNode.createBinaryTreeByArray(arr);
-        List<Integer> list = preOrderTraversal(tree);
-        System.out.println(list);
-        Assert.assertEquals(list.size(), 2);
+        List<Integer> result = preOrderTraversal(tree);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 2);
     }
 
     /**

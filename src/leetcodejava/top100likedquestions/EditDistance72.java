@@ -46,9 +46,9 @@ public class EditDistance72 {
     public void editDistanceTest() {
         String word1 = "horse";
         String word2 = "ros";
-        int num = minDistance(word1, word2);
-        System.out.println(num);
-        Assert.assertEquals(num, 3);
+        int result = minDistance(word1, word2);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**

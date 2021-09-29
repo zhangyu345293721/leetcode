@@ -40,8 +40,8 @@ public class BinaryTreeInorderTraversal94 {
     public void binaryTreeInorderTraversalTest() {
         Integer arr[] = {1, 2, 3, 4, 5, 6};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        List<Integer> list = inorderTraversal2(root);
-        Assert.assertEquals(list.size(), 6);
+        List<Integer> result = inorderTraversal2(root);
+        Assert.assertEquals(result.size(), 6);
     }
 
     /**

@@ -60,9 +60,9 @@ public class WordLadder126 {
         String beginWord = "hit";
         String endWord = "cog";
         List<String> wordList = new ArrayList<>(Arrays.asList("hot", "dot", "dog", "lot", "log", "cog"));
-        List<List<String>> ladders = findLadders(beginWord, endWord, wordList);
-        System.out.println(ladders);
-        Assert.assertEquals(ladders.get(0).get(0), "hit");
+        List<List<String>> result = findLadders(beginWord, endWord, wordList);
+        System.out.println(result);
+        Assert.assertEquals(result.get(0).get(0), "hit");
     }
 
     /**

@@ -56,9 +56,9 @@ public class SlidingWindowMaximum239 {
     public void slidingWindowMaximumTest() {
         int[] nums = {1, 3, -1, -3, 5, 3, 6, 7};
         int key = 3;
-        int[] res = slidingWindowMaximum2(nums, key);
-        System.out.println(res);
-        Assert.assertArrayEquals(res, new int[]{3, 3, 5, 5, 6, 7});
+        int[] result = slidingWindowMaximum2(nums, key);
+        System.out.println(result);
+        Assert.assertArrayEquals(result, new int[]{3, 3, 5, 5, 6, 7});
     }
 
     /**

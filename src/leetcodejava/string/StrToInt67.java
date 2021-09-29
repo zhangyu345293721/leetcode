@@ -70,8 +70,8 @@ public class StrToInt67 {
         String s3 = " 4193 with words"; // 4193
         String s4 = " words and 42";   //0
         String s5 = " -91283472332";  //-2147483648
-        int res = strToInt(s2);
-        System.out.println(res);
+        int result = strToInt(s2);
+        System.out.println(result);
         Assert.assertEquals(s2, -42);
     }
 

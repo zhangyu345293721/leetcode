@@ -33,9 +33,9 @@ public class SumTwoIntegers371 {
     @Test
     public void sumTwoIntegersTest() {
         int a = 2, b = 3;
-        int sum = getSum2(a, b);
-        System.out.println(sum);
-        Assert.assertEquals(sum, 5);
+        int result = getSum2(a, b);
+        System.out.println(result);
+        Assert.assertEquals(result, 5);
     }
 
     /**

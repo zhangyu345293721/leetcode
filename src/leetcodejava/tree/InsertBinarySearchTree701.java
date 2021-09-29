@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -62,8 +63,9 @@ public class InsertBinarySearchTree701 {
         Integer[] arr = {4, 2, 7, 1, 3, null, null};
         int val = 5;
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        TreeNode treeNode = insertIntoBST2(root, val);
-        System.out.println(treeNode);
+        TreeNode result = insertIntoBST2(root, val);
+        System.out.println(result.val);
+        Assert.assertEquals(result.val, 4);
     }
 
     /**

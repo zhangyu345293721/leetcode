@@ -37,9 +37,9 @@ public class BinaryTreePostOrderTraversal145 {
     @Test
     public void postOrderTraversalTest() {
         TreeNode root = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5, 6});
-        List<Integer> postOrderList = postOrderTraversal(root);
-        System.out.println(postOrderList);
-        Assert.assertEquals((int) postOrderList.get(0), 4);
+        List<Integer> result = postOrderTraversal(root);
+        System.out.println(result);
+        Assert.assertEquals((int) result.get(0), 4);
     }
 
     /**

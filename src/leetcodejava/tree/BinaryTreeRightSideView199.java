@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -36,8 +37,9 @@ public class BinaryTreeRightSideView199 {
     public void binaryTreeRightSideViewTest() {
         Integer[] arr = {1, 2, 3, null, 5, null, 4};
         TreeNode treeNode = TreeNode.createBinaryTreeByArray(arr);
-        List<Integer> list = rightSideView(treeNode);
-        System.out.println(list);
+        List<Integer> result = rightSideView(treeNode);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 3);
     }
 
     /**

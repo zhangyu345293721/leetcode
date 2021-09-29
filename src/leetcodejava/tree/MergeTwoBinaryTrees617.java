@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.List;
@@ -50,8 +51,9 @@ public class MergeTwoBinaryTrees617 {
         TreeNode t2 = TreeNode.createBinaryTreeByArray(arr2);
         TreeNode node = mergeTrees2(t1, t2);
         BinaryTreeLevelOrderTraversal102 b = new BinaryTreeLevelOrderTraversal102();
-        List<List<Integer>> lists = b.levelOrder(node);
-        System.out.println(lists);
+        List<List<Integer>> result = b.levelOrder(node);
+        System.out.println(result);
+        Assert.assertEquals((int)result.get(0).get(0), 2);
     }
 
     /**

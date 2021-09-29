@@ -1,6 +1,7 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -45,8 +46,9 @@ public class ReplacePattern890 {
 
         String[] words = {"abc", "deq", "mee", "aqq", "dkd", "ccc"};
         String pattern = "abb";
-        List<String> patternStrs = findAndReplacePattern(words, pattern);
-        System.out.println("patternStrs = " + patternStrs);
+        List<String> result = findAndReplacePattern(words, pattern);
+        System.out.println("patternStrs = " + result);
+        Assert.assertEquals(result.get(0),"mee");
     }
 
     /**

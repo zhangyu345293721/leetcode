@@ -1,6 +1,7 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -45,8 +46,9 @@ public class RepeatedSubstring459 {
     @Test
     public void repeatedSubstringTest() {
         String s = "bb";
-        boolean flag = repeatedSubstringPattern3(s);
-        System.out.println(flag);
+        boolean result = repeatedSubstringPattern3(s);
+        System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**

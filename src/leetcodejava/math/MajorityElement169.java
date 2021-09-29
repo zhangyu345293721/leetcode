@@ -33,9 +33,9 @@ public class MajorityElement169 {
     @Test
     public void majorityElementTest() {
         int[] nums = {3, 2, 2, 2, 3};
-        int majorElement = majorityElement3(nums);
-        System.out.println(majorElement);
-        Assert.assertEquals(majorElement, 2);
+        int result = majorityElement3(nums);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

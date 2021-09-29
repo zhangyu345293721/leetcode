@@ -41,8 +41,8 @@ public class ClimbingStairs70 {
     @Test
     public void climbingStairsTest() {
         int n = 44;
-        int num = climbingStairs(n);
-        Assert.assertEquals(num,1134903170);
+        int result = climbingStairs(n);
+        Assert.assertEquals(result, 1134903170);
     }
 
     /**
