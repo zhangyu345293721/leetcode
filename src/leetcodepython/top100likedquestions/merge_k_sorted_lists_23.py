@@ -29,6 +29,7 @@
 from typing import List
 
 from list.linked_list_cycle2_142 import ListNode
+import heapq
 
 
 class Solution:
@@ -75,4 +76,29 @@ class Solution:
             tail.next = l1
         if l2 != None:
             tail.next = l2
+        return dummy.next
+
+    def merge_k_lists2(self, lists: List[ListNode]) -> ListNode:
+        '''
+           熟悉合并链表
+       Args:
+           lists:链表
+       Returns:
+           合并后的list
+       '''
+        dummy = ListNode(-1)
+        p = dummy
+        head = []
+        k = len(lists)
+        for i in range(k):
+            if lists[i]:
+                heapq.heappush(head, (lists[i].val, i))
+                lists[i] = lists[i].next
+        while head:
+            val, idx = heapq.heappop(head)
+            p.next = ListNode(val)
+            p = p.next
+            if lists[idx]:
+                heapq.heappush(head, (lists[idx].val, idx))
+                lists[idx] = lists[idx].next
         return dummy.next

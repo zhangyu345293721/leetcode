@@ -5,6 +5,8 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 
 /**
  * This is the solution of No.23 problem in the LeetCode,
@@ -83,7 +85,13 @@ public class MergeKSortedLists23 {
      * @return 合并两个链表
      */
     private ListNode merge(ListNode l1, ListNode l2) {
-        ListNode dummy = new ListNode(0);
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+        ListNode dummy = new ListNode(-1);
         ListNode tail = dummy;
         while (l1 != null && l2 != null) {
             if (l1.val < l2.val) {
@@ -100,6 +108,43 @@ public class MergeKSortedLists23 {
         }
         if (l2 != null) {
             tail.next = l2;
+        }
+        return dummy.next;
+    }
+
+    /**
+     * 多路合并链表
+     *
+     * @param lists 要合并的链表
+     * @return 链表
+     */
+    public ListNode mergeKLists2(ListNode[] lists) {
+        if(lists == null || lists.length < 1) {
+            return null;
+        }
+        PriorityQueue<ListNode> queue = new PriorityQueue(
+                new Comparator<ListNode>() {
+                    @Override
+                    public int compare(ListNode q1, ListNode q2) {
+                        return q1.val - q2.val;
+                    }
+                }
+        );
+        int k = lists.length;
+        for(int i = 0;i < k; i++) {
+            if(lists[i] != null ){
+                queue.offer(lists[i]);
+            }
+        }
+        ListNode dummy = new ListNode(-1);
+        ListNode tail = dummy;
+        while(!queue.isEmpty()){
+            ListNode cur = queue.poll();
+            tail.next = cur;
+            tail = tail.next;
+            if(cur.next != null) {
+                queue.offer(cur.next);
+            }
         }
         return dummy.next;
     }
