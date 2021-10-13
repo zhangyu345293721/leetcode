@@ -92,7 +92,7 @@ public class NumberIslands200 {
         if (grid[x][y] != '1') {
             return;
         }
-        grid[x][y] = 0;
+        grid[x][y] = '0';
         searchHelper(grid, x - 1, y);
         searchHelper(grid, x + 1, y);
         searchHelper(grid, x, y - 1);
