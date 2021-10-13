@@ -63,9 +63,9 @@ public class NumberIslands200 {
         }
         int res = 0;
         int row = grid.length;
-        int column = grid[0].length;
+        int col = grid[0].length;
         for (int i = 0; i < row; i++) {
-            for (int j = 0; j < column; j++) {
+            for (int j = 0; j < col; j++) {
                 if (grid[i][j] == '1') {
                     searchHelper(grid, i, j);
                     res++;
