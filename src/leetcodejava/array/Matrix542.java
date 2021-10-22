@@ -52,12 +52,10 @@ import java.util.Queue;
 public class Matrix542 {
     @Test
     public void matrixTest() {
-        int[][] nums = {
-                {0}, {0}, {0}, {0}, {0}
-        };
+        int[][] nums = {{0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}};
         int[][] result = updateMatrix(nums);
         System.out.println(result);
-        Assert.assertEquals(result.length, 4);
+        Assert.assertEquals(result.length, 5);
     }
 
     /**
@@ -67,33 +65,33 @@ public class Matrix542 {
      * @return 新二维数组
      */
     public int[][] updateMatrix(int[][] matrix) {
+        if (matrix == null || matrix.length < 1) {
+            return matrix;
+        }
         Queue<int[]> queue = new LinkedList<>();
         int m = matrix.length, n = matrix[0].length;
+        boolean visited[][] = new boolean[m][n];
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 // 将为0的数加入队列
                 if (matrix[i][j] == 0) {
                     queue.offer(new int[]{i, j});
-                } else {
-                    matrix[i][j] = -1;
+                    visited[i][j] = true;
                 }
             }
         }
-
-        int[] dx = new int[]{-1, 1, 0, 0};
-        int[] dy = new int[]{0, 0, -1, 1};
+        int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         while (!queue.isEmpty()) {
             int[] point = queue.poll();
             int x = point[0], y = point[1];
-            for (int i = 0; i < 4; i++) {
-                int newX = x + dx[i];
-                int newY = y + dy[i];
-                // 如果四邻域的点是 -1，表示这个点是未被访问过的 1
-                // 所以这个点到 0 的距离就可以更新成 matrix[x][y] + 1。
+            for (int[] d : directions) {
+                int newX = x + d[0];
+                int newY = y + d[1];
                 if (newX >= 0 && newX < m && newY >= 0 && newY < n
-                        && matrix[newX][newY] == -1) {
+                        && !visited[newX][newY]) {
                     matrix[newX][newY] = matrix[x][y] + 1;
                     queue.offer(new int[]{newX, newY});
+                    visited[newX][newY] = true;
                 }
             }
         }
