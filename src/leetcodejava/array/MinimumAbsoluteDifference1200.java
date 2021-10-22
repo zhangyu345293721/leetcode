@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -40,8 +41,9 @@ public class MinimumAbsoluteDifference1200 {
     @Test
     public void minimumAbsoluteDifferenceTest() {
         int[] arr = {4, 2, 1, 3};
-        List<List<Integer>> list = minimumAbsDifference(arr);
-        System.out.println(list);
+        List<List<Integer>> result = minimumAbsDifference(arr);
+        System.out.println(result);
+        Assert.assertEquals((int) result.get(0).get(0), 1);
     }
 
     /**

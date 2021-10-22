@@ -41,8 +41,9 @@ public class DayoftheWeek1185 {
         int day = 15;
         int month = 8;
         int year = 1993;
-        String str = dayOfTheWeek(day, month, year);
-        Assert.assertEquals(str, "Sunday");
+        String result = dayOfTheWeek(day, month, year);
+        System.out.println(result);
+        Assert.assertEquals(result, "Sunday");
     }
 
     /**

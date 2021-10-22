@@ -42,8 +42,8 @@ public class FindWordsCanFormedCharacters1160 {
     public void testFindWords() {
         String[] words = {"hello", "world", "java"};
         String chars = "welldonehoneyr";
-        int total = countCharacters2(words, chars);
-        Assert.assertEquals(total, 10);
+        int result = countCharacters2(words, chars);
+        Assert.assertEquals(result, 10);
     }
 
     /**

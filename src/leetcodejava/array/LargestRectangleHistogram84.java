@@ -32,8 +32,8 @@ public class LargestRectangleHistogram84 {
     @Test
     public void largestRectangleHistogramTest() {
         int[] heights = {1, 2, 3};
-        int maxArea = largestRectangleHistogram(heights);
-        Assert.assertEquals(maxArea, 4);
+        int result = largestRectangleHistogram(heights);
+        Assert.assertEquals(result, 4);
     }
 
     /**

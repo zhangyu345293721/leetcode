@@ -43,8 +43,8 @@ public class InsertInterval57 {
     public void insertIntervalTest() {
         int[][] intervals = {{1, 3}, {6, 9}};
         int[] newInterval = {2, 5};
-        int[][] insert = insert2(intervals, newInterval);
-        Assert.assertArrayEquals(insert[0], new int[]{1, 5});
+        int[][] result = insert2(intervals, newInterval);
+        Assert.assertArrayEquals(result[0], new int[]{1, 5});
     }
 
     /**

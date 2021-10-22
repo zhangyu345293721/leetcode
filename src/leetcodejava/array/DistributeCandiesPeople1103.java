@@ -52,8 +52,8 @@ public class DistributeCandiesPeople1103 {
     public void distributeCandiesPeopleTest() {
         int candies = 60;
         int num_people = 4;
-        int[] nums = distributeCandies2(candies, num_people);
-        Assert.assertEquals(nums.length, 4);
+        int[] result = distributeCandies2(candies, num_people);
+        Assert.assertEquals(result.length, 4);
     }
 
     /**

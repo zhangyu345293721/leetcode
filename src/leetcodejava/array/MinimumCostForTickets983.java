@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashSet;
@@ -63,8 +64,9 @@ public class MinimumCostForTickets983 {
     public void minimumCostForTicketsTest() {
         int[] days = {1, 4, 6, 7, 8, 20};
         int[] costs = {2, 7, 15};
-        int num = mincostTickets2(days, costs);
-        System.out.println(num);
+        int result = mincostTickets2(days, costs);
+        System.out.println(result);
+        Assert.assertEquals(result, 11);
     }
 
     /**
@@ -127,7 +129,7 @@ public class MinimumCostForTickets983 {
         this.costs = costs;
         memo = new Integer[366];
         dayset = new HashSet();
-        for (int d: days) {
+        for (int d : days) {
             dayset.add(d);
         }
         return dp(1);
@@ -142,8 +144,7 @@ public class MinimumCostForTickets983 {
         }
         if (dayset.contains(i)) {
             memo[i] = Math.min(Math.min(dp(i + 1) + costs[0], dp(i + 7) + costs[1]), dp(i + 30) + costs[2]);
-        }
-        else {
+        } else {
             memo[i] = dp(i + 1);
         }
         return memo[i];

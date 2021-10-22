@@ -57,8 +57,8 @@ public class KeysAndRooms841 {
         rooms.add(list2);
         rooms.add(list3);
         rooms.add(list4);
-        boolean b = canVisitAllRooms(rooms);
-        Assert.assertEquals(b, false);
+        boolean result= canVisitAllRooms(rooms);
+        Assert.assertEquals(result, false);
     }
 
     boolean[] vis;

@@ -40,8 +40,8 @@ public class SelfDivingNumber728 {
     public void selfDivingNumberTest() {
         int left = 1;
         int right = 22;
-        List<Integer> list = selfDividingNumbers(left, right);
-        Assert.assertEquals(list.size(), 13);
+        List<Integer> result = selfDividingNumbers(left, right);
+        Assert.assertEquals(result.size(), 13);
     }
 
     /**

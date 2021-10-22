@@ -40,6 +40,7 @@ public class ComplexNumber537 {
         String a = "-11+-30i";
         String b = "55+-69i";
         String result = complexNumberMultiply(a, b);
+        System.out.println(result);
         Assert.assertEquals(result, "-2675+-891i");
 
     }

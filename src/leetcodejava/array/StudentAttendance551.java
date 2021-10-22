@@ -39,8 +39,8 @@ public class StudentAttendance551 {
     @Test
     public void checkRecordTest() {
         String s = "ALLAPPL";
-        boolean b = checkRecord(s);
-        Assert.assertEquals(b, false);
+        boolean result = checkRecord(s);
+        Assert.assertEquals(result, false);
     }
 
     /**

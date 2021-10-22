@@ -42,8 +42,9 @@ public class CombinationSum216 {
     public void combinationSumTest() {
         int k = 3;
         int n = 7;
-        List<List<Integer>> lists = combinationSum(k, n);
-        Assert.assertEquals(lists.size(), 3);
+        List<List<Integer>> result = combinationSum(k, n);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 3);
 
     }
 

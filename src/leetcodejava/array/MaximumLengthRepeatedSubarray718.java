@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -10,9 +11,9 @@ import org.junit.Test;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给两个整数数组 A 和 B ，返回两个数组中公共的、长度最长的子数组的长度。
- *
+ * <p>
  * 示例：
- *
+ * <p>
  * 输入：
  * A: [1,2,3,2,1]
  * B: [3,2,1,4,7]
@@ -21,10 +22,10 @@ import org.junit.Test;
  * 长度最长的公共子数组是 [3, 2, 1] 。
  *  
  * 提示：
- *
+ * <p>
  * 1 <= len(A), len(B) <= 1000
  * 0 <= A[i], B[i] < 100
- *
+ * <p>
  * 来源：力扣（LeetCode）
  * 链接：https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
@@ -38,8 +39,9 @@ public class MaximumLengthRepeatedSubarray718 {
     public void maximumLengthRepeatedSubarrayTest() {
         int[] A = {1, 2, 3, 2, 1};
         int[] B = {3, 2, 1, 4, 7};
-        int size = findLength(A, B);
-        System.out.println(size);
+        int result = findLength(A, B);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**
@@ -53,12 +55,12 @@ public class MaximumLengthRepeatedSubarray718 {
         if (A.length == 0 || B.length == 0) {
             return 0;
         }
-        int[][] dp = new int[A.length+1][B.length+1];
+        int[][] dp = new int[A.length + 1][B.length + 1];
         int result = 0;
         for (int i = 1; i <= A.length; i++) {
             for (int j = 1; j <= B.length; j++) {
-                if (A[i-1] == B[j-1]) {
-                    dp[i][j] = dp[i-1][j-1]+1;
+                if (A[i - 1] == B[j - 1]) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
                     result = Math.max(result, dp[i][j]);
                 }
             }

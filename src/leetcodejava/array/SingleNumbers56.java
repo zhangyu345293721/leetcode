@@ -37,8 +37,8 @@ public class SingleNumbers56 {
     @Test
     public void singleNumberTest() {
         int[] nums = {4, 1, 4, 5, 5, 6};
-        int[] ints = singleNumbers2(nums);
-        Assert.assertEquals(ints.length, 2);
+        int[] result = singleNumbers2(nums);
+        Assert.assertEquals(result.length, 2);
     }
 
     /**

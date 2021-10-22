@@ -38,8 +38,8 @@ public class SquaresSortedArray977 {
     @Test
     public void squaresSortedArrayTest() {
         int[] nums = {-4, -1, 0, 3, 10};
-        int[] sortedArray = sortedSquares2(nums);
-        Assert.assertEquals(sortedArray.length, 5);
+        int[] result = sortedSquares2(nums);
+        Assert.assertEquals(result.length, 5);
     }
 
     /**

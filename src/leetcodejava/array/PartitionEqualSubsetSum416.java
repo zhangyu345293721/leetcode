@@ -36,8 +36,8 @@ public class PartitionEqualSubsetSum416 {
     @Test
     public void partitionEqualSubsetSumTest() {
         int[] nums = {1, 5, 11, 5};
-        boolean b = canPartition(nums);
-        Assert.assertEquals(b, true);
+        boolean result = canPartition(nums);
+        Assert.assertEquals(result, true);
     }
 
     /**

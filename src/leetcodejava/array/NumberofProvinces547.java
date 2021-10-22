@@ -35,9 +35,9 @@ public class NumberofProvinces547 {
     @Test
     public void numberOfProvincesTest() {
         int relations[][] = {{1, 1, 0}, {1, 1, 0}, {0, 0, 1}};
-        int circleNum = findCircleNum(relations);
-        System.out.println(circleNum);
-        Assert.assertEquals(circleNum, 2);
+        int result = findCircleNum(relations);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

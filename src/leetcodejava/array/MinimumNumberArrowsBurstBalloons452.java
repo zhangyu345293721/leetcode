@@ -45,9 +45,9 @@ public class MinimumNumberArrowsBurstBalloons452 {
     @Test
     public void bitwiseANDNumbersRangeTest() {
         int[][] points = {{10, 16}, {2, 8}, {1, 6}, {7, 12}};
-        int minArrowShots = findMinArrowShots(points);
-        System.out.println(minArrowShots);
-        Assert.assertEquals(minArrowShots, 2);
+        int result = findMinArrowShots(points);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

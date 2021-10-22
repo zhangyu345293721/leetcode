@@ -42,8 +42,8 @@ public class IntersectionTwoArrays349 {
     public void intersectionTwoArraysTest() {
         int[] nums1 = {1, 2, 2, 1};
         int[] nums2 = {2, 2};
-        int[] intersection = intersection(nums1, nums2);
-        Assert.assertArrayEquals(intersection, new int[]{2});
+        int[] result = intersection(nums1, nums2);
+        Assert.assertArrayEquals(result, new int[]{2});
     }
 
     /**

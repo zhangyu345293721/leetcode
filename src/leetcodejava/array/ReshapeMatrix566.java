@@ -53,8 +53,8 @@ public class ReshapeMatrix566 {
         int[][] arr = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}, {13, 14, 15, 16}, {17, 18, 19, 20}};
         int r = 42;
         int c = 5;
-        int[][] newArr = matrixReshape(arr, r, c);
-        Assert.assertEquals(newArr.length, 5);
+        int[][] result = matrixReshape(arr, r, c);
+        Assert.assertEquals(result.length, 5);
     }
 
     /**

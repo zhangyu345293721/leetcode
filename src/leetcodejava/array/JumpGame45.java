@@ -34,6 +34,7 @@ public class JumpGame45 {
     public void jumpGameTest() {
         int[] nums = {2, 3, 1, 1, 4};
         int result = jump(nums);
+        System.out.println(result);
         Assert.assertEquals(result, 2);
     }
 

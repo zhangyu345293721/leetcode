@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -33,8 +34,9 @@ public class PeakIndexMountainArray852 {
     @Test
     public void peakIndexMountainArrayTest() {
         int[] arr = {0, 2, 1, 0};
-        int index = peakIndexInMountainArray(arr);
-        System.out.println(index);
+        int result = peakIndexInMountainArray(arr);
+        System.out.println(result);
+        Assert.assertEquals(result, 1);
     }
 
     /**

@@ -38,9 +38,9 @@ public class MagicIndexLCCI {
     @Test
     public void magicIndexLCCITest() {
         int[] nums = {0, 2, 3, 4, 5};
-        int magicIndex = findMagicIndex(nums);
-        System.out.println(magicIndex);
-        Assert.assertEquals(magicIndex, 0);
+        int result = findMagicIndex(nums);
+        System.out.println(result);
+        Assert.assertEquals(result, 0);
     }
 
     /**

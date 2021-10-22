@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
@@ -39,8 +40,9 @@ public class CourseSchedule210 {
     @Test
     public void courseScheduleTest() {
         int[][] arr = {{1, 0}, {3, 1}, {2, 0}, {3, 2}};
-        int[] nums = findOrder2(4, arr);
-        System.out.println(nums);
+        int[] result = findOrder2(4, arr);
+        System.out.println(Arrays.toString(result));
+        Assert.assertEquals(result[0],0);
     }
 
     /**

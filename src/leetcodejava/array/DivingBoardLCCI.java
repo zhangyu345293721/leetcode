@@ -43,8 +43,8 @@ public class DivingBoardLCCI {
         int shorter = 2;
         int longer = 1118596;
         int k = 979;
-        int[] ints = divingBoard(shorter, longer, k);
-        Assert.assertEquals(ints[0], 1958);
+        int[] result = divingBoard(shorter, longer, k);
+        Assert.assertEquals(result[0], 1958);
     }
 
     /**

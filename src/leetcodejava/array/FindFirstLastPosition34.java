@@ -37,8 +37,9 @@ public class FindFirstLastPosition34 {
     public void findFirstLastPositionTest() {
         int nums[] = {5, 7, 7, 8, 8, 10};
         int target = 8;
-        int index = findLastPosition(nums, target);
-        Assert.assertEquals(index, 4);
+        int result = findLastPosition(nums, target);
+        System.out.println(result);
+        Assert.assertEquals(result, 4);
     }
 
     /**

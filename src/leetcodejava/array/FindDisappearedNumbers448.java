@@ -40,9 +40,9 @@ public class FindDisappearedNumbers448 {
     @Test
     public void findDisappearedNumbersTest() {
         int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
-        List<Integer> list = findDisappearedNumbers(nums);
-        System.out.println(list);
-        Assert.assertEquals(list.size(), 2);
+        List<Integer> result = findDisappearedNumbers(nums);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 2);
     }
 
     /**

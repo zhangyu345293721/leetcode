@@ -37,8 +37,8 @@ public class RemoveElement27 {
     public void testRemoveElement() {
         int[] arr = {0, 1, 2, 2, 3, 0, 4, 2};
         int val = 2;
-        int leftNumber = removeElement2(arr, val);
-        Assert.assertEquals(leftNumber, 5);
+        int result = removeElement2(arr, val);
+        Assert.assertEquals(result, 5);
     }
 
     /**

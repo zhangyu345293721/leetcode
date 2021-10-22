@@ -33,8 +33,9 @@ public class ContainerWithMostWater11 {
     @Test
     public void coinChangeTest() {
         int height[] = {1, 2, 5};
-        int area = maxArea(height);
-        Assert.assertEquals(area, 2);
+        int result = maxArea(height);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

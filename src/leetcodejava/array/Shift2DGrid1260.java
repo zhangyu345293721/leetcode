@@ -38,8 +38,8 @@ public class Shift2DGrid1260 {
     public void testShift2DGrid() {
         int[][] grid = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         int k = 1;
-        List<List<Integer>> list = shiftGrid(grid, k);
-        Assert.assertEquals(list.size(), 3);
+        List<List<Integer>> result = shiftGrid(grid, k);
+        Assert.assertEquals(result.size(), 3);
     }
 
     /**

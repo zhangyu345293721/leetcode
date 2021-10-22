@@ -38,8 +38,8 @@ public class SortArray912 {
     @Test
     public void sortArrayTest() {
         int[] nums = {4, 1, 3, 4, 5, 7};
-        int[] arr = sortArray(nums);
-        Assert.assertEquals(arr[0], 1);
+        int[] result = sortArray(nums);
+        Assert.assertEquals(result[0], 1);
     }
 
     /**

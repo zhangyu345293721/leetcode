@@ -41,9 +41,9 @@ public class PlayWithChips1217 {
     @Test
     public void playWithChipsTest() {
         int[] chips = {2, 2, 2, 3, 3};
-        int steps = minCostToMoveChips2(chips);
-        System.out.println(steps);
-        Assert.assertEquals(steps, 2);
+        int result = minCostToMoveChips2(chips);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

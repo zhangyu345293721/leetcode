@@ -34,8 +34,8 @@ public class RemoveDuplicatesSortedArray26 {
     @Test
     public void removeDuplicatesSortedArrayTest() {
         int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
-        int length = removeDuplicates(nums);
-        Assert.assertEquals(length, 5);
+        int result = removeDuplicates(nums);
+        Assert.assertEquals(result, 5);
     }
 
     /**

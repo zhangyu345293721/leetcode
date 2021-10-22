@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -39,8 +40,9 @@ public class NRepeatedElement961 {
     @Test
     public void nRepeatedElementTest() {
         int[] arr = {1, 2, 3, 3};
-        int num = repeatedNTimes(arr);
-        System.out.println(num);
+        int result = repeatedNTimes(arr);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**

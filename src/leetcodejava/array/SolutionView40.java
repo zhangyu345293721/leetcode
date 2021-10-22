@@ -19,8 +19,8 @@ public class SolutionView40 {
     public void solutionViewTest() {
         int[] arr = {3, 4, 5, 6, 1, 3, 5, 6, 7, 9};
         int k = 3;
-        int[] partition = getLeastNumbers3(arr, k);
-        Assert.assertEquals(partition.length, 3);
+        int[] result = getLeastNumbers3(arr, k);
+        Assert.assertEquals(result.length, 3);
     }
 
     /**

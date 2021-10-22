@@ -3,6 +3,7 @@ package leetcodejava.array;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -43,6 +44,7 @@ public class DuplicateZeros1089 {
     public void duplicateZerosTest() {
         int[] result = {1, 0, 2, 3, 0, 4, 5, 0};
         duplicateZeros(result);
+        System.out.println(Arrays.toString(result));
     }
 
 

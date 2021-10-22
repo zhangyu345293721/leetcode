@@ -34,8 +34,9 @@ public class ElementAppearing1287 {
     @Test
     public void elementAppearingTest() {
         int[] arr = {1, 2, 2, 6, 6, 6, 6, 7, 10};
-        int num = findSpecialInteger(arr);
-        Assert.assertEquals(num, 6);
+        int result = findSpecialInteger(arr);
+        System.out.println(result);
+        Assert.assertEquals(result, 6);
     }
 
     /**

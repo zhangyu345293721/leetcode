@@ -48,9 +48,9 @@ public class FloodFill733 {
         int sr = 1;
         int sc = 1;
         int newColor = 2;
-        int[][] oldColor = floodFill(image, sr, sc, newColor);
-        System.out.println(oldColor);
-        Assert.assertEquals(oldColor[0], new int[]{2, 2, 2});
+        int[][] result = floodFill(image, sr, sc, newColor);
+        System.out.println(result);
+        Assert.assertEquals(result[0], new int[]{2, 2, 2});
     }
 
     /**

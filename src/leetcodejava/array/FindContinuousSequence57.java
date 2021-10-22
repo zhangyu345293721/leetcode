@@ -39,8 +39,9 @@ public class FindContinuousSequence57 {
     @Test
     public void findContinuousSequenceTest() {
         int target = 15;
-        int[][] nums = findContinuousSequence1(target);
-        Assert.assertEquals(nums.length, 2);
+        int[][] result = findContinuousSequence1(target);
+        System.out.println(result);
+        Assert.assertEquals(result.length, 2);
     }
 
     /**

@@ -42,8 +42,8 @@ public class FindDuplicateNumber287 {
     @Test
     public void findDuplicateNumberTest() {
         int nums[] = {1, 3, 4, 2, 2};
-        int duplicateNumber = findDuplicateNumber3(nums);
-        Assert.assertEquals(duplicateNumber, 2);
+        int result = findDuplicateNumber3(nums);
+        Assert.assertEquals(result, 2);
     }
 
     /**

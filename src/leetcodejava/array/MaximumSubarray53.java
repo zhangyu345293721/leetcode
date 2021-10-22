@@ -28,6 +28,7 @@ public class MaximumSubarray53 {
     public void maximumSubarrayTest() {
         int[] nums = {1};
         int result = maximumSubarray(nums);
+        System.out.println(result);
         Assert.assertEquals(result, 1);
     }
 

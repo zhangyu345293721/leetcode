@@ -42,6 +42,7 @@ public class Combinations77 {
         int n = 4;
         int k = 2;
         List<List<Integer>> result = combine(n, k);
+        System.out.println(result);
         Assert.assertEquals(result.size(), 6);
     }
 

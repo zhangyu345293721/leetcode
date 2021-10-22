@@ -41,8 +41,9 @@ public class CountRepetitions466 {
         int n1 = 4;
         String s2 = "ab";
         int n2 = 2;
-        int max = getMaxRepetitions(s1, n1, s2, n2);
-        Assert.assertEquals(max, 2);
+        int result = getMaxRepetitions(s1, n1, s2, n2);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

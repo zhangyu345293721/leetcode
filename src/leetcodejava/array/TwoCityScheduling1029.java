@@ -38,6 +38,7 @@ public class TwoCityScheduling1029 {
     public void twoCitySchedulingTest() {
         int[][] arr = {{10, 20}, {30, 200}, {400, 50}, {30, 20}};
         int result = twoCitySchedCost(arr);
+        System.out.println(result);
         Assert.assertEquals(result, 110);
     }
 

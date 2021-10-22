@@ -48,8 +48,8 @@ public class LemonadeChange860 {
     @Test
     public void lemonadeChangeTest() {
         int[] bills = {5, 5, 5, 10, 20};
-        boolean bool = lemonadeChange(bills);
-        Assert.assertEquals(bool, true);
+        boolean result = lemonadeChange(bills);
+        Assert.assertEquals(result, true);
     }
 
     /**

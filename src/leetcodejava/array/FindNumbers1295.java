@@ -40,6 +40,7 @@ public class FindNumbers1295 {
     public void findNumberTest() {
         int[] nums = {12, 345, 2, 6, 7896};
         int result = findNumbers(nums);
+        System.out.println(result);
         Assert.assertEquals(result, 2);
     }
 

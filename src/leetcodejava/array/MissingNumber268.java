@@ -41,9 +41,9 @@ public class MissingNumber268 {
     @Test
     public void missingNumberTest() {
         int[] nums = {3, 0, 1};
-        int res = missingNumber(nums);
-        System.out.println(res);
-        Assert.assertEquals(res, 2);
+        int result = missingNumber(nums);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

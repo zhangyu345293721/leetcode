@@ -36,8 +36,9 @@ public class CoinChange322 {
     public void coinChangeTest() {
         int[] coins = {1, 2, 5};
         int amount = 11;
-        int sum = coinChange(coins, amount);
-        Assert.assertEquals(sum, 3);
+        int result = coinChange(coins, amount);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     private int minCount = Integer.MAX_VALUE;
@@ -92,17 +93,17 @@ public class CoinChange322 {
      * @return 最小数量
      */
     public int coinChange2(int[] coins, int amount) {
-        int max = amount + 1;
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp, max);
+        Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0;
         for (int i = 1; i <= amount; i++) {
             for (int j = 0; j < coins.length; j++) {
-                if (coins[j] <= i) {
-                    dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
+                int w = coins[j];
+                if (w <= i) {
+                    dp[i] = Math.min(dp[i], dp[i - w] + 1);
                 }
             }
         }
-        return dp[amount] >= max ? -1 : dp[amount];
+        return dp[amount] >= Integer.MAX_VALUE ? -1 : dp[amount];
     }
 }

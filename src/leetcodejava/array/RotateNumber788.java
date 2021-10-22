@@ -33,8 +33,8 @@ public class RotateNumber788 {
     @Test
     public void testRotateNumber() {
         int n = 10;
-        int number = rotatedDigits(n);
-        Assert.assertEquals(number, 4);
+        int result = rotatedDigits(n);
+        Assert.assertEquals(result, 4);
     }
 
     /**

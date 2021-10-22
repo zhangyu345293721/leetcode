@@ -43,8 +43,8 @@ public class DegreeArray697 {
     @Test
     public void degreeArrayTest() {
         int[] arr = {1, 2, 2, 3, 1, 4, 2};
-        int length = findShortestSubArray(arr);
-        Assert.assertEquals(length, 6);
+        int result = findShortestSubArray(arr);
+        Assert.assertEquals(result, 6);
     }
 
     /**

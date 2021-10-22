@@ -41,8 +41,9 @@ public class FibonacciNumber509 {
     @Test
     public void fibonacciNumberTest() {
         int n = 3;
-        int num = fib2(n);
-        Assert.assertEquals(num, 2);
+        int result = fib2(n);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

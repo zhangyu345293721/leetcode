@@ -41,6 +41,7 @@ public class FlippingImage832 {
     public void flippingImageTest() {
         int[][] arr = {{1, 1, 0}, {1, 0, 1}, {0, 0, 0}};
         int[][] result = flipAndInvertImage(arr);
+        System.out.println(result);
         Assert.assertEquals(result.length, 3);
     }
 

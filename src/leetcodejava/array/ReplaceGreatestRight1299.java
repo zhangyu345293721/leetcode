@@ -31,8 +31,8 @@ public class ReplaceGreatestRight1299 {
     @Test
     public void replaceGreatestRight() {
         int[] arr = {17, 18, 5, 4, 6, 1};
-        int[] resultArr = replaceElements(arr);
-        Assert.assertEquals(resultArr.length, 6);
+        int[] result = replaceElements(arr);
+        Assert.assertEquals(result.length, 6);
     }
 
     /**

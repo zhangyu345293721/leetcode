@@ -39,8 +39,8 @@ public class SortArrayParity922 {
     @Test
     public void testSortArrayParity() {
         int[] A = {4, 2, 5, 7};
-        int[] arr = sortArrayByParityII(A);
-        Assert.assertEquals(arr[0], 2);
+        int[] result = sortArrayByParityII(A);
+        Assert.assertEquals(result[0], 2);
     }
 
     /**

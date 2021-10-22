@@ -42,6 +42,7 @@ public class ContainsDuplicate217 {
     public void containsDuplicateTest() {
         int[] nums = {1, 2, 3, 4};
         boolean result = containsDuplicate(nums);
+        System.out.println(result);
         Assert.assertEquals(result, true);
     }
 

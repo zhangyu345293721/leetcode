@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -35,8 +36,9 @@ import org.junit.Test;
 public class NthTribonacciNumber1137 {
     @Test
     public void nthTribonacciNumberTest() {
-        int num = tribonacci(37);
-        System.out.println(num);
+        int result = tribonacci(37);
+        System.out.println(result);
+        Assert.assertEquals(result,2082876103);
     }
 
     /**

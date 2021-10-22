@@ -34,8 +34,8 @@ public class ScoreAfterFlippingMatrix861 {
     @Test
     public void scoreAfterFlippingMatrixTest() {
         int[][] A = {{0, 0, 1, 1}, {1, 0, 1, 0}, {1, 1, 0, 0}};
-        int sum = matrixScore2(A);
-        Assert.assertEquals(sum, 39);
+        int result = matrixScore2(A);
+        Assert.assertEquals(result, 39);
     }
 
     /**

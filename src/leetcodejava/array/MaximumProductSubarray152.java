@@ -33,9 +33,9 @@ public class MaximumProductSubarray152 {
     @Test
     public void maximumProductSubarrayTest() {
         int[] nums = {2, 3, -2, 4};
-        int maxProfit = maxProduct2(nums);
-        System.out.println(maxProfit);
-        Assert.assertEquals(maxProfit, 6);
+        int result = maxProduct2(nums);
+        System.out.println(result);
+        Assert.assertEquals(result, 6);
     }
 
     /**

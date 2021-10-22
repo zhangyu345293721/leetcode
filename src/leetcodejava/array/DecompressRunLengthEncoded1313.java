@@ -48,8 +48,9 @@ public class DecompressRunLengthEncoded1313 {
     @Test
     public void decompressRunLengthEncodedTest() {
         int[] nums = {1, 2, 3, 4};
-        int[] arr = decompressRLElist(nums);
-        Assert.assertEquals(arr.length, 4);
+        int[] result = decompressRLElist(nums);
+        System.out.println(result);
+        Assert.assertEquals(result.length, 4);
     }
 
     /**

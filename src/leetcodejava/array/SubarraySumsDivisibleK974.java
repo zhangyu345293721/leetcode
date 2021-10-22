@@ -38,8 +38,8 @@ public class SubarraySumsDivisibleK974 {
     public void subarraySumsDivisibleKTest() {
         int[] A = {4, 5, 0, -2, -3, 1};
         int K = 5;
-        int i = subarraysDivByK(A, K);
-        Assert.assertEquals(i, 7);
+        int result = subarraysDivByK(A, K);
+        Assert.assertEquals(result, 7);
     }
 
     /**

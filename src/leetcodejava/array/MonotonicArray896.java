@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,8 +40,9 @@ public class MonotonicArray896 {
     @Test
     public void monotonicArrayTest() {
         int[] arr = {1, 1, 1};
-        boolean flag = isMonotonic(arr);
-        System.out.println(flag);
+        boolean result = isMonotonic(arr);
+        System.out.println(result);
+        Assert.assertEquals(result,true);
     }
 
     /**

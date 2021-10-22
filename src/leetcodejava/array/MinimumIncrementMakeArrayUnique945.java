@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
@@ -38,8 +39,9 @@ public class MinimumIncrementMakeArrayUnique945 {
     @Test
     public void minimumIncrementMakeArrayUniqueTest() {
         int[] A = {3, 2, 1, 2, 1, 7};
-        int i = minIncrementForUnique(A);
-        System.out.println(i);
+        int result = minIncrementForUnique(A);
+        System.out.println(result);
+        Assert.assertEquals(result, 6);
     }
 
     /**

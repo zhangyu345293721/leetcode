@@ -38,8 +38,8 @@ public class RobotReturnOrigin657 {
     @Test
     public void robotReturnOriginTest() {
         String moves = "UD";
-        boolean b = judgeCircle(moves);
-        Assert.assertEquals(b, true);
+        boolean result = judgeCircle(moves);
+        Assert.assertEquals(result, true);
     }
 
     /**

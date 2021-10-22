@@ -38,8 +38,9 @@ public class ContainsDuplicate219 {
     public void testContainsDuplicate() {
         int[] arr = {1, 2, 3, 1, 2, 3};
         int k = 2;
-        boolean flag = containsNearbyDuplicate(arr, k);
-        Assert.assertEquals(flag, false);
+        boolean result = containsNearbyDuplicate(arr, k);
+        System.out.println(result);
+        Assert.assertEquals(result, false);
     }
 
     /**

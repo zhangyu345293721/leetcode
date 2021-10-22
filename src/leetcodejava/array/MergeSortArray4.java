@@ -38,9 +38,9 @@ public class MergeSortArray4 {
     public void mergeArrayTest() {
         int[] nums1 = {0, 0, 0, 0, 0};
         int[] nums2 = {-1, 0, 0, 0, 0, 1};
-        double median = findMedianSortedArrays1(nums1, nums2);
-        System.out.println(median);
-        Assert.assertEquals((float) median, 0.0f);
+        double result = findMedianSortedArrays1(nums1, nums2);
+        System.out.println(result);
+        Assert.assertEquals((float) result, 0.0f);
     }
 
     /**

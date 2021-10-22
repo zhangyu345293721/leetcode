@@ -38,8 +38,8 @@ public class ShortestUnsortedContinuousSubarray581 {
     @Test
     public void shortestUnsortedContinuousSubarrayTest() {
         int[] nums = {2, 6, 4, 8, 10, 9, 15};
-        int num = findUnsortedSubarray3(nums);
-        Assert.assertEquals(num, 5);
+        int result = findUnsortedSubarray3(nums);
+        Assert.assertEquals(result, 5);
     }
 
     /**

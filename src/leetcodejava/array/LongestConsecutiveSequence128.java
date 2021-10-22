@@ -35,9 +35,9 @@ public class LongestConsecutiveSequence128 {
     @Test
     public void longestConsecutiveSequenceTest() {
         int[] nums = {12, 13, 1, 4, 5, 6};
-        int maxLength = longestConsecutive(nums);
-        System.out.println(maxLength);
-        Assert.assertEquals(maxLength, 3);
+        int result = longestConsecutive(nums);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**

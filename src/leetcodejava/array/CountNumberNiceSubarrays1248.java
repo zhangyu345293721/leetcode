@@ -52,8 +52,9 @@ public class CountNumberNiceSubarrays1248 {
     public void countNumberNiceSubarraysTest() {
         int[] nums = {1, 1, 1, 1, 1};
         int k = 1;
-        int count = numberOfSubarrays(nums, k);
-        Assert.assertEquals(count, 5);
+        int result = numberOfSubarrays(nums, k);
+        System.out.println(result);
+        Assert.assertEquals(result, 5);
     }
 
     /**

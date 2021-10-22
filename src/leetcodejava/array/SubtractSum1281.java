@@ -38,8 +38,8 @@ public class SubtractSum1281 {
     @Test
     public void subtractSumTest() {
         int n = 4421;
-        int sub = subtractProductAndSum(n);
-        Assert.assertEquals(sub, 21);
+        int result = subtractProductAndSum(n);
+        Assert.assertEquals(result, 21);
     }
 
     /**

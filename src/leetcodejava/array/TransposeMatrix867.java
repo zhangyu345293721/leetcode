@@ -35,9 +35,9 @@ public class TransposeMatrix867 {
     @Test
     public void transposeMatrixTest() {
         int[][] a = {{1, 2, 3}, {4, 5, 6}};
-        int[][] A = transpose(a);
-        System.out.println(Arrays.toString(A));
-        Assert.assertEquals(A.length, 2);
+        int[][] result = transpose(a);
+        System.out.println(Arrays.toString(result));
+        Assert.assertEquals(result.length, 2);
     }
 
     /**

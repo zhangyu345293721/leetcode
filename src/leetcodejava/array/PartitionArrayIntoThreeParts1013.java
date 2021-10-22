@@ -1,5 +1,6 @@
 package leetcodejava.array;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -39,6 +40,7 @@ public class PartitionArrayIntoThreeParts1013 {
         int[] A = {3, 3, 6, 5, -2, 2, 5, 1, -9, 4};
         boolean result = canThreePartsEqualSum2(A);
         System.out.println(result);
+        Assert.assertEquals(result, true);
     }
 
     /**
