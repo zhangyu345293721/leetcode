@@ -49,8 +49,9 @@ public class SumMutatedArrayClosestTarget1300 {
     public void sumMutatedArrayClosestTargetTest() {
         int[] arr = {48772, 52931, 14253, 32289, 75263};
         int target = 40876;
-        int bestValue = findBestValue(arr, target);
-        Assert.assertEquals(bestValue, 8175);
+        int result = findBestValue(arr, target);
+        System.out.println(result);
+        Assert.assertEquals(result, 8175);
 
     }
 

@@ -113,22 +113,23 @@ public class NumberIslands200 {
         int row = grid.length;
         int col = grid[0].length;
         Queue<int[]> queue = new LinkedList<>();
+        boolean [][] visited = new boolean[row][col];
         int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if (grid[i][j] == '1') {
                     queue.add(new int[]{i, j});
                     res++;
-                    grid[i][j] = '0';
+                    visited[i][j] = true;
                     while (!queue.isEmpty()) {
                         int[] point = queue.poll();
                         for (int[] d : directions) {
                             int x = point[0] + d[0];
                             int y = point[1] + d[1];
                             if (x >= 0 && x < row && y >= 0 && y < col) {
-                                if (grid[x][y] == '1') {
+                                if (grid[x][y] == '1' && !visited[x][y]) {
                                     queue.add(new int[]{x, y});
-                                    grid[x][y] = '0';
+                                    visited[x][y] = true;
                                 }
                             }
                         }

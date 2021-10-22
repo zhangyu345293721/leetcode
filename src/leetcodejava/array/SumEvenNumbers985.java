@@ -38,8 +38,8 @@ public class SumEvenNumbers985 {
     public void sumEvenNumbersTest() {
         int[] A = {1, 2, 3, 4};
         int[][] queries = {{1, 0}, {-3, 1}, {-4, 0}, {2, 3}};
-        int[] newA = sumEvenAfterQueries(A, queries);
-        Assert.assertEquals(newA.length, 4);
+        int[] result = sumEvenAfterQueries(A, queries);
+        Assert.assertEquals(result.length, 4);
     }
 
     /**

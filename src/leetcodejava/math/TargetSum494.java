@@ -42,7 +42,7 @@ public class TargetSum494 {
         Assert.assertEquals(result, 0);
     }
 
-    int count = 0;
+    private int count = 0;
 
     /**
      * @param nums 数组
@@ -50,7 +50,7 @@ public class TargetSum494 {
      * @return 目标值
      */
     public int findTargetSumWays(int[] nums, int S) {
-        dfs(nums, 0, 0, S);
+        searchHelper(nums, 0, 0, S);
         return count;
     }
 
@@ -62,14 +62,43 @@ public class TargetSum494 {
      * @param index  下标
      * @param target 目标值
      */
-    private void dfs(int[] nums, int sum, int index, int target) {
+    private void searchHelper(int[] nums, int sum, int index, int target) {
         if (index == nums.length) {
             if (sum == target) {
                 count++;
             }
         } else {
-            dfs(nums, sum + nums[index], index + 1, target);
-            dfs(nums, sum - nums[index], index + 1, target);
+            searchHelper(nums, sum + nums[index], index + 1, target);
+            searchHelper(nums, sum - nums[index], index + 1, target);
         }
+    }
+
+
+    /**
+     * 动态规划
+     *
+     * @param nums 数组
+     * @param S    数字
+     * @return 目标值
+     */
+    public int findTargetSumWays2(int[] nums, int S) {
+        if (S > 1000 || S < -1000) return 0;
+        int n = nums.length;
+        int offset = 1000;
+        int w = 2000;
+        int[][] dp = new int[n][w + 1];
+        dp[0][offset - nums[0]] += 1; // 因为nums[0]有可能为0
+        dp[0][offset + nums[0]] += 1;
+        for (int i = 1; i < n; ++i) {
+            for (int j = 0; j <= w; ++j) {
+                if (j - nums[i] >= 0 && j - nums[i] <= w) {
+                    dp[i][j] = dp[i - 1][j - nums[i]];
+                }
+                if (j + nums[i] >= 0 && j + nums[i] <= w) {
+                    dp[i][j] += dp[i - 1][j + nums[i]];
+                }
+            }
+        }
+        return dp[n - 1][S + 1000];
     }
 }

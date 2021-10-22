@@ -46,8 +46,9 @@ public class SurfaceArea3DShapes892 {
     @Test
     public void surfaceArea3DShapesTest() {
         int[][] arr = {{1, 2}, {3, 4}};
-        int i = surfaceArea(arr);
-        Assert.assertEquals(i, 34);
+        int result = surfaceArea(arr);
+        System.out.println(result);
+        Assert.assertEquals(result, 34);
     }
 
     /**

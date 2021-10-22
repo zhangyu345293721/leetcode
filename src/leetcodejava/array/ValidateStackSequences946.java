@@ -48,6 +48,7 @@ public class ValidateStackSequences946 {
         int[] pushed = {1, 2, 3, 4, 5};
         int[] popped = {4, 5, 3, 2, 1};
         boolean result = validateStackSequences(pushed, popped);
+        System.out.println(result);
         Assert.assertEquals(result, true);
     }
 

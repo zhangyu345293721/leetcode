@@ -3,6 +3,8 @@ package leetcodejava.array;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 /**
  * This is the solution of No. 867 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -34,6 +36,7 @@ public class TransposeMatrix867 {
     public void transposeMatrixTest() {
         int[][] a = {{1, 2, 3}, {4, 5, 6}};
         int[][] A = transpose(a);
+        System.out.println(Arrays.toString(A));
         Assert.assertEquals(A.length, 2);
     }
 

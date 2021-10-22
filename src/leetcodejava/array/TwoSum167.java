@@ -37,6 +37,7 @@ public class TwoSum167 {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
         int[] result = twoSum(nums, target);
+        System.out.println(result);
         Assert.assertEquals(result.length, 2);
     }
 

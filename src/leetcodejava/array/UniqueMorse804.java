@@ -43,8 +43,9 @@ public class UniqueMorse804 {
     @Test
     public void uniqueMorseTest() {
         String[] words = {"gin", "zen", "gig", "msg"};
-        int length = uniqueMorseRepresentations(words);
-        Assert.assertEquals(length, 2);
+        int result = uniqueMorseRepresentations(words);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

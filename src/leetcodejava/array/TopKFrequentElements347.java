@@ -39,6 +39,7 @@ public class TopKFrequentElements347 {
         int[] nums = {1, 1, 1, 2, 2, 3};
         int k = 2;
         int[] result = topKFrequent2(nums, k);
+        System.out.println(Arrays.toString(result));
         Assert.assertEquals(result.length, 2);
     }
 

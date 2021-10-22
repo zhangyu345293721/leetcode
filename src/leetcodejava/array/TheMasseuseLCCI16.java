@@ -13,8 +13,9 @@ public class TheMasseuseLCCI16 {
     @Test
     public void theMasseuseLCCTest() {
         int[] arr = {1, 2, 3, 1};
-        int massage = massage(arr);
-        Assert.assertEquals(massage, 4);
+        int result = massage(arr);
+        System.out.println(result);
+        Assert.assertEquals(result, 4);
     }
 
     /**

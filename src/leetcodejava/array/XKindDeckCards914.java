@@ -51,8 +51,8 @@ public class XKindDeckCards914 {
     @Test
     public void xKindDeckCardsTest() {
         int arr[] = {1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3};
-        boolean b = hasGroupsSizeX3(arr);
-        Assert.assertEquals(b, false);
+        boolean result = hasGroupsSizeX3(arr);
+        Assert.assertEquals(result, false);
     }
 
     /**
