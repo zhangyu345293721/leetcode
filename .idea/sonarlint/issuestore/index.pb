@@ -1029,3 +1029,7 @@ U
 %src/leetcodejava/dp/UniquePath63.java,f\6\f61e5f2a78148f8c031c37c27f52d0ce02609804
 U
 %src/leetcodejava/dp/UniquePath62.java,6\a\6aca2b114ceb6cfe2c4d18030a22157166ec5c53
+[
++src/leetcodejava/array/EightQueens0812.java,7\f\7f773daf58435dc44b53829231425451c9ee0a2e
+W
+'src/leetcodejava/dp/HouseRobber213.java,7\9\79fa03f1bea1b727013c63e758706cfccff37f2c

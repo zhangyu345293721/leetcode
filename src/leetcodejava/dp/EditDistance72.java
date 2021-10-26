@@ -1,4 +1,4 @@
-package leetcodejava.top100likedquestions;
+package leetcodejava.dp;
 
 import org.junit.Assert;
 import org.junit.Test;

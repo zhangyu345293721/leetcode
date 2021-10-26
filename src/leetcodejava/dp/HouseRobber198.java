@@ -75,11 +75,21 @@ public class HouseRobber198 {
      * @return 钱数
      */
     private int houseRobber2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return 0;
+        }
+        if (nums.length == 1) {
+            return nums[0];
+        }
+        if (nums.length == 2) {
+            return Math.max(nums[0], nums[1]);
+        }
         int preMax = 0, max = 0;
+        // 不断更新前置最大值和最大值
         for (int num : nums) {
-            int temp = Math.max(preMax + num, max);
+            int tempMax = Math.max(preMax + num, max);
             preMax = max;
-            max = temp;
+            max = tempMax;
         }
         return max;
     }

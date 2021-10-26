@@ -14,8 +14,8 @@ public class EqualsIgnoreOrderString {
     public void equalsIgnoreOrderStringTest() {
         String s = "aaaaa";
         String p = "aa";
-        boolean b = equalsIgnoreOrderString1(s, p);
-        System.out.println(b);
+        boolean result = equalsIgnoreOrderString1(s, p);
+        System.out.println(result);
     }
 
     /**
