@@ -30,8 +30,9 @@ public class LongestPalindromicSubstring5 {
     @Test
     public void longestPalindromicSubstringTest() {
         String s = "aba";
-        String subString = longestPalindromicSubstring1(s);
-        Assert.assertEquals(subString, "aba");
+        String result = longestPalindromicSubstring1(s);
+        System.out.println(result);
+        Assert.assertEquals(result, "aba");
     }
 
     /**

@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -50,6 +51,7 @@ public class LargeGroup830 {
         String str = "abcdddeeeeaabbbcd";
         List<List<Integer>> result = largeGroupPositions(str);
         System.out.println(result);
+        Assert.assertEquals(result.size(), 3);
     }
 
     /**

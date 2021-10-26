@@ -50,9 +50,9 @@ public class FindAllAnagrams438 {
     public void findAllAnagramsTest() {
         String s = "baa";
         String p = "aa";
-        List<Integer> list = findAllAnagrams1(s, p);
-        System.out.println(list);
-        Assert.assertEquals((int) list.get(0), 1);
+        List<Integer> result = findAllAnagrams1(s, p);
+        System.out.println(result);
+        Assert.assertEquals((int) result.get(0), 1);
     }
 
     /**

@@ -32,6 +32,7 @@ public class ReverseVowels345 {
     @Test
     public void reverseVolwelsTest() {
         String result = reverseVowels("Aa");
+        System.out.println(result);
         Assert.assertEquals(result, "aA");
     }
 

@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -35,8 +36,9 @@ public class LowFirstChar709 {
     @Test
     public void lowFirstCharTest() {
         String s = "ABC";
-        String lowS = lowFirstChar2(s);
-        System.out.println(lowS);
+        String result = lowFirstChar2(s);
+        System.out.println(result);
+       Assert.assertEquals(result,"abc");
     }
 
     /**

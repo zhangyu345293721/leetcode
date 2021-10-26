@@ -42,9 +42,9 @@ public class HammingDistance461 {
     public void hammingDistanceTest() {
         int x = 1;
         int y = 4;
-        int distance = hammingDistance2(x, y);
-        System.out.println(distance);
-        Assert.assertEquals(distance, 2);
+        int result = hammingDistance2(x, y);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

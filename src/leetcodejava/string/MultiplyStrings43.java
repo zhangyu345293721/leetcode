@@ -1,6 +1,7 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigInteger;
@@ -44,6 +45,7 @@ public class MultiplyStrings43 {
         String num2 = "11";
         String result = multiply2(num1, num2);
         System.out.println(result);
+        Assert.assertEquals(result,1111);
     }
 
     /**

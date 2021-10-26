@@ -37,6 +37,7 @@ public class PalindromicSubstrings647 {
     public void palindromicSubstringsTest() {
         String s = "abc";
         int result = countSubstrings(s);
+        System.out.println(result);
         Assert.assertEquals(result, 3);
     }
 

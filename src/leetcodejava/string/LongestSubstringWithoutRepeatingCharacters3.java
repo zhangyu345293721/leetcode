@@ -43,9 +43,9 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
     @Test
     public void pairsOfParenthesesTest() {
         String s = "abba";
-        int length = lengthOfLongestSubstring(s);
-        System.out.println(length);
-        Assert.assertEquals(length, 2);
+        int result = lengthOfLongestSubstring(s);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

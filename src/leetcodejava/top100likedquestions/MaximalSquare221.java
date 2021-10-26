@@ -33,6 +33,7 @@ public class MaximalSquare221 {
         char[][] chs =
                 {{'1', '0', '1', '0', '0'}, {'1', '0', '1', '1', '1'}, {'1', '1', '1', '1', '1'}, {'1', '0', '0', '1', '0'}};
         int result = maximalSquare(chs);
+        System.out.println(result);
         Assert.assertEquals(result, 4);
 
     }

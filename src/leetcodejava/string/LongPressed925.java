@@ -1,6 +1,7 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -52,8 +53,9 @@ public class LongPressed925 {
     public void longPressedTest() {
         String name = "dfuyalc";
         String typed = "dfuuyallc";
-        boolean b = isLongPressedName(name, typed);
-        System.out.println("b = " + b);
+        boolean result = isLongPressedName(name, typed);
+        System.out.println("b = " + result);
+        Assert.assertEquals(result,true);
     }
 
     /**

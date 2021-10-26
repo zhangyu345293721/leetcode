@@ -36,6 +36,7 @@ public class RemoveDuplicateLetters316 {
     public void removeDuplicateLettersTest() {
         String s = "ecbacba";
         String result = removeDuplicateLetters2(s);
+        System.out.println(result);
         Assert.assertEquals(result, "eacb");
     }
 

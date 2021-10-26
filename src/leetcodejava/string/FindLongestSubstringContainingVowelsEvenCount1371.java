@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -45,8 +46,9 @@ public class FindLongestSubstringContainingVowelsEvenCount1371 {
     @Test
     public void findLongestSubstringContainingVowelsEvenCountTest() {
         String s = "bpgmxrkhdcvxbnogftqgqmqlghlvsyyckbobtfejpbsqcsmcmzqsujmilpbrpanjsxkzetsrictzzylnmqzassdbsqadkklyrbulscpucrokqzrafklgesesdmkqnlkitlbwcyuhziymrjsztccwfincejrxuihgdixpbxqjzzgrcrkkjqebolzxbaknxfrbwswvuqnfghdsesqdxiogzbloktxlhuaapbfirbahycqfbqggojhpqlkmucgtfgvtjsntplapadvusvtnwskkcungwqzptsvrqptvxsyotpfivqjsyzmtriijatybzoolhqogwpkwuemnbudlzaiyrxbjmakkjszbgwckdvuceywjntkhauwwfyyyqxsuljjmnqozcgnhtbthuhhwmmgtexjxxlawwvjopfvealnrkzqpktdsujzrvinajycupdqhtxuxinlzhbdtqqqfejbcgavbnxwacbabrkkzatargpgijsrqihfgmbhrwobkkndasfqucyfghfjzdbzkxecoehbxjlbscogzhvfdbgbxxdczzxhjwiqnhxbxiygklloyvtmvmcnhpkftudhcyznirjkylnollkmpqalejfjserwxefouueefctihlukfipjcnerlodevkcvfprbbxgulxlqlzquzvlkudfmbitwzgbhjksmhlybhjwsagdehlqiefhcjsqqrtrznosqpfqlgnzcighyeeygafplfbzlcthvwgcouugtkfswvwagkprbblprlepcqkvxsvjtkzscpkncicvukafkhkiijpnajfujbdnntgilyuxspsjtivfkeldmlqxswgmoepwhbxuhcxcbqqpspwkqzfswpmam";
-        int maxLength = findTheLongestSubstring2(s);
-        System.out.println(maxLength);
+        int result = findTheLongestSubstring2(s);
+        System.out.println(result);
+        Assert.assertEquals(result, 806);
     }
 
     /**

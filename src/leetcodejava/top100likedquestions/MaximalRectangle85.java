@@ -41,6 +41,7 @@ public class MaximalRectangle85 {
                 {'1', '0', '0', '1', '0'}
         };
         int result = maximalRectangle2(chs);
+        System.out.println(result);
         Assert.assertEquals(result, 6);
     }
 

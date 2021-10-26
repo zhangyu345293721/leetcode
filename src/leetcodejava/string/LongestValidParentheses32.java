@@ -37,9 +37,9 @@ public class LongestValidParentheses32 {
     @Test
     public void longestValidParenthesesTest() {
         String s = "()";
-        int validLength = longestValidParentheses2(s);
-        System.out.println(validLength);
-        Assert.assertEquals(validLength, 2);
+        int result = longestValidParentheses2(s);
+        System.out.println(result);
+        Assert.assertEquals(result, 2);
     }
 
     /**

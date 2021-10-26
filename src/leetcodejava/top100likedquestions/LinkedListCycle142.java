@@ -46,9 +46,9 @@ public class LinkedListCycle142 {
     @Test
     public void linkedListCycleTest() {
         ListNode nodes = ListNode.createListNode(Arrays.asList(1, 2, 2, 3, 4));
-        ListNode listNode = detectCycle(nodes);
-        System.out.println(listNode);
-        Assert.assertEquals(listNode, null);
+        ListNode result = detectCycle(nodes);
+        System.out.println(result);
+        Assert.assertEquals(result, null);
     }
 
     /**

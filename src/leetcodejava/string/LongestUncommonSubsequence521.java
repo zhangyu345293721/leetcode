@@ -45,8 +45,9 @@ public class LongestUncommonSubsequence521 {
     public void longestUncommonSubsequenceTest() {
         String a = "aaa";
         String b = "bbn";
-        int slength = findLUSlength(a, b);
-        Assert.assertEquals(slength, 3);
+        int result = findLUSlength(a, b);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**

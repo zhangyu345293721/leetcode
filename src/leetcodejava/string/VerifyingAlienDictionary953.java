@@ -1,5 +1,7 @@
 package leetcodejava.string;
 
+import org.junit.Test;
+
 /**
  * This is the solution of No.953 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -36,6 +38,11 @@ package leetcodejava.string;
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class VerifyingAlienDictionary953 {
+
+    @Test
+    public void verifyingAlienDictionaryTest() {
+        
+    }
 
     /**
      * 判断字符串是否按照顺序

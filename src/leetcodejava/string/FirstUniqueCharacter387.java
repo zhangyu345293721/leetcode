@@ -1,6 +1,7 @@
 package leetcodejava.string;
 
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -34,8 +35,9 @@ public class FirstUniqueCharacter387 {
     @Test
     public void firstUniqueCharacterTest() {
         String s = "aadadaae";
-        int index = getFirstUniqueCharacterIndex(s);
-        System.out.println(index);
+        int result = getFirstUniqueCharacterIndex(s);
+        System.out.println(result);
+        Assert.assertEquals(result, 7);
     }
 
     /**

@@ -39,9 +39,9 @@ public class FindDifference389 {
 
     @Test
     public void findDifferenceTest() {
-        char ch = findTheDifference2("abcd", "abcde");
-        System.out.println(ch);
-        Assert.assertEquals(ch, 'e');
+        char result = findTheDifference2("abcd", "abcde");
+        System.out.println(result);
+        Assert.assertEquals(result, 'e');
     }
 
     /**

@@ -38,9 +38,9 @@ public class GenerateParentheses22 {
     @Test
     public void generateParenthesesTest() {
         int n = 3;
-        List<String> list = generateParentheses(n);
-        System.out.println(list);
-        Assert.assertEquals(list.size(), 5);
+        List<String> result = generateParentheses(n);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 5);
     }
 
     /**

@@ -40,8 +40,9 @@ public class RestoreIPAddresses93 {
     @Test
     public void restoreIPAddressesTest() {
         String s = "25525511135";
-        List<String> ipAddresses = restoreIpAddresses(s);
-        Assert.assertEquals(ipAddresses.size(), 2);
+        List<String> result = restoreIpAddresses(s);
+        System.out.println(result);
+        Assert.assertEquals(result.size(), 2);
     }
 
     List<String> result = new ArrayList<>();

@@ -1,5 +1,6 @@
 package leetcodejava.string;
 
+import org.junit.Assert;
 import org.junit.Test;
 import java.util.Stack;
 
@@ -57,8 +58,9 @@ public class RemoveOutermostParentheses1021 {
     @Test
     public void removeOutermostParenthesesTest() {
         String s = "(()())(())";
-        String innerString=removeOuterParentheses(s);
-        System.out.println(innerString);
+        String result=removeOuterParentheses(s);
+        System.out.println(result);
+        Assert.assertEquals(result,"()()()");
     }
 
     /**

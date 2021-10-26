@@ -19,9 +19,9 @@ public class JosephProblem {
 
     @Test
     public void josephProblemTest() {
-        int lastNumber = lastRemaining(7, 3);
-        System.out.println(lastNumber);
-        Assert.assertEquals(lastNumber, 3);
+        int result = lastRemaining(7, 3);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**
