@@ -1,9 +1,9 @@
 
-usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(İå¸Éûÿÿÿÿ8“²‰¨»/
-9squid:S3626%"Remove this redundant jump.(ÉŠ©ƒ8ÕôÑ¨»/
-nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÀÌ¤»8ÕôÑ¨»/
-msquid:S1149R"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ø¢¡]8ÕôÑ¨»/
-\"squid:SwitchLastCaseIsDefaultCheckW""Add a default case to this switch.(Œ¹ÿÿÿÿÿ8¥Å§»/
-nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(˜ùÊŠ8ÕôÑ¨»/
-msquid:S1149R"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ø¢¡]8ÕôÑ¨»/
-_squid:S1126p"AReplace this if-then-else statement by a single return statement.(†Û»Ğ8¼çØ§»/
+msquid:S1149S"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ø¢¡]8ÕôÑ¨»/
+9squid:S3626&"Remove this redundant jump.(ÉŠ©ƒ8ÕôÑ¨»/
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(˜ùÊŠ8ÕôÑ¨»/
+_squid:S1126q"AReplace this if-then-else statement by a single return statement.(†Û»Ğ8¼çØ§»/
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(İå¸Éûÿÿÿÿ8“²‰¨»/
+nsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÀÌ¤»8ÕôÑ¨»/
+\"squid:SwitchLastCaseIsDefaultCheckX""Add a default case to this switch.(Œ¹ÿÿÿÿÿ8¥Å§»/
+msquid:S1149S"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ø¢¡]8ÕôÑ¨»/

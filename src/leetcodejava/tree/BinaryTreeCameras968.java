@@ -1,5 +1,8 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
+import org.junit.Test;
+
 /**
  * This is the solution of No.968 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -31,6 +34,14 @@ package leetcodejava.tree;
  */
 public class BinaryTreeCameras968 {
 
+    @Test
+    public void binaryTreeCamerasTest() {
+        TreeNode root = TreeNode.createBinaryTreeByArray(new Integer[]{0, 0, null, 0, 0});
+        int result = minCameraCover(root);
+        System.out.println(result);
+        Assert.assertEquals(result, 1);
+    }
+
     private int ans = 0;
 
     /**
@@ -43,7 +54,7 @@ public class BinaryTreeCameras968 {
         if (root == null) {
             return 0;
         }
-        if (dfs(root) == 2) {
+        if (searchHelper(root) == 2) {
             ans++;
         }
         return ans;
@@ -55,11 +66,11 @@ public class BinaryTreeCameras968 {
      * @param node 节点
      * @return 数量
      */
-    private int dfs(TreeNode node) {
+    private int searchHelper(TreeNode node) {
         if (node == null) {
             return 1;
         }
-        int left = dfs(node.left), right = dfs(node.right);
+        int left = searchHelper(node.left), right = searchHelper(node.right);
         if (left == 2 || right == 2) {
             ans++;
             return 0;
@@ -68,5 +79,38 @@ public class BinaryTreeCameras968 {
         } else {
             return 2;
         }
+    }
+
+    /**
+     * 计算需要相机个数
+     *
+     * @param root 根节点
+     * @return 返回相机个数
+     */
+    public int minCameraCover2(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int[] array = dfs(root);
+        return array[1];
+    }
+
+    /**
+     * 深度优先遍历
+     *
+     * @param root 根节点
+     * @return 深度优先遍历
+     */
+    public int[] dfs(TreeNode root) {
+        if (root == null) {
+            return new int[]{Integer.MAX_VALUE / 2, 0, 0};
+        }
+        int[] leftArray = dfs(root.left);
+        int[] rightArray = dfs(root.right);
+        int[] array = new int[3];
+        array[0] = leftArray[2] + rightArray[2] + 1;
+        array[1] = Math.min(array[0], Math.min(leftArray[0] + rightArray[1], rightArray[0] + leftArray[1]));
+        array[2] = Math.min(array[0], leftArray[1] + rightArray[1]);
+        return array;
     }
 }

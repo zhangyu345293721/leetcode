@@ -67,7 +67,6 @@ public class BinarySearchTree {
     }
 
 
-
     /**
      * 二叉查找树,递归方式
      *
@@ -93,7 +92,7 @@ public class BinarySearchTree {
      * @param data 数值
      * @return 根节点
      */
-    public TreeNode searchBST2(int data) {
+    public TreeNode searchBST2(TreeNode root, int data) {
         TreeNode p = root;
         while (p != null) {
             if (data < p.val) {
@@ -106,6 +105,7 @@ public class BinarySearchTree {
         }
         return null;
     }
+
     /**
      * 删除一个节点（判断节点）
      *
@@ -114,6 +114,7 @@ public class BinarySearchTree {
     public void delete(int data) {
         TreeNode p = root;
         TreeNode pp = null;
+        // 找出要删除节点的父节点
         while (p != null && p.val != data) {
             pp = p;
             if (data > p.val) {
@@ -122,10 +123,11 @@ public class BinarySearchTree {
                 p = p.left;
             }
         }
+        // 没有找到相等的退出
         if (p == null) {
             return;
         }
-        //删除的节点有两个子节点
+        // 删除的节点有两个子节点
         if (p.left != null && p.right != null) {
             TreeNode minP = p.right;
             TreeNode minPP = p;

@@ -58,8 +58,8 @@ public class MaximumWidthBinaryTree662 {
         Integer[] nums = {1, 3, 2, 5, 2, null, 9};
         TreeNode root = TreeNode.createBinaryTreeByArray(nums);
         int width = widthOfBinaryTree2(root);
-        Assert.assertEquals(width, 4);
         System.out.println(width);
+        Assert.assertEquals(width, 4);
     }
 
     /**
