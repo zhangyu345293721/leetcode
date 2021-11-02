@@ -70,4 +70,23 @@ public class JewelsAndStones771 {
         }
         return count;
     }
+    /**
+     * 计算宝石的个数
+     *
+     * @param jewels 字符串J
+     * @param stones 字符串S
+     * @return int
+     */
+    private int numJewelsInStones2(String jewels, String stones) {
+        if (jewels.length() < 1) {
+            return 0;
+        }
+        int count = 0;
+        for (char ch : stones.toCharArray()) {
+            if (jewels.contains(String.valueOf(ch))) {
+                count += 1;
+            }
+        }
+        return count;
+    }
 }

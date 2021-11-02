@@ -74,8 +74,46 @@ class Solution:
                 break
         return res
 
+    def spiral_order3(self, matrix: List[List[int]]) -> List[int]:
+        '''
+            逆时针打印数组
+        Args:
+            matrix: 二维数组
+            Returns: 一维数组
+        '''
+        res = []
+        top, bottom, left, right = 0, len(matrix) - 1, 0, len(matrix[0]) - 1
+        while True:
+            # 左 -> 底部
+            for i in range(top, bottom + 1):
+                res.append(matrix[i][left])
+            left += 1
+            if left > right:
+                break
+            # 底部 ->  右
+            for i in range(left, right + 1):
+                res.append(matrix[bottom][i])
+            bottom -= 1
+            if top > bottom:
+                break
+            # 右 -> 上
+            for i in range(top, bottom + 1)[::-1]:
+                res.append(matrix[i][right])
+            right -= 1
+            if left > right:
+                break
+            # 右上 -> 左上
+            for i in range(left, right + 1)[::-1]:
+                res.append(matrix[top][i])
+            top += 1
+            if top > bottom:
+                break
+        return res
+
+
 if __name__ == '__main__':
     matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
     solution = Solution()
-    result = solution.spiral_order2(matrix)
+    result = solution.spiral_order3(matrix)
+    print(result)
     assert result == [1, 2, 3, 6, 9, 7, 8, 4, 5]
