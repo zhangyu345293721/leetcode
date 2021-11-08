@@ -36,7 +36,7 @@ public class UniquePath63 {
         // 718991952
         int[][] obstacleGrid2 = {{0, 0, 0}, {0, 1, 0}, {0, 0, 0}};
         int[][] obstacleGrid3 = {{0, 0, 0}, {0, 1, 0}, {0, 0, 1}};
-        int result = uniquePathsWithObstacles3(obstacleGrid2);
+        int result = uniquePathsWithObstacles(obstacleGrid);
         long end = System.currentTimeMillis();
         System.out.println("运行时间为:" + (end - start) + "ms");
         System.out.println(result);

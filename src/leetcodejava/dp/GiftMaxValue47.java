@@ -40,7 +40,7 @@ public class GiftMaxValue47 {
                 {4, 2, 1}};
         int result = maxValue2(grid);
         System.out.println(result);
-        Assert.assertEquals(result, 9);
+        Assert.assertEquals(result, 12);
     }
 
     private int maxValue = Integer.MIN_VALUE;
@@ -55,9 +55,9 @@ public class GiftMaxValue47 {
         if (grid == null || grid.length < 1) {
             return 0;
         }
-        int rows = grid.length;
-        int cols = grid[0].length;
-        boolean[][] visited = new boolean[rows][cols];
+        int row = grid.length;
+        int col = grid[0].length;
+        boolean[][] visited = new boolean[row][col];
         searchHelper(visited, grid, 0, 0, 0);
         return maxValue;
     }
@@ -75,6 +75,7 @@ public class GiftMaxValue47 {
         }
         int row = grid.length;
         int col = grid[0].length;
+        // 不动的初始化
         for (int i = 1; i < row; i++) {
             grid[i][0] += grid[i - 1][0];
         }
@@ -142,7 +143,8 @@ public class GiftMaxValue47 {
         sum += grid[i][j];
         searchHelper(visited, grid, i + 1, j, sum);// 向下递归
         searchHelper(visited, grid, i, j + 1, sum);// 向右递归
-        sum -= grid[i][j];
+        // 回溯
         visited[i][j] = false;
+        sum -= grid[i][j];
     }
 }

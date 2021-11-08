@@ -1037,3 +1037,11 @@ W
 'src/leetcodejava/dp/BestTimeBuy714.java,4\b\4bd41273698d17b6f2c0b144b5a1da351df40bd1
 W
 'src/leetcodejava/dp/EditDistance72.java,7\b\7b8555384159f5b3b17c6a1cb7401ef56bd7262f
+e
+5src/leetcodejava/dp/LongestCommonSubsequence1143.java,9\d\9de8902f288f43e31afee14fa5d6fb79b79ef958
+X
+(src/leetcodejava/array/SortColors75.java,4\7\4785bbdf6a0569eaafaae284333bec7cddec5818
+`
+0src/leetcodejava/array/SmallestDifference16.java,0\a\0a47236516c4f3c7135568e54e3a925835ebd654
+Y
+)src/leetcodejava/string/FindCloset11.java,2\0\209265e3cfaffc438760018c3d09f328df845639

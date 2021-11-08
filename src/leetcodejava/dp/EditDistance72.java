@@ -37,7 +37,7 @@ import org.junit.Test;
  * exection -> execution (插入 'u')
  * <p>
  * 来源：力扣（LeetCode）
- * * ======================================  ====================================================================
+ * * ==========================================================================================================
  *
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
@@ -83,5 +83,55 @@ public class EditDistance72 {
             }
         }
         return dp[n][m];
+    }
+
+    /**
+     * 编辑距离最小步数
+     *
+     * @param word1 字符串1
+     * @param word2 字符串2
+     * @return 步数
+     */
+    public int minDistance2(String word1, String word2) {
+        if (word1 == null || word1.length() < 1) {
+            return 0;
+        }
+        if (word2 == null || word2.length() < 1) {
+            return 0;
+        }
+        int n = word1.length();
+        int m = word2.length();
+        char[] w1 = word1.toCharArray();
+        char[] w2 = word2.toCharArray();
+        // dp[i][j]表示w1[0~i-1](⻓度为i⼦串)和w2[0~j-1](⻓度为j的⼦串)的最⼩编辑距离
+        int[][] dp = new int[n + 1][m + 1];
+        for (int j = 0; j <= m; j++) {
+            dp[0][j] = j;
+        }
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = i;
+        }
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= m; j++) {
+                if (w1[i - 1] == w2[j - 1]) {
+                    dp[i][j] = min3(dp[i - 1][j] + 1, dp[i][j - 1] + 1, dp[i - 1][j - 1]);
+                } else {
+                    dp[i][j] = min3(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]) + 1;
+                }
+            }
+        }
+        return dp[n][m];
+    }
+
+    /**
+     * 获取三个数的最小值
+     *
+     * @param n1 数值n1
+     * @param n2 数值n2
+     * @param n3 数值n3
+     * @return 最小数
+     */
+    private int min3(int n1, int n2, int n3) {
+        return Math.min(n1, Math.min(n2, n3));
     }
 }

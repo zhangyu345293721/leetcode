@@ -136,7 +136,7 @@ public class Subsets78 {
     public void searchHelper3(int[] nums, List<List<Integer>> result, int index, int len, List<Integer> temp) {
         // 复制链表，防止引用传递
         result.add(new ArrayList<>(temp));
-        if (len == index) {
+        if (index == len) {
             return;
         }
         for (int i = index; i < len; i++) {

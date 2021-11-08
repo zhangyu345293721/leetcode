@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.IntStream;
 
@@ -38,10 +39,10 @@ public class FindContinuousSequence57 {
 
     @Test
     public void findContinuousSequenceTest() {
-        int target = 15;
-        int[][] result = findContinuousSequence1(target);
+        int target = 9;
+        int[][] result = findContinuousSequence3(target);
         System.out.println(result);
-        Assert.assertEquals(result.length, 2);
+        Assert.assertEquals(result.length, 3);
     }
 
     /**
@@ -88,5 +89,44 @@ public class FindContinuousSequence57 {
             }
         }
         return result.stream().toArray(int[][]::new);
+    }
+
+    /**
+     * 连续数组和为固定值
+     *
+     * @param target 固定值
+     * @return 连续数组
+     */
+    public int[][] findContinuousSequence3(int target) {
+        List<List<Integer>> result = new ArrayList<>();
+        int sum = 0;
+        List<Integer> temp = new LinkedList<>();
+        int i = 1;
+        while (i < target) {
+            if (sum < target) {
+                temp.add(i);
+                sum += i;
+                i++;
+            } else if (sum == target) {
+                result.add(new ArrayList<>(temp));
+                temp.add(i);
+                sum += i;
+                i++;
+            } else {
+                sum -= temp.remove(0);
+            }
+        }
+        int size = result.size();
+        int res[][] = new int[size][];
+        int index = 0;
+        for (List<Integer> e : result) {
+            int len = e.size();
+            int[] pair = new int[len];
+            for (int k = 0; k < len; k++) {
+                pair[k] = e.get(k);
+            }
+            res[index++] = pair;
+        }
+        return res;
     }
 }

@@ -3,6 +3,9 @@ package leetcodejava.tree;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * This is the solution of No.437 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -122,5 +125,47 @@ public class PathSum437 {
         }
         Sum(root.left, sum);
         Sum(root.right, sum);
+    }
+
+    private int count = 0;
+
+    /**
+     * 求二叉树中路径为固定值的种数
+     *
+     * @param root 根节点
+     * @param sum  和
+     * @return 种数
+     */
+    public int pathSum3(TreeNode root, int sum) {
+        if (root == null) {
+            return 0;
+        }
+        dfs(root, new ArrayList<>(), sum);
+        return count;
+    }
+
+    /**
+     * 深度优先遍历
+     *
+     * @param root 树根
+     * @param path 路劲
+     * @param sum  和
+     */
+    private void dfs(TreeNode root, List<Integer> path, int sum) {
+        if (root == null) {
+            return;
+        }
+        path.add(root.val);
+        int curSum = 0;
+        for (int i = path.size() - 1; i >= 0; --i) {
+            curSum += path.get(i);
+            if (curSum == sum) {
+                count++;
+            }
+        }
+        dfs(root.left, path, sum);
+        dfs(root.right, path, sum);
+        // 回溯
+        path.remove(path.size() - 1);
     }
 }

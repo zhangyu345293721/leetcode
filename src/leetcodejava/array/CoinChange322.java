@@ -74,7 +74,7 @@ public class CoinChange322 {
             int newCount = count + c;
             if (amount - c * coins[index] == 0) {
                 minCount = Math.min(minCount, newCount);
-                break;//剪枝1
+                break;  //剪枝1
             }
             // 如果大于最小minCount就直接退出
             if (newCount >= minCount) {
@@ -93,6 +93,9 @@ public class CoinChange322 {
      * @return 最小数量
      */
     public int coinChange2(int[] coins, int amount) {
+        if (coins == null || coins.length < 1) {
+            return 0;
+        }
         int[] dp = new int[amount + 1];
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0;
@@ -105,5 +108,31 @@ public class CoinChange322 {
             }
         }
         return dp[amount] >= Integer.MAX_VALUE ? -1 : dp[amount];
+    }
+
+    /**
+     * 硬币兑换
+     *
+     * @param coins  硬币兑换
+     * @param amount 数量
+     * @return 最小数量
+     */
+    public int coinChange3(int[] coins, int amount) {
+        int k = coins.length;
+        int[] dp = new int[amount + 1];
+        for (int i = 0; i <= amount; ++i) {
+            dp[i] = Integer.MAX_VALUE;
+        }
+        dp[0] = 0;
+        for (int i = 1; i <= amount; ++i) {
+            for (int j = 0; j < k; ++j) {
+                if (i - coins[j] >= 0 &&
+                        dp[i - coins[j]] != Integer.MAX_VALUE &&
+                        dp[i - coins[j]] + 1 < dp[i]) {
+                    dp[i] = dp[i - coins[j]] + 1;
+                }
+            }
+        }
+        return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
     }
 }

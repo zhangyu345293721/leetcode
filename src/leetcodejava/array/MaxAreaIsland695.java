@@ -153,8 +153,8 @@ public class MaxAreaIsland695 {
         int row = grid.length;
         int col = grid[0].length;
         int[][] directions = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}};
-        for (int i = 0; i < grid.length; ++i) {
-            for (int j = 0; j < grid[0].length; ++j) {
+        for (int i = 0; i < row; ++i) {
+            for (int j = 0; j < col; ++j) {
                 int cnt = 0;
                 if (grid[i][j] == 1) {
                     Queue<int[]> queue = new LinkedList<>();

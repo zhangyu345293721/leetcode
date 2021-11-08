@@ -51,11 +51,11 @@ public class CombinationSum40 {
 
     @Test
     public void combinationSumTest() {
-        int[] candidates = {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1};
-        int target = 30;
+        int[] candidates = {5,3,2,1,1,4};
+        int target = 10;
         List<List<Integer>> result = combinationSum2(candidates, target);
         System.out.println(result);
-        Assert.assertEquals(result.size(), 4);
+        Assert.assertEquals(result.size(), 1);
     }
 
 
@@ -69,7 +69,7 @@ public class CombinationSum40 {
     public List<List<Integer>> combinationSum1(int[] candidates, int target) {
         Set<List<Integer>> result = new HashSet<>();
         List<Integer> temp = new ArrayList<>();
-        Arrays.sort(candidates);
+        //Arrays.sort(candidates);
         searchHelper1(candidates, target, result, temp, 0);
         return result.stream().collect(Collectors.toList());
     }
@@ -109,6 +109,9 @@ public class CombinationSum40 {
      * @return 结果集
      */
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        if (candidates == null || candidates.length < 1) {
+            return new ArrayList<>();
+        }
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
         Arrays.sort(candidates);
@@ -128,6 +131,7 @@ public class CombinationSum40 {
     private void searchHelper2(int[] candidates, int target, List<List<Integer>> result, List<Integer> temp, int index) {
         if (target == 0) {
             result.add(new ArrayList<>(temp));
+            return;
         }
         for (int i = index; i < candidates.length; i++) {
             if (candidates[index] > target) {
@@ -136,6 +140,7 @@ public class CombinationSum40 {
             if (i > index && candidates[i] == candidates[i - 1]) {
                 continue;
             }
+            // 回溯
             temp.add(candidates[i]);
             searchHelper2(candidates, target - candidates[i], result, temp, i + 1);
             temp.remove(temp.size() - 1);
@@ -180,6 +185,7 @@ public class CombinationSum40 {
             temp.add(candidates[i]);
             if (target - candidates[i] == 0) {
                 result.add(new ArrayList<>(temp));
+                return;
             } else {
                 /**
                  * 加1目的，防止一个数字出现几次

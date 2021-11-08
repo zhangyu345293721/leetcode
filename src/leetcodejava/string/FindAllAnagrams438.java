@@ -112,21 +112,31 @@ public class FindAllAnagrams438 {
      * @return 链表
      */
     private List<Integer> findAllAnagrams1(String s, String p) {
+        if (s == null || s.length() < 1) {
+            return new ArrayList<>();
+        }
+        if (p == null || p.length() < 1) {
+            return new ArrayList<>();
+        }
         List<Integer> result = new ArrayList<>();
-        int n = s.length();
-        int l = p.length();
+        int m = s.length();
+        int n = p.length();
+        if (n > m) {
+            return new ArrayList<>();
+        }
         int[] chs = new int[26];
         int[] chp = new int[26];
         for (char ch : p.toCharArray()) {
             chp[ch - 'a']++;
         }
-        for (int i = 0; i < n; i++) {
-            if (i >= l) {
-                chs[s.charAt(i - l) - 'a']--;
+        for (int i = 0; i < m; i++) {
+            // 过滤掉经过的元素
+            if (i >= n) {
+                chs[s.charAt(i - n) - 'a']--;
             }
             chs[s.charAt(i) - 'a']++;
             if (isSame(chs, chp)) {
-                result.add(i - l + 1);
+                result.add(i - n + 1);
             }
         }
         return result;
