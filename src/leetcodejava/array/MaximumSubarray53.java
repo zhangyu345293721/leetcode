@@ -74,4 +74,26 @@ public class MaximumSubarray53 {
         }
         return result;
     }
+
+    /**
+     * 滑动窗口
+     *
+     * @param nums 数组
+     * @return 最大
+     */
+    public int maxSubArray3(int[] nums) {
+        int n = nums.length;
+        int result = Integer.MIN_VALUE;
+        int sum = 0;
+        for (int i = 0; i < n; ++i) {
+            if (sum < 0) {
+                sum = 0;
+            }
+            sum += nums[i];
+            if (sum > result) {
+                result = sum;
+            }
+        }
+        return result;
+    }
 }

@@ -53,9 +53,9 @@ public class CoinChange518 {
 
     @Test
     public void coinChangeTest() {
-        int amount = 500;
-        int[] coins = {3, 5, 7, 8, 9, 10, 11};
-        int result = change(amount, coins);
+        int amount = 5;
+        int[] coins = {1, 2, 5};
+        int result = change3(amount, coins);
         System.out.println(result);
         Assert.assertEquals(result, 4);
     }
@@ -127,5 +127,34 @@ public class CoinChange518 {
             }
         }
         return dp[amount];
+    }
+
+    /**
+     * 查找并换种数
+     *
+     * @param amount 数量
+     * @param coins  数组
+     * @return 次数
+     */
+    public int change3(int amount, int[] coins) {
+        if (coins == null || coins.length < 1) {
+            return 0;
+        }
+        int n = coins.length;
+        int[][] dp = new int[n + 1][amount + 1];
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = 1;
+        }
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= amount; j++) {
+                int w = coins[i - 1];
+                if (w > j) {
+                    dp[i][j] = dp[i - 1][j];
+                } else {
+                    dp[i][j] = dp[i - 1][j] + dp[i][j - w];
+                }
+            }
+        }
+        return dp[n][amount];
     }
 }

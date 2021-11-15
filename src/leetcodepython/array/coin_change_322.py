@@ -72,11 +72,32 @@ class Solution:
         self.helper(coins, 0, 0, amount, min_count)
         return -1 if min_count[0] == amount + 1 else min_count[0]
 
+    def coin_change2(self, coins: List[int], amount: int) -> int:
+        n = len(coins)
+        # dp[i][j] 表示从[0,i]个硬币中需要选取硬币总和为j的个数
+        # 默认值 改为10001，则如果不能凑成硬币的时候，一定不会从该状态获取
+        dp = [[10001] * (amount + 1) for _ in range(n + 1)]
+
+        # 初始化：当amount = 0 时，硬币个数为0
+        for i in range(n + 1):
+            dp[i][0] = 0
+
+        for i in range(1, n + 1):
+            for j in range(1, amount + 1):
+                coin = coins[i - 1]
+                # 如果硬币面值大于amount，或者是当前amount不能由上一个j - coin得到，则从上一个状态转移
+                if coin > j:
+                    dp[i][j] = dp[i - 1][j]
+                else:
+                    dp[i][j] = min(dp[i][j - coin] + 1, dp[i - 1][j])
+
+        return dp[n][amount] if dp[n][amount] != 10001 else -1
+
 
 if __name__ == '__main__':
     amount = 11
     coins = [1, 2, 5]
     solution = Solution()
-    result = solution.coin_change(coins, amount)
+    result = solution.coin_change2(coins, amount)
     print(result)
     assert result == 3

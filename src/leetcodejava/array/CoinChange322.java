@@ -36,7 +36,7 @@ public class CoinChange322 {
     public void coinChangeTest() {
         int[] coins = {1, 2, 5};
         int amount = 11;
-        int result = coinChange(coins, amount);
+        int result = coinChange4(coins, amount);
         System.out.println(result);
         Assert.assertEquals(result, 3);
     }
@@ -134,5 +134,44 @@ public class CoinChange322 {
             }
         }
         return dp[amount] == Integer.MAX_VALUE ? -1 : dp[amount];
+    }
+
+    /**
+     * 硬币兑换
+     *
+     * @param coins  硬币兑换
+     * @param amount 数量
+     * @return 最小数量
+     */
+    public int coinChange4(int[] coins, int amount) {
+        if (coins == null || coins.length < 1) {
+            return 0;
+        }
+        int n = coins.length;
+        int[][] dp = new int[n + 1][amount + 1];
+        for (int i = 0; i <= n; i++) {
+            for (int j = 0; j <= amount; j++) {
+                dp[i][j] = 10001;
+            }
+        }
+        for (int i = 0; i <= n; i++) {
+            dp[i][0] = 0;
+        }
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= amount; j++) {
+                int w = coins[i - 1];
+                if (w > j) {
+                    dp[i][j] = dp[i - 1][j];
+                } else {
+                    dp[i][j] = Math.min(dp[i - 1][j], dp[i][j - w] + 1);
+                }
+            }
+        }
+        // 找到一个问题，发现是三元运算符用错了？？？(以后三元运算法要少用)
+        if (dp[n][amount] >= 10001) {
+            return -1;
+        } else {
+            return dp[n][amount];
+        }
     }
 }

@@ -38,56 +38,26 @@ public class ProductArrayExceptSelf238 {
     @Test
     public void productArrayExceptSelfTest() {
         int[] nums = {1, 2, 3, 4};
-        int[] result = productArrayExceptSelf2(nums);
+        int[] result = productArrayExceptSelf(nums);
         System.out.println(Arrays.toString(result));
         Assert.assertEquals(result[0], 24);
     }
 
     /**
+     * 左右前缀法
+     *
      * @param nums 数组
      * @return 新数组
      */
     private int[] productArrayExceptSelf(int[] nums) {
-        int[] newArr = new int[nums.length];
-        int productNumber = 1;
-        int zeroCount = 0;
-        for (int num : nums) {
-            if (num == 0) {
-                zeroCount++;
-            }
+        if (nums == null || nums.length < 1) {
+            return nums;
         }
-        if (zeroCount == 0) {
-            for (int num : nums) {
-                productNumber = productNumber * num;
-            }
-            for (int i = 0; i < nums.length; i++) {
-                newArr[i] = productNumber / nums[i];
-            }
-        }
-        if (zeroCount == 1) {
-            int index = 0;
-            for (int i = 0; i < nums.length; i++) {
-                if (nums[i] != 0) {
-                    productNumber = productNumber * nums[i];
-                } else {
-                    index = i;
-                }
-            }
-            newArr[index] = productNumber;
-        }
-        return newArr;
-    }
-
-    /**
-     * @param nums 数组
-     * @return 新数组
-     */
-    private int[] productArrayExceptSelf2(int[] nums) {
         int val = 1;
         int len = nums.length;
         int[] result = new int[len];
         for (int i = 0; i < len; i++) {
-            result[i] = val;
+            result[i] *= val;
             val *= nums[i];
         }
         val = 1;

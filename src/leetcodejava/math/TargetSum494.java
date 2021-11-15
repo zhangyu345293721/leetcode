@@ -36,9 +36,10 @@ import org.junit.Test;
 public class TargetSum494 {
     @Test
     public void targetSumTest() {
-        int[] nums = {1, 8, 9, 3, 4, 5, 7};
-        int target = 20;
-        int result = findTargetSumWays(nums, target);
+        int[] nums = {100};
+        int target = -200;
+        int result = findTargetSumWays3(nums, target);
+        System.out.println(result);
         Assert.assertEquals(result, 0);
     }
 
@@ -100,5 +101,38 @@ public class TargetSum494 {
             }
         }
         return dp[n - 1][S + 1000];
+    }
+
+
+    /**
+     * 动态规划
+     *
+     * @param nums 数组
+     * @param S    数字
+     * @return 目标值
+     */
+    public int findTargetSumWays3(int[] nums, int S) {
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        if (sum < S || (sum + S) % 2 == 1) {
+            return 0;
+        }
+        int n = nums.length;
+        int W = (sum - S) / 2;
+        int[][] dp = new int[n + 1][W + 1];
+        dp[0][0] = 1;
+        for (int i = 1; i <= n; i++) {
+            int w = nums[i - 1];
+            for (int j = 0; j <= W; j++) {
+                if (j >= w) {
+                    dp[i][j] = dp[i - 1][j] + dp[i - 1][j - w];
+                } else {
+                    dp[i][j] = dp[i - 1][j];
+                }
+            }
+        }
+        return dp[n][W];
     }
 }
