@@ -41,8 +41,8 @@ public class ReverseNodesKGroup25 {
         List<Integer> list = new ArrayList<>(new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5)));
         ListNode node = ListNode.createListNode(list);
         ListNode result = reverseKGroup(node, 2);
+        System.out.println(result);
         Assert.assertEquals(result.val, 2);
-
     }
 
     /**
@@ -53,26 +53,30 @@ public class ReverseNodesKGroup25 {
      * @return 链表
      */
     public ListNode reverseKGroup(ListNode head, int k) {
+        if (head == null || head.next == null) {
+            return head;
+        }
         ListNode dummy = new ListNode(-1);
         ListNode prev = dummy;
-        ListNode cur = head, p = head;
-        ListNode nextP;
+        ListNode p = head, p1 = head;
         dummy.next = head;
         // 记录链表的长度
-        int length = 0;
-        while (p != null) {
-            length++;
-            p = p.next;
+        int len = 0;
+        while (p1 != null) {
+            len++;
+            p1 = p1.next;
         }
-        for (int i = 0; i < length / k; i++) {
+        for (int i = 0; i < len / k; i++) {
+            // 反转链表一部分
             for (int j = 0; j < k - 1; j++) {
-                nextP = cur.next;
-                cur.next = nextP.next;
-                nextP.next = prev.next;
-                prev.next = nextP;
+                ListNode temp = p.next;
+                p.next = temp.next;
+                temp.next = prev.next;
+                prev.next = temp;
             }
-            prev = cur;
-            cur = cur.next;
+            // 改变指针方向
+            prev = p;
+            p = p.next;
         }
         return dummy.next;
     }

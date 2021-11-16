@@ -76,6 +76,9 @@ public class MiddleLinkedList876 {
      * @return 返回中间结点
      */
     public ListNode middleNode2(ListNode head) {
+        if (head == null || head.next == null) {
+            return null;
+        }
         ListNode slow = head, fast = head;
         while (fast != null && fast.next != null) {
             slow = slow.next;

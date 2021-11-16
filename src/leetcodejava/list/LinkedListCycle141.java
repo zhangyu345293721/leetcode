@@ -37,6 +37,7 @@ public class LinkedListCycle141 {
         Integer[] arr = {3, 2, 0, -4};
         ListNode node = ListNode.createListNode(arr);
         boolean result = hasCycle(node);
+        System.out.println(result);
         Assert.assertEquals(result, false);
     }
 
@@ -47,14 +48,18 @@ public class LinkedListCycle141 {
      * @return 布尔值
      */
     public boolean hasCycle(ListNode head) {
+        if (head == null || head.next == null) {
+            return false;
+        }
         Set<ListNode> nodesSeen = new HashSet<>();
-        while (head != null) {
-            if (nodesSeen.contains(head)) {
+        ListNode p = head;
+        while (p != null) {
+            if (nodesSeen.contains(p)) {
                 return true;
             } else {
-                nodesSeen.add(head);
+                nodesSeen.add(p);
             }
-            head = head.next;
+            p = p.next;
         }
         return false;
     }

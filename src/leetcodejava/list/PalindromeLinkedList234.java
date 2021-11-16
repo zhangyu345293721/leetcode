@@ -154,7 +154,7 @@ public class PalindromeLinkedList234 {
             p2 = p2.next;
         }
         // 还原链表并返回结果
-        firstHalfEnd.next = reverseList(secondHalfStart);
+        // firstHalfEnd.next = reverseList(secondHalfStart);
         return result;
     }
 

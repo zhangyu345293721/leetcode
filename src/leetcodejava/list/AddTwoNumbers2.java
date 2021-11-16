@@ -60,8 +60,14 @@ public class AddTwoNumbers2 {
      * @return 链表结果
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        ListNode p = new ListNode(-1);
-        ListNode dummy = p;
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+        ListNode dummy = new ListNode(-1);
+        ListNode p = dummy;
         int carry = 0;
         while (l1 != null || l2 != null) {
             int num1 = l1 == null ? 0 : l1.val;
