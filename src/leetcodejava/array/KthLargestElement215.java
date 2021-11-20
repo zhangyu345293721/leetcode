@@ -128,10 +128,10 @@ public class KthLargestElement215 {
         int rightMost = r;
         swap(nums, index, r);
         while (l <= r) {
-            while (l <= r && nums[l] < pivot) {
+            while (l <= r && nums[l] > pivot) {
                 l++;
             }
-            while (l <= r && nums[r] >= pivot) {
+            while (l <= r && nums[r] <= pivot) {
                 r--;
             }
             if (l <= r) {
