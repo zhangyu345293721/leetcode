@@ -54,6 +54,12 @@ public class IntersectionTwoArrays349 {
      * @return 交集数组
      */
     public int[] intersection(int[] nums1, int[] nums2) {
+        if (nums1 == null || nums1.length < 1) {
+            return null;
+        }
+        if (nums2 == null || nums2.length < 1) {
+            return null;
+        }
         Set<Integer> set = new HashSet<>();
         Arrays.sort(nums1);
         Arrays.sort(nums2);
@@ -70,7 +76,12 @@ public class IntersectionTwoArrays349 {
                 j++;
             }
         }
-        return set.stream().mapToInt(Number::intValue).toArray();
+        int[] result = new int[set.size()];
+        int index = 0;
+        for (int num : set) {
+            result[index++] = num;
+        }
+        return result;
     }
 
     /**

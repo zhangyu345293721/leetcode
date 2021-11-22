@@ -53,8 +53,8 @@ public class ValidParentheses20 {
 
     @Test
     public void validParenthesesTest() {
-        String str = "{[]}";
-        boolean result = isValid(str);
+        String s = "{[]}";
+        boolean result = isValid(s);
         System.out.println(result);
         Assert.assertEquals(result, false);
     }

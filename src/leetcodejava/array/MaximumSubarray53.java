@@ -24,6 +24,7 @@ import org.junit.Test;
  * @author zhangyu (zhangyuyu417@gmail.com)
  */
 public class MaximumSubarray53 {
+
     @Test
     public void maximumSubarrayTest() {
         int[] nums = {1};

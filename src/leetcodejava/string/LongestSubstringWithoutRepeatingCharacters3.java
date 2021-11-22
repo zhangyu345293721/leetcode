@@ -43,7 +43,7 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
     @Test
     public void pairsOfParenthesesTest() {
         String s = "abba";
-        int result = lengthOfLongestSubstring(s);
+        int result = lengthOfLongestSubstring2(s);
         System.out.println(result);
         Assert.assertEquals(result, 2);
     }
@@ -69,5 +69,56 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
             length = Math.max(length, i - left + 1);
         }
         return length;
+    }
+
+    /**
+     * 最长子字符串
+     *
+     * @param s 字符串
+     * @return 长度S
+     */
+    public int lengthOfLongestSubstring2(String s) {
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+        int[] map = new int[128];
+        int res = 0;
+        int i = 0;
+        for (int j = 0; j < s.length(); j++) {
+            char ch = s.charAt(j);
+            i = Math.max(map[ch], i);
+            res = Math.max(res, j - i + 1);
+            map[ch] = j + 1;
+        }
+        return res;
+    }
+
+    /**
+     * 最长子字符串
+     *
+     * @param s 字符串
+     * @return 长度S
+     */
+    public int lengthOfLongestSubstring3(String s) {
+        if (s == null || s.length() < 1) {
+            return 0;
+        }
+        int res = 0;
+        int slow = 0;
+        int[] lastAppear = new int[128];
+        // 初始化map
+        for (int i = 0; i < lastAppear.length; i++) {
+            lastAppear[i] = -1;
+        }
+        for (int fast = 0; fast < s.length(); fast++) {
+            char cur = s.charAt(fast);
+            // 该字符出现，更新slow位置
+            if (lastAppear[cur] > -1) {
+                slow = Math.max(slow, lastAppear[cur] + 1);
+            }
+            lastAppear[cur] = fast;
+            res = Math.max(res, fast - slow + 1);
+        }
+        return res;
     }
 }

@@ -39,7 +39,7 @@ public class FindDifference389 {
 
     @Test
     public void findDifferenceTest() {
-        char result = findTheDifference2("abcd", "abcde");
+        char result = findTheDifference3("abcd", "abcde");
         System.out.println(result);
         Assert.assertEquals(result, 'e');
     }
@@ -70,7 +70,7 @@ public class FindDifference389 {
      * @return 字符
      */
     public char findTheDifference2(String s, String t) {
-        int total = 0;
+        long total = 0;
         for (char c : t.toCharArray()) {
             total += c;
         }
@@ -93,10 +93,10 @@ public class FindDifference389 {
             chs[ch - 'a']++;
         }
         for (char ch : s.toCharArray()) {
-            chs[ch - 'a']++;
+            chs[ch - 'a']--;
         }
         for (int i = 0; i < 26; i++) {
-            if (s.charAt(i) > 0) {
+            if (chs[i] > 0) {
                 return (char) (i + 'a');
             }
         }

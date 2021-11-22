@@ -70,25 +70,25 @@ public class SearchRotatedSortedArray33 {
      * @return 下标
      */
     public int search2(int[] nums, int target) {
-        int lo = 0, hi = nums.length - 1, mid = 0;
-        while (lo <= hi) {
-            mid = lo + (hi - lo) / 2;
+        int low = 0, high = nums.length - 1, mid = 0;
+        while (low <= high) {
+            mid = low + (high - low) / 2;
             if (nums[mid] == target) {
                 return mid;
             }
             // 根据 nums[mid] 与 nums[lo] 的关系判断 mid 是在左段还是右段
-            if (nums[mid] >= nums[lo]) {
+            if (nums[mid] >= nums[low]) {
                 // 再判断 target 是在 mid 的左边还是右边，从而调整左右边界 lo 和 hi
-                if (target >= nums[lo] && target < nums[mid]) {
-                    hi = mid - 1;
+                if (target >= nums[low] && target < nums[mid]) {
+                    high = mid - 1;
                 } else {
-                    lo = mid + 1;
+                    low = mid + 1;
                 }
             } else {
-                if (target > nums[mid] && target <= nums[hi]) {
-                    lo = mid + 1;
+                if (target > nums[mid] && target <= nums[high]) {
+                    low = mid + 1;
                 } else {
-                    hi = mid - 1;
+                    high = mid - 1;
                 }
             }
         }

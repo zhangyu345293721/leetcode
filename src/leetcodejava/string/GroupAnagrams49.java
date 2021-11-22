@@ -79,6 +79,30 @@ public class GroupAnagrams49 {
      * @param strs 字符串数组
      * @return 链表
      */
+    private List<List<String>> groupAnagrams3(String[] strs) {
+        if (strs == null || strs.length < 1) {
+            return new ArrayList<>();
+        }
+        Map<String, List<String>> map = new HashMap<>();
+        for (String str : strs) {
+            char[] array = str.toCharArray();
+            Arrays.sort(array);
+            String key = new String(array);
+            if (map.containsKey(key)) {
+                map.get(key).add(str);
+            } else {
+                map.put(key, new ArrayList<>(Arrays.asList(str)));
+            }
+        }
+        return new ArrayList<>(map.values());
+    }
+
+    /**
+     * 生成镶嵌链表
+     *
+     * @param strs 字符串数组
+     * @return 链表
+     */
     private List<List<String>> groupAnagrams1(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
         for (String str : strs) {

@@ -56,4 +56,31 @@ public class PeakIndexMountainArray852 {
         }
         return -1;
     }
+
+    /**
+     * 找出最高点的下标
+     *
+     * @param arr 数组
+     * @return 下标
+     */
+    public int peakIndexInMountainArray3(int[] arr) {
+        int n = arr.length;
+        int low = 0;
+        int high = n - 1;
+        while (low <= high) {
+            int mid = (high - low) / 2 + low;
+            if (mid == 0) {
+                low = mid + 1;
+            } else if (mid == n - 1) {
+                high = mid - 1;
+            } else if (arr[mid] > arr[mid - 1] && arr[mid] > arr[mid + 1]) {
+                return mid;
+            } else if (arr[mid] > arr[mid - 1]) {
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        return -1;
+    }
 }

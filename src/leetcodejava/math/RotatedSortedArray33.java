@@ -53,6 +53,9 @@ public class RotatedSortedArray33 {
      * @return 关键字
      */
     private int rotatedSortedArray(int[] nums, int key) {
+        if (nums == null || nums.length < 1) {
+            return -1;
+        }
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == key) {
                 return key;
@@ -71,7 +74,7 @@ public class RotatedSortedArray33 {
     private int rotatedSortedArray2(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left <= right) {
-            int mid = (left + right) / 2;
+            int mid = (right - left) / 2 + left;
             if (nums[mid] == target) {
                 return mid;
             }
@@ -83,6 +86,37 @@ public class RotatedSortedArray33 {
                 }
             } else {
                 if (nums[mid] < target && target <= nums[right]) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * 旋转有序数组
+     *
+     * @param nums   数组
+     * @param target 关键字
+     * @return 关键字
+     */
+    private int rotatedSortedArray3(int[] nums, int target) {
+        int left = 0;
+        int right = nums.length - 1;
+        while (left <= right) {
+            int mid = (right - left) / 2 + left;
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[left] <= nums[mid]) {  //left side sorted
+                if (target >= nums[left] && target < nums[mid]) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+            } else {
+                if (target > nums[mid] && target <= nums[right]) {
                     left = mid + 1;
                 } else {
                     right = mid - 1;

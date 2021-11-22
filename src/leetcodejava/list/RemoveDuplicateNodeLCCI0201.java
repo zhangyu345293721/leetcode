@@ -58,12 +58,14 @@ public class RemoveDuplicateNodeLCCI0201 {
         set.add(head.val);
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
-        while (head.next != null) {
-            if (!set.contains(head.next.val)) {
-                set.add(head.next.val);
-                head = head.next;
+        // 前置节点
+        ListNode pre = head;
+        while (pre.next != null) {
+            if (!set.contains(pre.next.val)) {
+                set.add(pre.next.val);
+                pre = pre.next;
             } else {
-                head.next = head.next.next;
+                pre.next = pre.next.next;
             }
         }
         return dummy.next;

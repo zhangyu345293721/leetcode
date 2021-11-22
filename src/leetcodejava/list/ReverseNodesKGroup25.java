@@ -80,4 +80,42 @@ public class ReverseNodesKGroup25 {
         }
         return dummy.next;
     }
+
+    /**
+     * 反转k个数
+     *
+     * @param head 头结点
+     * @param k    数量
+     * @return 链表
+     */
+    public ListNode reverseKGroup2(ListNode head, int k) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode dummy = new ListNode(-1);
+        ListNode prev = dummy;
+        ListNode p = head, p1 = head;
+        // 记录链表的长度
+        int len = 0;
+        while (p1 != null) {
+            len++;
+            p1 = p1.next;
+        }
+        for (int i = 0; i < len / k; i++) {
+            // 反转链表一部分
+            for (int j = 0; j < k; j++) {
+                ListNode temp = p.next;
+                p.next = prev.next;
+                prev.next = p;
+                p = temp;
+            }
+            while (prev.next != null) {
+                prev = prev.next;
+            }
+        }
+        if (p != null) {
+            prev.next = p;
+        }
+        return dummy.next;
+    }
 }

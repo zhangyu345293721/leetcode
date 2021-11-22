@@ -49,15 +49,19 @@ public class ThreeSum15 {
      * @return 返回list
      */
     private List<List<Integer>> threeSum(int[] nums) {
-        Set<List<Integer>> set = new HashSet<>();
+        if (nums == null || nums.length < 3) {
+            return new ArrayList<>();
+        }
+        Set<List<Integer>> result = new HashSet<>();
         Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++) {
+        int n = nums.length;
+        for (int i = 0; i < n; i++) {
             int j = i + 1;
-            int k = nums.length - 1;
+            int k = n - 1;
             while (j < k) {
                 int sum = nums[i] + nums[j] + nums[k];
                 if (sum == 0) {
-                    set.add(Arrays.asList(nums[i], nums[j], nums[k]));
+                    result.add(Arrays.asList(nums[i], nums[j], nums[k]));
                     j++;
                 } else if (sum > 0) {
                     k--;
@@ -66,6 +70,6 @@ public class ThreeSum15 {
                 }
             }
         }
-        return new ArrayList<>(set);
+        return new ArrayList<>(result);
     }
 }
