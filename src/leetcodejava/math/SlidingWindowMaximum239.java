@@ -103,12 +103,15 @@ public class SlidingWindowMaximum239 {
         int[] res = new int[len - k + 1];
         int index = 0;
         for (int i = 0; i < len; i++) {
+            // 维护着单调递减队列
             while (!deque.isEmpty() && nums[i] > nums[deque.getLast()]) {
                 deque.removeLast();
             }
-            if (!deque.isEmpty() && i - k >= deque.peek()) {
-                deque.pop();
+            // 元素已经超过窗口范围
+            if (!deque.isEmpty() && i - k >= deque.getFirst()) {
+                deque.removeFirst();
             }
+            // 增加下标元素
             deque.add(i);
             if (i >= k - 1) {
                 res[index++] = nums[deque.getFirst()];

@@ -1055,3 +1055,11 @@ f
 6src/leetcodejava/list/RemoveLinkedListElements203.java,d\3\d328f5d40d8c24633cc3f0cdd66afe379c8791c2
 _
 /src/leetcodejava/list/ReverseKthListNode22.java,5\4\545f4b39f613b8586fa1be7ceab22eb25dec87f1
+l
+<src/leetcodejava/array/FindMinimumRotatedSortedArray153.java,a\6\a6604ac0636161075213dd0d9f5ce36799175412
+^
+.src/leetcodejava/array/FindPeakElement162.java,9\9\99a04a3e885009eebd3fd17e726b6e1b62fdb3b5
+a
+1src/leetcodejava/array/ValidPerfectSquare367.java,1\5\1522d4467ab326433a832c7198804258fa304a04
+e
+5src/leetcodejava/string/CheckPermutationLCCI0102.java,3\2\3263d3a99b32f72acd03b86342f72fa8186bfc22
