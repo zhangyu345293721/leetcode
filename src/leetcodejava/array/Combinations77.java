@@ -88,4 +88,42 @@ public class Combinations77 {
             temp.remove(temp.size() - 1);
         }
     }
+
+    private List<List<Integer>> result = new ArrayList<>();
+
+    /**
+     * 进行排列组合
+     *
+     * @param n n个数字
+     * @param k 选k个数字
+     * @return list
+     */
+    public List<List<Integer>> combine2(int n, int k) {
+        backtrack(n, k, 1, new ArrayList<>());
+        return result;
+    }
+
+    /**
+     * 回溯
+     *
+     * @param n    n个数
+     * @param k    选k个
+     * @param step 阶段
+     * @param path 路径
+     */
+    private void backtrack(int n, int k, int step, List<Integer> path) {
+        if (path.size() == k) {
+            result.add(new ArrayList(path));
+            return;
+        }
+        if (step == n + 1) {
+            return;
+        }
+        // 不选择该数
+        backtrack(n, k, step + 1, path);
+        // 选择该数
+        path.add(step);
+        backtrack(n, k, step + 1, path);
+        path.remove(path.size() - 1);
+    }
 }

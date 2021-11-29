@@ -3,9 +3,7 @@ package leetcodejava.math;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * This is the solution of No.90 problem in the LeetCode,
@@ -60,10 +58,10 @@ public class Subset90 {
         if (nums == null || nums.length < 1) {
             return new ArrayList<>();
         }
-        List<List<Integer>> result = new ArrayList<>();
+        Set<List<Integer>> result = new HashSet<>();
         Arrays.sort(nums);      // 排序后便于去重
         searchHelper(nums, result, nums.length, 0, new ArrayList<>());
-        return result;
+        return new ArrayList<>(result);
     }
 
     /**
@@ -75,17 +73,16 @@ public class Subset90 {
      * @param index  数组下标
      * @param temp   临时链表
      */
-    private void searchHelper(int[] nums, List<List<Integer>> result, int len, int index, List<Integer> temp) {
+    private void searchHelper(int[] nums, Set<List<Integer>> result, int len, int index, List<Integer> temp) {
         if (index == len) {
             result.add(new ArrayList<>(temp));
             return;
         }
+        // 不选该数
+        searchHelper(nums, result, len, index + 1, temp);
         temp.add(nums[index]);
+        // 选择该数
         searchHelper(nums, result, len, index + 1, temp);
         temp.remove(temp.size() - 1);
-        while (index < len - 1 && nums[index] == nums[index + 1]) {
-            index++;
-        }
-        searchHelper(nums, result, len, index + 1, temp);
     }
 }

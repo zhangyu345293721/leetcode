@@ -85,4 +85,44 @@ public class Permutations46 {
             temp.remove(temp.size() - 1);
         }
     }
+
+    private List<List<Integer>> result = new ArrayList<>();
+
+    /**
+     * 全排列
+     *
+     * @param nums 数组
+     * @return result
+     */
+    public List<List<Integer>> permute2(int[] nums) {
+        List<Integer> path = new ArrayList<>();
+        backtrack(nums, 0, path);
+        return result;
+    }
+
+    /**
+     * 回溯
+     *
+     * @param nums nums中除掉存在于path中的数据
+     * @param k    决策阶段
+     * @param path 记录在path中
+     */
+    private void backtrack(int[] nums, int k, List<Integer> path) {
+        // 结束条件
+        if (k == nums.length) {
+            result.add(new ArrayList<>(path));
+            return;
+        }
+        for (int i = 0; i < nums.length; ++i) {
+            if (path.contains(nums[i])) {
+                continue;
+            }
+            // 做选择
+            path.add(nums[i]);
+            // 递归
+            backtrack(nums, k + 1, path);
+            // 撤销选择
+            path.remove(path.size() - 1);
+        }
+    }
 }

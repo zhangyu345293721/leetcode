@@ -1,10 +1,5 @@
 package leetcodejava.tree;
 
-/**
- * @author: zhangyu
- * @date: 2020/9/25
- */
-
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -104,6 +99,56 @@ public class ConstructBinaryTree106 {
         root.right = helper(index + 1, in_right);
         // 构造左子树
         root.left = helper(in_left, index - 1);
+        return root;
+    }
+
+    /**
+     * 构建二叉树
+     *
+     * @param inorder   中序数组
+     * @param postorder 后续数组
+     * @return 构建树
+     */
+    public TreeNode buildTree2(int[] inorder, int[] postorder) {
+        if (inorder == null) {
+            return null;
+        }
+        if (postorder == null) {
+            return null;
+        }
+        return myBuildTree(postorder, 0, postorder.length - 1, inorder, 0, inorder.length - 1);
+    }
+
+    /**
+     * postorder下标i,j；inorder下标p,q
+     *
+     * @param postorder 后续遍历
+     * @param i         位置i
+     * @param j         位置j
+     * @param inorder   前序遍历
+     * @param p         位置p
+     * @param r         位置r
+     * @return 构造的二叉树
+     */
+    private TreeNode myBuildTree(int[] postorder, int i, int j, int[] inorder, int p, int r) {
+        if (i > j) {
+            return null;
+        }
+        TreeNode root = new TreeNode(postorder[j]);
+        // 在中序遍历结果inorder中，查询postorder[j]所在的位置q
+        // [p, q-1] q [q+1, r]
+        int q = p;
+        while (inorder[q] != postorder[j]) {
+            q++;
+        }
+        //左右⼦树⼤⼩
+        int leftTreeSize = q - p;
+        // 构建左⼦树
+        TreeNode leftNode = myBuildTree(postorder, i, i + leftTreeSize - 1, inorder, p, q - 1);
+        // 构建右⼦树
+        TreeNode rightNode = myBuildTree(postorder, i + leftTreeSize, j - 1, inorder, q + 1, r);
+        root.left = leftNode;
+        root.right = rightNode;
         return root;
     }
 }

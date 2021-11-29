@@ -50,7 +50,7 @@ public class BinaryTreeMaximumPathSum124 {
         TreeNode treeNode = TreeNode.createBinaryTreeByArray(arr);
         int totalSum = maxPathSum(treeNode);
         System.out.println(totalSum);
-        Assert.assertEquals(totalSum,17);
+        Assert.assertEquals(totalSum, 17);
     }
 
     private int result = Integer.MIN_VALUE;
@@ -84,5 +84,48 @@ public class BinaryTreeMaximumPathSum124 {
         // 如果子树路径和为负则应当置0表示最大路径不包含子树
         result = Math.max(result, root.val + left + right);
         return Math.max(left, right) + root.val;
+    }
+
+    private int res = -1001;
+
+    /**
+     * 最大路径
+     *
+     * @param root 根节点
+     * @return 最大值
+     */
+    public int maxPathSum2(TreeNode root) {
+        dfs(root);
+        return res;
+    }
+
+    /**
+     * @param root
+     * @return
+     */
+    public int dfs(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int leftMaxPath = dfs(root.left);
+        int rightMaxPath = dfs(root.right);
+        int max = root.val;
+        if (leftMaxPath > 0) {
+            max += leftMaxPath;
+        }
+        if (rightMaxPath > 0) {
+            max += rightMaxPath;
+        }
+        if (max > res) {
+            res = max;
+        }
+        int ret = root.val;
+        if (ret < leftMaxPath + root.val) {
+            ret = leftMaxPath + root.val;
+        }
+        if (ret < rightMaxPath + root.val) {
+            ret = rightMaxPath + root.val;
+        }
+        return ret;
     }
 }

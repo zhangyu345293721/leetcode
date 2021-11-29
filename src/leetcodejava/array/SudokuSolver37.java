@@ -83,7 +83,6 @@ public class SudokuSolver37 {
             }
         }
         dfs(board, row, col, block, 0, 0);
-        System.out.println();
     }
 
     /**

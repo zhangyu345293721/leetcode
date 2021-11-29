@@ -17,7 +17,7 @@ import org.junit.Test;
  * <p>
  * 例如，给出
  * <p>
- * 前序遍历 preorder = [3,9,20,15,7]
+ * 前序遍历 preorder = [3,9,20,15,7]
  * 中序遍历 inorder = [9,3,15,20,7]
  * 返回如下的二叉树：
  * <p>
@@ -37,9 +37,9 @@ import org.junit.Test;
 public class ConstructBinaryTreeTraversal105 {
     @Test
     public void constructBinaryTreeTraversalTest() {
-        int[] preorder = {3, 9, 20, 15, 7};
-        int[] inorder = {9, 3, 15, 20, 7};
-        TreeNode node = buildTree(preorder, inorder);
+        int[] preOrder = {3, 9, 20, 15, 7};
+        int[] inOrder = {9, 3, 15, 20, 7};
+        TreeNode node = buildTree(preOrder, inOrder);
         System.out.println(node.val);
         Assert.assertEquals(node.val, 3);
     }
@@ -47,12 +47,12 @@ public class ConstructBinaryTreeTraversal105 {
     /**
      * 构建二叉树
      *
-     * @param preorder 前序数组
-     * @param inorder  中序数组
+     * @param preOrder 前序数组
+     * @param inOrder  中序数组
      * @return 根节点
      */
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return helper(0, 0, inorder.length - 1, preorder, inorder);
+    public TreeNode buildTree(int[] preOrder, int[] inOrder) {
+        return helper(0, 0, inOrder.length - 1, preOrder, inOrder);
     }
 
     /**
@@ -78,6 +78,49 @@ public class ConstructBinaryTreeTraversal105 {
         }
         root.left = helper(preStart + 1, inStart, inIndex - 1, preorder, inorder);
         root.right = helper(preStart + inIndex - inStart + 1, inIndex + 1, inEnd, preorder, inorder);
+        return root;
+    }
+
+    /**
+     * 构建二叉树
+     *
+     * @param preOrder 前序数组
+     * @param inOrder  中序数组
+     * @return 根节点
+     */
+    public TreeNode buildTree2(int[] preOrder, int[] inOrder) {
+        return myBuildTree(preOrder, 0, preOrder.length - 1, inOrder, 0, inOrder.length - 1);
+    }
+
+    /**
+     * preorder下标i,j；inorder下标p,q
+     *
+     * @param preOrder 前序遍历
+     * @param i        位置i
+     * @param j        位置j
+     * @param inOrder  中序遍历结果
+     * @param p        位置p
+     * @param r        位置r
+     * @return 二叉树
+     */
+    private TreeNode myBuildTree(int[] preOrder, int i, int j, int[] inOrder, int p, int r) {
+        if (i > j) {
+            return null;
+        }
+        TreeNode root = new TreeNode(preOrder[i]);
+        // 在中序遍历结果inOrder中，查询preOrder[i]所在的位置[p, q-1] q [q+1, r]
+        int q = p;
+        while (inOrder[q] != preOrder[i]) {
+            q++;
+        }
+        int leftTreeSize = q - p; //左右⼦树⼤⼩
+        // 构建左⼦树
+        TreeNode leftNode = myBuildTree(preOrder, i + 1, i + leftTreeSize, inOrder, p, q - 1);
+        // 构建右⼦树
+        TreeNode rightNode = myBuildTree(preOrder, i + leftTreeSize + 1, j, inOrder, q + 1, r);
+        // 根据root、左⼦树、右⼦树构建树
+        root.left = leftNode;
+        root.right = rightNode;
         return root;
     }
 }

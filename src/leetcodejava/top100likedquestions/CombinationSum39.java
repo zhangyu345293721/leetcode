@@ -70,21 +70,6 @@ public class CombinationSum39 {
     }
 
     /**
-     * 获取所有的组合
-     *
-     * @param candidates 数组
-     * @param target     目标值
-     * @return 所有组合
-     */
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
-        List<List<Integer>> result = new ArrayList();
-        List<Integer> current = new ArrayList<>();
-        Arrays.sort(candidates);
-        helper(candidates, target, result, current, 0);
-        return result;
-    }
-
-    /**
      * 递归帮助类
      *
      * @param candidates 数组
@@ -106,6 +91,21 @@ public class CombinationSum39 {
             }
             current.remove(current.size() - 1);
         }
+    }
+
+    /**
+     * 获取所有的组合
+     *
+     * @param candidates 数组
+     * @param target     目标值
+     * @return 所有组合
+     */
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        List<List<Integer>> result = new ArrayList();
+        List<Integer> current = new ArrayList<>();
+        Arrays.sort(candidates);
+        helper2(candidates, target, result, current, 0);
+        return result;
     }
 
     /**

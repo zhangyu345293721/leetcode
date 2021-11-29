@@ -145,4 +145,37 @@ public class Subsets78 {
             temp.remove(temp.size() - 1);
         }
     }
+
+    private List<List<Integer>> result = new ArrayList<>();
+
+    /**
+     * 数组生成所有的子集
+     *
+     * @param nums 数组
+     * @return 链表
+     */
+    public List<List<Integer>> subsets4(int[] nums) {
+        backtrack(nums, 0, new ArrayList<>());
+        return result;
+    }
+
+    /**
+     * 回溯
+     *
+     * @param nums 选或不选-可选列表
+     * @param k    k阶段
+     * @param path 路径
+     */
+    private void backtrack(int[] nums, int k, List<Integer> path) {
+        if (k == nums.length) {
+            result.add(new ArrayList(path));
+            return;
+        }
+        // 不选择该数
+        backtrack(nums, k + 1, path);
+        path.add(nums[k]);
+        // 选择则该数
+        backtrack(nums, k + 1, path);
+        path.remove(path.size() - 1);
+    }
 }

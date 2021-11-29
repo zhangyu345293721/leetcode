@@ -33,7 +33,7 @@ public class LetterCombinationsPhoneNumber17 {
         String digits = "23";
         List<String> result = letterCombinations(digits);
         System.out.println(result);
-        Assert.assertEquals(result.get(0),"ad");
+        Assert.assertEquals(result.get(0), "ad");
     }
 
     /**
@@ -81,6 +81,52 @@ public class LetterCombinationsPhoneNumber17 {
             sb.append(ch);
             backtrack(digits, index + 1);
             sb.deleteCharAt(sb.length() - 1);
+        }
+    }
+
+    private List<String> result = new ArrayList<>();
+
+    /**
+     * 获取链表长度的list，然后再进行买个遍历
+     *
+     * @param digits 字符串数组
+     * @return list
+     */
+    public List<String> letterCombinations2(String digits) {
+        if (digits.length() == 0) {
+            return new ArrayList<>();
+        }
+        String[] mappings = new String[10];
+        mappings[2] = "abc";
+        mappings[3] = "def";
+        mappings[4] = "ghi";
+        mappings[5] = "jkl";
+        mappings[6] = "mno";
+        mappings[7] = "pqrs";
+        mappings[8] = "tuv";
+        mappings[9] = "wxyz";
+        char[] path = new char[digits.length()];
+        backtrack(mappings, digits, 0, path);
+        return result;
+    }
+
+    /**
+     * 回溯搜索
+     *
+     * @param mappings 字典
+     * @param digits   字符串
+     * @param k        k表示阶段
+     * @param path     path路径
+     */
+    private void backtrack(String[] mappings, String digits, int k, char[] path) {
+        if (k == digits.length()) {
+            result.add(new String(path));
+            return;
+        }
+        String mapping = mappings[digits.charAt(k) - '0'];
+        for (int i = 0; i < mapping.length(); ++i) {
+            path[k] = mapping.charAt(i);
+            backtrack(mappings, digits, k + 1, path);
         }
     }
 }
