@@ -1,6 +1,5 @@
 package leetcodejava.tree;
 
-import javafx.util.Pair;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -41,7 +40,7 @@ public class MaximumDepthBinaryTree104 {
     public void maximumDepthBinaryTreeTest() {
         Integer[] arr = {3, 9, 20, null, null, 15, 7};
         TreeNode root = TreeNode.createBinaryTreeByArray(arr);
-        int result = maxDepth(root);
+        int result = maxDepth2(root);
         System.out.println(result);
         Assert.assertEquals(result, 3);
     }
@@ -68,21 +67,36 @@ public class MaximumDepthBinaryTree104 {
      */
     public int maxDepth2(TreeNode root) {
         // 利用链表的方式，存储键值对
-        LinkedList<Pair<TreeNode, Integer>> stack = new LinkedList<>();
+        LinkedList<NodePair> stack = new LinkedList<>();
         if (root != null) {
-            stack.add(new Pair(root, 1));
+            stack.add(new NodePair(root, 1));
         }
-        int depth = 0;
+        int maxDepth = 0;
         while (!stack.isEmpty()) {
-            Pair<TreeNode, Integer> current = stack.pollLast();
-            root = current.getKey();
-            int currentDepth = current.getValue();
-            if (root != null) {
-                depth = Math.max(depth, currentDepth);
-                stack.add(new Pair(root.left, currentDepth + 1));
-                stack.add(new Pair(root.right, currentDepth + 1));
+            NodePair current = stack.pop();
+            root = current.node;
+            int currentDepth = current.currentDepth;
+            if (root.left != null) {
+                stack.add(new NodePair(root.left, currentDepth + 1));
             }
+            if (root.right != null) {
+                stack.add(new NodePair(root.right, currentDepth + 1));
+            }
+            maxDepth = Math.max(maxDepth, currentDepth);
         }
-        return depth;
+        return maxDepth;
+    }
+
+    /**
+     * 辅助pair对
+     */
+    class NodePair {
+        TreeNode node;
+        int currentDepth;
+
+        public NodePair(TreeNode node, int currentDepth) {
+            this.node = node;
+            this.currentDepth = currentDepth;
+        }
     }
 }

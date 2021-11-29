@@ -71,7 +71,7 @@ public class BalancedBinaryTree110 {
         if (root == null) {
             return true;
         } else {
-            return isBalanced(root.right) && isBalanced(root.left) && Math.abs(maxDeep(root.left) - maxDeep(root.right)) <= 1;
+            return isBalanced(root.right) && isBalanced(root.left) && Math.abs(maxDepth(root.left) - maxDepth(root.right)) <= 1;
         }
     }
 
@@ -81,11 +81,11 @@ public class BalancedBinaryTree110 {
      * @param root 根节点
      * @return 最大深度
      */
-    private int maxDeep(TreeNode root) {
+    private int maxDepth(TreeNode root) {
         if (root == null) {
             return 0;
         } else {
-            return Math.max(maxDeep(root.left), maxDeep(root.right)) + 1;
+            return Math.max(maxDepth(root.left), maxDepth(root.right)) + 1;
         }
     }
 

@@ -89,6 +89,9 @@ public class SymmetricTree101 {
      * @return 布尔值
      */
     public boolean isSymmetric2(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
         Queue<TreeNode> q = new LinkedList<>();
         q.add(root);
         q.add(root);

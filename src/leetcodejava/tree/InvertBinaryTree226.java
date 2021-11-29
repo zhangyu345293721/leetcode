@@ -64,15 +64,15 @@ public class InvertBinaryTree226 {
         if (root == null) {
             return null;
         }
-        LinkedList<TreeNode> list = new LinkedList<>();
-        list.add(root);
-        while (!list.isEmpty()) {
-            TreeNode cur = list.poll();
+        LinkedList<TreeNode> stack = new LinkedList<>();
+        stack.add(root);
+        while (!stack.isEmpty()) {
+            TreeNode cur = stack.poll();
             if (cur.left != null) {
-                list.add(cur.left);
+                stack.add(cur.left);
             }
             if (cur.right != null) {
-                list.add(cur.right);
+                stack.add(cur.right);
             }
             TreeNode temp = cur.right;
             cur.right = cur.left;

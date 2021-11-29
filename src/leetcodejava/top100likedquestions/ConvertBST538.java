@@ -39,7 +39,9 @@ public class ConvertBST538 {
         TreeNode result = convertBST(tree);
         Assert.assertEquals(result.val, 18);
     }
+
     private int sum = 0;
+
     /**
      * 转换搜索二叉树
      *
@@ -54,5 +56,31 @@ public class ConvertBST538 {
             convertBST(root.left);
         }
         return root;
+    }
+
+    /**
+     * 转换搜索二叉树
+     *
+     * @param root 根节点
+     * @return 输入结果
+     */
+    public TreeNode convertBST2(TreeNode root) {
+        inorder(root);
+        return root;
+    }
+
+    /**
+     * 中序遍历
+     *
+     * @param root 根节点
+     */
+    public void inorder(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+        inorder(root.right);
+        sum += root.val;
+        root.val = sum;
+        inorder(root.left);
     }
 }

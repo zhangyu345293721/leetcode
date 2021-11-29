@@ -29,8 +29,6 @@ $src/leetcodejava/array/BitCount.java,8\f\8feb71156929334c93773ed75b409d53af715
 -src/leetcodejava/array/HeightChecker1051.java,e\a\ea01e5f84a5cde08c1cf851ddc4bdd9fe83477c4
 V
 &src/leetcodejava/array/JumpGame55.java,4\8\4826254ef5404e992c004c9dae555308265ad1de
-g
-7src/leetcodejava/array/MaximumNumberofBalloons1189.java,0\c\0c6bb399ef760a9e0f64f661ff083669a5225c89
 ]
 -src/leetcodejava/array/MaximumSubarray53.java,c\9\c948cd198c4cf8010c584537bc115269b09fde4d
 X
@@ -1063,3 +1061,11 @@ a
 1src/leetcodejava/array/ValidPerfectSquare367.java,1\5\1522d4467ab326433a832c7198804258fa304a04
 e
 5src/leetcodejava/string/CheckPermutationLCCI0102.java,3\2\3263d3a99b32f72acd03b86342f72fa8186bfc22
+e
+5src/leetcodejava/tree/FindBottomLeftTreeValue513.java,8\3\835857f440a388cb57d8812962e56e2d359f4e0b
+f
+6src/leetcodejava/tree/NTreeLevelOrderTraversal429.java,d\f\dfba78f15c9e48346cabdf2f4a4d8696bc940726
+_
+/src/leetcodejava/tree/MaximumDepthNTree559.java,2\1\217e5b95794574682ff769e66c7d69d6ce264a07
+\
+,src/leetcodejava/tree/SuccessorLCCI0406.java,1\c\1c05dbe18df657afb653b51a17980d6f55eb37b8

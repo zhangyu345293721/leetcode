@@ -86,6 +86,9 @@ public class ValidateBinarySearchTree98 {
      * @return 布尔值
      */
     public boolean isValidBST2(TreeNode root) {
+        if (root == null) {
+            return true;
+        }
         Stack<TreeNode> stack = new Stack();
         double inorder = -Double.MAX_VALUE;
         while (!stack.isEmpty() || root != null) {
