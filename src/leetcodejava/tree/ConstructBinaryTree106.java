@@ -1,5 +1,6 @@
 package leetcodejava.tree;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
@@ -45,12 +46,13 @@ public class ConstructBinaryTree106 {
         int[] postorder = {9, 15, 7, 20, 3};
         TreeNode treeNode = buildTree(inorder, postorder);
         System.out.println(treeNode);
+        Assert.assertEquals(treeNode.val,3);
     }
 
-    int post_idx;
+    int postIdx;
     int[] postorder;
     int[] inorder;
-    Map<Integer, Integer> idx_map = new HashMap<>();
+    Map<Integer, Integer> idxMap = new HashMap<>();
 
     /**
      * 构建二叉树
@@ -63,12 +65,12 @@ public class ConstructBinaryTree106 {
         this.postorder = postorder;
         this.inorder = inorder;
         // 从后序遍历的最后一个元素开始
-        post_idx = postorder.length - 1;
+        postIdx = postorder.length - 1;
 
         // 建立（元素，下标）键值对的哈希表
         int idx = 0;
         for (Integer val : inorder) {
-            idx_map.put(val, idx++);
+            idxMap.put(val, idx++);
         }
         return helper(0, inorder.length - 1);
     }
@@ -76,29 +78,29 @@ public class ConstructBinaryTree106 {
     /**
      * 帮助节点
      *
-     * @param in_left  左边
-     * @param in_right 右边
+     * @param inLeft  左边
+     * @param inRight 右边
      * @return 二叉树
      */
-    public TreeNode helper(int in_left, int in_right) {
+    public TreeNode helper(int inLeft, int inRight) {
         // 如果这里没有节点构造二叉树了，就结束
-        if (in_left > in_right) {
+        if (inLeft > inRight) {
             return null;
         }
 
-        // 选择 post_idx 位置的元素作为当前子树根节点
-        int root_val = postorder[post_idx];
-        TreeNode root = new TreeNode(root_val);
+        // 选择 postIdx 位置的元素作为当前子树根节点
+        int rootVal = postorder[postIdx];
+        TreeNode root = new TreeNode(rootVal);
 
         // 根据 root 所在位置分成左右两棵子树
-        int index = idx_map.get(root_val);
+        int index = idxMap.get(rootVal);
 
         // 下标减一
-        post_idx--;
+        postIdx--;
         // 构造右子树
-        root.right = helper(index + 1, in_right);
+        root.right = helper(index + 1, inRight);
         // 构造左子树
-        root.left = helper(in_left, index - 1);
+        root.left = helper(inLeft, index - 1);
         return root;
     }
 

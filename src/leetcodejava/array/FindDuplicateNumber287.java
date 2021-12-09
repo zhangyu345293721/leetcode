@@ -90,7 +90,7 @@ public class FindDuplicateNumber287 {
      * @return num
      */
     public int findDuplicateNumber3(int[] nums) {
-        if (nums.length < 1) {
+        if (nums == null || nums.length < 1) {
             return -1;
         }
         // 找出里面的环
@@ -107,5 +107,34 @@ public class FindDuplicateNumber287 {
             slow = nums[slow];
         }
         return slow2;
+    }
+
+    /**
+     * 快慢指针思想, fast 和 slow 是指针, nums[slow] 表示取指针对应的元素
+     * 注意 nums 数组中的数字都是在 1 到 n 之间的(在数组中进行游走不会越界),
+     * 因为有重复数字的出现, 所以这个游走必然是成环的, 环的入口就是重复的元素,
+     * 即按照寻找链表环入口的思路来做
+     *
+     * @param nums 数组
+     * @return num
+     */
+    public int findDuplicateNumber4(int[] nums) {
+        if (nums == null || nums.length < 2) {
+            return -1;
+        }
+        int fast = 0, slow = 0;
+        while (true) {
+            fast = nums[nums[fast]];
+            slow = nums[slow];
+            // 找到有环，然后再找到环的位置
+            if (slow == fast) {
+                fast = 0;
+                while (slow != fast) {
+                    fast = nums[fast];
+                    slow = nums[slow];
+                }
+                return slow;
+            }
+        }
     }
 }

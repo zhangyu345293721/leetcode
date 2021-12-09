@@ -1069,3 +1069,9 @@ _
 /src/leetcodejava/tree/MaximumDepthNTree559.java,2\1\217e5b95794574682ff769e66c7d69d6ce264a07
 \
 ,src/leetcodejava/tree/SuccessorLCCI0406.java,1\c\1c05dbe18df657afb653b51a17980d6f55eb37b8
+Z
+*src/leetcodejava/tree/TreeNodeOffer34.java,f\b\fb01592cfc5788b445033af491c261f9185d0d54
+{
+Ksrc/leetcodejava/tree/ConstructBinaryTreePreorderPostorderTraversal889.java,a\3\a37038d86910eb6c09bd0c077a4ae9f5f64c2b84
+\
+,src/leetcodejava/tree/TreeSearchOffer33.java,1\b\1babac8af661165edf089f74bcb3e072b22970db
