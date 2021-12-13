@@ -73,6 +73,7 @@ public class HouseRobber213 {
         if (n == 2) {
             return Math.max(nums[0], nums[1]);
         }
+        // 分两种情况，选择第一家和不选择第一家的情况
         // 没选第一个家偷窃
         int result1 = houseRobberHelper(nums, 1, n - 1);
         // 选第一家偷窃

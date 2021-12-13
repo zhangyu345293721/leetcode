@@ -96,6 +96,7 @@ public class HouseRobber337 {
         if (root == null) {
             return 0;
         }
+        // 计算左右子树的子树节点值
         int val = 0;
         if (root.left != null) {
             val += rob2(root.left.left) + rob2(root.left.right);
@@ -103,6 +104,7 @@ public class HouseRobber337 {
         if (root.right != null) {
             val += rob2(root.right.left) + rob2(root.right.right);
         }
+        // 比较左右子树的值和与节点和左右子树的子树和大小
         return Math.max(val + root.val, rob2(root.left) + rob2(root.right));
     }
 }
