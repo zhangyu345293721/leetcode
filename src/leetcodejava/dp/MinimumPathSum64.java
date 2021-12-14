@@ -142,6 +142,7 @@ public class MinimumPathSum64 {
         sum += grid[i][j];
         searchHelper(visited, grid, i + 1, j, sum);// 向下递归
         searchHelper(visited, grid, i, j + 1, sum);// 向右递归
+        // 进行回退
         sum -= grid[i][j];
         visited[i][j] = false;
     }

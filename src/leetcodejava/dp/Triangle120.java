@@ -58,12 +58,16 @@ public class Triangle120 {
         if (triangle == null || triangle.size() == 0) {
             return 0;
         }
-        // 加1可以不用初始化最后一层
-        int[][] dp = new int[triangle.size() + 1][triangle.size() + 1];
-        for (int i = triangle.size() - 1; i >= 0; i--) {
-            List<Integer> curTr = triangle.get(i);
-            for (int j = 0; j < curTr.size(); j++) {
-                dp[i][j] = Math.min(dp[i + 1][j], dp[i + 1][j + 1]) + curTr.get(j);
+        int n = triangle.size();
+        int[][] dp = new int[n][n];
+        // 初始化最底层一行数据
+        for (int i = 0; i < triangle.size(); i++) {
+            dp[n - 1][i] = triangle.get(n - 1).get(i);
+        }
+        // 从倒数第二行开始计算
+        for (int i = triangle.size() - 2; i >= 0; i--) {
+            for (int j = 0; j <= i; j++) {
+                dp[i][j] = Math.min(dp[i + 1][j], dp[i + 1][j + 1]) + triangle.get(i).get(j);
             }
         }
         return dp[0][0];

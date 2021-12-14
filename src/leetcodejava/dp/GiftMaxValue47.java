@@ -62,6 +62,36 @@ public class GiftMaxValue47 {
         return maxValue;
     }
 
+    /**
+     * 深度优先遍历
+     *
+     * @param visited 是否访问
+     * @param grid    二维数组
+     * @param i       位置i
+     * @param j       位置j
+     * @param sum     值sum
+     */
+    public void searchHelper(boolean[][] visited, int[][] grid, int i, int j, int sum) {
+        int row = grid.length;
+        int col = grid[0].length;
+        // 递归结束条件1、到达右下角的位置
+        if (i == row - 1 && j == col - 1) {
+            maxValue = Math.max(maxValue, sum + grid[row - 1][col - 1]);
+            return;
+        }
+        // 递归结束条件2、数组越界或者到达已经遍历过的数组位置
+        if (i < 0 || i > row - 1 || j < 0 || j > col - 1 || visited[i][j] == true) {
+            return;
+        }
+        visited[i][j] = true;
+        sum += grid[i][j];
+        searchHelper(visited, grid, i + 1, j, sum);// 向下递归
+        searchHelper(visited, grid, i, j + 1, sum);// 向右递归
+        // 回溯
+        visited[i][j] = false;
+        sum -= grid[i][j];
+    }
+
 
     /**
      * 获取礼物最大值(动态规划)
@@ -116,35 +146,5 @@ public class GiftMaxValue47 {
             }
         }
         return dp[row - 1][col - 1];
-    }
-
-    /**
-     * 深度优先遍历
-     *
-     * @param visited 是否访问
-     * @param grid    二维数组
-     * @param i       位置i
-     * @param j       位置j
-     * @param sum     值sum
-     */
-    public void searchHelper(boolean[][] visited, int[][] grid, int i, int j, int sum) {
-        int row = grid.length;
-        int col = grid[0].length;
-        // 递归结束条件1、到达右下角的位置
-        if (i == row - 1 && j == col - 1) {
-            maxValue = Math.max(maxValue, sum + grid[row - 1][col - 1]);
-            return;
-        }
-        // 递归结束条件2、数组越界或者到达已经遍历过的数组位置
-        if (i < 0 || i > row - 1 || j < 0 || j > col - 1 || visited[i][j] == true) {
-            return;
-        }
-        visited[i][j] = true;
-        sum += grid[i][j];
-        searchHelper(visited, grid, i + 1, j, sum);// 向下递归
-        searchHelper(visited, grid, i, j + 1, sum);// 向右递归
-        // 回溯
-        visited[i][j] = false;
-        sum -= grid[i][j];
     }
 }
