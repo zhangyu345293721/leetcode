@@ -1,4 +1,4 @@
-package leetcodejava.math;
+package leetcodejava.dp;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -93,5 +93,33 @@ public class WordBreak139 {
             }
         }
         return f[s.length()];
+    }
+
+    /**
+     * 单词拆分,动态规划
+     *
+     * @param s        字符串
+     * @param wordDict 单词字典
+     * @return 布尔值
+     */
+    public boolean wordBreak3(String s, List<String> wordDict) {
+        if (wordDict == null || wordDict.size() < 1) {
+            return false;
+        }
+        int n = s.length();
+        // dp[i]表示⻓度为i的字符串是可拆分的
+        boolean[] dp = new boolean[n + 1];
+        dp[0] = true;
+        for (int i = 1; i <= n; i++) { //i表示⻓度
+            for (String word : wordDict) { //⾛法
+                int len = word.length();
+                int start = i - len;
+                if (start >= 0 && s.startsWith(word, start) && dp[i - len]) {
+                    dp[i] = true;
+                    break;
+                }
+            }
+        }
+        return dp[n];
     }
 }

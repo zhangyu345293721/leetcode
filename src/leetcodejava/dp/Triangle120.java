@@ -61,7 +61,7 @@ public class Triangle120 {
         int n = triangle.size();
         int[][] dp = new int[n][n];
         // 初始化最底层一行数据
-        for (int i = 0; i < triangle.size(); i++) {
+        for (int i = 0; i < n; i++) {
             dp[n - 1][i] = triangle.get(n - 1).get(i);
         }
         // 从倒数第二行开始计算

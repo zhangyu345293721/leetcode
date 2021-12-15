@@ -111,7 +111,12 @@ public class CoinChange322 {
     }
 
     /**
-     * 硬币兑换
+     *
+     * 每个阶段从1、2、5种选择⼀个硬币
+     * int dp[amount+1] dp[i]表示凑够i元最少需要多少硬币。
+     * 到达i这个状态，那上⼀步只有可能是选了1、2、5，也就是从状态i-1, i-
+     * 2、i-5转化过来。dp[i]值也由 dp[i-1]、dp[i-2]、dp[i-5]推导出来。
+     * dp[i] = min(dp[i-1] , dp[i-2], dp[i-5])+1
      *
      * @param coins  硬币兑换
      * @param amount 数量
