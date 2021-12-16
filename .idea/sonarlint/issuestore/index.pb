@@ -79,8 +79,6 @@ T
 $src/leetcodejava/math/Subsets78.java,e\2\e2a25cb740625be965779ad1217d81a962dbff66
 W
 'src/leetcodejava/math/TargetSum494.java,2\d\2dce574741f6cdf4481bd946229c0a43f814db95
-W
-'src/leetcodejava/math/WordBreak139.java,0\f\0f09c5ffafc2613880b7974f91598154a477021e
 Y
 )src/leetcodejava/string/AddString415.java,f\2\f238a627d9b7d961f85b7f412e7d395f982cfa50
 `
@@ -1077,3 +1075,9 @@ X
 (src/leetcodejava/string/OpenLock752.java,9\9\999c3e2e132e39188b8486e2f6465579e39666f8
 ^
 .src/leetcodejava/string/WordTransformer17.java,1\5\1537c23686912d3aaffb18653018b962776f8bfb
+[
++src/leetcodejava/dp/CuttingRopeOffer14.java,8\d\8dccc23a3d0e3e8f6cbb7b4272e703fbbcafb63f
+]
+-src/leetcodejava/dp/TranslateNumberOffer.java,b\1\b1a8b213392f0b3c005857e2e88eff83d6938611
+U
+%src/leetcodejava/dp/WordBreak139.java,1\2\124e00e2ce50143f2496eed313de2e58217f9299

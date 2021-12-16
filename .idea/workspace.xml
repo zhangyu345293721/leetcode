@@ -12,16 +12,12 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcodepython/string/reverse_words_string_557.py" line="67" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:修改题目更新题目62,63,64,120">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/dp/CuttingRopeOffer14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/dp/TranslateNumberOffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bd5068f0c7653bc829764c226e49a91c15b7e6f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bd5068f0c7653bc829764c226e49a91c15b7e6f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd453121300c0d01114b0ec8c88b3ab378de4b21" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bd453121300c0d01114b0ec8c88b3ab378de4b21" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master:学习题目215 &amp; 70 &amp; 322 &amp; 518 &amp; offer14 &amp; offer46 &amp; 139">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/f/0f09c5ffafc2613880b7974f91598154a477021e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a8873b1fec7022761dd643441a40b9fcf796eef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a8873b1fec7022761dd643441a40b9fcf796eef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/dp/CoinChange518.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/CoinChange518.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/dp/Triangle120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/Triangle120.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/math/WordBreak139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,18 +49,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/Triangle120.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/KthLargestElement215.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
+            <state relative-caret-position="4150">
               <caret line="170" column="13" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
             </state>
           </provider>
@@ -73,8 +60,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="124" column="53" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
+            <state relative-caret-position="4225">
+              <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="161" column="21" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/install/javajdk/src.zip!/java/lang/Integer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -82,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/CoinChange518.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" selection-start-line="5" selection-end-line="50" selection-end-column="3" />
+            <state relative-caret-position="3775">
+              <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -91,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/CuttingRopeOffer14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="1800">
               <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,17 +117,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
+            <state relative-caret-position="2550">
               <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/TranslateNumberOffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="475">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,26 +138,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/ClimbingStairs70.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="225">
               <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/FindNUnique1304.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" selection-start-line="5" selection-end-line="32" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/MultiplyStrings43.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="8" selection-start-line="8" selection-end-line="38" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -264,7 +260,6 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/string/OpenLock752.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/JumpGame1306.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/string/WordTransformer17.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/dp/HouseRobber213.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/dp/BestTimeBuy309.java" />
@@ -278,6 +273,7 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/math/WordBreak139.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/dp/TranslateNumberOffer.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java" />
       </list>
     </option>
   </component>
@@ -309,7 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -410,6 +405,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -470,7 +466,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TranslateNumberOffer.translateNumberOfferTest">
+  <component name="RunManager" selected="JUnit.LongestValidParentheses32.longestValidParenthesesTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -488,6 +484,23 @@
       <option name="PACKAGE_NAME" value="leetcodejava.dp" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.dp.CuttingRopeOffer14" />
       <option name="METHOD_NAME" value="cuttingRopeOffer" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestValidParentheses32.longestValidParenthesesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.string" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.LongestValidParentheses32" />
+      <option name="METHOD_NAME" value="longestValidParenthesesTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -539,23 +552,6 @@
       <option name="PACKAGE_NAME" value="leetcodejava.dp" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.dp.WordBreak139" />
       <option name="METHOD_NAME" value="wordBreakTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordTransformer17.wordTransformerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.string" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.string.WordTransformer17" />
-      <option name="METHOD_NAME" value="wordTransformerTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -648,20 +644,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WordTransformer17.wordTransformerTest" />
       <item itemvalue="JUnit.Triangle120.triangleTest" />
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.CuttingRopeOffer14.cuttingRopeOffer" />
       <item itemvalue="JUnit.WordBreak139.wordBreakTest" />
       <item itemvalue="JUnit.TranslateNumberOffer.translateNumberOfferTest" />
+      <item itemvalue="Tomcat Server.mytomcat" />
+      <item itemvalue="JUnit.LongestValidParentheses32.longestValidParenthesesTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestValidParentheses32.longestValidParenthesesTest" />
         <item itemvalue="JUnit.TranslateNumberOffer.translateNumberOfferTest" />
         <item itemvalue="JUnit.WordBreak139.wordBreakTest" />
         <item itemvalue="JUnit.CuttingRopeOffer14.cuttingRopeOffer" />
         <item itemvalue="JUnit.Triangle120.triangleTest" />
-        <item itemvalue="JUnit.WordTransformer17.wordTransformerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1160,14 +1156,8 @@
       <workItem from="1639360189799" duration="2799000" />
       <workItem from="1639363740178" duration="1574000" />
       <workItem from="1639465798679" duration="3290000" />
-      <workItem from="1639546794326" duration="4204000" />
-    </task>
-    <task id="LOCAL-00233" summary="master: 增加题目">
-      <created>1614569203436</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1614569203436</updated>
+      <workItem from="1639546794326" duration="4752000" />
+      <workItem from="1639624995442" duration="2362000" />
     </task>
     <task id="LOCAL-00234" summary="master: 增加题目">
       <created>1614839543073</created>
@@ -1505,16 +1495,17 @@
       <option name="project" value="LOCAL" />
       <updated>1639469080722</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="master:学习题目215 &amp; 70 &amp; 322 &amp; 518 &amp; offer14 &amp; offer46 &amp; 139">
+      <created>1639551131310</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1639551131310</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Triangle120_triangleTest - 2021.12.14 at 16h 00m 00s.xml">
-      <configuration name="Triangle120.triangleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CuttingRopeOffer14_cuttingRopeOffer - 2021.12.15 at 14h 14m 53s.xml">
-      <configuration name="CuttingRopeOffer14.cuttingRopeOffer" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CuttingRopeOffer14_cuttingRopeOffer - 2021.12.15 at 14h 15m 35s.xml">
       <configuration name="CuttingRopeOffer14.cuttingRopeOffer" configurationId="JUnit" />
     </history-entry>
@@ -1539,9 +1530,15 @@
     <history-entry file="TranslateNumberOffer_translateNumberOfferTest - 2021.12.15 at 14h 45m 46s.xml">
       <configuration name="TranslateNumberOffer.translateNumberOfferTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TranslateNumberOffer_translateNumberOfferTest - 2021.12.16 at 13h 54m 17s.xml">
+      <configuration name="TranslateNumberOffer.translateNumberOfferTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LongestValidParentheses32_longestValidParenthesesTest - 2021.12.16 at 14h 01m 00s.xml">
+      <configuration name="LongestValidParentheses32.longestValidParenthesesTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3202727000" />
+    <option name="totallyTimeSpent" value="3205637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1565,8 +1562,8 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.23929098" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49322918" visible="true" weight="0.13537118" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49839914" weight="0.34388646" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49322918" weight="0.13537118" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49839914" visible="true" weight="0.34388646" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32922733" />
@@ -1660,7 +1657,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master: 优化更新代码题目" />
     <MESSAGE value="master: 更改题目plus one66" />
     <MESSAGE value="master: 增加题目306" />
     <MESSAGE value="master: 增加题目198.house robber" />
@@ -1685,7 +1681,8 @@
     <MESSAGE value="master:修改题目更新题目198,337,213,32" />
     <MESSAGE value="master:修改题目更新题目714,309" />
     <MESSAGE value="master:修改题目更新题目62,63,64,120" />
-    <option name="LAST_COMMIT_MESSAGE" value="master:修改题目更新题目62,63,64,120" />
+    <MESSAGE value="master:学习题目215 &amp; 70 &amp; 322 &amp; 518 &amp; offer14 &amp; offer46 &amp; 139" />
+    <option name="LAST_COMMIT_MESSAGE" value="master:学习题目215 &amp; 70 &amp; 322 &amp; 518 &amp; offer14 &amp; offer46 &amp; 139" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2602,30 +2599,6 @@
           <option name="timeStamp" value="504" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java</url>
-          <line>154</line>
-          <properties />
-          <option name="timeStamp" value="505" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java</url>
-          <line>175</line>
-          <properties />
-          <option name="timeStamp" value="507" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java</url>
-          <line>164</line>
-          <properties />
-          <option name="timeStamp" value="508" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java</url>
-          <line>165</line>
-          <properties />
-          <option name="timeStamp" value="509" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcodejava/dp/CoinChange518.java</url>
           <line>147</line>
           <properties />
@@ -2678,12 +2651,6 @@
           <line>67</line>
           <properties />
           <option name="timeStamp" value="525" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcodejava/dp/TranslateNumberOffer.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="526" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py</url>
@@ -3083,24 +3050,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/SudokuSolver37.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2725">
-          <caret line="109" column="43" lean-forward="true" selection-start-line="109" selection-start-column="43" selection-end-line="109" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/LetterCombinationsPhoneNumber17.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2900">
           <caret line="120" column="82" selection-start-line="120" selection-start-column="82" selection-end-line="120" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3025">
-          <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -3276,13 +3229,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/BestTimeBuySellStockCooldown309.java" />
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodepython/dp/house_robber_198.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1050">
@@ -3374,44 +3320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/Triangle120.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/KthLargestElement215.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="170" column="13" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="124" column="53" selection-start-line="124" selection-start-column="53" selection-end-line="124" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/CoinChange518.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="50" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/CuttingRopeOffer14.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/install/javajdk/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-463">
@@ -3419,27 +3327,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/Triangle120.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/KthLargestElement215.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4150">
+          <caret line="170" column="13" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CoinChange322.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4225">
+          <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/javajdk/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/CoinChange518.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3775">
+          <caret line="152" column="24" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/CuttingRopeOffer14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="73" column="5" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="2550">
           <caret line="106" column="25" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/ClimbingStairs70.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="225">
           <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/TranslateNumberOffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="475">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestValidParentheses32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="161" column="21" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
         </state>
       </provider>
     </entry>

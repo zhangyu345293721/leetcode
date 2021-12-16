@@ -36,8 +36,8 @@ public class LongestValidParentheses32 {
 
     @Test
     public void longestValidParenthesesTest() {
-        String s = "()";
-        int result = longestValidParentheses2(s);
+        String s = "(())";
+        int result = longestValidParentheses1(s);
         System.out.println(result);
         Assert.assertEquals(result, 2);
     }
@@ -150,4 +150,36 @@ public class LongestValidParentheses32 {
         }
         return stack.empty();
     }
+
+    /**
+     * 最长有效括号
+     *
+     * @param s 输入字符串
+     * @return 最长数
+     */
+    public int longestValidParentheses1(String s) {
+        if (s == null || s.length() < 1) {
+            return 0;
+        }
+        int max = 0;
+        Stack<Integer> stack = new Stack<>();
+        stack.push(-1);
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                stack.push(i);
+            } else {
+                // 出栈
+                stack.pop();
+                // 看栈顶是否为空，为空的话就不能作差了
+                if (stack.empty()) {
+                    stack.push(i);
+                } else {
+                    // i - 栈顶，获得档期有效括号长度
+                    max = Math.max(max, i - stack.peek());
+                }
+            }
+        }
+        return max;
+    }
+
 }
