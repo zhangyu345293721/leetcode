@@ -44,18 +44,6 @@ public class PalindromeNumber9 {
     }
 
     /**
-     * 判断数字是不是回文串
-     *
-     * @param x 数字
-     * @return 布尔值
-     */
-    public boolean isPalindrome(int x) {
-        String str = String.valueOf(x);
-        StringBuilder sb = new StringBuilder().append(x).reverse();
-        return str.equals(sb.toString());
-    }
-
-    /**
      * 判断数字是不是回文串(如果是回文数显然不会溢出)
      *
      * @param x 数字

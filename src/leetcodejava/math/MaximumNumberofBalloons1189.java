@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * This is the solution of No. 892 problem in the LeetCode,
+ * This is the solution of No. 1189 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/maximum-number-of-balloons
  * <p>
