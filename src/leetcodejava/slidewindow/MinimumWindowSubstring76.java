@@ -1,4 +1,4 @@
-package leetcodejava.string;
+package leetcodejava.slidewindow;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -38,74 +38,6 @@ public class MinimumWindowSubstring76 {
         String result = minWindow5(s, t);
         System.out.println(result);
         Assert.assertEquals(result, "cwae");
-    }
-
-    /**
-     * 最小窗口
-     *
-     * @param s 字符串s
-     * @param t 字符串t
-     * @return 最小包含子串
-     */
-    public String minWindow(String s, String t) {
-        String minStr = s;
-        Map<Character, Integer> map = getCharacterMap(t);
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 1; j <= s.length(); j++) {
-                String sub = s.substring(i, j);
-                Map<Character, Integer> subMap = getCharacterMap(sub);
-                if (sub.equals(s)) {
-                    if (!compareMapFlag(subMap, map)) {
-                        return "";
-                    }
-                }
-                boolean flag = compareMapFlag(subMap, map);
-                if (flag) {
-                    if (minStr.length() > sub.length()) {
-                        minStr = sub;
-                    }
-                }
-            }
-        }
-        return minStr.equals(s) ? "" : minStr;
-    }
-
-    /**
-     * 比较方法
-     *
-     * @param subMap subMap
-     * @param map    map
-     * @return
-     */
-    private boolean compareMapFlag(Map<Character, Integer> subMap, Map<Character, Integer> map) {
-        if (map == null || map.size() < 1) {
-            return false;
-        }
-        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            Character ch = entry.getKey();
-            int num = entry.getValue();
-            if ((!subMap.containsKey(ch)) || subMap.get(ch) < num) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    /**
-     * 字符串map
-     *
-     * @param t 字符串
-     * @return map
-     */
-    private Map<Character, Integer> getCharacterMap(String t) {
-        if (t == null || t.length() < 1) {
-            return new HashMap<>();
-        }
-        Map<Character, Integer> map = new HashMap<>();
-        for (char ch : t.toCharArray()) {
-            map.put(ch, map.getOrDefault(ch, 0) + 1);
-        }
-        return map;
     }
 
     Map<Character, Integer> map = new HashMap<>();  //记录t各个字母的数量

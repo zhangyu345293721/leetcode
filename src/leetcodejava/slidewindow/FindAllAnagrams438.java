@@ -1,4 +1,4 @@
-package leetcodejava.string;
+package leetcodejava.slidewindow;
 
 import org.junit.Assert;
 import org.junit.Test;

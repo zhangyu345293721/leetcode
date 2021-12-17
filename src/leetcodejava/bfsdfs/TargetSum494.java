@@ -1,4 +1,4 @@
-package leetcodejava.math;
+package leetcodejava.bfsdfs;
 
 import org.junit.Assert;
 import org.junit.Test;

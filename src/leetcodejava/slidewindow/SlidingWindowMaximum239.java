@@ -1,4 +1,4 @@
-package leetcodejava.math;
+package leetcodejava.slidewindow;
 
 import org.junit.Assert;
 import org.junit.Test;
