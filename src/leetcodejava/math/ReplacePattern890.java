@@ -123,28 +123,28 @@ public class ReplacePattern890 {
     }
 
     /**
-     * 判断匹配字符和模式串是不是匹配
+     * 双向映射
      *
-     * @param str     匹配字符串
+     * @param word    匹配字符串
      * @param pattern 模式串
      * @return 布尔值
      */
-    private boolean isPattern(String str, String pattern) {
-        if (str.length() != pattern.length()) {
-            return false;
-        }
-        Map<Character, Character> map = new HashMap<>();
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < str.length(); i++) {
-            char charStr = str.charAt(i);
-            char charPattern = pattern.charAt(i);
-            if (!map.containsKey(charPattern) && !map.containsValue(charStr)) {
-                map.put(charPattern, charStr);
-                sb.append(charStr);
-            } else {
-                sb.append(map.get(charPattern));
+    private boolean isPattern(String word, String pattern) {
+        Map<Character, Character> m1 = new HashMap();
+        Map<Character, Character> m2 = new HashMap();
+        for (int i = 0; i < word.length(); ++i) {
+            char w = word.charAt(i);
+            char p = pattern.charAt(i);
+            if (!m1.containsKey(w)) {
+                m1.put(w, p);
+            }
+            if (!m2.containsKey(p)) {
+                m2.put(p, w);
+            }
+            if (m1.get(w) != p || m2.get(p) != w) {
+                return false;
             }
         }
-        return sb.toString().equals(str);
+        return true;
     }
 }
