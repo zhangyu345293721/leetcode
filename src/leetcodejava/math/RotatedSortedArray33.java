@@ -115,7 +115,7 @@ public class RotatedSortedArray33 {
                 } else {
                     left = mid + 1;
                 }
-            } else {
+            } else {     // right side sorted
                 if (target > nums[mid] && target <= nums[right]) {
                     left = mid + 1;
                 } else {

@@ -35,7 +35,7 @@ public class RelativeSortArray1122 {
     public void relativeSortArrayTest() {
         int[] arr1 = {2, 3, 1, 3, 2, 4, 6, 7, 9, 2, 19};
         int[] arr2 = {2, 1, 4, 3, 9, 6};
-        int[] result = relativeSortArray(arr1, arr2);
+        int[] result = relativeSortArray2(arr1, arr2);
         for (Integer num : result) {
             System.out.print(num + " ");
         }
@@ -92,5 +92,47 @@ public class RelativeSortArray1122 {
             }
         }
         return leftList;
+    }
+
+    /**
+     * 两个数组相对位置排序
+     *  1) 先取出arr1中最大数
+     *  2）然后将数映射到桶中
+     *
+     * @param arr1 数组1
+     * @param arr2 数组2
+     * @return 排序后的位置
+     */
+    public int[] relativeSortArray2(int[] arr1, int[] arr2) {
+        if (arr1 == null || arr1.length < 1 || arr2 == null || arr2.length < 1) {
+            return new int[0];
+        }
+        int max = Integer.MIN_VALUE;
+        for (int num : arr1) {
+            max = Math.max(num, max);
+        }
+        int res[] = new int[arr1.length];
+        int index = 0;
+        int arr[] = new int[max + 1];
+        for (int num : arr1) {
+            arr[num]++;
+        }
+        for (int num2 : arr2) {
+            int count = arr[num2];
+            while (count > 0) {
+                res[index++] = num2;
+                count--;
+            }
+            arr[num2] = 0;
+        }
+        for (int i = 0; i < arr.length; i++) {
+            int count = arr[i];
+            while (count > 0) {
+                res[index++] = i;
+                count--;
+            }
+            arr[i] = 0;
+        }
+        return res;
     }
 }

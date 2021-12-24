@@ -8,9 +8,9 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * This is the solution of No. 146 problem in the LeetCode,
+ * This is the solution of No. 25 problem in the LeetCode,
  * the website of the problem is as follow:
- * https://leetcode-cn.com/problems/add-binary/
+ * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
@@ -113,6 +113,7 @@ public class ReverseNodesKGroup25 {
                 prev = prev.next;
             }
         }
+        // 最后一部分零碎的要连接起来
         if (p != null) {
             prev.next = p;
         }
