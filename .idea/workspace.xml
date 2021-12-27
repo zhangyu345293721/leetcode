@@ -12,12 +12,10 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcodepython/string/reverse_words_string_557.py" line="67" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 二叉树修改问题">
-      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule207.java" afterDir="false" />
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: DFS和BFS增加题目207">
+      <change afterPath="$PROJECT_DIR$/src/leetcodejava/array/PondSize1619.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule210.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule210.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/string/OpenLock752.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/string/OpenLock752.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/Offer13MovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/Offer13MovingCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule207.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule207.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,35 +44,30 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/PondSize1619.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="540">
+                    <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/BinaryTreeMaximumPathSum124.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/ConstructBinaryTree106.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="143" column="16" lean-forward="true" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/Offer13MovingCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/NumberIslands200.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/OpenLock752.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="120" column="24" lean-forward="true" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
+            <state relative-caret-position="221">
+              <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -120,11 +113,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule207.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+            <state relative-caret-position="408">
+              <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Permutations46.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="8" selection-start-line="8" selection-end-line="36" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -217,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/tree/TreeSearchOffer33.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/SudokuSolver37.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/LetterCombinationsPhoneNumber17.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/Combinations77.java" />
@@ -268,6 +278,7 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/string/OpenLock752.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule210.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule207.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/array/PondSize1619.java" />
       </list>
     </option>
   </component>
@@ -536,9 +547,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CourseSchedule210.courseScheduleTest">
+  <component name="RunManager" selected="JUnit.PondSize1619.pondSizeTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseSchedule207.courseScheduleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.CourseSchedule207" />
+      <option name="METHOD_NAME" value="courseScheduleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -577,6 +605,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PondSize1619.pondSizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodejava.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcodejava.array" />
+      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.PondSize1619" />
+      <option name="METHOD_NAME" value="pondSizeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RelativeSortArray1122.relativeSortArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <extension name="coverage">
@@ -588,40 +633,6 @@
       <option name="PACKAGE_NAME" value="leetcodejava.array" />
       <option name="MAIN_CLASS_NAME" value="leetcodejava.array.RelativeSortArray1122" />
       <option name="METHOD_NAME" value="relativeSortArrayTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TargetSumOffer57.offer57Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.TargetSumOffer57" />
-      <option name="METHOD_NAME" value="offer57Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoSum1.twoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodejava.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcodejava.array" />
-      <option name="MAIN_CLASS_NAME" value="leetcodejava.array.TwoSum1" />
-      <option name="METHOD_NAME" value="twoSumTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -714,20 +725,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TargetSumOffer57.offer57Test" />
-      <item itemvalue="JUnit.TwoSum1.twoSumTest" />
       <item itemvalue="JUnit.RelativeSortArray1122.relativeSortArrayTest" />
       <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.OpenLock752.openLockTest" />
       <item itemvalue="JUnit.CourseSchedule210.courseScheduleTest" />
+      <item itemvalue="JUnit.CourseSchedule207.courseScheduleTest" />
+      <item itemvalue="JUnit.PondSize1619.pondSizeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PondSize1619.pondSizeTest" />
+        <item itemvalue="JUnit.CourseSchedule207.courseScheduleTest" />
         <item itemvalue="JUnit.CourseSchedule210.courseScheduleTest" />
         <item itemvalue="JUnit.OpenLock752.openLockTest" />
         <item itemvalue="JUnit.RelativeSortArray1122.relativeSortArrayTest" />
-        <item itemvalue="JUnit.TwoSum1.twoSumTest" />
-        <item itemvalue="JUnit.TargetSumOffer57.offer57Test" />
       </list>
     </recent_temporary>
   </component>
@@ -1233,14 +1244,7 @@
       <workItem from="1640065487583" duration="616000" />
       <workItem from="1640230927481" duration="2156000" />
       <workItem from="1640313190161" duration="7945000" />
-      <workItem from="1640501229806" duration="22385000" />
-    </task>
-    <task id="LOCAL-00240" summary="master: 增加题目104">
-      <created>1617357436165</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
-      <option name="project" value="LOCAL" />
-      <updated>1617357436165</updated>
+      <workItem from="1640501229806" duration="24888000" />
     </task>
     <task id="LOCAL-00241" summary="master: 增加题目">
       <created>1618241075852</created>
@@ -1578,28 +1582,17 @@
       <option name="project" value="LOCAL" />
       <updated>1640594670091</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <task id="LOCAL-00289" summary="master: DFS和BFS增加题目207">
+      <created>1640606278478</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1640606278478</updated>
+    </task>
+    <option name="localTasksCounter" value="290" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RelativeSortArray1122_relativeSortArrayTest - 2021.12.24 at 14h 10m 00s.xml">
-      <configuration name="RelativeSortArray1122.relativeSortArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RelativeSortArray1122_relativeSortArrayTest - 2021.12.24 at 14h 10m 43s.xml">
-      <configuration name="RelativeSortArray1122.relativeSortArrayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenLock752_openLockTest - 2021.12.27 at 17h 22m 30s.xml">
-      <configuration name="OpenLock752.openLockTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenLock752_openLockTest - 2021.12.27 at 17h 29m 56s.xml">
-      <configuration name="OpenLock752.openLockTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OpenLock752_openLockTest - 2021.12.27 at 17h 30m 32s.xml">
-      <configuration name="OpenLock752.openLockTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseSchedule210_courseScheduleTest - 2021.12.27 at 18h 50m 56s.xml">
-      <configuration name="CourseSchedule210.courseScheduleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CourseSchedule210_courseScheduleTest - 2021.12.27 at 18h 59m 38s.xml">
       <configuration name="CourseSchedule210.courseScheduleTest" configurationId="JUnit" />
     </history-entry>
@@ -1612,9 +1605,27 @@
     <history-entry file="CourseSchedule210_courseScheduleTest - 2021.12.27 at 19h 23m 53s.xml">
       <configuration name="CourseSchedule210.courseScheduleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CourseSchedule207_courseScheduleTest - 2021.12.27 at 20h 07m 13s.xml">
+      <configuration name="CourseSchedule207.courseScheduleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PondSize1619_pondSizeTest - 2021.12.27 at 20h 35m 58s.xml">
+      <configuration name="PondSize1619.pondSizeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PondSize1619_pondSizeTest - 2021.12.27 at 20h 36m 40s.xml">
+      <configuration name="PondSize1619.pondSizeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PondSize1619_pondSizeTest - 2021.12.27 at 20h 37m 18s.xml">
+      <configuration name="PondSize1619.pondSizeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PondSize1619_pondSizeTest - 2021.12.27 at 20h 38m 13s.xml">
+      <configuration name="PondSize1619.pondSizeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PondSize1619_pondSizeTest - 2021.12.27 at 20h 39m 24s.xml">
+      <configuration name="PondSize1619.pondSizeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3251018000" />
+    <option name="totallyTimeSpent" value="3253521000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1629,7 +1640,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1829427" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.1829427" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.21633238" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1638,7 +1649,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.23929098" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49322918" weight="0.18714286" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49322918" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49839914" weight="0.48857144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1733,7 +1744,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master: 337.house_rob" />
     <MESSAGE value="master: 49.group anagrams" />
     <MESSAGE value="master: 增加题目946" />
     <MESSAGE value="master: 增加题目452" />
@@ -1758,7 +1768,8 @@
     <MESSAGE value="master:算法题目分类" />
     <MESSAGE value="master: map的使用" />
     <MESSAGE value="master: 二叉树修改问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: 二叉树修改问题" />
+    <MESSAGE value="master: DFS和BFS增加题目207" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: DFS和BFS增加题目207" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3084,23 +3095,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/TargetSumOffer57.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/LongestSubstringWithoutRepeatingCharacters3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="118" column="35" lean-forward="true" selection-start-line="118" selection-start-column="35" selection-end-line="118" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/LongestSubstringWithoutRepeatingCharacters3.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/DayYear1154.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1435">
@@ -3391,13 +3385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/OpenLock752.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="120" column="24" lean-forward="true" selection-start-line="120" selection-start-column="24" selection-end-line="120" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/JumpGame1306.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -3428,8 +3415,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/CourseSchedule207.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="86" column="25" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+        <state relative-caret-position="408">
+          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/AddBinary67.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/Permutations46.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="8" selection-start-line="8" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/string/OpenLock752.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/PondSize1619.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="128" column="28" selection-start-line="128" selection-start-column="28" selection-end-line="128" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

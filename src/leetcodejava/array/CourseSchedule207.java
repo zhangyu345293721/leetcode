@@ -85,10 +85,12 @@ public class CourseSchedule207 {
             idx++;
             // 修改节点入度
             for (int[] edge : prerequisites) {
-                if (edge[1] == temp) {
-                    input[edge[0]]--;
-                    if (input[edge[0]] == 0) {
-                        queue.offer(edge[0]);
+                int id = edge[1];
+                int inputId = edge[0];
+                if (id == temp) {
+                    input[inputId]--;
+                    if (input[inputId] == 0) {
+                        queue.offer(inputId);
                     }
                 }
             }
