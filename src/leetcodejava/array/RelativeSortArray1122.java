@@ -114,9 +114,11 @@ public class RelativeSortArray1122 {
         int res[] = new int[arr1.length];
         int index = 0;
         int arr[] = new int[max + 1];
+        // 桶排序
         for (int num : arr1) {
             arr[num]++;
         }
+        // 按照顺序,对数组进行排序
         for (int num2 : arr2) {
             int count = arr[num2];
             while (count > 0) {
@@ -125,6 +127,7 @@ public class RelativeSortArray1122 {
             }
             arr[num2] = 0;
         }
+        // 在arr2中没有出现的数字，放到结果集中
         for (int i = 0; i < arr.length; i++) {
             int count = arr[i];
             while (count > 0) {

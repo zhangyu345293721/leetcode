@@ -113,7 +113,7 @@ public class ConstructBinaryTreeTraversal105 {
         while (inOrder[q] != preOrder[i]) {
             q++;
         }
-        int leftTreeSize = q - p; //左右⼦树⼤⼩
+        int leftTreeSize = q - p; //左⼦树⼤⼩
         // 构建左⼦树
         TreeNode leftNode = myBuildTree(preOrder, i + 1, i + leftTreeSize, inOrder, p, q - 1);
         // 构建右⼦树
