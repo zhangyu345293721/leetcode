@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- * This is the solution of No.572 problem in the LeetCode,
+ * This is the solution of No.752 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/open-the-lock
  * <p>
@@ -100,6 +100,7 @@ public class OpenLock752 {
         }
         return -1;
     }
+
     /**
      * 下一个字符串
      *
@@ -113,7 +114,7 @@ public class OpenLock752 {
         for (int j = 0; j < p.length(); j++) {
             char[] nums = p.toCharArray();
             for (int n : d) {
-                nums[j] = (char) ((p.charAt(j) - '0' + n + 10) % 10 + 48);
+                nums[j] = (char) ((p.charAt(j) - '0' + n + 10) % 10 + '0');
                 nextStrs.add(new String(nums));
             }
         }

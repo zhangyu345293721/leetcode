@@ -42,7 +42,7 @@ public class CourseSchedule210 {
         int[][] arr = {{1, 0}, {3, 1}, {2, 0}, {3, 2}};
         int[] result = findOrder2(4, arr);
         System.out.println(Arrays.toString(result));
-        Assert.assertEquals(result[0],0);
+        Assert.assertEquals(result[0], 0);
     }
 
     /**
@@ -124,6 +124,7 @@ public class CourseSchedule210 {
     public int[] findOrder2(int numCourses, int[][] prerequisites) {
         // 实体id和实体
         Map<Integer, CoursePoint> map = new HashMap<>();
+        // 出的元素
         for (int[] point : prerequisites) {
             int id = point[1];
             if (map.containsKey(id)) {
@@ -143,11 +144,11 @@ public class CourseSchedule210 {
             if (map.containsKey(point[0])) {
                 CoursePoint coursePoint = map.get(point[0]);
                 coursePoint.num += 1;
-            }else {
-                CoursePoint coursePoint =new CoursePoint();
-                coursePoint.id=point[0];
-                coursePoint.num=1;
-                map.put(point[0],coursePoint);
+            } else {
+                CoursePoint coursePoint = new CoursePoint();
+                coursePoint.id = point[0];
+                coursePoint.num = 1;
+                map.put(point[0], coursePoint);
             }
         }
 

@@ -142,4 +142,5 @@ public class Offer13MovingCount {
         }
         return sum <= k;
     }
+
 }
