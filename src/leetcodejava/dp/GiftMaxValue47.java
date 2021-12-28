@@ -105,7 +105,7 @@ public class GiftMaxValue47 {
         }
         int row = grid.length;
         int col = grid[0].length;
-        // 不动的初始化
+        // 初始化
         for (int i = 1; i < row; i++) {
             grid[i][0] += grid[i - 1][0];
         }

@@ -59,15 +59,13 @@ public class CuttingRopeOffer14 {
             return 1;
         }
         if (n == 3) {
-            return 3;
+            return 2;
         }
         int[] dp = new int[n + 1];
         dp[0] = 1;
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
-                if (dp[i] < j * dp[i - j]) {
-                    dp[i] = j * dp[i - j];
-                }
+                dp[i] = Math.max(dp[i], j * dp[i - j]);
             }
         }
         return dp[n];

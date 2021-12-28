@@ -1,5 +1,6 @@
 package leetcodejava.dp;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -47,7 +48,11 @@ import org.junit.Test;
 public class LongestCommonSubsequence1143 {
     @Test
     public void longestCommonSubsequenceTest() {
-
+        String s1 = "abcd";
+        String s2 = "abc";
+        int result = longestCommonSubsequence(s1, s2);
+        System.out.println(result);
+        Assert.assertEquals(result, 3);
     }
 
     /**
