@@ -43,7 +43,7 @@ public class Subsets78 {
     @Test
     public void subsetsTest() {
         int[] nums = {1, 2, 3};
-        List<List<Integer>> result = subsets3(nums);
+        List<List<Integer>> result = subsets4(nums);
         System.out.println(result);
         Assert.assertEquals(result.size(), 8);
     }
@@ -155,6 +155,9 @@ public class Subsets78 {
      * @return 链表
      */
     public List<List<Integer>> subsets4(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return new ArrayList<>();
+        }
         backtrack(nums, 0, new ArrayList<>());
         return result;
     }

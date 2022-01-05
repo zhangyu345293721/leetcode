@@ -109,6 +109,9 @@ public class MaximumProductSubarray152 {
      * @return 最大乘积
      */
     public int maxProduct3(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return 0;
+        }
         int maxResult = Integer.MIN_VALUE, imax = 1, imin = 1;
         for (int num : nums) {
             if (num < 0) {
@@ -122,5 +125,57 @@ public class MaximumProductSubarray152 {
             maxResult = Math.max(maxResult, imax);
         }
         return maxResult;
+    }
+
+    /**
+     * 最大子数组乘积
+     *
+     * @param nums 数组
+     * @return 最大乘积
+     */
+    public int maxProduct4(int[] nums) {
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
+        int result = nums[0];
+        //两个mDP分别定义为以i结尾的子数组的最大积与最小积
+        int[] maxDP = new int[nums.length];
+        int[] minDP = new int[nums.length];
+        //初始化DP
+        maxDP[0] = nums[0];
+        minDP[0] = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            // 最大积的可能情况有：元素i自己本身，上一个最大积与i元素累乘，上一个最小积与i元素累乘；
+            // 与i元素自己进行比较是为了处理i元素之前全都是0的情况
+            maxDP[i] = max3(nums[i], maxDP[i - 1] * nums[i], minDP[i - 1] * nums[i]);
+            minDP[i] = min3(nums[i], maxDP[i - 1] * nums[i], minDP[i - 1] * nums[i]);
+            //记录result
+            result = Math.max(result, maxDP[i]);
+        }
+        return result;
+    }
+
+    /**
+     * 找出三个数的最大值
+     *
+     * @param a 数a
+     * @param b 数b
+     * @param c 数c
+     * @return 最大值
+     */
+    private int max3(int a, int b, int c) {
+        return Math.max(a, Math.max(b, c));
+    }
+
+    /**
+     * 找出三个数的最小值
+     *
+     * @param a 数a
+     * @param b 数b
+     * @param c 数c
+     * @return 最小值
+     */
+    private int min3(int a, int b, int c) {
+        return Math.min(a, Math.min(b, c));
     }
 }

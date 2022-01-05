@@ -251,8 +251,6 @@ h
 0src/leetcodepython/array/maximal_rectangle_85.py,2\b\2b20d14095c1da56d79b47e8276501dc459f0693
 `
 0src/leetcodepython/string/find_difference_389.py,a\c\ac09e60f7cc2fb4881a143ceba109defcd8cfacc
-Y
-)src/leetcodejava/array/CoinChange322.java,e\9\e9e4d3447ff8471371397e98de41965923cc46c4
 `
 0src/leetcodepython/array/search_2d_matrix_240.py,d\9\d923f627d522aee51b9fbca05c93ab97fe2918ef
 d
@@ -557,8 +555,6 @@ i
 9src/leetcodepython/tree/validate_binary_search_tree_98.py,c\c\cc98ac0fd123a5c80fdbe9babea1a6a39020a54d
 X
 (src/leetcodepython/array/jump_game_45.py,5\1\516ffc70a9686f63eb964a54d7b65c114b62d947
-d
-4src/leetcodejava/array/MinimumCostForTickets983.java,4\c\4c5ab95900635ebf201d06c46d7d377147581f6b
 S
 #src/leetcodepython/array/sqrt_69.py,c\e\ced80064beb4b8f0902e272e0233df5b5eb893fc
 Q
@@ -1089,3 +1085,7 @@ i
 -src/leetcodejava/array/CourseSchedule207.java,f\3\f3dc7828a9e8322077851e1f953fcffe41bcfd06
 X
 (src/leetcodejava/array/PondSize1619.java,8\4\84ce14ee7accdc0cff9f7b9a9ed99d70bb77a459
+a
+1src/leetcodejava/dp/MinimumCostForTickets983.java,9\6\96599e93b9335e6890ee158891390268bf54ead8
+V
+&src/leetcodejava/dp/CoinChange322.java,3\6\36ae97fcfe33d03286a309e324b73e0708114cf0
