@@ -52,7 +52,7 @@ public class CombinationSum216 {
      * 寻找k个数的和为n
      *
      * @param k k个数
-     * @param n 选则数的和
+     * @param n 选择数的和
      * @return 寻找k数和为n
      */
     public List<List<Integer>> combinationSum(int k, int n) {
@@ -79,11 +79,13 @@ public class CombinationSum216 {
             temp.add(i);
             if (target == i) {
                 if (k == temp.size()) {
+                    // 需要复制
                     result.add(new ArrayList<>(temp));
                 }
             } else {
                 helper(k, target - i, result, temp, i + 1);
             }
+            // 需要回退操作
             temp.remove(temp.size() - 1);
         }
     }

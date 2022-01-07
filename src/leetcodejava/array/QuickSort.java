@@ -10,8 +10,8 @@ public class QuickSort {
     @Test
     public void quickSortTest() {
         int[] nums = {6, 2, 1, 5, 4, 2, 8, 7, 5, 6};
-        quickSort(nums);
-        System.out.println(Arrays.toString(nums));
+        int[] result = quickSort(nums);
+        System.out.println(Arrays.toString(result));
         Assert.assertEquals(nums[0], 1);
     }
 
@@ -20,8 +20,9 @@ public class QuickSort {
      *
      * @param nums 数组
      */
-    public void quickSort(int[] nums) {
+    public int[] quickSort(int[] nums) {
         quickSort(nums, 0, nums.length - 1);
+        return nums;
     }
 
     /**

@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * This is the solution of No. 40 problem in the LeetCode,
@@ -51,7 +50,7 @@ public class CombinationSum40 {
 
     @Test
     public void combinationSumTest() {
-        int[] candidates = {5,3,2,1,1,4};
+        int[] candidates = {5, 3, 2, 1, 1, 4};
         int target = 10;
         List<List<Integer>> result = combinationSum2(candidates, target);
         System.out.println(result);
@@ -71,7 +70,7 @@ public class CombinationSum40 {
         List<Integer> temp = new ArrayList<>();
         //Arrays.sort(candidates);
         searchHelper1(candidates, target, result, temp, 0);
-        return result.stream().collect(Collectors.toList());
+        return new ArrayList<>(result);
     }
 
     /**
@@ -143,6 +142,7 @@ public class CombinationSum40 {
             // 回溯
             temp.add(candidates[i]);
             searchHelper2(candidates, target - candidates[i], result, temp, i + 1);
+            // 回退操作
             temp.remove(temp.size() - 1);
         }
     }

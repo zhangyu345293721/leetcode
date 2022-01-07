@@ -63,13 +63,13 @@ public class BestTimeBuy714 {
             return 0;
         }
         int n = prices.length;
-        int[][] dp = new int[n][2];
+        int[][] dp = new int[2][n];
         dp[0][0] = -prices[0];  // 第i天后持有股票，⼿⾥利润的最⼤值
         dp[0][1] = 0;           // 第i天后不持有股票，⼿⾥利润的最⼤值
         for (int i = 1; i < n; ++i) {
-            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] - prices[i]);
-            dp[i][1] = Math.max(dp[i - 1][0] + prices[i] - fee, dp[i - 1][1]);
+            dp[0][i] = Math.max(dp[0][i - 1], dp[1][i - 1] - prices[i]);
+            dp[1][i] = Math.max(dp[1][i - 1], dp[0][i - 1] + prices[i] - fee);
         }
-        return Math.max(dp[n - 1][0], dp[n - 1][1]);
+        return Math.max(dp[0][n - 1], dp[1][n - 1]);
     }
 }

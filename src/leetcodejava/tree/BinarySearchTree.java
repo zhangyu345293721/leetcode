@@ -140,7 +140,7 @@ public class BinarySearchTree {
             // 删除叶子节点
             minPP.left = null;
             return;
-        } else {  // 删除的节点是叶子节点或者有一个子节点
+        } else if (p.left != null || p.right != null) {  // 删除有一个子节点
             TreeNode child;
             if (p.left != null) {
                 child = p.left;
@@ -155,6 +155,14 @@ public class BinarySearchTree {
                 pp.left = child;
             } else {
                 pp.right = child;
+            }
+        } else {  // 删除的p没有子节点
+            if (pp == null) {
+                root = null;
+            } else if (pp.left == p) {
+                pp.left = null;
+            } else {
+                pp.right = null;
             }
         }
     }

@@ -111,7 +111,7 @@ public class BestTimeBuy309 {
         for (int i = 1; i < n; i++) {
             // 没有股票：前一天也没有持有，今天刚卖
             dp[0][i] = Math.max(dp[0][i - 1], dp[1][i - 1] + prices[i]);
-            // 有股票：前一天有股票，今天刚买，前两天的最大利润
+            // 有股票：前一天有股票，今天刚买，前两天的最大利润(冷冻期有一天)
             dp[1][i] = Math.max(dp[1][i - 1], (i - 2 >= 0 ? dp[0][i - 2] : 0) - prices[i]);
         }
         return Math.max(dp[0][n - 1], dp[1][n - 1]);

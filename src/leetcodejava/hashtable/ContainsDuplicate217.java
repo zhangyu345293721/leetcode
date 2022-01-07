@@ -1,4 +1,4 @@
-package leetcodejava.array;
+package leetcodejava.hashtable;
 
 import org.junit.Assert;
 import org.junit.Test;

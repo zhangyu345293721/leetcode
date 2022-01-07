@@ -48,11 +48,13 @@ public class CombinationSum39 {
     @Test
     public void combinationSumTest() {
         int[] candidates = {2, 3, 6, 7};
-        int target = 7;
+        int target = 8;
         List<List<Integer>> result = combinationSum(candidates, target);
         System.out.println(result);
         Assert.assertEquals(result.size(), 2);
     }
+
+    List<List<Integer>> result = new ArrayList();
 
     /**
      * 获取所有的组合
@@ -62,10 +64,9 @@ public class CombinationSum39 {
      * @return 所有组合
      */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> result = new ArrayList();
         List<Integer> current = new ArrayList<>();
         Arrays.sort(candidates);
-        helper(candidates, target, result, current, 0);
+        helper(candidates, target, current, 0);
         return result;
     }
 
@@ -74,20 +75,19 @@ public class CombinationSum39 {
      *
      * @param candidates 数组
      * @param target     目标值
-     * @param result     结果链表
      * @param current    当前链表
      * @param index      下标位置
      */
-    private void helper(int[] candidates, int target, List<List<Integer>> result, List<Integer> current, int index) {
+    private void helper(int[] candidates, int target, List<Integer> current, int index) {
         for (int i = index; i < candidates.length; i++) {
             if (candidates[i] > target) {
-                break;
+                return;
             }
             current.add(candidates[i]);
             if (target - candidates[i] == 0) {
                 result.add(new ArrayList(current));
             } else {
-                helper(candidates, target - candidates[i], result, current, i);
+                helper(candidates, target - candidates[i], current, i);
             }
             current.remove(current.size() - 1);
         }
