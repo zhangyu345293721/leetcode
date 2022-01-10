@@ -109,4 +109,25 @@ public class LinkedListCycle142 {
         }
         return null;
     }
+    /**
+     * 找出链表中的环,利用hashSet
+     *
+     * @param head 头指针
+     * @return 环对象
+     */
+    public ListNode detectCycle3(ListNode head) {
+        if (head == null) {
+            return null;
+        }
+        ListNode cur = head;
+        Set<ListNode> set = new HashSet<>();
+        while (cur != null) {
+            if (set.contains(cur)) {
+                return cur;
+            }
+            set.add(cur);
+            cur = cur.next;
+        }
+        return null;
+    }
 }

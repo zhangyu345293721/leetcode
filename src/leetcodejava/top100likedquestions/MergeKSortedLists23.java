@@ -71,7 +71,7 @@ public class MergeKSortedLists23 {
         if (l == r) {
             return lists[l];
         }
-        int mid = (l + r) / 2;
+        int mid = (r - l) / 2 + l;
         ListNode l1 = helper(lists, l, mid);
         ListNode l2 = helper(lists, mid + 1, r);
         return merge(l1, l2);
@@ -119,7 +119,7 @@ public class MergeKSortedLists23 {
      * @return 链表
      */
     public ListNode mergeKLists2(ListNode[] lists) {
-        if(lists == null || lists.length < 1) {
+        if (lists == null || lists.length < 1) {
             return null;
         }
         PriorityQueue<ListNode> queue = new PriorityQueue(
@@ -131,18 +131,18 @@ public class MergeKSortedLists23 {
                 }
         );
         int k = lists.length;
-        for(int i = 0;i < k; i++) {
-            if(lists[i] != null ){
+        for (int i = 0; i < k; i++) {
+            if (lists[i] != null) {
                 queue.offer(lists[i]);
             }
         }
         ListNode dummy = new ListNode(-1);
         ListNode tail = dummy;
-        while(!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             ListNode cur = queue.poll();
             tail.next = cur;
             tail = tail.next;
-            if(cur.next != null) {
+            if (cur.next != null) {
                 queue.offer(cur.next);
             }
         }

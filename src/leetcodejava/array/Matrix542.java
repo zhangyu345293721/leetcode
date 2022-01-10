@@ -52,7 +52,7 @@ import java.util.Queue;
 public class Matrix542 {
     @Test
     public void matrixTest() {
-        int[][] nums = {{0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}};
+        int[][] nums = {{0, 0, 0}, {0, 1, 0}, {1, 1, 1}};
         int[][] result = updateMatrix(nums);
         System.out.println(result);
         Assert.assertEquals(result.length, 5);
@@ -74,7 +74,7 @@ public class Matrix542 {
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 // 将为0的数加入队列
-                if (matrix[i][j] == 0) {
+                if (matrix[i][j] == 0 & !visited[i][j]) {
                     queue.offer(new int[]{i, j});
                     visited[i][j] = true;
                 }
@@ -82,16 +82,19 @@ public class Matrix542 {
         }
         int[][] directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         while (!queue.isEmpty()) {
-            int[] point = queue.poll();
-            int x = point[0], y = point[1];
-            for (int[] d : directions) {
-                int newX = x + d[0];
-                int newY = y + d[1];
-                if (newX >= 0 && newX < m && newY >= 0 && newY < n
-                        && !visited[newX][newY]) {
-                    matrix[newX][newY] = matrix[x][y] + 1;
-                    queue.offer(new int[]{newX, newY});
-                    visited[newX][newY] = true;
+            int size = queue.size();
+            for (int i = 0; i < size; i++) {
+                int[] point = queue.poll();
+                int x = point[0], y = point[1];
+                for (int[] d : directions) {
+                    int newX = x + d[0];
+                    int newY = y + d[1];
+                    if (newX >= 0 && newX < m && newY >= 0 && newY < n
+                            && !visited[newX][newY]) {
+                        matrix[newX][newY] = matrix[x][y] + 1;
+                        queue.offer(new int[]{newX, newY});
+                        visited[newX][newY] = true;
+                    }
                 }
             }
         }

@@ -65,6 +65,9 @@ public class ConvertBST538 {
      * @return 输入结果
      */
     public TreeNode convertBST2(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
         inorder(root);
         return root;
     }

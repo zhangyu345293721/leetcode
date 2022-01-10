@@ -93,7 +93,7 @@ public class LetterCombinationsPhoneNumber17 {
      * @return list
      */
     public List<String> letterCombinations2(String digits) {
-        if (digits.length() == 0) {
+        if (digits == null && digits.length() == 0) {
             return new ArrayList<>();
         }
         String[] mappings = new String[10];

@@ -112,17 +112,17 @@ public class MaximalRectangle85 {
         int res = 0;
         int m = matrix.length;
         int n = matrix[0].length;
-        int[] height = new int[n];
+        int[] heights = new int[n];
         for (int i = 0; i < m; i++) {
             // 计算都为1矩形的高
             for (int j = 0; j < n; j++) {
                 if (matrix[i][j] == '1') {
-                    height[j]++;
+                    heights[j]++;
                 } else {
-                    height[j] = 0;
+                    heights[j] = 0;
                 }
             }
-            res = Math.max(res, largestRectangleHistogram(height));
+            res = Math.max(res, largestRectangleHistogram(heights));
         }
         return res;
     }

@@ -50,7 +50,7 @@ public class Search2D240 {
      * 输入数据，找出目标值
      *
      * @param matrix 二维数组n
-     * @param target 目标值
+     * @param target 查询目标值
      * @return 布尔值
      */
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -75,7 +75,7 @@ public class Search2D240 {
      * 输入数据，找出目标值
      *
      * @param matrix 二维数组n
-     * @param target 目标值
+     * @param target 查询目标值
      * @return 布尔值
      */
     public boolean searchMatrix2(int[][] matrix, int target) {

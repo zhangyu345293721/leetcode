@@ -83,7 +83,7 @@ public class TrappingRainWater42 {
     }
 
     /**
-     * 装多少水
+     * 装多少水 （前后缀统计法）
      *
      * @param height 数组
      * @return 多少水

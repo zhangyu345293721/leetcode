@@ -49,8 +49,11 @@ public class MergeIntervals56 {
      * @return 合并后的区间
      */
     public int[][] merge(int[][] intervals) {
+        if (intervals == null || intervals.length < 1) {
+            return intervals;
+        }
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
-        List<int[]> list = new ArrayList<>();
+        List<int[]> result = new ArrayList<>();
         int length = intervals.length;
         if (length <= 1) {
             return intervals;
@@ -60,15 +63,15 @@ public class MergeIntervals56 {
             if (intervals[i][0] <= curInterval[1]) {
                 curInterval[1] = Math.max(intervals[i][1], curInterval[1]);
             } else {
-                list.add(curInterval);
+                result.add(curInterval);
                 curInterval = intervals[i];
             }
         }
-        list.add(curInterval);
-        int size = list.size();
+        result.add(curInterval);
+        int size = result.size();
         int[][] ret = new int[size][];
         for (int i = 0; i < size; i++) {
-            ret[i] = list.get(i);
+            ret[i] = result.get(i);
         }
         return ret;
     }

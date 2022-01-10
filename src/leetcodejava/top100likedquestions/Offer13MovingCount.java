@@ -49,6 +49,11 @@ public class Offer13MovingCount {
 
     /**
      * 移动次数
+     *
+     * @param m m位置
+     * @param n n位置
+     * @param k 不能大于k的值
+     * @return 移动格子数
      */
     public int movingCount(int m, int n, int k) {
         if (n < 0 || m < 0) {
@@ -126,9 +131,13 @@ public class Offer13MovingCount {
         searchHelper(i, j + 1, m, n, k);
     }
 
-
     /**
      * 判断是否满足条件
+     *
+     * @param i 坐标i
+     * @param j 坐标j
+     * @param k k值
+     * @return 布尔值
      */
     public boolean check(int i, int j, int k) {
         int sum = 0;

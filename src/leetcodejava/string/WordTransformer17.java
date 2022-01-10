@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * This is the solution of No. 647 problem in the LeetCode,
+ * This is the solution of No. 17 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/palindromic-substrings
  * <p>
@@ -68,6 +68,9 @@ public class WordTransformer17 {
      * @return 结果集合
      */
     public List<String> findLadders(String beginWord, String endWord, List<String> wordList) {
+        if (wordList == null || wordList.size() < 1) {
+            return new ArrayList<>();
+        }
         List<String> result = new LinkedList<>(Arrays.asList(beginWord));
         boolean[] visited = new boolean[wordList.size()];
         if (searchHelper(beginWord, endWord, result, wordList, visited)) {
@@ -96,6 +99,7 @@ public class WordTransformer17 {
                 if (searchHelper(wordList.get(i), endWord, result, wordList, visited)) {
                     return true;
                 }
+                // 回退操作
                 result.remove(result.size() - 1);
             }
         }
