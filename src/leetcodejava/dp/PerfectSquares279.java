@@ -47,10 +47,13 @@ public class PerfectSquares279 {
      */
     public int numSquares(int n) {
         int[] dp = new int[n + 1];
+        // 定义数组，并初始化数组
+        int[] dp = new int[n + 1];
         Arrays.fill(dp, Integer.MAX_VALUE);
         for (int i = 0; i * i <= n; i++) {
             dp[i * i] = 1;
         }
+        // 动态规划
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j * j <= i; j++) {
                 dp[i] = Math.min(dp[i], 1 + dp[i - j * j]);
