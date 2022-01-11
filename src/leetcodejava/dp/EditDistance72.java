@@ -64,13 +64,16 @@ public class EditDistance72 {
         if (n * m == 0) {
             return n + m;
         }
+        // 定义数组
         int[][] dp = new int[n + 1][m + 1];
+        // 初始化数组
         for (int i = 0; i < n + 1; i++) {
             dp[i][0] = i;
         }
         for (int j = 0; j < m + 1; j++) {
             dp[0][j] = j;
         }
+        // 状态转移方程
         for (int i = 1; i < n + 1; i++) {
             for (int j = 1; j < m + 1; j++) {
                 int left = dp[i - 1][j] + 1;
@@ -104,13 +107,16 @@ public class EditDistance72 {
         char[] w1 = word1.toCharArray();
         char[] w2 = word2.toCharArray();
         // dp[i][j]表示w1[0~i-1](⻓度为i⼦串)和w2[0~j-1](⻓度为j的⼦串)的最⼩编辑距离
+        // 定义数组
         int[][] dp = new int[n + 1][m + 1];
+        // 初始化数组
         for (int j = 0; j <= m; j++) {
             dp[0][j] = j;
         }
         for (int i = 0; i <= n; i++) {
             dp[i][0] = i;
         }
+        // 状态转移方程
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= m; j++) {
                 if (w1[i - 1] == w2[j - 1]) {

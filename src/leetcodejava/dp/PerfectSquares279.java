@@ -46,9 +46,9 @@ public class PerfectSquares279 {
      * @return 多少数组成
      */
     public int numSquares(int n) {
-        int[] dp = new int[n + 1];
         // 定义数组，并初始化数组
         int[] dp = new int[n + 1];
+        // 初始化数组
         Arrays.fill(dp, Integer.MAX_VALUE);
         for (int i = 0; i * i <= n; i++) {
             dp[i * i] = 1;

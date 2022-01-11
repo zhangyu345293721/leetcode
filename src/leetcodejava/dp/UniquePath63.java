@@ -113,9 +113,11 @@ public class UniquePath63 {
         if (i < 0 || i >= row || j < 0 || j >= col || visited[i][j] || obstacleGrid[i][j] != 0) {
             return;
         }
+        // 已经放问
         visited[i][j] = true;
         searchHelper(obstacleGrid, i + 1, j, visited);
         searchHelper(obstacleGrid, i, j + 1, visited);
+        // 回退操作
         visited[i][j] = false;
     }
 

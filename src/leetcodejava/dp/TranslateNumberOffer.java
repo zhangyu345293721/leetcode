@@ -65,7 +65,9 @@ public class TranslateNumberOffer {
         for (int i = 0; i < n; ++i) {
             digits[i] = digitList.get(n - i - 1);
         }
+        // 定义数组
         int[] dp = new int[n + 1];
+        // 初始化数组
         dp[0] = 1;
         // dp[i]表示digits[0~i-1](⻓度为i)转化为字⺟有多少种⽅法
         // dp[i] = dp[i-1] + dp[i-2](digits[i-2, i-1]可翻译)

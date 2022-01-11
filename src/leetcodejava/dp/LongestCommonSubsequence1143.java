@@ -73,14 +73,17 @@ public class LongestCommonSubsequence1143 {
         int m = text2.length();
         char[] t1 = text1.toCharArray();
         char[] t2 = text2.toCharArray();
+        // 定义数组
         // dp[i][j] 表示text1[0~i-1](⻓度为i⼦串)和text2[0~j-1](⻓度j的⼦串)的LCS
         int dp[][] = new int[n + 1][m + 1];
+        // 初始化数组
         for (int j = 0; j <= m; ++j) {
             dp[0][j] = 0;
         }
         for (int i = 0; i <= n; ++i) {
             dp[i][0] = 0;
         }
+        // 状态转移方程
         for (int i = 1; i <= n; ++i) {
             for (int j = 1; j <= m; ++j) {
                 if (t1[i - 1] == t2[j - 1]) {

@@ -103,11 +103,13 @@ public class BestTimeBuy309 {
             return 0;
         }
         int n = prices.length;
+        // 定义数组
         int[][] dp = new int[2][n];
         //第一天没有股票利润
         dp[0][0] = 0;
         // 第一天有股票利润
         dp[1][0] = -prices[0];
+        // 状态转移方程
         for (int i = 1; i < n; i++) {
             // 没有股票：前一天也没有持有，今天刚卖
             dp[0][i] = Math.max(dp[0][i - 1], dp[1][i - 1] + prices[i]);

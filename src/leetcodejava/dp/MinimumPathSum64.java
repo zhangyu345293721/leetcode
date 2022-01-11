@@ -51,12 +51,14 @@ public class MinimumPathSum64 {
             return 0;
         }
         int m = grid.length, n = grid[0].length;
+        // 初始化数组
         for (int i = 1; i < m; i++) {
             grid[i][0] += grid[i - 1][0];
         }
         for (int j = 1; j < n; j++) {
             grid[0][j] += grid[0][j - 1];
         }
+        // 状态转移方程
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 grid[i][j] += Math.min(grid[i - 1][j], grid[i][j - 1]);
@@ -86,6 +88,9 @@ public class MinimumPathSum64 {
      * @return 最小路径和
      */
     public int minPathSum3(int[][] grid) {
+        if (grid == null || grid.length < 1) {
+            return 0;
+        }
         int[] dp = new int[grid[0].length];
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0;

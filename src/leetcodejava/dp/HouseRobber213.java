@@ -96,9 +96,12 @@ public class HouseRobber213 {
         if (r == l) {
             return nums[l];
         }
+        // 定义数组
         int dp[] = new int[n];
+        // 初始化数组
         dp[l] = nums[l];
         dp[l + 1] = Math.max(nums[l], nums[l + 1]);
+        // 动态转移方程
         for (int i = l + 2; i <= r; i++) {
             dp[i] = Math.max(dp[i - 1], dp[i - 2] + nums[i]);
         }

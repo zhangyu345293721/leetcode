@@ -114,7 +114,7 @@ public class WordBreak139 {
             for (String word : wordDict) { //⾛法
                 int len = word.length();
                 int start = i - len;
-                if (start >= 0 && s.startsWith(word, start) && dp[i - len]) {
+                if (start >= 0 && s.startsWith(word, start) && dp[start]) {
                     dp[i] = true;
                     break;
                 }

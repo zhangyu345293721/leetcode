@@ -98,6 +98,7 @@ public class CoinChange518 {
             searchHelper(coins, amount, i, sum + coins[i]);
         }
     }
+
     /**
      * 动态规划
      *
@@ -140,7 +141,9 @@ public class CoinChange518 {
             return 0;
         }
         int n = coins.length;
+        // 定义dp数组
         int[][] dp = new int[n + 1][amount + 1];
+        // 初始化数组
         for (int i = 0; i <= n; i++) {
             dp[i][0] = 1;
         }
