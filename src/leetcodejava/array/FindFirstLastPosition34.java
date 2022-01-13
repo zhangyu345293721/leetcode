@@ -3,6 +3,8 @@ package leetcodejava.array;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 /**
  * This is the solution of No.34 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -37,9 +39,23 @@ public class FindFirstLastPosition34 {
     public void findFirstLastPositionTest() {
         int nums[] = {5, 7, 7, 8, 8, 10};
         int target = 8;
-        int result = findLastPosition(nums, target);
-        System.out.println(result);
-        Assert.assertEquals(result, 4);
+        int[] result = searchRange(nums, target);
+        System.out.println(Arrays.toString(result));
+        Assert.assertEquals(result[0], 4);
+    }
+
+
+    /**
+     * 找出相同的里面最小,最小那个
+     *
+     * @param nums   数组
+     * @param target 目标值
+     * @return int
+     */
+    public int[] searchRange(int[] nums, int target) {
+        int start = findFirstPosition(nums, target);
+        int end = findLastPosition(nums, target);
+        return new int[]{start, end};
     }
 
     /**

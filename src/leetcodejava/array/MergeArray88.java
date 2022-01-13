@@ -37,34 +37,26 @@ public class MergeArray88 {
     public void mergeArrayTest() {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {2, 5, 6};
-        merge2(nums1, 3, nums2, 3);
+        merge(nums1, 3, nums2, 3);
+        System.out.println(Arrays.toString(nums1));
         Assert.assertArrayEquals(nums1, new int[]{1, 2, 3, 2, 5, 6});
     }
 
     /**
-     * 对数组进行合并排序
-     *
-     * @param nums1 数组1
-     * @param m     开始下标m
-     * @param nums2 数组2
-     * @param n     开始下标n
-     */
-    public void merge1(int[] nums1, int m, int[] nums2, int n) {
-        for (int num2 : nums2) {
-            nums1[m++] = num2;
-        }
-        Arrays.sort(nums1);
-    }
-
-    /**
-     * 对数组进行合并排序
+     * 对数组进行合并排序(使用尾插法)
      *
      * @param nums1 数组nums1
      * @param m     开始下标m
      * @param nums2 数组nums2
      * @param n     开始下标n
      */
-    public void merge2(int[] nums1, int m, int[] nums2, int n) {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        if (nums1 == null || nums1.length < 1) {
+            return;
+        }
+        if (nums2 == null || nums2.length < 1) {
+            return;
+        }
         int i = m - 1;
         int j = n - 1;
         int k = m + n - 1;

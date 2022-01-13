@@ -64,7 +64,9 @@ public class RemoveNthNodeFromEndList19 {
             p1 = p1.next;
             p2 = p2.next;
         }
+        // 删除元素
         p1.next = p1.next.next;
+        // 将元素置为空
         p1.next = null;
         return dummy.next;
     }

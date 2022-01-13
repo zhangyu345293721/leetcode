@@ -53,6 +53,7 @@ public class LongestValidParentheses32 {
             return 0;
         }
         int n = s.length();
+        // 定义dp数组
         int[] dp = new int[n];
         int maxLen = 0;
         // 初始化
@@ -81,6 +82,9 @@ public class LongestValidParentheses32 {
      * @return 最长数
      */
     public int longestValidParentheses(String s) {
+        if (s == null || s.length() < 1) {
+            return 0;
+        }
         int left = 0, right = 0, maxlength = 0;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {

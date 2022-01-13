@@ -71,6 +71,7 @@ public class MergeKSortedLists23 {
         if (l == r) {
             return lists[l];
         }
+        // 防止值溢出
         int mid = (r - l) / 2 + l;
         ListNode l1 = helper(lists, l, mid);
         ListNode l2 = helper(lists, mid + 1, r);
@@ -110,6 +111,28 @@ public class MergeKSortedLists23 {
             tail.next = l2;
         }
         return dummy.next;
+    }
+    /**
+     * 通过指针合并两个链表
+     *
+     * @param l1 链表1
+     * @param l2 链表2
+     * @return 合并两个链表
+     */
+    private ListNode merge2(ListNode l1, ListNode l2) {
+        if (l1 == null) {
+            return l2;
+        }
+        if (l2 == null) {
+            return l1;
+        }
+        if (l1.val <= l2.val) {
+            l1.next = merge2(l1.next, l2);
+            return l1;
+        } else {
+            l2.next = merge2(l1, l2.next);
+            return l2;
+        }
     }
 
     /**

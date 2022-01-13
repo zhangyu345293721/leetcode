@@ -61,8 +61,6 @@ Z
 .src/leetcodejava/hashtable/CountPrimes204.java,f\b\fbb5c883453b003948df0f05692fd1f837130cff
 V
 &src/leetcodejava/math/DayYear1154.java,d\2\d2ef305d0466004017e3c9c8a60125d62fac4f0f
-`
-0src/leetcodejava/math/GenerateParentheses22.java,7\a\7a3f4589653fc89098297852a3506d616c49440e
 ]
 -src/leetcodejava/math/HammingDistance461.java,4\9\49343ad9b2b558ca568abb2a1c988b06d3c18eaf
 \
@@ -1089,3 +1087,5 @@ d
 4src/leetcodejava/hashtable/ContainsDuplicate219.java,6\1\61ae2d2f651ea6464e9c52984e31d809921b5c97
 g
 7src/leetcodejava/towpoint/ContainerWithMostWater11.java,0\1\0164a7b4ce8e5a8bcb6c752e33405bc2e6e76a8f
+b
+2src/leetcodejava/string/GenerateParentheses22.java,c\1\c1796ad2c66458754ba22f5cdf359752452ce991

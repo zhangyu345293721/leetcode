@@ -70,6 +70,9 @@ public class SearchRotatedSortedArray33 {
      * @return 下标
      */
     public int search2(int[] nums, int target) {
+        if (nums == null || nums.length < 1) {
+            return -1;
+        }
         int low = 0, high = nums.length - 1, mid = 0;
         while (low <= high) {
             mid = low + (high - low) / 2;
