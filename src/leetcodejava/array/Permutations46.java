@@ -95,6 +95,9 @@ public class Permutations46 {
      * @return result
      */
     public List<List<Integer>> permute2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return new ArrayList<>();
+        }
         List<Integer> path = new ArrayList<>();
         backtrack(nums, 0, path);
         return result;

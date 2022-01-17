@@ -125,18 +125,24 @@ public class WordSearch79 {
                     visited[i][j] = true;
                     index++;
                     while (!queue.isEmpty()) {
-                        int[] q = queue.poll();
-                        if (index == len) {
-                            return true;
-                        }
-                        for (int[] d : directions) {
-                            int x = q[0] + d[0];
-                            int y = q[1] + d[1];
-                            if (x >= 0 && x < row && y >= 0 && y < col) {
-                                if (index < len && board[x][y] == word.charAt(index) && !visited[x][y]) {
-                                    queue.add(new int[]{x, y});
-                                    visited[i][j] = true;
-                                    index++;
+                        int size = queue.size();
+                        for (int k = 0; k < size; k++) {
+                            int[] q = queue.poll();
+                            if (index == len) {
+                                return true;
+                            }
+                            for (int[] d : directions) {
+                                int x = q[0] + d[0];
+                                int y = q[1] + d[1];
+                                if (x >= 0 && x < row && y >= 0 && y < col) {
+                                    if (index < len && board[x][y] == word.charAt(index) && !visited[x][y]) {
+                                        queue.add(new int[]{x, y});
+                                        visited[i][j] = true;
+                                        index++;
+                                        if (index == len) {
+                                            return true;
+                                        }
+                                    }
                                 }
                             }
                         }

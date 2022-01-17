@@ -83,6 +83,9 @@ public class MaximumSubarray53 {
      * @return 最大
      */
     public int maxSubArray3(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return -1;
+        }
         int n = nums.length;
         int result = Integer.MIN_VALUE;
         int sum = 0;

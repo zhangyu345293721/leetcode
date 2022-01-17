@@ -38,10 +38,10 @@ import java.util.*;
 public class GroupAnagrams49 {
     @Test
     public void groupAnagramsTest() {
-        String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        List<List<String>> result = groupAnagrams2(strs);
+        String[] strs = {"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"};
+        List<List<String>> result = groupAnagrams4(strs);
         System.out.println(result);
-        Assert.assertEquals(result.get(0).get(0), "eat");
+        Assert.assertEquals(result.get(0).get(0), "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
     }
 
 
@@ -71,6 +71,34 @@ public class GroupAnagrams49 {
             t.add(s);
         }
         return res;
+    }
+
+    /**
+     * 生成镶嵌链表
+     *
+     * @param strs 字符串数组
+     * @return 链表
+     */
+    private List<List<String>> groupAnagrams4(String[] strs) {
+        if (strs == null || strs.length < 1) {
+            return new ArrayList<>();
+        }
+        int[] prime = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103};//最多10609个z
+        HashMap<Double, List<String>> map = new HashMap<>();
+        for (String s : strs) {
+            double key = 1;
+            for (char c : s.toCharArray()) {
+                key *= prime[c - 'a'];
+            }
+            if (map.containsKey(key)) {
+                map.get(key).add(s);
+            } else {
+                List<String> t = new ArrayList<>();
+                t.add(s);
+                map.put(key, t);
+            }
+        }
+        return new ArrayList<>(map.values());
     }
 
     /**

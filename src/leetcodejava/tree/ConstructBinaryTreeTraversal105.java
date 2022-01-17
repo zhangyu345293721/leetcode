@@ -52,43 +52,6 @@ public class ConstructBinaryTreeTraversal105 {
      * @return 根节点
      */
     public TreeNode buildTree(int[] preOrder, int[] inOrder) {
-        return helper(0, 0, inOrder.length - 1, preOrder, inOrder);
-    }
-
-    /**
-     * 还原二叉树帮助类
-     *
-     * @param preStart 前序开始位置
-     * @param inStart  中序开始位置
-     * @param inEnd    中序结束位置
-     * @param preorder 前序数组
-     * @param inorder  中序数组
-     * @return 根节点
-     */
-    public TreeNode helper(int preStart, int inStart, int inEnd, int[] preorder, int[] inorder) {
-        if (preStart > preorder.length - 1 || inStart > inEnd) {
-            return null;
-        }
-        TreeNode root = new TreeNode(preorder[preStart]);
-        int inIndex = 0;
-        for (int i = inStart; i <= inEnd; i++) {
-            if (inorder[i] == root.val) {
-                inIndex = i;
-            }
-        }
-        root.left = helper(preStart + 1, inStart, inIndex - 1, preorder, inorder);
-        root.right = helper(preStart + inIndex - inStart + 1, inIndex + 1, inEnd, preorder, inorder);
-        return root;
-    }
-
-    /**
-     * 构建二叉树
-     *
-     * @param preOrder 前序数组
-     * @param inOrder  中序数组
-     * @return 根节点
-     */
-    public TreeNode buildTree2(int[] preOrder, int[] inOrder) {
         return myBuildTree(preOrder, 0, preOrder.length - 1, inOrder, 0, inOrder.length - 1);
     }
 

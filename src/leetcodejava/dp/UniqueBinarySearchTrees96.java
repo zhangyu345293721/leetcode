@@ -36,7 +36,7 @@ public class UniqueBinarySearchTrees96 {
     @Test
     public void uniqueBinarySearchTreesTest() {
         int n = 3;
-        int result = numTrees(n);
+        int result = numTrees2(n);
         System.out.println(result);
         Assert.assertEquals(result, 5);
     }
@@ -50,16 +50,39 @@ public class UniqueBinarySearchTrees96 {
     public int numTrees(int n) {
         int[] dp = new int[n + 1];
         dp[0] = 1;
-        for (int i = 1; i <= n; i++) {
+        dp[1] = 1;
+        for (int i = 2; i <= n; i++) {
             int l = 0, r = i - 1, count = 0;
             while (l < r) {
-                count += dp[l++] * dp[r--];
+                count += dp[l] * dp[r];
+                l++;
+                r--;
             }
             count *= 2;
             if (l == r) {
                 count += dp[l] * dp[l];
             }
             dp[i] = count;
+        }
+        return dp[n];
+    }
+
+    /**
+     * 不同的二叉搜索树
+     *
+     * @param n 数字
+     * @return 二叉树
+     */
+    public int numTrees2(int n) {
+        // 定义动态规划数组
+        int[] dp = new int[n + 1];
+        // 初始化
+        dp[0] = 1;
+        dp[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                dp[i] += dp[j - 1] * dp[i - j];
+            }
         }
         return dp[n];
     }

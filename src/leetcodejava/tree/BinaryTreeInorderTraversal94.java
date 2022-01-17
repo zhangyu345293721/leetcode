@@ -14,7 +14,7 @@ import java.util.Stack;
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
- * 给定一个二叉树，返回它的中序 遍历。
+ * 给定一个二叉树，返回它的中序遍历。
  * <p>
  * 示例:
  * <p>
@@ -54,9 +54,9 @@ public class BinaryTreeInorderTraversal94 {
         if (root == null) {
             return new ArrayList<>();
         }
-        List<Integer> inorderList = new ArrayList<>();
-        inorderHelper(inorderList, root);
-        return inorderList;
+        List<Integer> result = new ArrayList<>();
+        inorderHelper(result, root);
+        return result;
     }
 
     /**
@@ -85,7 +85,7 @@ public class BinaryTreeInorderTraversal94 {
         if (root == null) {
             return new ArrayList<>();
         }
-        List<Integer> resultList = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         while (!stack.isEmpty() || root != null) {
             while (root != null) {
@@ -93,18 +93,19 @@ public class BinaryTreeInorderTraversal94 {
                 root = root.left;
             }
             TreeNode node = stack.pop();
-            resultList.add(node.val);
+            result.add(node.val);
             root = node.right;
         }
-        return resultList;
+        return result;
     }
 
 
     /**
      * 中序遍历二叉树
-     *   1）status=1 表示要扩展左⼦树，将左⼦节点⼊栈
-     *   2）status=2 表示左⼦树扩展完了，要扩展右⼦树，将右⼦节点⼊栈
-     *   3）status=3 表示左右⼦树都扩展完了，出栈
+     * 1）status=1 表示要扩展左⼦树，将左⼦节点⼊栈
+     * 2）status=2 表示左⼦树扩展完了，要扩展右⼦树，将右⼦节点⼊栈
+     * 3）status=3 表示左右⼦树都扩展完了，出栈
+     *
      * @param root 根节点
      * @return 链表
      */

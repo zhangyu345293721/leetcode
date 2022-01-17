@@ -55,8 +55,10 @@ public class MaximumDepthBinaryTree104 {
         if (root == null) {
             return 0;
         }
+        int leftHeight = maxDepth(root.left);
+        int rightHeight = maxDepth(root.right);
         // 一般的二叉树，都用用到递归的方法
-        return (Math.max(maxDepth(root.left), maxDepth(root.right)) + 1);
+        return Math.max(leftHeight, rightHeight) + 1;
     }
 
     /**

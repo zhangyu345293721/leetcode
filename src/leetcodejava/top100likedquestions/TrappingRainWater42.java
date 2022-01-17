@@ -108,7 +108,8 @@ public class TrappingRainWater42 {
         }
 
         for (int i = 0; i < len; i++) {
-            res += Math.min(leftArr[i], rightArr[i]) - height[i] > 0 ? Math.min(leftArr[i], rightArr[i]) - height[i] : 0;
+            int water = Math.min(leftArr[i], rightArr[i]) - height[i];
+            res += water > 0 ? water : 0;
         }
         return res;
     }

@@ -64,6 +64,9 @@ public class CombinationSum39 {
      * @return 所有组合
      */
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
+        if (candidates == null || candidates.length < 1) {
+            return new ArrayList<>();
+        }
         List<Integer> current = new ArrayList<>();
         Arrays.sort(candidates);
         helper(candidates, target, current, 0);
@@ -80,6 +83,7 @@ public class CombinationSum39 {
      */
     private void helper(int[] candidates, int target, List<Integer> current, int index) {
         for (int i = index; i < candidates.length; i++) {
+            // 剪枝操作
             if (candidates[i] > target) {
                 return;
             }
@@ -89,6 +93,7 @@ public class CombinationSum39 {
             } else {
                 helper(candidates, target - candidates[i], current, i);
             }
+            // 回溯操作
             current.remove(current.size() - 1);
         }
     }
@@ -101,6 +106,9 @@ public class CombinationSum39 {
      * @return 所有组合
      */
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+        if (candidates == null || candidates.length < 1) {
+            return new ArrayList<>();
+        }
         List<List<Integer>> result = new ArrayList();
         List<Integer> current = new ArrayList<>();
         Arrays.sort(candidates);

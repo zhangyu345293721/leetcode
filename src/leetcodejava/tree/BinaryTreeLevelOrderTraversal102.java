@@ -45,8 +45,8 @@ import java.util.Queue;
 public class BinaryTreeLevelOrderTraversal102 {
     @Test
     public void binaryTreeLevelOrderTraversalTest() {
-        TreeNode treeNode = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5, 6, 7});
-        List<List<Integer>> result = levelOrder((treeNode));
+        TreeNode root = TreeNode.createBinaryTreeByArray(new Integer[]{1, 2, 3, 4, 5, 6, 7});
+        List<List<Integer>> result = levelOrder(root);
         Assert.assertEquals(result.size(), 3);
     }
 
@@ -94,15 +94,15 @@ public class BinaryTreeLevelOrderTraversal102 {
         if (root == null) {
             return new ArrayList<>();
         }
-        List<List<Integer>> res = new ArrayList<>();
+        List<List<Integer>> result = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
         while (!queue.isEmpty()) {
-            List<Integer> tempList = new ArrayList();
+            List<Integer> temp = new ArrayList();
             int size = queue.size();
             for (int i = 0; i < size; i++) {
                 TreeNode p = queue.poll();
-                tempList.add(p.val);
+                temp.add(p.val);
                 if (p.left != null) {
                     queue.add(p.left);
                 }
@@ -110,8 +110,8 @@ public class BinaryTreeLevelOrderTraversal102 {
                     queue.add(p.right);
                 }
             }
-            res.add(tempList);
+            result.add(temp);
         }
-        return res;
+        return result;
     }
 }

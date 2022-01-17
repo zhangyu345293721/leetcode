@@ -76,7 +76,7 @@ public class SortColors75 {
                 swap(nums, i, index++);
             }
         }
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = index; i < nums.length; i++) {
             if (nums[i] == 1) {
                 swap(nums, i, index++);
             }

@@ -48,8 +48,8 @@ public class ValidateBinarySearchTree98 {
     @Test
     public void validateBinarySearchTreeTest() {
         Integer[] nums = {2, 1, 3};
-        TreeNode binaryTreeByArray = TreeNode.createBinaryTreeByArray(nums);
-        boolean result = isValidBST2(binaryTreeByArray);
+        TreeNode root = TreeNode.createBinaryTreeByArray(nums);
+        boolean result = isValidBST2(root);
         System.out.println(result);
         Assert.assertEquals(result, true);
     }
