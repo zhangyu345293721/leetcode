@@ -100,8 +100,8 @@ public class BinaryTreeMaximumPathSum124 {
     }
 
     /**
-     * @param root
-     * @return
+     * @param root 根节点
+     * @return 最大值
      */
     public int dfs(TreeNode root) {
         if (root == null) {
