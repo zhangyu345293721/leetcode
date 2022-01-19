@@ -3,6 +3,9 @@ package leetcodejava.array;
 import org.junit.Assert;
 import org.junit.Test;
 
+/**
+ * 归并排序
+ */
 public class MergeSort {
 
     @Test
@@ -21,6 +24,7 @@ public class MergeSort {
      * @param r    位置r
      */
     public void mergeSort(int[] nums, int l, int r) {
+        // 退出条件
         if (l >= r) {
             return;
         }

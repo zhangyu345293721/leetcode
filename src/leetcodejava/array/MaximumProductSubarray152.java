@@ -137,8 +137,8 @@ public class MaximumProductSubarray152 {
         if (nums == null || nums.length == 0) {
             return 0;
         }
-        int result = nums[0];
-        //两个mDP分别定义为以i结尾的子数组的最大积与最小积
+        int result = Integer.MIN_VALUE;
+        // 两个mDP分别定义为以i结尾的子数组的最大积与最小积
         int[] maxDP = new int[nums.length];
         int[] minDP = new int[nums.length];
         //初始化DP
@@ -149,8 +149,9 @@ public class MaximumProductSubarray152 {
             // 与i元素自己进行比较是为了处理i元素之前全都是0的情况
             maxDP[i] = max3(nums[i], maxDP[i - 1] * nums[i], minDP[i - 1] * nums[i]);
             minDP[i] = min3(nums[i], maxDP[i - 1] * nums[i], minDP[i - 1] * nums[i]);
-            //记录result
-            result = Math.max(result, maxDP[i]);
+        }
+        for (int max : maxDP) {
+            result = Math.max(result, max);
         }
         return result;
     }

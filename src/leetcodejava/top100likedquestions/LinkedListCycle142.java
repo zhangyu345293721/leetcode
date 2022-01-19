@@ -58,7 +58,7 @@ public class LinkedListCycle142 {
      * @return 环对象
      */
     public ListNode detectCycle(ListNode head) {
-        if (head == null) {
+        if (head == null || head.next == null) {
             return null;
         }
         ListNode slow = head, fast = head;

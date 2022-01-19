@@ -153,7 +153,9 @@ public class CoinChange322 {
             return 0;
         }
         int n = coins.length;
+        // 定义动态数组
         int[][] dp = new int[n + 1][amount + 1];
+        // 初始化数组
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= amount; j++) {
                 dp[i][j] = 10001;
@@ -162,6 +164,7 @@ public class CoinChange322 {
         for (int i = 0; i <= n; i++) {
             dp[i][0] = 0;
         }
+        // 状态转移方程
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= amount; j++) {
                 int w = coins[i - 1];

@@ -228,20 +228,38 @@ class MinStack155_4 {
         minStack.push(Integer.MAX_VALUE);
     }
 
+    /**
+     * 压入元素到栈中
+     *
+     * @param x 元素
+     */
     public void push(int x) {
         stack.push(x);
         minStack.push(Math.min(x, minStack.peek()));
     }
 
+    /**
+     * 弹出元素
+     */
     public void pop() {
         stack.pop();
         minStack.pop();
     }
 
+    /**
+     * 获取最上面元素
+     *
+     * @return 值
+     */
     public int top() {
         return stack.peek();
     }
 
+    /**
+     * 获取最小值
+     *
+     * @return 最小值
+     */
     public int getMin() {
         return minStack.peek();
     }

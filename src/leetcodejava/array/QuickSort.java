@@ -5,6 +5,9 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
+/**
+ * 快速排序
+ */
 public class QuickSort {
 
     @Test
@@ -33,6 +36,7 @@ public class QuickSort {
      * @param right 下标right
      */
     public void quickSort(int[] nums, int left, int right) {
+        // 退出条件，边界控制
         if (left >= right) {
             return;
         }

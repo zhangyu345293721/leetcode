@@ -195,9 +195,21 @@ class LRUCache146_2 {
     }
 
     class Node {
+        /**
+         * 链表的key值
+         */
         Integer key;
+        /**
+         * 链表的value值
+         */
         Integer value;
+        /**
+         * 链表的前驱节点
+         */
         Node prev;
+        /**
+         * 链表的后驱节点
+         */
         Node next;
 
         public Node() {
@@ -205,6 +217,12 @@ class LRUCache146_2 {
             this.next = null;
         }
 
+        /**
+         * 构造方法
+         *
+         * @param key   key值
+         * @param value value值
+         */
         public Node(Integer key, Integer value) {
             this.key = key;
             this.value = value;
