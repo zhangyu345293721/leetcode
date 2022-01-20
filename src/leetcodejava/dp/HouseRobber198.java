@@ -38,7 +38,7 @@ public class HouseRobber198 {
     @Test
     public void houseRobberTest() {
         int[] nums = {1, 1, 1};
-        int result = houseRobber(nums);
+        int result = houseRobber1(nums);
         Assert.assertEquals(result, 2);
     }
 
@@ -48,7 +48,7 @@ public class HouseRobber198 {
      * @param nums 数组
      * @return 钱数
      */
-    private int houseRobber(int[] nums) {
+    private int houseRobber1(int[] nums) {
         int n = nums.length;
         if (n == 0) {
             return 0;
@@ -78,32 +78,6 @@ public class HouseRobber198 {
      * @return 钱数
      */
     private int houseRobber2(int[] nums) {
-        if (nums == null || nums.length < 1) {
-            return 0;
-        }
-        if (nums.length == 1) {
-            return nums[0];
-        }
-        if (nums.length == 2) {
-            return Math.max(nums[0], nums[1]);
-        }
-        int preMax = 0, max = 0;
-        // 不断更新前置最大值和最大值
-        for (int num : nums) {
-            int tempMax = Math.max(preMax + num, max);
-            preMax = max;
-            max = tempMax;
-        }
-        return max;
-    }
-
-    /**
-     * 求总共钱数
-     *
-     * @param nums 数组
-     * @return 钱数
-     */
-    private int houseRobber3(int[] nums) {
         if (nums.length == 0) return 0;
         int n = nums.length;
         // dp[i][0]表示第i个物品没有选时的最⼤⾦额
