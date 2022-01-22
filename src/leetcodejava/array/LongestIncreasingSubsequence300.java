@@ -75,10 +75,13 @@ public class LongestIncreasingSubsequence300 {
             return 0;
         }
         int len = nums.length;
+        // 定义动态规划数组
         int[] dp = new int[len];
+        // 初始化数组
         for (int i = 0; i < len; i++) {
             dp[i] = 1;
         }
+        // 状态转移方程
         int maxLen = 1;
         for (int i = 0; i < len; i++) {
             for (int j = 0; j < i; j++) {

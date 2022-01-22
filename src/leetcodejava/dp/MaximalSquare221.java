@@ -106,7 +106,7 @@ public class MaximalSquare221 {
         }
         int maxSide = 0;
         int row = matrix.length, col = matrix[0].length;
-        // 定义数组
+        // 定义动态数组
         int[][] dp = new int[row][col];
         // 初始化数组 如果是在右上或者在左下部分直接为1
         for (int i = 0; i < row; i++) {

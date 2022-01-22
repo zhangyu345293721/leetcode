@@ -12,7 +12,8 @@ import java.util.Arrays;
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
- * 给你一个长度为 n 的整数数组 nums，其中 n > 1，返回输出数组 output ，其中 output[i] 等于 nums 中除 nums[i] 之外其余各元素的乘积。
+ * 给你一个长度为 n 的整数数组 nums，其中 n > 1，返回输出数组 output ，其中 output[i] 等于 nums 中除 
+ * nums[i] 之外其余各元素的乘积。
  * <p>
  * 示例:
  * <p>
@@ -57,7 +58,7 @@ public class ProductArrayExceptSelf238 {
         int len = nums.length;
         int[] result = new int[len];
         for (int i = 0; i < len; i++) {
-            result[i] *= val;
+            result[i] = val;
             val *= nums[i];
         }
         val = 1;
