@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * This is the solution of No.309 problem in the LeetCode,
  * the website of the problem is as follow:
- * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
+ * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================

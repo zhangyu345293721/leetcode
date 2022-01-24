@@ -50,42 +50,9 @@ public class FindAllAnagrams438 {
     public void findAllAnagramsTest() {
         String s = "baa";
         String p = "aa";
-        List<Integer> result = findAllAnagrams1(s, p);
+        List<Integer> result = findAllAnagrams(s, p);
         System.out.println(result);
         Assert.assertEquals((int) result.get(0), 1);
-    }
-
-    /**
-     * @param s 字符串s
-     * @param p 字符串p
-     * @return 链表
-     */
-    public List<Integer> findAnagrams2(String s, String p) {
-        List<Integer> result = new ArrayList<>();
-        int sl = s.length(), pl = p.length();
-        if (sl < pl) {
-            return result;
-        }
-        int[] pa = new int[26];
-        for (char c : p.toCharArray()) {
-            pa[c - 'a']++;
-        }
-        int[] sa = new int[26];
-        char[] sc = s.toCharArray();
-        for (int i = 0; i < pl; i++) {
-            sa[sc[i] - 'a']++;
-        }
-        if (isSame(sa, pa)) {
-            result.add(0);
-        }
-        for (int i = pl; i < sl; i++) {
-            sa[sc[i] - 'a']++;
-            sa[sc[i - pl] - 'a']--;
-            if (isSame(sa, pa)) {
-                result.add(i - pl + 1);
-            }
-        }
-        return result;
     }
 
     /**
@@ -105,13 +72,13 @@ public class FindAllAnagrams438 {
     }
 
     /**
-     * 不按照顺序获取所有下标
+     * 不按照顺序获取所有下标 （滑动窗口）
      *
      * @param s 字符串s
      * @param p 字符串p
      * @return 链表
      */
-    private List<Integer> findAllAnagrams1(String s, String p) {
+    private List<Integer> findAllAnagrams(String s, String p) {
         if (s == null || s.length() < 1) {
             return new ArrayList<>();
         }
@@ -126,6 +93,7 @@ public class FindAllAnagrams438 {
         }
         int[] chs = new int[26];
         int[] chp = new int[26];
+        // char数组
         for (char ch : p.toCharArray()) {
             chp[ch - 'a']++;
         }

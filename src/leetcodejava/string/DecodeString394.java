@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.Stack;
 
 /**
- * This is the solution of No. 394 problem in the LeetCode,
+ * This is the solution of No.394 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/decode-string
  * <p>
@@ -99,12 +99,12 @@ public class DecodeString394 {
         Stack<Integer> numStack = new Stack<>();
         Stack<String> strStack = new Stack<>();
         StringBuilder tail = new StringBuilder();
-        int length = s.length();
-        for (int i = 0; i < length; i++) {
+        int len = s.length();
+        for (int i = 0; i < len; i++) {
             char ch = s.charAt(i);
             if (Character.isDigit(ch)) {
                 int num = ch - '0';
-                while (i + 1 < length && Character.isDigit(s.charAt(i + 1))) {
+                while (i + 1 < len && Character.isDigit(s.charAt(i + 1))) {
                     num = num * 10 + s.charAt(i + 1) - '0';
                     i++;
                 }

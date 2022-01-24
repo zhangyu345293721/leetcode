@@ -48,10 +48,15 @@ public class ReconstructQueue406 {
      */
     private int[][] reconstructQueue(int[][] people) {
         Arrays.sort(people, (a, b) -> a[0] == b[0] ? a[1] - b[1] : b[0] - a[0]);
-        List<int[]> res = new LinkedList<>();
+        List<int[]> temp = new LinkedList<>();
         for (int[] cur : people) {
-            res.add(cur[1], cur);
+            temp.add(cur[1], cur);
         }
-        return res.toArray(new int[people.length][]);
+        int[][] result = new int[temp.size()][];
+        int index = 0;
+        for (int i = 0; i < temp.size(); i++) {
+            result[index++] = temp.get(i);
+        }
+        return result;
     }
 }

@@ -53,19 +53,19 @@ public class FindDisappearedNumbers448 {
      */
     private List<Integer> findDisappearedNumbers(int[] nums) {
         Set<Integer> set = new HashSet<>();
-        List<Integer> list = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
         if (nums == null || nums.length == 0) {
-            return list;
+            return result;
         }
         for (int num : nums) {
             set.add(num);
         }
         for (int i = 1; i <= nums.length; i++) {
             if (!set.contains(i)) {
-                list.add(i);
+                result.add(i);
             }
         }
-        return list;
+        return result;
     }
 
     /**
@@ -75,9 +75,9 @@ public class FindDisappearedNumbers448 {
      * @return 链表
      */
     private List<Integer> findDisappearedNumbers2(int[] nums) {
-        List<Integer> res = new ArrayList<>();
+        List<Integer> result = new ArrayList<>();
         if (nums == null || nums.length == 0) {
-            return res;
+            return result;
         }
         int n = nums.length;
         for (int num : nums) {    // 这是一种转换的技巧算法，非常实用，但是难以想到
@@ -88,9 +88,9 @@ public class FindDisappearedNumbers448 {
         }
         for (int i = 1; i <= n; i++) {
             if (nums[i - 1] > 0) {
-                res.add(i);
+                result.add(i);
             }
         }
-        return res;
+        return result;
     }
 }
