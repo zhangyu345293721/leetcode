@@ -1,4 +1,4 @@
-package leetcodejava.bfsdfs;
+package leetcodejava.dp;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -38,7 +38,7 @@ public class TargetSum494 {
     public void targetSumTest() {
         int[] nums = {100};
         int target = -200;
-        int result = findTargetSumWays3(nums, target);
+        int result = findTargetSumWays2(nums, target);
         System.out.println(result);
         Assert.assertEquals(result, 0);
     }
@@ -50,7 +50,7 @@ public class TargetSum494 {
      * @param S    数字
      * @return 目标值
      */
-    public int findTargetSumWays(int[] nums, int S) {
+    public int findTargetSumWays1(int[] nums, int S) {
         searchHelper(nums, 0, 0, S);
         return count;
     }
@@ -73,8 +73,6 @@ public class TargetSum494 {
             searchHelper(nums, sum - nums[index], index + 1, target);
         }
     }
-
-
     /**
      * 动态规划
      *
@@ -83,35 +81,6 @@ public class TargetSum494 {
      * @return 目标值
      */
     public int findTargetSumWays2(int[] nums, int S) {
-        if (S > 1000 || S < -1000) return 0;
-        int n = nums.length;
-        int offset = 1000;
-        int w = 2000;
-        int[][] dp = new int[n][w + 1];
-        dp[0][offset - nums[0]] += 1; // 因为nums[0]有可能为0
-        dp[0][offset + nums[0]] += 1;
-        for (int i = 1; i < n; ++i) {
-            for (int j = 0; j <= w; ++j) {
-                if (j - nums[i] >= 0 && j - nums[i] <= w) {
-                    dp[i][j] = dp[i - 1][j - nums[i]];
-                }
-                if (j + nums[i] >= 0 && j + nums[i] <= w) {
-                    dp[i][j] += dp[i - 1][j + nums[i]];
-                }
-            }
-        }
-        return dp[n - 1][S + 1000];
-    }
-
-
-    /**
-     * 动态规划
-     *
-     * @param nums 数组
-     * @param S    数字
-     * @return 目标值
-     */
-    public int findTargetSumWays3(int[] nums, int S) {
         int sum = 0;
         for (int num : nums) {
             sum += num;
@@ -119,20 +88,23 @@ public class TargetSum494 {
         if (sum < S || (sum + S) % 2 == 1) {
             return 0;
         }
-        int n = nums.length;
+        int N = nums.length;
         int W = (sum - S) / 2;
-        int[][] dp = new int[n + 1][W + 1];
+        // 初始化数组
+        int[][] dp = new int[N + 1][W + 1];
+        // 初始化数组
         dp[0][0] = 1;
-        for (int i = 1; i <= n; i++) {
+        // 状态转移
+        for (int i = 1; i <= N; i++) {
             int w = nums[i - 1];
             for (int j = 0; j <= W; j++) {
                 if (j >= w) {
-                    dp[i][j] = dp[i - 1][j] + dp[i - 1][j - w];
+                    dp[i][j] = dp[i - 1][j] + dp[i ][j - w];
                 } else {
                     dp[i][j] = dp[i - 1][j];
                 }
             }
         }
-        return dp[n][W];
+        return dp[N][W];
     }
 }
