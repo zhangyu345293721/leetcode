@@ -67,10 +67,10 @@ public class EditDistance72 {
         // 定义数组
         int[][] dp = new int[n + 1][m + 1];
         // 初始化数组
-        for (int i = 0; i < n + 1; i++) {
+        for (int i = 0; i <= n; i++) {
             dp[i][0] = i;
         }
-        for (int j = 0; j < m + 1; j++) {
+        for (int j = 0; j <= m; j++) {
             dp[0][j] = j;
         }
         // 状态转移方程

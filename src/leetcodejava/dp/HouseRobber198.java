@@ -39,6 +39,7 @@ public class HouseRobber198 {
     public void houseRobberTest() {
         int[] nums = {1, 1, 1};
         int result = houseRobber1(nums);
+        System.out.println(result);
         Assert.assertEquals(result, 2);
     }
 
@@ -49,6 +50,9 @@ public class HouseRobber198 {
      * @return 钱数
      */
     private int houseRobber1(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return 0;
+        }
         int n = nums.length;
         if (n == 0) {
             return 0;
@@ -78,7 +82,9 @@ public class HouseRobber198 {
      * @return 钱数
      */
     private int houseRobber2(int[] nums) {
-        if (nums.length == 0) return 0;
+        if (nums == null || nums.length == 0) {
+            return 0;
+        }
         int n = nums.length;
         // dp[i][0]表示第i个物品没有选时的最⼤⾦额
         // dp[i][1]表示第i个物品选择时的最⼤⾦额

@@ -109,7 +109,9 @@ public class WordBreak139 {
         int n = s.length();
         // dp[i]表示⻓度为i的字符串是可拆分的
         boolean[] dp = new boolean[n + 1];
+        // dp初始化数组
         dp[0] = true;
+        // 状态转移
         for (int i = 1; i <= n; i++) { //i表示⻓度
             for (String word : wordDict) { //⾛法
                 int len = word.length();

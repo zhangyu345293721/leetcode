@@ -132,6 +132,7 @@ public class GiftMaxValue47 {
         }
         int row = grid.length;
         int col = grid[0].length;
+        // 定义数组
         int[][] dp = new int[row][col];
         dp[0][0] = grid[0][0];
         // 初始化数组

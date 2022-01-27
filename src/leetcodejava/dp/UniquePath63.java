@@ -51,13 +51,13 @@ public class UniquePath63 {
      * @return 种类数
      */
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
-        if (obstacleGrid == null || obstacleGrid.length == 0) {
+        if (obstacleGrid == null || obstacleGrid.length == 0 || obstacleGrid[0].length < 1) {
             return 0;
         }
         // 定义 dp 数组并初始化第 1 行和第 1 列。
         int m = obstacleGrid.length, n = obstacleGrid[0].length;
         int[][] dp = new int[m][n];
-
+        // 初始化数组
         for (int i = 0; i < m && obstacleGrid[i][0] == 0; i++) {
             dp[i][0] = 1;
         }
@@ -113,7 +113,7 @@ public class UniquePath63 {
         if (i < 0 || i >= row || j < 0 || j >= col || visited[i][j] || obstacleGrid[i][j] != 0) {
             return;
         }
-        // 已经放问
+        // 已经访问
         visited[i][j] = true;
         searchHelper(obstacleGrid, i + 1, j, visited);
         searchHelper(obstacleGrid, i, j + 1, visited);
