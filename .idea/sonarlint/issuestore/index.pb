@@ -1056,8 +1056,6 @@ U
 V
 &src/leetcodejava/bfsdfs/Subsets78.java,2\c\2c15cdc75c41ad900c72d18ace386f0b2e1d3eb6
 Y
-)src/leetcodejava/bfsdfs/TargetSum494.java,a\4\a4963fe9e01d79690f74ba050cb969a5870f59ee
-Y
 )src/leetcodejava/bfsdfs/WordSearch79.java,4\3\43d7931dd69063a57b2db25b836d68347b4da2fa
 d
 4src/leetcodejava/slidewindow/FindAllAnagrams438.java,2\5\25b63e370123d6688dd237e46b49dc2e2fa6327e
@@ -1089,3 +1087,5 @@ b
 2src/leetcodejava/string/GenerateParentheses22.java,c\1\c1796ad2c66458754ba22f5cdf359752452ce991
 c
 3src/leetcodejava/dp/PartitionEqualSubsetSum416.java,8\a\8a166047795f9f95ae98a5c3ffed179485c34838
+U
+%src/leetcodejava/dp/TargetSum494.java,9\5\95871acb0ab912ccd73d366d4b936843f26e36ee

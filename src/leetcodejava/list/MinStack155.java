@@ -173,56 +173,12 @@ class MinStack155_2 {
     }
 }
 
+
 class MinStack155_3 {
-    private Node stack = null;
-
-    public MinStack155_3() {
-    }
-
-    public void push(int x) {
-        if (stack == null) {
-            stack = new Node(x, x);
-        } else {
-            stack = new Node(x, Math.min(x, stack.min), stack);
-        }
-    }
-
-    public void pop() {
-        stack = stack.next;
-    }
-
-    public int top() {
-        return stack.val;
-    }
-
-    public int getMin() {
-        return stack.min;
-    }
-
-    private class Node {
-        int val;
-        int min;
-        Node next;
-
-        public Node(int val, int min, Node next) {
-            this.val = val;
-            this.min = min;
-            this.next = next;
-        }
-
-        public Node(int val, int min) {
-            this.val = val;
-            this.next = null;
-            this.min = min;
-        }
-    }
-}
-
-class MinStack155_4 {
     private Stack<Integer> stack = null;
     private Stack<Integer> minStack = null;
 
-    public MinStack155_4() {
+    public MinStack155_3() {
         stack = new Stack<>();
         minStack = new Stack<>();
         minStack.push(Integer.MAX_VALUE);
