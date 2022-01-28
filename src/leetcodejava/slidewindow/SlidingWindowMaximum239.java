@@ -69,11 +69,11 @@ public class SlidingWindowMaximum239 {
      * @return list
      */
     private int[] slidingWindowMaximum(int[] nums, int k) {
-        if (nums.length < 1) {
+        if (nums == null || nums.length < 1) {
             return new int[0];
         }
         int len = nums.length;
-        int[] res = new int[len - k + 1];
+        int[] result = new int[len - k + 1];
         for (int i = 0; i < len - k + 1; i++) {
             int temp = i + k;
             int j = i;
@@ -82,9 +82,9 @@ public class SlidingWindowMaximum239 {
                 max = Math.max(max, nums[j]);
                 j++;
             }
-            res[i] = max;
+            result[i] = max;
         }
-        return res;
+        return result;
     }
 
     /**
@@ -95,7 +95,7 @@ public class SlidingWindowMaximum239 {
      * @return list
      */
     private int[] slidingWindowMaximum2(int[] nums, int k) {
-        if (nums.length < 1) {
+        if (nums == null || nums.length < 1) {
             return new int[0];
         }
         Deque<Integer> deque = new LinkedList<>();

@@ -12,14 +12,16 @@
     <bookmark url="file://$PROJECT_DIR$/src/leetcodepython/string/reverse_words_string_557.py" line="67" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: minStack.155 &amp;LRUCache.146">
+    <list default="true" id="4a6463ae-2b83-4990-80d0-831ea42da5b7" name="Default" comment="master: 动态规划复习">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e723a10060524060f4f4a8cec1482f3c53b3b60" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e723a10060524060f4f4a8cec1482f3c53b3b60" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31f958fee0f3cc243a8813ee979aee758881aa77" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31f958fee0f3cc243a8813ee979aee758881aa77" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/353ac4748f9fb04f243c18bf401badadf394b4c2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/353ac4748f9fb04f243c18bf401badadf394b4c2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b1a3bdf7c06ce8898cffbb80a57a7559b847718" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b1a3bdf7c06ce8898cffbb80a57a7559b847718" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bd5068f0c7653bc829764c226e49a91c15b7e6f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7bd5068f0c7653bc829764c226e49a91c15b7e6f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/dp/CuttingRopeOffer14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/CuttingRopeOffer14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/dp/EditDistance72.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/EditDistance72.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/dp/GiftMaxValue47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/GiftMaxValue47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/dp/HouseRobber198.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/HouseRobber198.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/dp/UniquePath63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/UniquePath63.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/slidewindow/LongestSubstringWithoutRepeatingCharacters3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/slidewindow/LongestSubstringWithoutRepeatingCharacters3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/slidewindow/MinimumWindowSubstring76.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/slidewindow/MinimumWindowSubstring76.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcodejava/slidewindow/SlidingWindowMaximum239.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcodejava/slidewindow/SlidingWindowMaximum239.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,46 +53,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/PerfectSquares279.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/SlidingWindowMaximum239.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+            <state relative-caret-position="439">
+              <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/TargetSumOffer57.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/TargetSum494.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/FindAllAnagrams438.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+            <state relative-caret-position="414">
+              <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/TranslateNumberOffer.java">
+        <entry file="jar://D:/install/javajdk/src.zip!/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-800">
-              <caret line="36" column="33" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="33" />
+            <state relative-caret-position="296">
+              <caret line="543" column="6" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/UniquePath62.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/MinimumWindowSubstring76.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="152" column="42" lean-forward="true" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
+            <state relative-caret-position="4089">
+              <caret line="181" column="35" lean-forward="true" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/UniquePath63.java">
+        <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/LongestSubstringWithoutRepeatingCharacters3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+            <state relative-caret-position="1014">
+              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -98,17 +109,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1161">
-              <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+            <state relative-caret-position="2875">
+              <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/CoinChange518.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1742">
-              <caret line="71" column="48" lean-forward="true" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+            <state relative-caret-position="3150">
+              <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -116,17 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/PartitionEqualSubsetSum416.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="152" column="56" lean-forward="true" selection-start-line="152" selection-start-column="56" selection-end-line="152" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/MinimumCostForTickets983.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-889">
-              <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+            <state relative-caret-position="3775">
+              <caret line="152" column="56" selection-start-line="152" selection-start-column="56" selection-end-line="152" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -134,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/MinimumPathSum64.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+            <state relative-caret-position="1175">
+              <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -219,9 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcodejava/array/FindFirstLastPosition34.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/CombinationSum39.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/top100likedquestions/TrappingRainWater42.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/Permutations46.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/string/GroupAnagrams49.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/MaximumSubarray53.java" />
@@ -247,7 +246,6 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/list/PalindromeLinkedList234.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/LowestCommonAncestorBinaryTree236.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/math/ProductArrayExceptSelf238.java" />
-        <option value="$PROJECT_DIR$/src/leetcodejava/slidewindow/SlidingWindowMaximum239.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/array/LongestIncreasingSubsequence300.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/dp/BestTimeBuy309.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/tree/HouseRobber337.java" />
@@ -270,6 +268,10 @@
         <option value="$PROJECT_DIR$/src/leetcodejava/dp/HouseRobber198.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/dp/UniquePath63.java" />
         <option value="$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/slidewindow/LongestSubstringWithoutRepeatingCharacters3.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/slidewindow/MinimumWindowSubstring76.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/slidewindow/SlidingWindowMaximum239.java" />
+        <option value="$PROJECT_DIR$/src/leetcodejava/slidewindow/TargetSumOffer57.java" />
       </list>
     </option>
   </component>
@@ -301,8 +303,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,42 +320,6 @@
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="dp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-              <item name="LRUCache146.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcodejava" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
@@ -495,6 +459,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -738,11 +704,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.TargetSum494.targetSumTest" />
-      <item itemvalue="Python.find_all_anagrams_438" />
-      <item itemvalue="Tomcat Server.mytomcat" />
       <item itemvalue="JUnit.CoinChange322.coinChangeTest" />
       <item itemvalue="JUnit.HouseRobber198.houseRobberTest" />
       <item itemvalue="JUnit.WordBreak139.wordBreakTest" />
+      <item itemvalue="Python.find_all_anagrams_438" />
+      <item itemvalue="Tomcat Server.mytomcat" />
     </list>
     <recent_temporary>
       <list>
@@ -1282,14 +1248,8 @@
       <workItem from="1642989532389" duration="1255000" />
       <workItem from="1643002202998" duration="3552000" />
       <workItem from="1643075133685" duration="5478000" />
-      <workItem from="1643196119294" duration="11725000" />
-    </task>
-    <task id="LOCAL-00258" summary="master:增加归并排序和快速排序代码">
-      <created>1631933177480</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1631933177481</updated>
+      <workItem from="1643196119294" duration="11922000" />
+      <workItem from="1643335070489" duration="3990000" />
     </task>
     <task id="LOCAL-00259" summary="master:增加模板前序，中序和后序遍历（非递归方式）">
       <created>1632730376147</created>
@@ -1627,7 +1587,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643270096912</updated>
     </task>
-    <option name="localTasksCounter" value="307" />
+    <task id="LOCAL-00307" summary="master: 动态规划复习">
+      <created>1643276666458</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1643276666458</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1663,7 +1630,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3383262000" />
+    <option name="totallyTimeSpent" value="3387449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1687,7 +1654,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.23929098" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49322918" visible="true" weight="0.19759825" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49322918" weight="0.19759825" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49839914" weight="0.37227073" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1782,7 +1749,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="master:修改题目更新题目752,1306,题目17.17" />
     <MESSAGE value="master:修改题目更新题目198,337,213,32" />
     <MESSAGE value="master:修改题目更新题目714,309" />
     <MESSAGE value="master:修改题目更新题目62,63,64,120" />
@@ -1807,7 +1773,8 @@
     <MESSAGE value="master: 338 &amp; 347 &amp; 394 &amp; 399 &amp;406 &amp; 416 &amp;437 &amp;438 &amp;448 &amp; 461" />
     <MESSAGE value="master: 494 &amp; 538 &amp;  543 &amp; 560 &amp; 581 &amp; 617 &amp; 621 &amp; 647 &amp; 739" />
     <MESSAGE value="master: minStack.155 &amp;LRUCache.146" />
-    <option name="LAST_COMMIT_MESSAGE" value="master: minStack.155 &amp;LRUCache.146" />
+    <MESSAGE value="master: 动态规划复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="master: 动态规划复习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2370,12 +2337,6 @@
           <option name="timeStamp" value="409" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcodejava/slidewindow/FindAllAnagrams438.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="410" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcodejava/tree/InvertBinaryTree226.java</url>
           <line>36</line>
           <properties />
@@ -2716,6 +2677,12 @@
           <line>41</line>
           <properties />
           <option name="timeStamp" value="538" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcodejava/slidewindow/FindAllAnagrams438.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="539" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/leetcodepython/string/di_string_match_942.py</url>
@@ -3120,44 +3087,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/tree/LowestCommonAncestorBinaryTree236.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/math/ProductArrayExceptSelf238.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/SlidingWindowMaximum239.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2825">
-          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/top100likedquestions/Search2D240.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/MoveZeroes283.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/array/FindDuplicateNumber287.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3100">
@@ -3197,13 +3126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="77" column="49" lean-forward="true" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/FindAllAnagrams438.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="106" column="38" selection-start-line="106" selection-start-column="38" selection-end-line="106" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -3428,66 +3350,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/MinimumPathSum64.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/PerfectSquares279.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="1200">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/PerfectSquares279.java">
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/TargetSum494.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+        <state relative-caret-position="2200">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/TranslateNumberOffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-800">
+        <state relative-caret-position="800">
           <caret line="36" column="33" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/UniquePath62.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="152" column="42" lean-forward="true" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
+        <state relative-caret-position="3700">
+          <caret line="152" column="42" selection-start-line="152" selection-start-column="42" selection-end-line="152" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/UniquePath63.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="129" column="7" lean-forward="true" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
+        <state relative-caret-position="3125">
+          <caret line="129" column="7" selection-start-line="129" selection-start-column="7" selection-end-line="129" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/WordBreak139.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="119" column="32" lean-forward="true" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/PartitionEqualSubsetSum416.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="152" column="56" lean-forward="true" selection-start-line="152" selection-start-column="56" selection-end-line="152" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/TargetSum494.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        <state relative-caret-position="2875">
+          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/CoinChange518.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1742">
-          <caret line="71" column="48" lean-forward="true" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
+        <state relative-caret-position="3150">
+          <caret line="127" column="9" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/PartitionEqualSubsetSum416.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3775">
+          <caret line="152" column="56" selection-start-line="152" selection-start-column="56" selection-end-line="152" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/dp/MinimumPathSum64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/LongestSubstringWithoutRepeatingCharacters3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/FindAllAnagrams438.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="100" column="22" selection-start-line="100" selection-start-column="22" selection-end-line="100" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/MinimumWindowSubstring76.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4089">
+          <caret line="181" column="35" lean-forward="true" selection-start-line="181" selection-start-column="35" selection-end-line="181" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/SlidingWindowMaximum239.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="108" column="13" lean-forward="true" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/install/javajdk/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="543" column="6" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcodejava/slidewindow/TargetSumOffer57.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="72" column="20" lean-forward="true" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
         </state>
       </provider>
     </entry>

@@ -60,15 +60,15 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
         }
         HashMap<Character, Integer> map = new HashMap<>();
         int left = 0;
-        int length = 0;
+        int result = 0;
         for (int i = 0; i < s.length(); i++) {
             if (map.containsKey(s.charAt(i))) {
                 left = Math.max(left, map.get(s.charAt(i)) + 1);
             }
             map.put(s.charAt(i), i);
-            length = Math.max(length, i - left + 1);
+            result = Math.max(result, i - left + 1);
         }
-        return length;
+        return result;
     }
 
     /**
@@ -103,7 +103,7 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
         if (s == null || s.length() < 1) {
             return 0;
         }
-        int res = 0;
+        int result = 0;
         int slow = 0;
         int[] lastAppear = new int[128];
         // 初始化map
@@ -117,8 +117,8 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
                 slow = Math.max(slow, lastAppear[cur] + 1);
             }
             lastAppear[cur] = fast;
-            res = Math.max(res, fast - slow + 1);
+            result = Math.max(result, fast - slow + 1);
         }
-        return res;
+        return result;
     }
 }
