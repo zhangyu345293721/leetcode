@@ -48,7 +48,7 @@ public class JumpGame55 {
      * @return 布尔值
      */
     private boolean jumpGame1(int[] nums) {
-        if (nums.length < 1) {
+        if (nums == null || nums.length < 1) {
             return true;
         }
         int n = nums.length;

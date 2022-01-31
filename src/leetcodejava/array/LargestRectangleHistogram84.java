@@ -72,19 +72,24 @@ public class LargestRectangleHistogram84 {
      * @return 面积
      */
     public int largestRectangleHistogram2(int[] heights) {
-        int maxArea = 0, n = heights.length;
+        if (heights == null || heights.length < 1) {
+            return 0;
+        }
+        int maxArea = 0;
+        int n = heights.length;
         // 遍历每个柱子，以当前柱子的高度作为矩形的高 h，
         // 从当前柱子向左右遍历，找到矩形的宽度 w。
         for (int i = 0; i < n; i++) {
-            int w = 1, h = heights[i], j = i;
-            while (--j >= 0 && heights[j] >= h) {
-                w++;
+            int wide = 1, height = heights[i];
+            int j = i;
+            while (--j >= 0 && heights[j] >= height) {
+                wide++;
             }
             j = i;
-            while (++j < n && heights[j] >= h) {
-                w++;
+            while (++j < n && heights[j] >= height) {
+                wide++;
             }
-            maxArea = Math.max(maxArea, w * h);
+            maxArea = Math.max(maxArea, wide * height);
         }
         return maxArea;
     }

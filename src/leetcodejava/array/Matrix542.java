@@ -89,8 +89,7 @@ public class Matrix542 {
                 for (int[] d : directions) {
                     int newX = x + d[0];
                     int newY = y + d[1];
-                    if (newX >= 0 && newX < m && newY >= 0 && newY < n
-                            && !visited[newX][newY]) {
+                    if (newX >= 0 && newX < m && newY >= 0 && newY < n && !visited[newX][newY]) {
                         matrix[newX][newY] = matrix[x][y] + 1;
                         queue.offer(new int[]{newX, newY});
                         visited[newX][newY] = true;

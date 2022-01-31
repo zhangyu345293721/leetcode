@@ -54,7 +54,7 @@ public class KthLargestElement215 {
      * @param k    个数
      * @return 数字
      */
-    private int kthLargestElement(int[] nums, int k) {
+    private int kthLargestElement1(int[] nums, int k) {
         Queue<Integer> queue = new PriorityQueue<>();
         for (int num : nums) {
             queue.add(num);
@@ -163,14 +163,14 @@ public class KthLargestElement215 {
      * @return 最大值
      */
     private int kthLargestElement3(int[] nums, int k) {
-        PriorityQueue<Integer> priority = new PriorityQueue<>(k + 1);
+        PriorityQueue<Integer> queue = new PriorityQueue<>(k + 1);
         for (int num : nums) {
-            priority.add(num);
-            if (priority.size() > k) {
-                priority.poll();
+            queue.add(num);
+            if (queue.size() > k) {
+                queue.poll();
             }
         }
-        return priority.poll();
+        return queue.peek();
     }
 }
 

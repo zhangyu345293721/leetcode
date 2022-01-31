@@ -81,25 +81,25 @@ public class JumpGame1306 {
     /**
      * 深度优先遍历
      *
-     * @param arr 数组
-     * @param i   下标
+     * @param nums 数组
+     * @param i    下标
      */
-    public void searchHelper(int[] arr, int i) {
-        if (arr[i] == 0) {
+    public void searchHelper(int[] nums, int i) {
+        if (nums[i] == 0) {
             result = true;
         }
-        int len = arr.length;
+        int len = nums.length;
         // 向左边跳
-        int curLeft = i - arr[i];
+        int curLeft = i - nums[i];
         if (curLeft >= 0 && curLeft < len && !visited[curLeft]) {
             visited[curLeft] = true;
-            searchHelper(arr, curLeft);
+            searchHelper(nums, curLeft);
         }
         // 向右边跳
-        int curRight = i + arr[i];
+        int curRight = i + nums[i];
         if (curRight >= 0 && curRight < len && !visited[curRight]) {
             visited[curRight] = true;
-            searchHelper(arr, curRight);
+            searchHelper(nums, curRight);
         }
     }
 }
