@@ -52,11 +52,11 @@ public class MergeSortArray4 {
      */
     public double findMedianSortedArrays1(int[] nums1, int nums2[]) {
         int[] nums = getMergedArray(nums1, nums2);
-        int length = nums.length;
+        int len = nums.length;
         if (nums.length % 2 == 0) {
-            return (nums[length / 2] + nums[length / 2 - 1]) / 2.0;
+            return (nums[len / 2] + nums[len / 2 - 1]) / 2.0;
         } else {
-            return nums[length / 2];
+            return nums[len / 2];
         }
     }
 
@@ -74,12 +74,12 @@ public class MergeSortArray4 {
         if (nums2 == null || nums2.length < 1) {
             return nums1;
         }
-        int length1 = nums1.length;
-        int length2 = nums2.length;
-        int[] nums = new int[length1 + length2];
+        int len1 = nums1.length;
+        int len2 = nums2.length;
+        int[] nums = new int[len1 + len2];
         int i = 0, j = 0;
         int index = 0;
-        while (i < length1 && j < length2) {
+        while (i < len1 && j < len2) {
             if (nums1[i] <= nums2[j]) {
                 nums[index] = nums1[i++];
             } else {
@@ -87,15 +87,11 @@ public class MergeSortArray4 {
             }
             index++;
         }
-        if (i == length1) {
-            while (j < length2) {
-                nums[index++] = nums2[j++];
-            }
+        while (j < len2) {
+            nums[index++] = nums2[j++];
         }
-        if (j == length2) {
-            while (i < length1) {
-                nums[index++] = nums1[i++];
-            }
+        while (i < len1) {
+            nums[index++] = nums1[i++];
         }
         return nums;
     }
