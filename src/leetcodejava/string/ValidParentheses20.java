@@ -3,8 +3,7 @@ package leetcodejava.string;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Deque;
-import java.util.LinkedList;
+import java.util.Stack;
 
 /**
  * This is the solution of No. 20 problem in the LeetCode,
@@ -69,7 +68,7 @@ public class ValidParentheses20 {
         if (s.length() % 2 == 0) {
             return false;
         }
-        Deque<Character> stack = new LinkedList<>();
+        Stack<Character> stack = new Stack<>();
         for (char ch : s.toCharArray()) {
             if (ch == '{' || ch == '(' || ch == '[') {
                 stack.push(ch);
@@ -97,7 +96,7 @@ public class ValidParentheses20 {
      * @return 布尔值
      */
     public boolean isValid2(String s) {
-        Deque<Character> stack = new LinkedList<>();
+        Stack<Character> stack = new Stack<>();
         for (char ch : s.toCharArray()) {
             if (ch == '{') {
                 stack.push('}');

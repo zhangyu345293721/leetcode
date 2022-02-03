@@ -80,16 +80,16 @@ public class LargestRectangleHistogram84 {
         // 遍历每个柱子，以当前柱子的高度作为矩形的高 h，
         // 从当前柱子向左右遍历，找到矩形的宽度 w。
         for (int i = 0; i < n; i++) {
-            int wide = 1, height = heights[i];
+            int width = 1, height = heights[i];
             int j = i;
             while (--j >= 0 && heights[j] >= height) {
-                wide++;
+                width++;
             }
             j = i;
             while (++j < n && heights[j] >= height) {
-                wide++;
+                width++;
             }
-            maxArea = Math.max(maxArea, wide * height);
+            maxArea = Math.max(maxArea, width * height);
         }
         return maxArea;
     }

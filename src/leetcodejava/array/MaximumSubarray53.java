@@ -94,9 +94,7 @@ public class MaximumSubarray53 {
                 sum = 0;
             }
             sum += nums[i];
-            if (sum > result) {
-                result = sum;
-            }
+            result = Math.max(result, sum);
         }
         return result;
     }

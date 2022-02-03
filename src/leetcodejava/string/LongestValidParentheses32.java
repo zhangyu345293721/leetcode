@@ -48,6 +48,37 @@ public class LongestValidParentheses32 {
      * @param s 输入字符串
      * @return 最长数
      */
+    public int longestValidParentheses1(String s) {
+        if (s == null || s.length() < 1) {
+            return 0;
+        }
+        int max = 0;
+        Stack<Integer> stack = new Stack<>();
+        stack.push(-1);
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                stack.push(i);
+            } else {
+                // 出栈
+                stack.pop();
+                // 看栈顶是否为空，为空的话就不能作差了
+                if (stack.empty()) {
+                    stack.push(i);
+                } else {
+                    // i - 栈顶，获得档期有效括号长度
+                    max = Math.max(max, i - stack.peek());
+                }
+            }
+        }
+        return max;
+    }
+
+    /**
+     * 最长有效括号
+     *
+     * @param s 输入字符串
+     * @return 最长数
+     */
     public int longestValidParentheses2(String s) {
         if (s == null || s.length() < 1) {
             return 0;
@@ -81,11 +112,11 @@ public class LongestValidParentheses32 {
      * @param s 输入字符串
      * @return 最长数
      */
-    public int longestValidParentheses(String s) {
+    public int longestValidParentheses3(String s) {
         if (s == null || s.length() < 1) {
             return 0;
         }
-        int left = 0, right = 0, maxlength = 0;
+        int left = 0, right = 0, maxlen = 0;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
                 left++;
@@ -93,7 +124,7 @@ public class LongestValidParentheses32 {
                 right++;
             }
             if (left == right) {
-                maxlength = Math.max(maxlength, 2 * right);
+                maxlen = Math.max(maxlen, 2 * right);
             } else if (right > left) {
                 left = right = 0;
             }
@@ -106,84 +137,11 @@ public class LongestValidParentheses32 {
                 right++;
             }
             if (left == right) {
-                maxlength = Math.max(maxlength, 2 * left);
+                maxlen = Math.max(maxlen, 2 * left);
             } else if (left > right) {
                 left = right = 0;
             }
         }
-        return maxlength;
+        return maxlen;
     }
-
-    /**
-     * 最长有效括号
-     *
-     * @param s 输入字符串
-     * @return 最长数
-     */
-    public int longestValidParentheses3(String s) {
-        int maxLen = 0;
-        for (int i = 0; i < s.length(); i++) {
-            for (int j = i + 2; j <= s.length(); j += 2) {
-                String sub = s.substring(i, j);
-                if (isValid(sub)) {
-                    maxLen = Math.max(maxLen, j - i);
-                }
-            }
-        }
-        return maxLen;
-    }
-
-    /**
-     * 判断字符串是不是合法字符串
-     *
-     * @param subStr 子字符串
-     * @return 布尔值
-     */
-    public boolean isValid(String subStr) {
-        Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < subStr.length(); i++) {
-            if (subStr.charAt(i) == '(') {
-                stack.push('(');
-            } else {
-                if (!stack.empty() && stack.peek() == '(') {
-                    stack.pop();
-                } else {
-                    return false;
-                }
-            }
-        }
-        return stack.empty();
-    }
-
-    /**
-     * 最长有效括号
-     *
-     * @param s 输入字符串
-     * @return 最长数
-     */
-    public int longestValidParentheses1(String s) {
-        if (s == null || s.length() < 1) {
-            return 0;
-        }
-        int max = 0;
-        Stack<Integer> stack = new Stack<>();
-        stack.push(-1);
-        for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '(') {
-                stack.push(i);
-            } else {
-                // 出栈
-                stack.pop();
-                // 看栈顶是否为空，为空的话就不能作差了
-                if (stack.empty()) {
-                    stack.push(i);
-                } else {
-                    // i - 栈顶，获得档期有效括号长度
-                    max = Math.max(max, i - stack.peek());
-                }
-            }
-        }
-        return max;
-    }
-
 }

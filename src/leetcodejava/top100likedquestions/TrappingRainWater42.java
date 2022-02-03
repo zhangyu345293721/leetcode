@@ -11,7 +11,8 @@ import org.junit.Test;
  * The description of problem is as follow:
  * ==========================================================================================================
  * 给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
- * 上面是由数组 [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图，在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。 感谢 Marcos 贡献此图。
+ * 上面是由数组 [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图，在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。 
+ * 感谢 Marcos 贡献此图。
  * <p>
  * 示例:
  * 输入: [0,1,0,2,1,0,1,3,2,1,2,1]
@@ -25,7 +26,7 @@ public class TrappingRainWater42 {
     @Test
     public void trappingRainWaterTest() {
         int height[] = {1, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-        int result = trappingRainWater(height);
+        int result = trappingRainWater3(height);
         Assert.assertEquals(result, 6);
     }
 
@@ -35,7 +36,7 @@ public class TrappingRainWater42 {
      * @param height 数组
      * @return 多少水
      */
-    private int trappingRainWater(int[] height) {
+    private int trappingRainWater1(int[] height) {
         if (height == null || height.length < 3) {
             return 0;
         }
@@ -96,7 +97,7 @@ public class TrappingRainWater42 {
         int[] leftArr = new int[len];
         int[] rightArr = new int[len];
         int max = 0;
-        int res = 0;
+        int result = 0;
         for (int i = 0; i < len; i++) {
             leftArr[i] = Math.max(max, height[i]);
             max = leftArr[i];
@@ -109,8 +110,8 @@ public class TrappingRainWater42 {
 
         for (int i = 0; i < len; i++) {
             int water = Math.min(leftArr[i], rightArr[i]) - height[i];
-            res += water > 0 ? water : 0;
+            result += water > 0 ? water : 0;
         }
-        return res;
+        return result;
     }
 }

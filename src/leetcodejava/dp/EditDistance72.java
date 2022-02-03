@@ -97,10 +97,10 @@ public class EditDistance72 {
      */
     public int minDistance2(String word1, String word2) {
         if (word1 == null || word1.length() < 1) {
-            return 0;
+            return word2.length();
         }
         if (word2 == null || word2.length() < 1) {
-            return 0;
+            return word1.length();
         }
         int n = word1.length();
         int m = word2.length();
@@ -132,12 +132,12 @@ public class EditDistance72 {
     /**
      * 获取三个数的最小值
      *
-     * @param n1 数值n1
-     * @param n2 数值n2
-     * @param n3 数值n3
+     * @param a 数值a
+     * @param b 数值b
+     * @param c 数值c
      * @return 最小数
      */
-    private int min3(int n1, int n2, int n3) {
-        return Math.min(n1, Math.min(n2, n3));
+    private int min3(int a, int b, int c) {
+        return Math.min(a, Math.min(b, c));
     }
 }

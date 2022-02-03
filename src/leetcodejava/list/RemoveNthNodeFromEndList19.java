@@ -56,11 +56,12 @@ public class RemoveNthNodeFromEndList19 {
         }
         ListNode dummy = new ListNode(-1);
         dummy.next = head;
-        ListNode p1 = dummy, p2 = dummy;
+        ListNode p1 = dummy;
+        ListNode p2 = head;
         for (int i = 0; i < n; ++i) {
             p2 = p2.next;
         }
-        while (p2.next != null) {
+        while (p2 != null) {
             p1 = p1.next;
             p2 = p2.next;
         }

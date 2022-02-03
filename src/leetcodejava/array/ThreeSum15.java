@@ -44,7 +44,7 @@ public class ThreeSum15 {
     }
 
     /**
-     * 三个值相加
+     * 三个值相加和等于固定数
      *
      * @param nums 数组
      * @return 返回list

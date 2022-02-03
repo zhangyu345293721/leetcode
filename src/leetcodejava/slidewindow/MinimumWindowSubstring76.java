@@ -73,24 +73,6 @@ public class MinimumWindowSubstring76 {
     }
 
     /**
-     * 获取字符串
-     *
-     * @param str 字符串
-     * @return 数组
-     */
-    public int[] getNums(String str) {
-        if (str == null || str.length() < 1) {
-            return new int[128];
-        }
-        int[] nums = new int[128];
-        for (char ch : str.toCharArray()) {
-            nums[ch - 'A']++;
-        }
-        return nums;
-    }
-
-
-    /**
      * 检查该字符是否包含
      *
      * @param nums1 数字数组1
@@ -189,5 +171,22 @@ public class MinimumWindowSubstring76 {
             }
         }
         return s.substring(resLeft, resRight);
+    }
+
+    /**
+     * 获取字符串
+     *
+     * @param str 字符串
+     * @return 数组
+     */
+    public int[] getNums(String str) {
+        if (str == null || str.length() < 1) {
+            return new int[128];
+        }
+        int[] nums = new int[128];
+        for (char ch : str.toCharArray()) {
+            nums[ch - 'A']++;
+        }
+        return nums;
     }
 }

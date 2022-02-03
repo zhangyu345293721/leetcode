@@ -40,7 +40,7 @@ public class Permutations46 {
     @Test
     public void permutationsTest() {
         int[] nums = {1, 2, 3};
-        List<List<Integer>> result = permute(nums);
+        List<List<Integer>> result = permute1(nums);
         System.out.println(result);
         Assert.assertEquals(result.size(), 6);
     }
@@ -51,7 +51,7 @@ public class Permutations46 {
      * @param nums 数组
      * @return result
      */
-    public List<List<Integer>> permute(int[] nums) {
+    public List<List<Integer>> permute1(int[] nums) {
         if (nums == null || nums.length < 1) {
             return new ArrayList();
         }

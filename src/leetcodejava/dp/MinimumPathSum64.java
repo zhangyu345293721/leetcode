@@ -91,9 +91,12 @@ public class MinimumPathSum64 {
         if (grid == null || grid.length < 1) {
             return 0;
         }
+        // 定义数组
         int[] dp = new int[grid[0].length];
+        // 初始化数组
         Arrays.fill(dp, Integer.MAX_VALUE);
         dp[0] = 0;
+        // 状态转移
         for (int i = 0; i < grid.length; i++) {
             dp[0] = dp[0] + grid[i][0];
             for (int j = 1; j < grid[i].length; j++) {
