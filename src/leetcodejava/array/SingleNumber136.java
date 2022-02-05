@@ -71,10 +71,10 @@ public class SingleNumber136 {
         if (nums == null || nums.length < 1) {
             return Integer.MIN_VALUE;
         }
-        int singleNumber = nums[0];
+        int single = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            singleNumber ^= nums[i];
+            single ^= nums[i];
         }
-        return singleNumber;
+        return single;
     }
 }

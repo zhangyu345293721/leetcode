@@ -46,7 +46,7 @@ public class LinkedListCycle142 {
     @Test
     public void linkedListCycleTest() {
         ListNode nodes = ListNode.createListNode(Arrays.asList(1, 2, 2, 3, 4));
-        ListNode result = detectCycle(nodes);
+        ListNode result = detectCycle1(nodes);
         System.out.println(result);
         Assert.assertEquals(result, null);
     }
@@ -57,7 +57,7 @@ public class LinkedListCycle142 {
      * @param head 头指针
      * @return 环对象
      */
-    public ListNode detectCycle(ListNode head) {
+    public ListNode detectCycle1(ListNode head) {
         if (head == null || head.next == null) {
             return null;
         }
@@ -109,6 +109,7 @@ public class LinkedListCycle142 {
         }
         return null;
     }
+
     /**
      * 找出链表中的环,利用hashSet
      *
@@ -119,14 +120,14 @@ public class LinkedListCycle142 {
         if (head == null) {
             return null;
         }
-        ListNode cur = head;
+        ListNode p = head;
         Set<ListNode> set = new HashSet<>();
-        while (cur != null) {
-            if (set.contains(cur)) {
-                return cur;
+        while (p != null) {
+            if (set.contains(p)) {
+                return p;
             }
-            set.add(cur);
-            cur = cur.next;
+            set.add(p);
+            p = p.next;
         }
         return null;
     }

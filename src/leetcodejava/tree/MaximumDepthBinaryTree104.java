@@ -51,12 +51,12 @@ public class MaximumDepthBinaryTree104 {
      * @param root 根节点
      * @return 最大深度
      */
-    public int maxDepth(TreeNode root) {
+    public int maxDepth1(TreeNode root) {
         if (root == null) {
             return 0;
         }
-        int leftHeight = maxDepth(root.left);
-        int rightHeight = maxDepth(root.right);
+        int leftHeight = maxDepth1(root.left);
+        int rightHeight = maxDepth1(root.right);
         // 一般的二叉树，都用用到递归的方法
         return Math.max(leftHeight, rightHeight) + 1;
     }
@@ -69,20 +69,20 @@ public class MaximumDepthBinaryTree104 {
      */
     public int maxDepth2(TreeNode root) {
         // 利用链表的方式，存储键值对
-        LinkedList<NodePair> stack = new LinkedList<>();
+        LinkedList<NodePair> queue = new LinkedList<>();
         if (root != null) {
-            stack.add(new NodePair(root, 1));
+            queue.add(new NodePair(root, 1));
         }
         int maxDepth = 0;
-        while (!stack.isEmpty()) {
-            NodePair current = stack.pop();
+        while (!queue.isEmpty()) {
+            NodePair current = queue.pop();
             root = current.node;
             int currentDepth = current.currentDepth;
             if (root.left != null) {
-                stack.add(new NodePair(root.left, currentDepth + 1));
+                queue.add(new NodePair(root.left, currentDepth + 1));
             }
             if (root.right != null) {
-                stack.add(new NodePair(root.right, currentDepth + 1));
+                queue.add(new NodePair(root.right, currentDepth + 1));
             }
             maxDepth = Math.max(maxDepth, currentDepth);
         }

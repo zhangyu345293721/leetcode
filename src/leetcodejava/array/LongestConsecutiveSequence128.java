@@ -51,7 +51,7 @@ public class LongestConsecutiveSequence128 {
             return nums.length;
         }
         Arrays.sort(nums);
-        int maxLength = 1;
+        int maxLen = 1;
         int count = 1;
         for (int i = 0; i < nums.length - 1; i++) {
             if (nums[i] + 1 == nums[i + 1]) {
@@ -61,9 +61,9 @@ public class LongestConsecutiveSequence128 {
                     count = 1;
                 }
             }
-            maxLength = Math.max(count, maxLength);
+            maxLen = Math.max(count, maxLen);
         }
-        return maxLength;
+        return maxLen;
     }
 
     /**
