@@ -41,39 +41,20 @@ public class DailyTemperatures739 {
     }
 
     /**
-     * 生成温度数组
+     * 生成温度变化数组(利用单调栈)
      *
-     * @param T 温度数组
+     * @param temperatures 温度数组
      * @return 变化数组
      */
-    public int[] dailyTemperatures(int[] T) {
-        for (int i = 0; i < T.length; i++) {
-            boolean flag = true;
-            for (int j = i + 1; j < T.length; j++) {
-                if (T[j] > T[i]) {
-                    T[i] = j - i;
-                    flag = false;
-                    break;
-                }
-            }
-            if (flag) {
-                T[i] = 0;
-            }
+    public int[] dailyTemperatures(int[] temperatures) {
+        if (temperatures == null || temperatures.length < 1) {
+            return temperatures;
         }
-        return T;
-    }
-
-    /**
-     * 生成温度变化数组
-     *
-     * @param T 温度数组
-     * @return 变化数组
-     */
-    public int[] dailyTemperatures2(int[] T) {
         Deque<Integer> stack = new LinkedList<>();
-        int[] result = new int[T.length];
-        for (int i = 0; i < T.length; ++i) {
-            while (!stack.isEmpty() && T[i] > T[stack.peek()]) {
+        int n = temperatures.length;
+        int[] result = new int[n];
+        for (int i = 0; i < n; ++i) {
+            while (!stack.isEmpty() && temperatures[i] > temperatures[stack.peek()]) {
                 int temp = stack.pop();
                 result[temp] = i - temp;
             }

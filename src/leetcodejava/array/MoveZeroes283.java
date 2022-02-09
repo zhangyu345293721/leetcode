@@ -54,4 +54,34 @@ public class MoveZeroes283 {
             nums[j] = 0;
         }
     }
+
+    /**
+     * 移动数组将非0的地方不变，后面的地方覆盖0
+     *
+     * @param nums 数组
+     */
+    private void moveZeroes2(int[] nums) {
+        if (nums == null || nums.length < 1) {
+            return;
+        }
+        int index = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 0) {
+                swap(nums, index++, i);
+            }
+        }
+    }
+
+    /**
+     * 交换两个元素的位置
+     *
+     * @param nums 数组
+     * @param i    位置i
+     * @param j    位置j
+     */
+    public void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
 }

@@ -42,6 +42,7 @@ public class PalindromicSubstrings647 {
     }
 
     int num = 0;
+
     /**
      * 统一个字符串的子字符串有多少回文串
      *
@@ -49,9 +50,12 @@ public class PalindromicSubstrings647 {
      * @return 回文串个数
      */
     public int countSubstrings(String s) {
+        if (s == null || s.length() < 1) {
+            return 0;
+        }
         for (int i = 0; i < s.length(); i++) {
-            count(s, i, i); //回文串长度为奇数
-            count(s, i, i + 1);//回文串长度为偶数
+            count(s, i, i);            // 回文串长度为奇数
+            count(s, i, i + 1);   // 回文串长度为偶数
         }
         return num;
     }

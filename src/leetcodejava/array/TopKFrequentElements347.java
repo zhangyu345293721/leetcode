@@ -102,7 +102,7 @@ public class TopKFrequentElements347 {
      * @return 链表
      */
     public int[] topKFrequent3(int[] nums, int k) {
-        if (nums.length == 0) {
+        if (nums == null ||nums.length == 0) {
             return new int[]{};
         }
         // 计算出现次数

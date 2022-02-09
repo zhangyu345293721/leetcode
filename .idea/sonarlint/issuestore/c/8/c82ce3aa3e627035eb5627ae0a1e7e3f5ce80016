@@ -1,7 +1,8 @@
 
+nsquid:S1149e"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(«ïÃ¤8Ñ×ŞÛ.
 usquid:S37761"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(“æÀüÿÿÿÿ8ôñÄœŠ.
-\squid:S2130D"9Use "Integer.parseInt" for this string-to-int conversion.(’Ô·ëÿÿÿÿÿ8ôñÄœŠ.
-=squid:S16596"Declare "n" on a separate line.(»ã£8ôñÄœŠ.
-nsquid:S1149c"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¾â–ä8Ò·’šñ.
-‹ squid:ForLoopCounterChangedCheckm"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8»·—ßÛ.
-nsquid:S1149d"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(«ïÃ¤8Ñ×ŞÛ.
+‚squid:S1149f"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(Ÿ¼’„şÿÿÿÿ8„’½ãí/
+\squid:S2130E"9Use "Integer.parseInt" for this string-to-int conversion.(’Ô·ëÿÿÿÿÿ8ôñÄœŠ.
+‹ squid:ForLoopCounterChangedCheckn"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8»·—ßÛ.
+nsquid:S1149d"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¾â–ä8Ò·’šñ.
+}squid:S1149u"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".( ’¸Ñ8„’½ãí/

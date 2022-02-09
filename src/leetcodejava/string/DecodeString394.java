@@ -51,7 +51,8 @@ public class DecodeString394 {
             return s;
         }
         char[] t = s.toCharArray();
-        int i = 0, n = s.length();
+        int i = 0;
+        int n = s.length();
         StringBuilder sb = new StringBuilder();
         while (i < n) {
             // 找到"["的位置
@@ -93,12 +94,12 @@ public class DecodeString394 {
      * @return 解析后字符串
      */
     public String decodeString2(String s) {
-        if (s.indexOf('[') == -1 || s.indexOf(']') == -1) {
+        if (!s.contains("[") || !s.contains("]")) {
             return s;
         }
         Stack<Integer> numStack = new Stack<>();
         Stack<String> strStack = new Stack<>();
-        StringBuilder tail = new StringBuilder();
+        StringBuffer tail = new StringBuffer();
         int len = s.length();
         for (int i = 0; i < len; i++) {
             char ch = s.charAt(i);
@@ -111,9 +112,9 @@ public class DecodeString394 {
                 numStack.add(num);
             } else if (ch == '[') {
                 strStack.push(tail.toString());
-                tail = new StringBuilder();
+                tail = new StringBuffer();
             } else if (ch == ']') {
-                StringBuilder temp = new StringBuilder(strStack.pop());
+                StringBuffer temp = new StringBuffer(strStack.pop());
                 int times = numStack.pop();
                 for (int j = 0; j < times; j++) {
                     temp.append(tail);

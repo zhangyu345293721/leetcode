@@ -80,6 +80,15 @@ public class SerializeDeserializeBinaryTree297 {
         return root.left;
     }
 
+    /**
+     * 重构二叉树
+     *
+     * @param root  二叉树
+     * @param tag   tag
+     * @param s     字符串
+     * @param start 开始位置
+     * @return 数量
+     */
     public int rebuild(TreeNode root, int tag, String s, int start) {
         int length = s.length();
         int index = start;

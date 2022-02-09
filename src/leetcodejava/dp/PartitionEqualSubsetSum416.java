@@ -126,7 +126,7 @@ public class PartitionEqualSubsetSum416 {
         }
         int sum = 0;
         for (int i = 0; i < nums.length; i++) {
-            sum = sum + nums[i];
+            sum += nums[i];
         }
         // 如果不能被2整除，则直接返回false
         if (sum % 2 != 0) {

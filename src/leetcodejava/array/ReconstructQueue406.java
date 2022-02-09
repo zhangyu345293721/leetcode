@@ -47,6 +47,9 @@ public class ReconstructQueue406 {
      * @return 数组
      */
     private int[][] reconstructQueue(int[][] people) {
+        if (people == null || people.length < 1) {
+            return people;
+        }
         Arrays.sort(people, (a, b) -> a[0] == b[0] ? a[1] - b[1] : b[0] - a[0]);
         List<int[]> temp = new LinkedList<>();
         for (int[] cur : people) {

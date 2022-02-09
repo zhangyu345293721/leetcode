@@ -3,8 +3,6 @@ package leetcodejava.dp;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Arrays;
-
 /**
  * This is the solution of No.279 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -49,7 +47,9 @@ public class PerfectSquares279 {
         // 定义数组，并初始化数组
         int[] dp = new int[n + 1];
         // 初始化数组
-        Arrays.fill(dp, Integer.MAX_VALUE);
+        for (int i = 0; i <= n; i++) {
+            dp[i] = Integer.MAX_VALUE;
+        }
         for (int i = 0; i * i <= n; i++) {
             dp[i * i] = 1;
         }

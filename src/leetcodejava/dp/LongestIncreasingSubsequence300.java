@@ -1,4 +1,4 @@
-package leetcodejava.array;
+package leetcodejava.dp;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -88,8 +88,11 @@ public class LongestIncreasingSubsequence300 {
                 if (nums[j] < nums[i]) {
                     dp[i] = Math.max(dp[i], dp[j] + 1);
                 }
-                maxLen = Math.max(maxLen, dp[i]);
             }
+        }
+        // 找到最大值
+        for (int num : dp) {
+            maxLen = Math.max(maxLen, num);
         }
         return maxLen;
     }

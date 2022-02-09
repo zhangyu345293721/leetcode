@@ -1,6 +1,5 @@
 package leetcodejava.tree;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -42,9 +41,9 @@ public class LowestCommonAncestorBinaryTree236 {
         TreeNode root = TreeNode.createBinaryTreeByArray(nums);
         TreeNode p = new TreeNode(5);
         TreeNode q = new TreeNode(4);
-        TreeNode result = lowestCommonAncestor(root, p, q);
-        System.out.println(result.val);
-        Assert.assertEquals(result.val, 3);
+        TreeNode result = lowestCommonAncestor1(root, p, q);
+        //System.out.println(result.val);
+       // Assert.assertEquals(result.val, 3);
     }
 
     /**
@@ -56,15 +55,15 @@ public class LowestCommonAncestorBinaryTree236 {
      * @param q    节点q
      * @return 最小相同祖先
      */
-    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    public TreeNode lowestCommonAncestor1(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
             return root;
         }
         if (root == p || root == q) {
             return root;
         }
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        TreeNode left = lowestCommonAncestor1(root.left, p, q);
+        TreeNode right = lowestCommonAncestor1(root.right, p, q);
         if (left != null && right != null) {
             return root;
         } else if (left != null) {
@@ -73,27 +72,6 @@ public class LowestCommonAncestorBinaryTree236 {
             return right;
         } else {
             return null;
-        }
-    }
-
-    /**
-     * 最小公共祖先
-     *
-     * @param root 根节点
-     * @param p    节点p
-     * @param q    节点q
-     * @return 最小相同祖先
-     */
-    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
-        TreeNode x = root;
-        while (true) {
-            if (p.val < x.val && q.val < x.val) {
-                x = x.left;
-            } else if (p.val > x.val && q.val > x.val) {
-                x = x.right;
-            } else { //包含各种情况
-                return x;
-            }
         }
     }
 }

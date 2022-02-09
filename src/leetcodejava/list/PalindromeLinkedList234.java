@@ -3,9 +3,6 @@ package leetcodejava.list;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * This is the solution of No.234 problem in the LeetCode,
  * the website of the problem is as follow:
@@ -39,49 +36,10 @@ public class PalindromeLinkedList234 {
     public void palindromeLinkedListTest() {
         Integer[] arr1 = {1, 2, 1};
         ListNode node = ListNode.createListNode(arr1);
-        boolean palindrome = isPalindrome4(node);
+        boolean palindrome = isPalindrome1(node);
         System.out.println(palindrome);
         Assert.assertEquals(palindrome, true);
     }
-
-    /**
-     * 判断链表是不是回文链表
-     *
-     * @param head 头结点
-     * @return 布尔值
-     */
-    public boolean isPalindrome(ListNode head) {
-        if (head == null || head.next == null) {
-            return true;
-        }
-        List<Integer> list = new ArrayList<>();
-        while (head != null) {
-            list.add(head.val);
-            head = head.next;
-        }
-        return isPalindromeList(list);
-    }
-
-    /**
-     * 判断list是不是连续节点
-     *
-     * @param list 链表
-     * @return 布尔值
-     */
-    public boolean isPalindromeList(List<Integer> list) {
-        int i = 0;
-        int j = list.size() - 1;
-        while (i < j) {
-            if (!list.get(i).equals(list.get(j))) {
-                return false;
-            }
-            i++;
-            j--;
-        }
-        return true;
-    }
-
-    ListNode temp;
 
     /**
      * 反转节点
@@ -106,7 +64,7 @@ public class PalindromeLinkedList234 {
      * @param head 头结点
      * @return 布尔值
      */
-    public boolean isPalindrome4(ListNode head) {
+    public boolean isPalindrome1(ListNode head) {
         if (head == null) {
             return true;
         }
@@ -170,7 +128,7 @@ public class PalindromeLinkedList234 {
      * @param head 头结点
      * @return 布尔值
      */
-    public boolean isPalindrome5(ListNode head) {
+    public boolean isPalindrome2(ListNode head) {
         if (head == null || head.next == null) {
             return true;
         }

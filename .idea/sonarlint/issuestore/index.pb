@@ -333,8 +333,6 @@ Bsrc/leetcodepython/top100likedquestions/merge_k_sorted_lists_23.py,7\5\7508d00
 +src/leetcodepython/string/word_break_139.py,d\4\d4190e50d699ae6b82926ca92b92b1bf3d5d9e9f
 n
 >src/leetcodepython/array/longest_increasing_subsequence_300.py,9\1\91288c6c2f76f60f4bf98154818df248e80d6a4b
-k
-;src/leetcodejava/array/LongestIncreasingSubsequence300.java,6\d\6d43b09878b2c6c200945e27aec8f81aa8633d59
 [
 +src/leetcodepython/array/min_path_sum_64.py,9\1\9171706760d09f025e9819730e43343bedc42612
 ^
@@ -1087,3 +1085,5 @@ c
 3src/leetcodejava/dp/PartitionEqualSubsetSum416.java,8\a\8a166047795f9f95ae98a5c3ffed179485c34838
 U
 %src/leetcodejava/dp/TargetSum494.java,9\5\95871acb0ab912ccd73d366d4b936843f26e36ee
+h
+8src/leetcodejava/dp/LongestIncreasingSubsequence300.java,a\c\ace3262009bbceddba34081d8df00eea27e9c4ec
