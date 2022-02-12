@@ -56,7 +56,7 @@ public class ValidPerfectSquare367 {
         if (num <= 0) {
             return false;
         }
-        int i = 1;
+        int i = 0;
         int j = num / 2 + 1;
         while (i <= j) {
             int mid = i + (j - i) / 2;

@@ -149,12 +149,11 @@ public class MinimumWindowSubstring76 {
         int[] nums1 = new int[128];
         int[] nums2 = getNums(t);
         int len = s.length();
-        int n = s.length();
         int right = 0;
         int left = 0;
         int resLeft = 0;
         int resRight = 0;
-        while (right < n) {
+        while (right < len) {
             if (!checkLarge(nums1, nums2)) {
                 nums1[s.charAt(right) - 'A']++;
                 right++;
