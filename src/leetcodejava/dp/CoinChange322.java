@@ -96,8 +96,12 @@ public class CoinChange322 {
         if (coins == null || coins.length < 1) {
             return 0;
         }
+        // 定义动态数组
         int[] dp = new int[amount + 1];
-        Arrays.fill(dp, Integer.MAX_VALUE);
+        // 初始化数组
+        for (int i = 0; i < dp.length; i++) {
+            dp[i] = Integer.MAX_VALUE;
+        }
         dp[0] = 0;
         for (int i = 1; i <= amount; i++) {
             for (int j = 0; j < coins.length; j++) {
@@ -111,7 +115,6 @@ public class CoinChange322 {
     }
 
     /**
-     *
      * 每个阶段从1、2、5种选择⼀个硬币
      * int dp[amount+1] dp[i]表示凑够i元最少需要多少硬币。
      * 到达i这个状态，那上⼀步只有可能是选了1、2、5，也就是从状态i-1, i-
@@ -123,6 +126,9 @@ public class CoinChange322 {
      * @return 最小数量
      */
     public int coinChange3(int[] coins, int amount) {
+        if (coins == null || coins.length < 1) {
+            return 0;
+        }
         int k = coins.length;
         int[] dp = new int[amount + 1];
         for (int i = 0; i <= amount; ++i) {
