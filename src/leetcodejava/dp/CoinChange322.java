@@ -161,7 +161,7 @@ public class CoinChange322 {
         int n = coins.length;
         // 定义动态数组
         int[][] dp = new int[n + 1][amount + 1];
-        // 初始化数组
+        // 初始化数dd组
         for (int i = 0; i <= n; i++) {
             for (int j = 0; j <= amount; j++) {
                 dp[i][j] = 10001;

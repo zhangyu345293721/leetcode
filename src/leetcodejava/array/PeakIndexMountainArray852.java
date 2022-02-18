@@ -61,7 +61,7 @@ public class PeakIndexMountainArray852 {
      * 找出最高点的下标
      *
      * @param arr 数组
-     * @return 下标
+     * @return 下标数组
      */
     public int peakIndexInMountainArray3(int[] arr) {
         int n = arr.length;
