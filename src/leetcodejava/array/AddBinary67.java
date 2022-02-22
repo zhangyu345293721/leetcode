@@ -37,7 +37,6 @@ public class AddBinary67 {
         Assert.assertEquals(result, "10101");
     }
 
-
     /**
      * 字符串相加(直接位运算)
      *
@@ -45,34 +44,26 @@ public class AddBinary67 {
      * @param b 字符串2
      * @return 相加字符串
      */
-    private String addBinary(String a, String b) {
+    public String addBinary(String a, String b) {
         if (a == null || a.length() < 1) {
             return b;
         }
         if (b == null || b.length() < 1) {
             return a;
         }
+        StringBuffer sb = new StringBuffer();
         int i = a.length() - 1;
         int j = b.length() - 1;
-        StringBuilder sb = new StringBuilder();
         int carry = 0;
         while (i >= 0 || j >= 0) {
-            int tempA = 0;
-            int tempB = 0;
-            if (i >= 0) {
-                tempA = a.charAt(i) - '0';
-                i--;
-            }
-            if (j >= 0) {
-                tempB = b.charAt(j) - '0';
-                j--;
-            }
-            carry += tempA + tempB;
-            sb.append(carry % 2);
-            carry = carry / 2;
+            int charA = i >= 0 ? a.charAt(i--) - '0' : 0;
+            int charB = j >= 0 ? b.charAt(j--) - '0' : 0;
+            int sum = charA + charB + carry;
+            sb.append(sum % 2);
+            carry = sum / 2;
         }
         if (carry > 0) {
-            sb.append("1");
+            sb.append(carry);
         }
         return sb.reverse().toString();
     }

@@ -24,11 +24,11 @@ public class BitCount {
      * @return 数量
      */
     private int bitCountStatistic(int num) {
-        int res = 0;
+        int result = 0;
         while (num > 0) {
-            res = res + (num & 1);
+            result ^= (num & 1);
             num = num >> 1;
         }
-        return res;
+        return result;
     }
 }

@@ -48,14 +48,14 @@ public class JumpGame45 {
         int length = nums.length;
         int end = 0;   // 这一跳截止点
         int maxPosition = 0;  // 下一跳最远距离
-        int res = 0;
+        int result = 0;
         for (int i = 0; i < length - 1; i++) {
             maxPosition = Math.max(maxPosition, i + nums[i]);
             if (i == end) {
                 end = maxPosition;
-                res++;
+                result++;
             }
         }
-        return res;
+        return result;
     }
 }
