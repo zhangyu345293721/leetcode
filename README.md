@@ -2,7 +2,7 @@
  ###   题目官网: https://leetcode.com/problemset/all/
 <br>   题目由java，python实现， 按照类型分为：array，list，string，hashtable，math，tree：<br>
 
-## 1.array
+##  1.array
 <table border="2" >
   <tr align="center" >
     <th width="300">题号</th>
