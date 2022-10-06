@@ -39,7 +39,7 @@ public class JumpGame45 {
     }
 
     /**
-     * 调到数组最后
+     * 跳到数组最后
      *
      * @param nums 数组
      * @return 步数
@@ -57,5 +57,33 @@ public class JumpGame45 {
             }
         }
         return result;
+    }
+    
+      /**
+     * 跳到数组最后
+     *
+     * @param nums 数组
+     * @return 步数
+     */
+    public int jump2(int[] nums) {
+        if( nums == null || nums.length <= 1) {
+            return 0;
+        }
+        int reach = 0;
+        int nextReach = nums[0];
+        int step = 0;
+        for(int i = 0; i < nums.length; i++) {
+            nextReach = Math.max(i + nums[i], nextReach);
+            if( nextReach >= nums.length - 1) {
+                return step + 1;
+            }
+            // 现在能达到的点
+            if (i == reach) {
+                step++;
+                // 下一次能达到的点
+                reach = nextReach;
+            }
+        }
+        return step;
     }
 }
