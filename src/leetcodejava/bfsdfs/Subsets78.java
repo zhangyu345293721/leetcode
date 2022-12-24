@@ -158,7 +158,7 @@ public class Subsets78 {
         if (nums == null || nums.length < 1) {
             return new ArrayList<>();
         }
-        backtrack(nums, 0, new ArrayList<>());
+        searchHelper4(nums, 0, new ArrayList<>());
         return result;
     }
 
@@ -169,16 +169,16 @@ public class Subsets78 {
      * @param k    k阶段
      * @param path 路径
      */
-    private void backtrack(int[] nums, int k, List<Integer> path) {
+    private void searchHelper4(int[] nums, int k, List<Integer> path) {
         if (k == nums.length) {
             result.add(new ArrayList(path));
             return;
         }
         // 不选择该数
-        backtrack(nums, k + 1, path);
+        searchHelper4(nums, k + 1, path);
         path.add(nums[k]);
         // 选择则该数
-        backtrack(nums, k + 1, path);
+        searchHelper4(nums, k + 1, path);
         path.remove(path.size() - 1);
     }
 }
