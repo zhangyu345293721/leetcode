@@ -80,6 +80,24 @@ public class MinimumPathSum64 {
         int rows = grid.length, cols = grid[0].length;
         return minPathSumDfs(rows - 1, cols - 1, grid);
     }
+     
+     /**
+     * 最小路径dfs操作
+     *
+     * @param i    行i
+     * @param j    列j
+     * @param grid 二维数组
+     * @return 最小值
+     */
+    private int minPathSumDfs(int i, int j, int[][] grid) {
+        if (i < 0 || j < 0) {
+            return Integer.MAX_VALUE;
+        }
+        if (i == 0 && j == 0) {
+            return grid[i][j];
+        }
+        return grid[i][j] + Math.min(minPathSumDfs(i - 1, j, grid), minPathSumDfs(i, j - 1, grid));
+    }
 
     /**
      * 最小路径和
@@ -153,23 +171,5 @@ public class MinimumPathSum64 {
         // 进行回退
         sum -= grid[i][j];
         visited[i][j] = false;
-    }
-
-    /**
-     * 最小路径dfs操作
-     *
-     * @param i    行i
-     * @param j    列j
-     * @param grid 二维数组
-     * @return 最小值
-     */
-    private int minPathSumDfs(int i, int j, int[][] grid) {
-        if (i < 0 || j < 0) {
-            return Integer.MAX_VALUE;
-        }
-        if (i == 0 && j == 0) {
-            return grid[i][j];
-        }
-        return grid[i][j] + Math.min(minPathSumDfs(i - 1, j, grid), minPathSumDfs(i, j - 1, grid));
     }
 }
