@@ -109,4 +109,33 @@ public class HouseRobber337 {
         // 比较左右子树的值和与节点和左右子树的子树和大小
         return Math.max(val + root.val, rob2(root.left) + rob2(root.right));
     }
+    
+    /**
+     * 树型抢劫最大值
+     *
+     * @param root 树
+     * @return 最大值
+     */
+    public int rob3(TreeNode root) {
+        int[] money = postOrder(root);
+        return Math.max(money[0], money[1]);
+    }
+
+    /**
+     * 后续遍历
+     *
+     * @param root 根节点
+     * @return 最大值
+     */
+    public int[] postOrder(TreeNode root) {
+        if (root == null) {
+            return new int[]{0, 0};
+        }
+        int[] left = postOrder(root.left);
+        int[] right = postOrder(root.right);
+        int[] money = new int[2];
+        money[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+        money[1] = root.val + left[0] + right[0];
+        return money;
+    }
 }
