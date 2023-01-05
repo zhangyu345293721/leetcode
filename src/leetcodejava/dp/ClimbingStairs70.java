@@ -85,4 +85,24 @@ public class ClimbingStairs70 {
             return climbStairs2(n - 1) + climbStairs2(n - 2);
         }
     }
+    
+    /**
+     * 爬楼梯问题
+     *
+     * @param n n个楼梯
+     * @return 返回值
+     */
+    public int climbStair3(int n) {
+        int[] dp = new int[n + 1];
+        dp[0] = 1;
+        for (int i = 1; i <= n; i++) {
+            if (i - 1 >= 0) {
+                dp[i] += dp[i - 1];
+            }
+            if (i - 2 >= 0) {
+                dp[i] += dp[i - 2];
+            }
+        }
+        return dp[n];
+    }
 }
