@@ -113,14 +113,51 @@ public class PartitionEqualSubsetSum416 {
         }
         return helper(nums, j, target);
     }
-
+    
+    
+    /**
+     * 看一个数组是否能够拆分成相等的两半    
+     */
+    public boolean canPartition3(int[] nums) {
+        if( nums == null || nums.length < 1) {
+            return false;
+        }
+        int sum = 0;
+        for(int num : nums) {
+            sum += num;
+        }
+        if(sum % 2 == 1) {
+            return false;
+        }
+        sum = sum / 2;
+        int len = nums.length;
+        boolean [][] dp = new boolean[len][sum + 1];
+        // 初始化动态规划数组
+        dp[0][0] = true;
+        if(nums[0] <= sum) {
+            dp[0][nums[0]] = true; 
+        }
+        for(int i = 1; i < len; i++) {
+            for(int j = 0; j <= sum; j++) {
+                int w = nums[i];
+                if( j >= w) {
+                    dp[i][j] = dp[i - 1][j] || dp[i - 1] [j - w];
+                } else {
+                    dp[i][j] = dp[i - 1][j]; 
+                }
+            }
+        }
+        return dp[len - 1][sum];
+    }
+    
+    
     /**
      * 集合是否能分成相等两部分
      *
      * @param nums 数组
      * @return 布尔值
      */
-    public boolean canPartition3(int[] nums) {
+    public boolean canPartition4(int[] nums) {
         if (nums == null || nums.length < 1) {
             return true;
         }
