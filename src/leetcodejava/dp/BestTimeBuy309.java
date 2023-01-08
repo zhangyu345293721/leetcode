@@ -103,7 +103,7 @@ public class BestTimeBuy309 {
             return 0;
         }
         int n = prices.length;
-        // 定义数组
+        // 定义动态规划数组
         int[][] dp = new int[2][n];
         //第一天没有股票利润
         dp[0][0] = 0;
