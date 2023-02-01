@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * 归并排序
+ *  归并排序
  */
 public class MergeSort {
 
