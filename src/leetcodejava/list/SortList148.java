@@ -185,4 +185,65 @@ public class SortList148 {
         l1.val = l2.val;
         l2.val = temp;
     }
+    
+    /**
+     * 二路归并排序
+     */
+    public ListNode sortList3(ListNode head) {
+        if(head == null || head.next == null) {
+            return head;
+        }
+        ListNode meddleNode = selectMiddleNode(head);
+        ListNode nextNode = meddleNode.next;
+        meddleNode.next = null;
+        ListNode left = sortList(head);
+        ListNode right = sortList(nextNode);
+        return mergeList(left, right);
+
+    }
+    /**
+     * 寻找中间节点
+     */
+    public ListNode selectMiddleNode(ListNode head) {
+        if( head == null || head.next == null) {
+            return head;
+        }
+        ListNode slow = head;
+        ListNode fast = head.next.next;
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+    /**
+     * 合并两个链表
+     */
+    public ListNode mergeList(ListNode l1, ListNode l2) {
+        if(l1 == null) {
+            return l2;
+        }
+        if(l2 == null) {
+            return l1;
+        }
+        ListNode dummy = new ListNode(-1);
+        ListNode tail = dummy;
+        while(l1 != null && l2 != null) {
+            if(l1.val <= l2.val) {
+                tail.next = new ListNode(l1.val);
+                l1 = l1.next;
+            } else {
+                tail.next = new ListNode(l2.val);
+                l2 = l2.next;
+            }
+            tail = tail.next;
+        }
+        if(l1 != null) {
+            tail.next = l1;
+        }
+        if(l2 != null) {
+            tail.next = l2;
+        }
+        return dummy.next;
+    }
 }
