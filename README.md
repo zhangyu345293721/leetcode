@@ -1,5 +1,5 @@
  # leetcode算法题目
-###   题目官网: https://leetcode.com/problemset/all/
+###  题目官网: https://leetcode.com/problemset/all/
 <br>  题目由java和python实现，按照类型分为：array，list，string，hashtable，math，tree：<br>
 
 ##  1.array
