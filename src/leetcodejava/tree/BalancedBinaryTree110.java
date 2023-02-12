@@ -123,4 +123,30 @@ public class BalancedBinaryTree110 {
             return height;
         }
     }
+    
+     private boolean result = true;
+    /**
+     * 判断是否是平衡二叉树
+     */
+    public boolean isBalanced3(TreeNode root) {
+        if(root == null) {
+            return result;
+        }
+        getHeight(root);
+        return result;
+    }
+    /**
+     *查找最大深度
+     */
+    public int getHeight(TreeNode root) {
+        if(root == null) {
+            return 0;
+        }
+        int leftHeight = getHeight(root.left) + 1;
+        int rightHeight = getHeight(root.right) + 1;
+        if(Math.abs(leftHeight - rightHeight) > 1) {
+            result = false;
+        }
+        return Math.max(leftHeight, rightHeight);
+    }
 }
