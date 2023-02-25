@@ -60,28 +60,28 @@ public class BinaryTreeLevelOrderTraversal102 {
         if (root == null) {
             return new ArrayList<>();
         }
-        List<List<Integer>> res = new ArrayList();
-        levelOrderHelper(res, root, 0);
-        return res;
+        List<List<Integer>> result = new ArrayList();
+        levelOrderHelper(result, root, 0);
+        return result;
     }
 
     /**
      * 递归遍历
      *
-     * @param res    结果链表
+     * @param result    结果链表
      * @param root   根节点
      * @param height 高度
      */
-    public void levelOrderHelper(List<List<Integer>> res, TreeNode root, int height) {
+    public void levelOrderHelper(List<List<Integer>> result, TreeNode root, int height) {
         if (root == null) {
             return;
         }
         if (height >= res.size()) {
-            res.add(new LinkedList<>());
+            result.add(new LinkedList<>());
         }
-        res.get(height).add(root.val);
-        levelOrderHelper(res, root.left, height + 1);
-        levelOrderHelper(res, root.right, height + 1);
+        result.get(height).add(root.val);
+        levelOrderHelper(result, root.left, height + 1);
+        levelOrderHelper(result, root.right, height + 1);
     }
 
     /**
