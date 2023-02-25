@@ -83,7 +83,7 @@ public class BinaryTreePostOrderTraversal145 {
         if (root == null) {
             return new ArrayList<>();
         }
-        List<Integer> res = new LinkedList<>();
+        List<Integer> result = new LinkedList<>();
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
         while (!stack.isEmpty()) {
@@ -94,9 +94,9 @@ public class BinaryTreePostOrderTraversal145 {
             if (node.right != null) {
                 stack.push(node.right);
             }
-            res.add(0, node.val);
+            result.add(0, node.val);
         }
-        return res;
+        return result;
     }
 
     /**
