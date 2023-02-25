@@ -97,28 +97,21 @@ public class TargetSum494 {
         }
         int N = nums.length;
         int W = (sum - S) / 2;
-        // 初始化数组
+        // 创建数组
         int[][] dp = new int[N + 1][W + 1];
         // 初始化数组
-        for (int i = 0; i <= N; i++) {
-            dp[i][0] = 1;
-        }
-        for (int j = 0; j <= W; j++) {
-            if (nums[0] == j) {
-                dp[0][j] += 1;
-            }
-        }
+        dp[0][0] = 1;
         // 状态转移
         for (int i = 1; i <= N; i++) {
             int w = nums[i - 1];
-            for (int j = 1; j <= W; j++) {
-                if (w > j) {
-                    dp[i][j] = dp[i - 1][j];
+            for (int j = 0; j <= W; j++) {
+                if (j >= w) {
+                    dp[i][j] = dp[i - 1][j] + dp[i -1][j - w];
                 } else {
-                    dp[i][j] = dp[i - 1][j] + dp[i][j - w];
+                    dp[i][j] = dp[i - 1][j];
                 }
             }
         }
-        return dp[N][W];
+        return dp[N][W]; 
     }
 }
