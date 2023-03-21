@@ -3,7 +3,7 @@
 <br>题目由java和python实现，按照类型分为：array，list，string，hashtable，math，tree：<br>
 
 ##  1.array
-<table border="2" >
+<table  border="2" >
   <tr align="center" >
     <th width="300">题号</th>
     <th width="300">题目内容</th>
