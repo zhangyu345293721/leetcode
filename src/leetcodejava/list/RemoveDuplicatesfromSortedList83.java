@@ -39,4 +39,31 @@ public class RemoveDuplicatesfromSortedList83 {
         }
         return dummy.next;
     }
+    
+     /**
+     * 删除链表中重复的元素
+     *
+     * @param head 头结点
+     * @return 链表
+     */
+    public ListNode deleteDuplicates2(ListNode head) {
+        if(head == null) {
+            return head;
+        }
+        ListNode dummy = new ListNode(-101);
+        // 头部插入法
+        ListNode tail = dummy;
+        ListNode p = head;
+        // 遍历主链表
+        while(p != null) {
+            ListNode temp = p.next;
+            if(p.val != tail.val) {
+                p.next = null;
+                tail.next = p;
+                tail = tail.next;
+            }
+            p = temp;
+        }
+        return dummy.next;
+    }
 }
