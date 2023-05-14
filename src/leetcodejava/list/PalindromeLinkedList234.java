@@ -65,27 +65,44 @@ public class PalindromeLinkedList234 {
      * @return 布尔值
      */
     public boolean isPalindrome1(ListNode head) {
-        if (head == null) {
+        if (head == null || head.next == null) {
             return true;
         }
-        // 找到前半部分链表的尾节点并反转后半部分链表
-        ListNode firstHalfEnd = endOfFirstHalf(head);
-        ListNode secondHalfStart = reverseList(firstHalfEnd.next);
-
-        // 判断是否回文
-        ListNode p1 = head;
-        ListNode p2 = secondHalfStart;
-        boolean result = true;
-        while (result && p2 != null) {
-            if (p1.val != p2.val) {
-                result = false;
+        ListNode middleNode = getMiddleNode(head);
+        ListNode reverseList = getReverseList(middleNode);
+        while(reverseList != null) {
+            if(head.val != reverseList.val) {
+                return false;
             }
-            p1 = p1.next;
-            p2 = p2.next;
+            reverseList = reverseList.next;
+            head = head.next;
         }
-        // 还原链表并返回结果
-        // firstHalfEnd.next = reverseList(secondHalfStart);
-        return result;
+        return true;
+    }
+
+   /**
+    *找到中间节点
+    */
+    public ListNode getMiddleNode(ListNode head) {
+        ListNode fast = head;
+        ListNode slow = head;
+        while(fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+    /**
+     * 反转链表
+     */
+    public ListNode getReverseList(ListNode middleNode){
+        if(middleNode == null || middleNode.next == null) {
+            return middleNode;
+        }
+        ListNode pre = getReverseList(middleNode.next);
+        middleNode.next.next = middleNode;
+        middleNode.next = null;
+        return pre;
     }
 
     /**
@@ -94,7 +111,7 @@ public class PalindromeLinkedList234 {
      * @param head 头节点
      * @return 链表
      */
-    private ListNode reverseList(ListNode head) {
+    private ListNode reverseList2(ListNode head) {
         ListNode prev = null;
         ListNode curr = head;
         while (curr != null) {
@@ -104,22 +121,6 @@ public class PalindromeLinkedList234 {
             curr = nextTemp;
         }
         return prev;
-    }
-
-    /**
-     * 第一部分，最后元素
-     *
-     * @param head 头结点
-     * @return listNode
-     */
-    private ListNode endOfFirstHalf(ListNode head) {
-        ListNode fast = head;
-        ListNode slow = head;
-        while (fast != null && fast.next != null) {
-            fast = fast.next.next;
-            slow = slow.next;
-        }
-        return slow;
     }
 
     /**
