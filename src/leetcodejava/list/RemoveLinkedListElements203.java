@@ -90,4 +90,29 @@ public class RemoveLinkedListElements203 {
         }
         return dummy.next;
     }
+    
+    /**
+     * 移除相同的元素
+     *
+     * @param head 头结点
+     * @param val  值
+     * @return 结果
+     */
+    public ListNode removeElements3(ListNode head, int val) {
+        if(head == null) {
+            return head;
+        }
+        ListNode dummy = new ListNode(-1);
+        ListNode tail = dummy;
+        while(head != null) {
+            ListNode temp = head.next;
+            if(head.val != val) {
+                head.next = null;
+                tail.next = head;
+                tail = tail.next;
+            }
+            head = temp;
+        }
+        return dummy.next;
+    }
 }
