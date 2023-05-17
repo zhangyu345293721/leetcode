@@ -44,7 +44,7 @@ public class Calculator26 {
 
     @Test
     public void calculatorTest() {
-        String s = " 3/ 2*3+1 ";
+        String s = " 3/2*3+1 ";
         int result = calculate(s);
         System.out.println(result);
         Assert.assertEquals(result, 4);
