@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * This is the solution of No.714 problem in the LeetCode,
+ * This  is the solution of No.714 problem in the LeetCode,
  * the website of the problem is as follow:
  * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee
  * <p>
