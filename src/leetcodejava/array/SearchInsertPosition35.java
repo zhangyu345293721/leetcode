@@ -120,14 +120,54 @@ public class SearchInsertPosition35 {
         int l = 0, r = nums.length - 1;
         while(l <= r) {
             int mid = l + (r - l)/2;
-            if(nums[mid] == target){
+            if(nums[mid] == target) {
                 return mid;
-            }else if (nums[mid] > target) {
+            } else if (nums[mid] > target) {
                 r = mid - 1;
-            }else {
+            } else {
                 l = mid + 1;
             }
         }
         return l;
+    }
+    
+    
+    /**
+     * 插入目标数的位置
+     *
+     * @param nums   目标数组
+     * @param target 目标数
+     * @return 位置
+     */
+    public int searchInsert4(int[] nums, int target) {
+        if ( nums == null || nums.length < 1) {
+            return -1;
+        }
+        int i = 0;
+        int j = nums.length - 1;
+        // 第一个数大于target
+        if( nums[0] > target) {
+            return 0;
+        }
+        // 最大一个数小于target
+        if( nums[j] < target) {
+            return nums.length;
+        }
+        // 二分查找
+        while( i <= j) {
+            int mid = (j - i) / 2 + i;
+            if(nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] < target) {
+                i = mid + 1;
+            } else {
+                if(mid > 0 && nums[mid - 1] < target) {
+                    return mid;
+                } else {
+                    j = mid - 1;
+                }
+            }
+        }
+        return -1;
     }
 }
