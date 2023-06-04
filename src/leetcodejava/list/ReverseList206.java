@@ -56,17 +56,17 @@ public class ReverseList206 {
      * @return 节点
      */
     public ListNode reverseList2(ListNode head) {
-        if (head == null || head.next == null) {
+        if(head == null || head.next == null) {
             return head;
         }
         ListNode dummy = new ListNode(-1);
-        ListNode h = dummy;
-        ListNode p = head;
-        while (p != null) {
-            ListNode temp = p.next;
-            p.next = h.next;
-            h.next = p;
-            p = temp;
+        ListNode dummyHead = dummy;
+        ListNode point = head;
+        while(point != null) {
+            ListNode temp = point.next;
+            point.next = dummyHead.next;
+            dummyHead.next = point;
+            point = temp;
         }
         return dummy.next;
     }
