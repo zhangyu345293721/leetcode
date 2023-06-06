@@ -113,7 +113,7 @@ public class SearchRotatedSortedArray33 {
         int left = 0;
         int right = nums.length - 1;
         while(left <= right) {
-            // 防止数字溢出
+            // 防止int值溢出
             int mid = (right - left) / 2 + left;
             if(nums[mid] == target) {
                 return mid;
