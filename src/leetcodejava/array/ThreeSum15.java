@@ -73,4 +73,47 @@ public class ThreeSum15 {
         }
         return new ArrayList<>(result);
     }
+    
+     /**
+     * 三个值相加和等于0
+     *
+     * @param nums 数组
+     * @return 返回list
+     */
+    public List<List<Integer>> threeSum2(int[] nums) {
+        if(nums == null || nums.length < 1) {
+            return new ArrayList();
+        }
+        Arrays.sort(nums);
+        int len = nums.length;
+        List<List<Integer>> result = new ArrayList();
+        for(int i = 0; i < len; i++) {
+            // 过滤重复数字
+            if(i > 0 && nums[i] == nums[i - 1] ){
+                continue;
+            }
+            int j = i + 1;
+            int k = len - 1;
+            while(j < k) {
+                int sum = nums[i] + nums[j] + nums[k];
+                if(sum == 0) {
+                    result.add(Arrays.asList(nums[i], nums[j], nums[k]));
+                    // 过滤重复数字
+                    while(j < k && nums[j] == nums[j + 1]) {
+                        j++;
+                    }
+                    while(j < k && nums[k] == nums[k - 1]) {
+                        k--;
+                    }
+                    j++;
+                    k--;
+                } else if(sum > 0) {
+                    k--;
+                } else {
+                    j++;
+                }
+            }
+        }
+        return result;
+    }
 }
