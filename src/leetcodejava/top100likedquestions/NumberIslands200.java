@@ -61,18 +61,18 @@ public class NumberIslands200 {
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
         }
-        int res = 0;
+        int result = 0;
         int row = grid.length;
         int col = grid[0].length;
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
                 if (grid[i][j] == '1') {
                     searchHelper(grid, i, j);
-                    res++;
+                    result++;
                 }
             }
         }
-        return res;
+        return result;
     }
 
     /**
@@ -109,7 +109,7 @@ public class NumberIslands200 {
         if (grid == null || grid.length == 0 || grid[0].length == 0) {
             return 0;
         }
-        int res = 0;
+        int result = 0;
         int row = grid.length;
         int col = grid[0].length;
         Queue<int[]> queue = new LinkedList<>();
@@ -119,7 +119,7 @@ public class NumberIslands200 {
             for (int j = 0; j < col; j++) {
                 if (grid[i][j] == '1' && !visited[i][j]) {
                     queue.add(new int[]{i, j});
-                    res++;
+                    result++;
                     visited[i][j] = true;
                     while (!queue.isEmpty()) {
                         int size = queue.size();
@@ -140,7 +140,7 @@ public class NumberIslands200 {
                 }
             }
         }
-        return res;
+        return result;
     }
 
     /**
