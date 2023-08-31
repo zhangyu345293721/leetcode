@@ -173,6 +173,73 @@ public class KthLargestElement215 {
         }
         return queue.peek();
     }
+
+     /**
+     * 找出第k大的值
+     *
+     * @param nums 数组
+     * @param k    k个
+     * @return 最大值
+     */
+    public int findKthLargest4(int[] nums, int k) {
+        if(nums == null || nums.length < 1) {
+            return -1;
+        }
+        return findKthLargest4(nums, 0, nums.length - 1, k);
+    }
+    /**
+     *获取第k大的值，重载函数
+     */
+    public int findKthLargest4(int[] nums, int left, int right, int k) {
+        while(left <= right) {
+            int index = partitions(nums, left, right, k);
+            if(index == k - 1) {
+                return nums[index];
+            } else if(index > k - 1) {
+                right = index - 1;
+            } else {
+                left = index + 1;
+            }
+        }
+        return -1;
+    }
+    
+    /**
+     *对数组进行分组，其中大于pivot在前面，小于pivot在数组后面
+     */
+    public int partitions(int[] nums, int left, int right, int k) {
+        int randIndex = randomIndex(left, right);
+        int pivot = nums[randIndex];
+        swap(nums, left, randIndex);
+        while(left < right) {
+            while(left < right && nums[right] <= pivot) {
+                right--;
+            }
+            nums[left] = nums[right];
+
+            while(left < right && nums[left] >= pivot) {
+                left++;
+            }
+            nums[right] = nums[left];
+        }
+        nums[left] = pivot;
+        return left;
+    }
+    /**
+     * 随机生成在left到right之间的下标
+     */
+    public int randomIndex(int left, int right) {
+        return (int)Math.random() * (right - left) + left;
+    }
+
+    /**
+     * 交换数组中两个元素的位置
+     */
+    public void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
+    }
 }
 
 
