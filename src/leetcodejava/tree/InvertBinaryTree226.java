@@ -47,6 +47,7 @@ public class InvertBinaryTree226 {
         if (root == null) {
             return null;
         }
+        // 递归树的左右节点
         TreeNode left = invertTree(root.left);
         TreeNode right = invertTree(root.right);
         root.left = right;
