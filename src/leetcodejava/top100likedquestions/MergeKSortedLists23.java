@@ -63,18 +63,18 @@ public class MergeKSortedLists23 {
      * 终止条件是l和r相等
      *
      * @param lists 链表
-     * @param l     左边
-     * @param r     右边
+     * @param left     左边
+     * @param right     右边
      * @return 合并后链表
      */
-    private ListNode searchHelper(ListNode[] lists, int l, int r) {
-        if (l == r) {
-            return lists[l];
+    private ListNode searchHelper(ListNode[] lists, int left, int right) {
+        if (left == right) {
+            return lists[left];
         }
         // 防止值溢出
-        int mid = (r - l) / 2 + l;
-        ListNode l1 = searchHelper(lists, l, mid);
-        ListNode l2 = searchHelper(lists, mid + 1, r);
+        int mid = (right - left) / 2 + left;
+        ListNode l1 = searchHelper(lists, left, mid);
+        ListNode l2 = searchHelper(lists, mid + 1, right);
         return merge(l1, l2);
     }
 
