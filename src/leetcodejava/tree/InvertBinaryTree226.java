@@ -74,6 +74,7 @@ public class InvertBinaryTree226 {
             if (cur.right != null) {
                 stack.add(cur.right);
             }
+            // 交接树中左右子树
             TreeNode temp = cur.right;
             cur.right = cur.left;
             cur.left = temp;
