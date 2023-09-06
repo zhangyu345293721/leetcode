@@ -55,7 +55,7 @@ public class MergeKSortedLists23 {
         if (lists == null || lists.length < 1) {
             return null;
         }
-        return helper(lists, 0, lists.length - 1);
+        return searchHelper(lists, 0, lists.length - 1);
     }
 
 
@@ -67,14 +67,14 @@ public class MergeKSortedLists23 {
      * @param r     右边
      * @return 合并后链表
      */
-    private ListNode helper(ListNode[] lists, int l, int r) {
+    private ListNode searchHelper(ListNode[] lists, int l, int r) {
         if (l == r) {
             return lists[l];
         }
         // 防止值溢出
         int mid = (r - l) / 2 + l;
-        ListNode l1 = helper(lists, l, mid);
-        ListNode l2 = helper(lists, mid + 1, r);
+        ListNode l1 = searchHelper(lists, l, mid);
+        ListNode l2 = searchHelper(lists, mid + 1, r);
         return merge(l1, l2);
     }
 
