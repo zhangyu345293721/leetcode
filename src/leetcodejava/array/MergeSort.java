@@ -16,52 +16,55 @@ public class MergeSort {
         Assert.assertEquals(nums[0], 1);
     }
 
-    /**
+     /**
      * 归并排序
      *
-     * @param nums 数组
-     * @param l    位置l
-     * @param r    位置r
+     * @param nums  数组
+     * @param left  位置l
+     * @param right 位置r
      */
-    public void mergeSort(int[] nums, int l, int r) {
+    public  void mergeSort(int[] nums, int left, int right) {
         // 退出条件
-        if (l >= r) {
+        if (left >= right) {
             return;
         }
-        int q = l + (r - l) / 2;
-        mergeSort(nums, l, q);
-        mergeSort(nums, q + 1, r);
-        merge(nums, l, q, r);
+        int part = left + (right - left) / 2;
+        mergeSort(nums, left, part);
+        mergeSort(nums, part + 1, right);
+        merge(nums, left, part, right);
     }
 
     /**
      * 合并元素
      *
-     * @param nums 数组
-     * @param l    下标l
-     * @param q    下标q
-     * @param r    下标r
+     * @param nums  数组
+     * @param left  下标left
+     * @param part  下标part
+     * @param right 下标right
      */
-    private void merge(int[] nums, int l, int q, int r) {
-        int temp[] = new int[r - l + 1];
-        int i = l;
-        int j = q + 1;
+    private void merge(int[] nums, int left, int part, int right) {
+        int temp[] = new int[right - left + 1];
+        int i = left;
+        int j = part + 1;
         int k = 0;
-        while (i <= q && j <= r) {
+        while (i <= part && j <= right) {
             if (nums[i] < nums[j]) {
                 temp[k++] = nums[i++];
             } else {
                 temp[k++] = nums[j++];
             }
         }
-        while (i <= q) {
+        // 如果有剩余元素，复制过去
+        while (i <= part) {
             temp[k++] = nums[i++];
         }
-        while (j <= r) {
+        // 如果有剩余元素，复制过去
+        while (j <= right) {
             temp[k++] = nums[j++];
         }
+        // 复制操作
         for (int num : temp) {
-            nums[l++] = num;
+            nums[left++] = num;
         }
     }
 }
