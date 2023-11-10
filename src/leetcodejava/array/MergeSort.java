@@ -20,8 +20,8 @@ public class MergeSort {
      * 归并排序
      *
      * @param nums  数组
-     * @param left  位置l
-     * @param right 位置r
+     * @param left  位置left
+     * @param right 位置right
      */
     public  void mergeSort(int[] nums, int left, int right) {
         // 退出条件
