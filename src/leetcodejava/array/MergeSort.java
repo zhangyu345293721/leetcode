@@ -5,6 +5,8 @@ import org.junit.Test;
 
 /**
  *  归并排序
+ *  1）归并排序中，先要进行递归拆分
+ *  2）再进行递归排序操作，合并数组
  */
 public class MergeSort {
 
