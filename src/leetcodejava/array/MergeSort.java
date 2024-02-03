@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- *  归并排序
- *  1）归并排序中，先要进行递归拆分
- *  2）再进行递归排序操作，合并数组
+ *  merge sort
+ *  1）mege sort, first split array to many array
+ *  2）merge many array to one sort array
  */
 public class MergeSort {
 
@@ -19,14 +19,14 @@ public class MergeSort {
     }
 
      /**
-     * 归并排序
+     * binary sort
      *
-     * @param nums  数组
-     * @param left  位置left
-     * @param right 位置right
+     * @param nums  array
+     * @param left  index left
+     * @param right index right
      */
     public  void mergeSort(int[] nums, int left, int right) {
-        // 退出条件
+        // return
         if (left >= right) {
             return;
         }
@@ -37,12 +37,12 @@ public class MergeSort {
     }
 
     /**
-     * 合并元素
+     * merge numbers to array
      *
-     * @param nums  数组
-     * @param left  下标left
-     * @param part  下标part
-     * @param right 下标right
+     * @param nums  array
+     * @param left  index left
+     * @param part  index part
+     * @param right index right
      */
     private void merge(int[] nums, int left, int part, int right) {
         int temp[] = new int[right - left + 1];
@@ -56,15 +56,15 @@ public class MergeSort {
                 temp[k++] = nums[j++];
             }
         }
-        // 如果有剩余元素，复制过去
+        // copy left element
         while (i <= part) {
             temp[k++] = nums[i++];
         }
-        // 如果有剩余元素，复制过去
+        // copy left element
         while (j <= right) {
             temp[k++] = nums[j++];
         }
-        // 复制操作
+        // copy temp array numbers to nums
         for (int num : temp) {
             nums[left++] = num;
         }
