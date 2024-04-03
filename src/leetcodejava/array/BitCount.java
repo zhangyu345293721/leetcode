@@ -26,7 +26,7 @@ public class BitCount {
     private int bitCountStatistic(int num) {
         int result = 0;
         while (num > 0) {
-            result ^= (num & 1);
+            result += (num & 1);
             num = num >> 1;
         }
         return result;
