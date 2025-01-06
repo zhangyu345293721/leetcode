@@ -7,9 +7,7 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- * This is the solution of No.90 problem in the LeetCode,
- * the website of the problem is as follow:
- * https://leetcode-cn.com/problems/subsets-ii
+ *
  * <p>
  * The description of problem is as follow:
  * ==========================================================================================================
