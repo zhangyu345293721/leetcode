@@ -90,6 +90,10 @@ public class ArrayPartition1986 {
                 searchHelper(idx, group, pos + 1, a, t);  
                 group[i] -= a[pos];
             }
+            // 剪枝操作
+            if(group[i] <= 0) {
+                break;
+            }
         }
 
         // 新开一组
