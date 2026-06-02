@@ -47,7 +47,7 @@ public class EggFloor {
     }
 
     /**
-     * 鸡数量
+     * 扔鸡单数量
      *
      * @return 最少扔鸡蛋次数
      */
