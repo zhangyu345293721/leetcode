@@ -83,4 +83,35 @@ public class TargetSum {
         }
         return -1;
     }
+        int gap = Integer.MAX_VALUE;
+
+    public int targetSum3(int[] nums) {
+        if(nums == null || nums.length < 1) {
+            return 0;
+        }
+        int sum = 0;
+        for(int num : nums) {
+            sum += num;
+        }
+        searchHelper(nums, 0, 0, sum);
+        return sum / 2 - gap;
+    }
+
+    public void searchHelper(int[] nums, int index, int current, int sum) {
+        // 剪枝操作
+        if(current > sum / 2) {
+            return;
+        }
+        // 剪枝操作
+        if(index > nums.length) {
+            return;
+        }
+        if(index == nums.length) {
+            gap = Math.min(gap, Math.abs(current - (sum - current)));
+        }
+        // add nums[index]，并且回退操作
+        searchHelper(nums, index + 1, current + nums[index], sum);
+        // no add nums[index]
+        searchHelper(nums, index + 1, current, sum);
+    }
 }
