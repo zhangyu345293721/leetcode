@@ -45,7 +45,7 @@ public class TargetSum {
         int partSum = -1;
         // find max value
         for(int j = target; j >= 0; j--) {
-            if(dp[target]) {
+            if(dp[j]) {
                 partSum = j;
                 break;
             }
